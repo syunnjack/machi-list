@@ -1,0 +1,31 @@
+[
+  ["nagasaki-kaikatsu-hamamachi-netcafe", "快活CLUB 長崎浜町店", "netcafe", "nagasaki", "長崎県長崎市浜町3-23 浜せんビル3階", "観光通駅", 2, 1200, "目安1,200円から", false, true, true, "浜町周辺", "https://www.kaikatsu.jp/shop/result.html?area=42"],
+  ["nagasaki-gigo-cocowalk-game", "GiGOみらい長崎ココウォーク", "game-center", "nagasaki", "長崎県長崎市茂里町1-55 みらい長崎ココウォーク5F", "浦上駅", 3, 500, "目安500円から", true, true, true, "茂里町周辺", "https://www.gigo.co.jp/shops/nagasaki"],
+  ["nagasaki-gigo-cocowalk-crane", "GiGOみらい長崎ココウォーク", "crane-game", "nagasaki", "長崎県長崎市茂里町1-55 みらい長崎ココウォーク5F", "浦上駅", 3, 500, "目安500円から", true, true, true, "茂里町周辺", "https://www.gigo.co.jp/shops/nagasaki"],
+  ["nagasaki-gigo-cocowalk-capsule", "GiGOみらい長崎ココウォーク", "capsule-toy", "nagasaki", "長崎県長崎市茂里町1-55 みらい長崎ココウォーク5F", "浦上駅", 3, 300, "目安300円から", true, true, true, "茂里町周辺", "https://www.gigo.co.jp/shops/nagasaki"],
+  ["nagasaki-namco-amu-game", "namcoアミュプラザ長崎 新館店", "game-center", "nagasaki", "長崎県長崎市尾上町1-1 アミュプラザ長崎新館4階9401区画", "長崎駅", 1, 500, "目安500円から", true, true, true, "長崎駅周辺", "https://bandainamco-am.co.jp/game_center/loc/nagasaki-amu/"],
+  ["nagasaki-namco-amu-crane", "namcoアミュプラザ長崎 新館店", "crane-game", "nagasaki", "長崎県長崎市尾上町1-1 アミュプラザ長崎新館4階9401区画", "長崎駅", 1, 500, "目安500円から", true, true, true, "長崎駅周辺", "https://bandainamco-am.co.jp/game_center/loc/nagasaki-amu/"],
+  ["nagasaki-namco-amu-capsule", "namcoアミュプラザ長崎 新館店", "capsule-toy", "nagasaki", "長崎県長崎市尾上町1-1 アミュプラザ長崎新館4階9401区画", "長崎駅", 1, 300, "目安300円から", true, true, true, "長崎駅周辺", "https://www.amu-n.co.jp/floor/detail/?cd=000368"],
+  ["nagasaki-namco-yumesaito-game", "ナムコランド 夢彩都店", "game-center", "nagasaki", "長崎県長崎市元船町10-1 ゆめタウン夢彩都", "大波止駅", 3, 500, "目安500円から", true, true, true, "元船町周辺", "https://www.city.nagasaki.lg.jp/sponsored-stores/couplepass/76234.html"],
+  ["nagasaki-namco-yumesaito-crane", "ナムコランド 夢彩都店", "crane-game", "nagasaki", "長崎県長崎市元船町10-1 ゆめタウン夢彩都", "大波止駅", 3, 500, "目安500円から", true, true, true, "元船町周辺", "https://www.city.nagasaki.lg.jp/sponsored-stores/couplepass/76234.html"],
+
+  ["fukuoka-hakata-gigo-yodobashi-game", "GiGOヨドバシ博多", "game-center", "fukuoka-hakata", "福岡県福岡市博多区博多駅中央街6-12 ヨドバシ博多4F", "博多駅", 1, 500, "目安500円から", false, true, false, "博多駅周辺", "https://www.yodobashi-hakata.com/hobby2/hobby_gigo.html"],
+  ["fukuoka-hakata-gigo-yodobashi-crane", "GiGOヨドバシ博多", "crane-game", "fukuoka-hakata", "福岡県福岡市博多区博多駅中央街6-12 ヨドバシ博多4F", "博多駅", 1, 500, "目安500円から", false, true, false, "博多駅周辺", "https://www.yodobashi-hakata.com/hobby2/hobby_gigo.html"],
+  ["fukuoka-hakata-gigo-yodobashi-capsule", "GiGOヨドバシ博多", "capsule-toy", "fukuoka-hakata", "福岡県福岡市博多区博多駅中央街6-12 ヨドバシ博多4F", "博多駅", 1, 300, "目安300円から", false, true, false, "博多駅周辺", "https://www.yodobashi-hakata.com/hobby2/hobby_gigo.html"],
+  ["fukuoka-chuo-gigo-tenjin-crane", "GiGO福岡天神", "crane-game", "fukuoka-chuo", "福岡県福岡市中央区天神2-7-6 DADAビル", "天神駅", 4, 500, "目安500円から", false, true, false, "天神周辺", "https://www.gendagigo.jp/shop.html?a=show_shoplist&key=prefecture&prefecture=%E6%BB%8B%E8%B3%80%E7%9C%8C"],
+  ["fukuoka-chuo-gigo-mina-game", "GiGOミーナ天神", "game-center", "fukuoka-chuo", "福岡県福岡市中央区天神4-3-8 ミーナ天神7F", "天神駅", 3, 500, "目安500円から", true, true, false, "天神北周辺", "https://www.gendagigo.jp/shop.html?a=show_shoplist&key=prefecture&prefecture=%E6%BB%8B%E8%B3%80%E7%9C%8C"],
+  ["fukuoka-chuo-gigo-mina-crane", "GiGOミーナ天神", "crane-game", "fukuoka-chuo", "福岡県福岡市中央区天神4-3-8 ミーナ天神7F", "天神駅", 3, 500, "目安500円から", true, true, false, "天神北周辺", "https://www.gendagigo.jp/shop.html?a=show_shoplist&key=prefecture&prefecture=%E6%BB%8B%E8%B3%80%E7%9C%8C"],
+  ["fukuoka-chuo-kaikatsu-tenjin-north", "快活CLUB 西鉄福岡天神駅北口店", "netcafe", "fukuoka-chuo", "福岡県福岡市中央区天神2丁目10-14 サザン通りビル7階", "西鉄福岡駅", 3, 1280, "目安1,280円から", false, true, true, "天神周辺", "https://www.kaikatsu.jp/shop/detail/20950.html"],
+
+  ["sendai-aoba-gigo-sendai-crane", "GiGO仙台", "crane-game", "sendai-aoba", "宮城県仙台市青葉区中央2-5-5 三経60ビル", "広瀬通駅", 5, 500, "目安500円から", false, true, true, "中央周辺", "https://www.gigo.co.jp/shops/sendai"],
+  ["sendai-aoba-gigo-ichibancho-game", "GiGO仙台一番町", "game-center", "sendai-aoba", "宮城県仙台市青葉区一番町4-5-13 サンシャインビル1F", "広瀬通駅", 6, 500, "目安500円から", false, true, true, "一番町周辺", "https://www.gigo.co.jp/shops/sendai"],
+  ["sendai-aoba-gigo-ichibancho-crane", "GiGO仙台一番町", "crane-game", "sendai-aoba", "宮城県仙台市青葉区一番町4-5-13 サンシャインビル1F", "広瀬通駅", 6, 500, "目安500円から", false, true, true, "一番町周辺", "https://www.gigo.co.jp/shops/sendai"],
+
+  ["sapporo-chuo-gigo-nishiguchi-crane", "GiGO札幌駅西口", "crane-game", "sapporo-chuo", "北海道札幌市北区北六条西6丁目1-1 WEST6", "札幌駅", 5, 500, "目安500円から", false, true, false, "札幌駅周辺", "https://www.gigo.co.jp/shops/sapporo-nishiguchi"],
+  ["sapporo-chuo-gigo-susukino-game", "GiGOすすきの", "game-center", "sapporo-chuo", "北海道札幌市中央区南三条西4-11 シルバービルB区画", "すすきの駅", 3, 500, "目安500円から", false, true, false, "すすきの周辺", "https://www.gigo.co.jp/shops/sapporo-nishiguchi"],
+  ["sapporo-chuo-gigo-susukino-crane", "GiGOすすきの", "crane-game", "sapporo-chuo", "北海道札幌市中央区南三条西4-11 シルバービルB区画", "すすきの駅", 3, 500, "目安500円から", false, true, false, "すすきの周辺", "https://www.gigo.co.jp/shops/sapporo-nishiguchi"],
+
+  ["yokohama-nishi-round1-west-crane", "ラウンドワン 横浜駅西口店", "crane-game", "yokohama-nishi", "神奈川県横浜市西区南幸2-8-16", "横浜駅", 5, 500, "目安500円から", false, true, true, "横浜駅西口周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["yokohama-nishi-round1-west-game", "ラウンドワン 横浜駅西口店", "game-center", "yokohama-nishi", "神奈川県横浜市西区南幸2-8-16", "横浜駅", 5, 500, "目安500円から", false, true, true, "横浜駅西口周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["yokohama-nishi-round1-west-karaoke", "ラウンドワン 横浜駅西口店", "karaoke", "yokohama-nishi", "神奈川県横浜市西区南幸2-8-16", "横浜駅", 5, 1000, "目安1,000円から", false, true, true, "横浜駅西口周辺", "https://www.round1.co.jp/company/company/all-shop.html"]
+]
