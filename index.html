@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>まちリスト｜市町村とジャンルでお店を探す</title>
-    <meta name="description" content="愛知県のお店・商業施設を市区町村、ジャンル、条件から一覧で探せます。ネットカフェ、ゲームセンター、大人向けショップ、カラオケ、サウナの愛知県版です。">
+    <title>まちリスト｜市区町村とジャンルでお店を探す</title>
+    <meta name="description" content="愛知県のお店・商業施設を市区町村、ジャンル、条件から一覧で探せます。近い順、予算の安い順、予約、クーポン、通販、地図も確認できます。">
     <link rel="canonical" href="https://machi-list.jp/">
     <link rel="stylesheet" href="./assets/styles.css">
     <meta property="og:title" content="まちリスト">
-    <meta property="og:description" content="市町村とジャンルから、お店・商業施設を一覧で探せます。">
+    <meta property="og:description" content="市区町村とジャンルから、お店・商業施設を一覧で探せます。">
     <meta property="og:type" content="website">
     <script type="application/ld+json">
       {
@@ -30,7 +30,7 @@
         <span class="brand-mark">M</span>
         <span>
           <strong>まちリスト</strong>
-          <small>市町村とジャンルで探す店舗一覧</small>
+          <small>市区町村とジャンルで探す店舗一覧</small>
         </span>
       </a>
       <nav class="nav" aria-label="主なページ">
@@ -45,8 +45,8 @@
       <section class="map-search-shell" aria-labelledby="top-title">
         <div class="map-search-head">
           <p class="eyebrow">愛知県版</p>
-          <h1 id="top-title">市町村とジャンルから、行きたいお店を一覧で探す</h1>
-          <p>エリアと店ジャンルを選ぶだけで、近い順、予算の安い順、条件に合う順で比較できます。予約、クーポン、通販、周辺情報も必要な時に確認できます。</p>
+          <h1 id="top-title">市区町村とジャンルから、行きたいお店を一覧で探す</h1>
+          <p>エリアと店ジャンルを選ぶだけで、近い順・予算の安い順・条件に合う順で比較できます。予約、クーポン、通販、駐車場、周辺情報も必要な時に確認できます。</p>
         </div>
 
         <nav class="step-strip" aria-label="探し方">
@@ -101,6 +101,7 @@
                   <option value="karaoke">カラオケ</option>
                   <option value="sauna">サウナ</option>
                   <option value="spa">スーパー銭湯・SPA・岩盤浴</option>
+                  <option value="restaurant">飲食店・居酒屋</option>
                 </select>
               </label>
             </div>
@@ -108,7 +109,7 @@
               <label><input type="checkbox" value="parking" class="filter"> 駐車場あり</label>
               <label><input type="checkbox" value="late" class="filter"> 夜まで営業</label>
               <label><input type="checkbox" value="station" class="filter"> 駅徒歩10分以内</label>
-              <label><input type="checkbox" value="coupon" class="filter"> クーポンあり</label>
+              <label><input type="checkbox" value="coupon" class="filter"> クーポン確認</label>
             </div>
             <label class="sort-label" for="sortSelect">
               並び替え
@@ -129,7 +130,7 @@
             </div>
             <div class="map-label">
               <strong>愛知県</strong>
-              <small id="routeSummary">一覧からお店を選ぶと目安時間を表示します。</small>
+              <small id="routeSummary">一覧からお店を選ぶと所要時間を表示します。</small>
             </div>
             <div id="mapPins" class="map-pins" aria-live="polite"></div>
             <aside id="routePanel" class="route-panel" aria-live="polite">
@@ -143,7 +144,7 @@
       </section>
 
       <section id="quickTools" class="quick-tools" aria-label="便利な確認">
-        <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=YOUR_VC_SID&amp;pid=YOUR_VC_PID&amp;vc_url=https%3A%2F%2Fwww.hotpepper.jp%2FSA33%2F" class="tool-link">予約できるお店</a>
+        <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=YOUR_VC_SID&amp;pid=YOUR_VC_PID&amp;vc_url=https%3A%2F%2Fwww.hotpepper.jp%2FSA33%2F" class="tool-link">予約できる店</a>
         <a href="https://search.rakuten.co.jp/search/mall/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/" class="tool-link">クーポンを探す</a>
         <a href="https://www.navitime.co.jp/parking/" class="tool-link">近くの駐車場</a>
         <a href="https://www.hotpepper.jp/SA33/" class="tool-link">周辺の飲食店</a>
@@ -187,6 +188,6 @@
       <p>© 2026 まちリスト</p>
       <p><a href="./llms.txt">llms.txt</a> <a href="./sitemap.xml">sitemap.xml</a></p>
     </footer>
-    <script src="./assets/app.js?v=20260722-1"></script>
+    <script src="./assets/app.js?v=20260722-2"></script>
   </body>
 </html>

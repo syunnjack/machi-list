@@ -4,10 +4,6 @@ const valueCommerce = {
   redirectBase: "https://ck.jp.ap.valuecommerce.com/servlet/referral"
 };
 
-const rakuten = {
-  searchBase: "https://search.rakuten.co.jp/search/mall/"
-};
-
 const text = {
   allCount: "件を表示しています。",
   noResultTitle: "条件に合うお店がありません",
@@ -59,16 +55,27 @@ const defaultOrigin = {
   fallback: true
 };
 
+let facilities = [];
 let currentOrigin = defaultOrigin;
 let selectedFacilityIndex = null;
 
+const resultEl = document.querySelector("#shopResults");
+const metaEl = document.querySelector("#resultMeta");
+const mapPinsEl = document.querySelector("#mapPins");
+const routeSummaryEl = document.querySelector("#routeSummary");
+const routePanelEl = document.querySelector("#routePanel");
+const areaSelect = document.querySelector("#areaSelect");
+const genreSelect = document.querySelector("#genreSelect");
+const sortSelect = document.querySelector("#sortSelect");
+const searchButton = document.querySelector("#searchButton");
+const filterEls = Array.from(document.querySelectorAll(".filter"));
+
 function vcLink(targetUrl) {
-  const encoded = encodeURIComponent(targetUrl);
-  return `${valueCommerce.redirectBase}?sid=${valueCommerce.sid}&pid=${valueCommerce.pid}&vc_url=${encoded}`;
+  return `${valueCommerce.redirectBase}?sid=${valueCommerce.sid}&pid=${valueCommerce.pid}&vc_url=${encodeURIComponent(targetUrl)}`;
 }
 
 function rakutenSearchLink(keyword) {
-  return `${rakuten.searchBase}${encodeURIComponent(keyword)}/`;
+  return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keyword)}/`;
 }
 
 function mapSearchLink(keyword) {
@@ -76,16 +83,14 @@ function mapSearchLink(keyword) {
 }
 
 function routeLink(facility, origin = currentOrigin) {
-  const destination = facility.lat && facility.lng
-    ? `${facility.lat},${facility.lng}`
-    : `${facility.name} ${facility.address}`;
+  const destination = facility.lat && facility.lng ? `${facility.lat},${facility.lng}` : `${facility.name} ${facility.address}`;
   const originParam = origin?.fallback ? "" : `&origin=${origin.lat},${origin.lng}`;
   return `https://www.google.com/maps/dir/?api=1${originParam}&destination=${encodeURIComponent(destination)}&travelmode=driving`;
 }
 
-let facilities = [];
-
 function normalizeShop(shop, index) {
+  const isAdult = shop.genre_key === "adult-shop";
+  const hotpepperKeyword = `${shop.area_label} ${shop.genre}`;
   return {
     name: shop.name,
     url: shop.url.startsWith("/") ? "." + shop.url : shop.url,
@@ -106,11 +111,9 @@ function normalizeShop(shop, index) {
     parking: Boolean(shop.parking),
     late: Boolean(shop.late),
     coupon: Boolean(shop.coupon),
-    bookingUrl: shop.genre_key === "adult-shop"
-      ? "./guide/discreet-buying/"
-      : vcLink("https://www.hotpepper.jp/SA33/?keyword=" + encodeURIComponent(shop.area_label + " " + shop.genre)),
-    relatedUrl: rakutenSearchLink(shop.genre_key === "adult-shop" ? "?????" : shop.genre + " ????"),
-    mapUrl: mapSearchLink(shop.name + " " + shop.address),
+    bookingUrl: isAdult ? "./guide/discreet-buying/" : vcLink(`https://www.hotpepper.jp/SA33/?keyword=${encodeURIComponent(hotpepperKeyword)}`),
+    relatedUrl: rakutenSearchLink(isAdult ? "アダルトグッズ 通販" : `${shop.genre} クーポン`),
+    mapUrl: mapSearchLink(`${shop.name} ${shop.address}`),
     lat: shop.lat || null,
     lng: shop.lng || null
   };
@@ -124,20 +127,9 @@ async function loadFacilities() {
     facilities = shops.map(normalizeShop);
   } catch (error) {
     facilities = [];
-    console.warn("?????????????????", error);
+    console.warn("店舗データを読み込めませんでした。", error);
   }
 }
-
-const resultEl = document.querySelector("#shopResults");
-const metaEl = document.querySelector("#resultMeta");
-const mapPinsEl = document.querySelector("#mapPins");
-const routeSummaryEl = document.querySelector("#routeSummary");
-const routePanelEl = document.querySelector("#routePanel");
-const areaSelect = document.querySelector("#areaSelect");
-const genreSelect = document.querySelector("#genreSelect");
-const sortSelect = document.querySelector("#sortSelect");
-const searchButton = document.querySelector("#searchButton");
-const filterEls = Array.from(document.querySelectorAll(".filter"));
 
 function activeFilters() {
   return filterEls.filter((input) => input.checked).map((input) => input.value);
@@ -156,12 +148,10 @@ function searchFacilities() {
   const genre = genreSelect?.value || "";
   const filters = activeFilters();
   const results = facilities.filter((facility) => {
-    const matchesArea = !area || facility.areaKey === area;
-    const matchesGenre = !genre || facility.genreKey === genre;
-    const matchesFilters = filters.every((filter) => matchesFilter(facility, filter));
-    return matchesArea && matchesGenre && matchesFilters;
+    return (!area || facility.areaKey === area)
+      && (!genre || facility.genreKey === genre)
+      && filters.every((filter) => matchesFilter(facility, filter));
   });
-
   const sortedResults = sortFacilities(results);
   renderResults(sortedResults);
   renderMap(sortedResults);
@@ -177,13 +167,11 @@ function sortFacilities(results) {
 }
 
 function actionLabel(facility) {
-  if (facility.genreKey === "adult-shop") return text.guide;
-  return text.booking;
+  return facility.genreKey === "adult-shop" ? text.guide : text.booking;
 }
 
 function relatedLabel(facility) {
-  if (facility.genreKey === "adult-shop") return text.online;
-  return text.related;
+  return facility.genreKey === "adult-shop" ? text.online : text.related;
 }
 
 function pinPosition(facility, index) {
@@ -211,13 +199,10 @@ function toRadians(degrees) {
 }
 
 function routeEstimate(distance) {
-  if (distance == null) return { walk: "確認中", drive: "確認中" };
+  if (distance == null) return { walk: text.unknown, drive: text.unknown };
   const walkMinutes = Math.max(2, Math.round(distance / 4.2 * 60));
   const driveMinutes = Math.max(3, Math.round(distance / 22 * 60 + 5));
-  return {
-    walk: `${walkMinutes}分`,
-    drive: `${driveMinutes}分`
-  };
+  return { walk: `${walkMinutes}分`, drive: `${driveMinutes}分` };
 }
 
 function requestCurrentLocation() {
@@ -246,15 +231,11 @@ async function showRoute(facility) {
   if (!routePanelEl || !routeSummaryEl) return;
   selectedFacilityIndex = facilities.indexOf(facility);
   highlightSelectedFacility();
-  routePanelEl.innerHTML = `
-    <p class="eyebrow">ルート</p>
-    <h2>${facility.name}</h2>
-    <p>現在地を確認しています。</p>
-  `;
+  routePanelEl.innerHTML = `<p class="eyebrow">ルート</p><h2>${facility.name}</h2><p>現在地を確認しています。</p>`;
   const origin = await requestCurrentLocation();
   const distance = distanceKm(origin, facility);
   const estimate = routeEstimate(distance);
-  const distanceLabel = distance == null ? "確認中" : `${distance.toFixed(1)}km`;
+  const distanceLabel = distance == null ? text.unknown : `${distance.toFixed(1)}km`;
   const note = origin.fallback
     ? "現在地が使えないため、名古屋駅からの目安を表示しています。"
     : "現在地からの直線距離をもとにした目安です。";
@@ -287,7 +268,7 @@ function highlightSelectedFacility() {
 function renderMap(results) {
   if (!mapPinsEl || !routeSummaryEl) return;
   routeSummaryEl.textContent = `${results.length}${text.allCount}`;
-  mapPinsEl.innerHTML = results.map((facility, index) => {
+  mapPinsEl.innerHTML = results.slice(0, 30).map((facility, index) => {
     const position = pinPosition(facility, index);
     return `
       <div class="map-pin" style="left: ${position.x}%; top: ${position.y}%;">
@@ -302,38 +283,19 @@ function renderResults(results) {
   if (!resultEl || !metaEl) return;
   metaEl.textContent = `${results.length}${text.allCount}`;
   if (results.length === 0) {
-    resultEl.innerHTML = `
-      <article class="shop-card">
-        <div>
-          <h3>${text.noResultTitle}</h3>
-          <p>${text.noResultBody}</p>
-        </div>
-      </article>
-    `;
+    resultEl.innerHTML = `<article class="shop-card"><div><h3>${text.noResultTitle}</h3><p>${text.noResultBody}</p></div></article>`;
     return;
   }
   resultEl.innerHTML = `
     <div class="facility-table" role="table" aria-label="店舗一覧">
-      <div class="facility-row facility-head" role="row">
-        ${text.headers.map((header) => `<div>${header}</div>`).join("")}
-      </div>
+      <div class="facility-row facility-head" role="row">${text.headers.map((header) => `<div>${header}</div>`).join("")}</div>
       ${results.map((facility) => `
         <div class="facility-row" role="row" data-facility-index="${facilities.indexOf(facility)}">
-          <div>
-            <span class="list-genre">${facility.genre}</span>
-            <strong><a href="${facility.url}">${facility.name}</a></strong>
-            <small>${facility.hours}</small>
-          </div>
+          <div><span class="list-genre">${facility.genre}</span><strong><a href="${facility.url}">${facility.name}</a></strong><small>${facility.hours}</small></div>
           <div>${facility.prefecture}${facility.city}${facility.ward}<small>${facility.area}</small></div>
           <div>${facility.station}<small>${facility.walkMinutes ? `${text.walk}${facility.walkMinutes}${text.minutes}` : text.unknown}</small></div>
           <div>${facility.budgetLabel}</div>
-          <div>
-            <div class="badges">
-              ${facility.parking ? `<span class="badge">${text.parking}</span>` : ""}
-              ${facility.late ? `<span class="badge">${text.late}</span>` : ""}
-              ${facility.coupon ? `<span class="badge">${text.coupon}</span>` : ""}
-            </div>
-          </div>
+          <div><div class="badges">${facility.parking ? `<span class="badge">${text.parking}</span>` : ""}${facility.late ? `<span class="badge">${text.late}</span>` : ""}${facility.coupon ? `<span class="badge">${text.coupon}</span>` : ""}</div></div>
           <div class="list-actions">
             <a class="button" href="${facility.url}">${text.detail}</a>
             <a class="button button-light" href="${facility.bookingUrl}">${actionLabel(facility)}</a>
@@ -341,8 +303,7 @@ function renderResults(results) {
             <button class="button button-light route-button" type="button" data-route-index="${facilities.indexOf(facility)}">ルート</button>
             <a class="button button-light" href="${facility.mapUrl}">${text.map}</a>
           </div>
-        </div>
-      `).join("")}
+        </div>`).join("")}
     </div>
   `;
 }
@@ -351,23 +312,14 @@ document.addEventListener("click", (event) => {
   const routeTarget = event.target.closest("[data-route-index]");
   if (!routeTarget) return;
   const facility = facilities[Number(routeTarget.dataset.routeIndex)];
-  if (!facility) return;
-  showRoute(facility);
+  if (facility) showRoute(facility);
 });
 
 document.querySelector("#useLocationButton")?.addEventListener("click", async () => {
   if (!routePanelEl) return;
-  routePanelEl.innerHTML = `
-    <p class="eyebrow">ルート</p>
-    <h2>現在地を確認しています</h2>
-    <p>ブラウザの確認が出た場合は許可してください。</p>
-  `;
+  routePanelEl.innerHTML = `<p class="eyebrow">ルート</p><h2>現在地を確認しています</h2><p>ブラウザの確認が出た場合は許可してください。</p>`;
   const origin = await requestCurrentLocation();
-  routePanelEl.innerHTML = `
-    <p class="eyebrow">ルート</p>
-    <h2>${origin.label}を出発地にしました</h2>
-    <p>一覧の「ルート」または地図のピンを押すと、所要時間の目安を表示します。</p>
-  `;
+  routePanelEl.innerHTML = `<p class="eyebrow">ルート</p><h2>${origin.label}を出発地にしました</h2><p>一覧の「ルート」または地図のピンを押すと、所要時間の目安を表示します。</p>`;
 });
 
 searchButton?.addEventListener("click", searchFacilities);
