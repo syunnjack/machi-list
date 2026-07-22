@@ -650,6 +650,32 @@
     "map_y": 42
   },
   {
+    "prefecture_key": "tokyo",
+    "prefecture": "東京都",
+    "key": "tokyo-hachioji",
+    "path": "hachioji",
+    "label": "八王子市",
+    "city": "八王子市",
+    "ward": "",
+    "station": "八王子駅・京王八王子駅",
+    "parent": "多摩地域",
+    "map_x": 30,
+    "map_y": 60
+  },
+  {
+    "prefecture_key": "tokyo",
+    "prefecture": "東京都",
+    "key": "tokyo-machida",
+    "path": "machida",
+    "label": "町田市",
+    "city": "町田市",
+    "ward": "",
+    "station": "町田駅",
+    "parent": "多摩地域",
+    "map_x": 36,
+    "map_y": 72
+  },
+  {
     "prefecture_key": "osaka",
     "prefecture": "大阪府",
     "key": "osaka-kita",
@@ -754,6 +780,32 @@
     "map_y": 48
   },
   {
+    "prefecture_key": "kanagawa",
+    "prefecture": "神奈川県",
+    "key": "kawasaki-kawasaki",
+    "path": "kawasaki/kawasaki",
+    "label": "川崎市川崎区",
+    "city": "川崎市",
+    "ward": "川崎区",
+    "station": "川崎駅・京急川崎駅",
+    "parent": "川崎市",
+    "map_x": 52,
+    "map_y": 45
+  },
+  {
+    "prefecture_key": "kanagawa",
+    "prefecture": "神奈川県",
+    "key": "sagamihara-minami",
+    "path": "sagamihara/minami",
+    "label": "相模原市南区",
+    "city": "相模原市",
+    "ward": "南区",
+    "station": "相模大野駅・古淵駅",
+    "parent": "相模原市",
+    "map_x": 35,
+    "map_y": 64
+  },
+  {
     "prefecture_key": "saitama",
     "prefecture": "埼玉県",
     "key": "saitama-omiya",
@@ -777,6 +829,32 @@
     "station": "浦和駅",
     "parent": "さいたま市",
     "map_x": 49,
+    "map_y": 54
+  },
+  {
+    "prefecture_key": "saitama",
+    "prefecture": "埼玉県",
+    "key": "kawagoe",
+    "path": "kawagoe",
+    "label": "川越市",
+    "city": "川越市",
+    "ward": "",
+    "station": "川越駅・本川越駅",
+    "parent": "",
+    "map_x": 34,
+    "map_y": 43
+  },
+  {
+    "prefecture_key": "saitama",
+    "prefecture": "埼玉県",
+    "key": "misato",
+    "path": "misato",
+    "label": "三郷市",
+    "city": "三郷市",
+    "ward": "",
+    "station": "新三郷駅・三郷駅",
+    "parent": "",
+    "map_x": 65,
     "map_y": 54
   },
   {
@@ -804,6 +882,32 @@
     "parent": "",
     "map_x": 45,
     "map_y": 48
+  },
+  {
+    "prefecture_key": "chiba",
+    "prefecture": "千葉県",
+    "key": "funabashi",
+    "path": "funabashi",
+    "label": "船橋市",
+    "city": "船橋市",
+    "ward": "",
+    "station": "船橋駅・南船橋駅・西船橋駅",
+    "parent": "",
+    "map_x": 52,
+    "map_y": 50
+  },
+  {
+    "prefecture_key": "chiba",
+    "prefecture": "千葉県",
+    "key": "kashiwa",
+    "path": "kashiwa",
+    "label": "柏市",
+    "city": "柏市",
+    "ward": "",
+    "station": "柏駅・柏の葉キャンパス駅",
+    "parent": "",
+    "map_x": 50,
+    "map_y": 36
   },
   {
     "prefecture_key": "hokkaido",

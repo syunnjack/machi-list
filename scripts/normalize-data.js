@@ -417,6 +417,7 @@ const seedAdditionFiles = [
   "data/seed-amenity-and-late-night-major-cities.json",
   "data/seed-arcade-crane-major-cities.json",
   "data/seed-station-amenity-pref-capitals.json",
+  "data/seed-metropolitan-secondary-cities.json",
 ];
 
 for (const seedAdditionPath of seedAdditionFiles) {
