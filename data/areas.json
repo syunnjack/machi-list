@@ -1521,6 +1521,45 @@
     "map_y": 55
   },
   {
+    "prefecture_key": "hokkaido",
+    "prefecture": "北海道",
+    "key": "asahikawa",
+    "path": "asahikawa",
+    "label": "旭川市",
+    "city": "旭川市",
+    "ward": "",
+    "station": "旭川駅・旭川四条駅",
+    "parent": "",
+    "map_x": 50,
+    "map_y": 44
+  },
+  {
+    "prefecture_key": "hokkaido",
+    "prefecture": "北海道",
+    "key": "hakodate",
+    "path": "hakodate",
+    "label": "函館市",
+    "city": "函館市",
+    "ward": "",
+    "station": "函館駅・五稜郭駅",
+    "parent": "",
+    "map_x": 50,
+    "map_y": 54
+  },
+  {
+    "prefecture_key": "fukushima",
+    "prefecture": "福島県",
+    "key": "koriyama",
+    "path": "koriyama",
+    "label": "郡山市",
+    "city": "郡山市",
+    "ward": "",
+    "station": "郡山駅",
+    "parent": "",
+    "map_x": 50,
+    "map_y": 50
+  },
+  {
     "prefecture_key": "okinawa",
     "prefecture": "沖縄県",
     "key": "naha",
