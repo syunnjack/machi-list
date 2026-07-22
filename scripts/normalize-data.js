@@ -413,6 +413,7 @@ const seedAdditionFiles = [
   "data/seed-round1-major-cities.json",
   "data/seed-gigo-kaikatsu-major-cities.json",
   "data/seed-capsule-toy-major-cities.json",
+  "data/seed-capsule-toy-pref-capitals.json",
 ];
 
 for (const seedAdditionPath of seedAdditionFiles) {
