@@ -415,6 +415,7 @@ const seedAdditionFiles = [
   "data/seed-capsule-toy-major-cities.json",
   "data/seed-capsule-toy-pref-capitals.json",
   "data/seed-amenity-and-late-night-major-cities.json",
+  "data/seed-arcade-crane-major-cities.json",
 ];
 
 for (const seedAdditionPath of seedAdditionFiles) {
@@ -431,6 +432,7 @@ const removeIds = new Set([
   "shizuoka-hamamatsu-izakaya-yurakugai",
   "shizuoka-numazu-izakaya-ekimae",
   "shizuoka-fujieda-izakaya-ekimae",
+  "aichi-nagoya-nakamura-gigo-sasashima-game",
   "naha-gashapon-kokusaidori"
 ]);
 

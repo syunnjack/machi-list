@@ -1,0 +1,29 @@
+[
+  ["tokyo-shinjuku-gigo-kabukicho-game", "GiGO新宿歌舞伎町", "game-center", "tokyo-shinjuku", "東京都新宿区歌舞伎町1丁目21番1号 第二東亜会館 1-2F", "西武新宿駅", 3, 500, "目安500円から", false, true, true, "歌舞伎町周辺", "https://www.gigo.co.jp/shops/shinjuku-kabukicho"],
+  ["tokyo-shinjuku-gigo-kabukicho-crane", "GiGO新宿歌舞伎町", "crane-game", "tokyo-shinjuku", "東京都新宿区歌舞伎町1丁目21番1号 第二東亜会館 1-2F", "西武新宿駅", 3, 500, "目安500円から", false, true, true, "歌舞伎町周辺", "https://www.gigo.co.jp/shops/shinjuku-kabukicho"],
+  ["tokyo-shinjuku-gigo-nishiguchi-game", "GiGO新宿西口", "game-center", "tokyo-shinjuku", "東京都新宿区西新宿1-12-5", "新宿駅", 3, 500, "目安500円から", false, true, true, "西新宿周辺", "https://www.gigo.co.jp/shops/shinjuku-nishiguchi"],
+  ["tokyo-shinjuku-gigo-nishiguchi-crane", "GiGO新宿西口", "crane-game", "tokyo-shinjuku", "東京都新宿区西新宿1-12-5", "新宿駅", 3, 500, "目安500円から", false, true, true, "西新宿周辺", "https://www.gigo.co.jp/shops/shinjuku-nishiguchi"],
+
+  ["tokyo-shibuya-gigo-shibuya-game", "GiGO渋谷", "game-center", "tokyo-shibuya", "東京都渋谷区宇田川町29-4 ゼンモールビル 1-3F", "渋谷駅", 5, 500, "目安500円から", false, true, true, "宇田川町周辺", "https://www.gigo.co.jp/shops/shibuya"],
+  ["tokyo-shibuya-gigo-shibuya-crane", "GiGO渋谷", "crane-game", "tokyo-shibuya", "東京都渋谷区宇田川町29-4 ゼンモールビル 1-3F", "渋谷駅", 5, 500, "目安500円から", false, true, true, "宇田川町周辺", "https://www.gigo.co.jp/shops/shibuya"],
+  ["tokyo-shibuya-gigo-shibuya-capsule", "GiGO渋谷", "capsule-toy", "tokyo-shibuya", "東京都渋谷区宇田川町29-4 ゼンモールビル 1-3F", "渋谷駅", 5, 300, "目安300円から", false, true, true, "宇田川町周辺", "https://www.gigo.co.jp/shops/shibuya"],
+
+  ["tokyo-toshima-namco-ikebukuro-game", "namco池袋店", "game-center", "tokyo-toshima", "東京都豊島区東池袋1-22-10 ヒューマックスパビリオン池袋サンシャイン60通り 1F", "池袋駅", 5, 500, "目安500円から", false, true, true, "サンシャイン60通り周辺", "https://bandainamco-am.co.jp/game_center/loc/ikebukuro/"],
+  ["tokyo-toshima-namco-ikebukuro-crane", "namco池袋店", "crane-game", "tokyo-toshima", "東京都豊島区東池袋1-22-10 ヒューマックスパビリオン池袋サンシャイン60通り 1F", "池袋駅", 5, 500, "目安500円から", false, true, true, "サンシャイン60通り周辺", "https://bandainamco-am.co.jp/game_center/loc/ikebukuro/"],
+
+  ["aichi-nagoya-nakamura-namco-ekimae-game", "namco名古屋駅前店", "game-center", "nagoya-nakamura", "愛知県名古屋市中村区椿町6-6 ビックカメラ名古屋駅西店B館B1F・6F", "名古屋駅", 1, 500, "目安500円から", false, true, true, "名古屋駅太閤通口周辺", "https://bandainamco-am.co.jp/game_center/loc/nagoyaekimae/"],
+  ["aichi-nagoya-nakamura-namco-ekimae-crane", "namco名古屋駅前店", "crane-game", "nagoya-nakamura", "愛知県名古屋市中村区椿町6-6 ビックカメラ名古屋駅西店B館B1F・6F", "名古屋駅", 1, 500, "目安500円から", false, true, true, "名古屋駅太閤通口周辺", "https://bandainamco-am.co.jp/game_center/loc/nagoyaekimae/"],
+  ["aichi-nagoya-nakamura-gigo-sasashima-crane", "GiGOマーケットスクエアささしま", "crane-game", "nagoya-nakamura", "愛知県名古屋市中村区平池町4-60-14 マーケットスクエアささしま 1F", "名古屋駅", 13, 500, "目安500円から", true, true, true, "ささしまライブ周辺", "https://www.gigo.co.jp/shops/sasashima"],
+  ["aichi-nagoya-naka-taito-fedora-osu-game", "タイトーステーション フェドラ大須店", "game-center", "nagoya-naka", "愛知県名古屋市中区大須3丁目30-31 萬松寺駐車場ビル1階・2階", "上前津駅", 5, 500, "目安500円から", true, true, true, "大須周辺", "https://www.taito.co.jp/store/00002180"],
+  ["aichi-nagoya-naka-taito-fedora-osu-crane", "タイトーステーション フェドラ大須店", "crane-game", "nagoya-naka", "愛知県名古屋市中区大須3丁目30-31 萬松寺駐車場ビル1階・2階", "上前津駅", 5, 500, "目安500円から", true, true, true, "大須周辺", "https://www.taito.co.jp/store/00002180"],
+
+  ["osaka-kita-namco-umeda-game", "namco梅田店", "game-center", "osaka-kita", "大阪府大阪市北区小松原町3-3 OSビル 1-3F", "大阪駅", 5, 500, "目安500円から", false, true, true, "梅田周辺", "https://bandainamco-am.co.jp/game_center/loc/umeda/"],
+  ["osaka-kita-namco-umeda-crane", "namco梅田店", "crane-game", "osaka-kita", "大阪府大阪市北区小松原町3-3 OSビル 1-3F", "大阪駅", 5, 500, "目安500円から", false, true, true, "梅田周辺", "https://bandainamco-am.co.jp/game_center/loc/umeda/"],
+  ["osaka-chuo-gigo-dotonbori-game", "GiGO大阪道頓堀本店", "game-center", "osaka-chuo", "大阪府大阪市中央区道頓堀1-8-22 道頓座ビル", "なんば駅", 6, 500, "目安500円から", false, true, true, "道頓堀周辺", "https://www.gigo.co.jp/shops/dotonbori"],
+  ["osaka-chuo-gigo-dotonbori-crane", "GiGO大阪道頓堀本店", "crane-game", "osaka-chuo", "大阪府大阪市中央区道頓堀1-8-22 道頓座ビル", "なんば駅", 6, 500, "目安500円から", false, true, true, "道頓堀周辺", "https://www.gigo.co.jp/shops/dotonbori"],
+  ["osaka-chuo-gigo-dotonbori-capsule", "GiGO大阪道頓堀本店", "capsule-toy", "osaka-chuo", "大阪府大阪市中央区道頓堀1-8-22 道頓座ビル", "なんば駅", 6, 300, "目安300円から", false, true, true, "道頓堀周辺", "https://www.gigo.co.jp/shops/dotonbori"],
+
+  ["hyogo-kobe-gigo-sannomiya-crane", "GiGO三宮南口", "crane-game", "kobe-chuo", "兵庫県神戸市中央区三宮町1-7-17 三慶ビル", "三ノ宮駅", 1, 500, "目安500円から", false, true, true, "三宮周辺", "https://www.gigo.co.jp/shops/sannomiya-minamiguchi"],
+  ["hiroshima-naka-namco-kamiyacho-game", "namco広島紙屋町店", "game-center", "hiroshima-naka", "広島県広島市中区大手町2丁目3-3 大手町ナルミヤビル1F", "本通駅", 2, 500, "目安500円から", false, true, true, "紙屋町周辺", "https://bsp-prize.jp/shop/681/"],
+  ["hiroshima-naka-namco-kamiyacho-crane", "namco広島紙屋町店", "crane-game", "hiroshima-naka", "広島県広島市中区大手町2丁目3-3 大手町ナルミヤビル1F", "本通駅", 2, 500, "目安500円から", false, true, true, "紙屋町周辺", "https://bsp-prize.jp/shop/681/"]
+]
