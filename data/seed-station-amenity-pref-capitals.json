@@ -1,0 +1,11 @@
+[
+  ["saitama-omiya-kaikatsu", "快活CLUB 大宮店", "netcafe", "saitama-omiya", "埼玉県さいたま市大宮区仲町1-15 大宮東宝会館4F", "大宮駅", 2, 1200, "目安1,200円から", false, true, true, "大宮駅東口", "https://www.kaikatsu.jp/shop/detail/20908.html"],
+  ["saitama-omiya-doutor-ekimae", "ドトールコーヒーショップ 大宮駅前店", "cafe", "saitama-omiya", "埼玉県さいたま市大宮区桜木町1-8-1", "大宮駅", 2, 500, "目安500円から", false, true, true, "大宮駅西口", "https://shop.doutor.co.jp/doutor/spot/detail?code=1012023", "喫煙ブースあり", "あり", "FREE Wi-Fiあり", "あり"],
+  ["saitama-omiya-starbucks-lumine1", "スターバックス コーヒー ルミネ大宮 LUMINE1店", "cafe", "saitama-omiya", "埼玉県さいたま市大宮区錦町630 ルミネ大宮 LUMINE1 B1F", "大宮駅", 2, 600, "目安600円から", false, true, true, "ルミネ大宮", "https://store.starbucks.co.jp/detail-1589/", "全席禁煙", "要確認", "STARBUCKS Wi-Fiあり", "あり"],
+  ["ishikawa-kanazawa-kaikatsu-ekihigashi", "快活CLUB 金沢駅東口店", "netcafe", "kanazawa", "石川県金沢市堀川町4-1 セントラルビル6F", "金沢駅", 5, 1200, "目安1,200円から", false, true, true, "金沢駅東口", "https://d2g9thbxsaqgpi.cloudfront.net/shop/detail/20911.html"],
+  ["ishikawa-kanazawa-starbucks-forus", "スターバックス コーヒー 金沢フォーラス1階店", "cafe", "kanazawa", "石川県金沢市堀川新町3-1 金沢フォーラス1F", "金沢駅", 4, 600, "目安600円から", true, true, true, "金沢フォーラス", "https://store.starbucks.co.jp/detail-4186/", "全席禁煙", "要確認", "STARBUCKS Wi-Fiあり", "あり"],
+  ["ishikawa-kanazawa-doutor-musashigatsuji", "ドトールコーヒーショップ 金沢武蔵ヶ辻店", "cafe", "kanazawa", "石川県金沢市下堤町7 アルトラビル1F", "金沢駅", 18, 500, "目安500円から", false, true, true, "武蔵ヶ辻", "https://shop.doutor.co.jp/doutor/spot/detail?code=2010643", "喫煙席あり", "要確認", "FREE Wi-Fiあり", "あり"],
+  ["niigata-chuo-starbucks-cocolo", "スターバックス コーヒー CoCoLo新潟店", "cafe", "niigata-chuo", "新潟県新潟市中央区花園1-602 CoCoLo新潟 WEST SIDE 2F", "新潟駅", 4, 600, "目安600円から", true, true, true, "新潟駅ビル", "https://store.starbucks.co.jp/detail-1574/", "全席禁煙", "要確認", "STARBUCKS Wi-Fiあり", "あり"],
+  ["okayama-kita-kaikatsu-ekihigashi", "快活CLUB 岡山駅東口店", "netcafe", "okayama-kita", "岡山県岡山市北区本町1-13 1-5F", "岡山駅", 6, 1200, "目安1,200円から", false, true, true, "岡山駅東口", "https://www.kaikatsu.jp/shop/detail/20627.html"],
+  ["okayama-kita-doutor-jr", "ドトールコーヒーショップ JR岡山駅2階改札内店", "cafe", "okayama-kita", "岡山県岡山市北区駅元町1-1 JR岡山駅構内", "岡山駅", 4, 500, "目安500円から", false, true, true, "岡山駅構内", "https://shop.doutor.co.jp/doutor/spot/detail?code=2011668", "全席禁煙", "あり", "FREE Wi-Fiあり", "あり"]
+]
