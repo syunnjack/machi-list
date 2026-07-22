@@ -146,5 +146,18 @@
   ["toyama-namco-apita-higashi-game", "namcoアピタ富山東店ワンダーボウル", "game-center", "toyama", "富山県富山市上冨居3-8-38 アピタ富山東店2F", "新庄田中駅", 20, 500, "目安500円から", true, true, true, "アピタ富山東", "https://bandainamco-am.co.jp/game_center/loc/bw-toyama-higashi/"],
   ["toyama-namco-apita-higashi-crane", "namcoアピタ富山東店ワンダーボウル", "crane-game", "toyama", "富山県富山市上冨居3-8-38 アピタ富山東店2F", "新庄田中駅", 20, 500, "目安500円から", true, true, true, "アピタ富山東", "https://bandainamco-am.co.jp/game_center/loc/bw-toyama-higashi/"],
   ["toyama-taito-favore-game", "タイトーステーション ファボーレ婦中店", "game-center", "toyama", "富山県富山市婦中町下轡田165-1 ファボーレ2F", "速星駅", 15, 500, "目安500円から", true, true, true, "ファボーレ", "https://www.favore.jp/shopguide/detail/?cd=000122"],
-  ["toyama-taito-favore-crane", "タイトーステーション ファボーレ婦中店", "crane-game", "toyama", "富山県富山市婦中町下轡田165-1 ファボーレ2F", "速星駅", 15, 500, "目安500円から", true, true, true, "ファボーレ", "https://www.favore.jp/shopguide/detail/?cd=000122"]
+  ["toyama-taito-favore-crane", "タイトーステーション ファボーレ婦中店", "crane-game", "toyama", "富山県富山市婦中町下轡田165-1 ファボーレ2F", "速星駅", 15, 500, "目安500円から", true, true, true, "ファボーレ", "https://www.favore.jp/shopguide/detail/?cd=000122"],
+
+  ["nisshin-soyu-gamefield-akaike-game", "ソユーゲームフィールド赤池店", "game-center", "nisshin", "愛知県日進市赤池町箕ノ手1 プライムツリー赤池3F", "赤池駅", 4, 500, "目安500円から", true, true, true, "プライムツリー赤池", "https://corp.soyu-am.jp/news/2024/11/18/213.php"],
+  ["nisshin-soyu-gamefield-akaike-crane", "ソユーゲームフィールド赤池店", "crane-game", "nisshin", "愛知県日進市赤池町箕ノ手1 プライムツリー赤池3F", "赤池駅", 4, 500, "目安500円から", true, true, true, "プライムツリー赤池", "https://corp.soyu-am.jp/news/2024/11/18/213.php"],
+  ["nisshin-dreamcapsule-akaike-capsule", "ドリームカプセル プライムツリー赤池店", "capsule-toy", "nisshin", "愛知県日進市赤池町箕ノ手1 プライムツリー赤池3F", "赤池駅", 4, 300, "目安300円から", true, true, true, "プライムツリー赤池", "https://www.dreamcapsule.co.jp/shop/201"],
+  ["toyohashi-gigo-imure-game", "GiGO豊橋飯村", "game-center", "toyohashi", "愛知県豊橋市飯村町字西山25-121", "運動公園前駅", 20, 500, "目安500円から", true, true, true, "飯村町周辺", "https://www.gigo.co.jp/shops/toyohashi-imure"],
+  ["toyohashi-gigo-imure-crane", "GiGO豊橋飯村", "crane-game", "toyohashi", "愛知県豊橋市飯村町字西山25-121", "運動公園前駅", 20, 500, "目安500円から", true, true, true, "飯村町周辺", "https://www.gigo.co.jp/shops/toyohashi-imure"],
+  ["toyohashi-gigo-imure-capsule", "GiGO豊橋飯村", "capsule-toy", "toyohashi", "愛知県豊橋市飯村町字西山25-121", "運動公園前駅", 20, 300, "目安300円から", true, true, true, "飯村町周辺", "https://www.gigo.co.jp/shops/toyohashi-imure"],
+  ["toyohashi-cpla-kalmia-capsule", "#C-pla 豊橋駅ビル カルミア店", "capsule-toy", "toyohashi", "愛知県豊橋市花田町西宿無番地 豊橋駅ビル カルミア4F", "豊橋駅", 1, 300, "目安300円から", true, true, true, "豊橋駅ビル", "https://www.toyohashi-kalmia.jp/shop/cpla/"],
+  ["handa-metropolis-game", "半田メトロポリス", "game-center", "handa", "愛知県半田市旭町3-11-1 半田コロナワールド", "東成岩駅", 2, 500, "目安500円から", true, true, true, "半田コロナワールド", "https://www.korona.co.jp/game/han"],
+  ["handa-metropolis-crane", "半田メトロポリス", "crane-game", "handa", "愛知県半田市旭町3-11-1 半田コロナワールド", "東成岩駅", 2, 500, "目安500円から", true, true, true, "半田コロナワールド", "https://www.korona.co.jp/game/han"],
+  ["handa-mollyfantasy-aeon-game", "モーリーファンタジー 半田店", "game-center", "handa", "愛知県半田市有楽町8-7 イオン半田店2F", "東成岩駅", 9, 500, "目安500円から", true, true, true, "イオン半田店", "https://www.fantasy.co.jp/shoplist/shop3018/"],
+  ["handa-mollyfantasy-aeon-crane", "モーリーファンタジー 半田店", "crane-game", "handa", "愛知県半田市有楽町8-7 イオン半田店2F", "東成岩駅", 9, 500, "目安500円から", true, true, true, "イオン半田店", "https://www.fantasy.co.jp/shoplist/shop3018/"],
+  ["handa-toys-spot-palo-aeon-capsule", "TOYS SPOT PALO 半田店", "capsule-toy", "handa", "愛知県半田市有楽町8-7 イオン半田店2F", "東成岩駅", 9, 300, "目安300円から", true, true, true, "イオン半田店", "https://www.fantasy.co.jp/shoplist/shop-tsp3018/"]
 ]
