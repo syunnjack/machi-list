@@ -1,0 +1,44 @@
+[
+  ["sapporo-chuo-gbo-tokyu-capsule", "ガシャポンバンダイオフィシャルショップ さっぽろ東急百貨店", "capsule-toy", "sapporo-chuo", "北海道札幌市中央区北4条西2-1 東急百貨店さっぽろ9階", "札幌駅", 3, 300, "目安300円から", true, true, false, "札幌駅周辺", "https://gashapon.jp/news/campaign_260501/"],
+  ["sapporo-chuo-cpla-tanukikoji2-capsule", "#C-pla 狸小路2丁目", "capsule-toy", "sapporo-chuo", "北海道札幌市中央区南3条西2丁目26番地7-4", "狸小路駅", 2, 300, "目安300円から", false, true, false, "狸小路周辺", "https://gashapon.jp/news/campaign_shoplist_2601292/"],
+
+  ["sendai-aoba-gbo-parco-capsule", "ガシャポンバンダイオフィシャルショップ 仙台PARCO店", "capsule-toy", "sendai-aoba", "宮城県仙台市青葉区中央1-2-3 仙台PARCO", "仙台駅", 2, 300, "目安300円から", true, true, false, "仙台駅周辺", "https://gashapon.jp/news/campaign_260501/"],
+  ["sendai-aoba-cpla-chuodori-capsule", "#C-pla 仙台中央通り", "capsule-toy", "sendai-aoba", "宮城県仙台市青葉区中央2-6-2", "広瀬通駅", 3, 300, "目安300円から", false, true, false, "中央通り周辺", "https://gashapon.jp/news/campaign_shoplist_2601292/"],
+
+  ["tokyo-shinjuku-gbo-marui-annex-capsule", "ガシャポンバンダイオフィシャルショップ 新宿マルイアネックス店", "capsule-toy", "tokyo-shinjuku", "東京都新宿区新宿3-1-26 新宿マルイアネックス6F", "新宿三丁目駅", 2, 300, "目安300円から", false, true, false, "新宿三丁目周辺", "https://gashapon.jp/news/campaign_shoplist_250602/"],
+  ["tokyo-shinjuku-cpla-shinjuku-capsule", "#C-pla 新宿", "capsule-toy", "tokyo-shinjuku", "東京都新宿区新宿3-15-11 アドホック新宿1F・M2F", "新宿三丁目駅", 3, 300, "目安300円から", false, true, false, "新宿三丁目周辺", "https://gashapon.jp/news/campaign_shoplist_2601292/"],
+  ["tokyo-shinjuku-gachamori-subnade-capsule", "ガチャガチャの森 新宿サブナード店", "capsule-toy", "tokyo-shinjuku", "東京都新宿区歌舞伎町1丁目2-2 新宿サブナード地下街内401区画", "新宿駅", 5, 300, "目安300円から", false, true, false, "新宿駅周辺", "https://gashapon.jp/news/campaign_shoplist_251215/"],
+
+  ["tokyo-shibuya-dream-magnet-capsule", "ドリームカプセル MAGNET by SHIBUYA109", "capsule-toy", "tokyo-shibuya", "東京都渋谷区神南1-23-10 MAGNET by SHIBUYA109 5F", "渋谷駅", 2, 300, "目安300円から", false, true, false, "渋谷駅周辺", "https://gashapon.jp/news/campaign_shoplist_250602/"],
+  ["tokyo-shibuya-cpla-center-capsule", "#C-pla 渋谷センター街店", "capsule-toy", "tokyo-shibuya", "東京都渋谷区宇田川町21-8 渋谷平和ビル2階", "渋谷駅", 3, 300, "目安300円から", false, true, false, "渋谷センター街周辺", "https://gashapon.jp/news/campaign_shoplist_251215/"],
+  ["tokyo-shibuya-cpla-harajuku-capsule", "#C-pla 原宿竹下通り店", "capsule-toy", "tokyo-shibuya", "東京都渋谷区神宮前1丁目16-3", "原宿駅", 2, 300, "目安300円から", false, true, false, "原宿周辺", "https://gashapon.jp/news/campaign_shoplist_250602/"],
+
+  ["tokyo-toshima-gashapon-ikebukuro-main-capsule", "ガシャポンのデパート池袋総本店", "capsule-toy", "tokyo-toshima", "東京都豊島区東池袋3-1-3 サンシャインシティ ワールドインポートマートビル3F", "東池袋駅", 3, 300, "目安300円から", true, true, false, "サンシャインシティ周辺", "https://bandainamco-am.co.jp/others/capsule-toy-store/store/ikebukuro/?tags=genteiitem%2F"],
+  ["tokyo-toshima-gashacoco-ikebukuro-capsule", "gashacoco 池袋", "capsule-toy", "tokyo-toshima", "東京都豊島区東池袋1-41-6 池袋菊邑ビル1F・B1F", "池袋駅", 4, 300, "目安300円から", false, true, false, "池袋駅東口周辺", "https://gashapon.jp/news/campaign_shoplist_250602/"],
+  ["tokyo-toshima-namco-ikebukuro-capsule", "ガシャポンバンダイオフィシャルショップ namco池袋店", "capsule-toy", "tokyo-toshima", "東京都豊島区東池袋1-22-10 ヒューマックスパビリオン池袋サンシャイン60通り1F", "池袋駅", 5, 300, "目安300円から", false, true, false, "池袋駅東口周辺", "https://gashapon.jp/news/campaign_shoplist_260601/"],
+
+  ["yokohama-nishi-gbo-vivre-capsule", "ガシャポンバンダイオフィシャルショップ 横浜ビブレ店", "capsule-toy", "yokohama-nishi", "神奈川県横浜市西区南幸2-15-13 横浜ビブレ7F", "横浜駅", 5, 300, "目安300円から", false, true, false, "横浜駅西口周辺", "https://gashapon.jp/news/campaign_260420/"],
+  ["yokohama-nishi-gashapon-vivre-capsule", "ガシャポンのデパート 横浜ビブレ店", "capsule-toy", "yokohama-nishi", "神奈川県横浜市西区南幸2-15-13 横浜ビブレ7F", "横浜駅", 5, 300, "目安300円から", false, true, false, "横浜駅西口周辺", "https://gashapon.jp/news/campaign_260420/"],
+  ["yokohama-nishi-edion-capsule", "ガシャポンのデパート エディオン横浜西口本店", "capsule-toy", "yokohama-nishi", "神奈川県横浜市西区南幸2丁目16 7階ネバーランドフロア内", "横浜駅", 6, 300, "目安300円から", false, true, false, "横浜駅西口周辺", "https://gashapon.jp/news/campaign_260420/"],
+  ["yokohama-nishi-tokyu-square-capsule", "ガシャポンバンダイオフィシャルショップ みなとみらい東急スクエア店", "capsule-toy", "yokohama-nishi", "神奈川県横浜市西区みなとみらい2-3-2 みなとみらい東急スクエア1 4F", "みなとみらい駅", 2, 300, "目安300円から", true, true, false, "みなとみらい周辺", "https://gashapon.jp/news/campaign_260420/"],
+
+  ["yokohama-naka-world-porters-capsule", "ガシャポンのデパート 横浜ワールドポーターズ店", "capsule-toy", "yokohama-naka", "神奈川県横浜市中区新港2丁目2-1 横浜ワールドポーターズ2F", "馬車道駅", 8, 300, "目安300円から", true, true, false, "新港周辺", "https://gashapon.jp/news/campaign_260420/"],
+
+  ["saitama-omiya-dream-marui-capsule", "ドリームカプセル 大宮マルイ", "capsule-toy", "saitama-omiya", "埼玉県さいたま市大宮区桜木町2-3 大宮マルイ6F", "大宮駅", 2, 300, "目安300円から", false, true, false, "大宮駅周辺", "https://gashapon.jp/news/campaign_260501/"],
+  ["saitama-omiya-cpla-lumine-capsule", "#C-pla ルミネ大宮", "capsule-toy", "saitama-omiya", "埼玉県さいたま市大宮区錦町630 ルミネ大宮ルミネ1 6階", "大宮駅", 1, 300, "目安300円から", false, true, false, "大宮駅周辺", "https://gashapon.jp/news/campaign_shoplist_251215/"],
+
+  ["chiba-chuo-cpla-perie-capsule", "#C-pla ペリエ千葉", "capsule-toy", "chiba-chuo", "千葉県千葉市中央区弁天1丁目1-1 ペリエ千葉ストリート2", "千葉駅", 1, 300, "目安300円から", false, true, false, "千葉駅周辺", "https://gashapon.jp/news/campaign_shoplist_251215/"],
+  ["chiba-chuo-cpla-ekimae-capsule", "#C-pla 千葉駅前店", "capsule-toy", "chiba-chuo", "千葉県千葉市中央区富士見2-4-15 第一東和ビル1階", "千葉駅", 5, 300, "目安300円から", false, true, false, "千葉駅周辺", "https://gashapon.jp/news/campaign_shoplist_251215/"],
+
+  ["osaka-kita-gbo-umeda-capsule", "ガシャポンバンダイオフィシャルショップ 梅田店", "capsule-toy", "osaka-kita", "大阪府大阪市北区小松原町3番3号 OSビル1F", "梅田駅", 5, 300, "目安300円から", false, true, false, "梅田周辺", "https://gashapon.jp/news/campaign_260213/"],
+  ["osaka-kita-gbo-hepfive-capsule", "ガシャポンバンダイオフィシャルショップ HEP FIVE店", "capsule-toy", "osaka-kita", "大阪府大阪市北区角田町5-15 HEP FIVE 8・9F", "梅田駅", 5, 300, "目安300円から", false, true, false, "梅田周辺", "https://gashapon.jp/news/campaign_260213/"],
+  ["osaka-kita-cpla-chayamachi-capsule", "#C-pla梅田茶屋町", "capsule-toy", "osaka-kita", "大阪府大阪市北区茶屋町2-19 JPR茶屋町ビル1F・2F・3F", "大阪梅田駅", 4, 300, "目安300円から", false, true, false, "茶屋町周辺", "https://gashapon.jp/shop/shop.php?shop_code=S90001521"],
+
+  ["osaka-chuo-gashacoco-bigstep-capsule", "gashacoco 心斎橋BIGSTEP", "capsule-toy", "osaka-chuo", "大阪府大阪市中央区西心斎橋1-6-14 心斎橋BIGSTEP1F", "心斎橋駅", 4, 300, "目安300円から", false, true, false, "心斎橋周辺", "https://gashapon.jp/news/campaign_260213/"],
+  ["osaka-chuo-gashacoco-ebisubashi-capsule", "gashacoco なんば戎橋筋", "capsule-toy", "osaka-chuo", "大阪府大阪市中央区難波3-5-1 なんば一番ビル1F", "なんば駅", 2, 300, "目安300円から", false, true, false, "なんば周辺", "https://gashapon.jp/news/campaign_260213/"],
+  ["osaka-chuo-cpla-shinsaibashi-capsule", "#C-pla 大阪心斎橋筋", "capsule-toy", "osaka-chuo", "大阪府大阪市中央区心斎橋筋2丁目7-3", "心斎橋駅", 5, 300, "目安300円から", false, true, false, "心斎橋筋周辺", "https://gashapon.jp/news/campaign_260213/"],
+
+  ["fukuoka-hakata-gbo-bus-terminal-capsule", "ガシャポンバンダイオフィシャルショップ 博多バスターミナル店", "capsule-toy", "fukuoka-hakata", "福岡県福岡市博多区博多駅中央街2-1 博多バスターミナル7F", "博多駅", 1, 300, "目安300円から", true, true, false, "博多駅周辺", "https://gashapon.jp/shop/shop.php?paging=15&shop_code=S90001446"],
+  ["fukuoka-hakata-gashapon-bus-terminal-capsule", "ガシャポンのデパート 博多バスターミナル店", "capsule-toy", "fukuoka-hakata", "福岡県福岡市博多区博多駅中央街2-1 博多バスターミナル7F", "博多駅", 1, 300, "目安300円から", true, true, false, "博多駅周辺", "https://bandainamco-am.co.jp/others/capsule-toy-store/store/hakata-bt/?tags=gentei"],
+  ["fukuoka-chuo-gbo-parco-capsule", "ガシャポンバンダイオフィシャルショップ 福岡PARCO店", "capsule-toy", "fukuoka-chuo", "福岡県福岡市中央区天神2丁目11-1 福岡PARCO本館7F", "天神駅", 1, 300, "目安300円から", false, true, false, "天神周辺", "https://fukuoka.parco.jp/shop/detail/?cd=027441"]
+]
