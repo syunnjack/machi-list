@@ -63,5 +63,19 @@
   ["kasugai-gigo-kasugai-capsule", "GiGO春日井", "capsule-toy", "kasugai", "愛知県春日井市岩野町菅廻間4180", "岩野停留所", 3, 300, "目安300円から", true, true, true, "岩野町周辺", "https://www.gigo.co.jp/shops/kasugai"],
   ["ichinomiya-gigo-aeon-kisogawa-game", "GiGOイオンモール木曽川", "game-center", "ichinomiya", "愛知県一宮市木曽川町黒田南八ツヶ池25番1 イオンモール木曽川 3F", "黒田駅", 5, 500, "目安500円から", true, true, true, "木曽川町周辺", "https://www.gigo.co.jp/shops/a-kisogawa"],
   ["ichinomiya-gigo-aeon-kisogawa-crane", "GiGOイオンモール木曽川", "crane-game", "ichinomiya", "愛知県一宮市木曽川町黒田南八ツヶ池25番1 イオンモール木曽川 3F", "黒田駅", 5, 500, "目安500円から", true, true, true, "木曽川町周辺", "https://www.gigo.co.jp/shops/a-kisogawa"],
-  ["ichinomiya-gigo-aeon-kisogawa-capsule", "GiGOイオンモール木曽川", "capsule-toy", "ichinomiya", "愛知県一宮市木曽川町黒田南八ツヶ池25番1 イオンモール木曽川 3F", "黒田駅", 5, 300, "目安300円から", true, true, true, "木曽川町周辺", "https://www.gigo.co.jp/shops/a-kisogawa"]
+  ["ichinomiya-gigo-aeon-kisogawa-capsule", "GiGOイオンモール木曽川", "capsule-toy", "ichinomiya", "愛知県一宮市木曽川町黒田南八ツヶ池25番1 イオンモール木曽川 3F", "黒田駅", 5, 300, "目安300円から", true, true, true, "木曽川町周辺", "https://www.gigo.co.jp/shops/a-kisogawa"],
+
+  ["mito-gigo-mito-game", "GiGO水戸", "game-center", "mito", "茨城県水戸市宮町1-7-44 コムボックス310 3F", "水戸駅", 1, 500, "目安500円から", true, true, true, "水戸駅南口周辺", "https://www.gigo.co.jp/shops/mito"],
+  ["mito-gigo-mito-crane", "GiGO水戸", "crane-game", "mito", "茨城県水戸市宮町1-7-44 コムボックス310 3F", "水戸駅", 1, 500, "目安500円から", true, true, true, "水戸駅南口周辺", "https://www.gigo.co.jp/shops/mito"],
+  ["mito-gigo-mito-capsule", "GiGO水戸", "capsule-toy", "mito", "茨城県水戸市宮町1-7-44 コムボックス310 3F", "水戸駅", 1, 300, "目安300円から", true, true, true, "水戸駅南口周辺", "https://www.gigo.co.jp/shops/mito"],
+  ["mito-gigo-mito-minami-game", "GiGO水戸南", "game-center", "mito", "茨城県水戸市千波町2017番地1 フェドラP&D水戸 1F", "県福祉会館停留所", 5, 500, "目安500円から", true, true, true, "千波町周辺", "https://www.gigo.co.jp/shops/mito-minami"],
+  ["mito-gigo-mito-minami-crane", "GiGO水戸南", "crane-game", "mito", "茨城県水戸市千波町2017番地1 フェドラP&D水戸 1F", "県福祉会館停留所", 5, 500, "目安500円から", true, true, true, "千波町周辺", "https://www.gigo.co.jp/shops/mito-minami"],
+  ["mito-gigo-mito-minami-capsule", "GiGO水戸南", "capsule-toy", "mito", "茨城県水戸市千波町2017番地1 フェドラP&D水戸 1F", "県福祉会館停留所", 5, 300, "目安300円から", true, true, true, "千波町周辺", "https://www.gigo.co.jp/shops/mito-minami"],
+  ["morioka-round1-stadium-bowling", "ラウンドワンスタジアム 盛岡店", "bowling", "morioka", "岩手県盛岡市盛岡駅西通2丁目10-35", "盛岡駅", 1, 700, "目安700円から", true, true, true, "盛岡駅西口周辺", "https://www.round1.co.jp/shop/tenpo/iwate-morioka.html/iwate-morioka.html"],
+  ["morioka-round1-stadium-game", "ラウンドワンスタジアム 盛岡店", "game-center", "morioka", "岩手県盛岡市盛岡駅西通2丁目10-35", "盛岡駅", 1, 500, "目安500円から", true, true, true, "盛岡駅西口周辺", "https://www.round1.co.jp/shop/tenpo/iwate-morioka.html/iwate-morioka.html"],
+  ["morioka-round1-stadium-crane", "ラウンドワンスタジアム 盛岡店", "crane-game", "morioka", "岩手県盛岡市盛岡駅西通2丁目10-35", "盛岡駅", 1, 500, "目安500円から", true, true, true, "盛岡駅西口周辺", "https://www.round1.co.jp/shop/tenpo/iwate-morioka.html/iwate-morioka.html"],
+  ["morioka-round1-stadium-karaoke", "ラウンドワンスタジアム 盛岡店", "karaoke", "morioka", "岩手県盛岡市盛岡駅西通2丁目10-35", "盛岡駅", 1, 1000, "目安1,000円から", true, true, true, "盛岡駅西口周辺", "https://www.round1.co.jp/shop/tenpo/iwate-morioka.html/iwate-morioka.html"],
+  ["morioka-round1-stadium-darts", "ラウンドワンスタジアム 盛岡店", "darts", "morioka", "岩手県盛岡市盛岡駅西通2丁目10-35", "盛岡駅", 1, 800, "目安800円から", true, true, true, "盛岡駅西口周辺", "https://www.round1.co.jp/shop/tenpo/iwate-morioka.html/iwate-morioka.html"],
+  ["morioka-mandai-seinan-game", "アミューズメントパーク万代盛岡盛南店", "game-center", "morioka", "岩手県盛岡市本宮4丁目40-20", "盛岡駅", 30, 500, "目安500円から", true, true, true, "本宮周辺", "https://shop.mandai-s.jp/detail/26/"],
+  ["morioka-mandai-seinan-crane", "アミューズメントパーク万代盛岡盛南店", "crane-game", "morioka", "岩手県盛岡市本宮4丁目40-20", "盛岡駅", 30, 500, "目安500円から", true, true, true, "本宮周辺", "https://shop.mandai-s.jp/detail/26/"]
 ]
