@@ -128,5 +128,23 @@
   ["tottori-namco-aeonmall-kita-crane", "namcoイオンモール鳥取北店", "crane-game", "tottori", "鳥取県鳥取市晩稲348 イオンモール鳥取北2F", "イオン鳥取北停留所", 1, 500, "目安500円から", true, true, true, "イオンモール鳥取北", "https://bandainamco-am.co.jp/game_center/loc/tottori/"],
   ["tottori-toys-spot-palo-aeonmall-kita-capsule", "TOYS SPOT PALO イオンモール鳥取北店", "capsule-toy", "tottori", "鳥取県鳥取市晩稲348 イオンモール鳥取北2F", "イオン鳥取北停留所", 1, 300, "目安300円から", true, true, true, "イオンモール鳥取北", "https://tottorikita-aeonmall.com/shop/lists/shop_floor_id%3A2"],
   ["matsue-palo-aeon-game", "PALO イオン松江店", "game-center", "matsue", "島根県松江市東朝日町151 イオン松江ショッピングセンター3F", "松江駅", 7, 500, "目安500円から", true, true, true, "イオン松江ショッピングセンター", "https://www.aeon.jp/sc/matsue/shop/store/service-141.html"],
-  ["matsue-palo-aeon-crane", "PALO イオン松江店", "crane-game", "matsue", "島根県松江市東朝日町151 イオン松江ショッピングセンター3F", "松江駅", 7, 500, "目安500円から", true, true, true, "イオン松江ショッピングセンター", "https://www.aeon.jp/sc/matsue/shop/store/service-141.html"]
+  ["matsue-palo-aeon-crane", "PALO イオン松江店", "crane-game", "matsue", "島根県松江市東朝日町151 イオン松江ショッピングセンター3F", "松江駅", 7, 500, "目安500円から", true, true, true, "イオン松江ショッピングセンター", "https://www.aeon.jp/sc/matsue/shop/store/service-141.html"],
+
+  ["tsu-mollyfantasy-tsuminami-game", "モーリーファンタジー 津南店", "game-center", "tsu", "三重県津市高茶屋小森町145 イオンモール津南3F", "高茶屋駅", 14, 500, "目安500円から", true, true, true, "イオンモール津南", "https://www.fantasy.co.jp/shoplist/shop3085/"],
+  ["tsu-mollyfantasy-tsuminami-crane", "モーリーファンタジー 津南店", "crane-game", "tsu", "三重県津市高茶屋小森町145 イオンモール津南3F", "高茶屋駅", 14, 500, "目安500円から", true, true, true, "イオンモール津南", "https://www.fantasy.co.jp/shoplist/shop3085/"],
+  ["tsu-capsule-yokocho-tsuminami-capsule", "カプセル横丁 イオンモール津南店", "capsule-toy", "tsu", "三重県津市高茶屋小森町145 イオンモール津南3F", "高茶屋駅", 14, 300, "目安300円から", true, true, true, "イオンモール津南", "https://tsuminami.aeonmall.jp/shop/189fc3df-6a1a-4272-a439-7f4b82055ae2"],
+  ["matsuyama-gigo-matsuyama-game", "GiGO松山", "game-center", "matsuyama", "愛媛県松山市枝松5-7-32", "福音寺駅", 12, 500, "目安500円から", true, true, true, "枝松周辺", "https://www.gigo.co.jp/shops/matsuyama"],
+  ["matsuyama-gigo-matsuyama-crane", "GiGO松山", "crane-game", "matsuyama", "愛媛県松山市枝松5-7-32", "福音寺駅", 12, 500, "目安500円から", true, true, true, "枝松周辺", "https://www.gigo.co.jp/shops/matsuyama"],
+  ["matsuyama-namco-fujigrand-game", "namcoフジグラン松山店", "game-center", "matsuyama", "愛媛県松山市宮西1-2-1 フジグラン松山店4F", "松山駅", 5, 500, "目安500円から", true, true, true, "フジグラン松山", "https://bandainamco-am.co.jp/game_center/loc/matsuyama/"],
+  ["matsuyama-namco-fujigrand-crane", "namcoフジグラン松山店", "crane-game", "matsuyama", "愛媛県松山市宮西1-2-1 フジグラン松山店4F", "松山駅", 5, 500, "目安500円から", true, true, true, "フジグラン松山", "https://bandainamco-am.co.jp/game_center/loc/matsuyama/"],
+  ["matsuyama-airport-skypark-capsule", "SKY PARK 松山空港", "capsule-toy", "matsuyama", "愛媛県松山市南吉田町2731 松山空港3F", "松山空港停留所", 1, 200, "目安200円から", true, true, false, "松山空港", "https://www.matsuyama-airport.co.jp/service/skypark.html"],
+  ["kanazawa-gigo-alplaza-game", "GiGOアルプラザ金沢", "game-center", "kanazawa", "石川県金沢市諸江町30-1 アル・プラザ金沢2F", "上諸江駅", 7, 500, "目安500円から", true, true, true, "アル・プラザ金沢", "https://www.gigo.co.jp/shops/kanazawa-moroe"],
+  ["kanazawa-gigo-alplaza-crane", "GiGOアルプラザ金沢", "crane-game", "kanazawa", "石川県金沢市諸江町30-1 アル・プラザ金沢2F", "上諸江駅", 7, 500, "目安500円から", true, true, true, "アル・プラザ金沢", "https://www.gigo.co.jp/shops/kanazawa-moroe"],
+  ["kanazawa-gigo-alplaza-capsule", "GiGOアルプラザ金沢", "capsule-toy", "kanazawa", "石川県金沢市諸江町30-1 アル・プラザ金沢2F", "上諸江駅", 7, 300, "目安300円から", true, true, true, "アル・プラザ金沢", "https://www.gigo.co.jp/shops/kanazawa-moroe"],
+  ["kanazawa-gashapon-forus-capsule", "ガシャポンのデパート 金沢フォーラス店", "capsule-toy", "kanazawa", "石川県金沢市堀川新町3-1 金沢フォーラス5F", "金沢駅", 1, 300, "目安300円から", true, true, true, "金沢駅前", "https://www.gashapon.jp/shop/shop.php?paging=5&shop_code=S90000599"],
+  ["kanazawa-gachagacha-mori-mza-capsule", "ガチャガチャの森 金沢エムザ店", "capsule-toy", "kanazawa", "石川県金沢市武蔵町15-1 金沢エムザ3F", "金沢駅", 12, 300, "目安300円から", true, true, true, "武蔵町周辺", "https://www.kmza.jp/mz_shop/post-1815/"],
+  ["toyama-namco-apita-higashi-game", "namcoアピタ富山東店ワンダーボウル", "game-center", "toyama", "富山県富山市上冨居3-8-38 アピタ富山東店2F", "新庄田中駅", 20, 500, "目安500円から", true, true, true, "アピタ富山東", "https://bandainamco-am.co.jp/game_center/loc/bw-toyama-higashi/"],
+  ["toyama-namco-apita-higashi-crane", "namcoアピタ富山東店ワンダーボウル", "crane-game", "toyama", "富山県富山市上冨居3-8-38 アピタ富山東店2F", "新庄田中駅", 20, 500, "目安500円から", true, true, true, "アピタ富山東", "https://bandainamco-am.co.jp/game_center/loc/bw-toyama-higashi/"],
+  ["toyama-taito-favore-game", "タイトーステーション ファボーレ婦中店", "game-center", "toyama", "富山県富山市婦中町下轡田165-1 ファボーレ2F", "速星駅", 15, 500, "目安500円から", true, true, true, "ファボーレ", "https://www.favore.jp/shopguide/detail/?cd=000122"],
+  ["toyama-taito-favore-crane", "タイトーステーション ファボーレ婦中店", "crane-game", "toyama", "富山県富山市婦中町下轡田165-1 ファボーレ2F", "速星駅", 15, 500, "目安500円から", true, true, true, "ファボーレ", "https://www.favore.jp/shopguide/detail/?cd=000122"]
 ]
