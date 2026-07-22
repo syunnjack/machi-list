@@ -715,6 +715,32 @@
     "map_y": 62
   },
   {
+    "prefecture_key": "osaka",
+    "prefecture": "大阪府",
+    "key": "sakai-kita",
+    "path": "sakai/kita",
+    "label": "堺市北区",
+    "city": "堺市",
+    "ward": "北区",
+    "station": "堺市駅・なかもず駅・新金岡駅",
+    "parent": "堺市",
+    "map_x": 48,
+    "map_y": 67
+  },
+  {
+    "prefecture_key": "osaka",
+    "prefecture": "大阪府",
+    "key": "osaka-naniwa",
+    "path": "osaka/naniwa",
+    "label": "大阪市浪速区",
+    "city": "大阪市",
+    "ward": "浪速区",
+    "station": "なんば駅・難波駅・新今宮駅",
+    "parent": "大阪市",
+    "map_x": 49,
+    "map_y": 55
+  },
+  {
     "prefecture_key": "kyoto",
     "prefecture": "京都府",
     "key": "kyoto-nakagyo",
@@ -985,6 +1011,32 @@
     "station": "三ノ宮駅・神戸三宮駅・元町駅",
     "parent": "神戸市",
     "map_x": 50,
+    "map_y": 48
+  },
+  {
+    "prefecture_key": "hyogo",
+    "prefecture": "兵庫県",
+    "key": "amagasaki",
+    "path": "amagasaki",
+    "label": "尼崎市",
+    "city": "尼崎市",
+    "ward": "",
+    "station": "尼崎駅・阪神尼崎駅・塚口駅",
+    "parent": "",
+    "map_x": 58,
+    "map_y": 52
+  },
+  {
+    "prefecture_key": "hyogo",
+    "prefecture": "兵庫県",
+    "key": "himeji",
+    "path": "himeji",
+    "label": "姫路市",
+    "city": "姫路市",
+    "ward": "",
+    "station": "姫路駅・山陽姫路駅",
+    "parent": "",
+    "map_x": 35,
     "map_y": 48
   },
   {
