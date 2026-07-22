@@ -1,0 +1,121 @@
+[
+  {
+    "id": "aichi-toyota-netcafe-sample",
+    "source": {
+      "google_place_id": null,
+      "google_query": "Toyota-shi station internet cafe Aichi",
+      "last_place_sync_at": null
+    },
+    "display": {
+      "name": "Toyota station internet cafe sample",
+      "genre": "net cafe",
+      "prefecture": "Aichi",
+      "city": "Toyota",
+      "ward": "",
+      "area": "Toyota-shi station area",
+      "address": "Toyota-shi station area, Aichi"
+    },
+    "genre_key": "netcafe",
+    "area_key": "toyota",
+    "lat": null,
+    "lng": null,
+    "business_status": "candidate",
+    "opening_hours": "candidate: 24h",
+    "nearest_station": "Toyota-shi Station",
+    "station_walk_minutes": 4,
+    "budget_min": 1200,
+    "budget_label": "from 1200 JPY",
+    "parking": true,
+    "late": true,
+    "coupon": true,
+    "url": "/area/aichi/toyota/netcafe/",
+    "booking": {
+      "provider": "hotpepper",
+      "valuecommerce": true,
+      "target_url": "https://www.hotpepper.jp/SA33/Y223/?keyword=Toyota%20private%20room"
+    },
+    "commerce": {
+      "provider": "rakuten",
+      "keyword": "net cafe goods"
+    }
+  },
+  {
+    "id": "aichi-nagoya-nakamura-game-center-sample",
+    "source": {
+      "google_place_id": null,
+      "google_query": "Nagoya station game center Aichi",
+      "last_place_sync_at": null
+    },
+    "display": {
+      "name": "Nagoya station game center sample",
+      "genre": "game center",
+      "prefecture": "Aichi",
+      "city": "Nagoya",
+      "ward": "Nakamura",
+      "area": "Nagoya station area",
+      "address": "Nagoya station area, Nakamura, Nagoya, Aichi"
+    },
+    "genre_key": "game-center",
+    "area_key": "nagoya-nakamura",
+    "lat": null,
+    "lng": null,
+    "business_status": "candidate",
+    "opening_hours": "10:00-24:00",
+    "nearest_station": "Nagoya Station",
+    "station_walk_minutes": 3,
+    "budget_min": 500,
+    "budget_label": "from 500 JPY",
+    "parking": false,
+    "late": true,
+    "coupon": true,
+    "url": "/area/aichi/nagoya/nakamura/game-center/",
+    "booking": {
+      "provider": "hotpepper",
+      "valuecommerce": true,
+      "target_url": "https://www.hotpepper.jp/SA33/Y200/?keyword=Nagoya%20station"
+    },
+    "commerce": {
+      "provider": "rakuten",
+      "keyword": "game prize"
+    }
+  },
+  {
+    "id": "aichi-okazaki-akiba-shoten-okazaki-kita",
+    "source": {
+      "google_place_id": null,
+      "google_query": "Akiba Shoten Okazaki Kita",
+      "last_place_sync_at": null
+    },
+    "display": {
+      "name": "Akiba Shoten Okazaki Kita",
+      "genre": "adult shop",
+      "prefecture": "Aichi",
+      "city": "Okazaki",
+      "ward": "",
+      "area": "Ida Shinmachi",
+      "address": "1-5 Ida Shinmachi, Okazaki, Aichi"
+    },
+    "genre_key": "adult-shop",
+    "area_key": "okazaki",
+    "lat": null,
+    "lng": null,
+    "business_status": "active",
+    "opening_hours": "10:00-24:00",
+    "nearest_station": "Kita-Okazaki Station",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "varies by item",
+    "parking": true,
+    "late": true,
+    "coupon": false,
+    "url": "/shop/aichi-okazaki-akiba-shoten-okazaki-kita/",
+    "booking": {
+      "provider": "guide",
+      "target_url": "/guide/discreet-buying/"
+    },
+    "commerce": {
+      "provider": "rakuten",
+      "keyword": "love goods"
+    }
+  }
+]

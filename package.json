@@ -1,0 +1,10 @@
+{
+  "name": "machi-list",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check assets/app.js && node --check scripts/google-places-sync.js",
+    "sync:places": "node scripts/google-places-sync.js"
+  }
+}

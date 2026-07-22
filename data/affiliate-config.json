@@ -1,0 +1,23 @@
+{
+  "valuecommerce": {
+    "sid": "YOUR_VC_SID",
+    "pid": "YOUR_VC_PID",
+    "redirect_base": "https://ck.jp.ap.valuecommerce.com/servlet/referral",
+    "target_param": "vc_url"
+  },
+  "hotpepper": {
+    "api_endpoint": "https://webservice.recruit.co.jp/hotpepper/gourmet/v1/",
+    "api_key": "YOUR_RECRUIT_API_KEY",
+    "format": "json"
+  },
+  "rakuten": {
+    "ichiba_item_search_endpoint": "https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701",
+    "application_id": "YOUR_RAKUTEN_APP_ID",
+    "access_key": "YOUR_RAKUTEN_ACCESS_KEY",
+    "affiliate_id": "YOUR_RAKUTEN_AFFILIATE_ID",
+    "format": "json",
+    "format_version": 2,
+    "default_sort": "+itemPrice"
+  },
+  "note": "画面には提携名を出さず、予約・クーポン・関連商品のリンク先だけを用途に合わせて差し替えます。"
+}

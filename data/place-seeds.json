@@ -1,0 +1,72 @@
+[
+  {
+    "query": "Kintaro Nagoya adult shop",
+    "genre_key": "adult-shop",
+    "area_key": "nagoya",
+    "prefecture": "Aichi",
+    "brand": "Kintaro"
+  },
+  {
+    "query": "Kintaro Aichi adult shop",
+    "genre_key": "adult-shop",
+    "area_key": "aichi",
+    "prefecture": "Aichi",
+    "brand": "Kintaro"
+  },
+  {
+    "query": "Takumi Shoten Okazaki Aichi",
+    "genre_key": "adult-shop",
+    "area_key": "okazaki",
+    "prefecture": "Aichi",
+    "brand": "Takumi Shoten"
+  },
+  {
+    "query": "Takumi Shoten Obu Aichi",
+    "genre_key": "adult-shop",
+    "area_key": "obu",
+    "prefecture": "Aichi",
+    "brand": "Takumi Shoten"
+  },
+  {
+    "query": "Zero Shiki Shoten Owariasahi Aichi",
+    "genre_key": "adult-shop",
+    "area_key": "owariasahi",
+    "prefecture": "Aichi",
+    "brand": "Zero Shiki Shoten"
+  },
+  {
+    "query": "Akiba Shoten Okazaki Kita",
+    "genre_key": "adult-shop",
+    "area_key": "okazaki",
+    "prefecture": "Aichi",
+    "brand": "Akiba Shoten"
+  },
+  {
+    "query": "Nagoya station game center",
+    "genre_key": "game-center",
+    "area_key": "nagoya-nakamura",
+    "prefecture": "Aichi",
+    "brand": null
+  },
+  {
+    "query": "Toyota-shi station internet cafe",
+    "genre_key": "netcafe",
+    "area_key": "toyota",
+    "prefecture": "Aichi",
+    "brand": null
+  },
+  {
+    "query": "Sakae Nagoya karaoke",
+    "genre_key": "karaoke",
+    "area_key": "nagoya-naka",
+    "prefecture": "Aichi",
+    "brand": null
+  },
+  {
+    "query": "Sakae Nagoya sauna",
+    "genre_key": "sauna",
+    "area_key": "nagoya-naka",
+    "prefecture": "Aichi",
+    "brand": null
+  }
+]
