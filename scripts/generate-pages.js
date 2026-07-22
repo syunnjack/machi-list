@@ -139,6 +139,13 @@ function genreLinks(area, depth) {
   return genres.map((genre) => `<a href="${home(depth)}area/${area.prefecture_key}/${area.path}/${genre.key}/">${area.label}の${genre.label}</a>`).join("");
 }
 
+function genreLandingHref(genre, depth) {
+  const shop = shops.find((item) => item.genre_key === genre.key);
+  if (shop) return `${home(depth)}area/${shop.prefecture_key}/${shop.area_path}/${genre.key}/`;
+  const area = areas[0];
+  return `${home(depth)}area/${area.prefecture_key}/${area.path}/${genre.key}/`;
+}
+
 function prefectureIndex(prefecture) {
   const prefAreas = areasFor(prefecture.key);
   const prefShops = shopsForPref(prefecture.key);
@@ -221,7 +228,7 @@ function categoryIndex() {
         <h1>ジャンルから探す</h1>
         <p>行きたい施設の種類を選んで、市区町村別の一覧へ進めます。</p>
       </header>
-      <section class="answer-box"><h2>ジャンル一覧</h2><div class="category-grid">${genres.map((genre) => `<a id="${genre.key}" class="category-card" href="${home(depth)}area/aichi/okazaki/${genre.key}/"><span class="category-icon">${genre.label.slice(0, 1)}</span><strong>${genre.label}</strong><small>${genre.description}</small></a>`).join("")}</div></section>
+      <section class="answer-box"><h2>ジャンル一覧</h2><div class="category-grid">${genres.map((genre) => `<a id="${genre.key}" class="category-card" href="${genreLandingHref(genre, depth)}"><span class="category-icon">${genre.label.slice(0, 1)}</span><strong>${genre.label}</strong><small>${genre.description}</small></a>`).join("")}</div></section>
       <section class="section"><h2>都道府県</h2><div class="link-grid">${prefectures.map((pref) => `<a href="${home(depth)}area/${pref.key}/">${pref.label}</a>`).join("")}</div></section>`;
 
   write(path.join(root, "category", "index.html"), pageShell({

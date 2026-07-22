@@ -90,6 +90,19 @@ const fixes = {
 };
 
 const additions = [
+  ["gifu-gifu-kaikatsu-hozumi", "快活CLUB 岐阜穂積店", "netcafe", "gifu", "岐阜県岐阜市西河渡3-68-2", "西岐阜駅", 30, 1200, "目安1,200円から", true, true, true, "西河渡周辺", "https://www.kaikatsu.jp/shop/result.html?area=21"],
+  ["gifu-gifu-kaikatsu-yanaizu", "快活CLUB 岐阜柳津店", "netcafe", "gifu", "岐阜県岐阜市柳津町本郷4-113 タイヨーボービル1F", "柳津駅", 10, 1200, "目安1,200円から", true, true, true, "柳津町周辺", "https://www.kaikatsu.jp/shop/result.html?area=21"],
+  ["gifu-gifu-karaoke-happy-iwasaki", "カラオケハッピー 岩崎店", "karaoke", "gifu", "岐阜県岐阜市岩崎1008-1", "名鉄岐阜駅", 70, 900, "目安900円から", true, true, true, "岩崎周辺", "https://www.karaoke-happy.com/"],
+  ["gifu-gifu-manekineko-fukumitsu", "カラオケまねきねこ 岐阜福光店", "karaoke", "gifu", "岐阜県岐阜市福光西2-3-15", "名鉄岐阜駅", 55, 900, "目安900円から", true, true, true, "福光西周辺", "https://www.karaokemanekineko.jp/"],
+  ["gifu-ginan-ginanonsen", "ぎなん温泉", "spa", "ginan", "岐阜県羽島郡岐南町上印食9-59-1", "細畑駅", 18, 800, "目安800円から", true, true, true, "上印食周辺", "https://www.ginanonsen.jp/"],
+  ["mie-tsu-kaiteki-club", "快適CLUB 津店", "netcafe", "tsu", "三重県津市栄町3-232 アポアホテル津", "津駅", 2, 1200, "目安1,200円から", false, true, false, "津駅東口周辺", "https://kaitekiclub.com/%E5%BF%AB%E9%81%A9club%E3%80%80%E6%B4%A5%E5%BA%97/"],
+  ["mie-tsu-kaikatsu-23-tsuminami", "快活CLUB 23号津南店", "netcafe", "tsu", "三重県津市雲出本郷町松縄1746", "高茶屋駅", 15, 1200, "目安1,200円から", true, true, true, "雲出本郷町周辺", "https://www.kaikatsu.jp/shop/result.html?area=24"],
+  ["mie-yokkaichi-kaikatsu-nishishinchi", "快活CLUB 四日市西新地店", "netcafe", "yokkaichi", "三重県四日市市西新地17-1", "近鉄四日市駅", 9, 1200, "目安1,200円から", true, true, true, "西新地周辺", "https://www.kaikatsu.jp/shop/result.html?area=24"],
+  ["mie-yokkaichi-kaikatsu-oiwake", "快活CLUB 四日市追分店", "netcafe", "yokkaichi", "三重県四日市市小古曽東1-1-2", "追分駅", 7, 1200, "目安1,200円から", true, true, true, "小古曽東周辺", "https://www.kaikatsu.jp/shop/detail/20479.html"],
+  ["mie-yokkaichi-kaiteki-club", "快適CLUB 四日市店", "netcafe", "yokkaichi", "三重県四日市市鵜の森2-1-4", "近鉄四日市駅", 7, 1200, "目安1,200円から", true, true, false, "鵜の森周辺", "https://kaitekiclub.com/%E5%BF%AB%E9%81%A9club%E3%80%80%E5%9B%9B%E6%97%A5%E5%B8%82%E5%BA%97/"],
+  ["mie-yokkaichi-manekineko-kintetsu", "カラオケまねきねこ 近鉄四日市店", "karaoke", "yokkaichi", "三重県四日市市諏訪栄町10-7 ことぶきビル3F-4F", "近鉄四日市駅", 3, 900, "目安900円から", false, true, true, "諏訪栄町周辺", "https://www.karaokemanekineko.jp/store/kintetsu-yokkaichi-store/"],
+  ["mie-yokkaichi-joyjoy-kintetsu", "カラオケJOYJOY 近鉄四日市店", "karaoke", "yokkaichi", "三重県四日市市諏訪栄町4-8", "近鉄四日市駅", 2, 900, "目安900円から", true, true, true, "諏訪栄町周辺", "https://www.joyjoy.co.jp/store/view/Kintetsu-Yokkaichi/zlib/inftrees"],
+  ["mie-yokkaichi-mantennoyu", "三滝温泉 満殿の湯", "spa", "yokkaichi", "三重県四日市市末永町6-6", "川原町駅", 3, 600, "目安600円から", true, true, true, "川原町駅周辺", "https://www.mantennoyu.net/"],
   ["aichi-nagoya-naka-mocha-sakae", "猫カフェMOCHA 名古屋栄店", "cat-cafe", "nagoya-naka", "愛知県名古屋市中区栄3-32-6 BECOME SAKAE 2F", "矢場町駅", 1, 1200, "目安1,200円から", false, true, true, "栄・矢場町周辺", "https://catmocha.jp/shop/nagoya/"],
   ["aichi-nagoya-nishi-mocha-noritake", "猫カフェMOCHA イオンモール Nagoya Noritake Garden店", "cat-cafe", "nagoya-nishi", "愛知県名古屋市西区則武新町3-1-17 イオンモールNagoya Noritake Garden 3F", "亀島駅", 6, 1200, "目安1,200円から", true, true, true, "則武新町周辺", "https://catmocha.jp/shoplist/"],
   ["aichi-nagoya-minato-mocha-aquls", "猫カフェMOCHA ららぽーと名古屋みなとアクルス店", "cat-cafe", "nagoya-minato", "愛知県名古屋市港区港明2-3-2 ららぽーと名古屋みなとアクルス1F", "港区役所駅", 5, 1200, "目安1,200円から", true, true, true, "港明周辺", "https://catmocha.jp/shoplist/"],
