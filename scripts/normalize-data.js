@@ -90,6 +90,22 @@ const fixes = {
 };
 
 const additions = [
+  ["hokkaido-sapporo-kaikatsu-south", "快活CLUB 札幌駅南口店", "netcafe", "sapporo-chuo", "北海道札幌市中央区北4条西2-1-2 キタコートレードビル4F", "札幌駅", 1, 1100, "目安1,100円から", false, true, true, "札幌駅南口周辺", "https://www.kaikatsu.jp/shop/detail/20107.html"],
+  ["hokkaido-sapporo-manekineko-ekimae", "カラオケまねきねこ 札幌駅前店", "karaoke", "sapporo-chuo", "北海道札幌市中央区北4条西1丁目4-1", "さっぽろ駅", 2, 900, "目安900円から", true, true, true, "札幌駅前周辺", "https://www.karaokemanekineko.jp/locations/hokkaido/sapporo/sapporo-ekimae-store/"],
+  ["hokkaido-sapporo-gigo-west", "GiGO札幌駅西口", "game-center", "sapporo-chuo", "北海道札幌市北区北六条西6丁目1-1 WEST6", "札幌駅", 5, 1000, "目安1,000円から", false, true, false, "札幌駅西口周辺", "https://www.gigo.co.jp/shops/sapporo-nishiguchi"],
+  ["miyagi-sendai-kaikatsu-ichibancho", "快活CLUB 仙台一番町店", "netcafe", "sendai-aoba", "宮城県仙台市青葉区一番町4-5-13 ボウルサンシャインビル2F", "広瀬通駅", 5, 1200, "目安1,200円から", false, true, true, "一番町周辺", "https://www.kaikatsu.jp/shop/detail/20138.html"],
+  ["miyagi-sendai-manekineko-ichibancho", "カラオケまねきねこ 仙台一番町店", "karaoke", "sendai-aoba", "宮城県仙台市青葉区一番町4-4-33 トレンドビル4F", "勾当台公園駅", 3, 900, "目安900円から", false, true, true, "一番町周辺", "https://www.karaokemanekineko.jp/locations/miyagi/sendai-shi/sendai-ichibancho-store/"],
+  ["miyagi-sendai-gigo", "GiGO仙台", "game-center", "sendai-aoba", "宮城県仙台市青葉区中央2-5-5 三経60ビル", "広瀬通駅", 5, 1000, "目安1,000円から", false, true, false, "仙台駅西口周辺", "https://www.gigo.co.jp/shops/sendai"],
+  ["hyogo-kobe-kaikatsu-sannomiya", "快活CLUB 三宮駅前店", "netcafe", "kobe-chuo", "兵庫県神戸市中央区旭通5-3-2 タツミビルディング6-8F", "三宮駅", 4, 1200, "目安1,200円から", false, true, true, "三宮駅前周辺", "https://www.kaikatsu.jp/shop/detail/20562.html"],
+  ["hyogo-kobe-manekineko-kitanozaka", "カラオケまねきねこ 北野坂店", "karaoke", "kobe-chuo", "兵庫県神戸市中央区加納町4丁目5-2 北野坂スクウェアビル1-3F", "三宮駅", 5, 900, "目安900円から", false, true, true, "北野坂周辺", "https://www.karaokemanekineko.jp/store/kitanozaka-store/"],
+  ["hyogo-kobe-gigo-sannomiya", "GiGO三宮南口", "game-center", "kobe-chuo", "兵庫県神戸市中央区三宮町1-7-17 三慶ビル", "三ノ宮駅", 1, 1000, "目安1,000円から", false, true, false, "三宮南口周辺", "https://www.gigo.co.jp/shops/sannomiya-minamiguchi"],
+  ["hyogo-kobe-mocha-sannomiya", "猫カフェMOCHA 三宮店", "cat-cafe", "kobe-chuo", "兵庫県神戸市中央区下山手通2丁目1-14 アークコースト5F", "三宮駅", 1, 1200, "目安1,200円から", false, true, true, "三宮駅周辺", "https://catmocha.jp/shop/kobesannomiya/"],
+  ["hiroshima-naka-kaikatsu-hondori", "快活CLUB 広島本通店", "netcafe", "hiroshima-naka", "広島県広島市中区本通9-25", "立町駅", 3, 1200, "目安1,200円から", false, true, true, "本通周辺", "https://www.kaikatsu.jp/shop/detail/20893.html"],
+  ["hiroshima-naka-gigo-hondori", "GiGO広島本通", "game-center", "hiroshima-naka", "広島県広島市中区本通9-30 ランドマークビル1F・B1", "本通駅", 5, 1000, "目安1,000円から", false, true, false, "本通周辺", "https://www.gigo.co.jp/shops/hiroshima-hondori"],
+  ["hiroshima-naka-manekineko-chuodori", "カラオケまねきねこ 広島中央通り店", "karaoke", "hiroshima-naka", "広島県広島市中区堀川町4-11 HIROSHIMA CENTER BLD.2-3F", "八丁堀駅", 2, 900, "目安900円から", false, true, true, "中央通り周辺", "https://www.karaokemanekineko.jp/locations/hiroshima/hiroshima-shi/hiroshima-chuodori-store/"],
+  ["fukuoka-hakata-manekineko-ekimae", "カラオケまねきねこ 博多駅前店", "karaoke", "fukuoka-hakata", "福岡県福岡市博多区博多駅東2丁目4-6 ハカタベビル4・5F", "博多駅", 3, 900, "目安900円から", false, true, true, "博多駅前周辺", "https://www.karaokemanekineko.jp/store/hakata-ekimae-store/"],
+  ["fukuoka-chuo-gigo-tenjin", "GiGO福岡天神", "game-center", "fukuoka-chuo", "福岡県福岡市中央区天神2-7-6 DADAビル", "西鉄福岡駅", 3, 1000, "目安1,000円から", false, true, false, "天神周辺", "https://www.gigo.co.jp/shops/fukuoka-tenjin"],
+  ["fukuoka-chuo-mocha-tenjindaimyo", "猫カフェMOCHA 天神大名店", "cat-cafe", "fukuoka-chuo", "福岡県福岡市中央区大名1-12-6 NEO大名ビル3F", "赤坂駅", 8, 1200, "目安1,200円から", false, true, true, "天神大名周辺", "https://catmocha.jp/shop/tenjindaimyo/"],
   ["tokyo-shinjuku-kaikatsu-west", "快活CLUB 新宿駅西口店", "netcafe", "tokyo-shinjuku", "東京都新宿区西新宿1-8-5 アルファ107ビル4F", "新宿駅", 3, 1200, "目安1,200円から", false, true, true, "西新宿周辺", "https://www.kaikatsu.jp/shop/result.html?area=13"],
   ["tokyo-shinjuku-kaikatsu-east", "快活CLUB 新宿駅東口店", "netcafe", "tokyo-shinjuku", "東京都新宿区新宿3丁目34-11 ピースビル6・7階", "新宿駅", 3, 1200, "目安1,200円から", false, true, true, "新宿三丁目周辺", "https://www.kaikatsu.jp/shop/result.html?area=13"],
   ["tokyo-shinjuku-joysound-west", "JOYSOUND 新宿西口店", "karaoke", "tokyo-shinjuku", "東京都新宿区西新宿1-12-1 高倉第一ビル 受付2F", "新宿駅", 5, 1000, "目安1,000円から", false, true, true, "西新宿周辺", "https://shop.joysound.com/shop/joysound-shinjukunishiguchi/"],

@@ -3,7 +3,7 @@ const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
 const siteUrl = "https://machi-list.jp";
-const today = "2026-07-22";
+const today = "2026-07-23";
 
 const shops = readJson("data/shops.json");
 const areas = readJson("data/areas.json");
@@ -17,7 +17,12 @@ const prefectures = [
   { key: "tokyo", label: "東京都" },
   { key: "osaka", label: "大阪府" },
   { key: "kyoto", label: "京都府" },
-  { key: "kanagawa", label: "神奈川県" }
+  { key: "kanagawa", label: "神奈川県" },
+  { key: "hokkaido", label: "北海道" },
+  { key: "miyagi", label: "宮城県" },
+  { key: "hyogo", label: "兵庫県" },
+  { key: "hiroshima", label: "広島県" },
+  { key: "fukuoka", label: "福岡県" }
 ];
 
 function readJson(relativePath) {

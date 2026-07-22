@@ -596,5 +596,83 @@
     "parent": "横浜市",
     "map_x": 46,
     "map_y": 48
+  },
+  {
+    "prefecture_key": "hokkaido",
+    "prefecture": "北海道",
+    "key": "sapporo-chuo",
+    "path": "sapporo/chuo",
+    "label": "札幌市中央区",
+    "city": "札幌市",
+    "ward": "中央区",
+    "station": "札幌駅・大通駅・すすきの駅",
+    "parent": "札幌市",
+    "map_x": 42,
+    "map_y": 48
+  },
+  {
+    "prefecture_key": "miyagi",
+    "prefecture": "宮城県",
+    "key": "sendai-aoba",
+    "path": "sendai/aoba",
+    "label": "仙台市青葉区",
+    "city": "仙台市",
+    "ward": "青葉区",
+    "station": "仙台駅・広瀬通駅・勾当台公園駅",
+    "parent": "仙台市",
+    "map_x": 50,
+    "map_y": 45
+  },
+  {
+    "prefecture_key": "hyogo",
+    "prefecture": "兵庫県",
+    "key": "kobe-chuo",
+    "path": "kobe/chuo",
+    "label": "神戸市中央区",
+    "city": "神戸市",
+    "ward": "中央区",
+    "station": "三ノ宮駅・神戸三宮駅・元町駅",
+    "parent": "神戸市",
+    "map_x": 50,
+    "map_y": 48
+  },
+  {
+    "prefecture_key": "hiroshima",
+    "prefecture": "広島県",
+    "key": "hiroshima-naka",
+    "path": "hiroshima/naka",
+    "label": "広島市中区",
+    "city": "広島市",
+    "ward": "中区",
+    "station": "本通駅・立町駅・八丁堀駅",
+    "parent": "広島市",
+    "map_x": 49,
+    "map_y": 50
+  },
+  {
+    "prefecture_key": "fukuoka",
+    "prefecture": "福岡県",
+    "key": "fukuoka-hakata",
+    "path": "fukuoka/hakata",
+    "label": "福岡市博多区",
+    "city": "福岡市",
+    "ward": "博多区",
+    "station": "博多駅・祇園駅・中洲川端駅",
+    "parent": "福岡市",
+    "map_x": 51,
+    "map_y": 48
+  },
+  {
+    "prefecture_key": "fukuoka",
+    "prefecture": "福岡県",
+    "key": "fukuoka-chuo",
+    "path": "fukuoka/chuo",
+    "label": "福岡市中央区",
+    "city": "福岡市",
+    "ward": "中央区",
+    "station": "天神駅・西鉄福岡駅・赤坂駅",
+    "parent": "福岡市",
+    "map_x": 48,
+    "map_y": 45
   }
 ]
