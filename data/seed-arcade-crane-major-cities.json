@@ -89,5 +89,12 @@
   ["fukui-gashacoco-curu-f-capsule", "gashacoco くるふ福井駅", "capsule-toy", "fukui", "福井県福井市中央1丁目1-25", "福井駅", 1, 300, "目安300円から", false, true, true, "福井駅前", "https://gashacoco.jp/shop-list/3208"],
   ["toyama-gachagacha-favore-capsule", "ガチャガチャの森 ファボーレ店", "capsule-toy", "toyama", "富山県富山市婦中町下轡田165-1 ファボーレ 2F", "速星駅", 15, 300, "目安300円から", true, true, true, "ファボーレ周辺", "https://www.favore.jp/shopguide/detail/?cd=000275"],
   ["toyama-gashapon-fujinoki-capsule", "本屋さんのガシャポンのデパート TSUTAYA BOOKSTORE藤の木店", "capsule-toy", "toyama", "富山県富山市開1325 TSUTAYA BOOKSTORE藤の木店内", "越中荏原駅", 35, 300, "目安300円から", true, true, true, "藤の木周辺", "https://bandainamco-am.co.jp/others/capsule-toy-store/store/fujinoki/"],
-  ["matsue-toys-spot-palo-capsule", "TOYS SPOT PALO 松江店", "capsule-toy", "matsue", "島根県松江市東朝日町151 イオン松江ショッピングセンター 2F", "松江駅", 7, 300, "目安300円から", true, true, true, "イオン松江周辺", "https://www.fantasy.co.jp/shoplist/shop-tsp3777/"]
+  ["matsue-toys-spot-palo-capsule", "TOYS SPOT PALO 松江店", "capsule-toy", "matsue", "島根県松江市東朝日町151 イオン松江ショッピングセンター 2F", "松江駅", 7, 300, "目安300円から", true, true, true, "イオン松江周辺", "https://www.fantasy.co.jp/shoplist/shop-tsp3777/"],
+
+  ["yamagata-capsule-salon-spal-capsule", "カプセルサロン S-PAL山形", "capsule-toy", "yamagata", "山形県山形市香澄町1-1-1 S-PAL山形 4F", "山形駅", 1, 300, "目安300円から", false, true, true, "山形駅ビル", "https://www.s-pal.jp/yamagata/floormap/%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%E3%82%B5%E3%83%AD%E3%83%B3/"],
+  ["nara-amusement-cue-sanjyo-game", "アミューズメントCUE 奈良三条店", "game-center", "nara", "奈良県奈良市三条町478-1", "奈良駅", 5, 500, "目安500円から", true, true, true, "三条町周辺", "https://www.am-cue.com/store/amusement-cue-nara-sanjyou/"],
+  ["nara-amusement-cue-sanjyo-crane", "アミューズメントCUE 奈良三条店", "crane-game", "nara", "奈良県奈良市三条町478-1", "奈良駅", 5, 500, "目安500円から", true, true, true, "三条町周辺", "https://www.am-cue.com/store/amusement-cue-nara-sanjyou/"],
+  ["nara-amusement-cue-sanjyo-capsule", "アミューズメントCUE 奈良三条店", "capsule-toy", "nara", "奈良県奈良市三条町478-1", "奈良駅", 5, 300, "目安300円から", true, true, true, "三条町周辺", "https://www.am-cue.com/store/amusement-cue-nara-sanjyou/"],
+  ["nara-gashacoco-minara-capsule", "ガシャココ ミ・ナーラ店", "capsule-toy", "nara", "奈良県奈良市二条大路南1-3-1 ミ・ナーラ 3F", "新大宮駅", 13, 300, "目安300円から", true, true, true, "ミ・ナーラ周辺", "https://www.mina-ra.com/shop/index.jsp?bf=1&fmt=6&shopid=31110"],
+  ["otsu-cpla-foleo-capsule", "#C-pla フォレオ大津一里山店", "capsule-toy", "otsu", "滋賀県大津市一里山7丁目1-1 フォレオ大津一里山 1F", "瀬田駅", 25, 300, "目安300円から", true, true, true, "フォレオ大津一里山", "https://otsu.foleo.jp/shop/9578/"]
 ]
