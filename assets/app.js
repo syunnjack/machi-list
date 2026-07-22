@@ -13,9 +13,11 @@ const text = {
   booking: "予約",
   guide: "買い方",
   related: "関連商品",
+  supplies: "軽食・備品",
   online: "通販",
   event: "大会・イベント",
   tools: "道具",
+  ticket: "上映・チケット",
   map: "地図",
   route: "ルート",
   parking: "駐車場",
@@ -93,7 +95,10 @@ function toolKeyword(genreKey, label) {
   return {
     darts: "ダーツ バレル フライト",
     bowling: "ボウリング ボール シューズ",
-    billiards: "ビリヤード キュー チョーク"
+    billiards: "ビリヤード キュー チョーク",
+    netcafe: "ネットカフェ 備品 軽食",
+    "movie-theater": "映画 前売り券",
+    "video-box": "軽食 充電器 アメニティ"
   }[genreKey] || `${label} 関連商品`;
 }
 
@@ -213,12 +218,15 @@ function sortFacilities(results) {
 function actionLabel(facility) {
   if (facility.genreKey === "adult-shop") return text.guide;
   if (isEventGenre(facility.genreKey)) return text.event;
+  if (facility.genreKey === "movie-theater") return text.ticket;
+  if (facility.genreKey === "video-box") return "店舗を確認";
   return text.booking;
 }
 
 function relatedLabel(facility) {
   if (facility.genreKey === "adult-shop") return text.online;
   if (isEventGenre(facility.genreKey)) return text.tools;
+  if (facility.genreKey === "netcafe" || facility.genreKey === "video-box") return text.supplies;
   return text.related;
 }
 

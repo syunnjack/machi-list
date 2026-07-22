@@ -53,5 +53,15 @@
     "key": "billiards",
     "label": "ビリヤード",
     "description": "台数、駅からの近さ、料金目安、レッスンやイベントの確認先を見られます。"
+  },
+  {
+    "key": "movie-theater",
+    "label": "映画館",
+    "description": "上映時間、座席予約、駐車場、同じ施設内で遊べる店舗を確認できます。"
+  },
+  {
+    "key": "video-box",
+    "label": "ビデオボックス",
+    "description": "個室で休めるDVD鑑賞・試写室、シャワー、軽食、駐車場を確認できます。"
   }
 ]

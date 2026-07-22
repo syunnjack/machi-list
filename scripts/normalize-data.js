@@ -37,7 +37,10 @@ function toolKeyword(genreKey, label) {
   return {
     darts: "ダーツ バレル フライト",
     bowling: "ボウリング ボール シューズ",
-    billiards: "ビリヤード キュー チョーク"
+    billiards: "ビリヤード キュー チョーク",
+    netcafe: "ネットカフェ 備品 軽食",
+    "movie-theater": "映画 前売り券",
+    "video-box": "軽食 充電器 アメニティ"
   }[genreKey] || `${label} 関連商品`;
 }
 
@@ -53,7 +56,9 @@ function defaultHours(genreKey) {
     restaurant: "夜まで営業",
     darts: "夜まで営業",
     bowling: "営業時間確認",
-    billiards: "夜まで営業"
+    billiards: "夜まで営業",
+    "movie-theater": "上映時間確認",
+    "video-box": "24時間営業"
   }[genreKey] || "営業時間確認";
 }
 
@@ -83,6 +88,12 @@ function normalizeShop(shop) {
 
   if (!shop.official_url) shop.official_url = "";
   if (!shop.booking_url && shop.genre_key === "cat-cafe" && shop.official_url) {
+    shop.booking_url = shop.official_url;
+  }
+  if (!shop.booking_url && shop.genre_key === "movie-theater" && shop.official_url) {
+    shop.booking_url = shop.official_url;
+  }
+  if (!shop.booking_url && shop.genre_key === "video-box" && shop.official_url) {
     shop.booking_url = shop.official_url;
   }
   if (!shop.booking_url && isEventGenre(shop.genre_key)) {
@@ -241,7 +252,82 @@ const additions = [
   ["kanagawa-yokohama-nishi-bagus-darts", "バグース 横浜西口店", "darts", "yokohama-nishi", "神奈川県横浜市西区北幸1-1-13 Comfort178横浜駅前ビルディング5F", "横浜駅", 1, 1000, "目安1,000円から", false, true, true, "横浜駅西口周辺", "https://www.bagus-99.com/shops/b_yokohama_nishiguchi/"],
   ["kanagawa-yokohama-nishi-bagus-billiards", "バグース 横浜西口店", "billiards", "yokohama-nishi", "神奈川県横浜市西区北幸1-1-13 Comfort178横浜駅前ビルディング5F", "横浜駅", 1, 1000, "目安1,000円から", false, true, true, "横浜駅西口周辺", "https://www.bagus-99.com/shops/b_yokohama_nishiguchi/"],
   ["fukuoka-chuo-bagus-tenjin-darts", "バグース 天神店", "darts", "fukuoka-chuo", "福岡県福岡市中央区天神2-6-32 ジェムキャッスルサザン通り4F", "天神駅", 4, 1000, "目安1,000円から", false, true, true, "天神周辺", "https://bagus-99.com/shops/main/room/?shop=b_tenjin&uri=room"],
-  ["fukuoka-chuo-bagus-tenjin-billiards", "バグース 天神店", "billiards", "fukuoka-chuo", "福岡県福岡市中央区天神2-6-32 ジェムキャッスルサザン通り4F", "天神駅", 4, 1000, "目安1,000円から", false, true, true, "天神周辺", "https://bagus-99.com/shops/main/room/?shop=b_tenjin&uri=room"]
+  ["fukuoka-chuo-bagus-tenjin-billiards", "バグース 天神店", "billiards", "fukuoka-chuo", "福岡県福岡市中央区天神2-6-32 ジェムキャッスルサザン通り4F", "天神駅", 4, 1000, "目安1,000円から", false, true, true, "天神周辺", "https://bagus-99.com/shops/main/room/?shop=b_tenjin&uri=room"],
+  ["aichi-nagoya-nakagawa-round1-bowling", "ラウンドワンスタジアム 中川1号線店", "bowling", "nagoya-nakagawa", "愛知県名古屋市中川区法蔵町2丁目23番", "中島駅", 10, 700, "目安700円から", true, true, true, "中川運河周辺", "https://news.round1.co.jp/shop/tenpo/aichi-nakagawa1.html"],
+  ["aichi-nagoya-nakagawa-round1-karaoke", "ラウンドワンスタジアム 中川1号線店", "karaoke", "nagoya-nakagawa", "愛知県名古屋市中川区法蔵町2丁目23番", "中島駅", 10, 1000, "目安1,000円から", true, true, true, "中川運河周辺", "https://news.round1.co.jp/shop/tenpo/aichi-nakagawa1.html"],
+  ["aichi-nagoya-nakagawa-round1-game", "ラウンドワンスタジアム 中川1号線店", "game-center", "nagoya-nakagawa", "愛知県名古屋市中川区法蔵町2丁目23番", "中島駅", 10, 500, "目安500円から", true, true, true, "中川運河周辺", "https://news.round1.co.jp/shop/tenpo/aichi-nakagawa1.html"],
+  ["aichi-nagoya-nakagawa-round1-darts", "ラウンドワンスタジアム 中川1号線店", "darts", "nagoya-nakagawa", "愛知県名古屋市中川区法蔵町2丁目23番", "中島駅", 10, 1000, "目安1,000円から", true, true, true, "中川運河周辺", "https://news.round1.co.jp/shop/tenpo/aichi-nakagawa1.html"],
+  ["aichi-nagoya-midori-round1-bowling", "ラウンドワン 鳴海店", "bowling", "nagoya-midori", "愛知県名古屋市緑区鳴海町杜若28番地", "野並駅", 5, 700, "目安700円から", true, true, true, "野並駅周辺", "https://news.round1.co.jp/shop/tenpo/aichi-narumi.html"],
+  ["aichi-nagoya-midori-round1-karaoke", "ラウンドワン 鳴海店", "karaoke", "nagoya-midori", "愛知県名古屋市緑区鳴海町杜若28番地", "野並駅", 5, 1000, "目安1,000円から", true, true, true, "野並駅周辺", "https://news.round1.co.jp/shop/tenpo/aichi-narumi.html"],
+  ["aichi-nagoya-midori-round1-game", "ラウンドワン 鳴海店", "game-center", "nagoya-midori", "愛知県名古屋市緑区鳴海町杜若28番地", "野並駅", 5, 500, "目安500円から", true, true, true, "野並駅周辺", "https://news.round1.co.jp/shop/tenpo/aichi-narumi.html"],
+  ["aichi-nagoya-midori-round1-darts", "ラウンドワン 鳴海店", "darts", "nagoya-midori", "愛知県名古屋市緑区鳴海町杜若28番地", "野並駅", 5, 1000, "目安1,000円から", true, true, true, "野並駅周辺", "https://news.round1.co.jp/shop/tenpo/aichi-narumi.html"],
+  ["aichi-handa-round1-bowling", "ラウンドワンスタジアム 半田店", "bowling", "handa", "愛知県半田市瑞穂町6丁目7番地の8", "知多半田駅", 25, 700, "目安700円から", true, true, true, "瑞穂町周辺", "https://news.round1.co.jp/shop/tenpo/aichi-handa.html"],
+  ["aichi-handa-round1-karaoke", "ラウンドワンスタジアム 半田店", "karaoke", "handa", "愛知県半田市瑞穂町6丁目7番地の8", "知多半田駅", 25, 1000, "目安1,000円から", true, true, true, "瑞穂町周辺", "https://news.round1.co.jp/shop/tenpo/aichi-handa.html"],
+  ["aichi-handa-round1-game", "ラウンドワンスタジアム 半田店", "game-center", "handa", "愛知県半田市瑞穂町6丁目7番地の8", "知多半田駅", 25, 500, "目安500円から", true, true, true, "瑞穂町周辺", "https://news.round1.co.jp/shop/tenpo/aichi-handa.html"],
+  ["aichi-handa-round1-darts", "ラウンドワンスタジアム 半田店", "darts", "handa", "愛知県半田市瑞穂町6丁目7番地の8", "知多半田駅", 25, 1000, "目安1,000円から", true, true, true, "瑞穂町周辺", "https://news.round1.co.jp/shop/tenpo/aichi-handa.html"],
+  ["aichi-toyohashi-round1-bowling", "ラウンドワンスタジアム 豊橋店", "bowling", "toyohashi", "愛知県豊橋市大岩町字岩田27番地-2", "二川駅", 10, 700, "目安700円から", true, true, true, "二川駅周辺", "https://www.round1.co.jp/shop/tenpo/aichi-toyohashi.html"],
+  ["aichi-toyohashi-round1-karaoke", "ラウンドワンスタジアム 豊橋店", "karaoke", "toyohashi", "愛知県豊橋市大岩町字岩田27番地-2", "二川駅", 10, 1000, "目安1,000円から", true, true, true, "二川駅周辺", "https://www.round1.co.jp/shop/tenpo/aichi-toyohashi.html"],
+  ["aichi-toyohashi-round1-game", "ラウンドワンスタジアム 豊橋店", "game-center", "toyohashi", "愛知県豊橋市大岩町字岩田27番地-2", "二川駅", 10, 500, "目安500円から", true, true, true, "二川駅周辺", "https://www.round1.co.jp/shop/tenpo/aichi-toyohashi.html"],
+  ["aichi-toyohashi-round1-darts", "ラウンドワンスタジアム 豊橋店", "darts", "toyohashi", "愛知県豊橋市大岩町字岩田27番地-2", "二川駅", 10, 1000, "目安1,000円から", true, true, true, "二川駅周辺", "https://www.round1.co.jp/shop/tenpo/aichi-toyohashi.html"],
+  ["aichi-anjo-korona-movie", "シネマワールド 安城", "movie-theater", "anjo", "愛知県安城市浜富町6-8", "南安城駅", 10, 1800, "目安1,800円から", true, true, true, "安城コロナワールド", "https://www.korona.co.jp/store/anj/"],
+  ["aichi-anjo-korona-bowling", "コロナキャットボウル 安城店", "bowling", "anjo", "愛知県安城市浜富町6-8", "南安城駅", 10, 700, "目安700円から", true, true, true, "安城コロナワールド", "https://www.korona.co.jp/store/anj/"],
+  ["aichi-anjo-korona-game", "メトロポリス 安城店", "game-center", "anjo", "愛知県安城市浜富町6-8", "南安城駅", 10, 500, "目安500円から", true, true, true, "安城コロナワールド", "https://www.korona.co.jp/store/anj/"],
+  ["aichi-anjo-korona-karaoke", "カラオケ JOYJOY 安城コロナワールド店", "karaoke", "anjo", "愛知県安城市浜富町6-8", "南安城駅", 10, 1000, "目安1,000円から", true, true, true, "安城コロナワールド", "https://www.korona.co.jp/store/anj/"],
+  ["aichi-nagoya-nakagawa-korona-movie", "シネマワールド 中川", "movie-theater", "nagoya-nakagawa", "愛知県名古屋市中川区江松三丁目110番地", "高畑駅", 25, 1800, "目安1,800円から", true, true, true, "中川コロナワールド", "https://www.korona.co.jp/store/nak/"],
+  ["aichi-nagoya-nakagawa-korona-bowling", "コロナキャットボウル 中川店", "bowling", "nagoya-nakagawa", "愛知県名古屋市中川区江松三丁目110番地", "高畑駅", 25, 700, "目安700円から", true, true, true, "中川コロナワールド", "https://www.korona.co.jp/store/nak/"],
+  ["aichi-nagoya-nakagawa-korona-game", "メトロポリス 中川店", "game-center", "nagoya-nakagawa", "愛知県名古屋市中川区江松三丁目110番地", "高畑駅", 25, 500, "目安500円から", true, true, true, "中川コロナワールド", "https://www.korona.co.jp/store/nak/"],
+  ["aichi-nagoya-nakagawa-korona-karaoke", "カラオケ JOYJOY 中川コロナワールド店", "karaoke", "nagoya-nakagawa", "愛知県名古屋市中川区江松三丁目110番地", "高畑駅", 25, 1000, "目安1,000円から", true, true, true, "中川コロナワールド", "https://www.korona.co.jp/store/nak/"],
+  ["aichi-komaki-korona-movie", "シネマワールド 小牧", "movie-theater", "komaki", "愛知県小牧市村中新町33", "小牧駅", 30, 1800, "目安1,800円から", true, true, true, "小牧コロナワールド", "https://www.korona.co.jp/store/kom/"],
+  ["aichi-komaki-korona-bowling", "コロナキャットボウル 小牧店", "bowling", "komaki", "愛知県小牧市村中新町33", "小牧駅", 30, 700, "目安700円から", true, true, true, "小牧コロナワールド", "https://www.korona.co.jp/store/kom/"],
+  ["aichi-komaki-korona-game", "メトロポリス 小牧店", "game-center", "komaki", "愛知県小牧市村中新町33", "小牧駅", 30, 500, "目安500円から", true, true, true, "小牧コロナワールド", "https://www.korona.co.jp/store/kom/"],
+  ["aichi-komaki-korona-karaoke", "カラオケ JOYJOY 小牧コロナワールド店", "karaoke", "komaki", "愛知県小牧市村中新町33", "小牧駅", 30, 1000, "目安1,000円から", true, true, true, "小牧コロナワールド", "https://www.korona.co.jp/store/kom/"],
+  ["aichi-toyokawa-korona-movie", "シネマワールド 豊川", "movie-theater", "toyokawa", "愛知県豊川市下長山町上アライ14-1", "牛久保駅", 15, 1800, "目安1,800円から", true, true, true, "豊川コロナワールド", "https://cinema.korona.co.jp/pages/4dx/theater.html"],
+  ["aichi-toyokawa-korona-bowling", "コロナキャットボウル 豊川店", "bowling", "toyokawa", "愛知県豊川市下長山町上アライ14-1", "牛久保駅", 15, 700, "目安700円から", true, true, true, "豊川コロナワールド", "https://www.korona.co.jp/bowling/basic/tok/665"],
+  ["aichi-toyokawa-korona-game", "メトロポリス 豊川店", "game-center", "toyokawa", "愛知県豊川市下長山町上アライ14-1", "牛久保駅", 15, 500, "目安500円から", true, true, true, "豊川コロナワールド", "https://cinema.korona.co.jp/pages/4dx/theater.html"],
+  ["aichi-nagoya-naka-jiqoo-nishiki-netcafe", "自遊空間 錦店", "netcafe", "nagoya-naka", "愛知県名古屋市中区錦3-14-21", "栄駅", 1, 1200, "目安1,200円から", false, true, true, "錦三丁目周辺", "https://page.line.me/wek8333o"],
+  ["aichi-nagoya-naka-jiqoo-nishiki-darts", "自遊空間 錦店", "darts", "nagoya-naka", "愛知県名古屋市中区錦3-14-21", "栄駅", 1, 1000, "目安1,000円から", false, true, true, "錦三丁目周辺", "https://page.line.me/wek8333o"],
+  ["aichi-nagoya-naka-jiqoo-nishiki-karaoke", "自遊空間 錦店", "karaoke", "nagoya-naka", "愛知県名古屋市中区錦3-14-21", "栄駅", 1, 1000, "目安1,000円から", false, true, true, "錦三丁目周辺", "https://page.line.me/wek8333o"],
+  ["aichi-obu-jiqoo-netcafe", "自遊空間 大府店", "netcafe", "obu", "愛知県大府市共和町5-66", "共和駅", 8, 1200, "目安1,200円から", true, true, true, "共和町周辺", "https://softdarts.or.jp/member_list"],
+  ["aichi-obu-jiqoo-darts", "自遊空間 大府店", "darts", "obu", "愛知県大府市共和町5-66", "共和駅", 8, 1000, "目安1,000円から", true, true, true, "共和町周辺", "https://softdarts.or.jp/member_list"],
+  ["aichi-nagoya-nakagawa-anettai-netcafe", "亜熱帯 中川コロナワールド店", "netcafe", "nagoya-nakagawa", "愛知県名古屋市中川区江松3丁目124番地", "高畑駅", 25, 1200, "目安1,200円から", true, true, true, "中川コロナワールド", "https://www.anettai.co.jp/store/view/Nakagawa-Koronaworld"],
+  ["aichi-nagoya-nakagawa-anettai-karaoke", "亜熱帯 中川コロナワールド店", "karaoke", "nagoya-nakagawa", "愛知県名古屋市中川区江松3丁目124番地", "高畑駅", 25, 1000, "目安1,000円から", true, true, true, "中川コロナワールド", "https://www.anettai.co.jp/store/view/Nakagawa-Koronaworld"],
+  ["aichi-nagoya-nakagawa-anettai-darts", "亜熱帯 中川コロナワールド店", "darts", "nagoya-nakagawa", "愛知県名古屋市中川区江松3丁目124番地", "高畑駅", 25, 1000, "目安1,000円から", true, true, true, "中川コロナワールド", "https://www.anettai.co.jp/store/view/Nakagawa-Koronaworld"],
+  ["aichi-nagoya-nakagawa-anettai-billiards", "亜熱帯 中川コロナワールド店", "billiards", "nagoya-nakagawa", "愛知県名古屋市中川区江松3丁目124番地", "高畑駅", 25, 1000, "目安1,000円から", true, true, true, "中川コロナワールド", "https://www.anettai.co.jp/store/view/Nakagawa-Koronaworld"],
+  ["aichi-nagoya-minato-kaikatsu-keibajo-netcafe", "快活CLUB 名古屋競馬場前店", "netcafe", "nagoya-minato", "愛知県名古屋市港区小割通3-8", "港北駅", 10, 1200, "目安1,200円から", true, true, true, "小割通周辺", "https://www.kaikatsu.jp/shop/detail/20484.html"],
+  ["aichi-nagoya-minato-kaikatsu-keibajo-karaoke", "快活CLUB 名古屋競馬場前店", "karaoke", "nagoya-minato", "愛知県名古屋市港区小割通3-8", "港北駅", 10, 1000, "目安1,000円から", true, true, true, "小割通周辺", "https://www.kaikatsu.jp/shop/detail/20484.html"],
+  ["aichi-nagoya-minato-kaikatsu-keibajo-darts", "快活CLUB 名古屋競馬場前店", "darts", "nagoya-minato", "愛知県名古屋市港区小割通3-8", "港北駅", 10, 1000, "目安1,000円から", true, true, true, "小割通周辺", "https://www.kaikatsu.jp/shop/detail/20484.html"],
+  ["shizuoka-suruga-aprecio-higashi-netcafe", "アプレシオ 東静岡駅前店", "netcafe", "shizuoka-suruga", "静岡県静岡市駿河区曲金7丁目8-5", "東静岡駅", 6, 1200, "目安1,200円から", true, true, true, "東静岡駅周辺", "https://www.aprecio.jp/as/sp/shop/54/shopinfo"],
+  ["shizuoka-suruga-aprecio-higashi-karaoke", "アプレシオ 東静岡駅前店", "karaoke", "shizuoka-suruga", "静岡県静岡市駿河区曲金7丁目8-5", "東静岡駅", 6, 1000, "目安1,000円から", true, true, true, "東静岡駅周辺", "https://www.aprecio.jp/as/sp/shop/54/shopinfo"],
+  ["shizuoka-suruga-aprecio-higashi-darts", "アプレシオ 東静岡駅前店", "darts", "shizuoka-suruga", "静岡県静岡市駿河区曲金7丁目8-5", "東静岡駅", 6, 1000, "目安1,000円から", true, true, true, "東静岡駅周辺", "https://www.aprecio.jp/as/sp/shop/54/shopinfo"],
+  ["shizuoka-suruga-aprecio-higashi-billiards", "アプレシオ 東静岡駅前店", "billiards", "shizuoka-suruga", "静岡県静岡市駿河区曲金7丁目8-5", "東静岡駅", 6, 1000, "目安1,000円から", true, true, true, "東静岡駅周辺", "https://www.aprecio.jp/as/sp/shop/54/shopinfo"],
+  ["shizuoka-hamamatsu-aprecio-biora-netcafe", "アプレシオ 浜松ビオラ田町店", "netcafe", "hamamatsu-chuo", "静岡県浜松市中央区田町223-21-B1F ビオラ田町ビル", "第一通り駅", 4, 1200, "目安1,200円から", true, true, true, "田町周辺", "https://aprecio.jp/as/sp/shopList/"],
+  ["shizuoka-hamamatsu-aprecio-biora-karaoke", "アプレシオ 浜松ビオラ田町店", "karaoke", "hamamatsu-chuo", "静岡県浜松市中央区田町223-21-B1F ビオラ田町ビル", "第一通り駅", 4, 1000, "目安1,000円から", true, true, true, "田町周辺", "https://aprecio.jp/as/sp/shopList/"],
+  ["shizuoka-hamamatsu-aprecio-biora-darts", "アプレシオ 浜松ビオラ田町店", "darts", "hamamatsu-chuo", "静岡県浜松市中央区田町223-21-B1F ビオラ田町ビル", "第一通り駅", 4, 1000, "目安1,000円から", true, true, true, "田町周辺", "https://aprecio.jp/as/sp/shopList/"],
+  ["shizuoka-hamamatsu-aprecio-biora-billiards", "アプレシオ 浜松ビオラ田町店", "billiards", "hamamatsu-chuo", "静岡県浜松市中央区田町223-21-B1F ビオラ田町ビル", "第一通り駅", 4, 1000, "目安1,000円から", true, true, true, "田町周辺", "https://aprecio.jp/as/sp/shopList/"],
+  ["shizuoka-sunto-shimizu-aprecio-yawata-netcafe", "アプレシオ 清水町八幡店", "netcafe", "sunto-shimizu", "静岡県駿東郡清水町八幡64-1", "沼津駅", 45, 1200, "目安1,200円から", true, true, true, "八幡周辺", "https://aprecio.co.jp/shopList/"],
+  ["shizuoka-sunto-shimizu-aprecio-yawata-karaoke", "アプレシオ 清水町八幡店", "karaoke", "sunto-shimizu", "静岡県駿東郡清水町八幡64-1", "沼津駅", 45, 1000, "目安1,000円から", true, true, true, "八幡周辺", "https://aprecio.co.jp/shopList/"],
+  ["shizuoka-sunto-shimizu-aprecio-yawata-darts", "アプレシオ 清水町八幡店", "darts", "sunto-shimizu", "静岡県駿東郡清水町八幡64-1", "沼津駅", 45, 1000, "目安1,000円から", true, true, true, "八幡周辺", "https://aprecio.co.jp/shopList/"],
+  ["shizuoka-sunto-shimizu-aprecio-yawata-billiards", "アプレシオ 清水町八幡店", "billiards", "sunto-shimizu", "静岡県駿東郡清水町八幡64-1", "沼津駅", 45, 1000, "目安1,000円から", true, true, true, "八幡周辺", "https://aprecio.co.jp/shopList/"],
+  ["shizuoka-fujinomiya-aprecio-netcafe", "アプレシオ 富士宮店", "netcafe", "fujinomiya", "静岡県富士宮市富士見ケ丘1241", "富士宮駅", 25, 1200, "目安1,200円から", true, true, true, "富士見ケ丘周辺", "https://aprecio.co.jp/shopList/"],
+  ["shizuoka-fujinomiya-aprecio-darts", "アプレシオ 富士宮店", "darts", "fujinomiya", "静岡県富士宮市富士見ケ丘1241", "富士宮駅", 25, 1000, "目安1,000円から", true, true, true, "富士見ケ丘周辺", "https://aprecio.co.jp/shopList/"],
+  ["shizuoka-fujinomiya-aprecio-billiards", "アプレシオ 富士宮店", "billiards", "fujinomiya", "静岡県富士宮市富士見ケ丘1241", "富士宮駅", 25, 1000, "目安1,000円から", true, true, true, "富士見ケ丘周辺", "https://aprecio.co.jp/shopList/"],
+  ["shizuoka-yaizu-aprecio-netcafe", "アプレシオ 焼津店", "netcafe", "yaizu", "静岡県焼津市宗高1487-1 大井川ショッピングタウンSC", "藤枝駅", 60, 1200, "目安1,200円から", true, true, true, "大井川周辺", "https://aprecio.co.jp/shopList/"],
+  ["shizuoka-yaizu-aprecio-darts", "アプレシオ 焼津店", "darts", "yaizu", "静岡県焼津市宗高1487-1 大井川ショッピングタウンSC", "藤枝駅", 60, 1000, "目安1,000円から", true, true, true, "大井川周辺", "https://aprecio.co.jp/shopList/"],
+  ["shizuoka-gotemba-aprecio-netcafe", "アプレシオ 御殿場インター店", "netcafe", "gotemba", "静岡県御殿場市東田中1066-1 東富士ビル2階", "御殿場駅", 20, 1200, "目安1,200円から", true, true, true, "御殿場インター周辺", "https://aprecio.co.jp/shopList/"],
+  ["shizuoka-gotemba-aprecio-darts", "アプレシオ 御殿場インター店", "darts", "gotemba", "静岡県御殿場市東田中1066-1 東富士ビル2階", "御殿場駅", 20, 1000, "目安1,000円から", true, true, true, "御殿場インター周辺", "https://aprecio.co.jp/shopList/"],
+  ["shizuoka-gotemba-aprecio-billiards", "アプレシオ 御殿場インター店", "billiards", "gotemba", "静岡県御殿場市東田中1066-1 東富士ビル2階", "御殿場駅", 20, 1000, "目安1,000円から", true, true, true, "御殿場インター周辺", "https://aprecio.co.jp/shopList/"],
+  ["aichi-nagoya-nakamura-kintaro-meieki1", "金太郎 名駅1号店", "video-box", "nagoya-nakamura", "愛知県名古屋市中村区椿町4-11 神農ビル2F", "名古屋駅", 3, 2000, "目安2,000円から", false, true, true, "名駅西口周辺", "https://kin-v.jp/shop/shopinfo.php?id=13"],
+  ["aichi-nagoya-chikusa-kintaro-imaike", "金太郎 今池北店", "video-box", "nagoya-chikusa", "愛知県名古屋市千種区内山3-9-24 太都ビル1F", "今池駅", 3, 2000, "目安2,000円から", true, true, true, "今池駅周辺", "https://kin-v.jp/shop/shopinfo.php?id=16"],
+  ["aichi-nagoya-atsuta-kintaro-kanayama", "金太郎 金山3号店", "video-box", "nagoya-atsuta", "愛知県名古屋市熱田区金山町1-19-22 トヤマビル1F", "金山駅", 3, 2000, "目安2,000円から", true, true, true, "金山駅南口周辺", "https://kin-v.jp/shop/shopinfo.php?id=14"],
+  ["aichi-nagoya-naka-hanataro-sakae", "花太郎 栄店", "video-box", "nagoya-naka", "愛知県名古屋市中区栄3-12-4 エトワールさかえ2F", "栄駅", 7, 2000, "目安2,000円から", false, true, true, "栄三丁目周辺", "https://kin-v.jp/shop/shopinfo.php?id=446"],
+  ["aichi-okazaki-kintaro", "金太郎 岡崎店", "video-box", "okazaki", "愛知県岡崎市鴨田町字広元191 ビバーオレンジ1F", "大門駅", 12, 2000, "目安2,000円から", true, true, true, "大樹寺周辺", "https://kin-v.jp/shop/result.php"],
+  ["aichi-toyokawa-kintaro-1", "金太郎 豊川1号店", "video-box", "toyokawa", "愛知県豊川市御油町八面横47", "御油駅", 2, 2000, "目安2,000円から", true, true, true, "御油町周辺", "https://kin-v.jp/shop/result.php"],
+  ["aichi-ichinomiya-kintaro", "金太郎 一宮22号店", "video-box", "ichinomiya", "愛知県一宮市伝法寺9-1-8", "稲沢駅", 35, 2000, "目安2,000円から", true, true, true, "伝法寺周辺", "https://kin-v.jp/special/vr_experience.php"],
+  ["aichi-nagoya-nishi-kintaro-nishiharu", "金太郎 西春店", "video-box", "nagoya-nishi", "愛知県北名古屋市宇福寺天神77", "西春駅", 35, 2000, "目安2,000円から", true, true, true, "北名古屋市周辺", "https://kin-v.jp/shop/shopinfo.php?id=256"],
+  ["aichi-nisshin-mirumiru", "メガステーションミルミル 日進店", "video-box", "nisshin", "愛知県日進市周辺", "赤池駅", 35, 2000, "目安2,000円から", true, true, true, "日進周辺", "https://mirumiru.net/"],
+  ["tokyo-toshima-takarajima-ikebukuro", "宝島24 池袋店", "video-box", "tokyo-toshima", "東京都豊島区東池袋1-40-5 受付1F", "池袋駅", 3, 2000, "目安2,000円から", false, true, true, "池袋駅東口周辺", "https://takarajima24.com/shop/"],
+  ["tokyo-shinjuku-takarajima-shinjuku", "宝島24 新宿本店", "video-box", "tokyo-shinjuku", "東京都新宿区新宿3丁目周辺", "新宿駅", 5, 2000, "目安2,000円から", false, true, true, "新宿駅周辺", "https://takarajima24.com/shop/"],
+  ["tokyo-shibuya-takarajima-shibuya", "宝島24 渋谷本店", "video-box", "tokyo-shibuya", "東京都渋谷区道玄坂周辺", "渋谷駅", 5, 2000, "目安2,000円から", false, true, true, "渋谷駅周辺", "https://takarajima24.com/shop/"]
 ];
 
 const removeIds = new Set([
