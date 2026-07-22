@@ -408,13 +408,20 @@ const additions = [
   ["chiba-chuo-starbucks-perie", "スターバックス ペリエ千葉店", "cafe", "chiba-chuo", "千葉県千葉市中央区新千葉1丁目1-1 ペリエ千葉2F", "千葉駅", 1, 600, "目安600円から", false, true, true, "千葉駅周辺", "https://www.perie.co.jp/chiba/floorguide/detail/?id=406", "禁煙", "要確認", "あり", "あり"]
 ];
 
+const seedAdditionsFile = path.join(root, "data/seed-shops.json");
+if (fs.existsSync(seedAdditionsFile)) {
+  const seedAdditions = JSON.parse(fs.readFileSync(seedAdditionsFile, "utf8"));
+  for (const item of seedAdditions) additions.push(item);
+}
+
 const removeIds = new Set([
   "shizuoka-aoi-adult-shop-shizuoka",
   "shizuoka-numazu-adult-shop-numazu",
   "shizuoka-aoi-daijin-shizuoka-sample",
   "shizuoka-hamamatsu-izakaya-yurakugai",
   "shizuoka-numazu-izakaya-ekimae",
-  "shizuoka-fujieda-izakaya-ekimae"
+  "shizuoka-fujieda-izakaya-ekimae",
+  "naha-gashapon-kokusaidori"
 ]);
 
 for (let index = shops.length - 1; index >= 0; index -= 1) {

@@ -1,0 +1,55 @@
+[
+  ["aomori-kaikatsu-kanko-netcafe", "快活CLUB 青森観光通り店", "netcafe", "aomori", "青森県青森市浦町奥野624", "青森駅", 45, 1200, "目安1,200円から", true, true, true, "観光通り周辺", "https://www.kaikatsu.jp/shop/result.html"],
+  ["aomori-round1-bowling", "ラウンドワン 青森店", "bowling", "aomori", "青森県青森市浜田3丁目1番1号", "青森駅", 50, 700, "目安700円から", true, true, true, "浜田周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["aomori-round1-game", "ラウンドワン 青森店", "game-center", "aomori", "青森県青森市浜田3丁目1番1号", "青森駅", 50, 500, "目安500円から", true, true, true, "浜田周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["aomori-round1-karaoke", "ラウンドワン 青森店", "karaoke", "aomori", "青森県青森市浜田3丁目1番1号", "青森駅", 50, 1000, "目安1,000円から", true, true, true, "浜田周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["aomori-round1-billiards", "ラウンドワン 青森店", "billiards", "aomori", "青森県青森市浜田3丁目1番1号", "青森駅", 50, 1000, "目安1,000円から", true, true, true, "浜田周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["aomori-round1-darts", "ラウンドワン 青森店", "darts", "aomori", "青森県青森市浜田3丁目1番1号", "青森駅", 50, 1000, "目安1,000円から", true, true, true, "浜田周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["aomori-round1-crane", "ラウンドワン 青森店", "crane-game", "aomori", "青森県青森市浜田3丁目1番1号", "青森駅", 50, 500, "目安500円から", true, true, true, "浜田周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["aomori-tsutaya-chuo-capsule", "ガシャポンバンダイオフィシャルショップ TSUTAYA青森中央店", "capsule-toy", "aomori", "青森県青森市東大野2丁目8-4 1F", "青森駅", 45, 300, "目安300円から", true, true, false, "東大野周辺", "https://gashapon.jp/news/campaign_250822/"],
+  ["aomori-aeon-capsule", "イオン青森店 カプセルトイ売場", "capsule-toy", "aomori", "青森県青森市緑3-9-2", "青森駅", 45, 300, "目安300円から", true, true, false, "緑周辺", "https://gashapon.jp/anpanman/shop/"],
+
+  ["morioka-kaikatsu-odori-netcafe", "快活CLUB 盛岡大通店", "netcafe", "morioka", "岩手県盛岡市大通2-6-8 セントラルガーデンスクエア1～3F", "盛岡駅", 12, 1200, "目安1,200円から", false, true, true, "大通周辺", "https://www.kaikatsu.jp/shop/result.html"],
+  ["morioka-kaikatsu-kamido-netcafe", "快活CLUB 盛岡上堂店", "netcafe", "morioka", "岩手県盛岡市上堂1-19-67", "青山駅", 12, 1200, "目安1,200円から", true, true, true, "上堂周辺", "https://www.kaikatsu.jp/shop/result.html"],
+  ["morioka-tsutaya-capsule", "ガシャポンバンダイオフィシャルショップ MORIOKA TSUTAYA店", "capsule-toy", "morioka", "岩手県盛岡市本宮4丁目40番20号", "盛岡駅", 30, 300, "目安300円から", true, true, false, "本宮周辺", "https://gashapon.jp/news/campaign_250822/"],
+
+  ["akita-kaikatsu-shinkokudo-netcafe", "快活CLUB 秋田新国道店", "netcafe", "akita", "秋田県秋田市八橋新川向12-28", "秋田駅", 45, 1200, "目安1,200円から", true, true, true, "八橋周辺", "https://kentei.tokyo-cci.or.jp/about-ibt_kaikatsu-list.html"],
+
+  ["fukushima-round1-bowling", "ラウンドワン 福島店", "bowling", "fukushima", "福島県福島市太田町14番18号", "福島駅", 6, 700, "目安700円から", true, true, true, "福島駅西口周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["fukushima-round1-game", "ラウンドワン 福島店", "game-center", "fukushima", "福島県福島市太田町14番18号", "福島駅", 6, 500, "目安500円から", true, true, true, "福島駅西口周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["fukushima-round1-karaoke", "ラウンドワン 福島店", "karaoke", "fukushima", "福島県福島市太田町14番18号", "福島駅", 6, 1000, "目安1,000円から", true, true, true, "福島駅西口周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["fukushima-round1-crane", "ラウンドワン 福島店", "crane-game", "fukushima", "福島県福島市太田町14番18号", "福島駅", 6, 500, "目安500円から", true, true, true, "福島駅西口周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+
+  ["mito-kaikatsu-watari-netcafe", "快活CLUB 水戸渡里店", "netcafe", "mito", "茨城県水戸市渡里町2693-1", "水戸駅", 55, 1200, "目安1,200円から", true, true, true, "渡里町周辺", "https://www.kaikatsu.jp/shop/result.html"],
+
+  ["utsunomiya-kaikatsu-miyuki-netcafe", "快活CLUB 宇都宮御幸ヶ原店", "netcafe", "utsunomiya", "栃木県宇都宮市下川俣町78-6", "岡本駅", 35, 1200, "目安1,200円から", true, true, true, "御幸ヶ原周辺", "https://www.kaikatsu.jp/shop/result.html"],
+  ["utsunomiya-round1-bowling", "ラウンドワン 宇都宮店", "bowling", "utsunomiya", "栃木県宇都宮市江曽島町2072-1", "南宇都宮駅", 25, 700, "目安700円から", true, true, true, "江曽島町周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["utsunomiya-round1-game", "ラウンドワン 宇都宮店", "game-center", "utsunomiya", "栃木県宇都宮市江曽島町2072-1", "南宇都宮駅", 25, 500, "目安500円から", true, true, true, "江曽島町周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["utsunomiya-round1-karaoke", "ラウンドワン 宇都宮店", "karaoke", "utsunomiya", "栃木県宇都宮市江曽島町2072-1", "南宇都宮駅", 25, 1000, "目安1,000円から", true, true, true, "江曽島町周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["utsunomiya-round1-crane", "ラウンドワン 宇都宮店", "crane-game", "utsunomiya", "栃木県宇都宮市江曽島町2072-1", "南宇都宮駅", 25, 500, "目安500円から", true, true, true, "江曽島町周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+
+  ["kanazawa-round1-bowling", "ラウンドワンスタジアム 金沢店", "bowling", "kanazawa", "石川県金沢市横川6丁目120-1", "押野駅", 7, 700, "目安700円から", true, true, true, "横川周辺", "https://news.round1.co.jp/shop/tenpo/ishikawa-kanazawa.html"],
+  ["kanazawa-round1-game", "ラウンドワンスタジアム 金沢店", "game-center", "kanazawa", "石川県金沢市横川6丁目120-1", "押野駅", 7, 500, "目安500円から", true, true, true, "横川周辺", "https://news.round1.co.jp/shop/tenpo/ishikawa-kanazawa.html"],
+  ["kanazawa-round1-karaoke", "ラウンドワンスタジアム 金沢店", "karaoke", "kanazawa", "石川県金沢市横川6丁目120-1", "押野駅", 7, 1000, "目安1,000円から", true, true, true, "横川周辺", "https://news.round1.co.jp/shop/tenpo/ishikawa-kanazawa.html"],
+  ["kanazawa-round1-crane", "ラウンドワンスタジアム 金沢店", "crane-game", "kanazawa", "石川県金沢市横川6丁目120-1", "押野駅", 7, 500, "目安500円から", true, true, true, "横川周辺", "https://news.round1.co.jp/shop/tenpo/ishikawa-kanazawa.html"],
+  ["kanazawa-round1-capsule", "ラウンドワン 金沢店 ガシャポン", "capsule-toy", "kanazawa", "石川県金沢市横川6丁目120-1", "押野駅", 7, 300, "目安300円から", true, true, false, "横川周辺", "https://gashapon.jp/shop/shop.php?shop_code=S90000800"],
+
+  ["nagano-round1-bowling", "ラウンドワン 長野店", "bowling", "nagano", "長野県長野市大字東和田827番地6", "北長野駅", 20, 700, "目安700円から", true, true, true, "東和田周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["nagano-round1-game", "ラウンドワン 長野店", "game-center", "nagano", "長野県長野市大字東和田827番地6", "北長野駅", 20, 500, "目安500円から", true, true, true, "東和田周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["nagano-round1-karaoke", "ラウンドワン 長野店", "karaoke", "nagano", "長野県長野市大字東和田827番地6", "北長野駅", 20, 1000, "目安1,000円から", true, true, true, "東和田周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["nagano-round1-crane", "ラウンドワン 長野店", "crane-game", "nagano", "長野県長野市大字東和田827番地6", "北長野駅", 20, 500, "目安500円から", true, true, true, "東和田周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+
+  ["saga-round1-bowling", "ラウンドワン 佐賀店", "bowling", "saga", "佐賀県佐賀市兵庫北4丁目2番1号", "佐賀駅", 20, 700, "目安700円から", true, true, true, "兵庫北周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["saga-round1-game", "ラウンドワン 佐賀店", "game-center", "saga", "佐賀県佐賀市兵庫北4丁目2番1号", "佐賀駅", 20, 500, "目安500円から", true, true, true, "兵庫北周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["saga-round1-karaoke", "ラウンドワン 佐賀店", "karaoke", "saga", "佐賀県佐賀市兵庫北4丁目2番1号", "佐賀駅", 20, 1000, "目安1,000円から", true, true, true, "兵庫北周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["saga-round1-crane", "ラウンドワン 佐賀店", "crane-game", "saga", "佐賀県佐賀市兵庫北4丁目2番1号", "佐賀駅", 20, 500, "目安500円から", true, true, true, "兵庫北周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+
+  ["naha-gashapon-main-place", "ガシャポンバンダイオフィシャルショップ 那覇メインプレイス店", "capsule-toy", "naha", "沖縄県那覇市おもろまち4-4-9 サンエー那覇メインプレイス2F", "おもろまち駅", 3, 300, "目安300円から", true, true, false, "おもろまち周辺", "https://bandainamco-am.co.jp/others/gashapon-bandai-officialshop/store/naha/?tags=gentei"],
+  ["naha-gashapon-surugaya-okiei", "ガシャポンのデパート 駿河屋那覇沖映通り店", "capsule-toy", "naha", "沖縄県那覇市牧志1-19-29 D-naha1階～3階", "美栄橋駅", 3, 300, "目安300円から", false, true, false, "沖映通り周辺", "https://gashapon.jp/shop/shop.php?paging=2&shop_code=S90001439"],
+  ["naha-gigo-kokusaidori-game", "GiGO那覇国際通り", "game-center", "naha", "沖縄県那覇市久茂地3-3-20 Mビル那覇国際通り1F", "県庁前駅", 5, 500, "目安500円から", false, true, false, "国際通り周辺", "https://www.gigo.co.jp/zh-tw/shops/naha-kokusaidori"],
+  ["naha-gigo-kokusaidori-crane", "GiGO那覇国際通り", "crane-game", "naha", "沖縄県那覇市久茂地3-3-20 Mビル那覇国際通り1F", "県庁前駅", 5, 500, "目安500円から", false, true, false, "国際通り周辺", "https://www.gigo.co.jp/zh-tw/shops/naha-kokusaidori"],
+  ["naha-round1-ginowan-game", "ラウンドワンスタジアム 沖縄・宜野湾店", "game-center", "naha", "沖縄県宜野湾市真志喜3丁目28番8号", "県庁前駅", 60, 500, "目安500円から", true, true, true, "宜野湾周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["naha-round1-ginowan-bowling", "ラウンドワンスタジアム 沖縄・宜野湾店", "bowling", "naha", "沖縄県宜野湾市真志喜3丁目28番8号", "県庁前駅", 60, 700, "目安700円から", true, true, true, "宜野湾周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["naha-round1-ginowan-karaoke", "ラウンドワンスタジアム 沖縄・宜野湾店", "karaoke", "naha", "沖縄県宜野湾市真志喜3丁目28番8号", "県庁前駅", 60, 1000, "目安1,000円から", true, true, true, "宜野湾周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["naha-round1-ginowan-crane", "ラウンドワンスタジアム 沖縄・宜野湾店", "crane-game", "naha", "沖縄県宜野湾市真志喜3丁目28番8号", "県庁前駅", 60, 500, "目安500円から", true, true, true, "宜野湾周辺", "https://www.round1.co.jp/company/company/all-shop.html"]
+]
