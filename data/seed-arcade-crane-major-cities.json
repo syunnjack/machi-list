@@ -42,5 +42,13 @@
   ["okayama-kita-gigo-okanaka-game", "GiGOエブリイOkanaka津高", "game-center", "okayama-kita", "岡山県岡山市北区横井上83-3 エブリイOkanaka津高店内4F", "法界院駅", 45, 500, "目安500円から", true, true, true, "津高周辺", "https://www.gendagigo.jp/shop.html?a=show_shoplist&key=prefecture&prefecture=%E5%B2%A1%E5%B1%B1%E7%9C%8C"],
   ["okayama-kita-gigo-okanaka-crane", "GiGOエブリイOkanaka津高", "crane-game", "okayama-kita", "岡山県岡山市北区横井上83-3 エブリイOkanaka津高店内4F", "法界院駅", 45, 500, "目安500円から", true, true, true, "津高周辺", "https://www.gendagigo.jp/shop.html?a=show_shoplist&key=prefecture&prefecture=%E5%B2%A1%E5%B1%B1%E7%9C%8C"],
   ["okayama-kita-gigo-kohoku-game", "GiGO天満屋ハピータウン岡北", "game-center", "okayama-kita", "岡山県岡山市北区中井町2-2-7 天満屋ハピータウン岡北店内3F", "法界院駅", 10, 500, "目安500円から", true, true, true, "岡北周辺", "https://www.gendagigo.jp/shop.html?a=show_shoplist&key=prefecture&prefecture=%E5%B2%A1%E5%B1%B1%E7%9C%8C"],
-  ["okayama-kita-gigo-kohoku-crane", "GiGO天満屋ハピータウン岡北", "crane-game", "okayama-kita", "岡山県岡山市北区中井町2-2-7 天満屋ハピータウン岡北店内3F", "法界院駅", 10, 500, "目安500円から", true, true, true, "岡北周辺", "https://www.gendagigo.jp/shop.html?a=show_shoplist&key=prefecture&prefecture=%E5%B2%A1%E5%B1%B1%E7%9C%8C"]
+  ["okayama-kita-gigo-kohoku-crane", "GiGO天満屋ハピータウン岡北", "crane-game", "okayama-kita", "岡山県岡山市北区中井町2-2-7 天満屋ハピータウン岡北店内3F", "法界院駅", 10, 500, "目安500円から", true, true, true, "岡北周辺", "https://www.gendagigo.jp/shop.html?a=show_shoplist&key=prefecture&prefecture=%E5%B2%A1%E5%B1%B1%E7%9C%8C"],
+
+  ["tottori-gigo-tottori-game", "GiGO鳥取", "game-center", "tottori", "鳥取県鳥取市安長416", "鳥取駅", 35, 500, "目安500円から", true, true, true, "安長周辺", "https://www.gigo.co.jp/shops/tottori"],
+  ["tottori-gigo-tottori-crane", "GiGO鳥取", "crane-game", "tottori", "鳥取県鳥取市安長416", "鳥取駅", 35, 500, "目安500円から", true, true, true, "安長周辺", "https://www.gigo.co.jp/shops/tottori"],
+  ["matsue-gigo-matsue-game", "GiGO松江", "game-center", "matsue", "島根県松江市嫁島町12-15", "乃木駅", 10, 500, "目安500円から", true, true, true, "嫁島町周辺", "https://www.gigo.co.jp/shops/matsue"],
+  ["matsue-gigo-matsue-crane", "GiGO松江", "crane-game", "matsue", "島根県松江市嫁島町12-15", "乃木駅", 10, 500, "目安500円から", true, true, true, "嫁島町周辺", "https://www.gigo.co.jp/shops/matsue"],
+  ["yamaguchi-gigo-ogori-game", "GiGOイオンタウン小郡", "game-center", "yamaguchi", "山口県山口市小郡前田町3-6", "新山口駅", 10, 500, "目安500円から", true, true, true, "小郡周辺", "https://www.gigo.co.jp/shops/a-ogori"],
+  ["yamaguchi-gigo-ogori-crane", "GiGOイオンタウン小郡", "crane-game", "yamaguchi", "山口県山口市小郡前田町3-6", "新山口駅", 10, 500, "目安500円から", true, true, true, "小郡周辺", "https://www.gigo.co.jp/shops/a-ogori"],
+  ["yamaguchi-gigo-ogori-capsule", "GiGOイオンタウン小郡", "capsule-toy", "yamaguchi", "山口県山口市小郡前田町3-6", "新山口駅", 10, 300, "目安300円から", true, true, true, "小郡周辺", "https://www.gigo.co.jp/shops/a-ogori"]
 ]
