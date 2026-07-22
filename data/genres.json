@@ -63,5 +63,25 @@
     "key": "video-box",
     "label": "ビデオボックス",
     "description": "個室で休めるDVD鑑賞・試写室、シャワー、軽食、駐車場を確認できます。"
+  },
+  {
+    "key": "capsule-toy",
+    "label": "カプセルトイ",
+    "description": "ガシャポン、ガチャガチャ専門店、設置場所、取扱商品、駅からの近さを確認できます。"
+  },
+  {
+    "key": "crane-game",
+    "label": "クレーンゲーム・UFOキャッチャー",
+    "description": "クレーンゲーム、UFOキャッチャー、景品、駅近店舗、複合施設内の設置場所を確認できます。"
+  },
+  {
+    "key": "convenience-store",
+    "label": "コンビニ",
+    "description": "出入口付近の店頭喫煙、灰皿、駅からの近さ、駐車場、24時間営業を確認できます。"
+  },
+  {
+    "key": "cafe",
+    "label": "カフェ",
+    "description": "電源、Wi-Fi、イートイン、駅からの近さ、予算、営業時間を確認できます。"
   }
 ]

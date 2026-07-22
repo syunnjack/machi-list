@@ -18,11 +18,16 @@ const text = {
   event: "大会・イベント",
   tools: "道具",
   ticket: "上映・チケット",
+  stock: "在庫・商品",
   map: "地図",
   route: "ルート",
   parking: "駐車場",
   late: "夜まで",
   coupon: "クーポン",
+  smoking: "喫煙",
+  power: "電源",
+  wifi: "Wi-Fi",
+  eatIn: "イートイン",
   walk: "徒歩約",
   minutes: "分",
   unknown: "確認中"
@@ -98,7 +103,11 @@ function toolKeyword(genreKey, label) {
     billiards: "ビリヤード キュー チョーク",
     netcafe: "ネットカフェ 備品 軽食",
     "movie-theater": "映画 前売り券",
-    "video-box": "軽食 充電器 アメニティ"
+    "video-box": "軽食 充電器 アメニティ",
+    "capsule-toy": "カプセルトイ 収納 ケース",
+    "crane-game": "クレーンゲーム 景品 収納",
+    "convenience-store": "携帯灰皿",
+    cafe: "カフェ タンブラー"
   }[genreKey] || `${label} 関連商品`;
 }
 
@@ -140,6 +149,10 @@ function normalizeShop(shop, index) {
     parking: Boolean(shop.parking),
     late: Boolean(shop.late),
     coupon: Boolean(shop.coupon),
+    smokingArea: shop.smoking_area || "",
+    powerSeat: shop.power_seat || "",
+    wifi: shop.wifi || "",
+    eatIn: shop.eat_in || "",
     bookingUrl: shop.booking_url || (isAdult ? "./guide/discreet-buying/" : (isEvent ? eventSearchLink(shop.area_label, shop.genre) : vcLink(`https://www.hotpepper.jp/SA33/?keyword=${encodeURIComponent(hotpepperKeyword)}`))),
     relatedUrl: shop.shopping_url || shop.coupon_url || rakutenSearchLink(isAdult ? "アダルトグッズ 通販" : toolKeyword(shop.genre_key, shop.genre)),
     mapUrl: mapSearchLink(`${shop.name} ${shop.address}`),
@@ -220,6 +233,10 @@ function actionLabel(facility) {
   if (isEventGenre(facility.genreKey)) return text.event;
   if (facility.genreKey === "movie-theater") return text.ticket;
   if (facility.genreKey === "video-box") return "店舗を確認";
+  if (facility.genreKey === "capsule-toy") return text.stock;
+  if (facility.genreKey === "crane-game") return "景品・イベント";
+  if (facility.genreKey === "convenience-store") return "店舗を確認";
+  if (facility.genreKey === "cafe") return "店舗を確認";
   return text.booking;
 }
 
@@ -227,7 +244,24 @@ function relatedLabel(facility) {
   if (facility.genreKey === "adult-shop") return text.online;
   if (isEventGenre(facility.genreKey)) return text.tools;
   if (facility.genreKey === "netcafe" || facility.genreKey === "video-box") return text.supplies;
+  if (facility.genreKey === "capsule-toy") return "収納・ケース";
+  if (facility.genreKey === "crane-game") return "収納・グッズ";
+  if (facility.genreKey === "convenience-store") return "携帯灰皿";
+  if (facility.genreKey === "cafe") return "タンブラー";
   return text.related;
+}
+
+function smokingBadge(facility) {
+  if (!facility.smokingArea) return "";
+  return `<span class="badge">${text.smoking}: ${facility.smokingArea}</span>`;
+}
+
+function amenityBadges(facility) {
+  return [
+    facility.powerSeat ? `<span class="badge">${text.power}: ${facility.powerSeat}</span>` : "",
+    facility.wifi ? `<span class="badge">${text.wifi}: ${facility.wifi}</span>` : "",
+    facility.eatIn ? `<span class="badge">${text.eatIn}: ${facility.eatIn}</span>` : ""
+  ].join("");
 }
 
 function pinPosition(facility, index) {
@@ -352,7 +386,7 @@ function renderResults(results) {
           <div>${facility.prefecture}${facility.city}${facility.ward}<small>${facility.area}</small></div>
           <div>${facility.station}<small>${facility.walkMinutes ? `${text.walk}${facility.walkMinutes}${text.minutes}` : text.unknown}</small></div>
           <div>${facility.budgetLabel}</div>
-          <div><div class="badges">${facility.parking ? `<span class="badge">${text.parking}</span>` : ""}${facility.late ? `<span class="badge">${text.late}</span>` : ""}${facility.coupon ? `<span class="badge">${text.coupon}</span>` : ""}</div></div>
+          <div><div class="badges">${facility.parking ? `<span class="badge">${text.parking}</span>` : ""}${facility.late ? `<span class="badge">${text.late}</span>` : ""}${facility.coupon ? `<span class="badge">${text.coupon}</span>` : ""}${smokingBadge(facility)}${amenityBadges(facility)}</div></div>
           <div class="list-actions">
             <a class="button" href="${facility.url}">${text.detail}</a>
             <a class="button button-light" href="${facility.bookingUrl}">${actionLabel(facility)}</a>

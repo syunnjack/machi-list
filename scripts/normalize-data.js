@@ -40,7 +40,11 @@ function toolKeyword(genreKey, label) {
     billiards: "ビリヤード キュー チョーク",
     netcafe: "ネットカフェ 備品 軽食",
     "movie-theater": "映画 前売り券",
-    "video-box": "軽食 充電器 アメニティ"
+    "video-box": "軽食 充電器 アメニティ",
+    "capsule-toy": "カプセルトイ 収納 ケース",
+    "crane-game": "クレーンゲーム 景品 収納",
+    "convenience-store": "携帯灰皿",
+    cafe: "カフェ タンブラー"
   }[genreKey] || `${label} 関連商品`;
 }
 
@@ -58,7 +62,11 @@ function defaultHours(genreKey) {
     bowling: "営業時間確認",
     billiards: "夜まで営業",
     "movie-theater": "上映時間確認",
-    "video-box": "24時間営業"
+    "video-box": "24時間営業",
+    "capsule-toy": "営業時間確認",
+    "crane-game": "営業時間確認",
+    "convenience-store": "24時間営業",
+    cafe: "営業時間確認"
   }[genreKey] || "営業時間確認";
 }
 
@@ -96,6 +104,12 @@ function normalizeShop(shop) {
   if (!shop.booking_url && shop.genre_key === "video-box" && shop.official_url) {
     shop.booking_url = shop.official_url;
   }
+  if (!shop.booking_url && (shop.genre_key === "capsule-toy" || shop.genre_key === "crane-game") && shop.official_url) {
+    shop.booking_url = shop.official_url;
+  }
+  if (!shop.booking_url && (shop.genre_key === "convenience-store" || shop.genre_key === "cafe") && shop.official_url) {
+    shop.booking_url = shop.official_url;
+  }
   if (!shop.booking_url && isEventGenre(shop.genre_key)) {
     shop.booking_url = eventUrl(area, genre);
   }
@@ -107,6 +121,16 @@ function normalizeShop(shop) {
   }
   if (!shop.shopping_url) {
     shop.shopping_url = shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(toolKeyword(shop.genre_key, genre.label));
+  }
+  return shop;
+}
+
+function enrichAmenities(shop) {
+  if (shop.genre_key === "convenience-store" || shop.genre_key === "cafe") {
+    shop.smoking_area = shop.smoking_area || "要確認";
+    shop.power_seat = shop.power_seat || "要確認";
+    shop.wifi = shop.wifi || "要確認";
+    shop.eat_in = shop.eat_in || "要確認";
   }
   return shop;
 }
@@ -327,7 +351,61 @@ const additions = [
   ["aichi-nisshin-mirumiru", "メガステーションミルミル 日進店", "video-box", "nisshin", "愛知県日進市周辺", "赤池駅", 35, 2000, "目安2,000円から", true, true, true, "日進周辺", "https://mirumiru.net/"],
   ["tokyo-toshima-takarajima-ikebukuro", "宝島24 池袋店", "video-box", "tokyo-toshima", "東京都豊島区東池袋1-40-5 受付1F", "池袋駅", 3, 2000, "目安2,000円から", false, true, true, "池袋駅東口周辺", "https://takarajima24.com/shop/"],
   ["tokyo-shinjuku-takarajima-shinjuku", "宝島24 新宿本店", "video-box", "tokyo-shinjuku", "東京都新宿区新宿3丁目周辺", "新宿駅", 5, 2000, "目安2,000円から", false, true, true, "新宿駅周辺", "https://takarajima24.com/shop/"],
-  ["tokyo-shibuya-takarajima-shibuya", "宝島24 渋谷本店", "video-box", "tokyo-shibuya", "東京都渋谷区道玄坂周辺", "渋谷駅", 5, 2000, "目安2,000円から", false, true, true, "渋谷駅周辺", "https://takarajima24.com/shop/"]
+  ["tokyo-shibuya-takarajima-shibuya", "宝島24 渋谷本店", "video-box", "tokyo-shibuya", "東京都渋谷区道玄坂周辺", "渋谷駅", 5, 2000, "目安2,000円から", false, true, true, "渋谷駅周辺", "https://takarajima24.com/shop/"],
+  ["saitama-omiya-round1-bowling", "ラウンドワン 大宮店", "bowling", "saitama-omiya", "埼玉県さいたま市大宮区宮町4丁目90番地7", "大宮駅", 8, 700, "目安700円から", true, true, true, "大宮駅東口周辺", "https://www.round1.co.jp/shop/tenpo/saitama-omiya.html"],
+  ["saitama-omiya-round1-karaoke", "ラウンドワン 大宮店", "karaoke", "saitama-omiya", "埼玉県さいたま市大宮区宮町4丁目90番地7", "大宮駅", 8, 1000, "目安1,000円から", true, true, true, "大宮駅東口周辺", "https://www.round1.co.jp/shop/tenpo/saitama-omiya.html"],
+  ["saitama-omiya-round1-game", "ラウンドワン 大宮店", "game-center", "saitama-omiya", "埼玉県さいたま市大宮区宮町4丁目90番地7", "大宮駅", 8, 500, "目安500円から", true, true, true, "大宮駅東口周辺", "https://www.round1.co.jp/shop/tenpo/saitama-omiya.html"],
+  ["saitama-omiya-round1-darts", "ラウンドワン 大宮店", "darts", "saitama-omiya", "埼玉県さいたま市大宮区宮町4丁目90番地7", "大宮駅", 8, 1000, "目安1,000円から", true, true, true, "大宮駅東口周辺", "https://www.round1.co.jp/shop/tenpo/saitama-omiya.html"],
+  ["saitama-omiya-round1-billiards", "ラウンドワン 大宮店", "billiards", "saitama-omiya", "埼玉県さいたま市大宮区宮町4丁目90番地7", "大宮駅", 8, 1000, "目安1,000円から", true, true, true, "大宮駅東口周辺", "https://www.round1.co.jp/shop/tenpo/saitama-omiya.html"],
+  ["saitama-omiya-round1-crane", "ラウンドワン 大宮店", "crane-game", "saitama-omiya", "埼玉県さいたま市大宮区宮町4丁目90番地7", "大宮駅", 8, 500, "目安500円から", true, true, true, "大宮駅東口周辺", "https://www.round1.co.jp/shop/tenpo/saitama-omiya.html"],
+  ["saitama-omiya-gigo-game", "GiGO大宮西口", "game-center", "saitama-omiya", "埼玉県さいたま市大宮区桜木町2-3-2 泰伸ビル2F", "大宮駅", 1, 500, "目安500円から", false, true, false, "大宮駅西口周辺", "https://www.gigo.co.jp/shops/omiya-nishiguchi"],
+  ["saitama-omiya-gigo-crane", "GiGO大宮西口", "crane-game", "saitama-omiya", "埼玉県さいたま市大宮区桜木町2-3-2 泰伸ビル2F", "大宮駅", 1, 500, "目安500円から", false, true, false, "大宮駅西口周辺", "https://www.gigo.co.jp/shops/omiya-nishiguchi"],
+  ["saitama-omiya-gigo-capsule", "GiGO大宮西口", "capsule-toy", "saitama-omiya", "埼玉県さいたま市大宮区桜木町2-3-2 泰伸ビル2F", "大宮駅", 1, 300, "目安300円から", false, true, false, "大宮駅西口周辺", "https://www.gigo.co.jp/shops/omiya-nishiguchi"],
+  ["saitama-omiya-gacha-arche", "大宮がちゃ処", "capsule-toy", "saitama-omiya", "埼玉県さいたま市大宮区桜木町2丁目1-1 大宮アルシェ5階", "大宮駅", 2, 300, "目安300円から", false, true, false, "大宮駅西口周辺", "https://www.gashapon.jp/shop/shop.php?paging=3&shop_code=S90000560"],
+  ["saitama-omiya-kaikatsu", "快活CLUB 大宮店", "netcafe", "saitama-omiya", "埼玉県さいたま市大宮区仲町1-15 大宮東宝会館4F", "大宮駅", 2, 1200, "目安1,200円から", false, true, true, "大宮駅東口周辺", "https://www.kaikatsu.jp/shop/detail/20908.html"],
+  ["saitama-urawa-kaikatsu", "快活CLUB 浦和駅東口店", "netcafe", "saitama-urawa", "埼玉県さいたま市浦和区東仲町11-20 ブランコライユ2F", "浦和駅", 2, 1200, "目安1,200円から", false, true, true, "浦和駅東口周辺", "https://www.kaikatsu.jp/shop/result.html?area=11"],
+  ["chiba-chuo-gigo-game", "GiGO千葉", "game-center", "chiba-chuo", "千葉県千葉市中央区富士見2-4-1", "千葉駅", 1, 500, "目安500円から", false, true, false, "千葉駅東口周辺", "https://www.gigo.co.jp/shops/chiba"],
+  ["chiba-chuo-gigo-crane", "GiGO千葉", "crane-game", "chiba-chuo", "千葉県千葉市中央区富士見2-4-1", "千葉駅", 1, 500, "目安500円から", false, true, false, "千葉駅東口周辺", "https://www.gigo.co.jp/shops/chiba"],
+  ["chiba-chuo-gashapon-ario-soga", "ガシャポンのデパート イトーヨーカドーアリオ蘇我店", "capsule-toy", "chiba-chuo", "千葉県千葉市中央区川崎町52-7 イトーヨーカドーアリオ蘇我店", "蘇我駅", 15, 300, "目安300円から", true, true, false, "蘇我周辺", "https://gashapon.jp/news/campaign_260420/"],
+  ["chiba-chuo-kaikatsu", "快活CLUB 千葉中央店", "netcafe", "chiba-chuo", "千葉県千葉市中央区富士見2-7-13 千葉B&Vビル5-7F", "千葉中央駅", 4, 1200, "目安1,200円から", false, true, true, "千葉中央駅周辺", "https://www.kaikatsu.jp/shop/result.html?area=12"],
+  ["chiba-ichikawa-round1-bowling", "ラウンドワン 市川鬼高店", "bowling", "ichikawa", "千葉県市川市鬼高4丁目1番3号", "本八幡駅", 15, 700, "目安700円から", true, true, true, "鬼高周辺", "https://www.round1.co.jp/shop/tenpo/chiba-ichikawa.html"],
+  ["chiba-ichikawa-round1-karaoke", "ラウンドワン 市川鬼高店", "karaoke", "ichikawa", "千葉県市川市鬼高4丁目1番3号", "本八幡駅", 15, 1000, "目安1,000円から", true, true, true, "鬼高周辺", "https://www.round1.co.jp/shop/tenpo/chiba-ichikawa.html"],
+  ["chiba-ichikawa-round1-game", "ラウンドワン 市川鬼高店", "game-center", "ichikawa", "千葉県市川市鬼高4丁目1番3号", "本八幡駅", 15, 500, "目安500円から", true, true, true, "鬼高周辺", "https://www.round1.co.jp/shop/tenpo/chiba-ichikawa.html"],
+  ["chiba-ichikawa-round1-darts", "ラウンドワン 市川鬼高店", "darts", "ichikawa", "千葉県市川市鬼高4丁目1番3号", "本八幡駅", 15, 1000, "目安1,000円から", true, true, true, "鬼高周辺", "https://www.round1.co.jp/shop/tenpo/chiba-ichikawa.html"],
+  ["chiba-ichikawa-round1-billiards", "ラウンドワン 市川鬼高店", "billiards", "ichikawa", "千葉県市川市鬼高4丁目1番3号", "本八幡駅", 15, 1000, "目安1,000円から", true, true, true, "鬼高周辺", "https://www.round1.co.jp/shop/tenpo/chiba-ichikawa.html"],
+  ["chiba-ichikawa-round1-crane", "ラウンドワン 市川鬼高店", "crane-game", "ichikawa", "千葉県市川市鬼高4丁目1番3号", "本八幡駅", 15, 500, "目安500円から", true, true, true, "鬼高周辺", "https://www.round1.co.jp/shop/tenpo/chiba-ichikawa.html"],
+  ["okayama-minami-round1-bowling", "ラウンドワン 岡山妹尾店", "bowling", "okayama-minami", "岡山県岡山市南区妹尾3413番地1", "妹尾駅", 25, 700, "目安700円から", true, true, true, "妹尾周辺", "https://www.round1.co.jp/shop/area07.html/area06.html"],
+  ["okayama-minami-round1-karaoke", "ラウンドワン 岡山妹尾店", "karaoke", "okayama-minami", "岡山県岡山市南区妹尾3413番地1", "妹尾駅", 25, 1000, "目安1,000円から", true, true, true, "妹尾周辺", "https://www.round1.co.jp/shop/area07.html/area06.html"],
+  ["okayama-minami-round1-game", "ラウンドワン 岡山妹尾店", "game-center", "okayama-minami", "岡山県岡山市南区妹尾3413番地1", "妹尾駅", 25, 500, "目安500円から", true, true, true, "妹尾周辺", "https://www.round1.co.jp/shop/area07.html/area06.html"],
+  ["okayama-minami-round1-darts", "ラウンドワン 岡山妹尾店", "darts", "okayama-minami", "岡山県岡山市南区妹尾3413番地1", "妹尾駅", 25, 1000, "目安1,000円から", true, true, true, "妹尾周辺", "https://www.round1.co.jp/shop/area07.html/area06.html"],
+  ["okayama-minami-round1-billiards", "ラウンドワン 岡山妹尾店", "billiards", "okayama-minami", "岡山県岡山市南区妹尾3413番地1", "妹尾駅", 25, 1000, "目安1,000円から", true, true, true, "妹尾周辺", "https://www.round1.co.jp/shop/area07.html/area06.html"],
+  ["okayama-minami-round1-crane", "ラウンドワン 岡山妹尾店", "crane-game", "okayama-minami", "岡山県岡山市南区妹尾3413番地1", "妹尾駅", 25, 500, "目安500円から", true, true, true, "妹尾周辺", "https://www.round1.co.jp/shop/area07.html/area06.html"],
+  ["okayama-kita-gachamori-aeon", "ガチャガチャの森 イオンモール岡山店", "capsule-toy", "okayama-kita", "岡山県岡山市北区下石井1丁目2番1号 イオンモール岡山5F", "岡山駅", 5, 300, "目安300円から", true, true, false, "岡山駅前周辺", "https://gashapon.jp/news/campaign_shoplist_260317/"],
+  ["okayama-kita-keibunsha-gashapon", "啓文社 岡山本店 ガシャポン", "capsule-toy", "okayama-kita", "岡山県岡山市北区下中野377-1", "大元駅", 15, 300, "目安300円から", true, true, false, "下中野周辺", "https://keibunsha.net/details/store-detail.php?sp=3"],
+  ["niigata-chuo-round1-bowling", "ラウンドワン 新潟店", "bowling", "niigata-chuo", "新潟県新潟市中央区美咲町2丁目1番38号", "新潟駅", 45, 700, "目安700円から", true, true, true, "美咲町周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["niigata-chuo-round1-karaoke", "ラウンドワン 新潟店", "karaoke", "niigata-chuo", "新潟県新潟市中央区美咲町2丁目1番38号", "新潟駅", 45, 1000, "目安1,000円から", true, true, true, "美咲町周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["niigata-chuo-round1-game", "ラウンドワン 新潟店", "game-center", "niigata-chuo", "新潟県新潟市中央区美咲町2丁目1番38号", "新潟駅", 45, 500, "目安500円から", true, true, true, "美咲町周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["niigata-chuo-round1-crane", "ラウンドワン 新潟店", "crane-game", "niigata-chuo", "新潟県新潟市中央区美咲町2丁目1番38号", "新潟駅", 45, 500, "目安500円から", true, true, true, "美咲町周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["kumamoto-chuo-gashapon-wondercity", "ガシャポンのデパート ワンダーシティ南熊本店", "capsule-toy", "kumamoto-chuo", "熊本県熊本市中央区九品寺6丁目9番1", "南熊本駅", 10, 300, "目安300円から", true, true, false, "南熊本周辺", "https://gashapon.jp/news/campaign_shoplist_260601/"],
+  ["kumamoto-chuo-capsule-cocosa", "Capsule park 熊本COCOSA店", "capsule-toy", "kumamoto-chuo", "熊本県熊本市中央区下通1-3-8 COCOSA 3F", "通町筋駅", 2, 300, "目安300円から", false, true, false, "下通周辺", "https://gashapon.jp/news/campaign_260420/"],
+  ["kumamoto-chuo-round1-bowling", "ラウンドワン 熊本店", "bowling", "kumamoto-chuo", "熊本県熊本市西区春日7丁目25番15号", "熊本駅", 15, 700, "目安700円から", true, true, true, "熊本駅西側周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["kumamoto-chuo-round1-karaoke", "ラウンドワン 熊本店", "karaoke", "kumamoto-chuo", "熊本県熊本市西区春日7丁目25番15号", "熊本駅", 15, 1000, "目安1,000円から", true, true, true, "熊本駅西側周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["kumamoto-chuo-round1-game", "ラウンドワン 熊本店", "game-center", "kumamoto-chuo", "熊本県熊本市西区春日7丁目25番15号", "熊本駅", 15, 500, "目安500円から", true, true, true, "熊本駅西側周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["kumamoto-chuo-round1-crane", "ラウンドワン 熊本店", "crane-game", "kumamoto-chuo", "熊本県熊本市西区春日7丁目25番15号", "熊本駅", 15, 500, "目安500円から", true, true, true, "熊本駅西側周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["kagoshima-round1-bowling", "ラウンドワンスタジアム 鹿児島宇宿店", "bowling", "kagoshima", "鹿児島県鹿児島市宇宿2丁目2番2号", "宇宿一丁目駅", 5, 700, "目安700円から", true, true, true, "宇宿周辺", "https://news.round1.co.jp/shop/tenpo/kagoshima-kagoshima.html"],
+  ["kagoshima-round1-karaoke", "ラウンドワンスタジアム 鹿児島宇宿店", "karaoke", "kagoshima", "鹿児島県鹿児島市宇宿2丁目2番2号", "宇宿一丁目駅", 5, 1000, "目安1,000円から", true, true, true, "宇宿周辺", "https://news.round1.co.jp/shop/tenpo/kagoshima-kagoshima.html"],
+  ["kagoshima-round1-game", "ラウンドワンスタジアム 鹿児島宇宿店", "game-center", "kagoshima", "鹿児島県鹿児島市宇宿2丁目2番2号", "宇宿一丁目駅", 5, 500, "目安500円から", true, true, true, "宇宿周辺", "https://news.round1.co.jp/shop/tenpo/kagoshima-kagoshima.html"],
+  ["kagoshima-round1-crane", "ラウンドワンスタジアム 鹿児島宇宿店", "crane-game", "kagoshima", "鹿児島県鹿児島市宇宿2丁目2番2号", "宇宿一丁目駅", 5, 500, "目安500円から", true, true, true, "宇宿周辺", "https://news.round1.co.jp/shop/tenpo/kagoshima-kagoshima.html"],
+  ["kitakyushu-kokurakita-round1-bowling", "ラウンドワン 小倉店", "bowling", "kitakyushu-kokurakita", "福岡県北九州市小倉北区西港町15-65", "小倉駅", 35, 700, "目安700円から", true, true, true, "西港町周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["kitakyushu-kokurakita-round1-karaoke", "ラウンドワン 小倉店", "karaoke", "kitakyushu-kokurakita", "福岡県北九州市小倉北区西港町15-65", "小倉駅", 35, 1000, "目安1,000円から", true, true, true, "西港町周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["kitakyushu-kokurakita-round1-game", "ラウンドワン 小倉店", "game-center", "kitakyushu-kokurakita", "福岡県北九州市小倉北区西港町15-65", "小倉駅", 35, 500, "目安500円から", true, true, true, "西港町周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["kitakyushu-kokurakita-round1-crane", "ラウンドワン 小倉店", "crane-game", "kitakyushu-kokurakita", "福岡県北九州市小倉北区西港町15-65", "小倉駅", 35, 500, "目安500円から", true, true, true, "西港町周辺", "https://www.round1.co.jp/company/company/all-shop.html"],
+  ["saitama-omiya-familymart-east", "ファミリーマート 大宮駅東口店", "convenience-store", "saitama-omiya", "埼玉県さいたま市大宮区大門町1丁目92番地6", "大宮駅", 2, 300, "目安300円から", false, true, true, "大宮駅東口周辺", "https://store.family.co.jp/points/58556", "要確認", "要確認", "あり", "あり"],
+  ["saitama-omiya-seven-nangin", "セブン-イレブン 大宮駅南銀座通り店", "convenience-store", "saitama-omiya", "埼玉県さいたま市大宮区仲町1-66-1", "大宮駅", 2, 300, "目安300円から", false, true, false, "大宮駅東口周辺", "https://location.sevenbank.co.jp/sevenbank/station/spot/list?node=00005564&radius=5", "要確認", "要確認", "要確認", "要確認"],
+  ["kumamoto-chuo-seven-shimotori", "セブン-イレブン 熊本下通1丁目店", "convenience-store", "kumamoto-chuo", "熊本県熊本市中央区下通1丁目7-11", "花畑町駅", 3, 300, "目安300円から", false, true, false, "下通周辺", "https://itp.ne.jp/zenkoku/kumamoto/kumamotoshi-chuoku/shimotori/shoppingu-okaimono/kombini/kombiniensusutoa/konbiniensusutoa/433473843107171970", "要確認", "要確認", "要確認", "要確認"],
+  ["kumamoto-chuo-doutor-shimotori", "ドトールコーヒーショップ 熊本下通り店", "cafe", "kumamoto-chuo", "熊本県熊本市中央区手取本町4-7 杉谷ビル1F", "通町筋駅", 2, 500, "目安500円から", false, true, true, "下通周辺", "https://shop.doutor.co.jp/doutor/spot/detail?code=2010823", "喫煙ブースあり", "要確認", "あり", "あり"],
+  ["aichi-nagoya-mizuho-komeda-honten", "コメダ珈琲店 本店", "cafe", "nagoya-mizuho", "愛知県名古屋市瑞穂区上山町3-14-8", "八事駅", 25, 600, "目安600円から", true, true, true, "上山町周辺", "https://www.komeda.co.jp/shop/detail.html?id=1", "全席禁煙", "あり", "あり", "あり"],
+  ["chiba-chuo-starbucks-perie", "スターバックス ペリエ千葉店", "cafe", "chiba-chuo", "千葉県千葉市中央区新千葉1丁目1-1 ペリエ千葉2F", "千葉駅", 1, 600, "目安600円から", false, true, true, "千葉駅周辺", "https://www.perie.co.jp/chiba/floorguide/detail/?id=406", "禁煙", "要確認", "あり", "あり"]
 ];
 
 const removeIds = new Set([
@@ -346,7 +424,7 @@ for (let index = shops.length - 1; index >= 0; index -= 1) {
 const existing = new Set(shops.map((shop) => shop.id));
 for (const item of additions) {
   if (existing.has(item[0])) continue;
-  const [id, name, genreKey, areaKey, address, station, walk, budget, budgetLabel, parking, late, coupon, localArea, officialUrl] = item;
+  const [id, name, genreKey, areaKey, address, station, walk, budget, budgetLabel, parking, late, coupon, localArea, officialUrl, smokingArea, powerSeat, wifi, eatIn] = item;
   shops.push({
     id,
     name,
@@ -363,12 +441,17 @@ for (const item of additions) {
     late,
     coupon,
     official_url: officialUrl || "",
+    smoking_area: smokingArea || "",
+    power_seat: powerSeat || "",
+    wifi: wifi || "",
+    eat_in: eatIn || "",
     source: { google_place_id: null, google_query: `${name} ${address}` }
   });
 }
 
 for (const shop of shops) {
   if (fixes[shop.id]) Object.assign(shop, fixes[shop.id]);
+  enrichAmenities(shop);
   normalizeShop(shop);
 }
 

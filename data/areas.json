@@ -741,6 +741,58 @@
     "map_y": 48
   },
   {
+    "prefecture_key": "saitama",
+    "prefecture": "埼玉県",
+    "key": "saitama-omiya",
+    "path": "saitama/omiya",
+    "label": "さいたま市大宮区",
+    "city": "さいたま市",
+    "ward": "大宮区",
+    "station": "大宮駅",
+    "parent": "さいたま市",
+    "map_x": 50,
+    "map_y": 45
+  },
+  {
+    "prefecture_key": "saitama",
+    "prefecture": "埼玉県",
+    "key": "saitama-urawa",
+    "path": "saitama/urawa",
+    "label": "さいたま市浦和区",
+    "city": "さいたま市",
+    "ward": "浦和区",
+    "station": "浦和駅",
+    "parent": "さいたま市",
+    "map_x": 49,
+    "map_y": 54
+  },
+  {
+    "prefecture_key": "chiba",
+    "prefecture": "千葉県",
+    "key": "chiba-chuo",
+    "path": "chiba/chuo",
+    "label": "千葉市中央区",
+    "city": "千葉市",
+    "ward": "中央区",
+    "station": "千葉駅・千葉中央駅",
+    "parent": "千葉市",
+    "map_x": 53,
+    "map_y": 55
+  },
+  {
+    "prefecture_key": "chiba",
+    "prefecture": "千葉県",
+    "key": "ichikawa",
+    "path": "ichikawa",
+    "label": "市川市",
+    "city": "市川市",
+    "ward": "",
+    "station": "市川駅・本八幡駅",
+    "parent": "",
+    "map_x": 45,
+    "map_y": 48
+  },
+  {
     "prefecture_key": "hokkaido",
     "prefecture": "北海道",
     "key": "sapporo-chuo",
@@ -765,6 +817,45 @@
     "parent": "仙台市",
     "map_x": 50,
     "map_y": 45
+  },
+  {
+    "prefecture_key": "niigata",
+    "prefecture": "新潟県",
+    "key": "niigata-chuo",
+    "path": "niigata/chuo",
+    "label": "新潟市中央区",
+    "city": "新潟市",
+    "ward": "中央区",
+    "station": "新潟駅・白山駅",
+    "parent": "新潟市",
+    "map_x": 50,
+    "map_y": 45
+  },
+  {
+    "prefecture_key": "okayama",
+    "prefecture": "岡山県",
+    "key": "okayama-minami",
+    "path": "okayama/minami",
+    "label": "岡山市南区",
+    "city": "岡山市",
+    "ward": "南区",
+    "station": "妹尾駅",
+    "parent": "岡山市",
+    "map_x": 49,
+    "map_y": 58
+  },
+  {
+    "prefecture_key": "okayama",
+    "prefecture": "岡山県",
+    "key": "okayama-kita",
+    "path": "okayama/kita",
+    "label": "岡山市北区",
+    "city": "岡山市",
+    "ward": "北区",
+    "station": "岡山駅",
+    "parent": "岡山市",
+    "map_x": 49,
+    "map_y": 48
   },
   {
     "prefecture_key": "hyogo",
@@ -817,5 +908,44 @@
     "parent": "福岡市",
     "map_x": 48,
     "map_y": 45
+  },
+  {
+    "prefecture_key": "fukuoka",
+    "prefecture": "福岡県",
+    "key": "kitakyushu-kokurakita",
+    "path": "kitakyushu/kokurakita",
+    "label": "北九州市小倉北区",
+    "city": "北九州市",
+    "ward": "小倉北区",
+    "station": "小倉駅",
+    "parent": "北九州市",
+    "map_x": 54,
+    "map_y": 46
+  },
+  {
+    "prefecture_key": "kumamoto",
+    "prefecture": "熊本県",
+    "key": "kumamoto-chuo",
+    "path": "kumamoto/chuo",
+    "label": "熊本市中央区",
+    "city": "熊本市",
+    "ward": "中央区",
+    "station": "熊本駅・通町筋駅",
+    "parent": "熊本市",
+    "map_x": 50,
+    "map_y": 50
+  },
+  {
+    "prefecture_key": "kagoshima",
+    "prefecture": "鹿児島県",
+    "key": "kagoshima",
+    "path": "kagoshima",
+    "label": "鹿児島市",
+    "city": "鹿児島市",
+    "ward": "",
+    "station": "鹿児島中央駅・天文館通駅",
+    "parent": "",
+    "map_x": 50,
+    "map_y": 55
   }
 ]

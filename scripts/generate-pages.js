@@ -18,11 +18,17 @@ const prefectures = [
   { key: "osaka", label: "大阪府" },
   { key: "kyoto", label: "京都府" },
   { key: "kanagawa", label: "神奈川県" },
+  { key: "saitama", label: "埼玉県" },
+  { key: "chiba", label: "千葉県" },
   { key: "hokkaido", label: "北海道" },
   { key: "miyagi", label: "宮城県" },
+  { key: "niigata", label: "新潟県" },
+  { key: "okayama", label: "岡山県" },
   { key: "hyogo", label: "兵庫県" },
   { key: "hiroshima", label: "広島県" },
-  { key: "fukuoka", label: "福岡県" }
+  { key: "fukuoka", label: "福岡県" },
+  { key: "kumamoto", label: "熊本県" },
+  { key: "kagoshima", label: "鹿児島県" }
 ];
 
 function readJson(relativePath) {
@@ -85,7 +91,11 @@ function shoppingUrl(genre) {
     bowling: "ボウリング ボール シューズ",
     billiards: "ビリヤード キュー チョーク",
     "movie-theater": "映画 前売り券",
-    "video-box": "軽食 充電器 アメニティ"
+    "video-box": "軽食 充電器 アメニティ",
+    "capsule-toy": "カプセルトイ 収納 ケース",
+    "crane-game": "クレーンゲーム 景品 収納",
+    "convenience-store": "携帯灰皿",
+    cafe: "カフェ タンブラー"
   };
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keywords[genre.key] || `${genre.label} 関連商品`)}/`;
 }
@@ -114,6 +124,18 @@ function subtleLinks(area, genre, depth) {
   if (genre.key === "movie-theater") {
     return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${shoppingUrl(genre)}">前売り券を探す</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
+  if (genre.key === "capsule-toy") {
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${shoppingUrl(genre)}">収納・ケース</a><a href="${couponUrl(genre)}">取扱商品を探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+  }
+  if (genre.key === "crane-game") {
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${couponUrl(genre)}">景品・イベント</a><a href="${shoppingUrl(genre)}">収納・グッズ</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+  }
+  if (genre.key === "convenience-store") {
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${shoppingUrl(genre)}">携帯灰皿</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+  }
+  if (genre.key === "cafe") {
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">店舗を確認</a><a href="${shoppingUrl(genre)}">タンブラー</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+  }
   return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">予約できる店</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${shoppingUrl(genre)}">${genre.key === "adult-shop" ? "通販を見る" : "関連アイテム"}</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
 }
 
@@ -122,6 +144,10 @@ function primaryActionLabel(shop) {
   if (isEventGenre(shop.genre_key)) return "大会・イベント";
   if (shop.genre_key === "movie-theater") return "上映・チケット";
   if (shop.genre_key === "video-box") return "店舗を確認";
+  if (shop.genre_key === "capsule-toy") return "在庫・商品";
+  if (shop.genre_key === "crane-game") return "景品・イベント";
+  if (shop.genre_key === "convenience-store") return "店舗を確認";
+  if (shop.genre_key === "cafe") return "店舗を確認";
   return "予約";
 }
 
@@ -129,6 +155,10 @@ function secondaryActionLabel(shop) {
   if (shop.genre_key === "adult-shop") return "通販";
   if (isEventGenre(shop.genre_key)) return "道具";
   if (shop.genre_key === "netcafe" || shop.genre_key === "video-box") return "軽食・備品";
+  if (shop.genre_key === "capsule-toy") return "収納・ケース";
+  if (shop.genre_key === "crane-game") return "収納・グッズ";
+  if (shop.genre_key === "convenience-store") return "携帯灰皿";
+  if (shop.genre_key === "cafe") return "タンブラー";
   return "クーポン";
 }
 
@@ -136,6 +166,10 @@ function supportHeading(genre) {
   if (isEventGenre(genre.key)) return "大会・イベント・道具";
   if (genre.key === "netcafe" || genre.key === "video-box") return "終電後の休憩・軽食・備品";
   if (genre.key === "movie-theater") return "上映・チケット・周辺情報";
+  if (genre.key === "capsule-toy") return "取扱商品・収納・周辺情報";
+  if (genre.key === "crane-game") return "景品・イベント・周辺情報";
+  if (genre.key === "convenience-store") return "店頭喫煙・灰皿・周辺情報";
+  if (genre.key === "cafe") return "電源・Wi-Fi・イートイン";
   return "予約・クーポン・周辺情報";
 }
 
@@ -143,12 +177,20 @@ function supportText(area, genre) {
   if (isEventGenre(genre.key)) return `${area.label}周辺で使える大会情報、練習先、道具、駐車場を必要な時に開けます。`;
   if (genre.key === "netcafe" || genre.key === "video-box") return `${area.label}周辺で終電後に休める店、シャワー、充電、軽食、備品を必要な時に確認できます。`;
   if (genre.key === "movie-theater") return `${area.label}周辺の上映時間、チケット、クーポン、駐車場を必要な時に開けます。`;
+  if (genre.key === "capsule-toy") return `${area.label}周辺のカプセルトイ専門店、設置場所、取扱商品、収納用品を必要な時に確認できます。`;
+  if (genre.key === "crane-game") return `${area.label}周辺のクレーンゲーム、UFOキャッチャー、景品、駅近店舗を必要な時に確認できます。`;
+  if (genre.key === "convenience-store") return `${area.label}周辺のコンビニ、店頭喫煙、灰皿、駐車場、24時間営業を必要な時に確認できます。`;
+  if (genre.key === "cafe") return `${area.label}周辺のカフェ、電源、Wi-Fi、イートイン、駅からの近さを必要な時に確認できます。`;
   return `${area.label}周辺で使える予約、クーポン、通販、駐車場を必要な時に開けます。`;
 }
 
 function supportPrimaryUrl(area, genre) {
   if (isEventGenre(genre.key)) return eventUrl(area, genre);
   if (genre.key === "netcafe" || genre.key === "video-box") return shoppingUrl(genre);
+  if (genre.key === "capsule-toy") return couponUrl(genre);
+  if (genre.key === "crane-game") return couponUrl(genre);
+  if (genre.key === "convenience-store") return couponUrl(genre);
+  if (genre.key === "cafe") return bookingUrl(area, genre);
   return bookingUrl(area, genre);
 }
 
@@ -156,6 +198,10 @@ function supportPrimaryLabel(genre) {
   if (isEventGenre(genre.key)) return "大会・イベント";
   if (genre.key === "netcafe" || genre.key === "video-box") return "軽食・備品";
   if (genre.key === "movie-theater") return "上映・チケット";
+  if (genre.key === "capsule-toy") return "取扱商品を探す";
+  if (genre.key === "crane-game") return "景品・イベント";
+  if (genre.key === "convenience-store") return "クーポンを探す";
+  if (genre.key === "cafe") return "店舗を確認";
   return "予約できる店";
 }
 
@@ -199,7 +245,11 @@ function featureBadges(shop) {
     shop.hours ? `<span class="badge">${escapeHtml(shop.hours)}</span>` : "",
     shop.parking ? `<span class="badge">駐車場あり</span>` : "",
     shop.late ? `<span class="badge">夜まで営業</span>` : "",
-    shop.coupon ? `<span class="badge">クーポン確認</span>` : ""
+    shop.coupon ? `<span class="badge">クーポン確認</span>` : "",
+    shop.smoking_area ? `<span class="badge">喫煙: ${escapeHtml(shop.smoking_area)}</span>` : "",
+    shop.power_seat ? `<span class="badge">電源: ${escapeHtml(shop.power_seat)}</span>` : "",
+    shop.wifi ? `<span class="badge">Wi-Fi: ${escapeHtml(shop.wifi)}</span>` : "",
+    shop.eat_in ? `<span class="badge">イートイン: ${escapeHtml(shop.eat_in)}</span>` : ""
   ].filter(Boolean).join("");
 }
 
@@ -313,7 +363,7 @@ function genrePage(area, genre) {
       </header>
       <section class="answer-box"><h2>このページで確認できること</h2><ul><li>${genre.description}</li><li>店舗名、住所、駅からの目安、予算、特徴を一覧で比較できます。</li><li>行く前に予約、クーポン、駐車場、周辺の飲食店を確認できます。</li></ul></section>
       <section class="monetization-strip"><div><p class="eyebrow">あわせて確認</p><h2>${supportHeading(genre)}</h2><p>${supportText(area, genre)}</p></div><div class="route-actions"><a class="button button-light" href="${supportPrimaryUrl(area, genre)}">${supportPrimaryLabel(genre)}</a><a class="button button-light" href="${supportSecondaryUrl(genre)}">${supportSecondaryLabel(genre)}</a></div></section>
-      <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(shop.nearest_station)} 徒歩約${escapeHtml(shop.station_walk_minutes)}分</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section></div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section>${subtleLinks(area, genre, depth)}</aside></section>
+      <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(shop.nearest_station)} 徒歩約${escapeHtml(shop.station_walk_minutes)}分</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : "", shop.smoking_area ? `喫煙: ${shop.smoking_area}` : "", shop.power_seat ? `電源: ${shop.power_seat}` : "", shop.wifi ? `Wi-Fi: ${shop.wifi}` : "", shop.eat_in ? `イートイン: ${shop.eat_in}` : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section></div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section>${subtleLinks(area, genre, depth)}</aside></section>
       <section class="section"><h2>よくある確認</h2><div class="faq-list"><article class="faq-item"><h3>${area.label}で${genre.label}を探す時の見方は？</h3><p>駅からの距離、駐車場、営業時間、予算目安を先に見ると選びやすくなります。</p></article><article class="faq-item"><h3>行く前に確認した方がよいことは？</h3><p>営業時間、料金、取扱内容、クーポン、駐車場は変わる場合があります。来店前に公式情報や地図情報も確認してください。</p></article></div></section>`;
 
   write(path.join(root, "area", area.prefecture_key, ...area.path.split("/"), genre.key, "index.html"), pageShell({
