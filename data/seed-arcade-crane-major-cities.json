@@ -84,5 +84,10 @@
   ["kofu-plaza-capcom-game", "プラサカプコン 甲府店", "game-center", "kofu", "山梨県中巨摩郡昭和町西条3717", "国母駅", 20, 500, "目安500円から", true, true, true, "甲府昭和IC周辺", "https://www.capcom.co.jp/amusement/game/shop/koufu"],
   ["kofu-plaza-capcom-crane", "プラサカプコン 甲府店", "crane-game", "kofu", "山梨県中巨摩郡昭和町西条3717", "国母駅", 20, 500, "目安500円から", true, true, true, "甲府昭和IC周辺", "https://www.capcom.co.jp/amusement/game/shop/koufu"],
   ["kofu-adores-plus-game", "アドアーズプラス イオンモール甲府店", "game-center", "kofu", "山梨県中巨摩郡昭和町飯喰1505-1 イオンモール甲府昭和 2F", "常永駅", 12, 500, "目安500円から", true, true, true, "イオンモール甲府昭和", "https://www.adores.jp/tenpo/adplus_kofu.html"],
-  ["kofu-adores-plus-crane", "アドアーズプラス イオンモール甲府店", "crane-game", "kofu", "山梨県中巨摩郡昭和町飯喰1505-1 イオンモール甲府昭和 2F", "常永駅", 12, 500, "目安500円から", true, true, true, "イオンモール甲府昭和", "https://www.adores.jp/tenpo/adplus_kofu.html"]
+  ["kofu-adores-plus-crane", "アドアーズプラス イオンモール甲府店", "crane-game", "kofu", "山梨県中巨摩郡昭和町飯喰1505-1 イオンモール甲府昭和 2F", "常永駅", 12, 500, "目安500円から", true, true, true, "イオンモール甲府昭和", "https://www.adores.jp/tenpo/adplus_kofu.html"],
+
+  ["fukui-gashacoco-curu-f-capsule", "gashacoco くるふ福井駅", "capsule-toy", "fukui", "福井県福井市中央1丁目1-25", "福井駅", 1, 300, "目安300円から", false, true, true, "福井駅前", "https://gashacoco.jp/shop-list/3208"],
+  ["toyama-gachagacha-favore-capsule", "ガチャガチャの森 ファボーレ店", "capsule-toy", "toyama", "富山県富山市婦中町下轡田165-1 ファボーレ 2F", "速星駅", 15, 300, "目安300円から", true, true, true, "ファボーレ周辺", "https://www.favore.jp/shopguide/detail/?cd=000275"],
+  ["toyama-gashapon-fujinoki-capsule", "本屋さんのガシャポンのデパート TSUTAYA BOOKSTORE藤の木店", "capsule-toy", "toyama", "富山県富山市開1325 TSUTAYA BOOKSTORE藤の木店内", "越中荏原駅", 35, 300, "目安300円から", true, true, true, "藤の木周辺", "https://bandainamco-am.co.jp/others/capsule-toy-store/store/fujinoki/"],
+  ["matsue-toys-spot-palo-capsule", "TOYS SPOT PALO 松江店", "capsule-toy", "matsue", "島根県松江市東朝日町151 イオン松江ショッピングセンター 2F", "松江駅", 7, 300, "目安300円から", true, true, true, "イオン松江周辺", "https://www.fantasy.co.jp/shoplist/shop-tsp3777/"]
 ]
