@@ -106,5 +106,21 @@
   ["oita-oita-round1-stadium-karaoke", "ラウンドワンスタジアム 大分店", "karaoke", "oita", "大分県大分市萩原2丁目13-17", "牧駅", 15, 900, "目安900円から", true, true, true, "萩原周辺", "https://news.round1.co.jp/shop/tenpo/oita-oita.html"],
   ["oita-oita-round1-stadium-darts", "ラウンドワンスタジアム 大分店", "darts", "oita", "大分県大分市萩原2丁目13-17", "牧駅", 15, 1000, "目安1,000円から", true, true, true, "萩原周辺", "https://news.round1.co.jp/shop/tenpo/oita-oita.html"],
   ["oita-oita-kaikatsu-morimachi", "快活CLUB 大分森町店", "netcafe", "oita", "大分県大分市皆春1576-4", "鶴崎駅", 18, 1200, "目安1,200円から", true, true, true, "森町周辺", "https://www.kaikatsu.jp/shop/detail/20852.html"],
-  ["oita-oita-kaikatsu-morimachi-karaoke", "快活CLUB 大分森町店", "karaoke", "oita", "大分県大分市皆春1576-4", "鶴崎駅", 18, 900, "目安900円から", true, true, true, "森町周辺", "https://www.kaikatsu.jp/shop/detail/20852.html"]
+  ["oita-oita-kaikatsu-morimachi-karaoke", "快活CLUB 大分森町店", "karaoke", "oita", "大分県大分市皆春1576-4", "鶴崎駅", 18, 900, "目安900円から", true, true, true, "森町周辺", "https://www.kaikatsu.jp/shop/detail/20852.html"],
+  ["ehime-matsuyama-kaikatsu-shigenobu", "快活CLUB 愛媛重信店", "netcafe", "matsuyama", "愛媛県松山市南梅本町1303-1 フジグラン重信さん横 グルメアベニュー2F", "梅本駅", 12, 1200, "目安1,200円から", true, true, true, "フジグラン重信周辺", "https://www.kaikatsu.jp/shop/detail/20671.html"],
+  ["ehime-matsuyama-kaikatsu-shigenobu-darts", "快活CLUB 愛媛重信店", "darts", "matsuyama", "愛媛県松山市南梅本町1303-1 フジグラン重信さん横 グルメアベニュー2F", "梅本駅", 12, 1000, "目安1,000円から", true, true, true, "フジグラン重信周辺", "https://www.kaikatsu.jp/shop/detail/20671.html"],
+  ["ehime-matsuyama-kaikatsu-shigenobu-billiards", "快活CLUB 愛媛重信店", "billiards", "matsuyama", "愛媛県松山市南梅本町1303-1 フジグラン重信さん横 グルメアベニュー2F", "梅本駅", 12, 1000, "目安1,000円から", true, true, true, "フジグラン重信周辺", "https://www.kaikatsu.jp/shop/detail/20671.html"],
+  ["kagawa-takamatsu-gigo", "GiGO高松", "game-center", "takamatsu", "香川県高松市勅使町山王535", "太田駅", 35, 1000, "目安1,000円から", true, true, false, "勅使町周辺", "https://www.gigo.co.jp/shops/takamatsu"],
+  ["kagawa-takamatsu-gigo-crane", "GiGO高松", "crane-game", "takamatsu", "香川県高松市勅使町山王535", "太田駅", 35, 1000, "目安1,000円から", true, true, false, "勅使町周辺", "https://www.gigo.co.jp/shops/takamatsu"],
+  ["kagawa-takamatsu-kaikatsu-fukuokacho", "快活CLUB 高松福岡町店", "netcafe", "takamatsu", "香川県高松市福岡町3-5-2", "沖松島駅", 8, 1200, "目安1,200円から", true, true, true, "福岡町周辺", "https://www.kaikatsu.jp/shop/detail/20663.html"],
+  ["kagawa-takamatsu-kaikatsu-fukuokacho-karaoke", "快活CLUB 高松福岡町店", "karaoke", "takamatsu", "香川県高松市福岡町3-5-2", "沖松島駅", 8, 900, "目安900円から", true, true, true, "福岡町周辺", "https://www.kaikatsu.jp/shop/detail/20663.html"],
+  ["ishikawa-kanazawa-starbucks-crossgate", "スターバックス コーヒー クロスゲート金沢店", "cafe", "kanazawa", "石川県金沢市広岡1-5-3 クロスゲート金沢 1階", "金沢駅", 5, 600, "目安600円から", false, true, true, "金沢駅西口", "https://store.starbucks.co.jp/detail-1862/", "全席禁煙", "要確認", "STARBUCKS Wi-Fiあり", "あり"],
+  ["ishikawa-kanazawa-kaikatsu-hisayasu", "快活CLUB 金沢久安店", "netcafe", "kanazawa", "石川県金沢市久安3-362", "野々市工大前駅", 15, 1200, "目安1,200円から", true, true, true, "久安周辺", "https://www.kaikatsu.jp/shop/result.html?area=17"],
+  ["ishikawa-kanazawa-kaikatsu-fukuhisa", "快活CLUB 金沢福久店", "netcafe", "kanazawa", "石川県金沢市福久東1-23-1", "森本駅", 18, 1200, "目安1,200円から", true, true, true, "福久東周辺", "https://www.kaikatsu.jp/shop/result.html?area=17"],
+  ["toyama-toyama-kaikatsu-kakeo", "快活CLUB 富山掛尾店", "netcafe", "toyama", "富山県富山市今泉388-1", "南富山駅", 12, 1200, "目安1,200円から", true, true, true, "掛尾周辺", "https://www.kaikatsu.jp/shop/detail/20401.html"],
+  ["toyama-toyama-kaikatsu-kakeo-karaoke", "快活CLUB 富山掛尾店", "karaoke", "toyama", "富山県富山市今泉388-1", "南富山駅", 12, 900, "目安900円から", true, true, true, "掛尾周辺", "https://www.kaikatsu.jp/shop/detail/20401.html"],
+  ["toyama-toyama-kaikatsu-kakeo-billiards", "快活CLUB 富山掛尾店", "billiards", "toyama", "富山県富山市今泉388-1", "南富山駅", 12, 1000, "目安1,000円から", true, true, true, "掛尾周辺", "https://www.kaikatsu.jp/shop/detail/20401.html"],
+  ["toyama-toyama-kaikatsu-arakawa", "快活CLUB 富山荒川店", "netcafe", "toyama", "富山県富山市荒川2-15-32", "東新庄駅", 8, 1200, "目安1,200円から", true, true, true, "荒川周辺", "https://www.kaikatsu.jp/shop/detail/20402.html"],
+  ["toyama-toyama-kaikatsu-arakawa-darts", "快活CLUB 富山荒川店", "darts", "toyama", "富山県富山市荒川2-15-32", "東新庄駅", 8, 1000, "目安1,000円から", true, true, true, "荒川周辺", "https://www.kaikatsu.jp/shop/detail/20402.html"],
+  ["toyama-toyama-kaikatsu-arakawa-billiards", "快活CLUB 富山荒川店", "billiards", "toyama", "富山県富山市荒川2-15-32", "東新庄駅", 8, 1000, "目安1,000円から", true, true, true, "荒川周辺", "https://www.kaikatsu.jp/shop/detail/20402.html"]
 ]
