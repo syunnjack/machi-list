@@ -10,25 +10,194 @@ const areas = readJson("data/areas.json");
 const genres = readJson("data/genres.json");
 
 const prefectures = [
-  { key: "aichi", label: "愛知県" },
-  { key: "shizuoka", label: "静岡県" },
-  { key: "gifu", label: "岐阜県" },
-  { key: "mie", label: "三重県" },
-  { key: "tokyo", label: "東京都" },
-  { key: "osaka", label: "大阪府" },
-  { key: "kyoto", label: "京都府" },
-  { key: "kanagawa", label: "神奈川県" },
-  { key: "saitama", label: "埼玉県" },
-  { key: "chiba", label: "千葉県" },
-  { key: "hokkaido", label: "北海道" },
-  { key: "miyagi", label: "宮城県" },
-  { key: "niigata", label: "新潟県" },
-  { key: "okayama", label: "岡山県" },
-  { key: "hyogo", label: "兵庫県" },
-  { key: "hiroshima", label: "広島県" },
-  { key: "fukuoka", label: "福岡県" },
-  { key: "kumamoto", label: "熊本県" },
-  { key: "kagoshima", label: "鹿児島県" }
+  {
+    "key": "hokkaido",
+    "label": "北海道"
+  },
+  {
+    "key": "aomori",
+    "label": "青森県"
+  },
+  {
+    "key": "iwate",
+    "label": "岩手県"
+  },
+  {
+    "key": "miyagi",
+    "label": "宮城県"
+  },
+  {
+    "key": "akita",
+    "label": "秋田県"
+  },
+  {
+    "key": "yamagata",
+    "label": "山形県"
+  },
+  {
+    "key": "fukushima",
+    "label": "福島県"
+  },
+  {
+    "key": "ibaraki",
+    "label": "茨城県"
+  },
+  {
+    "key": "tochigi",
+    "label": "栃木県"
+  },
+  {
+    "key": "gunma",
+    "label": "群馬県"
+  },
+  {
+    "key": "saitama",
+    "label": "埼玉県"
+  },
+  {
+    "key": "chiba",
+    "label": "千葉県"
+  },
+  {
+    "key": "tokyo",
+    "label": "東京都"
+  },
+  {
+    "key": "kanagawa",
+    "label": "神奈川県"
+  },
+  {
+    "key": "niigata",
+    "label": "新潟県"
+  },
+  {
+    "key": "toyama",
+    "label": "富山県"
+  },
+  {
+    "key": "ishikawa",
+    "label": "石川県"
+  },
+  {
+    "key": "fukui",
+    "label": "福井県"
+  },
+  {
+    "key": "yamanashi",
+    "label": "山梨県"
+  },
+  {
+    "key": "nagano",
+    "label": "長野県"
+  },
+  {
+    "key": "gifu",
+    "label": "岐阜県"
+  },
+  {
+    "key": "shizuoka",
+    "label": "静岡県"
+  },
+  {
+    "key": "aichi",
+    "label": "愛知県"
+  },
+  {
+    "key": "mie",
+    "label": "三重県"
+  },
+  {
+    "key": "shiga",
+    "label": "滋賀県"
+  },
+  {
+    "key": "kyoto",
+    "label": "京都府"
+  },
+  {
+    "key": "osaka",
+    "label": "大阪府"
+  },
+  {
+    "key": "hyogo",
+    "label": "兵庫県"
+  },
+  {
+    "key": "nara",
+    "label": "奈良県"
+  },
+  {
+    "key": "wakayama",
+    "label": "和歌山県"
+  },
+  {
+    "key": "tottori",
+    "label": "鳥取県"
+  },
+  {
+    "key": "shimane",
+    "label": "島根県"
+  },
+  {
+    "key": "okayama",
+    "label": "岡山県"
+  },
+  {
+    "key": "hiroshima",
+    "label": "広島県"
+  },
+  {
+    "key": "yamaguchi",
+    "label": "山口県"
+  },
+  {
+    "key": "tokushima",
+    "label": "徳島県"
+  },
+  {
+    "key": "kagawa",
+    "label": "香川県"
+  },
+  {
+    "key": "ehime",
+    "label": "愛媛県"
+  },
+  {
+    "key": "kochi",
+    "label": "高知県"
+  },
+  {
+    "key": "fukuoka",
+    "label": "福岡県"
+  },
+  {
+    "key": "saga",
+    "label": "佐賀県"
+  },
+  {
+    "key": "nagasaki",
+    "label": "長崎県"
+  },
+  {
+    "key": "kumamoto",
+    "label": "熊本県"
+  },
+  {
+    "key": "oita",
+    "label": "大分県"
+  },
+  {
+    "key": "miyazaki",
+    "label": "宮崎県"
+  },
+  {
+    "key": "kagoshima",
+    "label": "鹿児島県"
+  },
+  {
+    "key": "okinawa",
+    "label": "沖縄県"
+  }
 ];
 
 function readJson(relativePath) {
