@@ -438,7 +438,20 @@ const removeIds = new Set([
   "naha-gashapon-kokusaidori",
   "saitama-omiya-gigo-nishiguchi-capsule",
   "saitama-omiya-gigo-nishiguchi-crane",
-  "saitama-omiya-gigo-nishiguchi-game"
+  "saitama-omiya-gigo-nishiguchi-game",
+  "yokohama-nishi-edion-capsule",
+  "yokohama-nishi-round1-west-crane",
+  "yokohama-nishi-round1-west-game",
+  "yokohama-nishi-round1-west-karaoke",
+  "chiba-chuo-gigo-crane",
+  "chiba-chuo-gigo-game",
+  "chiba-chuo-kaikatsu",
+  "chiba-ichikawa-round1-billiards",
+  "chiba-ichikawa-round1-bowling",
+  "chiba-ichikawa-round1-crane",
+  "chiba-ichikawa-round1-darts",
+  "chiba-ichikawa-round1-game",
+  "chiba-ichikawa-round1-karaoke"
 ]);
 
 for (let index = shops.length - 1; index >= 0; index -= 1) {
@@ -447,6 +460,7 @@ for (let index = shops.length - 1; index >= 0; index -= 1) {
 
 const existing = new Set(shops.map((shop) => shop.id));
 for (const item of additions) {
+  if (removeIds.has(item[0])) continue;
   if (existing.has(item[0])) continue;
   const [id, name, genreKey, areaKey, address, station, walk, budget, budgetLabel, parking, late, coupon, localArea, officialUrl, smokingArea, powerSeat, wifi, eatIn] = item;
   shops.push({
