@@ -11,7 +11,9 @@ const genres = readJson("data/genres.json");
 
 const prefectures = [
   { key: "aichi", label: "愛知県" },
-  { key: "shizuoka", label: "静岡県" }
+  { key: "shizuoka", label: "静岡県" },
+  { key: "gifu", label: "岐阜県" },
+  { key: "mie", label: "三重県" }
 ];
 
 function readJson(relativePath) {

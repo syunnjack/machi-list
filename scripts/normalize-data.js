@@ -31,6 +31,7 @@ function defaultHours(genreKey) {
     "game-center": "営業時間確認",
     sauna: "営業時間確認",
     spa: "営業時間確認",
+    "cat-cafe": "営業時間確認",
     restaurant: "夜まで営業"
   }[genreKey] || "営業時間確認";
 }
@@ -60,6 +61,9 @@ function normalizeShop(shop) {
   }
 
   if (!shop.official_url) shop.official_url = "";
+  if (!shop.booking_url && shop.genre_key === "cat-cafe" && shop.official_url) {
+    shop.booking_url = shop.official_url;
+  }
   if (!shop.booking_url && shop.genre_key !== "adult-shop") {
     shop.booking_url = vcUrl(`https://www.hotpepper.jp/?keyword=${encodeURIComponent(`${area.label} ${genre.label}`)}`);
   }
@@ -86,6 +90,24 @@ const fixes = {
 };
 
 const additions = [
+  ["aichi-nagoya-naka-mocha-sakae", "猫カフェMOCHA 名古屋栄店", "cat-cafe", "nagoya-naka", "愛知県名古屋市中区栄3-32-6 BECOME SAKAE 2F", "矢場町駅", 1, 1200, "目安1,200円から", false, true, true, "栄・矢場町周辺", "https://catmocha.jp/shop/nagoya/"],
+  ["aichi-nagoya-nishi-mocha-noritake", "猫カフェMOCHA イオンモール Nagoya Noritake Garden店", "cat-cafe", "nagoya-nishi", "愛知県名古屋市西区則武新町3-1-17 イオンモールNagoya Noritake Garden 3F", "亀島駅", 6, 1200, "目安1,200円から", true, true, true, "則武新町周辺", "https://catmocha.jp/shoplist/"],
+  ["aichi-nagoya-minato-mocha-aquls", "猫カフェMOCHA ららぽーと名古屋みなとアクルス店", "cat-cafe", "nagoya-minato", "愛知県名古屋市港区港明2-3-2 ららぽーと名古屋みなとアクルス1F", "港区役所駅", 5, 1200, "目安1,200円から", true, true, true, "港明周辺", "https://catmocha.jp/shoplist/"],
+  ["aichi-nagoya-showa-neko-manma", "猫カフェねこまんま", "cat-cafe", "nagoya-showa", "愛知県名古屋市昭和区南分町2丁目14番地", "御器所駅", 10, 1200, "目安1,200円から", true, false, false, "南分町周辺", "https://www.neko-manma.jp/"],
+  ["aichi-nagoya-tempaku-cotanchi", "猫カフェ Cotanchi", "cat-cafe", "nagoya-tempaku", "愛知県名古屋市天白区植田1-2116 88ビル7階", "植田駅", 3, 1200, "目安1,200円から", false, false, true, "植田駅周辺", "https://cotanchi.com/"],
+  ["aichi-nagoya-midori-meomaruke", "保護猫カフェ＆猫ホテルめおまるけ", "cat-cafe", "nagoya-midori", "愛知県名古屋市緑区鳴海町前之輪149", "大高駅", 10, 1200, "目安1,200円から", true, true, false, "鳴海町周辺", "https://meomaruke.com/"],
+  ["shizuoka-hamamatsu-mocha-ichino", "猫カフェMOCHA イオンモール浜松市野店", "cat-cafe", "hamamatsu-chuo", "静岡県浜松市中央区天王町字諏訪1981-3 イオンモール浜松市野1F", "浜松駅", 40, 1200, "目安1,200円から", true, true, true, "イオンモール浜松市野周辺", "https://catmocha.jp/shop/hamamatsuichino/"],
+  ["shizuoka-hamamatsu-adagio", "猫がいるカフェAdagio", "cat-cafe", "hamamatsu-chuo", "静岡県浜松市中央区西伊場町47-17", "浜松駅", 35, 1200, "目安1,200円から", true, true, true, "西伊場町周辺", "https://adagio22.com/"],
+  ["shizuoka-numazu-nikuqs", "にくきゅうずカフェ", "cat-cafe", "numazu", "静岡県沼津市青野54-6", "原駅", 30, 1200, "目安1,200円から", true, false, false, "青野周辺", "https://nikuqs.com/"],
+  ["shizuoka-aoi-aigo", "静岡市動物愛護館", "cat-cafe", "shizuoka-aoi", "静岡県静岡市葵区産女954番地", "静岡駅", 35, 0, "利用料なし", true, false, false, "産女周辺", "https://www.city.shizuoka.lg.jp/shisetsu/s0001063.html"],
+  ["gifu-gifu-kitto", "猫カフェラウンジKitto", "cat-cafe", "gifu", "岐阜県岐阜市野一色5-7-11 1F", "長森駅", 18, 880, "目安880円から", true, false, false, "野一色周辺", "https://kitto.m-evolution.com/"],
+  ["gifu-gifu-nekokage", "忍者ねこカフェ 猫影", "cat-cafe", "gifu", "岐阜県岐阜市岩地2丁目20-20", "長森駅", 13, 800, "目安800円から", true, false, false, "岩地周辺", "https://nekokage.org/"],
+  ["gifu-ginan-coorikuya", "猫喫茶 空陸家 岐南店", "cat-cafe", "ginan", "岐阜県羽島郡岐南町上印食3丁目169番", "細畑駅", 6, 1000, "目安1,000円から", true, true, false, "上印食周辺", "https://www.coorikuya.com/shop/ginan/"],
+  ["gifu-kakamigahara-nekochigura", "Cafe'ねこちぐら", "cat-cafe", "kakamigahara", "岐阜県各務原市鵜沼南町1-82-2", "新鵜沼駅", 8, 1000, "目安1,000円から", true, true, false, "鵜沼南町周辺", "https://cafenekochigura.wixsite.com/cafenekochigura"],
+  ["gifu-takayama-nekonotsuki", "猫の月さくらやま", "cat-cafe", "takayama", "岐阜県高山市大新町1丁目44-1", "高山駅", 20, 1000, "目安1,000円から", true, false, false, "大新町周辺", "https://nekonotsuki.com/"],
+  ["mie-tsu-neco285", "保護猫カフェ285", "cat-cafe", "tsu", "三重県津市島崎町285", "津駅", 20, 1200, "目安1,200円から", true, false, false, "島崎町周辺", "https://neco.285.co.jp/index.html"],
+  ["mie-yokkaichi-coorikuya", "猫喫茶 空陸家 四日市店", "cat-cafe", "yokkaichi", "三重県四日市市日永2-1-4", "日永駅", 9, 1000, "目安1,000円から", true, true, false, "日永周辺", "https://www.coorikuya.com/shop/yokkaichi/"],
+  ["mie-tamaki-nekonoie", "ねこ達のいえ", "cat-cafe", "tamaki", "三重県度会郡玉城町勝田3591-2", "田丸駅", 25, 1000, "目安1,000円から", true, false, false, "勝田周辺", "https://nekonoie.ysklog.com/"],
   ["aichi-nagoya-chikusa-joyjoy-imaike", "カラオケJOYJOY 今池店", "karaoke", "nagoya-chikusa", "愛知県名古屋市千種区今池1-11-6", "今池駅", 2, 900, "目安900円から", false, true, true, "今池周辺"],
   ["aichi-nagoya-nakamura-joysound-meieki3", "JOYSOUND 名駅三丁目中央店", "karaoke", "nagoya-nakamura", "愛知県名古屋市中村区名駅2-15-8 名駅グルメプラザ7階", "名古屋駅", 5, 1000, "目安1,000円から", false, true, true, "名駅周辺"],
   ["aichi-nagoya-naka-manekineko-osu", "カラオケまねきねこ 大須店", "karaoke", "nagoya-naka", "愛知県名古屋市中区大須3-30-60 大須301ビル7階", "上前津駅", 4, 900, "目安900円から", false, true, true, "大須周辺"],

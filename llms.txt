@@ -1,28 +1,35 @@
 # まちリスト
 
-まちリストは、日本全国のお店・商業施設を地域、駅、ジャンル、条件で探せる検索サイトです。愛知県・静岡県版では、ネットカフェ、ゲームセンター、アダルトショップ、カラオケ、サウナ、スーパー銭湯・SPA・岩盤浴、飲食店・居酒屋を扱います。
+まちリストは、日本全国のお店・商業施設を地域、駅、ジャンル、条件で探せる検索サイトです。
+MVPでは愛知県、静岡県、岐阜県、三重県の主要エリアを扱います。
+
+主なジャンル:
+- ネットカフェ
+- ゲームセンター
+- アダルトショップ
+- カラオケ
+- サウナ
+- スーパー銭湯・SPA・岩盤浴
+- 猫カフェ
+- 飲食店・居酒屋
 
 重要なページ:
 - / 全国トップ
 - /category/ ジャンル一覧
 - /area/aichi/ 愛知県のお店一覧
 - /area/shizuoka/ 静岡県のお店一覧
+- /area/gifu/ 岐阜県のお店一覧
+- /area/mie/ 三重県のお店一覧
+- /area/aichi/nagoya/naka/cat-cafe/ 愛知県名古屋市中区の猫カフェ
+- /area/aichi/nagoya/tempaku/cat-cafe/ 愛知県名古屋市天白区の猫カフェ
+- /area/shizuoka/hamamatsu/chuo/cat-cafe/ 静岡県浜松市中央区の猫カフェ
+- /area/shizuoka/numazu/cat-cafe/ 静岡県沼津市の猫カフェ
+- /area/gifu/gifu/cat-cafe/ 岐阜県岐阜市の猫カフェ
+- /area/mie/yokkaichi/cat-cafe/ 三重県四日市市の猫カフェ
 - /area/aichi/toyota/netcafe/ 愛知県豊田市のネットカフェ
 - /area/aichi/nagoya/nakamura/game-center/ 愛知県名古屋市中村区のゲームセンター
 - /area/aichi/okazaki/adult-shop/ 愛知県岡崎市のアダルトショップ
-- /area/aichi/nagoya/naka/karaoke/ 愛知県名古屋市中区のカラオケ
-- /area/aichi/nagoya/naka/sauna/ 愛知県名古屋市中区のサウナ
 - /area/aichi/okazaki/spa/ 愛知県岡崎市のスーパー銭湯・SPA・岩盤浴
-- /area/aichi/nagoya/nakamura/restaurant/ 愛知県名古屋市中村区の飲食店・居酒屋
-- /area/shizuoka/shizuoka/aoi/netcafe/ 静岡県静岡市葵区のネットカフェ
-- /area/shizuoka/hamamatsu/chuo/karaoke/ 静岡県浜松市中央区のカラオケ
-- /area/shizuoka/numazu/spa/ 静岡県沼津市のスーパー銭湯・SPA・岩盤浴
-- /area/aichi/okazaki/ 岡崎市のお店一覧
-- /shop/aichi-okazaki-akiba-shoten-okazaki-kita/ あきば書店 岡崎北店
-- /guide/discreet-buying/ 人目を気にせず買う方法
 
 編集方針:
-施設情報は公式サイト、公開地図情報、利用者報告、編集部確認情報をもとに整理します。営業時間、取扱商品、駐車場、イベント情報は変更される場合があります。来店前には公式サイトまたは施設への確認を推奨します。
-
-ページ方針:
-地域ページと施設ページは、一覧、比較表、よくある確認、予約・クーポン・通販・周辺情報の確認導線を中心に構成します。大人向けジャンルでは露骨な画像や過度な表現を避け、店舗探しに必要な情報を落ち着いて掲載します。
+施設情報は公式サイト、公開地図情報、利用者報告、編集部確認情報をもとに整理します。営業時間、取扱商品、駐車場、イベント情報は変更される場合があるため、来店前には公式サイトまたは施設への確認を推奨します。
