@@ -1469,6 +1469,58 @@
     "map_y": 53
   },
   {
+    "prefecture_key": "fukuoka",
+    "prefecture": "福岡県",
+    "key": "kitakyushu-kokurakita",
+    "path": "kitakyushu/kokurakita",
+    "label": "北九州市小倉北区",
+    "city": "北九州市",
+    "ward": "小倉北区",
+    "station": "小倉駅・平和通駅",
+    "parent": "北九州市",
+    "map_x": 58,
+    "map_y": 42
+  },
+  {
+    "prefecture_key": "okayama",
+    "prefecture": "岡山県",
+    "key": "kurashiki",
+    "path": "kurashiki",
+    "label": "倉敷市",
+    "city": "倉敷市",
+    "ward": "",
+    "station": "倉敷駅・倉敷市駅",
+    "parent": "",
+    "map_x": 44,
+    "map_y": 50
+  },
+  {
+    "prefecture_key": "hiroshima",
+    "prefecture": "広島県",
+    "key": "fukuyama",
+    "path": "fukuyama",
+    "label": "福山市",
+    "city": "福山市",
+    "ward": "",
+    "station": "福山駅・備後赤坂駅",
+    "parent": "",
+    "map_x": 60,
+    "map_y": 50
+  },
+  {
+    "prefecture_key": "yamaguchi",
+    "prefecture": "山口県",
+    "key": "shimonoseki",
+    "path": "shimonoseki",
+    "label": "下関市",
+    "city": "下関市",
+    "ward": "",
+    "station": "下関駅・長府駅",
+    "parent": "",
+    "map_x": 38,
+    "map_y": 55
+  },
+  {
     "prefecture_key": "okinawa",
     "prefecture": "沖縄県",
     "key": "naha",
