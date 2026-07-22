@@ -433,7 +433,10 @@ const removeIds = new Set([
   "shizuoka-numazu-izakaya-ekimae",
   "shizuoka-fujieda-izakaya-ekimae",
   "aichi-nagoya-nakamura-gigo-sasashima-game",
-  "naha-gashapon-kokusaidori"
+  "naha-gashapon-kokusaidori",
+  "saitama-omiya-gigo-nishiguchi-capsule",
+  "saitama-omiya-gigo-nishiguchi-crane",
+  "saitama-omiya-gigo-nishiguchi-game"
 ]);
 
 for (let index = shops.length - 1; index >= 0; index -= 1) {

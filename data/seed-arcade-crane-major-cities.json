@@ -77,5 +77,12 @@
   ["morioka-round1-stadium-karaoke", "ラウンドワンスタジアム 盛岡店", "karaoke", "morioka", "岩手県盛岡市盛岡駅西通2丁目10-35", "盛岡駅", 1, 1000, "目安1,000円から", true, true, true, "盛岡駅西口周辺", "https://www.round1.co.jp/shop/tenpo/iwate-morioka.html/iwate-morioka.html"],
   ["morioka-round1-stadium-darts", "ラウンドワンスタジアム 盛岡店", "darts", "morioka", "岩手県盛岡市盛岡駅西通2丁目10-35", "盛岡駅", 1, 800, "目安800円から", true, true, true, "盛岡駅西口周辺", "https://www.round1.co.jp/shop/tenpo/iwate-morioka.html/iwate-morioka.html"],
   ["morioka-mandai-seinan-game", "アミューズメントパーク万代盛岡盛南店", "game-center", "morioka", "岩手県盛岡市本宮4丁目40-20", "盛岡駅", 30, 500, "目安500円から", true, true, true, "本宮周辺", "https://shop.mandai-s.jp/detail/26/"],
-  ["morioka-mandai-seinan-crane", "アミューズメントパーク万代盛岡盛南店", "crane-game", "morioka", "岩手県盛岡市本宮4丁目40-20", "盛岡駅", 30, 500, "目安500円から", true, true, true, "本宮周辺", "https://shop.mandai-s.jp/detail/26/"]
+  ["morioka-mandai-seinan-crane", "アミューズメントパーク万代盛岡盛南店", "crane-game", "morioka", "岩手県盛岡市本宮4丁目40-20", "盛岡駅", 30, 500, "目安500円から", true, true, true, "本宮周辺", "https://shop.mandai-s.jp/detail/26/"],
+
+  ["kofu-game-panic-game", "ゲームパニック甲府", "game-center", "kofu", "山梨県甲府市国母5-20-24", "国母駅", 19, 500, "目安500円から", true, true, true, "国母周辺", "https://bsp-prize.jp/shop/519/"],
+  ["kofu-game-panic-crane", "ゲームパニック甲府", "crane-game", "kofu", "山梨県甲府市国母5-20-24", "国母駅", 19, 500, "目安500円から", true, true, true, "国母周辺", "https://bsp-prize.jp/shop/519/"],
+  ["kofu-plaza-capcom-game", "プラサカプコン 甲府店", "game-center", "kofu", "山梨県中巨摩郡昭和町西条3717", "国母駅", 20, 500, "目安500円から", true, true, true, "甲府昭和IC周辺", "https://www.capcom.co.jp/amusement/game/shop/koufu"],
+  ["kofu-plaza-capcom-crane", "プラサカプコン 甲府店", "crane-game", "kofu", "山梨県中巨摩郡昭和町西条3717", "国母駅", 20, 500, "目安500円から", true, true, true, "甲府昭和IC周辺", "https://www.capcom.co.jp/amusement/game/shop/koufu"],
+  ["kofu-adores-plus-game", "アドアーズプラス イオンモール甲府店", "game-center", "kofu", "山梨県中巨摩郡昭和町飯喰1505-1 イオンモール甲府昭和 2F", "常永駅", 12, 500, "目安500円から", true, true, true, "イオンモール甲府昭和", "https://www.adores.jp/tenpo/adplus_kofu.html"],
+  ["kofu-adores-plus-crane", "アドアーズプラス イオンモール甲府店", "crane-game", "kofu", "山梨県中巨摩郡昭和町飯喰1505-1 イオンモール甲府昭和 2F", "常永駅", 12, 500, "目安500円から", true, true, true, "イオンモール甲府昭和", "https://www.adores.jp/tenpo/adplus_kofu.html"]
 ]
