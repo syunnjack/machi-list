@@ -1,6 +1,6 @@
 # まちリスト
 
-まちリストは、日本全国のお店・商業施設を地域、駅、ジャンル、条件で探せる検索サイトです。愛知県版では、ネットカフェ、ゲームセンター、アダルトショップ、カラオケ、サウナを扱います。
+まちリストは、日本全国のお店・商業施設を地域、駅、ジャンル、条件で探せる検索サイトです。愛知県版では、ネットカフェ、ゲームセンター、アダルトショップ、カラオケ、サウナ、スーパー銭湯・SPA・岩盤浴を扱います。
 
 重要なページ:
 - / 全国トップ
@@ -11,6 +11,7 @@
 - /area/aichi/okazaki/adult-shop/ 愛知県岡崎市のアダルトショップ
 - /area/aichi/nagoya/naka/karaoke/ 愛知県名古屋市中区のカラオケ
 - /area/aichi/nagoya/naka/sauna/ 愛知県名古屋市中区のサウナ
+- /area/aichi/okazaki/spa/ 愛知県岡崎市のスーパー銭湯・SPA・岩盤浴
 - /area/aichi/okazaki/ 岡崎市の店舗一覧
 - /shop/aichi-okazaki-akiba-shoten-okazaki-kita/ あきば書店 岡崎北店
 - /guide/discreet-buying/ 人目を気にせず買う方法

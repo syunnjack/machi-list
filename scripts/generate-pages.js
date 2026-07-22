@@ -35,7 +35,8 @@ const genres = [
   { key: "game-center", label: "ゲームセンター", description: "駅近、商業施設内、クレーンゲーム、夜の立ち寄りやすさを確認できます。" },
   { key: "adult-shop", label: "アダルトショップ", description: "人目を気にせず買いやすい店舗、駐車場、営業時間、通販の選択肢を確認できます。" },
   { key: "karaoke", label: "カラオケ", description: "駅近、夜まで営業、クーポン、周辺飲食店との組み合わせを見られます。" },
-  { key: "sauna", label: "サウナ", description: "料金目安、駅からの近さ、駐車場、サウナ後の周辺施設を確認できます。" }
+  { key: "sauna", label: "サウナ", description: "料金目安、駅からの近さ、駐車場、サウナ後の周辺施設を確認できます。" },
+  { key: "spa", label: "スーパー銭湯・SPA・岩盤浴", description: "大浴場、露天風呂、岩盤浴、食事処、駐車場、料金目安をまとめて確認できます。" }
 ];
 
 const commonCss = (depth) => `${"../".repeat(depth)}assets/styles.css`;
