@@ -1,0 +1,22 @@
+[
+  ["sapporo-chuo-starbucks-stellarplace", "スターバックス コーヒー 札幌ステラプレイス センター1階店", "cafe", "sapporo-chuo", "北海道札幌市中央区北5条西2丁目5 JRタワー「ステラプレイス」", "札幌駅", 3, 600, "目安600円から", true, true, true, "札幌駅周辺", "https://store.starbucks.co.jp/detail-451/", "館内喫煙室確認", "要確認", "あり", "あり"],
+  ["tokyo-shinjuku-starbucks-southernterrace", "スターバックス コーヒー 新宿サザンテラス店", "cafe", "tokyo-shinjuku", "東京都渋谷区代々木2丁目2-1 新宿サザンテラス", "新宿駅", 1, 600, "目安600円から", true, true, true, "新宿駅南口周辺", "https://www.southernterrace.jp/shop/starbucks/", "喫煙不可", "要確認", "あり", "あり"],
+  ["tokyo-toshima-starbucks-lumine-ikebukuro", "スターバックス コーヒー ルミネ池袋店", "cafe", "tokyo-toshima", "東京都豊島区西池袋1-11-1 ルミネ池袋 9F", "池袋駅", 1, 600, "目安600円から", true, true, true, "池袋駅西口周辺", "https://www.lumine.ne.jp/ikebukuro/floorguide/detail/?scd=000529", "館内喫煙室確認", "要確認", "館内Wi-Fiあり", "あり"],
+  ["yokohama-nishi-starbucks-mores", "スターバックス 横浜モアーズ8F店", "cafe", "yokohama-nishi", "神奈川県横浜市西区南幸1-3-1 横浜モアーズ8F", "横浜駅", 2, 600, "目安600円から", true, true, true, "横浜駅西口周辺", "https://yokohama-mores.jp/floor/detail/?cd=000211", "館内喫煙室確認", "要確認", "要確認", "あり"],
+  ["nagoya-nakamura-starbucks-hirokoji", "スターバックス コーヒー JR名古屋駅 広小路口店", "cafe", "nagoya-nakamura", "愛知県名古屋市中村区名駅1-1-4 JR名古屋駅構内", "名古屋駅", 1, 600, "目安600円から", false, true, true, "名古屋駅構内", "https://www.jr-plus.co.jp/restaurant/391/", "喫煙不可", "要確認", "あり", "あり"],
+  ["osaka-kita-cafe-osakastationcity-wifi", "大阪ステーションシティ 駅構内カフェ利用エリア", "cafe", "osaka-kita", "大阪府大阪市北区梅田3丁目1-3 大阪ステーションシティ", "大阪駅", 1, 600, "目安600円から", true, true, true, "大阪駅周辺", "https://www.osakastationcity.com/guide/lan/", "館内喫煙室確認", "要確認", "館内Wi-Fiあり", "あり"],
+  ["fukuoka-hakata-starbucks-kitte", "スターバックス コーヒー KITTE博多店", "cafe", "fukuoka-hakata", "福岡県福岡市博多区博多駅中央街9-1 KITTE博多", "博多駅", 5, 600, "目安600円から", true, true, true, "博多駅周辺", "https://store.starbucks.co.jp/detail-1365/", "館内喫煙室確認", "要確認", "あり", "あり"],
+  ["hiroshima-naka-starbucks-tsutaya-electrics", "スターバックス コーヒー 広島 蔦屋家電店", "cafe", "hiroshima-naka", "広島県広島市南区松原町3-1-1", "広島駅", 6, 600, "目安600円から", true, true, true, "広島駅周辺", "https://store.starbucks.co.jp/detail-2085/", "喫煙不可", "要確認", "施設Wi-Fiあり", "あり"],
+  ["sendai-aoba-parco-wifi-cafe", "仙台PARCO 館内カフェ利用エリア", "cafe", "sendai-aoba", "宮城県仙台市青葉区中央1-2-3 仙台PARCO", "仙台駅", 2, 600, "目安600円から", true, true, true, "仙台駅周辺", "https://sendai.parco.jp/info/?gcd=access", "館内喫煙室確認", "ChargeSPOTあり", "館内Wi-Fiあり", "あり"],
+
+  ["tokyo-shinjuku-familymart-south", "ファミリーマート 新宿駅南店", "convenience-store", "tokyo-shinjuku", "東京都渋谷区代々木2丁目7-5", "新宿駅", 2, 300, "目安300円から", false, true, true, "新宿駅南口周辺", "https://store.family.co.jp/points/57723", "要確認", "要確認", "要確認", "要確認"],
+  ["fukuoka-hakata-lawson-oriental-hotel", "ローソン オリエンタルホテル福岡店", "convenience-store", "fukuoka-hakata", "福岡県福岡市博多区博多駅中央街4-23", "博多駅", 2, 300, "目安300円から", false, true, true, "博多駅筑紫口周辺", "https://www.lawson.co.jp/service/others/in/", "要確認", "要確認", "要確認", "要確認"],
+  ["fukuoka-chuo-lawson-tenjin-minamiguchi", "ローソン 西鉄福岡天神駅南口店", "convenience-store", "fukuoka-chuo", "福岡県福岡市中央区天神2-2-67", "西鉄福岡（天神）駅", 1, 300, "目安300円から", false, true, true, "天神駅周辺", "https://www.lawson.co.jp/service/others/in/", "要確認", "要確認", "要確認", "要確認"],
+  ["hiroshima-naka-lawson-kamiyacho", "ローソン 広島紙屋町二丁目店", "convenience-store", "hiroshima-naka", "広島県広島市中区紙屋町2-3-20", "本通駅", 1, 300, "目安300円から", false, true, true, "紙屋町周辺", "https://www.lawson.co.jp/service/others/in/", "要確認", "要確認", "要確認", "要確認"],
+
+  ["tokyo-shinjuku-takarajima-minamiguchi", "宝島24 新宿南口店", "video-box", "tokyo-shinjuku", "東京都新宿区新宿3-34-2 興亜ビル B1F-4F 受付1F", "新宿駅", 2, 1000, "目安1,000円から", false, true, true, "新宿駅南口周辺", "https://takarajima24.com/shop/"],
+  ["tokyo-shinjuku-takarajima-nishishinjuku", "宝島24 西新宿店", "video-box", "tokyo-shinjuku", "東京都新宿区西新宿1-18-15 TC第6ビル B1F-4F 受付1F", "新宿駅", 3, 1000, "目安1,000円から", false, true, true, "西新宿周辺", "https://takarajima24.com/shop/"],
+  ["tokyo-shinjuku-takarajima-honten", "宝島24 新宿本店", "video-box", "tokyo-shinjuku", "東京都新宿区歌舞伎町1-26-3 TC第29かぶきビル 3F-8F 受付3F", "西武新宿駅", 2, 1000, "目安1,000円から", false, true, true, "歌舞伎町周辺", "https://takarajima24.com/shop/"],
+  ["tokyo-toshima-takarajima-ikebukuro", "宝島24 池袋店", "video-box", "tokyo-toshima", "東京都豊島区東池袋1-40-5 受付1F", "池袋駅", 2, 1000, "目安1,000円から", false, true, true, "池袋駅東口周辺", "https://takarajima24.com/shop/"],
+  ["tokyo-toshima-takarajima-ikebukuro-honten", "宝島24 池袋本店", "video-box", "tokyo-toshima", "東京都豊島区西池袋1-28-6 大和産業ビルB1-B2F 受付B1F", "池袋駅", 1, 1000, "目安1,000円から", false, true, true, "池袋駅西口周辺", "https://takarajima24.com/shop/"]
+]

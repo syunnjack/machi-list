@@ -414,6 +414,7 @@ const seedAdditionFiles = [
   "data/seed-gigo-kaikatsu-major-cities.json",
   "data/seed-capsule-toy-major-cities.json",
   "data/seed-capsule-toy-pref-capitals.json",
+  "data/seed-amenity-and-late-night-major-cities.json",
 ];
 
 for (const seedAdditionPath of seedAdditionFiles) {
