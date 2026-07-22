@@ -30,6 +30,12 @@ npm run generate
 
 `data/shops.json` の店舗データをもとに、愛知県の市区町村ページ、ジャンル別ページ、`sitemap.xml` を生成します。
 
+## 店舗データ
+
+店舗データは `data/shops.json` に追加します。最低限そろえる項目は、店舗名、ジャンル、市区町村、住所、営業時間、最寄り駅、徒歩目安、予算目安、駐車場、夜まで営業、クーポン有無、公式確認用の検索語です。
+
+Google Place ID が確認できた店舗は `source.google_place_id` に入れます。未確認の場合でも、公式サイトや公開地図で確認した店舗は `source.google_query` を入れておき、あとから自動同期しやすい形にします。
+
 ## 公開
 
 GitHub Pages で公開する場合は、リポジトリ設定で Pages の公開元を `main` ブランチの root にします。

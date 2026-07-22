@@ -6,11 +6,27 @@ const shops = JSON.parse(fs.readFileSync(path.join(root, "data", "shops.json"), 
 const siteUrl = "https://machi-list.jp";
 
 const areas = [
+  { key: "nagoya-chikusa", path: "nagoya/chikusa", label: "名古屋市千種区", station: "今池駅・千種駅", parent: "名古屋市" },
+  { key: "nagoya-higashi", path: "nagoya/higashi", label: "名古屋市東区", station: "大曽根駅・高岳駅", parent: "名古屋市" },
+  { key: "nagoya-kita", path: "nagoya/kita", label: "名古屋市北区", station: "黒川駅・平安通駅", parent: "名古屋市" },
+  { key: "nagoya-nishi", path: "nagoya/nishi", label: "名古屋市西区", station: "上小田井駅・浄心駅", parent: "名古屋市" },
   { key: "nagoya-nakamura", path: "nagoya/nakamura", label: "名古屋市中村区", station: "名古屋駅", parent: "名古屋市" },
   { key: "nagoya-naka", path: "nagoya/naka", label: "名古屋市中区", station: "栄駅・伏見駅", parent: "名古屋市" },
+  { key: "nagoya-showa", path: "nagoya/showa", label: "名古屋市昭和区", station: "御器所駅・八事駅", parent: "名古屋市" },
+  { key: "nagoya-mizuho", path: "nagoya/mizuho", label: "名古屋市瑞穂区", station: "新瑞橋駅・瑞穂区役所駅", parent: "名古屋市" },
+  { key: "nagoya-atsuta", path: "nagoya/atsuta", label: "名古屋市熱田区", station: "金山駅・熱田神宮西駅", parent: "名古屋市" },
+  { key: "nagoya-nakagawa", path: "nagoya/nakagawa", label: "名古屋市中川区", station: "高畑駅・尾頭橋駅", parent: "名古屋市" },
+  { key: "nagoya-minato", path: "nagoya/minato", label: "名古屋市港区", station: "港区役所駅・荒子川公園駅", parent: "名古屋市" },
+  { key: "nagoya-minami", path: "nagoya/minami", label: "名古屋市南区", station: "笠寺駅・新瑞橋駅", parent: "名古屋市" },
+  { key: "nagoya-moriyama", path: "nagoya/moriyama", label: "名古屋市守山区", station: "新守山駅・小幡駅", parent: "名古屋市" },
+  { key: "nagoya-midori", path: "nagoya/midori", label: "名古屋市緑区", station: "徳重駅・南大高駅", parent: "名古屋市" },
+  { key: "nagoya-meito", path: "nagoya/meito", label: "名古屋市名東区", station: "藤が丘駅・一社駅", parent: "名古屋市" },
+  { key: "nagoya-tempaku", path: "nagoya/tempaku", label: "名古屋市天白区", station: "植田駅・塩釜口駅", parent: "名古屋市" },
   { key: "toyota", path: "toyota", label: "豊田市", station: "豊田市駅・土橋駅", parent: "" },
   { key: "okazaki", path: "okazaki", label: "岡崎市", station: "岡崎駅・北岡崎駅", parent: "" },
   { key: "obu", path: "obu", label: "大府市", station: "大府駅", parent: "" },
+  { key: "anjo", path: "anjo", label: "安城市", station: "三河安城駅・安城駅", parent: "" },
+  { key: "kariya", path: "kariya", label: "刈谷市", station: "刈谷駅・逢妻駅", parent: "" },
   { key: "owariasahi", path: "owariasahi", label: "尾張旭市", station: "尾張旭駅", parent: "" }
 ];
 
