@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>まちリスト｜地域のお店・商業施設を地図と一覧で探す</title>
-    <meta name="description" content="愛知県のネットカフェ、ゲームセンター、アダルトショップ、カラオケ、サウナを、エリア、条件、地図風ビュー、一覧で探せるローカル検索サイトです。">
+    <title>まちリスト｜市町村とジャンルでお店を探す</title>
+    <meta name="description" content="愛知県のお店・商業施設を市区町村、ジャンル、条件から一覧で探せます。ネットカフェ、ゲームセンター、大人向けショップ、カラオケ、サウナの愛知県版です。">
     <link rel="canonical" href="https://machi-list.jp/">
     <link rel="stylesheet" href="./assets/styles.css">
     <meta property="og:title" content="まちリスト">
-    <meta property="og:description" content="地域のお店・商業施設を地図と一覧で探せるローカル検索サイト。">
+    <meta property="og:description" content="市町村とジャンルから、お店・商業施設を一覧で探せます。">
     <meta property="og:type" content="website">
     <script type="application/ld+json">
       {
@@ -30,12 +30,12 @@
         <span class="brand-mark">M</span>
         <span>
           <strong>まちリスト</strong>
-          <small>地図と一覧で探す市町村ジャンル検索</small>
+          <small>市町村とジャンルで探す店舗一覧</small>
         </span>
       </a>
-      <nav class="nav" aria-label="主要ナビゲーション">
+      <nav class="nav" aria-label="主なページ">
+        <a href="#shopResults">一覧</a>
         <a href="#mapView">地図</a>
-        <a href="#shopResults">施設一覧</a>
         <a href="./category/">ジャンル</a>
         <a href="./area/aichi/">愛知県</a>
       </nav>
@@ -44,20 +44,20 @@
     <main>
       <section class="map-search-shell" aria-labelledby="top-title">
         <div class="map-search-head">
-          <p class="eyebrow">愛知県版MVP</p>
-          <h1 id="top-title">地図と一覧で、近くの候補を探す。</h1>
-          <p>エリア、店ジャンル、条件を選ぶと、候補の位置感と一覧を同時に確認できます。予約、クーポン、通販、周辺情報も必要なタイミングで開けます。</p>
+          <p class="eyebrow">愛知県版</p>
+          <h1 id="top-title">市町村とジャンルから、行きたいお店を一覧で探す</h1>
+          <p>エリアと店ジャンルを選ぶだけで、近い順、予算の安い順、条件に合う順で比較できます。予約、クーポン、通販、周辺情報も必要な時に確認できます。</p>
         </div>
 
-        <nav class="step-strip" aria-label="使い方">
+        <nav class="step-strip" aria-label="探し方">
           <a href="#searchControls"><span>1</span>条件を選ぶ</a>
-          <a href="#shopResults"><span>2</span>店を選ぶ</a>
-          <a href="#routePanel"><span>3</span>ルートを見る</a>
-          <a href="#quickTools"><span>4</span>予約・クーポン</a>
+          <a href="#shopResults"><span>2</span>一覧で比べる</a>
+          <a href="#mapView"><span>3</span>場所を見る</a>
+          <a href="#quickTools"><span>4</span>予約などを確認</a>
         </nav>
 
         <div class="map-app">
-          <aside id="searchControls" class="search-panel map-control" aria-label="施設検索">
+          <aside id="searchControls" class="search-panel map-control" aria-label="店舗検索">
             <div class="control-title">
               <h2>条件を選ぶ</h2>
               <p>選択すると一覧と地図が更新されます。</p>
@@ -67,10 +67,10 @@
                 エリア
                 <select id="areaSelect">
                   <option value="">すべてのエリア</option>
-                  <option value="toyota">豊田市</option>
                   <option value="nagoya-nakamura">名古屋市中村区</option>
-                  <option value="okazaki">岡崎市</option>
                   <option value="nagoya-naka">名古屋市中区</option>
+                  <option value="toyota">豊田市</option>
+                  <option value="okazaki">岡崎市</option>
                   <option value="obu">大府市</option>
                   <option value="owariasahi">尾張旭市</option>
                 </select>
@@ -87,16 +87,16 @@
                 </select>
               </label>
             </div>
-            <div class="filters" aria-label="条件フィルター">
+            <div class="filters" aria-label="条件">
               <label><input type="checkbox" value="parking" class="filter"> 駐車場あり</label>
               <label><input type="checkbox" value="late" class="filter"> 夜まで営業</label>
-              <label><input type="checkbox" value="station" class="filter"> 駅徒歩圏</label>
+              <label><input type="checkbox" value="station" class="filter"> 駅徒歩10分以内</label>
               <label><input type="checkbox" value="coupon" class="filter"> クーポンあり</label>
             </div>
             <label class="sort-label" for="sortSelect">
               並び替え
               <select id="sortSelect">
-                <option value="recommended">条件一致順</option>
+                <option value="recommended">条件に合う順</option>
                 <option value="distance">近い順</option>
                 <option value="budget">予算の安い順</option>
               </select>
@@ -106,18 +106,18 @@
 
           <section id="mapView" class="map-stage" aria-label="地図ビュー">
             <div class="map-toolbar" aria-label="地図操作">
-              <button type="button" class="map-tool">＋</button>
-              <button type="button" class="map-tool">−</button>
-              <button type="button" class="map-tool">◎</button>
+              <button type="button" class="map-tool" title="拡大">+</button>
+              <button type="button" class="map-tool" title="縮小">-</button>
+              <button type="button" class="map-tool" title="現在地">◎</button>
             </div>
             <div class="map-label">
               <strong>愛知県</strong>
-              <small id="routeSummary">条件に合う候補を地図上に表示しています。</small>
+              <small id="routeSummary">一覧からお店を選ぶと目安時間を表示します。</small>
             </div>
             <div id="mapPins" class="map-pins" aria-live="polite"></div>
             <aside id="routePanel" class="route-panel" aria-live="polite">
               <p class="eyebrow">ルート</p>
-              <h2>店を選ぶと所要時間を表示します</h2>
+              <h2>お店を選ぶと所要時間を表示します</h2>
               <p>一覧の「ルート」または地図のピンを押してください。</p>
               <button id="useLocationButton" class="button button-light" type="button">現在地を使う</button>
             </aside>
@@ -126,32 +126,33 @@
       </section>
 
       <section id="quickTools" class="quick-tools" aria-label="便利な確認">
-        <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=YOUR_VC_SID&amp;pid=YOUR_VC_PID&amp;vc_url=https%3A%2F%2Fwww.hotpepper.jp%2FSA33%2F" class="tool-link">予約できる周辺施設</a>
+        <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=YOUR_VC_SID&amp;pid=YOUR_VC_PID&amp;vc_url=https%3A%2F%2Fwww.hotpepper.jp%2FSA33%2F" class="tool-link">予約できるお店</a>
         <a href="https://search.rakuten.co.jp/search/mall/%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/" class="tool-link">クーポンを探す</a>
         <a href="https://www.navitime.co.jp/parking/" class="tool-link">近くの駐車場</a>
-        <a href="https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=YOUR_VC_SID&amp;pid=YOUR_VC_PID&amp;vc_url=https%3A%2F%2Fwww.hotpepper.jp%2FSA33%2F" class="tool-link">周辺の飲食店</a>
+        <a href="https://www.hotpepper.jp/SA33/" class="tool-link">周辺の飲食店</a>
       </section>
 
       <section class="layout-grid">
         <div class="main-column">
           <div class="section-head">
-            <p class="eyebrow">候補一覧</p>
-            <h2>施設を探す</h2>
+            <p class="eyebrow">店舗一覧</p>
+            <h2>お店を探す</h2>
           </div>
-          <div id="resultMeta" class="result-meta">サンプル施設を表示しています。</div>
+          <div id="resultMeta" class="result-meta">店舗を表示しています。</div>
           <div id="shopResults" class="shop-list"></div>
         </div>
 
         <aside class="side-column">
           <section class="side-block">
-            <h2>絞り込みの目安</h2>
-            <a href="#mapView">地図で位置感を見る</a>
-            <a href="#shopResults">一覧で比較する</a>
-            <a href="./category/">ジャンル一覧へ</a>
+            <h2>探し方</h2>
+            <a href="#shopResults">一覧で比べる</a>
+            <a href="#mapView">地図で場所を見る</a>
+            <a href="./category/">ジャンル一覧を見る</a>
+            <a href="./area/aichi/">愛知県の市区町村を見る</a>
           </section>
           <section class="side-block revenue-box">
             <h2>あわせて確認</h2>
-            <p>予約、クーポン、駐車場、周辺の飲食店を、施設選びの流れの中で確認できます。</p>
+            <p>行く前に予約、クーポン、駐車場、周辺の飲食店を確認できます。</p>
             <a class="button" href="./category/">ジャンル一覧へ</a>
           </section>
         </aside>
@@ -160,8 +161,8 @@
 
     <nav class="mobile-jump" aria-label="画面内ナビゲーション">
       <a href="#searchControls">検索</a>
-      <a href="#mapView">地図</a>
       <a href="#shopResults">一覧</a>
+      <a href="#mapView">地図</a>
       <a href="#quickTools">確認</a>
     </nav>
 
@@ -169,6 +170,6 @@
       <p>© 2026 まちリスト</p>
       <p><a href="./llms.txt">llms.txt</a> <a href="./sitemap.xml">sitemap.xml</a></p>
     </footer>
-    <script src="./assets/app.js?v=20260713-8"></script>
+    <script src="./assets/app.js?v=20260722-1"></script>
   </body>
 </html>

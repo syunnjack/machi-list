@@ -9,22 +9,22 @@ const rakuten = {
 };
 
 const text = {
-  allCount: "件の候補を表示しています。",
-  noResultTitle: "条件に合う候補がありません",
+  allCount: "件を表示しています。",
+  noResultTitle: "条件に合うお店がありません",
   noResultBody: "エリア、店ジャンル、条件を少し広げて探してみてください。",
-  headers: ["施設", "エリア", "距離", "予算", "特徴", "操作"],
+  headers: ["店舗", "エリア", "距離", "予算", "特徴", "操作"],
   detail: "詳細",
-  booking: "予約・クーポン",
-  guide: "購入ガイド",
+  booking: "予約",
+  guide: "買い方",
   related: "関連商品",
-  online: "通販を見る",
-  map: "地図で確認",
+  online: "通販",
+  map: "地図",
   parking: "駐車場",
   late: "夜まで",
   coupon: "クーポン",
   walk: "徒歩約",
   minutes: "分",
-  unknown: "要確認"
+  unknown: "確認中"
 };
 
 const areaPositions = {
@@ -62,14 +62,14 @@ function mapSearchLink(keyword) {
 function routeLink(facility, origin = currentOrigin) {
   const destination = facility.lat && facility.lng
     ? `${facility.lat},${facility.lng}`
-    : facility.name;
+    : `${facility.name} ${facility.address}`;
   const originParam = origin?.fallback ? "" : `&origin=${origin.lat},${origin.lng}`;
   return `https://www.google.com/maps/dir/?api=1${originParam}&destination=${encodeURIComponent(destination)}&travelmode=driving`;
 }
 
 const facilities = [
   {
-    name: "快活CLUB 豊田小坂店",
+    name: "快活CLUB 豊田元町店",
     url: "./area/aichi/toyota/netcafe/",
     prefecture: "愛知県",
     city: "豊田市",
@@ -77,22 +77,22 @@ const facilities = [
     areaKey: "toyota",
     genreKey: "netcafe",
     genre: "ネットカフェ",
-    area: "小坂町周辺",
-    address: "愛知県豊田市小坂町周辺",
-    hours: "24時間営業の候補",
-    station: "豊田市駅",
+    area: "元町周辺",
+    address: "愛知県豊田市元町周辺",
+    hours: "24時間営業",
+    station: "土橋駅",
     walkMinutes: 18,
     budgetMin: 1200,
-    budgetLabel: "目安 1,200円〜",
+    budgetLabel: "目安 1,200円から",
     score: 91,
     parking: true,
     late: true,
     coupon: true,
     bookingUrl: vcLink("https://www.hotpepper.jp/SA33/Y223/?keyword=%E8%B1%8A%E7%94%B0%20%E5%80%8B%E5%AE%A4"),
     relatedUrl: rakutenSearchLink("ネットカフェ 便利グッズ"),
-    mapUrl: mapSearchLink("快活CLUB 豊田小坂店")
-    ,lat: 35.079
-    ,lng: 137.148
+    mapUrl: mapSearchLink("快活CLUB 豊田元町店"),
+    lat: 35.081,
+    lng: 137.131
   },
   {
     name: "快活CLUB 名古屋駅太閤通口店",
@@ -103,48 +103,22 @@ const facilities = [
     areaKey: "nagoya-nakamura",
     genreKey: "netcafe",
     genre: "ネットカフェ",
-    area: "名古屋駅太閤通口周辺",
+    area: "名古屋駅周辺",
     address: "愛知県名古屋市中村区名駅周辺",
-    hours: "24時間営業の候補",
+    hours: "24時間営業",
     station: "名古屋駅",
     walkMinutes: 4,
     budgetMin: 1100,
-    budgetLabel: "目安 1,100円〜",
+    budgetLabel: "目安 1,100円から",
     score: 90,
     parking: false,
     late: true,
     coupon: true,
     bookingUrl: vcLink("https://www.hotpepper.jp/SA33/Y200/?keyword=%E5%90%8D%E5%8F%A4%E5%B1%8B%E9%A7%85"),
     relatedUrl: rakutenSearchLink("ネットカフェ 便利グッズ"),
-    mapUrl: mapSearchLink("快活CLUB 名古屋駅太閤通口店")
-    ,lat: 35.169
-    ,lng: 136.879
-  },
-  {
-    name: "自遊空間 名駅店",
-    url: "./area/aichi/nagoya/nakamura/netcafe/",
-    prefecture: "愛知県",
-    city: "名古屋市",
-    ward: "中村区",
-    areaKey: "nagoya-nakamura",
-    genreKey: "netcafe",
-    genre: "ネットカフェ",
-    area: "名駅周辺",
-    address: "愛知県名古屋市中村区名駅周辺",
-    hours: "要確認",
-    station: "名古屋駅",
-    walkMinutes: 6,
-    budgetMin: 1000,
-    budgetLabel: "目安 1,000円〜",
-    score: 84,
-    parking: false,
-    late: true,
-    coupon: true,
-    bookingUrl: vcLink("https://www.hotpepper.jp/SA33/Y200/?keyword=%E5%90%8D%E9%A7%85"),
-    relatedUrl: rakutenSearchLink("ネットカフェ 仮眠 グッズ"),
-    mapUrl: mapSearchLink("自遊空間 名駅店")
-    ,lat: 35.171
-    ,lng: 136.884
+    mapUrl: mapSearchLink("快活CLUB 名古屋駅太閤通口店"),
+    lat: 35.169,
+    lng: 136.879
   },
   {
     name: "GiGO マーケットスクエアささしま",
@@ -156,21 +130,21 @@ const facilities = [
     genreKey: "game-center",
     genre: "ゲームセンター",
     area: "ささしまライブ周辺",
-    address: "愛知県名古屋市中村区平池町周辺",
-    hours: "要確認",
+    address: "愛知県名古屋市中村区平池町4-60-14 マーケットスクエアささしま 1F",
+    hours: "10:00-23:00",
     station: "ささしまライブ駅",
     walkMinutes: 3,
     budgetMin: 500,
-    budgetLabel: "目安 500円〜",
-    score: 89,
+    budgetLabel: "目安 500円から",
+    score: 92,
     parking: true,
     late: true,
     coupon: false,
     bookingUrl: vcLink("https://www.hotpepper.jp/SA33/Y200/?keyword=%E3%81%95%E3%81%95%E3%81%97%E3%81%BE"),
     relatedUrl: rakutenSearchLink("ゲームセンター 景品"),
-    mapUrl: mapSearchLink("GiGO マーケットスクエアささしま")
-    ,lat: 35.1622704
-    ,lng: 136.8850032
+    mapUrl: mapSearchLink("GiGO マーケットスクエアささしま"),
+    lat: 35.1622704,
+    lng: 136.8850032
   },
   {
     name: "タイトーステーション フェドラ大須店",
@@ -183,50 +157,24 @@ const facilities = [
     genre: "ゲームセンター",
     area: "大須周辺",
     address: "愛知県名古屋市中区大須周辺",
-    hours: "要確認",
+    hours: "確認中",
     station: "上前津駅",
     walkMinutes: 5,
     budgetMin: 500,
-    budgetLabel: "目安 500円〜",
+    budgetLabel: "目安 500円から",
     score: 88,
     parking: false,
     late: true,
     coupon: false,
     bookingUrl: vcLink("https://www.hotpepper.jp/SA33/Y210/?keyword=%E5%A4%A7%E9%A0%88"),
     relatedUrl: rakutenSearchLink("クレーンゲーム 景品"),
-    mapUrl: mapSearchLink("タイトーステーション フェドラ大須店")
-    ,lat: 35.158
-    ,lng: 136.904
-  },
-  {
-    name: "namco イオンモール大高店",
-    url: "./area/aichi/nagoya/naka/game-center/",
-    prefecture: "愛知県",
-    city: "名古屋市",
-    ward: "緑区",
-    areaKey: "nagoya-naka",
-    genreKey: "game-center",
-    genre: "ゲームセンター",
-    area: "大高周辺",
-    address: "愛知県名古屋市緑区大高周辺",
-    hours: "要確認",
-    station: "南大高駅",
-    walkMinutes: 4,
-    budgetMin: 500,
-    budgetLabel: "目安 500円〜",
-    score: 82,
-    parking: true,
-    late: false,
-    coupon: false,
-    bookingUrl: vcLink("https://www.hotpepper.jp/SA33/?keyword=%E5%A4%A7%E9%AB%98"),
-    relatedUrl: rakutenSearchLink("ゲーム 景品"),
-    mapUrl: mapSearchLink("namco イオンモール大高店")
-    ,lat: 35.052
-    ,lng: 136.947
+    mapUrl: mapSearchLink("タイトーステーション フェドラ大須店"),
+    lat: 35.158,
+    lng: 136.904
   },
   {
     name: "あきば書店 岡崎北店",
-    url: "./area/aichi/okazaki/adult-shop/",
+    url: "./shop/aichi-okazaki-akiba-shoten-okazaki-kita/",
     prefecture: "愛知県",
     city: "岡崎市",
     ward: "",
@@ -240,44 +188,18 @@ const facilities = [
     walkMinutes: 8,
     budgetMin: 1000,
     budgetLabel: "商品により異なる",
-    score: 86,
+    score: 89,
     parking: true,
     late: true,
     coupon: false,
     bookingUrl: "./guide/discreet-buying/",
     relatedUrl: rakutenSearchLink("ラブグッズ"),
-    mapUrl: mapSearchLink("あきば書店 岡崎北店")
-    ,lat: 34.972
-    ,lng: 137.160
+    mapUrl: mapSearchLink("あきば書店 岡崎北店"),
+    lat: 34.972,
+    lng: 137.160
   },
   {
-    name: "金太郎 名古屋駅前店",
-    url: "./area/aichi/okazaki/adult-shop/",
-    prefecture: "愛知県",
-    city: "名古屋市",
-    ward: "中村区",
-    areaKey: "nagoya-nakamura",
-    genreKey: "adult-shop",
-    genre: "アダルトショップ",
-    area: "名古屋駅周辺",
-    address: "愛知県名古屋市中村区名駅周辺",
-    hours: "要確認",
-    station: "名古屋駅",
-    walkMinutes: 5,
-    budgetMin: 1000,
-    budgetLabel: "商品により異なる",
-    score: 85,
-    parking: false,
-    late: true,
-    coupon: false,
-    bookingUrl: "./guide/discreet-buying/",
-    relatedUrl: rakutenSearchLink("ラブグッズ"),
-    mapUrl: mapSearchLink("金太郎 名古屋駅前店")
-    ,lat: 35.171
-    ,lng: 136.881
-  },
-  {
-    name: "匠書店 岡崎北店",
+    name: "DVD匠書店 岡崎北店",
     url: "./area/aichi/okazaki/adult-shop/",
     prefecture: "愛知県",
     city: "岡崎市",
@@ -285,22 +207,22 @@ const facilities = [
     areaKey: "okazaki",
     genreKey: "adult-shop",
     genre: "アダルトショップ",
-    area: "北岡崎駅周辺",
-    address: "愛知県岡崎市北部エリア",
-    hours: "要確認",
+    area: "小呂町",
+    address: "愛知県岡崎市小呂町2丁目10-1",
+    hours: "12:00-26:00",
     station: "北岡崎駅",
     walkMinutes: 10,
     budgetMin: 1000,
     budgetLabel: "商品により異なる",
-    score: 84,
+    score: 87,
     parking: true,
     late: true,
     coupon: false,
     bookingUrl: "./guide/discreet-buying/",
     relatedUrl: rakutenSearchLink("ラブグッズ"),
-    mapUrl: mapSearchLink("匠書店 岡崎北店")
-    ,lat: 34.975
-    ,lng: 137.158
+    mapUrl: mapSearchLink("DVD匠書店 岡崎北店"),
+    lat: 34.975,
+    lng: 137.158
   },
   {
     name: "匠書店 大府店",
@@ -311,74 +233,100 @@ const facilities = [
     areaKey: "obu",
     genreKey: "adult-shop",
     genre: "アダルトショップ",
-    area: "大府市周辺",
-    address: "愛知県大府市周辺",
-    hours: "要確認",
+    area: "横根町",
+    address: "愛知県大府市横根町子新田4番地1号",
+    hours: "10:00-26:00",
     station: "大府駅",
     walkMinutes: 12,
     budgetMin: 1000,
     budgetLabel: "商品により異なる",
-    score: 82,
+    score: 86,
     parking: true,
     late: true,
     coupon: false,
     bookingUrl: "./guide/discreet-buying/",
     relatedUrl: rakutenSearchLink("ラブグッズ"),
-    mapUrl: mapSearchLink("匠書店 大府店")
-    ,lat: 35.008
-    ,lng: 136.963
+    mapUrl: mapSearchLink("匠書店 大府店"),
+    lat: 35.008,
+    lng: 136.963
   },
   {
-    name: "零式書店 尾張旭店",
+    name: "DVD匠書店 豊田土橋店",
     url: "./area/aichi/okazaki/adult-shop/",
     prefecture: "愛知県",
-    city: "尾張旭市",
+    city: "豊田市",
     ward: "",
-    areaKey: "owariasahi",
+    areaKey: "toyota",
     genreKey: "adult-shop",
     genre: "アダルトショップ",
-    area: "尾張旭市周辺",
-    address: "愛知県尾張旭市周辺",
-    hours: "要確認",
-    station: "尾張旭駅",
-    walkMinutes: 14,
+    area: "土橋町",
+    address: "愛知県豊田市土橋町6丁目76-1・77-1",
+    hours: "12:00-26:00",
+    station: "土橋駅",
+    walkMinutes: 9,
     budgetMin: 1000,
     budgetLabel: "商品により異なる",
-    score: 81,
+    score: 86,
     parking: true,
     late: true,
     coupon: false,
     bookingUrl: "./guide/discreet-buying/",
     relatedUrl: rakutenSearchLink("ラブグッズ"),
-    mapUrl: mapSearchLink("零式書店 尾張旭店")
-    ,lat: 35.216
-    ,lng: 137.035
+    mapUrl: mapSearchLink("DVD匠書店 豊田土橋店"),
+    lat: 35.086,
+    lng: 137.129
   },
   {
-    name: "ビッグエコー 名駅4丁目店",
-    url: "./area/aichi/nagoya/nakamura/karaoke/",
+    name: "匠書店壱見屋 柳橋店",
+    url: "./area/aichi/okazaki/adult-shop/",
+    prefecture: "愛知県",
+    city: "名古屋市",
+    ward: "中村区",
+    areaKey: "nagoya-nakamura",
+    genreKey: "adult-shop",
+    genre: "アダルトショップ",
+    area: "名駅",
+    address: "愛知県名古屋市中村区名駅5-25-17",
+    hours: "10:00-23:00",
+    station: "名古屋駅",
+    walkMinutes: 10,
+    budgetMin: 1000,
+    budgetLabel: "商品により異なる",
+    score: 84,
+    parking: false,
+    late: true,
+    coupon: false,
+    bookingUrl: "./guide/discreet-buying/",
+    relatedUrl: rakutenSearchLink("ラブグッズ"),
+    mapUrl: mapSearchLink("匠書店壱見屋 柳橋店"),
+    lat: 35.168,
+    lng: 136.889
+  },
+  {
+    name: "ビッグエコー 名駅3丁目店",
+    url: "./area/aichi/nagoya/naka/karaoke/",
     prefecture: "愛知県",
     city: "名古屋市",
     ward: "中村区",
     areaKey: "nagoya-nakamura",
     genreKey: "karaoke",
     genre: "カラオケ",
-    area: "名駅4丁目周辺",
-    address: "愛知県名古屋市中村区名駅周辺",
-    hours: "要確認",
+    area: "名駅3丁目",
+    address: "愛知県名古屋市中村区名駅3丁目周辺",
+    hours: "確認中",
     station: "名古屋駅",
     walkMinutes: 4,
     budgetMin: 800,
-    budgetLabel: "目安 800円〜",
+    budgetLabel: "目安 800円から",
     score: 90,
     parking: false,
     late: true,
     coupon: true,
     bookingUrl: vcLink("https://www.hotpepper.jp/SA33/Y200/?keyword=%E3%83%93%E3%83%83%E3%82%B0%E3%82%A8%E3%82%B3%E3%83%BC%20%E5%90%8D%E9%A7%85"),
     relatedUrl: rakutenSearchLink("カラオケ マイク"),
-    mapUrl: mapSearchLink("ビッグエコー 名駅4丁目店")
-    ,lat: 35.170
-    ,lng: 136.886
+    mapUrl: mapSearchLink("ビッグエコー 名駅3丁目店"),
+    lat: 35.170,
+    lng: 136.886
   },
   {
     name: "カラオケ館 錦本店",
@@ -389,51 +337,51 @@ const facilities = [
     areaKey: "nagoya-naka",
     genreKey: "karaoke",
     genre: "カラオケ",
-    area: "錦周辺",
+    area: "錦",
     address: "愛知県名古屋市中区錦周辺",
-    hours: "要確認",
+    hours: "確認中",
     station: "栄駅",
     walkMinutes: 4,
     budgetMin: 800,
-    budgetLabel: "目安 800円〜",
+    budgetLabel: "目安 800円から",
     score: 88,
     parking: false,
     late: true,
     coupon: true,
     bookingUrl: vcLink("https://www.hotpepper.jp/SA33/Y210/?keyword=%E9%8C%A6%20%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1"),
     relatedUrl: rakutenSearchLink("カラオケ マイク"),
-    mapUrl: mapSearchLink("カラオケ館 錦本店")
-    ,lat: 35.171
-    ,lng: 136.906
+    mapUrl: mapSearchLink("カラオケ館 錦本店"),
+    lat: 35.171,
+    lng: 136.906
   },
   {
     name: "ジャンカラ 名駅東口店",
-    url: "./area/aichi/nagoya/nakamura/karaoke/",
+    url: "./area/aichi/nagoya/naka/karaoke/",
     prefecture: "愛知県",
     city: "名古屋市",
     ward: "中村区",
     areaKey: "nagoya-nakamura",
     genreKey: "karaoke",
     genre: "カラオケ",
-    area: "名駅東口周辺",
+    area: "名駅東口",
     address: "愛知県名古屋市中村区名駅周辺",
-    hours: "要確認",
+    hours: "確認中",
     station: "名古屋駅",
     walkMinutes: 5,
     budgetMin: 700,
-    budgetLabel: "目安 700円〜",
+    budgetLabel: "目安 700円から",
     score: 87,
     parking: false,
     late: true,
     coupon: true,
     bookingUrl: vcLink("https://www.hotpepper.jp/SA33/Y200/?keyword=%E5%90%8D%E9%A7%85%20%E3%82%AB%E3%83%A9%E3%82%AA%E3%82%B1"),
     relatedUrl: rakutenSearchLink("カラオケ グッズ"),
-    mapUrl: mapSearchLink("ジャンカラ 名駅東口店")
-    ,lat: 35.171
-    ,lng: 136.884
+    mapUrl: mapSearchLink("ジャンカラ 名駅東口店"),
+    lat: 35.171,
+    lng: 136.884
   },
   {
-    name: "サウナ＆カプセルホテル ウェルビー栄",
+    name: "ウェルビー栄",
     url: "./area/aichi/nagoya/naka/sauna/",
     prefecture: "愛知県",
     city: "名古屋市",
@@ -443,20 +391,20 @@ const facilities = [
     genre: "サウナ",
     area: "栄3丁目",
     address: "愛知県名古屋市中区栄3-13-12",
-    hours: "5:00-24:00 最終退館26:00",
+    hours: "5:00-24:00",
     station: "栄駅",
-    walkMinutes: 6,
+    walkMinutes: 5,
     budgetMin: 2000,
-    budgetLabel: "目安 2,000円〜",
-    score: 92,
+    budgetLabel: "平日2時間 2,000円から",
+    score: 93,
     parking: true,
     late: true,
     coupon: true,
     bookingUrl: vcLink("https://www.hotpepper.jp/SA33/Y210/?keyword=%E6%A0%84%20%E3%82%B5%E3%82%A6%E3%83%8A"),
     relatedUrl: rakutenSearchLink("サウナ グッズ"),
-    mapUrl: mapSearchLink("サウナ＆カプセルホテル ウェルビー栄")
-    ,lat: 35.1664
-    ,lng: 136.9054
+    mapUrl: mapSearchLink("ウェルビー栄"),
+    lat: 35.1664,
+    lng: 136.9054
   },
   {
     name: "SaunaLab Nagoya",
@@ -468,21 +416,21 @@ const facilities = [
     genreKey: "sauna",
     genre: "サウナ",
     area: "栄3丁目",
-    address: "愛知県名古屋市中区栄3丁目9-22 グランドビル8F",
-    hours: "要確認",
+    address: "愛知県名古屋市中区栄3丁目周辺",
+    hours: "確認中",
     station: "栄駅",
     walkMinutes: 6,
     budgetMin: 2200,
-    budgetLabel: "目安 2,200円〜",
+    budgetLabel: "目安 2,200円から",
     score: 89,
     parking: false,
     late: false,
     coupon: true,
     bookingUrl: vcLink("https://www.hotpepper.jp/SA33/Y210/?keyword=SaunaLab%20Nagoya"),
     relatedUrl: rakutenSearchLink("サウナハット"),
-    mapUrl: mapSearchLink("SaunaLab Nagoya")
-    ,lat: 35.1662
-    ,lng: 136.9079
+    mapUrl: mapSearchLink("SaunaLab Nagoya"),
+    lat: 35.1662,
+    lng: 136.9079
   },
   {
     name: "ウェルビー今池",
@@ -495,20 +443,20 @@ const facilities = [
     genre: "サウナ",
     area: "今池",
     address: "愛知県名古屋市千種区今池5-25-5",
-    hours: "要確認",
+    hours: "確認中",
     station: "今池駅",
     walkMinutes: 5,
     budgetMin: 1500,
-    budgetLabel: "目安 1,500円〜",
+    budgetLabel: "目安 1,500円から",
     score: 87,
     parking: true,
     late: true,
     coupon: true,
     bookingUrl: vcLink("https://www.hotpepper.jp/SA33/?keyword=%E4%BB%8A%E6%B1%A0%20%E3%82%B5%E3%82%A6%E3%83%8A"),
     relatedUrl: rakutenSearchLink("サウナ グッズ"),
-    mapUrl: mapSearchLink("ウェルビー今池")
-    ,lat: 35.1668
-    ,lng: 136.937
+    mapUrl: mapSearchLink("ウェルビー今池"),
+    lat: 35.1668,
+    lng: 136.937
   }
 ];
 
@@ -595,7 +543,7 @@ function toRadians(degrees) {
 }
 
 function routeEstimate(distance) {
-  if (distance == null) return { walk: "要確認", drive: "要確認" };
+  if (distance == null) return { walk: "確認中", drive: "確認中" };
   const walkMinutes = Math.max(2, Math.round(distance / 4.2 * 60));
   const driveMinutes = Math.max(3, Math.round(distance / 22 * 60 + 5));
   return {
@@ -638,17 +586,17 @@ async function showRoute(facility) {
   const origin = await requestCurrentLocation();
   const distance = distanceKm(origin, facility);
   const estimate = routeEstimate(distance);
-  const distanceLabel = distance == null ? "要確認" : `${distance.toFixed(1)}km`;
+  const distanceLabel = distance == null ? "確認中" : `${distance.toFixed(1)}km`;
   const note = origin.fallback
     ? "現在地が使えないため、名古屋駅からの目安を表示しています。"
     : "現在地からの直線距離をもとにした目安です。";
-  routeSummaryEl.textContent = `${facility.name} まで 車 約${estimate.drive} / 徒歩 約${estimate.walk}`;
+  routeSummaryEl.textContent = `${facility.name}まで 車 約${estimate.drive} / 徒歩 約${estimate.walk}`;
   routePanelEl.innerHTML = `
     <p class="eyebrow">ルート</p>
     <h2>${facility.name}</h2>
     <dl class="route-stats">
       <div><dt>出発地</dt><dd>${origin.label}</dd></div>
-      <div><dt>目的地</dt><dd>${facility.city}${facility.ward ? facility.ward : ""} ${facility.area}</dd></div>
+      <div><dt>目的地</dt><dd>${facility.city}${facility.ward} ${facility.area}</dd></div>
       <div><dt>距離目安</dt><dd>${distanceLabel}</dd></div>
       <div><dt>車</dt><dd>約${estimate.drive}</dd></div>
       <div><dt>徒歩</dt><dd>約${estimate.walk}</dd></div>
@@ -676,7 +624,7 @@ function renderMap(results) {
     return `
       <div class="map-pin" style="left: ${position.x}%; top: ${position.y}%;">
         <button type="button" data-route-index="${facilities.indexOf(facility)}" aria-label="${facility.name}のルート"><span>${index + 1}</span></button>
-        <small>${facility.city}${facility.ward ? facility.ward : ""}</small>
+        <small>${facility.city}${facility.ward}</small>
       </div>
     `;
   }).join("");
@@ -697,7 +645,7 @@ function renderResults(results) {
     return;
   }
   resultEl.innerHTML = `
-    <div class="facility-table" role="table" aria-label="${text.headers[0]}${text.headers[1]}">
+    <div class="facility-table" role="table" aria-label="店舗一覧">
       <div class="facility-row facility-head" role="row">
         ${text.headers.map((header) => `<div>${header}</div>`).join("")}
       </div>
@@ -708,7 +656,7 @@ function renderResults(results) {
             <strong><a href="${facility.url}">${facility.name}</a></strong>
             <small>${facility.hours}</small>
           </div>
-          <div>${facility.prefecture}${facility.city}${facility.ward ? facility.ward : ""}<small>${facility.area}</small></div>
+          <div>${facility.prefecture}${facility.city}${facility.ward}<small>${facility.area}</small></div>
           <div>${facility.station}<small>${facility.walkMinutes ? `${text.walk}${facility.walkMinutes}${text.minutes}` : text.unknown}</small></div>
           <div>${facility.budgetLabel}</div>
           <div>
