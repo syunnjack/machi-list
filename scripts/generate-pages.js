@@ -80,13 +80,42 @@ function shoppingUrl(genre) {
     sauna: "サウナ グッズ",
     spa: "入浴剤 温泉気分",
     "cat-cafe": "猫用品",
-    restaurant: "外食 クーポン"
+    restaurant: "外食 クーポン",
+    darts: "ダーツ バレル フライト",
+    bowling: "ボウリング ボール シューズ",
+    billiards: "ビリヤード キュー チョーク"
   };
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keywords[genre.key] || `${genre.label} 関連商品`)}/`;
 }
 
+const eventGenreKeys = new Set(["darts", "bowling", "billiards"]);
+
+function isEventGenre(genreKey) {
+  return eventGenreKeys.has(genreKey);
+}
+
+function eventUrl(area, genre) {
+  const keyword = isEventGenre(genre.key) ? `${area.label} ${genre.label} プロチャレンジ イベント` : `${area.label} ${genre.label}`;
+  return vcUrl(`https://www.asoview.com/search/?keyword=${encodeURIComponent(keyword)}`);
+}
+
 function subtleLinks(area, genre, depth) {
+  if (isEventGenre(genre.key)) {
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${eventUrl(area, genre)}">大会・イベント</a><a href="${shoppingUrl(genre)}">道具を探す</a><a href="${bookingUrl(area, genre)}">練習する店</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+  }
   return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">予約できる店</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${shoppingUrl(genre)}">${genre.key === "adult-shop" ? "通販を見る" : "関連アイテム"}</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+}
+
+function primaryActionLabel(shop) {
+  if (shop.genre_key === "adult-shop") return "買い方";
+  if (isEventGenre(shop.genre_key)) return "大会・イベント";
+  return "予約";
+}
+
+function secondaryActionLabel(shop) {
+  if (shop.genre_key === "adult-shop") return "通販";
+  if (isEventGenre(shop.genre_key)) return "道具";
+  return "クーポン";
 }
 
 function pageShell({ title, description, canonical, depth, body, structuredData = "" }) {
@@ -138,8 +167,8 @@ function shopCards(items, depth) {
                 </div>
                 <div class="shop-actions">
                   <a class="button" href="${toRelative(shop.url, depth)}">詳細</a>
-                  <a class="button button-light" href="${shop.booking_url || mapUrl(shop)}">${shop.genre_key === "adult-shop" ? "買い方" : "予約"}</a>
-                  <a class="button button-light" href="${shop.coupon_url || couponUrl({ label: shop.genre })}">${shop.genre_key === "adult-shop" ? "通販" : "クーポン"}</a>
+                  <a class="button button-light" href="${shop.booking_url || mapUrl(shop)}">${primaryActionLabel(shop)}</a>
+                  <a class="button button-light" href="${shop.shopping_url || shop.coupon_url || couponUrl({ label: shop.genre })}">${secondaryActionLabel(shop)}</a>
                   <a class="button button-light" href="${mapUrl(shop)}">地図</a>
                 </div>
               </article>`).join("");
@@ -233,7 +262,7 @@ function genrePage(area, genre) {
         <nav class="breadcrumb"><a href="${home(depth)}">全国</a><span>/</span><a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}</a><span>/</span><a href="../">${area.label}</a><span>/</span><span>${genre.label}</span></nav>
       </header>
       <section class="answer-box"><h2>このページで確認できること</h2><ul><li>${genre.description}</li><li>店舗名、住所、駅からの目安、予算、特徴を一覧で比較できます。</li><li>行く前に予約、クーポン、駐車場、周辺の飲食店を確認できます。</li></ul></section>
-      <section class="monetization-strip"><div><p class="eyebrow">あわせて確認</p><h2>予約・クーポン・周辺情報</h2><p>${area.label}周辺で使える予約、クーポン、通販、駐車場を必要な時に開けます。</p></div><div class="route-actions"><a class="button button-light" href="${bookingUrl(area, genre)}">予約できる店</a><a class="button button-light" href="${couponUrl(genre)}">クーポンを探す</a></div></section>
+      <section class="monetization-strip"><div><p class="eyebrow">あわせて確認</p><h2>${isEventGenre(genre.key) ? "大会・イベント・道具" : "予約・クーポン・周辺情報"}</h2><p>${area.label}周辺で使える${isEventGenre(genre.key) ? "大会情報、練習先、道具、駐車場" : "予約、クーポン、通販、駐車場"}を必要な時に開けます。</p></div><div class="route-actions"><a class="button button-light" href="${isEventGenre(genre.key) ? eventUrl(area, genre) : bookingUrl(area, genre)}">${isEventGenre(genre.key) ? "大会・イベント" : "予約できる店"}</a><a class="button button-light" href="${isEventGenre(genre.key) ? shoppingUrl(genre) : couponUrl(genre)}">${isEventGenre(genre.key) ? "道具を探す" : "クーポンを探す"}</a></div></section>
       <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(shop.nearest_station)} 徒歩約${escapeHtml(shop.station_walk_minutes)}分</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section></div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section>${subtleLinks(area, genre, depth)}</aside></section>
       <section class="section"><h2>よくある確認</h2><div class="faq-list"><article class="faq-item"><h3>${area.label}で${genre.label}を探す時の見方は？</h3><p>駅からの距離、駐車場、営業時間、予算目安を先に見ると選びやすくなります。</p></article><article class="faq-item"><h3>行く前に確認した方がよいことは？</h3><p>営業時間、料金、取扱内容、クーポン、駐車場は変わる場合があります。来店前に公式情報や地図情報も確認してください。</p></article></div></section>`;
 

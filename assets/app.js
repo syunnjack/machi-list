@@ -14,7 +14,10 @@ const text = {
   guide: "買い方",
   related: "関連商品",
   online: "通販",
+  event: "大会・イベント",
+  tools: "道具",
   map: "地図",
+  route: "ルート",
   parking: "駐車場",
   late: "夜まで",
   coupon: "クーポン",
@@ -80,6 +83,24 @@ function rakutenSearchLink(keyword) {
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keyword)}/`;
 }
 
+const eventGenreKeys = new Set(["darts", "bowling", "billiards"]);
+
+function isEventGenre(genreKey) {
+  return eventGenreKeys.has(genreKey);
+}
+
+function toolKeyword(genreKey, label) {
+  return {
+    darts: "ダーツ バレル フライト",
+    bowling: "ボウリング ボール シューズ",
+    billiards: "ビリヤード キュー チョーク"
+  }[genreKey] || `${label} 関連商品`;
+}
+
+function eventSearchLink(areaLabel, genreLabel) {
+  return vcLink(`https://www.asoview.com/search/?keyword=${encodeURIComponent(`${areaLabel} ${genreLabel} プロチャレンジ イベント`)}`);
+}
+
 function mapSearchLink(keyword) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(keyword)}`;
 }
@@ -92,6 +113,7 @@ function routeLink(facility, origin = currentOrigin) {
 
 function normalizeShop(shop, index) {
   const isAdult = shop.genre_key === "adult-shop";
+  const isEvent = isEventGenre(shop.genre_key);
   const hotpepperKeyword = `${shop.area_label} ${shop.genre}`;
   return {
     name: shop.name,
@@ -113,8 +135,8 @@ function normalizeShop(shop, index) {
     parking: Boolean(shop.parking),
     late: Boolean(shop.late),
     coupon: Boolean(shop.coupon),
-    bookingUrl: isAdult ? "./guide/discreet-buying/" : vcLink(`https://www.hotpepper.jp/SA33/?keyword=${encodeURIComponent(hotpepperKeyword)}`),
-    relatedUrl: rakutenSearchLink(isAdult ? "アダルトグッズ 通販" : `${shop.genre} クーポン`),
+    bookingUrl: shop.booking_url || (isAdult ? "./guide/discreet-buying/" : (isEvent ? eventSearchLink(shop.area_label, shop.genre) : vcLink(`https://www.hotpepper.jp/SA33/?keyword=${encodeURIComponent(hotpepperKeyword)}`))),
+    relatedUrl: shop.shopping_url || shop.coupon_url || rakutenSearchLink(isAdult ? "アダルトグッズ 通販" : toolKeyword(shop.genre_key, shop.genre)),
     mapUrl: mapSearchLink(`${shop.name} ${shop.address}`),
     lat: shop.lat || null,
     lng: shop.lng || null
@@ -189,11 +211,15 @@ function sortFacilities(results) {
 }
 
 function actionLabel(facility) {
-  return facility.genreKey === "adult-shop" ? text.guide : text.booking;
+  if (facility.genreKey === "adult-shop") return text.guide;
+  if (isEventGenre(facility.genreKey)) return text.event;
+  return text.booking;
 }
 
 function relatedLabel(facility) {
-  return facility.genreKey === "adult-shop" ? text.online : text.related;
+  if (facility.genreKey === "adult-shop") return text.online;
+  if (isEventGenre(facility.genreKey)) return text.tools;
+  return text.related;
 }
 
 function pinPosition(facility, index) {
@@ -323,7 +349,7 @@ function renderResults(results) {
             <a class="button" href="${facility.url}">${text.detail}</a>
             <a class="button button-light" href="${facility.bookingUrl}">${actionLabel(facility)}</a>
             <a class="button button-light" href="${facility.relatedUrl}">${relatedLabel(facility)}</a>
-            <button class="button button-light route-button" type="button" data-route-index="${facilities.indexOf(facility)}">ルート</button>
+            <button class="button button-light route-button" type="button" data-route-index="${facilities.indexOf(facility)}">${text.route}</button>
             <a class="button button-light" href="${facility.mapUrl}">${text.map}</a>
           </div>
         </div>`).join("")}

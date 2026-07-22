@@ -23,6 +23,24 @@ function rakutenUrl(keyword) {
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keyword)}/`;
 }
 
+const eventGenreKeys = new Set(["darts", "bowling", "billiards"]);
+
+function isEventGenre(genreKey) {
+  return eventGenreKeys.has(genreKey);
+}
+
+function eventUrl(area, genre) {
+  return vcUrl(`https://www.asoview.com/search/?keyword=${encodeURIComponent(`${area.label} ${genre.label} プロチャレンジ イベント`)}`);
+}
+
+function toolKeyword(genreKey, label) {
+  return {
+    darts: "ダーツ バレル フライト",
+    bowling: "ボウリング ボール シューズ",
+    billiards: "ビリヤード キュー チョーク"
+  }[genreKey] || `${label} 関連商品`;
+}
+
 function defaultHours(genreKey) {
   return {
     netcafe: "24時間営業",
@@ -32,7 +50,10 @@ function defaultHours(genreKey) {
     sauna: "営業時間確認",
     spa: "営業時間確認",
     "cat-cafe": "営業時間確認",
-    restaurant: "夜まで営業"
+    restaurant: "夜まで営業",
+    darts: "夜まで営業",
+    bowling: "営業時間確認",
+    billiards: "夜まで営業"
   }[genreKey] || "営業時間確認";
 }
 
@@ -64,14 +85,17 @@ function normalizeShop(shop) {
   if (!shop.booking_url && shop.genre_key === "cat-cafe" && shop.official_url) {
     shop.booking_url = shop.official_url;
   }
+  if (!shop.booking_url && isEventGenre(shop.genre_key)) {
+    shop.booking_url = eventUrl(area, genre);
+  }
   if (!shop.booking_url && shop.genre_key !== "adult-shop") {
     shop.booking_url = vcUrl(`https://www.hotpepper.jp/?keyword=${encodeURIComponent(`${area.label} ${genre.label}`)}`);
   }
   if (!shop.coupon_url) {
-    shop.coupon_url = shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(`${genre.label} クーポン`);
+    shop.coupon_url = shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(isEventGenre(shop.genre_key) ? toolKeyword(shop.genre_key, genre.label) : `${genre.label} クーポン`);
   }
   if (!shop.shopping_url) {
-    shop.shopping_url = shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(`${genre.label} 関連商品`);
+    shop.shopping_url = shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(toolKeyword(shop.genre_key, genre.label));
   }
   return shop;
 }
@@ -199,7 +223,25 @@ const additions = [
   ["shizuoka-hamamatsu-ippo", "魚の居酒屋 いっぽ 浜松", "restaurant", "hamamatsu-chuo", "静岡県浜松市中央区田町316-30 ブルーノアビル2F", "第一通り駅", 3, 4000, "目安4,000円から", false, true, true, "有楽街周辺", "https://ippo-izakaya-hamamatsu.owst.jp/"],
   ["shizuoka-numazu-bus-stop", "居酒屋 バスストップ", "restaurant", "numazu", "静岡県沼津市高島町19-6 1F", "沼津駅", 7, 2500, "目安2,500円から", false, true, true, "沼津駅北口周辺", "https://www.bus-stop.jp/"],
   ["shizuoka-fujieda-sumire", "やきとり家すみれ 藤枝店", "restaurant", "fujieda", "静岡県藤枝市前島2-1-43", "藤枝駅", 1, 2500, "目安2,500円から", false, true, true, "藤枝駅南口周辺", "https://www.hotpepper.jp/strJ004026770/"],
-  ["shizuoka-fujieda-uotori", "うお鶏 藤枝店", "restaurant", "fujieda", "静岡県藤枝市前島1-3-1 ホテルオーレ2階", "藤枝駅", 1, 3500, "目安3,500円から", true, true, true, "藤枝駅南口周辺", "https://uotori-fujieda.owst.jp/"]
+  ["shizuoka-fujieda-uotori", "うお鶏 藤枝店", "restaurant", "fujieda", "静岡県藤枝市前島1-3-1 ホテルオーレ2階", "藤枝駅", 1, 3500, "目安3,500円から", true, true, true, "藤枝駅南口周辺", "https://uotori-fujieda.owst.jp/"],
+  ["aichi-nagoya-nakamura-bee-meieki", "ダイニングダーツバーBee 名駅店", "darts", "nagoya-nakamura", "愛知県名古屋市中村区名駅3-15-8 名駅グルメプラザビル4階", "名古屋駅", 3, 1000, "目安1,000円から", false, true, true, "名駅周辺", "https://www.bee-style.jp/shop/"],
+  ["aichi-nagoya-naka-bee-sakae", "ダイニングダーツバーBee 栄店", "darts", "nagoya-naka", "愛知県名古屋市中区錦3-22-7 ARKビル4階", "栄駅", 3, 1000, "目安1,000円から", false, true, true, "錦三丁目周辺", "https://www.bee-style.jp/shop/"],
+  ["aichi-nagoya-naka-beerush-nishiki-darts", "BeeRUSH 錦店", "darts", "nagoya-naka", "愛知県名古屋市中区錦3-17-15 栄ナナイロ10F", "栄駅", 2, 1000, "目安1,000円から", false, true, true, "錦三丁目周辺", "https://www.bee-style.jp/shop/"],
+  ["aichi-nagoya-naka-baccarat-darts", "Sports Bar Baccarat", "darts", "nagoya-naka", "愛知県名古屋市中区栄4-20-24 栄ワールドビル1F", "栄駅", 7, 1000, "目安1,000円から", false, true, true, "女子大小路周辺", "https://www.baccarat-nagoya.com/"],
+  ["aichi-nagoya-naka-baccarat-billiards", "Sports Bar Baccarat", "billiards", "nagoya-naka", "愛知県名古屋市中区栄4-20-24 栄ワールドビル1F", "栄駅", 7, 1000, "目安1,000円から", false, true, true, "女子大小路周辺", "https://www.baccarat-nagoya.com/"],
+  ["aichi-nagoya-naka-bagus-sakae-darts", "バグース 名古屋栄店", "darts", "nagoya-naka", "愛知県名古屋市中区錦3-17-5 EXIT NISHIKI北棟3・4階", "栄駅", 2, 1000, "目安1,000円から", false, true, true, "錦三丁目周辺", "https://www.dd-holdings.jp/brands/bagus/"],
+  ["aichi-nagoya-naka-bagus-sakae-billiards", "バグース 名古屋栄店", "billiards", "nagoya-naka", "愛知県名古屋市中区錦3-17-5 EXIT NISHIKI北棟3・4階", "栄駅", 2, 1000, "目安1,000円から", false, true, true, "錦三丁目周辺", "https://www.dd-holdings.jp/brands/bagus/"],
+  ["aichi-nagoya-midori-grandbowl", "名古屋グランドボウル", "bowling", "nagoya-midori", "愛知県名古屋市緑区忠治山201", "南大高駅", 10, 700, "目安700円から", true, true, true, "南大高周辺", "https://www.grandbowl.jp/nagoya/access/"],
+  ["tokyo-shinjuku-bagus-seibu-darts", "バグース 西武新宿店", "darts", "tokyo-shinjuku", "東京都新宿区歌舞伎町1-25-3 西武新宿駅前ビル5F", "西武新宿駅", 1, 1000, "目安1,000円から", false, true, true, "歌舞伎町周辺", "https://www.bagus-99.com/shops/b_s-shinjuku/"],
+  ["tokyo-shinjuku-copa-bowl", "新宿コパボウル", "bowling", "tokyo-shinjuku", "東京都新宿区歌舞伎町1-20-1 HUMAXパビリオン新宿歌舞伎町3・4F", "新宿駅", 5, 700, "目安700円から", false, true, true, "歌舞伎町周辺", "https://copa-shinjuku.com/"],
+  ["tokyo-shinjuku-copa-darts", "新宿コパボウル", "darts", "tokyo-shinjuku", "東京都新宿区歌舞伎町1-20-1 HUMAXパビリオン新宿歌舞伎町3・4F", "新宿駅", 5, 1000, "目安1,000円から", false, true, true, "歌舞伎町周辺", "https://copa-shinjuku.com/"],
+  ["osaka-chuo-round1-sennichimae", "ラウンドワンスタジアム 千日前店", "bowling", "osaka-chuo", "大阪府大阪市中央区難波1丁目3番1号", "なんば駅", 3, 700, "目安700円から", true, true, true, "千日前周辺", "https://www.round1.co.jp/shop/tenpo/osaka-sennichimae.html"],
+  ["osaka-chuo-bagus-shinsaibashi-darts", "バグース 心斎橋店", "darts", "osaka-chuo", "大阪府大阪市中央区心斎橋筋1-1-10 キュープラザ心斎橋7F", "心斎橋駅", 1, 1000, "目安1,000円から", false, true, true, "心斎橋筋周辺", "https://www.dd-holdings.jp/brands/bagus/"],
+  ["osaka-chuo-bagus-shinsaibashi-billiards", "バグース 心斎橋店", "billiards", "osaka-chuo", "大阪府大阪市中央区心斎橋筋1-1-10 キュープラザ心斎橋7F", "心斎橋駅", 1, 1000, "目安1,000円から", false, true, true, "心斎橋筋周辺", "https://www.dd-holdings.jp/brands/bagus/"],
+  ["kanagawa-yokohama-nishi-bagus-darts", "バグース 横浜西口店", "darts", "yokohama-nishi", "神奈川県横浜市西区北幸1-1-13 Comfort178横浜駅前ビルディング5F", "横浜駅", 1, 1000, "目安1,000円から", false, true, true, "横浜駅西口周辺", "https://www.bagus-99.com/shops/b_yokohama_nishiguchi/"],
+  ["kanagawa-yokohama-nishi-bagus-billiards", "バグース 横浜西口店", "billiards", "yokohama-nishi", "神奈川県横浜市西区北幸1-1-13 Comfort178横浜駅前ビルディング5F", "横浜駅", 1, 1000, "目安1,000円から", false, true, true, "横浜駅西口周辺", "https://www.bagus-99.com/shops/b_yokohama_nishiguchi/"],
+  ["fukuoka-chuo-bagus-tenjin-darts", "バグース 天神店", "darts", "fukuoka-chuo", "福岡県福岡市中央区天神2-6-32 ジェムキャッスルサザン通り4F", "天神駅", 4, 1000, "目安1,000円から", false, true, true, "天神周辺", "https://bagus-99.com/shops/main/room/?shop=b_tenjin&uri=room"],
+  ["fukuoka-chuo-bagus-tenjin-billiards", "バグース 天神店", "billiards", "fukuoka-chuo", "福岡県福岡市中央区天神2-6-32 ジェムキャッスルサザン通り4F", "天神駅", 4, 1000, "目安1,000円から", false, true, true, "天神周辺", "https://bagus-99.com/shops/main/room/?shop=b_tenjin&uri=room"]
 ];
 
 const removeIds = new Set([
