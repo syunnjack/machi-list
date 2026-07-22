@@ -50,5 +50,18 @@
   ["matsue-gigo-matsue-crane", "GiGO松江", "crane-game", "matsue", "島根県松江市嫁島町12-15", "乃木駅", 10, 500, "目安500円から", true, true, true, "嫁島町周辺", "https://www.gigo.co.jp/shops/matsue"],
   ["yamaguchi-gigo-ogori-game", "GiGOイオンタウン小郡", "game-center", "yamaguchi", "山口県山口市小郡前田町3-6", "新山口駅", 10, 500, "目安500円から", true, true, true, "小郡周辺", "https://www.gigo.co.jp/shops/a-ogori"],
   ["yamaguchi-gigo-ogori-crane", "GiGOイオンタウン小郡", "crane-game", "yamaguchi", "山口県山口市小郡前田町3-6", "新山口駅", 10, 500, "目安500円から", true, true, true, "小郡周辺", "https://www.gigo.co.jp/shops/a-ogori"],
-  ["yamaguchi-gigo-ogori-capsule", "GiGOイオンタウン小郡", "capsule-toy", "yamaguchi", "山口県山口市小郡前田町3-6", "新山口駅", 10, 300, "目安300円から", true, true, true, "小郡周辺", "https://www.gigo.co.jp/shops/a-ogori"]
+  ["yamaguchi-gigo-ogori-capsule", "GiGOイオンタウン小郡", "capsule-toy", "yamaguchi", "山口県山口市小郡前田町3-6", "新山口駅", 10, 300, "目安300円から", true, true, true, "小郡周辺", "https://www.gigo.co.jp/shops/a-ogori"],
+
+  ["fukui-gigo-fukui-game", "GiGO福井", "game-center", "fukui", "福井県福井市丸山町1-410", "越前開発駅", 5, 500, "目安500円から", true, true, true, "丸山町周辺", "https://www.gigo.co.jp/shops/fukui"],
+  ["fukui-gigo-fukui-crane", "GiGO福井", "crane-game", "fukui", "福井県福井市丸山町1-410", "越前開発駅", 5, 500, "目安500円から", true, true, true, "丸山町周辺", "https://www.gigo.co.jp/shops/fukui"],
+  ["toyama-gigo-marie-toyama-game", "GiGOマリエとやま", "game-center", "toyama", "富山県富山市桜町1-1-61 マリエとやま 4F", "富山駅", 1, 500, "目安500円から", true, true, true, "富山駅前", "https://www.gigo.co.jp/shops/toyama"],
+  ["toyama-gigo-marie-toyama-crane", "GiGOマリエとやま", "crane-game", "toyama", "富山県富山市桜町1-1-61 マリエとやま 4F", "富山駅", 1, 500, "目安500円から", true, true, true, "富山駅前", "https://www.gigo.co.jp/shops/toyama"],
+  ["yamagata-gigo-kita-yamagata-game", "GiGO北山形", "game-center", "yamagata", "山形県山形市北町1-3-20", "北山形駅", 5, 500, "目安500円から", true, true, true, "北町周辺", "https://www.gigo.co.jp/shops/kita-yamagata"],
+  ["yamagata-gigo-kita-yamagata-crane", "GiGO北山形", "crane-game", "yamagata", "山形県山形市北町1-3-20", "北山形駅", 5, 500, "目安500円から", true, true, true, "北町周辺", "https://www.gigo.co.jp/shops/kita-yamagata"],
+  ["kasugai-gigo-kasugai-game", "GiGO春日井", "game-center", "kasugai", "愛知県春日井市岩野町菅廻間4180", "岩野停留所", 3, 500, "目安500円から", true, true, true, "岩野町周辺", "https://www.gigo.co.jp/shops/kasugai"],
+  ["kasugai-gigo-kasugai-crane", "GiGO春日井", "crane-game", "kasugai", "愛知県春日井市岩野町菅廻間4180", "岩野停留所", 3, 500, "目安500円から", true, true, true, "岩野町周辺", "https://www.gigo.co.jp/shops/kasugai"],
+  ["kasugai-gigo-kasugai-capsule", "GiGO春日井", "capsule-toy", "kasugai", "愛知県春日井市岩野町菅廻間4180", "岩野停留所", 3, 300, "目安300円から", true, true, true, "岩野町周辺", "https://www.gigo.co.jp/shops/kasugai"],
+  ["ichinomiya-gigo-aeon-kisogawa-game", "GiGOイオンモール木曽川", "game-center", "ichinomiya", "愛知県一宮市木曽川町黒田南八ツヶ池25番1 イオンモール木曽川 3F", "黒田駅", 5, 500, "目安500円から", true, true, true, "木曽川町周辺", "https://www.gigo.co.jp/shops/a-kisogawa"],
+  ["ichinomiya-gigo-aeon-kisogawa-crane", "GiGOイオンモール木曽川", "crane-game", "ichinomiya", "愛知県一宮市木曽川町黒田南八ツヶ池25番1 イオンモール木曽川 3F", "黒田駅", 5, 500, "目安500円から", true, true, true, "木曽川町周辺", "https://www.gigo.co.jp/shops/a-kisogawa"],
+  ["ichinomiya-gigo-aeon-kisogawa-capsule", "GiGOイオンモール木曽川", "capsule-toy", "ichinomiya", "愛知県一宮市木曽川町黒田南八ツヶ池25番1 イオンモール木曽川 3F", "黒田駅", 5, 300, "目安300円から", true, true, true, "木曽川町周辺", "https://www.gigo.co.jp/shops/a-kisogawa"]
 ]
