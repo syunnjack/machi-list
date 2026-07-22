@@ -28,5 +28,8 @@
   ["matsuyama-surugaya-okaido-capsule", "ガシャポンバンダイオフィシャルショップ 駿河屋松山大街道店", "capsule-toy", "matsuyama", "愛媛県松山市大街道2丁目5-9 久保豊第1ビル 3F", "大街道駅", 2, 300, "目安300円から", false, true, false, "大街道周辺", "https://gashapon.jp/news/campaign_shoplist_260601/"],
   ["kochi-miraiya-capsule", "ガシャポンバンダイオフィシャルショップ 未来屋書店 高知店", "capsule-toy", "kochi", "高知県高知市秦南町1丁目4-8 イオンモール高知 本館 2階", "高知駅", 15, 300, "目安300円から", true, true, false, "秦南町周辺", "https://gashapon.jp/news/campaign_shoplist_260601/"],
   ["miyazaki-tsutaya-takachihodori-capsule", "ガシャポンバンダイオフィシャルショップ 蔦屋書店 宮崎高千穂通り店", "capsule-toy", "miyazaki", "宮崎県宮崎市橘通東4丁目8-1 カリーノ宮崎 2F", "宮崎駅", 10, 300, "目安300円から", true, true, false, "高千穂通り周辺", "https://gashapon.jp/news/campaign_shoplist_260601/"],
-  ["kagoshima-surugaya-tenmonkan-capsule", "ガシャポンバンダイオフィシャルショップ 駿河屋 天文館店", "capsule-toy", "kagoshima", "鹿児島県鹿児島市中町3-15 ヴィストラルビル", "天文館通駅", 3, 300, "目安300円から", false, true, false, "天文館周辺", "https://gashapon.jp/news/campaign_shoplist_260601/"]
+  ["kagoshima-surugaya-tenmonkan-capsule", "ガシャポンバンダイオフィシャルショップ 駿河屋 天文館店", "capsule-toy", "kagoshima", "鹿児島県鹿児島市中町3-15 ヴィストラルビル", "天文館通駅", 3, 300, "目安300円から", false, true, false, "天文館周辺", "https://gashapon.jp/news/campaign_shoplist_260601/"],
+  ["oita-gachagacha-mori-opa-capsule", "ガチャガチャの森 大分オーパ店", "capsule-toy", "oita", "大分県大分市中央町1丁目2-17 大分オーパ2F", "大分駅", 5, 300, "目安300円から", false, true, true, "大分駅前", "https://www.opa-club.com/oita/shop/5269"],
+  ["oita-gashapon-parkplace-capsule", "ガシャポンショップ パークプレイス大分", "capsule-toy", "oita", "大分県大分市公園通り西2-1 パークプレイス大分2F", "パークプレイス大分停留所", 1, 300, "目安300円から", true, true, true, "パークプレイス大分", "https://gashapon.jp/shop/shop.php?paging=16&shop_code=S90001529"],
+  ["kagoshima-gachagacha-mori-centerrace-capsule", "ガチャガチャの森 センテラス天文館店", "capsule-toy", "kagoshima", "鹿児島県鹿児島市千日町1-1 センテラス天文館2F", "天文館通駅", 1, 300, "目安300円から", false, true, true, "天文館周辺", "https://centerrace.com/shop/32"]
 ]

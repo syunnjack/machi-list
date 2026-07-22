@@ -96,5 +96,14 @@
   ["nara-amusement-cue-sanjyo-crane", "アミューズメントCUE 奈良三条店", "crane-game", "nara", "奈良県奈良市三条町478-1", "奈良駅", 5, 500, "目安500円から", true, true, true, "三条町周辺", "https://www.am-cue.com/store/amusement-cue-nara-sanjyou/"],
   ["nara-amusement-cue-sanjyo-capsule", "アミューズメントCUE 奈良三条店", "capsule-toy", "nara", "奈良県奈良市三条町478-1", "奈良駅", 5, 300, "目安300円から", true, true, true, "三条町周辺", "https://www.am-cue.com/store/amusement-cue-nara-sanjyou/"],
   ["nara-gashacoco-minara-capsule", "ガシャココ ミ・ナーラ店", "capsule-toy", "nara", "奈良県奈良市二条大路南1-3-1 ミ・ナーラ 3F", "新大宮駅", 13, 300, "目安300円から", true, true, true, "ミ・ナーラ周辺", "https://www.mina-ra.com/shop/index.jsp?bf=1&fmt=6&shopid=31110"],
-  ["otsu-cpla-foleo-capsule", "#C-pla フォレオ大津一里山店", "capsule-toy", "otsu", "滋賀県大津市一里山7丁目1-1 フォレオ大津一里山 1F", "瀬田駅", 25, 300, "目安300円から", true, true, true, "フォレオ大津一里山", "https://otsu.foleo.jp/shop/9578/"]
+  ["otsu-cpla-foleo-capsule", "#C-pla フォレオ大津一里山店", "capsule-toy", "otsu", "滋賀県大津市一里山7丁目1-1 フォレオ大津一里山 1F", "瀬田駅", 25, 300, "目安300円から", true, true, true, "フォレオ大津一里山", "https://otsu.foleo.jp/shop/9578/"],
+
+  ["oita-taito-amuplaza-game", "タイトーステーション アミュプラザおおいた店", "game-center", "oita", "大分県大分市要町1-14 アミュプラザおおいた4F", "大分駅", 1, 500, "目安500円から", true, true, true, "大分駅ビル", "https://www.taito.co.jp/store/00002048"],
+  ["oita-taito-amuplaza-crane", "タイトーステーション アミュプラザおおいた店", "crane-game", "oita", "大分県大分市要町1-14 アミュプラザおおいた4F", "大分駅", 1, 500, "目安500円から", true, true, true, "大分駅ビル", "https://www.taito.co.jp/store/00002048"],
+  ["oita-taito-amuplaza-capsule", "タイトーステーション アミュプラザおおいた店", "capsule-toy", "oita", "大分県大分市要町1-14 アミュプラザおおいた4F", "大分駅", 1, 300, "目安300円から", true, true, true, "大分駅ビル", "https://www.taito.co.jp/store/00002048"],
+  ["oita-plaza-capcom-parkplace-game", "プラサカプコン 大分店", "game-center", "oita", "大分県大分市公園通り西2-1 パークプレイス大分2F", "パークプレイス大分停留所", 1, 500, "目安500円から", true, true, true, "パークプレイス大分", "https://www.capcom.co.jp/amusement/game/shop/oita"],
+  ["oita-plaza-capcom-parkplace-crane", "プラサカプコン 大分店", "crane-game", "oita", "大分県大分市公園通り西2-1 パークプレイス大分2F", "パークプレイス大分停留所", 1, 500, "目安500円から", true, true, true, "パークプレイス大分", "https://www.capcom.co.jp/amusement/game/shop/oita"],
+  ["oita-plaza-capcom-parkplace-capsule", "プラサカプコン 大分店", "capsule-toy", "oita", "大分県大分市公園通り西2-1 パークプレイス大分2F", "パークプレイス大分停留所", 1, 300, "目安300円から", true, true, true, "パークプレイス大分", "https://www.capcom.co.jp/amusement/game/shop/oita"],
+  ["kagoshima-thirdplanet-tenmonkan-game", "サープラ天文館あそびタウン", "game-center", "kagoshima", "鹿児島県鹿児島市千日町5-6", "天文館通駅", 3, 500, "目安500円から", false, true, true, "天文館周辺", "https://3rd-planet.jp/sp-tenmonkan/"],
+  ["kagoshima-thirdplanet-tenmonkan-crane", "サープラ天文館あそびタウン", "crane-game", "kagoshima", "鹿児島県鹿児島市千日町5-6", "天文館通駅", 3, 500, "目安500円から", false, true, true, "天文館周辺", "https://3rd-planet.jp/sp-tenmonkan/"]
 ]
