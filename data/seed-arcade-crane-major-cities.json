@@ -105,5 +105,14 @@
   ["oita-plaza-capcom-parkplace-crane", "プラサカプコン 大分店", "crane-game", "oita", "大分県大分市公園通り西2-1 パークプレイス大分2F", "パークプレイス大分停留所", 1, 500, "目安500円から", true, true, true, "パークプレイス大分", "https://www.capcom.co.jp/amusement/game/shop/oita"],
   ["oita-plaza-capcom-parkplace-capsule", "プラサカプコン 大分店", "capsule-toy", "oita", "大分県大分市公園通り西2-1 パークプレイス大分2F", "パークプレイス大分停留所", 1, 300, "目安300円から", true, true, true, "パークプレイス大分", "https://www.capcom.co.jp/amusement/game/shop/oita"],
   ["kagoshima-thirdplanet-tenmonkan-game", "サープラ天文館あそびタウン", "game-center", "kagoshima", "鹿児島県鹿児島市千日町5-6", "天文館通駅", 3, 500, "目安500円から", false, true, true, "天文館周辺", "https://3rd-planet.jp/sp-tenmonkan/"],
-  ["kagoshima-thirdplanet-tenmonkan-crane", "サープラ天文館あそびタウン", "crane-game", "kagoshima", "鹿児島県鹿児島市千日町5-6", "天文館通駅", 3, 500, "目安500円から", false, true, true, "天文館周辺", "https://3rd-planet.jp/sp-tenmonkan/"]
+  ["kagoshima-thirdplanet-tenmonkan-crane", "サープラ天文館あそびタウン", "crane-game", "kagoshima", "鹿児島県鹿児島市千日町5-6", "天文館通駅", 3, 500, "目安500円から", false, true, true, "天文館周辺", "https://3rd-planet.jp/sp-tenmonkan/"],
+
+  ["saga-namco-mallage-game", "namcoモラージュ佐賀店", "game-center", "saga", "佐賀県佐賀市巨勢町大字牛島730 モラージュ佐賀 南館1F", "佐賀駅", 45, 500, "目安500円から", true, true, true, "モラージュ佐賀", "https://bandainamco-am.co.jp/game_center/loc/saga-mallage/"],
+  ["saga-namco-mallage-crane", "namcoモラージュ佐賀店", "crane-game", "saga", "佐賀県佐賀市巨勢町大字牛島730 モラージュ佐賀 南館1F", "佐賀駅", 45, 500, "目安500円から", true, true, true, "モラージュ佐賀", "https://bandainamco-am.co.jp/game_center/loc/saga-mallage/"],
+  ["saga-prize-spot-palo-yamato-crane", "PRIZE SPOT PALO 佐賀大和店", "crane-game", "saga", "佐賀県佐賀市大和町大字尼寺3535 イオンモール佐賀大和1F", "佐賀駅", 65, 500, "目安500円から", true, true, true, "イオンモール佐賀大和", "https://www.fantasy.co.jp/shoplist/shop-psp6038/"],
+  ["saga-rakuichi-303-yamato-game", "楽市楽座303 佐賀大和店", "game-center", "saga", "佐賀県佐賀市大和町尼寺2965", "佐賀駅", 60, 500, "目安500円から", true, true, true, "イオンモール佐賀大和", "https://rakupa.jp/shop/303sagayamato/machines/"],
+  ["saga-rakuichi-303-yamato-crane", "楽市楽座303 佐賀大和店", "crane-game", "saga", "佐賀県佐賀市大和町尼寺2965", "佐賀駅", 60, 500, "目安500円から", true, true, true, "イオンモール佐賀大和", "https://rakupa.jp/shop/303sagayamato/machines/"],
+  ["nagano-apina-ekimae-game", "アピナ長野駅前店", "game-center", "nagano", "長野県長野市南石堂町1418-2", "長野駅", 5, 500, "目安500円から", false, true, true, "長野駅前", "https://www.kyowa-corp.co.jp/am/shop/20-12/"],
+  ["nagano-apina-ekimae-crane", "アピナ長野駅前店", "crane-game", "nagano", "長野県長野市南石堂町1418-2", "長野駅", 5, 500, "目安500円から", false, true, true, "長野駅前", "https://www.kyowa-corp.co.jp/am/shop/20-12/"],
+  ["nagano-gashapon-apina-ohhashi-capsule", "ガシャポンのデパート アピナ長野大橋店", "capsule-toy", "nagano", "長野県長野市若里7-9-12", "ビッグハット停留所", 15, 300, "目安300円から", true, true, true, "若里周辺", "https://bandainamco-am.co.jp/others/capsule-toy-store/store/apina_ohhashi/?tags=gentei"]
 ]
