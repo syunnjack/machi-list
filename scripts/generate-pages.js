@@ -13,7 +13,11 @@ const prefectures = [
   { key: "aichi", label: "愛知県" },
   { key: "shizuoka", label: "静岡県" },
   { key: "gifu", label: "岐阜県" },
-  { key: "mie", label: "三重県" }
+  { key: "mie", label: "三重県" },
+  { key: "tokyo", label: "東京都" },
+  { key: "osaka", label: "大阪府" },
+  { key: "kyoto", label: "京都府" },
+  { key: "kanagawa", label: "神奈川県" }
 ];
 
 function readJson(relativePath) {
@@ -60,6 +64,24 @@ function bookingUrl(area, genre) {
 
 function couponUrl(genre) {
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(`${genre.label} クーポン`)}/`;
+}
+
+function shoppingUrl(genre) {
+  const keywords = {
+    netcafe: "テレワーク 便利グッズ",
+    "game-center": "ゲーム 景品 収納",
+    "adult-shop": "アダルトグッズ 通販",
+    karaoke: "カラオケ マイク",
+    sauna: "サウナ グッズ",
+    spa: "入浴剤 温泉気分",
+    "cat-cafe": "猫用品",
+    restaurant: "外食 クーポン"
+  };
+  return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keywords[genre.key] || `${genre.label} 関連商品`)}/`;
+}
+
+function subtleLinks(area, genre, depth) {
+  return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">予約できる店</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${shoppingUrl(genre)}">${genre.key === "adult-shop" ? "通販を見る" : "関連アイテム"}</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
 }
 
 function pageShell({ title, description, canonical, depth, body, structuredData = "" }) {
@@ -206,8 +228,8 @@ function genrePage(area, genre) {
         <nav class="breadcrumb"><a href="${home(depth)}">全国</a><span>/</span><a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}</a><span>/</span><a href="../">${area.label}</a><span>/</span><span>${genre.label}</span></nav>
       </header>
       <section class="answer-box"><h2>このページで確認できること</h2><ul><li>${genre.description}</li><li>店舗名、住所、駅からの目安、予算、特徴を一覧で比較できます。</li><li>行く前に予約、クーポン、駐車場、周辺の飲食店を確認できます。</li></ul></section>
-      <section class="monetization-strip"><div><p class="eyebrow">あわせて確認</p><h2>予約・クーポン・周辺情報</h2><p>${area.label}周辺で使える予約、クーポン、通販、駐車場を必要な時に開けます。</p></div><div class="route-actions"><a class="button" href="${bookingUrl(area, genre)}">予約できる店</a><a class="button button-light" href="${couponUrl(genre)}">クーポンを探す</a></div></section>
-      <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(shop.nearest_station)} 徒歩約${escapeHtml(shop.station_walk_minutes)}分</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section></div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section></aside></section>
+      <section class="monetization-strip"><div><p class="eyebrow">あわせて確認</p><h2>予約・クーポン・周辺情報</h2><p>${area.label}周辺で使える予約、クーポン、通販、駐車場を必要な時に開けます。</p></div><div class="route-actions"><a class="button button-light" href="${bookingUrl(area, genre)}">予約できる店</a><a class="button button-light" href="${couponUrl(genre)}">クーポンを探す</a></div></section>
+      <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(shop.nearest_station)} 徒歩約${escapeHtml(shop.station_walk_minutes)}分</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section></div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section>${subtleLinks(area, genre, depth)}</aside></section>
       <section class="section"><h2>よくある確認</h2><div class="faq-list"><article class="faq-item"><h3>${area.label}で${genre.label}を探す時の見方は？</h3><p>駅からの距離、駐車場、営業時間、予算目安を先に見ると選びやすくなります。</p></article><article class="faq-item"><h3>行く前に確認した方がよいことは？</h3><p>営業時間、料金、取扱内容、クーポン、駐車場は変わる場合があります。来店前に公式情報や地図情報も確認してください。</p></article></div></section>`;
 
   write(path.join(root, "area", area.prefecture_key, ...area.path.split("/"), genre.key, "index.html"), pageShell({

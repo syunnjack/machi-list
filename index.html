@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>まちリスト｜市区町村とジャンルでお店を探す</title>
-    <meta name="description" content="愛知県・静岡県・岐阜県・三重県のお店・商業施設を市区町村、ジャンル、条件から一覧で探せます。近い順、予算の安い順、予約、クーポン、通販、地図も確認できます。">
+    <meta name="description" content="主要都市のお店・商業施設を市区町村、ジャンル、条件から一覧で探せます。近い順、予算の安い順、予約、クーポン、通販、地図も確認できます。">
     <link rel="canonical" href="https://machi-list.jp/">
     <link rel="stylesheet" href="./assets/styles.css">
     <meta property="og:title" content="まちリスト">
@@ -41,13 +41,17 @@
         <a href="./area/shizuoka/">静岡県</a>
         <a href="./area/gifu/">岐阜県</a>
         <a href="./area/mie/">三重県</a>
+        <a href="./area/tokyo/">東京都</a>
+        <a href="./area/osaka/">大阪府</a>
+        <a href="./area/kyoto/">京都府</a>
+        <a href="./area/kanagawa/">神奈川県</a>
       </nav>
     </header>
 
     <main>
       <section class="map-search-shell" aria-labelledby="top-title">
         <div class="map-search-head">
-          <p class="eyebrow">愛知県・静岡県・岐阜県・三重県版</p>
+          <p class="eyebrow">主要都市版</p>
           <h1 id="top-title">市区町村とジャンルから、行きたいお店を一覧で探す</h1>
           <p>エリアと店ジャンルを選ぶだけで、近い順・予算の安い順・条件に合う順で比較できます。予約、クーポン、通販、駐車場、周辺情報も必要な時に確認できます。</p>
         </div>
@@ -106,6 +110,16 @@
                   <option value="tsu">三重県 津市</option>
                   <option value="yokkaichi">三重県 四日市市</option>
                   <option value="tamaki">三重県 玉城町</option>
+                  <option value="tokyo-shinjuku">東京都 新宿区</option>
+                  <option value="tokyo-shibuya">東京都 渋谷区</option>
+                  <option value="tokyo-toshima">東京都 豊島区</option>
+                  <option value="osaka-kita">大阪府 大阪市北区</option>
+                  <option value="osaka-chuo">大阪府 大阪市中央区</option>
+                  <option value="osaka-abeno">大阪府 大阪市阿倍野区</option>
+                  <option value="kyoto-nakagyo">京都府 京都市中京区</option>
+                  <option value="kyoto-shimogyo">京都府 京都市下京区</option>
+                  <option value="yokohama-naka">神奈川県 横浜市中区</option>
+                  <option value="yokohama-nishi">神奈川県 横浜市西区</option>
                 </select>
               </label>
               <label for="genreSelect">
@@ -147,7 +161,7 @@
               <button type="button" class="map-tool" title="現在地">◎</button>
             </div>
             <div class="map-label">
-              <strong>愛知県・静岡県・岐阜県・三重県</strong>
+              <strong>主要都市</strong>
               <small id="routeSummary">一覧からお店を選ぶと所要時間を表示します。</small>
             </div>
             <div id="mapPins" class="map-pins" aria-live="polite"></div>
