@@ -25,5 +25,14 @@
 
   ["hyogo-kobe-gigo-sannomiya-crane", "GiGO三宮南口", "crane-game", "kobe-chuo", "兵庫県神戸市中央区三宮町1-7-17 三慶ビル", "三ノ宮駅", 1, 500, "目安500円から", false, true, true, "三宮周辺", "https://www.gigo.co.jp/shops/sannomiya-minamiguchi"],
   ["hiroshima-naka-namco-kamiyacho-game", "namco広島紙屋町店", "game-center", "hiroshima-naka", "広島県広島市中区大手町2丁目3-3 大手町ナルミヤビル1F", "本通駅", 2, 500, "目安500円から", false, true, true, "紙屋町周辺", "https://bsp-prize.jp/shop/681/"],
-  ["hiroshima-naka-namco-kamiyacho-crane", "namco広島紙屋町店", "crane-game", "hiroshima-naka", "広島県広島市中区大手町2丁目3-3 大手町ナルミヤビル1F", "本通駅", 2, 500, "目安500円から", false, true, true, "紙屋町周辺", "https://bsp-prize.jp/shop/681/"]
+  ["hiroshima-naka-namco-kamiyacho-crane", "namco広島紙屋町店", "crane-game", "hiroshima-naka", "広島県広島市中区大手町2丁目3-3 大手町ナルミヤビル1F", "本通駅", 2, 500, "目安500円から", false, true, true, "紙屋町周辺", "https://bsp-prize.jp/shop/681/"],
+
+  ["kyoto-nakagyo-gigo-kawaramachi-game", "GiGO河原町オーパ", "game-center", "kyoto-nakagyo", "京都府京都市中京区河原町通四条上ル米屋町385 河原町オーパ 7F", "京都河原町駅", 1, 500, "目安500円から", false, true, true, "四条河原町周辺", "https://www.gigo.co.jp/shops/kawaramachi"],
+  ["kyoto-nakagyo-gigo-kawaramachi-crane", "GiGO河原町オーパ", "crane-game", "kyoto-nakagyo", "京都府京都市中京区河原町通四条上ル米屋町385 河原町オーパ 7F", "京都河原町駅", 1, 500, "目安500円から", false, true, true, "四条河原町周辺", "https://www.gigo.co.jp/shops/kawaramachi"],
+  ["kyoto-nakagyo-gigo-kawaramachi-b1f-crane", "GiGO河原町オーパB1F", "crane-game", "kyoto-nakagyo", "京都府京都市中京区河原町通四条上ル米屋町385 河原町オーパ B1F", "京都河原町駅", 1, 500, "目安500円から", false, true, true, "四条河原町周辺", "https://www.gigo.co.jp/shops/kawaramachi-b1f"],
+  ["kyoto-nakagyo-gigo-kawaramachi-b1f-capsule", "GiGO河原町オーパB1F", "capsule-toy", "kyoto-nakagyo", "京都府京都市中京区河原町通四条上ル米屋町385 河原町オーパ B1F", "京都河原町駅", 1, 300, "目安300円から", false, true, true, "四条河原町周辺", "https://www.gigo.co.jp/shops/kawaramachi-b1f"],
+  ["kyoto-nakagyo-gigo-shinkyogoku-game", "GiGO京都新京極", "game-center", "kyoto-nakagyo", "京都府京都市中京区新京極六角下る桜之町441番地2 ARISTO新京極", "京都河原町駅", 5, 500, "目安500円から", false, true, true, "新京極周辺", "https://www.gigo.co.jp/shops/shinkyogoku"],
+  ["kyoto-nakagyo-gigo-shinkyogoku-crane", "GiGO京都新京極", "crane-game", "kyoto-nakagyo", "京都府京都市中京区新京極六角下る桜之町441番地2 ARISTO新京極", "京都河原町駅", 5, 500, "目安500円から", false, true, true, "新京極周辺", "https://www.gigo.co.jp/shops/shinkyogoku"],
+  ["kyoto-minami-namco-aeon-kyoto-game", "namcoイオンモールKYOTO店", "game-center", "kyoto-minami", "京都府京都市南区西九条鳥居口町1 イオンモールKYOTO Sakura館 4F", "京都駅", 5, 500, "目安500円から", true, true, true, "京都駅八条口周辺", "https://bandainamco-am.co.jp/game_center/loc/kyoto-nishikujyo/"],
+  ["kyoto-minami-namco-aeon-kyoto-crane", "namcoイオンモールKYOTO店", "crane-game", "kyoto-minami", "京都府京都市南区西九条鳥居口町1 イオンモールKYOTO Sakura館 4F", "京都駅", 5, 500, "目安500円から", true, true, true, "京都駅八条口周辺", "https://bandainamco-am.co.jp/game_center/loc/kyoto-nishikujyo/"]
 ]

@@ -715,6 +715,19 @@
     "map_y": 55
   },
   {
+    "prefecture_key": "kyoto",
+    "prefecture": "京都府",
+    "key": "kyoto-minami",
+    "path": "kyoto/minami",
+    "label": "京都市南区",
+    "city": "京都市",
+    "ward": "南区",
+    "station": "京都駅・東寺駅・九条駅",
+    "parent": "京都市",
+    "map_x": 52,
+    "map_y": 61
+  },
+  {
     "prefecture_key": "kanagawa",
     "prefecture": "神奈川県",
     "key": "yokohama-naka",
