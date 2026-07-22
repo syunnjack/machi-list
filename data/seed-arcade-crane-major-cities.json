@@ -114,5 +114,19 @@
   ["saga-rakuichi-303-yamato-crane", "楽市楽座303 佐賀大和店", "crane-game", "saga", "佐賀県佐賀市大和町尼寺2965", "佐賀駅", 60, 500, "目安500円から", true, true, true, "イオンモール佐賀大和", "https://rakupa.jp/shop/303sagayamato/machines/"],
   ["nagano-apina-ekimae-game", "アピナ長野駅前店", "game-center", "nagano", "長野県長野市南石堂町1418-2", "長野駅", 5, 500, "目安500円から", false, true, true, "長野駅前", "https://www.kyowa-corp.co.jp/am/shop/20-12/"],
   ["nagano-apina-ekimae-crane", "アピナ長野駅前店", "crane-game", "nagano", "長野県長野市南石堂町1418-2", "長野駅", 5, 500, "目安500円から", false, true, true, "長野駅前", "https://www.kyowa-corp.co.jp/am/shop/20-12/"],
-  ["nagano-gashapon-apina-ohhashi-capsule", "ガシャポンのデパート アピナ長野大橋店", "capsule-toy", "nagano", "長野県長野市若里7-9-12", "ビッグハット停留所", 15, 300, "目安300円から", true, true, true, "若里周辺", "https://bandainamco-am.co.jp/others/capsule-toy-store/store/apina_ohhashi/?tags=gentei"]
+  ["nagano-gashapon-apina-ohhashi-capsule", "ガシャポンのデパート アピナ長野大橋店", "capsule-toy", "nagano", "長野県長野市若里7-9-12", "ビッグハット停留所", 15, 300, "目安300円から", true, true, true, "若里周辺", "https://bandainamco-am.co.jp/others/capsule-toy-store/store/apina_ohhashi/?tags=gentei"],
+
+  ["yamaguchi-pinockyspatio-yumetown-game", "ピノッキースパティオ ゆめタウン山口店", "game-center", "yamaguchi", "山口県山口市大内千坊六丁目9-1 ゆめタウン山口2F", "山口駅", 35, 500, "目安500円から", true, true, true, "ゆめタウン山口", "https://www.izumi.jp/tenpo/yamaguchi/shop/service/pinockyspatio"],
+  ["yamaguchi-pinockyspatio-yumetown-crane", "ピノッキースパティオ ゆめタウン山口店", "crane-game", "yamaguchi", "山口県山口市大内千坊六丁目9-1 ゆめタウン山口2F", "山口駅", 35, 500, "目安500円から", true, true, true, "ゆめタウン山口", "https://www.izumi.jp/tenpo/yamaguchi/shop/service/pinockyspatio"],
+  ["fukui-namco-fairmall-owada-game", "namcoフェアモール福井大和田店", "game-center", "fukui", "福井県福井市大和田2-1230 アピタ福井大和田店2F", "アピタ・エルパ前停留所", 5, 500, "目安500円から", true, true, true, "フェアモール福井大和田", "https://bandainamco-am.co.jp/game_center/loc/fukui-owada/"],
+  ["fukui-namco-fairmall-owada-crane", "namcoフェアモール福井大和田店", "crane-game", "fukui", "福井県福井市大和田2-1230 アピタ福井大和田店2F", "アピタ・エルパ前停留所", 5, 500, "目安500円から", true, true, true, "フェアモール福井大和田", "https://bandainamco-am.co.jp/game_center/loc/fukui-owada/"],
+  ["fukui-namco-fairmall-owada-capsule", "ガシャポンのデパート フェアモール福井大和田店", "capsule-toy", "fukui", "福井県福井市大和田2-1230 アピタ福井大和田店2F", "アピタ・エルパ前停留所", 5, 300, "目安300円から", true, true, true, "フェアモール福井大和田", "https://bandainamco-am.co.jp/game_center/loc/fukui-owada/"],
+  ["fukui-lets-wakuwaku-lpa-game", "Let’s WakuWaku エルパ店", "game-center", "fukui", "福井県福井市大和田町2丁目1212 エルパ2F", "アピタ・エルパ前停留所", 3, 500, "目安500円から", true, true, true, "エルパ", "https://joyland.co.jp/store/lpa/"],
+  ["fukui-lets-wakuwaku-lpa-crane", "Let’s WakuWaku エルパ店", "crane-game", "fukui", "福井県福井市大和田町2丁目1212 エルパ2F", "アピタ・エルパ前停留所", 3, 500, "目安500円から", true, true, true, "エルパ", "https://joyland.co.jp/store/lpa/"],
+  ["fukui-lets-wakuwaku-lpa-capsule", "Let’s WakuWaku エルパ店", "capsule-toy", "fukui", "福井県福井市大和田町2丁目1212 エルパ2F", "アピタ・エルパ前停留所", 3, 300, "目安300円から", true, true, true, "エルパ", "https://joyland.co.jp/store/lpa/"],
+  ["tottori-namco-aeonmall-kita-game", "namcoイオンモール鳥取北店", "game-center", "tottori", "鳥取県鳥取市晩稲348 イオンモール鳥取北2F", "イオン鳥取北停留所", 1, 500, "目安500円から", true, true, true, "イオンモール鳥取北", "https://bandainamco-am.co.jp/game_center/loc/tottori/"],
+  ["tottori-namco-aeonmall-kita-crane", "namcoイオンモール鳥取北店", "crane-game", "tottori", "鳥取県鳥取市晩稲348 イオンモール鳥取北2F", "イオン鳥取北停留所", 1, 500, "目安500円から", true, true, true, "イオンモール鳥取北", "https://bandainamco-am.co.jp/game_center/loc/tottori/"],
+  ["tottori-toys-spot-palo-aeonmall-kita-capsule", "TOYS SPOT PALO イオンモール鳥取北店", "capsule-toy", "tottori", "鳥取県鳥取市晩稲348 イオンモール鳥取北2F", "イオン鳥取北停留所", 1, 300, "目安300円から", true, true, true, "イオンモール鳥取北", "https://tottorikita-aeonmall.com/shop/lists/shop_floor_id%3A2"],
+  ["matsue-palo-aeon-game", "PALO イオン松江店", "game-center", "matsue", "島根県松江市東朝日町151 イオン松江ショッピングセンター3F", "松江駅", 7, 500, "目安500円から", true, true, true, "イオン松江ショッピングセンター", "https://www.aeon.jp/sc/matsue/shop/store/service-141.html"],
+  ["matsue-palo-aeon-crane", "PALO イオン松江店", "crane-game", "matsue", "島根県松江市東朝日町151 イオン松江ショッピングセンター3F", "松江駅", 7, 500, "目安500円から", true, true, true, "イオン松江ショッピングセンター", "https://www.aeon.jp/sc/matsue/shop/store/service-141.html"]
 ]
