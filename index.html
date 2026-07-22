@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>まちリスト｜市区町村とジャンルでお店を探す</title>
-    <meta name="description" content="愛知県のお店・商業施設を市区町村、ジャンル、条件から一覧で探せます。近い順、予算の安い順、予約、クーポン、通販、地図も確認できます。">
+    <meta name="description" content="愛知県・静岡県のお店・商業施設を市区町村、ジャンル、条件から一覧で探せます。近い順、予算の安い順、予約、クーポン、通販、地図も確認できます。">
     <link rel="canonical" href="https://machi-list.jp/">
     <link rel="stylesheet" href="./assets/styles.css">
     <meta property="og:title" content="まちリスト">
@@ -38,13 +38,14 @@
         <a href="#mapView">地図</a>
         <a href="./category/">ジャンル</a>
         <a href="./area/aichi/">愛知県</a>
+        <a href="./area/shizuoka/">静岡県</a>
       </nav>
     </header>
 
     <main>
       <section class="map-search-shell" aria-labelledby="top-title">
         <div class="map-search-head">
-          <p class="eyebrow">愛知県版</p>
+          <p class="eyebrow">愛知県・静岡県版</p>
           <h1 id="top-title">市区町村とジャンルから、行きたいお店を一覧で探す</h1>
           <p>エリアと店ジャンルを選ぶだけで、近い順・予算の安い順・条件に合う順で比較できます。予約、クーポン、通販、駐車場、周辺情報も必要な時に確認できます。</p>
         </div>
@@ -89,6 +90,13 @@
                   <option value="anjo">安城市</option>
                   <option value="kariya">刈谷市</option>
                   <option value="owariasahi">尾張旭市</option>
+                  <option value="shizuoka-aoi">静岡県 静岡市葵区</option>
+                  <option value="shizuoka-suruga">静岡県 静岡市駿河区</option>
+                  <option value="shizuoka-shimizu">静岡県 静岡市清水区</option>
+                  <option value="hamamatsu-chuo">静岡県 浜松市中央区</option>
+                  <option value="numazu">静岡県 沼津市</option>
+                  <option value="fuji">静岡県 富士市</option>
+                  <option value="fujieda">静岡県 藤枝市</option>
                 </select>
               </label>
               <label for="genreSelect">
@@ -129,7 +137,7 @@
               <button type="button" class="map-tool" title="現在地">◎</button>
             </div>
             <div class="map-label">
-              <strong>愛知県</strong>
+              <strong>愛知県・静岡県</strong>
               <small id="routeSummary">一覧からお店を選ぶと所要時間を表示します。</small>
             </div>
             <div id="mapPins" class="map-pins" aria-live="polite"></div>

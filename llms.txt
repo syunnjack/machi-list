@@ -1,11 +1,12 @@
 # まちリスト
 
-まちリストは、日本全国のお店・商業施設を地域、駅、ジャンル、条件で探せる検索サイトです。愛知県版では、ネットカフェ、ゲームセンター、アダルトショップ、カラオケ、サウナ、スーパー銭湯・SPA・岩盤浴、飲食店・居酒屋を扱います。
+まちリストは、日本全国のお店・商業施設を地域、駅、ジャンル、条件で探せる検索サイトです。愛知県・静岡県版では、ネットカフェ、ゲームセンター、アダルトショップ、カラオケ、サウナ、スーパー銭湯・SPA・岩盤浴、飲食店・居酒屋を扱います。
 
 重要なページ:
 - / 全国トップ
 - /category/ ジャンル一覧
 - /area/aichi/ 愛知県のお店一覧
+- /area/shizuoka/ 静岡県のお店一覧
 - /area/aichi/toyota/netcafe/ 愛知県豊田市のネットカフェ
 - /area/aichi/nagoya/nakamura/game-center/ 愛知県名古屋市中村区のゲームセンター
 - /area/aichi/okazaki/adult-shop/ 愛知県岡崎市のアダルトショップ
@@ -13,6 +14,9 @@
 - /area/aichi/nagoya/naka/sauna/ 愛知県名古屋市中区のサウナ
 - /area/aichi/okazaki/spa/ 愛知県岡崎市のスーパー銭湯・SPA・岩盤浴
 - /area/aichi/nagoya/nakamura/restaurant/ 愛知県名古屋市中村区の飲食店・居酒屋
+- /area/shizuoka/shizuoka/aoi/netcafe/ 静岡県静岡市葵区のネットカフェ
+- /area/shizuoka/hamamatsu/chuo/karaoke/ 静岡県浜松市中央区のカラオケ
+- /area/shizuoka/numazu/spa/ 静岡県沼津市のスーパー銭湯・SPA・岩盤浴
 - /area/aichi/okazaki/ 岡崎市のお店一覧
 - /shop/aichi-okazaki-akiba-shoten-okazaki-kita/ あきば書店 岡崎北店
 - /guide/discreet-buying/ 人目を気にせず買う方法

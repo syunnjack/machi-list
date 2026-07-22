@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node server.js",
     "check": "node --check server.js && node --check assets/app.js && node --check scripts/google-places-sync.js && node --check scripts/generate-pages.js",
-    "generate": "node scripts/generate-pages.js",
+    "generate": "node scripts/normalize-data.js && node scripts/generate-pages.js",
     "sync:places": "node scripts/google-places-sync.js"
   }
 }

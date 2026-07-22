@@ -2,9 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://machi-list.jp/</loc><lastmod>2026-07-22</lastmod></url>
   <url><loc>https://machi-list.jp/category/</loc><lastmod>2026-07-22</lastmod></url>
-  <url><loc>https://machi-list.jp/area/aichi/</loc><lastmod>2026-07-22</lastmod></url>
   <url><loc>https://machi-list.jp/shop/aichi-okazaki-akiba-shoten-okazaki-kita/</loc><lastmod>2026-07-22</lastmod></url>
   <url><loc>https://machi-list.jp/guide/discreet-buying/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/aichi/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/</loc><lastmod>2026-07-22</lastmod></url>
   <url><loc>https://machi-list.jp/area/aichi/nagoya/chikusa/</loc><lastmod>2026-07-22</lastmod></url>
   <url><loc>https://machi-list.jp/area/aichi/nagoya/chikusa/netcafe/</loc><lastmod>2026-07-22</lastmod></url>
   <url><loc>https://machi-list.jp/area/aichi/nagoya/chikusa/game-center/</loc><lastmod>2026-07-22</lastmod></url>
@@ -181,4 +182,60 @@
   <url><loc>https://machi-list.jp/area/aichi/owariasahi/sauna/</loc><lastmod>2026-07-22</lastmod></url>
   <url><loc>https://machi-list.jp/area/aichi/owariasahi/spa/</loc><lastmod>2026-07-22</lastmod></url>
   <url><loc>https://machi-list.jp/area/aichi/owariasahi/restaurant/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/aoi/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/aoi/netcafe/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/aoi/game-center/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/aoi/adult-shop/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/aoi/karaoke/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/aoi/sauna/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/aoi/spa/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/aoi/restaurant/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/suruga/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/suruga/netcafe/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/suruga/game-center/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/suruga/adult-shop/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/suruga/karaoke/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/suruga/sauna/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/suruga/spa/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/suruga/restaurant/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/shimizu/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/shimizu/netcafe/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/shimizu/game-center/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/shimizu/adult-shop/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/shimizu/karaoke/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/shimizu/sauna/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/shimizu/spa/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/shizuoka/shimizu/restaurant/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/hamamatsu/chuo/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/hamamatsu/chuo/netcafe/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/hamamatsu/chuo/game-center/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/hamamatsu/chuo/adult-shop/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/hamamatsu/chuo/karaoke/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/hamamatsu/chuo/sauna/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/hamamatsu/chuo/spa/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/hamamatsu/chuo/restaurant/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/numazu/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/numazu/netcafe/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/numazu/game-center/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/numazu/adult-shop/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/numazu/karaoke/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/numazu/sauna/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/numazu/spa/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/numazu/restaurant/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fuji/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fuji/netcafe/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fuji/game-center/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fuji/adult-shop/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fuji/karaoke/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fuji/sauna/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fuji/spa/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fuji/restaurant/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fujieda/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fujieda/netcafe/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fujieda/game-center/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fujieda/adult-shop/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fujieda/karaoke/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fujieda/sauna/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fujieda/spa/</loc><lastmod>2026-07-22</lastmod></url>
+  <url><loc>https://machi-list.jp/area/shizuoka/fujieda/restaurant/</loc><lastmod>2026-07-22</lastmod></url>
 </urlset>

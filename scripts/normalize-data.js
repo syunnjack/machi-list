@@ -2,43 +2,75 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const root = path.resolve(__dirname, "..");
-const file = path.join(root, "data", "shops.json");
-const shops = JSON.parse(fs.readFileSync(file, "utf8"));
+const shopsFile = path.join(root, "data", "shops.json");
+const shops = JSON.parse(fs.readFileSync(shopsFile, "utf8"));
+const areas = JSON.parse(fs.readFileSync(path.join(root, "data", "areas.json"), "utf8"));
+const genres = JSON.parse(fs.readFileSync(path.join(root, "data", "genres.json"), "utf8"));
 
-const areaMeta = {
-  "nagoya-chikusa": ["名古屋市", "千種区", "名古屋市千種区", "nagoya/chikusa"],
-  "nagoya-higashi": ["名古屋市", "東区", "名古屋市東区", "nagoya/higashi"],
-  "nagoya-kita": ["名古屋市", "北区", "名古屋市北区", "nagoya/kita"],
-  "nagoya-nishi": ["名古屋市", "西区", "名古屋市西区", "nagoya/nishi"],
-  "nagoya-nakamura": ["名古屋市", "中村区", "名古屋市中村区", "nagoya/nakamura"],
-  "nagoya-naka": ["名古屋市", "中区", "名古屋市中区", "nagoya/naka"],
-  "nagoya-showa": ["名古屋市", "昭和区", "名古屋市昭和区", "nagoya/showa"],
-  "nagoya-mizuho": ["名古屋市", "瑞穂区", "名古屋市瑞穂区", "nagoya/mizuho"],
-  "nagoya-atsuta": ["名古屋市", "熱田区", "名古屋市熱田区", "nagoya/atsuta"],
-  "nagoya-nakagawa": ["名古屋市", "中川区", "名古屋市中川区", "nagoya/nakagawa"],
-  "nagoya-minato": ["名古屋市", "港区", "名古屋市港区", "nagoya/minato"],
-  "nagoya-minami": ["名古屋市", "南区", "名古屋市南区", "nagoya/minami"],
-  "nagoya-moriyama": ["名古屋市", "守山区", "名古屋市守山区", "nagoya/moriyama"],
-  "nagoya-midori": ["名古屋市", "緑区", "名古屋市緑区", "nagoya/midori"],
-  "nagoya-meito": ["名古屋市", "名東区", "名古屋市名東区", "nagoya/meito"],
-  "nagoya-tempaku": ["名古屋市", "天白区", "名古屋市天白区", "nagoya/tempaku"],
-  toyota: ["豊田市", "", "豊田市", "toyota"],
-  okazaki: ["岡崎市", "", "岡崎市", "okazaki"],
-  obu: ["大府市", "", "大府市", "obu"],
-  anjo: ["安城市", "", "安城市", "anjo"],
-  kariya: ["刈谷市", "", "刈谷市", "kariya"],
-  owariasahi: ["尾張旭市", "", "尾張旭市", "owariasahi"]
-};
+const areaByKey = Object.fromEntries(areas.map((area) => [area.key, area]));
+const genreByKey = Object.fromEntries(genres.map((genre) => [genre.key, genre]));
 
-const genreLabels = {
-  netcafe: "ネットカフェ",
-  "game-center": "ゲームセンター",
-  "adult-shop": "アダルトショップ",
-  karaoke: "カラオケ",
-  sauna: "サウナ",
-  spa: "スーパー銭湯・SPA・岩盤浴",
-  restaurant: "飲食店・居酒屋"
-};
+function hasBrokenText(value) {
+  const text = String(value ?? "");
+  return text.includes("?") || [...text].some((char) => [0x7e3a, 0x7e67, 0xfffd].includes(char.charCodeAt(0)));
+}
+
+function vcUrl(targetUrl) {
+  return `https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=YOUR_VC_SID&pid=YOUR_VC_PID&vc_url=${encodeURIComponent(targetUrl)}`;
+}
+
+function rakutenUrl(keyword) {
+  return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keyword)}/`;
+}
+
+function defaultHours(genreKey) {
+  return {
+    netcafe: "24時間営業",
+    karaoke: "夜まで営業",
+    "adult-shop": "営業時間確認",
+    "game-center": "営業時間確認",
+    sauna: "営業時間確認",
+    spa: "営業時間確認",
+    restaurant: "夜まで営業"
+  }[genreKey] || "営業時間確認";
+}
+
+function normalizeShop(shop) {
+  const area = areaByKey[shop.area_key];
+  const genre = genreByKey[shop.genre_key];
+  if (!area || !genre) return shop;
+
+  shop.prefecture_key = area.prefecture_key;
+  shop.prefecture = area.prefecture;
+  shop.city = area.city;
+  shop.ward = area.ward;
+  shop.area_path = area.path;
+  shop.area_label = area.label;
+  shop.genre = genre.label;
+  shop.url = `/area/${area.prefecture_key}/${area.path}/${shop.genre_key}/`;
+  shop.source = shop.source || {};
+  shop.source.google_query = shop.source.google_query || `${shop.name} ${area.label}`;
+  shop.place_query = shop.place_query || shop.source.google_query;
+
+  if (!shop.budget_label || hasBrokenText(shop.budget_label)) {
+    shop.budget_label = shop.budget_min ? `目安${Number(shop.budget_min).toLocaleString("ja-JP")}円から` : "目安確認中";
+  }
+  if (!shop.hours || hasBrokenText(shop.hours)) {
+    shop.hours = defaultHours(shop.genre_key);
+  }
+
+  if (!shop.official_url) shop.official_url = "";
+  if (!shop.booking_url && shop.genre_key !== "adult-shop") {
+    shop.booking_url = vcUrl(`https://www.hotpepper.jp/?keyword=${encodeURIComponent(`${area.label} ${genre.label}`)}`);
+  }
+  if (!shop.coupon_url) {
+    shop.coupon_url = shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(`${genre.label} クーポン`);
+  }
+  if (!shop.shopping_url) {
+    shop.shopping_url = shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(`${genre.label} 関連商品`);
+  }
+  return shop;
+}
 
 const fixes = {
   "aichi-anjo-kaikatsu-mikawa-anjo": { name: "快活CLUB 三河安城店", address: "愛知県安城市緑町1-26-5", nearest_station: "三河安城駅", area: "三河安城駅周辺" },
@@ -50,116 +82,75 @@ const fixes = {
   "aichi-kariya-zeroshiki": { name: "零式書店 刈谷店", address: "愛知県刈谷市中手町6-203", nearest_station: "逢妻駅", area: "中手町周辺" },
   "aichi-kariya-joyjoy-ekimae": { name: "カラオケJOYJOY 刈谷駅前店", address: "愛知県刈谷市相生町1丁目19", nearest_station: "刈谷駅", area: "刈谷駅周辺" },
   "aichi-kariya-manekineko-higashi": { name: "カラオケまねきねこ 刈谷東店", address: "愛知県刈谷市松栄町3丁目13-11 カタヤマビル2F", nearest_station: "野田新町駅", area: "松栄町周辺" },
-  "aichi-kariya-jankara-ekimae": { name: "ジャンカラ 刈谷駅前店", address: "愛知県刈谷市桜町2丁目1-4 2-4F", nearest_station: "刈谷駅", area: "刈谷駅周辺" },
-  "aichi-nagoya-midori-takumi": { name: "DVD匠書店 緑店", address: "愛知県名古屋市緑区平手南1丁目418", nearest_station: "徳重駅", area: "平手周辺" },
-  "aichi-nagoya-naka-kaikatsu-osu": { name: "快活CLUB 大須店", address: "愛知県名古屋市中区大須3-30-40 万松寺ビル2F", nearest_station: "上前津駅", area: "大須周辺" },
-  "aichi-nagoya-naka-kaikatsu-sakae-chojamachi": { name: "快活CLUB 栄長者町店", address: "愛知県名古屋市中区錦2-4-1 広小路クロスタワーB1F", nearest_station: "丸の内駅", area: "長者町周辺" },
-  "aichi-nagoya-naka-kaikatsu-sakae-hirokoji": { name: "快活CLUB 栄広小路店", address: "愛知県名古屋市中区栄4-2-8 小浅ビル2F-7F", nearest_station: "栄駅", area: "栄周辺" },
-  "aichi-nagoya-chikusa-kaikatsu-chayagasaka": { name: "快活CLUB 茶屋が坂駅前店", address: "愛知県名古屋市千種区茶屋が坂1-20-21", nearest_station: "茶屋ヶ坂駅", area: "茶屋が坂周辺" },
-  "aichi-nagoya-kita-kaikatsu-kusunoki": { name: "快活CLUB 名古屋楠インター店", address: "愛知県名古屋市北区玄馬町234-1", nearest_station: "比良駅", area: "楠インター周辺" },
-  "aichi-nagoya-minato-kaikatsu-keibajomae": { name: "快活CLUB 当知店", address: "愛知県名古屋市港区小割通3-8", nearest_station: "港北駅", area: "当知周辺" },
-  "aichi-nagoya-midori-kaikatsu-narumi-tokushige": { name: "快活CLUB 鳴海徳重店", address: "愛知県名古屋市緑区乗鞍1-1416", nearest_station: "徳重駅", area: "徳重周辺" },
-  "aichi-nagoya-tempaku-kaikatsu-ueda": { name: "快活CLUB 153号天白植田店", address: "愛知県名古屋市天白区植田本町2-2107", nearest_station: "植田駅", area: "植田周辺" },
-  "aichi-nagoya-moriyama-kaikatsu-moriyama": { name: "快活CLUB 守山店", address: "愛知県名古屋市守山区野萩町1-46", nearest_station: "喜多山駅", area: "守山区野萩町周辺" },
-  "aichi-nagoya-atsuta-gigo-kanayama": { name: "GiGO 金山", address: "愛知県名古屋市熱田区金山町1-19-2", nearest_station: "金山駅", area: "金山駅周辺" },
-  "aichi-nagoya-chikusa-manekineko-imaike": { name: "カラオケまねきねこ 今池店", address: "愛知県名古屋市千種区今池5丁目1-5 名古屋センタープラザビルB1F", nearest_station: "今池駅", area: "今池周辺" },
-  "aichi-nagoya-nakagawa-manekineko": { name: "カラオケまねきねこ 中川店", address: "愛知県名古屋市中川区中島新町2-150", nearest_station: "中島駅", area: "中島新町周辺" },
-  "aichi-nagoya-meito-manekineko": { name: "カラオケまねきねこ 名東店", address: "愛知県名古屋市名東区名東本通3丁目117", nearest_station: "一社駅", area: "名東本通周辺" },
-  "aichi-nagoya-nakamura-manekineko-meieki4": { name: "カラオケまねきねこ 名駅4丁目店", address: "愛知県名古屋市中村区名駅4-11-1 COLLECT MARK名駅4丁目9-11F", nearest_station: "名古屋駅", area: "名駅周辺" },
-  "aichi-nagoya-minami-takumi": { name: "DVD匠書店 南店", address: "愛知県名古屋市南区千竈通4丁目2-1", nearest_station: "笠寺駅", area: "千竈通周辺" },
-  "aichi-nagoya-tempaku-takumi-ipponmatsu": { name: "DVD匠書店 一本松店", address: "愛知県名古屋市天白区一本松2丁目1014付近", nearest_station: "塩釜口駅", area: "一本松周辺" },
-  "aichi-nagoya-tempaku-takumi-hirabari": { name: "DVD匠書店 平針店", address: "愛知県名古屋市天白区平針2丁目1712", nearest_station: "平針駅", area: "平針周辺" },
-  "aichi-nagoya-nakagawa-ayanami": { name: "綾波書店 中川店", address: "愛知県名古屋市中川区法華西町1丁目1806", nearest_station: "高畑駅", area: "法華西町周辺" },
-  "aichi-okazaki-rakunoyu": { name: "おかざき楽の湯", address: "愛知県岡崎市庄司田1丁目14-14", nearest_station: "岡崎駅", area: "庄司田周辺", hours: "9:00-23:00" },
-  "aichi-okazaki-super-sento-furoya": { name: "スーパー銭湯ふろ屋", address: "愛知県岡崎市洞町西五位原6-1", nearest_station: "男川駅", area: "洞町周辺", hours: "8:00-24:00" },
-  "aichi-toyota-oiden-no-yu": { name: "おいでんの湯", address: "愛知県豊田市司町1丁目1-1周辺", nearest_station: "新上挙母駅", area: "司町周辺", hours: "8:00-翌1:00" },
-  "aichi-toyota-hottokan-juwajuwa": { name: "豊田ほっとかん じゅわじゅわ", address: "愛知県豊田市本新町7-48-6", nearest_station: "新豊田駅", area: "本新町周辺", hours: "10:00-21:00" },
-  "aichi-nagoya-chikusa-apz": { name: "アペゼ", address: "愛知県名古屋市千種区今池周辺", nearest_station: "今池駅", area: "今池周辺", hours: "24時間営業" },
-  "aichi-nagoya-higashi-yunoshiro-ozone": { name: "大曽根温泉 湯の城", address: "愛知県名古屋市東区大曽根周辺", nearest_station: "大曽根駅", area: "大曽根周辺", hours: "6:00-翌1:00" },
-  "aichi-nagoya-kita-kitanoyu-shonai": { name: "庄内温泉 喜多の湯", address: "愛知県名古屋市北区喜惣治周辺", nearest_station: "比良駅", area: "喜惣治周辺", hours: "9:00-24:00" },
-  "aichi-nagoya-nishi-kiwami-sauna": { name: "KIWAMI SAUNA 本店", address: "愛知県名古屋市西区浅間町周辺", nearest_station: "浅間町駅", area: "浅間町周辺", hours: "11:30-23:30前後" },
-  "aichi-nagoya-nakamura-suminoyu": { name: "炭の湯", address: "愛知県名古屋市中村区亀島2-11-8", nearest_station: "亀島駅", area: "亀島周辺", hours: "16:00-23:00" },
-  "aichi-nagoya-naka-niomon-yu": { name: "仁王門湯", address: "愛知県名古屋市中区大須3-37-20", nearest_station: "上前津駅", area: "大須周辺", hours: "13:00-22:30" },
-  "aichi-nagoya-showa-mitake-onsen": { name: "御嶽温泉", address: "愛知県名古屋市昭和区御器所3-10-7", nearest_station: "荒畑駅", area: "御器所周辺", hours: "15:00-翌2:00" },
-  "aichi-nagoya-mizuho-kawasumi-yu": { name: "川澄湯", address: "愛知県名古屋市瑞穂区川澄町2-20", nearest_station: "桜山駅", area: "川澄町周辺", hours: "16:00-22:00" },
-  "aichi-nagoya-nakagawa-shinmotoyu": { name: "新元湯", address: "愛知県名古屋市中川区下之一色町周辺", nearest_station: "伏屋駅", area: "下之一色町周辺", hours: "公式カレンダー確認" },
-  "aichi-nagoya-minato-canal-resort": { name: "キャナル・リゾート", address: "愛知県名古屋市中川区玉川町4丁目1", nearest_station: "六番町駅", area: "玉川町周辺", hours: "9:00-翌1:00前後" },
-  "aichi-nagoya-moriyama-ryusenji": { name: "竜泉寺の湯 名古屋守山本店", address: "愛知県名古屋市守山区竜泉寺1丁目1501", nearest_station: "大森・金城学院前駅", area: "竜泉寺周辺", hours: "6:00-翌3:00" },
-  "aichi-nagoya-midori-momoyama-no-yu": { name: "桃山の湯", address: "愛知県名古屋市緑区桃山周辺", nearest_station: "神沢駅", area: "桃山周辺", hours: "確認中" },
-  "aichi-anjo-denpark-yu": { name: "天然温泉コロナの湯 安城店", address: "愛知県安城市浜富町6-8周辺", nearest_station: "南安城駅", area: "浜富町周辺", hours: "確認中" },
-  "aichi-kariya-kariyachiryuu-yunosato": { name: "天然温泉かきつばた", address: "愛知県刈谷市東境町吉野55 刈谷ハイウェイオアシス内", nearest_station: "富士松駅", area: "刈谷ハイウェイオアシス周辺", hours: "確認中" },
-  "aichi-obu-megumi-no-yu": { name: "JAあぐりタウン げんきの郷 めぐみの湯", address: "愛知県大府市吉田町正右エ門新田1-1周辺", nearest_station: "大府駅", area: "げんきの郷周辺", hours: "確認中" }
+  "aichi-kariya-jankara-ekimae": { name: "ジャンカラ 刈谷駅前店", address: "愛知県刈谷市桜町2丁目1-4 2-4F", nearest_station: "刈谷駅", area: "刈谷駅周辺" }
 };
 
-function hasBrokenText(value) {
-  const text = String(value ?? "");
-  return text.includes("?") || [...text].some((char) => char.charCodeAt(0) === 0x7e3a || char.charCodeAt(0) === 0x7e67 || char.charCodeAt(0) === 0xfffd);
-}
-
 const additions = [
-  ["aichi-nagoya-nakamura-juhachido", "完全個室 鉄板×炉端 ジュッパチ堂 名古屋駅店", "restaurant", "nagoya-nakamura", "愛知県名古屋市中村区名駅周辺", "名古屋駅", 2, 3500, "目安3,500円から", false, true, true, "名駅周辺", 35.1707, 136.884],
-  ["aichi-nagoya-nakamura-meieki-sakaba", "名駅酒場 名古屋駅前店", "restaurant", "nagoya-nakamura", "愛知県名古屋市中村区名駅周辺", "名古屋駅", 1, 3000, "目安3,000円から", false, true, true, "名駅周辺", 35.171, 136.883],
-  ["aichi-nagoya-naka-daijin", "大甚本店", "restaurant", "nagoya-naka", "愛知県名古屋市中区栄1丁目5-6", "伏見駅", 1, 2500, "目安2,500円から", false, false, false, "伏見周辺", 35.1688, 136.8972],
-  ["aichi-nagoya-naka-tetsumaru-sakae", "鉄板居酒屋 てつまる 栄店", "restaurant", "nagoya-naka", "愛知県名古屋市中区栄3-11-5 栄マンション1F", "栄駅", 8, 3000, "目安3,000円から", false, true, true, "栄周辺", 35.1672, 136.9055],
-  ["aichi-okazaki-kanata", "創作中華酒場KANATA 東岡崎店", "restaurant", "okazaki", "愛知県岡崎市明大寺本町1丁目8-1 万平ビル2F", "東岡崎駅", 4, 3500, "目安3,500円から", false, true, true, "東岡崎駅周辺", 34.9546, 137.166],
-  ["aichi-okazaki-fanaka", "発酵料理×クラフトビール FaNaKa", "restaurant", "okazaki", "愛知県岡崎市明大寺町川端12 丘ビル2F", "東岡崎駅", 2, 4000, "目安4,000円から", false, true, true, "東岡崎駅周辺", 34.9539, 137.167],
-  ["aichi-toyota-cafestand-popo", "Cafe Stand popo", "restaurant", "toyota", "愛知県豊田市西町5-5 豊田ヴィッツタウン1階", "豊田市駅", 3, 2500, "目安2,500円から", true, true, true, "豊田市駅周辺", 35.0868, 137.156],
-  ["aichi-toyota-kakurebo", "個室居酒屋 隠れ坊 豊田店", "restaurant", "toyota", "愛知県豊田市豊田市駅周辺", "豊田市駅", 3, 3500, "目安3,500円から", false, true, true, "豊田市駅周辺", 35.087, 137.156],
-  ["aichi-kariya-tenkai", "天海 刈谷駅前店", "restaurant", "kariya", "愛知県刈谷市相生町2丁目10-5 ZOHYA BLDG 4F 5F", "刈谷駅", 2, 3500, "目安3,500円から", false, true, true, "刈谷駅周辺", 34.991, 137.009],
-  ["aichi-kariya-otori", "焼き鳥職人 鳳 刈谷本店", "restaurant", "kariya", "愛知県刈谷市相生町2-38 4F", "刈谷駅", 3, 3000, "目安3,000円から", false, true, true, "刈谷駅周辺", 34.991, 137.008],
-  ["aichi-anjo-musasabi", "Musasabi", "restaurant", "anjo", "愛知県安城市朝日町12-2", "安城駅", 5, 3000, "目安3,000円から", true, true, true, "安城駅周辺", 34.958, 137.086],
-  ["aichi-obu-la-farfalla", "ラ・ファルファーラ", "restaurant", "obu", "愛知県大府市中央町3-108", "大府駅", 3, 3000, "目安3,000円から", true, false, true, "大府駅周辺", 35.011, 136.963],
-  ["aichi-obu-imura", "泊まれる居酒屋Imura", "restaurant", "obu", "愛知県大府市東新町3-68", "共和駅", 7, 3000, "目安3,000円から", true, true, false, "共和駅周辺", 35.035, 136.955]
+  ["aichi-nagoya-chikusa-joyjoy-imaike", "カラオケJOYJOY 今池店", "karaoke", "nagoya-chikusa", "愛知県名古屋市千種区今池1-11-6", "今池駅", 2, 900, "目安900円から", false, true, true, "今池周辺"],
+  ["aichi-nagoya-nakamura-joysound-meieki3", "JOYSOUND 名駅三丁目中央店", "karaoke", "nagoya-nakamura", "愛知県名古屋市中村区名駅2-15-8 名駅グルメプラザ7階", "名古屋駅", 5, 1000, "目安1,000円から", false, true, true, "名駅周辺"],
+  ["aichi-nagoya-naka-manekineko-osu", "カラオケまねきねこ 大須店", "karaoke", "nagoya-naka", "愛知県名古屋市中区大須3-30-60 大須301ビル7階", "上前津駅", 4, 900, "目安900円から", false, true, true, "大須周辺"],
+  ["aichi-nagoya-atsuta-joysound-kanayama", "JOYSOUND 金山店", "karaoke", "nagoya-atsuta", "愛知県名古屋市熱田区金山町1-5-5", "金山駅", 2, 1000, "目安1,000円から", false, true, true, "金山周辺"],
+  ["aichi-toyota-big-echo-toyota", "ビッグエコー 豊田店", "karaoke", "toyota", "愛知県豊田市元城町4-26", "豊田市駅", 8, 1000, "目安1,000円から", true, true, true, "豊田市駅周辺"],
+  ["aichi-toyota-kaikatsu-kosaka", "快活CLUB 豊田小坂店", "netcafe", "toyota", "愛知県豊田市小坂町14-2-1", "新豊田駅", 18, 1200, "目安1,200円から", true, true, true, "小坂町周辺"],
+  ["aichi-okazaki-kaikatsu-daijuji", "快活CLUB 岡崎大樹寺店", "netcafe", "okazaki", "愛知県岡崎市大樹寺3-12-5", "大門駅", 9, 1200, "目安1,200円から", true, true, true, "大樹寺周辺"],
+  ["aichi-nagoya-nakagawa-joyjoy-sanno", "カラオケJOYJOY 山王店", "karaoke", "nagoya-nakagawa", "愛知県名古屋市中川区山王2-3-70", "山王駅", 5, 900, "目安900円から", true, true, true, "山王周辺"],
+  ["aichi-nagoya-mizuho-joyjoy-aratamabashi", "カラオケJOYJOY 新瑞橋店", "karaoke", "nagoya-mizuho", "愛知県名古屋市瑞穂区洲山町2-22", "新瑞橋駅", 1, 900, "目安900円から", false, true, true, "新瑞橋周辺"],
+  ["aichi-nagoya-meito-big-echo", "ビッグエコー 名東店", "karaoke", "nagoya-meito", "愛知県名古屋市名東区上社2-215", "本郷駅", 3, 1000, "目安1,000円から", true, true, true, "上社周辺"],
+  ["shizuoka-aoi-kaikatsu-ryutsu", "快活CLUB 静岡流通通り店", "netcafe", "shizuoka-aoi", "静岡県静岡市葵区沓谷6-18-10", "長沼駅", 15, 1200, "目安1,200円から", true, true, true, "流通通り周辺", "https://www.kaikatsu.jp/shop/result.html?area=22"],
+  ["shizuoka-suruga-kaikatsu-ekinan", "快活CLUB 静岡駅南口店", "netcafe", "shizuoka-suruga", "静岡県静岡市駿河区南町10-1 アクロスキューブ静岡南町2-3F", "静岡駅", 1, 1200, "目安1,200円から", false, true, true, "静岡駅南口周辺", "https://www.kaikatsu.jp/shop/result.html?area=22"],
+  ["shizuoka-hamamatsu-kaikatsu-ekikita", "快活CLUB 浜松駅北口店", "netcafe", "hamamatsu-chuo", "静岡県浜松市中央区旭町10-8 浜松駅前ビル3F", "浜松駅", 2, 1200, "目安1,200円から", false, true, true, "浜松駅北口周辺", "https://www.kaikatsu.jp/shop/detail/20974.html"],
+  ["shizuoka-numazu-kaikatsu", "快活CLUB 沼津店", "netcafe", "numazu", "静岡県沼津市共栄町19-5", "大岡駅", 18, 1200, "目安1,200円から", true, true, true, "共栄町周辺", "https://www.kaikatsu.jp/shop/result.html?area=22"],
+  ["shizuoka-fuji-kaikatsu-aoba", "快活CLUB 富士青葉店", "netcafe", "fuji", "静岡県富士市青葉町36", "竪堀駅", 20, 1200, "目安1,200円から", true, true, true, "青葉町周辺", "https://www.kaikatsu.jp/shop/result.html?area=22"],
+  ["shizuoka-aoi-gigo-shizuoka", "GiGO 静岡", "game-center", "shizuoka-aoi", "静岡県静岡市葵区七間町4", "静岡駅", 12, 500, "目安500円から", false, true, false, "七間町周辺", "https://www.gigo.co.jp/shops/shizuoka"],
+  ["shizuoka-shimizu-gigo-baydream", "GiGO ベイドリーム清水", "game-center", "shizuoka-shimizu", "静岡県静岡市清水区駒越北町8-1 ベイドリーム清水2F", "清水駅", 35, 500, "目安500円から", true, true, false, "ベイドリーム清水周辺", "https://www.gigo.co.jp/shops/shizuoka"],
+  ["shizuoka-hamamatsu-round1", "ラウンドワンスタジアム 浜松店", "game-center", "hamamatsu-chuo", "静岡県浜松市中央区天王町諏訪1981-17", "自動車学校前駅", 25, 500, "目安500円から", true, true, true, "天王町周辺"],
+  ["shizuoka-numazu-mollyfantasy", "モーリーファンタジー 沼津店", "game-center", "numazu", "静岡県沼津市東椎路東荒301-3", "片浜駅", 25, 500, "目安500円から", true, false, true, "東椎路周辺"],
+  ["shizuoka-fuji-round1", "ラウンドワン 富士店", "game-center", "fuji", "静岡県富士市八代町4-15", "ジヤトコ前駅", 12, 500, "目安500円から", true, true, true, "八代町周辺"],
+  ["shizuoka-aoi-manekineko-gofukucho", "カラオケまねきねこ 静岡呉服町通り店", "karaoke", "shizuoka-aoi", "静岡県静岡市葵区紺屋町1-4 目のまえスクランブルビルディング4-6階", "静岡駅", 7, 900, "目安900円から", false, true, true, "呉服町周辺", "https://www.jkba.or.jp/kamei/list/shizuoka"],
+  ["shizuoka-suruga-big-echo-ekinan", "ビッグエコー 静岡南口駅前店", "karaoke", "shizuoka-suruga", "静岡県静岡市駿河区南町10-1 アクロスキューブ静岡", "静岡駅", 1, 1000, "目安1,000円から", false, true, true, "静岡駅南口周辺", "https://www.jkba.or.jp/kamei/list/shizuoka"],
+  ["shizuoka-hamamatsu-manekineko-shinhamamatsu", "カラオケまねきねこ 新浜松駅前店", "karaoke", "hamamatsu-chuo", "静岡県浜松市中央区千歳町88-1", "新浜松駅", 2, 900, "目安900円から", false, true, true, "新浜松駅周辺", "https://www.jkba.or.jp/kamei/list/shizuoka"],
+  ["shizuoka-numazu-manekineko-kitaguchi", "カラオケまねきねこ 沼津北口店", "karaoke", "numazu", "静岡県沼津市高島町3-1 B1F", "沼津駅", 2, 900, "目安900円から", false, true, true, "沼津駅北口周辺", "https://www.karaokemanekineko.jp/locations/shizuoka/numazu-shi/numazu-kitaguchi-store/"],
+  ["shizuoka-shimizu-manekineko-kusanagi", "カラオケまねきねこ 草薙駅前店", "karaoke", "shizuoka-shimizu", "静岡県静岡市清水区草薙1-2-15", "草薙駅", 1, 900, "目安900円から", false, true, true, "草薙駅周辺", "https://www.jkba.or.jp/kamei/list/shizuoka"],
+  ["shizuoka-suruga-sauna-shikiji", "サウナしきじ", "sauna", "shizuoka-suruga", "静岡県静岡市駿河区敷地2-25-1", "静岡駅", 35, 1700, "目安1,700円から", true, true, false, "敷地周辺", "https://www.visit-shizuoka.com/spot/detail_466.html"],
+  ["shizuoka-aoi-yunoki-no-sato", "柚木の郷", "spa", "shizuoka-aoi", "静岡県静岡市葵区東静岡駅前周辺", "東静岡駅", 3, 1100, "目安1,100円から", true, true, true, "東静岡駅周辺", "https://www.supersento.com/chubu/shizuoka/1_shizuoka.html"],
+  ["shizuoka-aoi-ofurocafe-bijinyu", "おふろcafe bijinyu", "spa", "shizuoka-aoi", "静岡県静岡市葵区籠上周辺", "静岡駅", 35, 630, "目安630円から", true, true, true, "籠上周辺", "https://www.supersento.com/chubu/shizuoka/1_shizuoka.html"],
+  ["shizuoka-numazu-suruganoyu", "天然日帰り温泉 駿河の湯", "spa", "numazu", "静岡県沼津市岡宮1265-3", "沼津駅", 45, 900, "目安900円から", true, true, true, "岡宮周辺", "https://www.suruganoyu.co.jp/about"],
+  ["shizuoka-hamamatsu-arai-benten", "浜名湖弁天島温泉 ファミリー向け日帰り施設", "spa", "hamamatsu-chuo", "静岡県浜松市中央区舞阪町弁天島周辺", "弁天島駅", 10, 900, "目安900円から", true, false, true, "弁天島周辺"],
+  ["shizuoka-fuji-yuura", "湯らぎの里", "spa", "fuji", "静岡県富士市蓼原周辺", "富士駅", 25, 900, "目安900円から", true, true, true, "蓼原周辺"],
+  ["shizuoka-hamamatsu-tokyo-shoten-takaoka", "東京書店 浜松高丘店", "adult-shop", "hamamatsu-chuo", "静岡県浜松市中央区高丘西2-9-33", "浜松駅", 70, 1000, "目安1,000円から", true, true, true, "高丘西周辺", "https://www.adultshop-go.com/store/%E6%9D%B1%E4%BA%AC%E6%9B%B8%E5%BA%97%E6%B5%9C%E6%9D%BE%E9%AB%98%E4%B8%98%E5%BA%97/"],
+  ["shizuoka-aoi-issen-shizuoka", "いっせん 静岡駅店", "restaurant", "shizuoka-aoi", "静岡県静岡市葵区両替町2-5-13 第2リッツビル1F", "静岡駅", 7, 3000, "目安3,000円から", false, true, true, "両替町周辺", "https://issen-shizuoka.foodre.jp/"],
+  ["shizuoka-hamamatsu-gyoza-ensho", "餃子の遠州 有楽街店", "restaurant", "hamamatsu-chuo", "静岡県浜松市中央区鍛冶町319-11", "第一通り駅", 4, 2500, "目安2,500円から", false, true, true, "有楽街周辺", "https://www.hotpepper.jp/strJ001202107/"],
+  ["shizuoka-hamamatsu-ippo", "魚の居酒屋 いっぽ 浜松", "restaurant", "hamamatsu-chuo", "静岡県浜松市中央区田町316-30 ブルーノアビル2F", "第一通り駅", 3, 4000, "目安4,000円から", false, true, true, "有楽街周辺", "https://ippo-izakaya-hamamatsu.owst.jp/"],
+  ["shizuoka-numazu-bus-stop", "居酒屋 バスストップ", "restaurant", "numazu", "静岡県沼津市高島町19-6 1F", "沼津駅", 7, 2500, "目安2,500円から", false, true, true, "沼津駅北口周辺", "https://www.bus-stop.jp/"],
+  ["shizuoka-fujieda-sumire", "やきとり家すみれ 藤枝店", "restaurant", "fujieda", "静岡県藤枝市前島2-1-43", "藤枝駅", 1, 2500, "目安2,500円から", false, true, true, "藤枝駅南口周辺", "https://www.hotpepper.jp/strJ004026770/"],
+  ["shizuoka-fujieda-uotori", "うお鶏 藤枝店", "restaurant", "fujieda", "静岡県藤枝市前島1-3-1 ホテルオーレ2階", "藤枝駅", 1, 3500, "目安3,500円から", true, true, true, "藤枝駅南口周辺", "https://uotori-fujieda.owst.jp/"]
 ];
 
-for (const shop of shops) {
-  const area = areaMeta[shop.area_key];
-  if (area) {
-    shop.city = area[0];
-    shop.ward = area[1];
-    shop.area_label = area[2];
-    shop.area_path = area[3];
-  }
-  shop.prefecture = "愛知県";
-  shop.genre = genreLabels[shop.genre_key] || shop.genre;
-  if (fixes[shop.id]) Object.assign(shop, fixes[shop.id]);
-  if (!shop.budget_label || hasBrokenText(shop.budget_label)) {
-    shop.budget_label = shop.budget_min ? `目安${Number(shop.budget_min).toLocaleString("ja-JP")}円から` : "目安確認中";
-  }
-  if (!shop.hours || hasBrokenText(shop.hours)) {
-    shop.hours = {
-      netcafe: "24時間営業",
-      karaoke: "夜まで営業",
-      "adult-shop": "営業時間確認",
-      "game-center": "営業時間確認",
-      sauna: "営業時間確認",
-      spa: "営業時間確認",
-      restaurant: "夜まで営業"
-    }[shop.genre_key] || "営業時間確認";
-  }
-  shop.url = `/area/aichi/${shop.area_path}/${shop.genre_key}/`;
-  if (shop.source) shop.source.google_query = `${shop.name} ${shop.area_label}`;
+const removeIds = new Set([
+  "shizuoka-aoi-adult-shop-shizuoka",
+  "shizuoka-numazu-adult-shop-numazu",
+  "shizuoka-aoi-daijin-shizuoka-sample",
+  "shizuoka-hamamatsu-izakaya-yurakugai",
+  "shizuoka-numazu-izakaya-ekimae",
+  "shizuoka-fujieda-izakaya-ekimae"
+]);
+
+for (let index = shops.length - 1; index >= 0; index -= 1) {
+  if (removeIds.has(shops[index].id)) shops.splice(index, 1);
 }
 
 const existing = new Set(shops.map((shop) => shop.id));
 for (const item of additions) {
   if (existing.has(item[0])) continue;
-  const [id, name, genreKey, areaKey, address, station, walk, budget, budgetLabel, parking, late, coupon, area, lat, lng] = item;
-  const meta = areaMeta[areaKey];
+  const [id, name, genreKey, areaKey, address, station, walk, budget, budgetLabel, parking, late, coupon, localArea, officialUrl] = item;
   shops.push({
     id,
     name,
     genre_key: genreKey,
-    genre: genreLabels[genreKey],
-    prefecture: "愛知県",
-    city: meta[0],
-    ward: meta[1],
     area_key: areaKey,
-    area_path: meta[3],
-    area_label: meta[2],
-    area,
+    area: localArea,
     address,
-    hours: late ? "夜まで営業" : "営業時間確認",
+    hours: defaultHours(genreKey),
     nearest_station: station,
     station_walk_minutes: walk,
     budget_min: budget,
@@ -167,12 +158,25 @@ for (const item of additions) {
     parking,
     late,
     coupon,
-    url: `/area/aichi/${meta[3]}/${genreKey}/`,
-    lat,
-    lng,
-    source: { google_place_id: null, google_query: `${name} ${meta[2]}` }
+    official_url: officialUrl || "",
+    source: { google_place_id: null, google_query: `${name} ${address}` }
   });
 }
 
-fs.writeFileSync(file, `${JSON.stringify(shops, null, 2)}\n`, "utf8");
+for (const shop of shops) {
+  if (fixes[shop.id]) Object.assign(shop, fixes[shop.id]);
+  normalizeShop(shop);
+}
+
+shops.sort((a, b) => {
+  const pref = String(a.prefecture_key).localeCompare(String(b.prefecture_key), "ja");
+  if (pref) return pref;
+  const area = String(a.area_key).localeCompare(String(b.area_key), "ja");
+  if (area) return area;
+  const genre = String(a.genre_key).localeCompare(String(b.genre_key), "ja");
+  if (genre) return genre;
+  return String(a.name).localeCompare(String(b.name), "ja");
+});
+
+fs.writeFileSync(shopsFile, `${JSON.stringify(shops, null, 2)}\n`, "utf8");
 console.log(`Normalized ${shops.length} shops.`);

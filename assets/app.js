@@ -56,6 +56,8 @@ const defaultOrigin = {
 };
 
 let facilities = [];
+let areas = [];
+let genres = [];
 let currentOrigin = defaultOrigin;
 let selectedFacilityIndex = null;
 
@@ -121,13 +123,33 @@ function normalizeShop(shop, index) {
 
 async function loadFacilities() {
   try {
-    const response = await fetch("./data/shops.json", { cache: "no-store" });
-    if (!response.ok) throw new Error("shops.json not found");
-    const shops = await response.json();
+    const [shopsResponse, areasResponse, genresResponse] = await Promise.all([
+      fetch("./data/shops.json", { cache: "no-store" }),
+      fetch("./data/areas.json", { cache: "no-store" }),
+      fetch("./data/genres.json", { cache: "no-store" })
+    ]);
+    if (!shopsResponse.ok) throw new Error("shops.json not found");
+    const shops = await shopsResponse.json();
+    areas = areasResponse.ok ? await areasResponse.json() : [];
+    genres = genresResponse.ok ? await genresResponse.json() : [];
     facilities = shops.map(normalizeShop);
+    populateSelects();
   } catch (error) {
     facilities = [];
     console.warn("店舗データを読み込めませんでした。", error);
+  }
+}
+
+function populateSelects() {
+  if (areaSelect && areas.length) {
+    const current = areaSelect.value;
+    areaSelect.innerHTML = `<option value="">すべてのエリア</option>${areas.map((area) => `<option value="${area.key}">${area.prefecture} ${area.label}</option>`).join("")}`;
+    areaSelect.value = current;
+  }
+  if (genreSelect && genres.length) {
+    const current = genreSelect.value;
+    genreSelect.innerHTML = `<option value="">すべてのジャンル</option>${genres.map((genre) => `<option value="${genre.key}">${genre.label}</option>`).join("")}`;
+    genreSelect.value = current;
   }
 }
 
@@ -175,7 +197,8 @@ function relatedLabel(facility) {
 }
 
 function pinPosition(facility, index) {
-  const base = areaPositions[facility.areaKey] || { x: 50, y: 50 };
+  const area = areas.find((item) => item.key === facility.areaKey);
+  const base = area ? { x: area.map_x, y: area.map_y } : (areaPositions[facility.areaKey] || { x: 50, y: 50 });
   return {
     x: Math.max(8, Math.min(92, base.x + ((index % 3) - 1) * 4)),
     y: Math.max(12, Math.min(88, base.y + (Math.floor(index / 3) % 3) * 5))
