@@ -22,6 +22,14 @@ http://127.0.0.1:4173/
 npm run check
 ```
 
+## ページ生成
+
+```bash
+npm run generate
+```
+
+`data/shops.json` の店舗データをもとに、愛知県の市区町村ページ、ジャンル別ページ、`sitemap.xml` を生成します。
+
 ## 公開
 
 GitHub Pages で公開する場合は、リポジトリ設定で Pages の公開元を `main` ブランチの root にします。
