@@ -636,6 +636,47 @@ function areaGenreCount(area, genreKey) {
   return shops.filter((shop) => shop.area_key === area.key && shop.genre_key === genreKey).length;
 }
 
+const openingMetricDefinitions = [
+  {
+    label: "競合密度",
+    note: "近い業態の厚みを確認",
+    genreKeys: ["restaurant", "cafe", "game-center", "crane-game", "capsule-toy", "netcafe", "adult-shop", "karaoke", "dental-clinic"]
+  },
+  {
+    label: "駐車場の厚み",
+    note: "車で来る人と従業員の導線を確認",
+    genreKeys: ["parking-lot", "parking-management", "bicycle-parking", "gas-station"]
+  },
+  {
+    label: "夜需要",
+    note: "終電後や夜の滞在先を確認",
+    genreKeys: ["netcafe", "video-box", "karaoke", "restaurant", "convenience-store", "adult-shop", "sauna", "spa"]
+  },
+  {
+    label: "滞在需要",
+    note: "作業、休憩、回遊の受け皿を確認",
+    genreKeys: ["cafe", "netcafe", "spa", "sauna", "cat-cafe", "movie-theater", "karaoke"]
+  }
+];
+
+function openingMetricScore(area, genreKeys) {
+  const items = shops.filter((shop) => shop.area_key === area.key && genreKeys.includes(shop.genre_key));
+  const lateCount = items.filter((shop) => shop.late).length;
+  const parkingCount = items.filter((shop) => shop.parking).length;
+  const stationCount = items.filter((shop) => Number(shop.station_walk_minutes) <= 10).length;
+  const score = Math.min(100, Math.round(items.length * 12 + lateCount * 8 + parkingCount * 4 + stationCount * 3));
+  const rank = score >= 75 ? "高め" : score >= 45 ? "中" : "これから確認";
+  return { count: items.length, rank, score };
+}
+
+function openingScorePanel(area) {
+  const cards = openingMetricDefinitions.map((metric) => {
+    const result = openingMetricScore(area, metric.genreKeys);
+    return `<article class="score-card"><strong>${metric.label}</strong><em>${result.rank}</em><div class="score-meter" aria-hidden="true"><span style="--score-width:${result.score}%"></span></div><small>${result.count}件をもとに${metric.note}</small></article>`;
+  }).join("");
+  return `<section class="section opening-score"><div class="section-head"><p class="eyebrow">出店前の見立て</p><h2>${area.label}の周辺バランス</h2><p>掲載施設の数、駅からの近さ、夜営業、駐車場の有無から目安を出しています。現地確認の前に、優先して見る場所を絞り込めます。</p></div><div class="opening-score-grid">${cards}</div></section>`;
+}
+
 function openingResearchPanel(area, depth) {
   const cards = openingSupportGenreKeys.map((genreKey) => {
     const genre = genres.find((item) => item.key === genreKey);
@@ -711,7 +752,7 @@ function genrePage(area, genre) {
   const canonical = `${siteUrl}/area/${area.prefecture_key}/${area.path}/${genre.key}/`;
   const nearItems = shops.filter((shop) => shop.prefecture_key === area.prefecture_key && shop.genre_key === genre.key && shop.area_key !== area.key).slice(0, 5);
   const comparisonRows = items;
-  const openingResearchExtra = genre.key === "opening-area-research" ? `\n      ${openingResearchTable(area)}` : "";
+  const openingResearchExtra = genre.key === "opening-area-research" ? `\n      ${openingScorePanel(area)}\n      ${openingResearchTable(area)}` : "";
   const body = `      <header class="page-header">
         <p class="eyebrow">${area.label} / ${genre.label}</p>
         <h1>${area.label}の${genre.label}一覧</h1>

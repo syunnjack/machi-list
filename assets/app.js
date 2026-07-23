@@ -74,12 +74,20 @@ let areas = [];
 let genres = [];
 let currentOrigin = defaultOrigin;
 let selectedFacilityIndex = null;
+let heatMode = "day";
+
+const heatModeLabels = {
+  day: "昼",
+  evening: "夕方",
+  night: "夜"
+};
 
 const resultEl = document.querySelector("#shopResults");
 const metaEl = document.querySelector("#resultMeta");
 const mapPinsEl = document.querySelector("#mapPins");
 const heatLayerEl = document.querySelector("#heatLayer");
 const heatSummaryEl = document.querySelector("#heatSummary");
+const heatModeButtons = Array.from(document.querySelectorAll("[data-heat-mode]"));
 const routeSummaryEl = document.querySelector("#routeSummary");
 const routePanelEl = document.querySelector("#routePanel");
 const areaSelect = document.querySelector("#areaSelect");
@@ -406,7 +414,7 @@ function highlightSelectedFacility() {
   });
 }
 
-function congestionWeight(facility) {
+function congestionWeight(facility, mode = heatMode) {
   let weight = 1;
   if (Number(facility.walkMinutes) <= 5) weight += 1.6;
   else if (Number(facility.walkMinutes) <= 10) weight += 0.8;
@@ -415,6 +423,13 @@ function congestionWeight(facility) {
   if (["restaurant", "cafe", "convenience-store", "game-center", "crane-game", "karaoke", "netcafe", "parking-lot", "office-tenant", "opening-area-research"].includes(facility.genreKey)) {
     weight += 0.8;
   }
+  const dayDemand = ["office-tenant", "cafe", "restaurant", "convenience-store", "parking-lot", "post-office", "dental-clinic", "drugstore", "gas-station"];
+  const eveningDemand = ["restaurant", "cafe", "game-center", "crane-game", "capsule-toy", "karaoke", "parking-lot", "convenience-store", "movie-theater", "bowling", "darts", "billiards"];
+  const nightDemand = ["netcafe", "video-box", "karaoke", "restaurant", "convenience-store", "adult-shop", "parking-lot", "sauna", "spa"];
+  if (mode === "day" && dayDemand.includes(facility.genreKey)) weight += 0.9;
+  if (mode === "evening" && eveningDemand.includes(facility.genreKey)) weight += 1.2;
+  if (mode === "night" && nightDemand.includes(facility.genreKey)) weight += 1.5;
+  if (mode === "night" && facility.late) weight += 0.9;
   return weight;
 }
 
@@ -443,11 +458,12 @@ function heatColor(level) {
 
 function renderHeatMap(results) {
   if (!heatLayerEl) return;
+  heatLayerEl.dataset.mode = heatMode;
   const grouped = new Map();
   for (const facility of results) {
     const current = grouped.get(facility.areaKey) || { items: [], score: 0 };
     current.items.push(facility);
-    current.score += congestionWeight(facility);
+    current.score += congestionWeight(facility, heatMode);
     grouped.set(facility.areaKey, current);
   }
   const heatItems = [...grouped.entries()]
@@ -463,7 +479,8 @@ function renderHeatMap(results) {
   }).join("");
   if (heatSummaryEl) {
     const top = heatItems[0];
-    heatSummaryEl.textContent = top ? `${top.items[0].city}${top.items[0].ward}周辺が高め` : "掲載施設の密度から推定";
+    const label = heatModeLabels[heatMode] || heatModeLabels.day;
+    heatSummaryEl.textContent = top ? `${label}: ${top.items[0].city}${top.items[0].ward}周辺が高め` : `${label}: 掲載施設の密度から推定`;
   }
 }
 
@@ -530,6 +547,11 @@ areaSelect?.addEventListener("change", searchFacilities);
 genreSelect?.addEventListener("change", searchFacilities);
 sortSelect?.addEventListener("change", searchFacilities);
 filterEls.forEach((input) => input.addEventListener("change", searchFacilities));
+heatModeButtons.forEach((button) => button.addEventListener("click", () => {
+  heatMode = button.dataset.heatMode || "day";
+  heatModeButtons.forEach((item) => item.classList.toggle("is-active", item === button));
+  searchFacilities();
+}));
 
 loadFacilities().then(() => {
   const initialResults = sortFacilities(facilities);
