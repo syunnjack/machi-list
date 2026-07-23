@@ -108,5 +108,25 @@
     "key": "recycle-shop",
     "label": "リサイクルショップ",
     "description": "買取、販売、家電、古着、ホビー用品、駐車場を確認できます。"
+  },
+  {
+    "key": "dental-clinic",
+    "label": "歯医者",
+    "description": "診療時間、駅からの近さ、駐車場、予約方法、休診日を確認できます。"
+  },
+  {
+    "key": "parking-lot",
+    "label": "駐車場・コインパーキング",
+    "description": "駅前、商業施設周辺、最大料金、時間貸し、目的地からの近さを確認できます。"
+  },
+  {
+    "key": "gas-station",
+    "label": "ガソリンスタンド",
+    "description": "給油、洗車、深夜営業、セルフ対応、幹線道路からの入りやすさを確認できます。"
+  },
+  {
+    "key": "post-office",
+    "label": "郵便局",
+    "description": "窓口、ATM、ゆうゆう窓口、駅からの近さ、周辺施設を確認できます。"
   }
 ]

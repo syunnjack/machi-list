@@ -1,722 +1,722 @@
 [
   {
-    "query": "半田市 ネットカフェ",
-    "genre_key": "netcafe",
+    "query": "安城市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "anjo",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "半田市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "handa",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "一宮市 ネットカフェ",
-    "genre_key": "netcafe",
+    "query": "一宮市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "ichinomiya",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "春日井市 ネットカフェ",
-    "genre_key": "netcafe",
+    "query": "刈谷市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kariya",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "春日井市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "kasugai",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "小牧市 ネットカフェ",
-    "genre_key": "netcafe",
+    "query": "小牧市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "komaki",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "日進市 ネットカフェ",
-    "genre_key": "netcafe",
+    "query": "日進市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "nisshin",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "尾張旭市 ネットカフェ",
-    "genre_key": "netcafe",
+    "query": "大府市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "obu",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "岡崎市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "okazaki",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "尾張旭市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "owariasahi",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "豊橋市 ネットカフェ",
-    "genre_key": "netcafe",
+    "query": "豊橋市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "toyohashi",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "豊川市 ネットカフェ",
-    "genre_key": "netcafe",
+    "query": "豊川市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "toyokawa",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "船橋市 ネットカフェ",
-    "genre_key": "netcafe",
+    "query": "豊田市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "toyota",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "秋田市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "akita",
+    "prefecture": "秋田県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "青森市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "aomori",
+    "prefecture": "青森県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "船橋市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "funabashi",
     "prefecture": "千葉県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "市川市 ネットカフェ",
-    "genre_key": "netcafe",
+    "query": "市川市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "ichikawa",
     "prefecture": "千葉県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "各務原市 ネットカフェ",
-    "genre_key": "netcafe",
-    "area_key": "kakamigahara",
-    "prefecture": "岐阜県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "高山市 ネットカフェ",
-    "genre_key": "netcafe",
-    "area_key": "takayama",
-    "prefecture": "岐阜県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "尼崎市 ネットカフェ",
-    "genre_key": "netcafe",
-    "area_key": "amagasaki",
-    "prefecture": "兵庫県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "三郷市 ネットカフェ",
-    "genre_key": "netcafe",
-    "area_key": "misato",
-    "prefecture": "埼玉県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "藤枝市 ネットカフェ",
-    "genre_key": "netcafe",
-    "area_key": "fujieda",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "安城市 カプセルトイ",
-    "genre_key": "capsule-toy",
-    "area_key": "anjo",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "刈谷市 カプセルトイ",
-    "genre_key": "capsule-toy",
-    "area_key": "kariya",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "小牧市 カプセルトイ",
-    "genre_key": "capsule-toy",
-    "area_key": "komaki",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "大府市 カプセルトイ",
-    "genre_key": "capsule-toy",
-    "area_key": "obu",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "岡崎市 カプセルトイ",
-    "genre_key": "capsule-toy",
-    "area_key": "okazaki",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "尾張旭市 カプセルトイ",
-    "genre_key": "capsule-toy",
-    "area_key": "owariasahi",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "豊川市 カプセルトイ",
-    "genre_key": "capsule-toy",
-    "area_key": "toyokawa",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "船橋市 カプセルトイ",
-    "genre_key": "capsule-toy",
-    "area_key": "funabashi",
-    "prefecture": "千葉県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "市川市 カプセルトイ",
-    "genre_key": "capsule-toy",
-    "area_key": "ichikawa",
-    "prefecture": "千葉県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "柏市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "柏市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "kashiwa",
     "prefecture": "千葉県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "郡山市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "松山市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "matsuyama",
+    "prefecture": "愛媛県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "福井市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "fukui",
+    "prefecture": "福井県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "福島市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "fukushima",
+    "prefecture": "福島県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "郡山市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "koriyama",
     "prefecture": "福島県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "各務原市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "岐阜市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "gifu",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "各務原市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "kakamigahara",
     "prefecture": "岐阜県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "高山市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "高山市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "takayama",
     "prefecture": "岐阜県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "福山市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "前橋市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "maebashi",
+    "prefecture": "群馬県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "福山市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "fukuyama",
     "prefecture": "広島県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "旭川市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "旭川市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "asahikawa",
     "prefecture": "北海道",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "函館市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "函館市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "hakodate",
     "prefecture": "北海道",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "尼崎市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "尼崎市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "amagasaki",
     "prefecture": "兵庫県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "姫路市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "姫路市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "himeji",
     "prefecture": "兵庫県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "倉敷市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "水戸市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "mito",
+    "prefecture": "茨城県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "金沢市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kanazawa",
+    "prefecture": "石川県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "盛岡市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "morioka",
+    "prefecture": "岩手県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "高松市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "takamatsu",
+    "prefecture": "香川県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "鹿児島市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kagoshima",
+    "prefecture": "鹿児島県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "高知市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kochi",
+    "prefecture": "高知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "津市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "tsu",
+    "prefecture": "三重県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "四日市市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "yokkaichi",
+    "prefecture": "三重県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "宮崎市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "miyazaki",
+    "prefecture": "宮崎県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "長野市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagano",
+    "prefecture": "長野県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "長崎市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagasaki",
+    "prefecture": "長崎県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "奈良市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nara",
+    "prefecture": "奈良県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "大分市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "oita",
+    "prefecture": "大分県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "倉敷市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "kurashiki",
     "prefecture": "岡山県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "川越市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "那覇市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "naha",
+    "prefecture": "沖縄県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "佐賀市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "saga",
+    "prefecture": "佐賀県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "川越市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "kawagoe",
     "prefecture": "埼玉県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "三郷市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "三郷市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "misato",
     "prefecture": "埼玉県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "富士市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "大津市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "otsu",
+    "prefecture": "滋賀県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "松江市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "matsue",
+    "prefecture": "島根県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "富士市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "fuji",
     "prefecture": "静岡県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "藤枝市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "藤枝市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "fujieda",
     "prefecture": "静岡県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "富士宮市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "富士宮市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "fujinomiya",
     "prefecture": "静岡県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "御殿場市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "御殿場市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "gotemba",
     "prefecture": "静岡県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "沼津市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "沼津市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "numazu",
     "prefecture": "静岡県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "焼津市 カプセルトイ",
-    "genre_key": "capsule-toy",
+    "query": "焼津市 歯医者",
+    "genre_key": "dental-clinic",
     "area_key": "yaizu",
     "prefecture": "静岡県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "安城市 UFOキャッチャー",
-    "genre_key": "crane-game",
+    "query": "宇都宮市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "utsunomiya",
+    "prefecture": "栃木県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "徳島市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "tokushima",
+    "prefecture": "徳島県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "鳥取市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "tottori",
+    "prefecture": "鳥取県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "富山市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "toyama",
+    "prefecture": "富山県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "和歌山市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "wakayama",
+    "prefecture": "和歌山県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "山形市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "yamagata",
+    "prefecture": "山形県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "下関市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "shimonoseki",
+    "prefecture": "山口県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "山口市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "yamaguchi",
+    "prefecture": "山口県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "甲府市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kofu",
+    "prefecture": "山梨県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "安城市 駐車場",
+    "genre_key": "parking-lot",
     "area_key": "anjo",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "刈谷市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "kariya",
+    "query": "半田市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "handa",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "小牧市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "komaki",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "大府市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "obu",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "岡崎市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "okazaki",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "尾張旭市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "owariasahi",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "豊川市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "toyokawa",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "豊田市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "toyota",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "各務原市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "kakamigahara",
-    "prefecture": "岐阜県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "高山市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "takayama",
-    "prefecture": "岐阜県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "川越市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "kawagoe",
-    "prefecture": "埼玉県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "三郷市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "misato",
-    "prefecture": "埼玉県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "富士市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "fuji",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "藤枝市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "fujieda",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "富士宮市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "fujinomiya",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "御殿場市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "gotemba",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "沼津市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "numazu",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "焼津市 UFOキャッチャー",
-    "genre_key": "crane-game",
-    "area_key": "yaizu",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "大府市 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "obu",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "岡崎市 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "okazaki",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "尾張旭市 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "owariasahi",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "豊田市 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "toyota",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "各務原市 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "kakamigahara",
-    "prefecture": "岐阜県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "高山市 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "takayama",
-    "prefecture": "岐阜県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "川越市 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "kawagoe",
-    "prefecture": "埼玉県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "藤枝市 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "fujieda",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "富士宮市 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "fujinomiya",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "御殿場市 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "gotemba",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "焼津市 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "yaizu",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "一宮市 カラオケ",
-    "genre_key": "karaoke",
+    "query": "一宮市 駐車場",
+    "genre_key": "parking-lot",
     "area_key": "ichinomiya",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "春日井市 カラオケ",
-    "genre_key": "karaoke",
+    "query": "刈谷市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "kariya",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "春日井市 駐車場",
+    "genre_key": "parking-lot",
     "area_key": "kasugai",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "日進市 カラオケ",
-    "genre_key": "karaoke",
+    "query": "小牧市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "komaki",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "日進市 駐車場",
+    "genre_key": "parking-lot",
     "area_key": "nisshin",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "大府市 カラオケ",
-    "genre_key": "karaoke",
+    "query": "大府市 駐車場",
+    "genre_key": "parking-lot",
     "area_key": "obu",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "岡崎市 カラオケ",
-    "genre_key": "karaoke",
+    "query": "岡崎市 駐車場",
+    "genre_key": "parking-lot",
     "area_key": "okazaki",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "尾張旭市 カラオケ",
-    "genre_key": "karaoke",
+    "query": "尾張旭市 駐車場",
+    "genre_key": "parking-lot",
     "area_key": "owariasahi",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "豊川市 カラオケ",
-    "genre_key": "karaoke",
+    "query": "豊橋市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "toyohashi",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5
+  },
+  {
+    "query": "豊川市 駐車場",
+    "genre_key": "parking-lot",
     "area_key": "toyokawa",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "船橋市 カラオケ",
-    "genre_key": "karaoke",
-    "area_key": "funabashi",
-    "prefecture": "千葉県",
+    "query": "豊田市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "toyota",
+    "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   },
   {
-    "query": "柏市 カラオケ",
-    "genre_key": "karaoke",
-    "area_key": "kashiwa",
-    "prefecture": "千葉県",
+    "query": "秋田市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "akita",
+    "prefecture": "秋田県",
     "source": "coverage-gap",
     "current_count": 0,
-    "target_count": 3
+    "target_count": 5
   }
 ]

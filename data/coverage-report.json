@@ -1,975 +1,990 @@
 {
-  "generated_at": "2026-07-23T03:50:00.668Z",
+  "generated_at": "2026-07-23T03:56:43.192Z",
   "shop_count": 1076,
   "area_count": 121,
-  "genre_count": 22,
+  "genre_count": 26,
   "min_target": 2,
-  "gap_count": 2539,
+  "gap_count": 3023,
   "top_gaps": [
+    {
+      "area_key": "anjo",
+      "area_label": "安城市",
+      "prefecture_key": "aichi",
+      "prefecture": "愛知県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
     {
       "area_key": "handa",
       "area_label": "半田市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "ichinomiya",
       "area_label": "一宮市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "kariya",
+      "area_label": "刈谷市",
+      "prefecture_key": "aichi",
+      "prefecture": "愛知県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "kasugai",
       "area_label": "春日井市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "komaki",
       "area_label": "小牧市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "nisshin",
       "area_label": "日進市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "obu",
+      "area_label": "大府市",
+      "prefecture_key": "aichi",
+      "prefecture": "愛知県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "okazaki",
+      "area_label": "岡崎市",
+      "prefecture_key": "aichi",
+      "prefecture": "愛知県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "owariasahi",
       "area_label": "尾張旭市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "toyohashi",
       "area_label": "豊橋市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "toyokawa",
       "area_label": "豊川市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "toyota",
+      "area_label": "豊田市",
+      "prefecture_key": "aichi",
+      "prefecture": "愛知県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "akita",
+      "area_label": "秋田市",
+      "prefecture_key": "akita",
+      "prefecture": "秋田県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "aomori",
+      "area_label": "青森市",
+      "prefecture_key": "aomori",
+      "prefecture": "青森県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "funabashi",
       "area_label": "船橋市",
       "prefecture_key": "chiba",
       "prefecture": "千葉県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "ichikawa",
       "area_label": "市川市",
       "prefecture_key": "chiba",
       "prefecture": "千葉県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
-    },
-    {
-      "area_key": "kakamigahara",
-      "area_label": "各務原市",
-      "prefecture_key": "gifu",
-      "prefecture": "岐阜県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
-    },
-    {
-      "area_key": "takayama",
-      "area_label": "高山市",
-      "prefecture_key": "gifu",
-      "prefecture": "岐阜県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
-    },
-    {
-      "area_key": "amagasaki",
-      "area_label": "尼崎市",
-      "prefecture_key": "hyogo",
-      "prefecture": "兵庫県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
-    },
-    {
-      "area_key": "misato",
-      "area_label": "三郷市",
-      "prefecture_key": "saitama",
-      "prefecture": "埼玉県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
-    },
-    {
-      "area_key": "fujieda",
-      "area_label": "藤枝市",
-      "prefecture_key": "shizuoka",
-      "prefecture": "静岡県",
-      "genre_key": "netcafe",
-      "genre_label": "ネットカフェ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 362
-    },
-    {
-      "area_key": "anjo",
-      "area_label": "安城市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
-    },
-    {
-      "area_key": "kariya",
-      "area_label": "刈谷市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
-    },
-    {
-      "area_key": "komaki",
-      "area_label": "小牧市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
-    },
-    {
-      "area_key": "obu",
-      "area_label": "大府市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
-    },
-    {
-      "area_key": "okazaki",
-      "area_label": "岡崎市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
-    },
-    {
-      "area_key": "owariasahi",
-      "area_label": "尾張旭市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
-    },
-    {
-      "area_key": "toyokawa",
-      "area_label": "豊川市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
-    },
-    {
-      "area_key": "funabashi",
-      "area_label": "船橋市",
-      "prefecture_key": "chiba",
-      "prefecture": "千葉県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
-    },
-    {
-      "area_key": "ichikawa",
-      "area_label": "市川市",
-      "prefecture_key": "chiba",
-      "prefecture": "千葉県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "kashiwa",
       "area_label": "柏市",
       "prefecture_key": "chiba",
       "prefecture": "千葉県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "matsuyama",
+      "area_label": "松山市",
+      "prefecture_key": "ehime",
+      "prefecture": "愛媛県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "fukui",
+      "area_label": "福井市",
+      "prefecture_key": "fukui",
+      "prefecture": "福井県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "fukushima",
+      "area_label": "福島市",
+      "prefecture_key": "fukushima",
+      "prefecture": "福島県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "koriyama",
       "area_label": "郡山市",
       "prefecture_key": "fukushima",
       "prefecture": "福島県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "gifu",
+      "area_label": "岐阜市",
+      "prefecture_key": "gifu",
+      "prefecture": "岐阜県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "kakamigahara",
       "area_label": "各務原市",
       "prefecture_key": "gifu",
       "prefecture": "岐阜県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "takayama",
       "area_label": "高山市",
       "prefecture_key": "gifu",
       "prefecture": "岐阜県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "maebashi",
+      "area_label": "前橋市",
+      "prefecture_key": "gunma",
+      "prefecture": "群馬県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "fukuyama",
       "area_label": "福山市",
       "prefecture_key": "hiroshima",
       "prefecture": "広島県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "asahikawa",
       "area_label": "旭川市",
       "prefecture_key": "hokkaido",
       "prefecture": "北海道",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "hakodate",
       "area_label": "函館市",
       "prefecture_key": "hokkaido",
       "prefecture": "北海道",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "amagasaki",
       "area_label": "尼崎市",
       "prefecture_key": "hyogo",
       "prefecture": "兵庫県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "himeji",
       "area_label": "姫路市",
       "prefecture_key": "hyogo",
       "prefecture": "兵庫県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "mito",
+      "area_label": "水戸市",
+      "prefecture_key": "ibaraki",
+      "prefecture": "茨城県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "kanazawa",
+      "area_label": "金沢市",
+      "prefecture_key": "ishikawa",
+      "prefecture": "石川県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "morioka",
+      "area_label": "盛岡市",
+      "prefecture_key": "iwate",
+      "prefecture": "岩手県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "takamatsu",
+      "area_label": "高松市",
+      "prefecture_key": "kagawa",
+      "prefecture": "香川県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "kagoshima",
+      "area_label": "鹿児島市",
+      "prefecture_key": "kagoshima",
+      "prefecture": "鹿児島県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "kochi",
+      "area_label": "高知市",
+      "prefecture_key": "kochi",
+      "prefecture": "高知県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "tsu",
+      "area_label": "津市",
+      "prefecture_key": "mie",
+      "prefecture": "三重県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "yokkaichi",
+      "area_label": "四日市市",
+      "prefecture_key": "mie",
+      "prefecture": "三重県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "miyazaki",
+      "area_label": "宮崎市",
+      "prefecture_key": "miyazaki",
+      "prefecture": "宮崎県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "nagano",
+      "area_label": "長野市",
+      "prefecture_key": "nagano",
+      "prefecture": "長野県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "nagasaki",
+      "area_label": "長崎市",
+      "prefecture_key": "nagasaki",
+      "prefecture": "長崎県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "nara",
+      "area_label": "奈良市",
+      "prefecture_key": "nara",
+      "prefecture": "奈良県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "oita",
+      "area_label": "大分市",
+      "prefecture_key": "oita",
+      "prefecture": "大分県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "kurashiki",
       "area_label": "倉敷市",
       "prefecture_key": "okayama",
       "prefecture": "岡山県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "naha",
+      "area_label": "那覇市",
+      "prefecture_key": "okinawa",
+      "prefecture": "沖縄県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "saga",
+      "area_label": "佐賀市",
+      "prefecture_key": "saga",
+      "prefecture": "佐賀県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "kawagoe",
       "area_label": "川越市",
       "prefecture_key": "saitama",
       "prefecture": "埼玉県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "misato",
       "area_label": "三郷市",
       "prefecture_key": "saitama",
       "prefecture": "埼玉県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "otsu",
+      "area_label": "大津市",
+      "prefecture_key": "shiga",
+      "prefecture": "滋賀県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "matsue",
+      "area_label": "松江市",
+      "prefecture_key": "shimane",
+      "prefecture": "島根県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "fuji",
       "area_label": "富士市",
       "prefecture_key": "shizuoka",
       "prefecture": "静岡県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "fujieda",
       "area_label": "藤枝市",
       "prefecture_key": "shizuoka",
       "prefecture": "静岡県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "fujinomiya",
       "area_label": "富士宮市",
       "prefecture_key": "shizuoka",
       "prefecture": "静岡県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "gotemba",
       "area_label": "御殿場市",
       "prefecture_key": "shizuoka",
       "prefecture": "静岡県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "numazu",
       "area_label": "沼津市",
       "prefecture_key": "shizuoka",
       "prefecture": "静岡県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "yaizu",
       "area_label": "焼津市",
       "prefecture_key": "shizuoka",
       "prefecture": "静岡県",
-      "genre_key": "capsule-toy",
-      "genre_label": "カプセルトイ",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 360
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "utsunomiya",
+      "area_label": "宇都宮市",
+      "prefecture_key": "tochigi",
+      "prefecture": "栃木県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "tokushima",
+      "area_label": "徳島市",
+      "prefecture_key": "tokushima",
+      "prefecture": "徳島県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "tottori",
+      "area_label": "鳥取市",
+      "prefecture_key": "tottori",
+      "prefecture": "鳥取県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "toyama",
+      "area_label": "富山市",
+      "prefecture_key": "toyama",
+      "prefecture": "富山県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "wakayama",
+      "area_label": "和歌山市",
+      "prefecture_key": "wakayama",
+      "prefecture": "和歌山県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "yamagata",
+      "area_label": "山形市",
+      "prefecture_key": "yamagata",
+      "prefecture": "山形県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "shimonoseki",
+      "area_label": "下関市",
+      "prefecture_key": "yamaguchi",
+      "prefecture": "山口県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "yamaguchi",
+      "area_label": "山口市",
+      "prefecture_key": "yamaguchi",
+      "prefecture": "山口県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
+    },
+    {
+      "area_key": "kofu",
+      "area_label": "甲府市",
+      "prefecture_key": "yamanashi",
+      "prefecture": "山梨県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 550
     },
     {
       "area_key": "anjo",
       "area_label": "安城市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
+      "target": 5,
+      "missing": 5,
+      "score": 549
     },
     {
-      "area_key": "kariya",
-      "area_label": "刈谷市",
+      "area_key": "handa",
+      "area_label": "半田市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "komaki",
-      "area_label": "小牧市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "obu",
-      "area_label": "大府市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "okazaki",
-      "area_label": "岡崎市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "owariasahi",
-      "area_label": "尾張旭市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "toyokawa",
-      "area_label": "豊川市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "toyota",
-      "area_label": "豊田市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "kakamigahara",
-      "area_label": "各務原市",
-      "prefecture_key": "gifu",
-      "prefecture": "岐阜県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "takayama",
-      "area_label": "高山市",
-      "prefecture_key": "gifu",
-      "prefecture": "岐阜県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "kawagoe",
-      "area_label": "川越市",
-      "prefecture_key": "saitama",
-      "prefecture": "埼玉県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "misato",
-      "area_label": "三郷市",
-      "prefecture_key": "saitama",
-      "prefecture": "埼玉県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "fuji",
-      "area_label": "富士市",
-      "prefecture_key": "shizuoka",
-      "prefecture": "静岡県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "fujieda",
-      "area_label": "藤枝市",
-      "prefecture_key": "shizuoka",
-      "prefecture": "静岡県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "fujinomiya",
-      "area_label": "富士宮市",
-      "prefecture_key": "shizuoka",
-      "prefecture": "静岡県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "gotemba",
-      "area_label": "御殿場市",
-      "prefecture_key": "shizuoka",
-      "prefecture": "静岡県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "numazu",
-      "area_label": "沼津市",
-      "prefecture_key": "shizuoka",
-      "prefecture": "静岡県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "yaizu",
-      "area_label": "焼津市",
-      "prefecture_key": "shizuoka",
-      "prefecture": "静岡県",
-      "genre_key": "crane-game",
-      "genre_label": "クレーンゲーム・UFOキャッチャー",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 359
-    },
-    {
-      "area_key": "obu",
-      "area_label": "大府市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "game-center",
-      "genre_label": "ゲームセンター",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 358
-    },
-    {
-      "area_key": "okazaki",
-      "area_label": "岡崎市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "game-center",
-      "genre_label": "ゲームセンター",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 358
-    },
-    {
-      "area_key": "owariasahi",
-      "area_label": "尾張旭市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "game-center",
-      "genre_label": "ゲームセンター",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 358
-    },
-    {
-      "area_key": "toyota",
-      "area_label": "豊田市",
-      "prefecture_key": "aichi",
-      "prefecture": "愛知県",
-      "genre_key": "game-center",
-      "genre_label": "ゲームセンター",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 358
-    },
-    {
-      "area_key": "kakamigahara",
-      "area_label": "各務原市",
-      "prefecture_key": "gifu",
-      "prefecture": "岐阜県",
-      "genre_key": "game-center",
-      "genre_label": "ゲームセンター",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 358
-    },
-    {
-      "area_key": "takayama",
-      "area_label": "高山市",
-      "prefecture_key": "gifu",
-      "prefecture": "岐阜県",
-      "genre_key": "game-center",
-      "genre_label": "ゲームセンター",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 358
-    },
-    {
-      "area_key": "kawagoe",
-      "area_label": "川越市",
-      "prefecture_key": "saitama",
-      "prefecture": "埼玉県",
-      "genre_key": "game-center",
-      "genre_label": "ゲームセンター",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 358
-    },
-    {
-      "area_key": "fujieda",
-      "area_label": "藤枝市",
-      "prefecture_key": "shizuoka",
-      "prefecture": "静岡県",
-      "genre_key": "game-center",
-      "genre_label": "ゲームセンター",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 358
-    },
-    {
-      "area_key": "fujinomiya",
-      "area_label": "富士宮市",
-      "prefecture_key": "shizuoka",
-      "prefecture": "静岡県",
-      "genre_key": "game-center",
-      "genre_label": "ゲームセンター",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 358
-    },
-    {
-      "area_key": "gotemba",
-      "area_label": "御殿場市",
-      "prefecture_key": "shizuoka",
-      "prefecture": "静岡県",
-      "genre_key": "game-center",
-      "genre_label": "ゲームセンター",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 358
-    },
-    {
-      "area_key": "yaizu",
-      "area_label": "焼津市",
-      "prefecture_key": "shizuoka",
-      "prefecture": "静岡県",
-      "genre_key": "game-center",
-      "genre_label": "ゲームセンター",
-      "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 358
+      "target": 5,
+      "missing": 5,
+      "score": 549
     },
     {
       "area_key": "ichinomiya",
       "area_label": "一宮市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "karaoke",
-      "genre_label": "カラオケ",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 354
+      "target": 5,
+      "missing": 5,
+      "score": 549
+    },
+    {
+      "area_key": "kariya",
+      "area_label": "刈谷市",
+      "prefecture_key": "aichi",
+      "prefecture": "愛知県",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 549
     },
     {
       "area_key": "kasugai",
       "area_label": "春日井市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "karaoke",
-      "genre_label": "カラオケ",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 354
+      "target": 5,
+      "missing": 5,
+      "score": 549
+    },
+    {
+      "area_key": "komaki",
+      "area_label": "小牧市",
+      "prefecture_key": "aichi",
+      "prefecture": "愛知県",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 549
     },
     {
       "area_key": "nisshin",
       "area_label": "日進市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "karaoke",
-      "genre_label": "カラオケ",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 354
+      "target": 5,
+      "missing": 5,
+      "score": 549
     },
     {
       "area_key": "obu",
       "area_label": "大府市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "karaoke",
-      "genre_label": "カラオケ",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 354
+      "target": 5,
+      "missing": 5,
+      "score": 549
     },
     {
       "area_key": "okazaki",
       "area_label": "岡崎市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "karaoke",
-      "genre_label": "カラオケ",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 354
+      "target": 5,
+      "missing": 5,
+      "score": 549
     },
     {
       "area_key": "owariasahi",
       "area_label": "尾張旭市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "karaoke",
-      "genre_label": "カラオケ",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 354
+      "target": 5,
+      "missing": 5,
+      "score": 549
+    },
+    {
+      "area_key": "toyohashi",
+      "area_label": "豊橋市",
+      "prefecture_key": "aichi",
+      "prefecture": "愛知県",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
+      "current": 0,
+      "target": 5,
+      "missing": 5,
+      "score": 549
     },
     {
       "area_key": "toyokawa",
       "area_label": "豊川市",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
-      "genre_key": "karaoke",
-      "genre_label": "カラオケ",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 354
+      "target": 5,
+      "missing": 5,
+      "score": 549
     },
     {
-      "area_key": "funabashi",
-      "area_label": "船橋市",
-      "prefecture_key": "chiba",
-      "prefecture": "千葉県",
-      "genre_key": "karaoke",
-      "genre_label": "カラオケ",
+      "area_key": "toyota",
+      "area_label": "豊田市",
+      "prefecture_key": "aichi",
+      "prefecture": "愛知県",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 354
+      "target": 5,
+      "missing": 5,
+      "score": 549
     },
     {
-      "area_key": "kashiwa",
-      "area_label": "柏市",
-      "prefecture_key": "chiba",
-      "prefecture": "千葉県",
-      "genre_key": "karaoke",
-      "genre_label": "カラオケ",
+      "area_key": "akita",
+      "area_label": "秋田市",
+      "prefecture_key": "akita",
+      "prefecture": "秋田県",
+      "genre_key": "parking-lot",
+      "genre_label": "駐車場・コインパーキング",
       "current": 0,
-      "target": 3,
-      "missing": 3,
-      "score": 354
+      "target": 5,
+      "missing": 5,
+      "score": 549
     }
   ],
   "summary_by_genre": [
     {
+      "key": "dental-clinic",
+      "gaps": 121,
+      "missing": 605
+    },
+    {
+      "key": "parking-lot",
+      "gaps": 121,
+      "missing": 605
+    },
+    {
       "key": "drugstore",
+      "gaps": 121,
+      "missing": 363
+    },
+    {
+      "key": "gas-station",
       "gaps": 121,
       "missing": 363
     },
@@ -1000,6 +1015,11 @@
     },
     {
       "key": "hobby-shop",
+      "gaps": 121,
+      "missing": 242
+    },
+    {
+      "key": "post-office",
       "gaps": 121,
       "missing": 242
     },
@@ -1082,238 +1102,238 @@
   "summary_by_prefecture": [
     {
       "key": "aichi",
-      "gaps": 620,
-      "missing": 1364
+      "gaps": 736,
+      "missing": 1799
     },
     {
       "key": "shizuoka",
-      "gaps": 238,
-      "missing": 524
+      "gaps": 282,
+      "missing": 689
     },
     {
       "key": "osaka",
-      "gaps": 106,
-      "missing": 229
+      "gaps": 126,
+      "missing": 304
     },
     {
       "key": "tokyo",
-      "gaps": 103,
-      "missing": 219
+      "gaps": 123,
+      "missing": 294
     },
     {
       "key": "gifu",
-      "gaps": 87,
-      "missing": 198
+      "gaps": 103,
+      "missing": 258
     },
     {
       "key": "chiba",
-      "gaps": 87,
-      "missing": 192
+      "gaps": 103,
+      "missing": 252
     },
     {
       "key": "saitama",
-      "gaps": 85,
-      "missing": 189
+      "gaps": 101,
+      "missing": 249
     },
     {
       "key": "kanagawa",
-      "gaps": 84,
-      "missing": 176
+      "gaps": 100,
+      "missing": 236
     },
     {
       "key": "fukuoka",
-      "gaps": 87,
-      "missing": 170
+      "gaps": 103,
+      "missing": 230
     },
     {
       "key": "kyoto",
-      "gaps": 63,
-      "missing": 142
+      "gaps": 75,
+      "missing": 187
     },
     {
       "key": "mie",
-      "gaps": 65,
-      "missing": 139
+      "gaps": 77,
+      "missing": 184
     },
     {
       "key": "hyogo",
-      "gaps": 64,
-      "missing": 130
+      "gaps": 76,
+      "missing": 175
     },
     {
       "key": "hokkaido",
-      "gaps": 62,
-      "missing": 128
+      "gaps": 74,
+      "missing": 173
     },
     {
       "key": "okayama",
-      "gaps": 57,
-      "missing": 123
+      "gaps": 69,
+      "missing": 168
     },
     {
       "key": "fukushima",
-      "gaps": 43,
-      "missing": 87
+      "gaps": 51,
+      "missing": 117
     },
     {
       "key": "hiroshima",
-      "gaps": 43,
-      "missing": 86
+      "gaps": 51,
+      "missing": 116
     },
     {
       "key": "yamaguchi",
-      "gaps": 41,
-      "missing": 81
+      "gaps": 49,
+      "missing": 111
     },
     {
       "key": "miyagi",
-      "gaps": 22,
-      "missing": 44
+      "gaps": 26,
+      "missing": 59
     },
     {
       "key": "shiga",
-      "gaps": 21,
-      "missing": 43
+      "gaps": 25,
+      "missing": 58
     },
     {
       "key": "yamanashi",
-      "gaps": 20,
-      "missing": 43
+      "gaps": 24,
+      "missing": 58
     },
     {
       "key": "ibaraki",
-      "gaps": 22,
-      "missing": 42
+      "gaps": 26,
+      "missing": 57
     },
     {
       "key": "nara",
-      "gaps": 21,
-      "missing": 42
+      "gaps": 25,
+      "missing": 57
     },
     {
       "key": "yamagata",
-      "gaps": 22,
-      "missing": 42
+      "gaps": 26,
+      "missing": 57
     },
     {
       "key": "aomori",
-      "gaps": 21,
-      "missing": 41
+      "gaps": 25,
+      "missing": 56
     },
     {
       "key": "kochi",
-      "gaps": 20,
-      "missing": 41
+      "gaps": 24,
+      "missing": 56
     },
     {
       "key": "nagano",
-      "gaps": 22,
-      "missing": 41
+      "gaps": 26,
+      "missing": 56
     },
     {
       "key": "shimane",
-      "gaps": 20,
-      "missing": 41
+      "gaps": 24,
+      "missing": 56
     },
     {
       "key": "tochigi",
-      "gaps": 22,
-      "missing": 41
+      "gaps": 26,
+      "missing": 56
     },
     {
       "key": "tottori",
-      "gaps": 21,
-      "missing": 41
+      "gaps": 25,
+      "missing": 56
     },
     {
       "key": "iwate",
-      "gaps": 21,
-      "missing": 40
+      "gaps": 25,
+      "missing": 55
     },
     {
       "key": "miyazaki",
-      "gaps": 21,
-      "missing": 40
+      "gaps": 25,
+      "missing": 55
     },
     {
       "key": "nagasaki",
-      "gaps": 19,
-      "missing": 40
+      "gaps": 23,
+      "missing": 55
     },
     {
       "key": "tokushima",
-      "gaps": 22,
-      "missing": 40
+      "gaps": 26,
+      "missing": 55
     },
     {
       "key": "gunma",
-      "gaps": 21,
-      "missing": 39
+      "gaps": 25,
+      "missing": 54
     },
     {
       "key": "ishikawa",
-      "gaps": 19,
-      "missing": 38
+      "gaps": 23,
+      "missing": 53
     },
     {
       "key": "niigata",
-      "gaps": 19,
-      "missing": 38
+      "gaps": 23,
+      "missing": 53
     },
     {
       "key": "saga",
-      "gaps": 20,
-      "missing": 38
+      "gaps": 24,
+      "missing": 53
     },
     {
       "key": "akita",
-      "gaps": 19,
-      "missing": 37
+      "gaps": 23,
+      "missing": 52
     },
     {
       "key": "ehime",
-      "gaps": 19,
-      "missing": 37
+      "gaps": 23,
+      "missing": 52
     },
     {
       "key": "fukui",
-      "gaps": 19,
-      "missing": 37
+      "gaps": 23,
+      "missing": 52
     },
     {
       "key": "kumamoto",
-      "gaps": 20,
-      "missing": 37
+      "gaps": 24,
+      "missing": 52
     },
     {
       "key": "oita",
-      "gaps": 19,
-      "missing": 37
+      "gaps": 23,
+      "missing": 52
     },
     {
       "key": "okinawa",
-      "gaps": 20,
-      "missing": 37
+      "gaps": 24,
+      "missing": 52
     },
     {
       "key": "toyama",
-      "gaps": 18,
-      "missing": 37
+      "gaps": 22,
+      "missing": 52
     },
     {
       "key": "wakayama",
-      "gaps": 19,
-      "missing": 36
+      "gaps": 23,
+      "missing": 51
     },
     {
       "key": "kagoshima",
-      "gaps": 19,
-      "missing": 35
+      "gaps": 23,
+      "missing": 50
     },
     {
       "key": "kagawa",
-      "gaps": 16,
-      "missing": 34
+      "gaps": 20,
+      "missing": 49
     }
   ]
 }

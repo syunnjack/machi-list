@@ -49,7 +49,11 @@ function toolKeyword(genreKey, label) {
     drugstore: "日用品 まとめ買い",
     "trading-card-shop": "トレカ スリーブ デッキケース",
     "hobby-shop": "プラモデル 工具 ケース",
-    "recycle-shop": "収納ボックス 梱包資材"
+    "recycle-shop": "収納ボックス 梱包資材",
+    "dental-clinic": "歯ブラシ 歯間ブラシ デンタルフロス",
+    "parking-lot": "車載 便利グッズ",
+    "gas-station": "洗車用品 車 メンテナンス",
+    "post-office": "梱包資材 封筒 宅配袋"
   }[genreKey] || `${label} 関連商品`;
 }
 
@@ -76,7 +80,11 @@ function defaultHours(genreKey) {
     drugstore: "営業時間確認",
     "trading-card-shop": "営業時間確認",
     "hobby-shop": "営業時間確認",
-    "recycle-shop": "営業時間確認"
+    "recycle-shop": "営業時間確認",
+    "dental-clinic": "診療時間確認",
+    "parking-lot": "24時間営業",
+    "gas-station": "営業時間確認",
+    "post-office": "窓口時間確認"
   }[genreKey] || "営業時間確認";
 }
 
@@ -117,7 +125,7 @@ function normalizeShop(shop) {
   if (!shop.booking_url && (shop.genre_key === "capsule-toy" || shop.genre_key === "crane-game") && shop.official_url) {
     shop.booking_url = shop.official_url;
   }
-  if (!shop.booking_url && (shop.genre_key === "convenience-store" || shop.genre_key === "cafe" || shop.genre_key === "coin-laundry" || shop.genre_key === "drugstore" || shop.genre_key === "trading-card-shop" || shop.genre_key === "hobby-shop" || shop.genre_key === "recycle-shop") && shop.official_url) {
+  if (!shop.booking_url && (shop.genre_key === "convenience-store" || shop.genre_key === "cafe" || shop.genre_key === "coin-laundry" || shop.genre_key === "drugstore" || shop.genre_key === "trading-card-shop" || shop.genre_key === "hobby-shop" || shop.genre_key === "recycle-shop" || shop.genre_key === "dental-clinic" || shop.genre_key === "parking-lot" || shop.genre_key === "gas-station" || shop.genre_key === "post-office") && shop.official_url) {
     shop.booking_url = shop.official_url;
   }
   if (!shop.booking_url && isEventGenre(shop.genre_key)) {
