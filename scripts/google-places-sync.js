@@ -3,8 +3,9 @@ const path = require("node:path");
 
 const apiKey = process.env.GOOGLE_PLACES_API_KEY;
 const root = path.resolve(__dirname, "..");
-const seedsPath = path.join(root, "data", "place-seeds.json");
-const outputPath = path.join(root, "data", "google-places-candidates.json");
+const seedsPath = path.join(root, process.env.PLACE_SEEDS_FILE || "data/place-seeds.json");
+const outputPath = path.join(root, process.env.PLACES_CANDIDATES_FILE || "data/google-places-candidates.json");
+const maxResults = Number(process.env.PLACES_MAX_RESULTS || 3);
 
 if (!apiKey) {
   console.error("GOOGLE_PLACES_API_KEY is required.");
@@ -88,7 +89,7 @@ async function main() {
   for (const seed of seeds) {
     const data = await searchText(seed);
     const places = data.places || [];
-    for (const place of places.slice(0, 3)) {
+    for (const place of places.slice(0, maxResults)) {
       all.push(normalizeCandidate(seed, place));
     }
   }

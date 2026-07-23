@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "check": "node --check server.js && node --check assets/app.js && node --check scripts/google-places-sync.js && node --check scripts/generate-pages.js",
+    "check": "node --check server.js && node --check assets/app.js && node --check scripts/google-places-sync.js && node --check scripts/generate-pages.js && node --check scripts/analyze-coverage.js && node --check scripts/generate-place-seeds.js",
     "generate": "node scripts/normalize-data.js && node scripts/generate-pages.js",
+    "report:coverage": "node scripts/analyze-coverage.js",
+    "seeds:places": "node scripts/analyze-coverage.js && node scripts/generate-place-seeds.js",
     "sync:places": "node scripts/google-places-sync.js"
   }
 }

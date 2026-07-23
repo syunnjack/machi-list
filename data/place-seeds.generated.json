@@ -1,0 +1,722 @@
+[
+  {
+    "query": "半田市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "handa",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "一宮市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "ichinomiya",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "春日井市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "kasugai",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "小牧市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "komaki",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "日進市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "nisshin",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "尾張旭市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "owariasahi",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "豊橋市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "toyohashi",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "豊川市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "toyokawa",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "船橋市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "funabashi",
+    "prefecture": "千葉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "市川市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "ichikawa",
+    "prefecture": "千葉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "各務原市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "kakamigahara",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "高山市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "takayama",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "尼崎市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "amagasaki",
+    "prefecture": "兵庫県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "三郷市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "misato",
+    "prefecture": "埼玉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "藤枝市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "fujieda",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "安城市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "anjo",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "刈谷市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "kariya",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "小牧市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "komaki",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "大府市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "obu",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "岡崎市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "okazaki",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "尾張旭市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "owariasahi",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "豊川市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "toyokawa",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "船橋市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "funabashi",
+    "prefecture": "千葉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "市川市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "ichikawa",
+    "prefecture": "千葉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "柏市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "kashiwa",
+    "prefecture": "千葉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "郡山市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "koriyama",
+    "prefecture": "福島県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "各務原市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "kakamigahara",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "高山市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "takayama",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "福山市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "fukuyama",
+    "prefecture": "広島県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "旭川市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "asahikawa",
+    "prefecture": "北海道",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "函館市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "hakodate",
+    "prefecture": "北海道",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "尼崎市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "amagasaki",
+    "prefecture": "兵庫県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "姫路市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "himeji",
+    "prefecture": "兵庫県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "倉敷市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "kurashiki",
+    "prefecture": "岡山県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "川越市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "kawagoe",
+    "prefecture": "埼玉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "三郷市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "misato",
+    "prefecture": "埼玉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "富士市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "fuji",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "藤枝市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "fujieda",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "富士宮市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "fujinomiya",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "御殿場市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "gotemba",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "沼津市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "numazu",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "焼津市 カプセルトイ",
+    "genre_key": "capsule-toy",
+    "area_key": "yaizu",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "安城市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "anjo",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "刈谷市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "kariya",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "小牧市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "komaki",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "大府市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "obu",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "岡崎市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "okazaki",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "尾張旭市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "owariasahi",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "豊川市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "toyokawa",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "豊田市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "toyota",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "各務原市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "kakamigahara",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "高山市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "takayama",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "川越市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "kawagoe",
+    "prefecture": "埼玉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "三郷市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "misato",
+    "prefecture": "埼玉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "富士市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "fuji",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "藤枝市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "fujieda",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "富士宮市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "fujinomiya",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "御殿場市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "gotemba",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "沼津市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "numazu",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "焼津市 UFOキャッチャー",
+    "genre_key": "crane-game",
+    "area_key": "yaizu",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "大府市 ゲームセンター",
+    "genre_key": "game-center",
+    "area_key": "obu",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "岡崎市 ゲームセンター",
+    "genre_key": "game-center",
+    "area_key": "okazaki",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "尾張旭市 ゲームセンター",
+    "genre_key": "game-center",
+    "area_key": "owariasahi",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "豊田市 ゲームセンター",
+    "genre_key": "game-center",
+    "area_key": "toyota",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "各務原市 ゲームセンター",
+    "genre_key": "game-center",
+    "area_key": "kakamigahara",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "高山市 ゲームセンター",
+    "genre_key": "game-center",
+    "area_key": "takayama",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "川越市 ゲームセンター",
+    "genre_key": "game-center",
+    "area_key": "kawagoe",
+    "prefecture": "埼玉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "藤枝市 ゲームセンター",
+    "genre_key": "game-center",
+    "area_key": "fujieda",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "富士宮市 ゲームセンター",
+    "genre_key": "game-center",
+    "area_key": "fujinomiya",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "御殿場市 ゲームセンター",
+    "genre_key": "game-center",
+    "area_key": "gotemba",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "焼津市 ゲームセンター",
+    "genre_key": "game-center",
+    "area_key": "yaizu",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "一宮市 カラオケ",
+    "genre_key": "karaoke",
+    "area_key": "ichinomiya",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "春日井市 カラオケ",
+    "genre_key": "karaoke",
+    "area_key": "kasugai",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "日進市 カラオケ",
+    "genre_key": "karaoke",
+    "area_key": "nisshin",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "大府市 カラオケ",
+    "genre_key": "karaoke",
+    "area_key": "obu",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "岡崎市 カラオケ",
+    "genre_key": "karaoke",
+    "area_key": "okazaki",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "尾張旭市 カラオケ",
+    "genre_key": "karaoke",
+    "area_key": "owariasahi",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "豊川市 カラオケ",
+    "genre_key": "karaoke",
+    "area_key": "toyokawa",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "船橋市 カラオケ",
+    "genre_key": "karaoke",
+    "area_key": "funabashi",
+    "prefecture": "千葉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  },
+  {
+    "query": "柏市 カラオケ",
+    "genre_key": "karaoke",
+    "area_key": "kashiwa",
+    "prefecture": "千葉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 3
+  }
+]
