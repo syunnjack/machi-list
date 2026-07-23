@@ -288,5 +288,16 @@
   ["okayama-kita-kaikatsu-aoe-billiards", "快活CLUB 岡山青江店", "billiards", "okayama-kita", "岡山県岡山市北区青江5-22-24", "岡山駅", 35, 1000, "目安1,000円から", true, true, true, "青江周辺", "https://www.kaikatsu.jp/shop/detail/20622.html"],
   ["okayama-kita-kaikatsu-daianji-karaoke", "快活CLUB 岡山大安寺店", "karaoke", "okayama-kita", "岡山県岡山市北区大安寺南町2-6-5", "大安寺駅", 10, 900, "目安900円から", true, true, true, "大安寺周辺", "https://www.kaikatsu.jp/shop/detail/20624.html"],
   ["okayama-kita-kaikatsu-daianji-darts", "快活CLUB 岡山大安寺店", "darts", "okayama-kita", "岡山県岡山市北区大安寺南町2-6-5", "大安寺駅", 10, 1000, "目安1,000円から", true, true, true, "大安寺周辺", "https://www.kaikatsu.jp/shop/detail/20624.html"],
-  ["okayama-kita-kaikatsu-daianji-billiards", "快活CLUB 岡山大安寺店", "billiards", "okayama-kita", "岡山県岡山市北区大安寺南町2-6-5", "大安寺駅", 10, 1000, "目安1,000円から", true, true, true, "大安寺周辺", "https://www.kaikatsu.jp/shop/detail/20624.html"]
+  ["okayama-kita-kaikatsu-daianji-billiards", "快活CLUB 岡山大安寺店", "billiards", "okayama-kita", "岡山県岡山市北区大安寺南町2-6-5", "大安寺駅", 10, 1000, "目安1,000円から", true, true, true, "大安寺周辺", "https://www.kaikatsu.jp/shop/detail/20624.html"],
+  ["yamagata-namco-aeon-minami-game", "namcoイオンモール山形南店", "game-center", "yamagata", "山形県山形市若宮3-7-8 イオンモール山形南2F", "山形駅", 35, 1000, "目安1,000円から", true, true, true, "イオンモール山形南", "https://bandainamco-am.co.jp/game_center/loc/yamagata-minami/"],
+  ["yamagata-namco-aeon-minami-crane", "namcoイオンモール山形南店", "crane-game", "yamagata", "山形県山形市若宮3-7-8 イオンモール山形南2F", "山形駅", 35, 1000, "目安1,000円から", true, true, true, "イオンモール山形南", "https://bandainamco-am.co.jp/game_center/loc/yamagata-minami/"],
+  ["yamagata-kaikatsu-takado-karaoke", "快活CLUB 山形高堂店", "karaoke", "yamagata", "山形県山形市高堂2-3-11", "山形駅", 30, 900, "目安900円から", true, true, true, "高堂周辺", "https://www.kaikatsu.jp/shop/detail/20156.html"],
+  ["akita-gigo-ibarajima-game", "GiGO秋田", "game-center", "akita", "秋田県秋田市茨島1-1-16", "秋田駅", 40, 1000, "目安1,000円から", true, true, true, "茨島周辺", "https://www.gigo.co.jp/shops/akita"],
+  ["akita-gigo-ibarajima-crane", "GiGO秋田", "crane-game", "akita", "秋田県秋田市茨島1-1-16", "秋田駅", 40, 1000, "目安1,000円から", true, true, true, "茨島周辺", "https://www.gigo.co.jp/shops/akita"],
+  ["akita-gigo-ibarajima-capsule", "GiGO秋田", "capsule-toy", "akita", "秋田県秋田市茨島1-1-16", "秋田駅", 40, 500, "目安500円から", true, true, true, "茨島周辺", "https://www.gigo.co.jp/shops/akita"],
+  ["akita-namco-opa-game", "namco秋田オーパ店", "game-center", "akita", "秋田県秋田市千秋久保田町4-2 秋田OPA 5F", "秋田駅", 5, 1000, "目安1,000円から", false, true, true, "秋田駅前", "https://bandainamco-am.co.jp/game_center/loc/akita-opa/"],
+  ["akita-namco-opa-crane", "namco秋田オーパ店", "crane-game", "akita", "秋田県秋田市千秋久保田町4-2 秋田OPA 5F", "秋田駅", 5, 1000, "目安1,000円から", false, true, true, "秋田駅前", "https://bandainamco-am.co.jp/game_center/loc/akita-opa/"],
+  ["akita-kaikatsu-ushijima-netcafe", "快活CLUB 秋田牛島店", "netcafe", "akita", "秋田県秋田市牛島西1-1-18", "羽後牛島駅", 8, 1200, "目安1,200円から", true, true, true, "牛島周辺", "https://www.kaikatsu.jp/shop/detail/20142.html"],
+  ["akita-kaikatsu-ushijima-karaoke", "快活CLUB 秋田牛島店", "karaoke", "akita", "秋田県秋田市牛島西1-1-18", "羽後牛島駅", 8, 900, "目安900円から", true, true, true, "牛島周辺", "https://www.kaikatsu.jp/shop/detail/20142.html"],
+  ["akita-kaikatsu-ushijima-darts", "快活CLUB 秋田牛島店", "darts", "akita", "秋田県秋田市牛島西1-1-18", "羽後牛島駅", 8, 1000, "目安1,000円から", true, true, true, "牛島周辺", "https://www.kaikatsu.jp/shop/detail/20142.html"]
 ]

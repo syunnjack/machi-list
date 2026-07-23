@@ -452,6 +452,7 @@ const removeIds = new Set([
   "chiba-ichikawa-round1-darts",
   "chiba-ichikawa-round1-game",
   "chiba-ichikawa-round1-karaoke",
+  "akita-kaikatsu-shinkokudo-netcafe",
   "oita-oita-round1-stadium-bowling",
   "oita-oita-round1-stadium-crane",
   "oita-oita-round1-stadium-darts",
