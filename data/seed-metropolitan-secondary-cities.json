@@ -299,5 +299,11 @@
   ["akita-namco-opa-crane", "namco秋田オーパ店", "crane-game", "akita", "秋田県秋田市千秋久保田町4-2 秋田OPA 5F", "秋田駅", 5, 1000, "目安1,000円から", false, true, true, "秋田駅前", "https://bandainamco-am.co.jp/game_center/loc/akita-opa/"],
   ["akita-kaikatsu-ushijima-netcafe", "快活CLUB 秋田牛島店", "netcafe", "akita", "秋田県秋田市牛島西1-1-18", "羽後牛島駅", 8, 1200, "目安1,200円から", true, true, true, "牛島周辺", "https://www.kaikatsu.jp/shop/detail/20142.html"],
   ["akita-kaikatsu-ushijima-karaoke", "快活CLUB 秋田牛島店", "karaoke", "akita", "秋田県秋田市牛島西1-1-18", "羽後牛島駅", 8, 900, "目安900円から", true, true, true, "牛島周辺", "https://www.kaikatsu.jp/shop/detail/20142.html"],
-  ["akita-kaikatsu-ushijima-darts", "快活CLUB 秋田牛島店", "darts", "akita", "秋田県秋田市牛島西1-1-18", "羽後牛島駅", 8, 1000, "目安1,000円から", true, true, true, "牛島周辺", "https://www.kaikatsu.jp/shop/detail/20142.html"]
+  ["akita-kaikatsu-ushijima-darts", "快活CLUB 秋田牛島店", "darts", "akita", "秋田県秋田市牛島西1-1-18", "羽後牛島駅", 8, 1000, "目安1,000円から", true, true, true, "牛島周辺", "https://www.kaikatsu.jp/shop/detail/20142.html"],
+  ["kofu-kaikatsu-kamiahara-netcafe", "快活CLUB 甲府上阿原店", "netcafe", "kofu", "山梨県甲府市上阿原町455-1", "酒折駅", 25, 1200, "目安1,200円から", true, true, true, "上阿原周辺", "https://www.kaikatsu.jp/shop/detail/20371.html"],
+  ["kofu-kaikatsu-kamiahara-karaoke", "快活CLUB 甲府上阿原店", "karaoke", "kofu", "山梨県甲府市上阿原町455-1", "酒折駅", 25, 900, "目安900円から", true, true, true, "上阿原周辺", "https://www.kaikatsu.jp/shop/detail/20371.html"],
+  ["tottori-kaikatsu-yoshinari-karaoke", "快活CLUB 鳥取吉成店", "karaoke", "tottori", "鳥取県鳥取市叶303-1", "鳥取駅", 35, 900, "目安900円から", true, true, true, "吉成周辺", "https://www.kaikatsu.jp/shop/detail/20602.html"],
+  ["tottori-kaikatsu-yoshinari-darts", "快活CLUB 鳥取吉成店", "darts", "tottori", "鳥取県鳥取市叶303-1", "鳥取駅", 35, 1000, "目安1,000円から", true, true, true, "吉成周辺", "https://www.kaikatsu.jp/shop/detail/20602.html"],
+  ["tottori-kaikatsu-yoshinari-billiards", "快活CLUB 鳥取吉成店", "billiards", "tottori", "鳥取県鳥取市叶303-1", "鳥取駅", 35, 1000, "目安1,000円から", true, true, true, "吉成周辺", "https://www.kaikatsu.jp/shop/detail/20602.html"],
+  ["tottori-gigo-tottori-capsule", "GiGO鳥取", "capsule-toy", "tottori", "鳥取県鳥取市安長416", "湖山駅", 25, 500, "目安500円から", true, true, true, "安長周辺", "https://www.gigo.co.jp/shops/tottori"]
 ]
