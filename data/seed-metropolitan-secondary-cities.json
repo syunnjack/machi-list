@@ -333,5 +333,12 @@
   ["takamatsu-kaikatsu-chuo-darts", "快活CLUB 高松中央通り店", "darts", "takamatsu", "香川県高松市東ハゼ町12-9", "三条駅", 15, 1000, "目安1,000円から", true, true, true, "東ハゼ町周辺", "https://www.kaikatsu.jp/shop/detail/20665.html"],
   ["takamatsu-kaikatsu-chuo-billiards", "快活CLUB 高松中央通り店", "billiards", "takamatsu", "香川県高松市東ハゼ町12-9", "三条駅", 15, 1000, "目安1,000円から", true, true, true, "東ハゼ町周辺", "https://www.kaikatsu.jp/shop/detail/20665.html"],
   ["takamatsu-gigo-aeonmall-game", "GiGOイオンモール高松", "game-center", "takamatsu", "香川県高松市香西本町1-1 イオンモール高松2F", "香西駅", 25, 1000, "目安1,000円から", true, true, true, "イオンモール高松", "https://www.gigo.co.jp/shops/a-takamatsu"],
-  ["takamatsu-gigo-aeonmall-crane", "GiGOイオンモール高松", "crane-game", "takamatsu", "香川県高松市香西本町1-1 イオンモール高松2F", "香西駅", 25, 1000, "目安1,000円から", true, true, true, "イオンモール高松", "https://www.gigo.co.jp/shops/a-takamatsu"]
+  ["takamatsu-gigo-aeonmall-crane", "GiGOイオンモール高松", "crane-game", "takamatsu", "香川県高松市香西本町1-1 イオンモール高松2F", "香西駅", 25, 1000, "目安1,000円から", true, true, true, "イオンモール高松", "https://www.gigo.co.jp/shops/a-takamatsu"],
+  ["yamaguchi-kaikatsu-ouchi-netcafe", "快活CLUB 山口大内店", "netcafe", "yamaguchi", "山口県山口市大内中央1-9-5", "山口駅", 45, 1200, "目安1,200円から", true, true, true, "大内周辺", "https://www.kaikatsu.jp/shop/detail/20643.html"],
+  ["yamaguchi-kaikatsu-ouchi-karaoke", "快活CLUB 山口大内店", "karaoke", "yamaguchi", "山口県山口市大内中央1-9-5", "山口駅", 45, 900, "目安900円から", true, true, true, "大内周辺", "https://www.kaikatsu.jp/shop/detail/20643.html"],
+  ["yamaguchi-kaikatsu-ouchi-darts", "快活CLUB 山口大内店", "darts", "yamaguchi", "山口県山口市大内中央1-9-5", "山口駅", 45, 1000, "目安1,000円から", true, true, true, "大内周辺", "https://www.kaikatsu.jp/shop/detail/20643.html"],
+  ["yamaguchi-kaikatsu-ouchi-billiards", "快活CLUB 山口大内店", "billiards", "yamaguchi", "山口県山口市大内中央1-9-5", "山口駅", 45, 1000, "目安1,000円から", true, true, true, "大内周辺", "https://www.kaikatsu.jp/shop/detail/20643.html"],
+  ["yamaguchi-kaikatsu-yoshiki-karaoke", "快活CLUB 山口吉敷店", "karaoke", "yamaguchi", "山口県山口市吉敷下東4-18-25", "湯田温泉駅", 25, 900, "目安900円から", true, true, true, "吉敷周辺", "https://www.kaikatsu.jp/shop/detail/20645.html"],
+  ["kochi-kaikatsu-nakamanma-karaoke", "快活CLUB 高知中万々店", "karaoke", "kochi", "高知県高知市南久万190-4", "円行寺口駅", 8, 900, "目安900円から", true, true, true, "中万々周辺", "https://www.kaikatsu.jp/shop/detail/20681.html"],
+  ["matsuyama-namco-fujigrand-capsule", "ガシャポンのデパート フジグラン松山店", "capsule-toy", "matsuyama", "愛媛県松山市宮西1-2-1 フジグラン松山店4F", "宮田町駅", 2, 500, "目安500円から", true, true, true, "フジグラン松山", "https://matsuyama-fuji.com/archives/tenant/tenant_tax/4f"]
 ]
