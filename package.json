@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "start": "node server.js",
-    "check": "node --check server.js && node --check assets/app.js && node --check scripts/google-places-sync.js && node --check scripts/generate-pages.js && node --check scripts/analyze-coverage.js && node --check scripts/generate-place-seeds.js && node --check scripts/data-quality-report.js && node --check scripts/review-place-candidates.js && node --check scripts/adopt-approved-place-candidates.js",
+    "check": "node --check server.js && node --check assets/app.js && node --check scripts/google-places-sync.js && node --check scripts/generate-pages.js && node --check scripts/analyze-coverage.js && node --check scripts/generate-place-seeds.js && node --check scripts/generate-growth-roadmap.js && node --check scripts/data-quality-report.js && node --check scripts/review-place-candidates.js && node --check scripts/adopt-approved-place-candidates.js",
     "generate": "node scripts/normalize-data.js && node scripts/generate-pages.js",
     "report:coverage": "node scripts/analyze-coverage.js",
-    "seeds:places": "node scripts/analyze-coverage.js && node scripts/generate-place-seeds.js",
+    "seeds:places": "node scripts/analyze-coverage.js && node scripts/generate-place-seeds.js && node scripts/generate-growth-roadmap.js",
+    "roadmap:growth": "node scripts/generate-growth-roadmap.js",
     "candidates:review": "node scripts/review-place-candidates.js",
     "candidates:adopt": "node scripts/adopt-approved-place-candidates.js",
     "report:data": "node scripts/data-quality-report.js",
