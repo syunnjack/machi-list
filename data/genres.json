@@ -83,5 +83,30 @@
     "key": "cafe",
     "label": "カフェ",
     "description": "電源、Wi-Fi、イートイン、駅からの近さ、予算、営業時間を確認できます。"
+  },
+  {
+    "key": "coin-laundry",
+    "label": "コインランドリー",
+    "description": "洗濯乾燥機、深夜利用、駐車場、待ち時間に寄れる近隣施設を確認できます。"
+  },
+  {
+    "key": "drugstore",
+    "label": "ドラッグストア",
+    "description": "医薬品、日用品、深夜営業、駐車場、駅からの近さを確認できます。"
+  },
+  {
+    "key": "trading-card-shop",
+    "label": "トレカショップ",
+    "description": "買取、販売、大会、デュエルスペース、駅からの近さを確認できます。"
+  },
+  {
+    "key": "hobby-shop",
+    "label": "ホビーショップ",
+    "description": "模型、フィギュア、玩具、ガンプラ、キャラクターグッズの取扱いを確認できます。"
+  },
+  {
+    "key": "recycle-shop",
+    "label": "リサイクルショップ",
+    "description": "買取、販売、家電、古着、ホビー用品、駐車場を確認できます。"
   }
 ]

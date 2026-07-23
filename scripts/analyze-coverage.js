@@ -26,6 +26,11 @@ const priorityGenreKeys = [
   "cat-cafe",
   "convenience-store",
   "cafe",
+  "coin-laundry",
+  "drugstore",
+  "trading-card-shop",
+  "hobby-shop",
+  "recycle-shop",
   "movie-theater",
   "adult-shop",
   "restaurant"
@@ -46,6 +51,11 @@ const targetByGenre = {
   "cat-cafe": 1,
   "convenience-store": 3,
   cafe: 3,
+  "coin-laundry": 2,
+  drugstore: 3,
+  "trading-card-shop": 2,
+  "hobby-shop": 2,
+  "recycle-shop": 2,
   "movie-theater": 1,
   "adult-shop": 1,
   restaurant: 3

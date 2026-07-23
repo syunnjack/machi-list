@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-23T03:45:16.597Z",
+  "generated_at": "2026-07-23T03:50:00.668Z",
   "shop_count": 1076,
   "area_count": 121,
-  "genre_count": 17,
+  "genre_count": 22,
   "min_target": 2,
-  "gap_count": 1934,
+  "gap_count": 2539,
   "top_gaps": [
     {
       "area_key": "handa",
@@ -16,7 +16,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "ichinomiya",
@@ -28,7 +28,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "kasugai",
@@ -40,7 +40,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "komaki",
@@ -52,7 +52,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "nisshin",
@@ -64,7 +64,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "owariasahi",
@@ -76,7 +76,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "toyohashi",
@@ -88,7 +88,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "toyokawa",
@@ -100,7 +100,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "funabashi",
@@ -112,7 +112,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "ichikawa",
@@ -124,7 +124,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "kakamigahara",
@@ -136,7 +136,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "takayama",
@@ -148,7 +148,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "amagasaki",
@@ -160,7 +160,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "misato",
@@ -172,7 +172,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "fujieda",
@@ -184,7 +184,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 357
+      "score": 362
     },
     {
       "area_key": "anjo",
@@ -196,7 +196,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "kariya",
@@ -208,7 +208,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "komaki",
@@ -220,7 +220,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "obu",
@@ -232,7 +232,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "okazaki",
@@ -244,7 +244,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "owariasahi",
@@ -256,7 +256,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "toyokawa",
@@ -268,7 +268,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "funabashi",
@@ -280,7 +280,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "ichikawa",
@@ -292,7 +292,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "kashiwa",
@@ -304,7 +304,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "koriyama",
@@ -316,7 +316,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "kakamigahara",
@@ -328,7 +328,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "takayama",
@@ -340,7 +340,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "fukuyama",
@@ -352,7 +352,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "asahikawa",
@@ -364,7 +364,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "hakodate",
@@ -376,7 +376,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "amagasaki",
@@ -388,7 +388,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "himeji",
@@ -400,7 +400,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "kurashiki",
@@ -412,7 +412,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "kawagoe",
@@ -424,7 +424,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "misato",
@@ -436,7 +436,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "fuji",
@@ -448,7 +448,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "fujieda",
@@ -460,7 +460,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "fujinomiya",
@@ -472,7 +472,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "gotemba",
@@ -484,7 +484,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "numazu",
@@ -496,7 +496,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "yaizu",
@@ -508,7 +508,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 355
+      "score": 360
     },
     {
       "area_key": "anjo",
@@ -520,7 +520,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "kariya",
@@ -532,7 +532,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "komaki",
@@ -544,7 +544,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "obu",
@@ -556,7 +556,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "okazaki",
@@ -568,7 +568,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "owariasahi",
@@ -580,7 +580,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "toyokawa",
@@ -592,7 +592,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "toyota",
@@ -604,7 +604,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "kakamigahara",
@@ -616,7 +616,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "takayama",
@@ -628,7 +628,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "kawagoe",
@@ -640,7 +640,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "misato",
@@ -652,7 +652,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "fuji",
@@ -664,7 +664,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "fujieda",
@@ -676,7 +676,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "fujinomiya",
@@ -688,7 +688,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "gotemba",
@@ -700,7 +700,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "numazu",
@@ -712,7 +712,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "yaizu",
@@ -724,7 +724,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 354
+      "score": 359
     },
     {
       "area_key": "obu",
@@ -736,7 +736,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 353
+      "score": 358
     },
     {
       "area_key": "okazaki",
@@ -748,7 +748,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 353
+      "score": 358
     },
     {
       "area_key": "owariasahi",
@@ -760,7 +760,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 353
+      "score": 358
     },
     {
       "area_key": "toyota",
@@ -772,7 +772,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 353
+      "score": 358
     },
     {
       "area_key": "kakamigahara",
@@ -784,7 +784,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 353
+      "score": 358
     },
     {
       "area_key": "takayama",
@@ -796,7 +796,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 353
+      "score": 358
     },
     {
       "area_key": "kawagoe",
@@ -808,7 +808,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 353
+      "score": 358
     },
     {
       "area_key": "fujieda",
@@ -820,7 +820,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 353
+      "score": 358
     },
     {
       "area_key": "fujinomiya",
@@ -832,7 +832,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 353
+      "score": 358
     },
     {
       "area_key": "gotemba",
@@ -844,7 +844,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 353
+      "score": 358
     },
     {
       "area_key": "yaizu",
@@ -856,7 +856,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 353
+      "score": 358
     },
     {
       "area_key": "ichinomiya",
@@ -868,7 +868,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 349
+      "score": 354
     },
     {
       "area_key": "kasugai",
@@ -880,7 +880,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 349
+      "score": 354
     },
     {
       "area_key": "nisshin",
@@ -892,7 +892,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 349
+      "score": 354
     },
     {
       "area_key": "obu",
@@ -904,7 +904,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 349
+      "score": 354
     },
     {
       "area_key": "okazaki",
@@ -916,7 +916,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 349
+      "score": 354
     },
     {
       "area_key": "owariasahi",
@@ -928,7 +928,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 349
+      "score": 354
     },
     {
       "area_key": "toyokawa",
@@ -940,7 +940,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 349
+      "score": 354
     },
     {
       "area_key": "funabashi",
@@ -952,7 +952,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 349
+      "score": 354
     },
     {
       "area_key": "kashiwa",
@@ -964,10 +964,15 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 349
+      "score": 354
     }
   ],
   "summary_by_genre": [
+    {
+      "key": "drugstore",
+      "gaps": 121,
+      "missing": 363
+    },
     {
       "key": "convenience-store",
       "gaps": 121,
@@ -987,6 +992,26 @@
       "key": "capsule-toy",
       "gaps": 102,
       "missing": 244
+    },
+    {
+      "key": "coin-laundry",
+      "gaps": 121,
+      "missing": 242
+    },
+    {
+      "key": "hobby-shop",
+      "gaps": 121,
+      "missing": 242
+    },
+    {
+      "key": "recycle-shop",
+      "gaps": 121,
+      "missing": 242
+    },
+    {
+      "key": "trading-card-shop",
+      "gaps": 121,
+      "missing": 242
     },
     {
       "key": "movie-theater",
@@ -1057,238 +1082,238 @@
   "summary_by_prefecture": [
     {
       "key": "aichi",
-      "gaps": 475,
-      "missing": 1045
+      "gaps": 620,
+      "missing": 1364
     },
     {
       "key": "shizuoka",
-      "gaps": 183,
-      "missing": 403
+      "gaps": 238,
+      "missing": 524
     },
     {
       "key": "osaka",
-      "gaps": 81,
-      "missing": 174
+      "gaps": 106,
+      "missing": 229
     },
     {
       "key": "tokyo",
-      "gaps": 78,
-      "missing": 164
+      "gaps": 103,
+      "missing": 219
     },
     {
       "key": "gifu",
-      "gaps": 67,
-      "missing": 154
+      "gaps": 87,
+      "missing": 198
     },
     {
       "key": "chiba",
-      "gaps": 67,
-      "missing": 148
+      "gaps": 87,
+      "missing": 192
     },
     {
       "key": "saitama",
-      "gaps": 65,
-      "missing": 145
+      "gaps": 85,
+      "missing": 189
     },
     {
       "key": "kanagawa",
-      "gaps": 64,
-      "missing": 132
+      "gaps": 84,
+      "missing": 176
     },
     {
       "key": "fukuoka",
-      "gaps": 67,
-      "missing": 126
+      "gaps": 87,
+      "missing": 170
     },
     {
       "key": "kyoto",
-      "gaps": 48,
-      "missing": 109
+      "gaps": 63,
+      "missing": 142
     },
     {
       "key": "mie",
-      "gaps": 50,
-      "missing": 106
+      "gaps": 65,
+      "missing": 139
     },
     {
       "key": "hyogo",
-      "gaps": 49,
-      "missing": 97
+      "gaps": 64,
+      "missing": 130
     },
     {
       "key": "hokkaido",
-      "gaps": 47,
-      "missing": 95
+      "gaps": 62,
+      "missing": 128
     },
     {
       "key": "okayama",
-      "gaps": 42,
-      "missing": 90
+      "gaps": 57,
+      "missing": 123
     },
     {
       "key": "fukushima",
-      "gaps": 33,
-      "missing": 65
+      "gaps": 43,
+      "missing": 87
     },
     {
       "key": "hiroshima",
-      "gaps": 33,
-      "missing": 64
+      "gaps": 43,
+      "missing": 86
     },
     {
       "key": "yamaguchi",
-      "gaps": 31,
-      "missing": 59
+      "gaps": 41,
+      "missing": 81
     },
     {
       "key": "miyagi",
-      "gaps": 17,
-      "missing": 33
+      "gaps": 22,
+      "missing": 44
     },
     {
       "key": "shiga",
-      "gaps": 16,
-      "missing": 32
+      "gaps": 21,
+      "missing": 43
     },
     {
       "key": "yamanashi",
-      "gaps": 15,
-      "missing": 32
+      "gaps": 20,
+      "missing": 43
     },
     {
       "key": "ibaraki",
-      "gaps": 17,
-      "missing": 31
+      "gaps": 22,
+      "missing": 42
     },
     {
       "key": "nara",
-      "gaps": 16,
-      "missing": 31
+      "gaps": 21,
+      "missing": 42
     },
     {
       "key": "yamagata",
-      "gaps": 17,
-      "missing": 31
+      "gaps": 22,
+      "missing": 42
     },
     {
       "key": "aomori",
-      "gaps": 16,
-      "missing": 30
+      "gaps": 21,
+      "missing": 41
     },
     {
       "key": "kochi",
-      "gaps": 15,
-      "missing": 30
+      "gaps": 20,
+      "missing": 41
     },
     {
       "key": "nagano",
-      "gaps": 17,
-      "missing": 30
+      "gaps": 22,
+      "missing": 41
     },
     {
       "key": "shimane",
-      "gaps": 15,
-      "missing": 30
+      "gaps": 20,
+      "missing": 41
     },
     {
       "key": "tochigi",
-      "gaps": 17,
-      "missing": 30
+      "gaps": 22,
+      "missing": 41
     },
     {
       "key": "tottori",
-      "gaps": 16,
-      "missing": 30
+      "gaps": 21,
+      "missing": 41
     },
     {
       "key": "iwate",
-      "gaps": 16,
-      "missing": 29
+      "gaps": 21,
+      "missing": 40
     },
     {
       "key": "miyazaki",
-      "gaps": 16,
-      "missing": 29
+      "gaps": 21,
+      "missing": 40
     },
     {
       "key": "nagasaki",
-      "gaps": 14,
-      "missing": 29
+      "gaps": 19,
+      "missing": 40
     },
     {
       "key": "tokushima",
-      "gaps": 17,
-      "missing": 29
+      "gaps": 22,
+      "missing": 40
     },
     {
       "key": "gunma",
-      "gaps": 16,
-      "missing": 28
+      "gaps": 21,
+      "missing": 39
     },
     {
       "key": "ishikawa",
-      "gaps": 14,
-      "missing": 27
+      "gaps": 19,
+      "missing": 38
     },
     {
       "key": "niigata",
-      "gaps": 14,
-      "missing": 27
+      "gaps": 19,
+      "missing": 38
     },
     {
       "key": "saga",
-      "gaps": 15,
-      "missing": 27
+      "gaps": 20,
+      "missing": 38
     },
     {
       "key": "akita",
-      "gaps": 14,
-      "missing": 26
+      "gaps": 19,
+      "missing": 37
     },
     {
       "key": "ehime",
-      "gaps": 14,
-      "missing": 26
+      "gaps": 19,
+      "missing": 37
     },
     {
       "key": "fukui",
-      "gaps": 14,
-      "missing": 26
+      "gaps": 19,
+      "missing": 37
     },
     {
       "key": "kumamoto",
-      "gaps": 15,
-      "missing": 26
+      "gaps": 20,
+      "missing": 37
     },
     {
       "key": "oita",
-      "gaps": 14,
-      "missing": 26
+      "gaps": 19,
+      "missing": 37
     },
     {
       "key": "okinawa",
-      "gaps": 15,
-      "missing": 26
+      "gaps": 20,
+      "missing": 37
     },
     {
       "key": "toyama",
-      "gaps": 13,
-      "missing": 26
+      "gaps": 18,
+      "missing": 37
     },
     {
       "key": "wakayama",
-      "gaps": 14,
-      "missing": 25
+      "gaps": 19,
+      "missing": 36
     },
     {
       "key": "kagoshima",
-      "gaps": 14,
-      "missing": 24
+      "gaps": 19,
+      "missing": 35
     },
     {
       "key": "kagawa",
-      "gaps": 11,
-      "missing": 23
+      "gaps": 16,
+      "missing": 34
     }
   ]
 }

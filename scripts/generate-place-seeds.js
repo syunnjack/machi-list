@@ -62,6 +62,11 @@ function queriesFor(gap) {
     "cat-cafe": [`${area} 猫カフェ`, `${area} 保護猫カフェ`],
     "convenience-store": [`${area} コンビニ イートイン`, `${area} コンビニ 喫煙`, `${area} コンビニ 電源 Wi-Fi`],
     cafe: [`${area} カフェ 電源 Wi-Fi`, `${area} カフェ 喫煙`, `${area} スターバックス タリーズ ドトール`],
+    "coin-laundry": [`${area} コインランドリー`, `${area} 24時間 コインランドリー`, `${area} 洗濯乾燥機`],
+    drugstore: [`${area} ドラッグストア`, `${area} 薬局 日用品`, `${area} ウエルシア スギ薬局 マツモトキヨシ`],
+    "trading-card-shop": [`${area} トレカショップ`, `${area} カードショップ`, `${area} ポケカ 遊戯王 デュエルスペース`],
+    "hobby-shop": [`${area} ホビーショップ`, `${area} プラモデル フィギュア`, `${area} ガンプラ 模型店`],
+    "recycle-shop": [`${area} リサイクルショップ`, `${area} 買取 古着 家電`, `${area} セカンドストリート ハードオフ ブックオフ`],
     "movie-theater": [`${area} 映画館`, `${area} シネマ`],
     "adult-shop": [`${area} アダルトショップ`, `${area} 大人のおもちゃ 店舗`],
     restaurant: [`${area} 居酒屋 予約`, `${area} 飲食店 クーポン`]
