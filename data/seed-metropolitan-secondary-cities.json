@@ -199,5 +199,15 @@
   ["hiroshima-fukuyama-round1-crane", "ラウンドワン 福山店", "crane-game", "fukuyama", "広島県福山市明神町一丁目9番28号", "福山駅", 30, 1000, "目安1,000円から", true, true, true, "明神町周辺", "https://www.round1.co.jp/shop/tenpo/hiroshima-fukuyama.html"],
   ["hiroshima-fukuyama-round1-karaoke", "ラウンドワン 福山店", "karaoke", "fukuyama", "広島県福山市明神町一丁目9番28号", "福山駅", 30, 900, "目安900円から", true, true, true, "明神町周辺", "https://www.round1.co.jp/shop/tenpo/hiroshima-fukuyama.html"],
   ["hiroshima-fukuyama-round1-darts", "ラウンドワン 福山店", "darts", "fukuyama", "広島県福山市明神町一丁目9番28号", "福山駅", 30, 1000, "目安1,000円から", true, true, true, "明神町周辺", "https://www.round1.co.jp/shop/tenpo/hiroshima-fukuyama.html"],
-  ["hiroshima-fukuyama-round1-billiards", "ラウンドワン 福山店", "billiards", "fukuyama", "広島県福山市明神町一丁目9番28号", "福山駅", 30, 1000, "目安1,000円から", true, true, true, "明神町周辺", "https://www.round1.co.jp/shop/tenpo/hiroshima-fukuyama.html"]
+  ["hiroshima-fukuyama-round1-billiards", "ラウンドワン 福山店", "billiards", "fukuyama", "広島県福山市明神町一丁目9番28号", "福山駅", 30, 1000, "目安1,000円から", true, true, true, "明神町周辺", "https://www.round1.co.jp/shop/tenpo/hiroshima-fukuyama.html"],
+  ["yamaguchi-shimonoseki-kaikatsu-ayaragi", "快活CLUB 下関綾羅木店", "netcafe", "shimonoseki", "山口県下関市綾羅木新町3-2-1", "梶栗郷台地駅", 3, 1200, "目安1,200円から", true, true, true, "綾羅木周辺", "https://www.kaikatsu.jp/shop/detail/20646.html"],
+  ["yamaguchi-shimonoseki-kaikatsu-ayaragi-karaoke", "快活CLUB 下関綾羅木店", "karaoke", "shimonoseki", "山口県下関市綾羅木新町3-2-1", "梶栗郷台地駅", 3, 900, "目安900円から", true, true, true, "綾羅木周辺", "https://www.kaikatsu.jp/shop/detail/20646.html"],
+  ["yamaguchi-shimonoseki-kaikatsu-ayaragi-darts", "快活CLUB 下関綾羅木店", "darts", "shimonoseki", "山口県下関市綾羅木新町3-2-1", "梶栗郷台地駅", 3, 1000, "目安1,000円から", true, true, true, "綾羅木周辺", "https://www.kaikatsu.jp/shop/detail/20646.html"],
+  ["yamaguchi-shimonoseki-kaikatsu-ayaragi-billiards", "快活CLUB 下関綾羅木店", "billiards", "shimonoseki", "山口県下関市綾羅木新町3-2-1", "梶栗郷台地駅", 3, 1000, "目安1,000円から", true, true, true, "綾羅木周辺", "https://www.kaikatsu.jp/shop/detail/20646.html"],
+  ["yamaguchi-shimonoseki-thirdplanet-chofu-game", "サープラ下関長府あそびタウン", "game-center", "shimonoseki", "山口県下関市ゆめタウン1-1 2F", "ゆめタウン長府バス停", 1, 1000, "目安1,000円から", true, true, true, "ゆめタウン長府", "https://3rd-planet.jp/sp-shimonoseki/"],
+  ["yamaguchi-shimonoseki-thirdplanet-chofu-crane", "サープラ下関長府あそびタウン", "crane-game", "shimonoseki", "山口県下関市ゆめタウン1-1 2F", "ゆめタウン長府バス停", 1, 1000, "目安1,000円から", true, true, true, "ゆめタウン長府", "https://3rd-planet.jp/sp-shimonoseki/"],
+  ["yamaguchi-shimonoseki-thirdplanet-chofu-capsule", "サープラ下関長府あそびタウン", "capsule-toy", "shimonoseki", "山口県下関市ゆめタウン1-1 2F", "ゆめタウン長府バス停", 1, 500, "目安500円から", true, true, true, "ゆめタウン長府", "https://3rd-planet.jp/sp-shimonoseki/"],
+  ["shimane-matsue-kaikatsu-karaoke", "快活CLUB 松江店", "karaoke", "matsue", "島根県松江市学園1-1-1", "松江駅", 22, 900, "目安900円から", true, true, true, "学園周辺", "https://www.kaikatsu.jp/shop/detail/20611.html"],
+  ["shimane-matsue-amipara-game", "アミパラ松江店", "game-center", "matsue", "島根県松江市東朝日町203-1", "松江駅", 15, 1000, "目安1,000円から", true, true, true, "東朝日町周辺", "https://amipara.co.jp/store/amipara-matsue/"],
+  ["shimane-matsue-amipara-crane", "アミパラ松江店", "crane-game", "matsue", "島根県松江市東朝日町203-1", "松江駅", 15, 1000, "目安1,000円から", true, true, true, "東朝日町周辺", "https://amipara.co.jp/store/amipara-matsue/"]
 ]
