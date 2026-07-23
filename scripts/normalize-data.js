@@ -456,7 +456,23 @@ const removeIds = new Set([
   "oita-oita-round1-stadium-crane",
   "oita-oita-round1-stadium-darts",
   "oita-oita-round1-stadium-game",
-  "oita-oita-round1-stadium-karaoke"
+  "oita-oita-round1-stadium-karaoke",
+  "kumamoto-chuo-round1-bowling",
+  "kumamoto-chuo-round1-crane",
+  "kumamoto-chuo-round1-game",
+  "kumamoto-chuo-round1-karaoke",
+  "kagoshima-round1-bowling",
+  "kagoshima-round1-crane",
+  "kagoshima-round1-game",
+  "kagoshima-round1-karaoke",
+  "miyazaki-round1-bowling",
+  "miyazaki-round1-crane",
+  "miyazaki-round1-darts",
+  "miyazaki-round1-game",
+  "miyazaki-round1-karaoke",
+  "kumamoto-starbucks-station",
+  "nagasaki-gigo-cocowalk-capsule",
+  "nagasaki-kaikatsu-hamamachi-netcafe"
 ]);
 
 for (let index = shops.length - 1; index >= 0; index -= 1) {
