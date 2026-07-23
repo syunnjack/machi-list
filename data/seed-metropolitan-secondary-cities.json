@@ -305,5 +305,9 @@
   ["tottori-kaikatsu-yoshinari-karaoke", "快活CLUB 鳥取吉成店", "karaoke", "tottori", "鳥取県鳥取市叶303-1", "鳥取駅", 35, 900, "目安900円から", true, true, true, "吉成周辺", "https://www.kaikatsu.jp/shop/detail/20602.html"],
   ["tottori-kaikatsu-yoshinari-darts", "快活CLUB 鳥取吉成店", "darts", "tottori", "鳥取県鳥取市叶303-1", "鳥取駅", 35, 1000, "目安1,000円から", true, true, true, "吉成周辺", "https://www.kaikatsu.jp/shop/detail/20602.html"],
   ["tottori-kaikatsu-yoshinari-billiards", "快活CLUB 鳥取吉成店", "billiards", "tottori", "鳥取県鳥取市叶303-1", "鳥取駅", 35, 1000, "目安1,000円から", true, true, true, "吉成周辺", "https://www.kaikatsu.jp/shop/detail/20602.html"],
-  ["tottori-gigo-tottori-capsule", "GiGO鳥取", "capsule-toy", "tottori", "鳥取県鳥取市安長416", "湖山駅", 25, 500, "目安500円から", true, true, true, "安長周辺", "https://www.gigo.co.jp/shops/tottori"]
+  ["tottori-gigo-tottori-capsule", "GiGO鳥取", "capsule-toy", "tottori", "鳥取県鳥取市安長416", "湖山駅", 25, 500, "目安500円から", true, true, true, "安長周辺", "https://www.gigo.co.jp/shops/tottori"],
+  ["utsunomiya-kaikatsu-miyukigahara-karaoke", "快活CLUB 宇都宮御幸ヶ原店", "karaoke", "utsunomiya", "栃木県宇都宮市下川俣町78-6", "岡本駅", 35, 900, "目安900円から", true, true, true, "御幸ヶ原周辺", "https://www.kaikatsu.jp/shop/detail/20212.html"],
+  ["maebashi-kaikatsu-kamikoide-karaoke", "快活CLUB 前橋上小出店", "karaoke", "maebashi", "群馬県前橋市上小出町3-41-10", "群馬総社駅", 35, 900, "目安900円から", true, true, true, "上小出周辺", "https://www.kaikatsu.jp/shop/detail/20222.html"],
+  ["maebashi-gigo-keyakiwalk-game", "GiGOけやきウォーク前橋", "game-center", "maebashi", "群馬県前橋市文京町2-1-1 アピタけやきウォーク前橋店2F", "前橋駅", 10, 1000, "目安1,000円から", true, true, true, "けやきウォーク前橋", "https://www.gigo.co.jp/shops/maebashi"],
+  ["maebashi-gigo-keyakiwalk-crane", "GiGOけやきウォーク前橋", "crane-game", "maebashi", "群馬県前橋市文京町2-1-1 アピタけやきウォーク前橋店2F", "前橋駅", 10, 1000, "目安1,000円から", true, true, true, "けやきウォーク前橋", "https://www.gigo.co.jp/shops/maebashi"]
 ]
