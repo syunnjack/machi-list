@@ -241,6 +241,49 @@ function activeFilters() {
   return filterEls.filter((input) => input.checked).map((input) => input.value);
 }
 
+function optionExists(select, value) {
+  if (!value) return true;
+  return Array.from(select?.options || []).some((option) => option.value === value);
+}
+
+function readUrlState() {
+  const params = new URLSearchParams(window.location.search);
+  return {
+    area: params.get("area") || "",
+    genre: params.get("genre") || "",
+    sort: params.get("sort") || "",
+    filters: new Set((params.get("features") || "").split(",").map((value) => value.trim()).filter(Boolean))
+  };
+}
+
+function applyUrlState() {
+  const state = readUrlState();
+  if (areaSelect && optionExists(areaSelect, state.area)) areaSelect.value = state.area;
+  if (genreSelect && optionExists(genreSelect, state.genre)) genreSelect.value = state.genre;
+  if (sortSelect && optionExists(sortSelect, state.sort)) sortSelect.value = state.sort;
+  filterEls.forEach((input) => {
+    input.checked = state.filters.has(input.value);
+  });
+}
+
+function syncUrlState() {
+  if (!window.history?.replaceState) return;
+  const params = new URLSearchParams();
+  const area = areaSelect?.value || "";
+  const genre = genreSelect?.value || "";
+  const sort = sortSelect?.value || "";
+  const filters = activeFilters();
+
+  if (area) params.set("area", area);
+  if (genre) params.set("genre", genre);
+  if (sort && sort !== "recommended") params.set("sort", sort);
+  if (filters.length) params.set("features", filters.join(","));
+
+  const query = params.toString();
+  const nextUrl = `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash || ""}`;
+  window.history.replaceState(null, "", nextUrl);
+}
+
 function matchesFilter(facility, filter) {
   if (filter === "parking") return facility.parking;
   if (filter === "late") return facility.late;
@@ -249,7 +292,7 @@ function matchesFilter(facility, filter) {
   return true;
 }
 
-function searchFacilities() {
+function searchFacilities(options = {}) {
   const area = areaSelect?.value || "";
   const genre = genreSelect?.value || "";
   const filters = activeFilters();
@@ -261,6 +304,7 @@ function searchFacilities() {
   const sortedResults = sortFacilities(results);
   renderResults(sortedResults);
   renderMap(sortedResults);
+  if (options.updateUrl !== false) syncUrlState();
 }
 
 function sortFacilities(results) {
@@ -554,7 +598,6 @@ heatModeButtons.forEach((button) => button.addEventListener("click", () => {
 }));
 
 loadFacilities().then(() => {
-  const initialResults = sortFacilities(facilities);
-  renderResults(initialResults);
-  renderMap(initialResults);
+  applyUrlState();
+  searchFacilities({ updateUrl: false });
 });

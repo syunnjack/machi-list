@@ -6,7 +6,8 @@ const scripts = [
   "candidates:adopt",
   "generate",
   "report:data",
-  "report:adoption"
+  "report:adoption",
+  "report:mvp"
 ];
 
 for (const scriptName of scripts) {

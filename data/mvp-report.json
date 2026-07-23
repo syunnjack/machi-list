@@ -1,0 +1,118 @@
+{
+  "generated_at": "2026-07-23T09:22:47.561Z",
+  "status": "ready",
+  "totals": {
+    "shops": 2815,
+    "areas": 120,
+    "genres": 32,
+    "active_areas": 120,
+    "active_genres": 24,
+    "area_genre_pairs": 1551,
+    "generated_pages": 4010,
+    "map_ready_shops": 2815,
+    "action_ready_shops": 2815,
+    "pending_candidate_count": 0
+  },
+  "checks": [
+    {
+      "key": "top_page",
+      "ok": true,
+      "message": "Top page is available."
+    },
+    {
+      "key": "sitemap",
+      "ok": true,
+      "message": "Sitemap is available."
+    },
+    {
+      "key": "robots",
+      "ok": true,
+      "message": "Robots file is available."
+    },
+    {
+      "key": "crawler_guide",
+      "ok": true,
+      "message": "Crawler guide file is available."
+    },
+    {
+      "key": "data_quickstart",
+      "ok": true,
+      "message": "Data operation quickstart is available."
+    },
+    {
+      "key": "place_flow",
+      "ok": true,
+      "message": "Place candidate workflow is available."
+    },
+    {
+      "key": "candidate_review",
+      "ok": true,
+      "message": "Candidate review document is available."
+    },
+    {
+      "key": "shop_count",
+      "ok": true,
+      "message": "2815 shops are registered."
+    },
+    {
+      "key": "area_count",
+      "ok": true,
+      "message": "120 areas are registered."
+    },
+    {
+      "key": "genre_count",
+      "ok": true,
+      "message": "32 genres are registered."
+    },
+    {
+      "key": "active_area_count",
+      "ok": true,
+      "message": "120 areas have shop data."
+    },
+    {
+      "key": "active_genre_count",
+      "ok": true,
+      "message": "24 genres have shop data."
+    },
+    {
+      "key": "area_genre_pairs",
+      "ok": true,
+      "message": "1551 area and genre pairs have data."
+    },
+    {
+      "key": "generated_pages",
+      "ok": true,
+      "message": "4010 HTML pages are generated."
+    },
+    {
+      "key": "map_routes",
+      "ok": true,
+      "message": "2815 shops have map route signals."
+    },
+    {
+      "key": "action_links",
+      "ok": true,
+      "message": "2815 shops have action links."
+    },
+    {
+      "key": "duplicate_shop_ids",
+      "ok": true,
+      "message": "Shop ids are unique."
+    },
+    {
+      "key": "missing_area_references",
+      "ok": true,
+      "message": "Area references are valid."
+    },
+    {
+      "key": "missing_genre_references",
+      "ok": true,
+      "message": "Genre references are valid."
+    },
+    {
+      "key": "url_state",
+      "ok": true,
+      "message": "Search state can be shared by URL."
+    }
+  ]
+}
