@@ -1,0 +1,271 @@
+{
+  "generated_at": "2026-07-23T08:46:31.813Z",
+  "totals": {
+    "shops": 2815,
+    "areas": 120,
+    "genres": 32,
+    "approved_seed_count": 0,
+    "approved_shop_count": 0,
+    "reviewed_approved_count": 0,
+    "pending_candidate_count": 0
+  },
+  "quality": {
+    "duplicate_area_keys": 0,
+    "duplicate_shop_ids": 0,
+    "missing_area_references": 0,
+    "missing_genre_references": 0
+  },
+  "coverage": {
+    "gap_count": 3291,
+    "top_gaps": [
+      {
+        "area_key": "anjo",
+        "area_label": "安城市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "handa",
+        "area_label": "半田市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "ichinomiya",
+        "area_label": "一宮市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "kariya",
+        "area_label": "刈谷市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "kasugai",
+        "area_label": "春日井市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "komaki",
+        "area_label": "小牧市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "nisshin",
+        "area_label": "日進市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "obu",
+        "area_label": "大府市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "okazaki",
+        "area_label": "岡崎市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "owariasahi",
+        "area_label": "尾張旭市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "toyohashi",
+        "area_label": "豊橋市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "toyokawa",
+        "area_label": "豊川市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "toyota",
+        "area_label": "豊田市",
+        "prefecture_key": "aichi",
+        "prefecture": "愛知県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "akita",
+        "area_label": "秋田市",
+        "prefecture_key": "akita",
+        "prefecture": "秋田県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "aomori",
+        "area_label": "青森市",
+        "prefecture_key": "aomori",
+        "prefecture": "青森県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "funabashi",
+        "area_label": "船橋市",
+        "prefecture_key": "chiba",
+        "prefecture": "千葉県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "ichikawa",
+        "area_label": "市川市",
+        "prefecture_key": "chiba",
+        "prefecture": "千葉県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "kashiwa",
+        "area_label": "柏市",
+        "prefecture_key": "chiba",
+        "prefecture": "千葉県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "matsuyama",
+        "area_label": "松山市",
+        "prefecture_key": "ehime",
+        "prefecture": "愛媛県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      },
+      {
+        "area_key": "fukui",
+        "area_label": "福井市",
+        "prefecture_key": "fukui",
+        "prefecture": "福井県",
+        "genre_key": "dental-clinic",
+        "genre_label": "歯医者",
+        "current": 0,
+        "target": 5,
+        "missing": 5,
+        "score": 556
+      }
+    ]
+  },
+  "approved_by_area": [],
+  "approved_by_genre": [],
+  "latest_approved": [],
+  "next_actions": [
+    "候補CSVで住所と公式サイトを確認し、採用IDファイルへ追加します。",
+    "承認後は採用、生成、品質確認、カバレッジ更新を同じ順番で実行します。",
+    "不足が大きいエリア・ジャンルから10件単位で追加します。"
+  ]
+}

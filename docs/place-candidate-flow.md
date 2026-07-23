@@ -50,9 +50,11 @@ npm run candidates:approve
 npm run candidates:adopt
 npm run generate
 npm run report:data
+npm run report:adoption
 ```
 
 採用済み候補は `data/seed-place-approved.json` に入り、次回以降も自動で `data/shops.json` に反映されます。
+採用後の件数は `data/adoption-report.json` と `docs/adoption-report.md` で確認できます。
 
 ## 見るポイント
 
