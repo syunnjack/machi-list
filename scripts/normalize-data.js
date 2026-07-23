@@ -455,6 +455,7 @@ const removeIds = new Set([
   "akita-kaikatsu-shinkokudo-netcafe",
   "mito-kaikatsu-watari-netcafe",
   "utsunomiya-kaikatsu-miyuki-netcafe",
+  "wakayama-kaikatsu-kokutai-darts",
   "oita-oita-round1-stadium-bowling",
   "oita-oita-round1-stadium-crane",
   "oita-oita-round1-stadium-darts",

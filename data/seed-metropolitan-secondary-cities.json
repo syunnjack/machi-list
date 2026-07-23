@@ -309,5 +309,19 @@
   ["utsunomiya-kaikatsu-miyukigahara-karaoke", "快活CLUB 宇都宮御幸ヶ原店", "karaoke", "utsunomiya", "栃木県宇都宮市下川俣町78-6", "岡本駅", 35, 900, "目安900円から", true, true, true, "御幸ヶ原周辺", "https://www.kaikatsu.jp/shop/detail/20212.html"],
   ["maebashi-kaikatsu-kamikoide-karaoke", "快活CLUB 前橋上小出店", "karaoke", "maebashi", "群馬県前橋市上小出町3-41-10", "群馬総社駅", 35, 900, "目安900円から", true, true, true, "上小出周辺", "https://www.kaikatsu.jp/shop/detail/20222.html"],
   ["maebashi-gigo-keyakiwalk-game", "GiGOけやきウォーク前橋", "game-center", "maebashi", "群馬県前橋市文京町2-1-1 アピタけやきウォーク前橋店2F", "前橋駅", 10, 1000, "目安1,000円から", true, true, true, "けやきウォーク前橋", "https://www.gigo.co.jp/shops/maebashi"],
-  ["maebashi-gigo-keyakiwalk-crane", "GiGOけやきウォーク前橋", "crane-game", "maebashi", "群馬県前橋市文京町2-1-1 アピタけやきウォーク前橋店2F", "前橋駅", 10, 1000, "目安1,000円から", true, true, true, "けやきウォーク前橋", "https://www.gigo.co.jp/shops/maebashi"]
+  ["maebashi-gigo-keyakiwalk-crane", "GiGOけやきウォーク前橋", "crane-game", "maebashi", "群馬県前橋市文京町2-1-1 アピタけやきウォーク前橋店2F", "前橋駅", 10, 1000, "目安1,000円から", true, true, true, "けやきウォーク前橋", "https://www.gigo.co.jp/shops/maebashi"],
+  ["fukui-kaikatsu-yonematsu-netcafe", "快活CLUB 福井米松店", "netcafe", "fukui", "福井県福井市米松2-23-33", "越前開発駅", 9, 1200, "目安1,200円から", true, true, true, "米松周辺", "https://www.kaikatsu.jp/shop/detail/20421.html"],
+  ["fukui-kaikatsu-yonematsu-karaoke", "快活CLUB 福井米松店", "karaoke", "fukui", "福井県福井市米松2-23-33", "越前開発駅", 9, 900, "目安900円から", true, true, true, "米松周辺", "https://www.kaikatsu.jp/shop/detail/20421.html"],
+  ["fukui-kaikatsu-yonematsu-darts", "快活CLUB 福井米松店", "darts", "fukui", "福井県福井市米松2-23-33", "越前開発駅", 9, 1000, "目安1,000円から", true, true, true, "米松周辺", "https://www.kaikatsu.jp/shop/detail/20421.html"],
+  ["fukui-kaikatsu-yonematsu-billiards", "快活CLUB 福井米松店", "billiards", "fukui", "福井県福井市米松2-23-33", "越前開発駅", 9, 1000, "目安1,000円から", true, true, true, "米松周辺", "https://www.kaikatsu.jp/shop/detail/20421.html"],
+  ["otsu-kaikatsu-zeze-karaoke", "快活CLUB 大津膳所店", "karaoke", "otsu", "滋賀県大津市馬場1-7-9", "京阪膳所駅", 5, 900, "目安900円から", true, true, true, "膳所周辺", "https://www.kaikatsu.jp/shop/detail/20501.html"],
+  ["otsu-kaikatsu-zeze-darts", "快活CLUB 大津膳所店", "darts", "otsu", "滋賀県大津市馬場1-7-9", "京阪膳所駅", 5, 1000, "目安1,000円から", true, true, true, "膳所周辺", "https://www.kaikatsu.jp/shop/detail/20501.html"],
+  ["wakayama-kaikatsu-kokutai-netcafe", "快活CLUB 和歌山国体道路店", "netcafe", "wakayama", "和歌山県和歌山市小雑賀770-3", "紀三井寺駅", 14, 1200, "目安1,200円から", true, true, true, "小雑賀周辺", "https://www.kaikatsu.jp/shop/detail/20581.html"],
+  ["wakayama-kaikatsu-kokutai-karaoke", "快活CLUB 和歌山国体道路店", "karaoke", "wakayama", "和歌山県和歌山市小雑賀770-3", "紀三井寺駅", 14, 900, "目安900円から", true, true, true, "小雑賀周辺", "https://www.kaikatsu.jp/shop/detail/20581.html"],
+  ["wakayama-kaikatsu-kinokawa-netcafe", "快活CLUB 紀ノ川大橋店", "netcafe", "wakayama", "和歌山県和歌山市湊1771-5", "和歌山市駅", 25, 1200, "目安1,200円から", true, true, true, "湊周辺", "https://www.kaikatsu.jp/shop/detail/20583.html"],
+  ["wakayama-kaikatsu-kinokawa-karaoke", "快活CLUB 紀ノ川大橋店", "karaoke", "wakayama", "和歌山県和歌山市湊1771-5", "和歌山市駅", 25, 900, "目安900円から", true, true, true, "湊周辺", "https://www.kaikatsu.jp/shop/detail/20583.html"],
+  ["wakayama-kaikatsu-kinokawa-darts", "快活CLUB 紀ノ川大橋店", "darts", "wakayama", "和歌山県和歌山市湊1771-5", "和歌山市駅", 25, 1000, "目安1,000円から", true, true, true, "湊周辺", "https://www.kaikatsu.jp/shop/detail/20583.html"],
+  ["wakayama-kaikatsu-kinokawa-billiards", "快活CLUB 紀ノ川大橋店", "billiards", "wakayama", "和歌山県和歌山市湊1771-5", "和歌山市駅", 25, 1000, "目安1,000円から", true, true, true, "湊周辺", "https://www.kaikatsu.jp/shop/detail/20583.html"],
+  ["wakayama-namco-palmcity-game", "namcoパームシティ和歌山店", "game-center", "wakayama", "和歌山県和歌山市中野31-1 パームシティ和歌山店2F", "東松江駅", 12, 1000, "目安1,000円から", true, true, true, "パームシティ和歌山", "https://bandainamco-am.co.jp/game_center/loc/wakayama/"],
+  ["wakayama-namco-palmcity-crane", "namcoパームシティ和歌山店", "crane-game", "wakayama", "和歌山県和歌山市中野31-1 パームシティ和歌山店2F", "東松江駅", 12, 1000, "目安1,000円から", true, true, true, "パームシティ和歌山", "https://bandainamco-am.co.jp/game_center/loc/wakayama/"]
 ]
