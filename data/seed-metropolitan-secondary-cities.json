@@ -209,5 +209,15 @@
   ["yamaguchi-shimonoseki-thirdplanet-chofu-capsule", "サープラ下関長府あそびタウン", "capsule-toy", "shimonoseki", "山口県下関市ゆめタウン1-1 2F", "ゆめタウン長府バス停", 1, 500, "目安500円から", true, true, true, "ゆめタウン長府", "https://3rd-planet.jp/sp-shimonoseki/"],
   ["shimane-matsue-kaikatsu-karaoke", "快活CLUB 松江店", "karaoke", "matsue", "島根県松江市学園1-1-1", "松江駅", 22, 900, "目安900円から", true, true, true, "学園周辺", "https://www.kaikatsu.jp/shop/detail/20611.html"],
   ["shimane-matsue-amipara-game", "アミパラ松江店", "game-center", "matsue", "島根県松江市東朝日町203-1", "松江駅", 15, 1000, "目安1,000円から", true, true, true, "東朝日町周辺", "https://amipara.co.jp/store/amipara-matsue/"],
-  ["shimane-matsue-amipara-crane", "アミパラ松江店", "crane-game", "matsue", "島根県松江市東朝日町203-1", "松江駅", 15, 1000, "目安1,000円から", true, true, true, "東朝日町周辺", "https://amipara.co.jp/store/amipara-matsue/"]
+  ["shimane-matsue-amipara-crane", "アミパラ松江店", "crane-game", "matsue", "島根県松江市東朝日町203-1", "松江駅", 15, 1000, "目安1,000円から", true, true, true, "東朝日町周辺", "https://amipara.co.jp/store/amipara-matsue/"],
+  ["fukuoka-kitakyushu-kaikatsu-kokura-station", "快活CLUB 小倉駅南口店", "netcafe", "kitakyushu-kokurakita", "福岡県北九州市小倉北区京町2-1-21", "小倉駅", 3, 1200, "目安1,200円から", false, true, true, "小倉駅南口", "https://www.kaikatsu.jp/shop/detail/20805.html"],
+  ["fukuoka-kitakyushu-gigo-aruaru-capsule", "GiGOあるあるCity", "capsule-toy", "kitakyushu-kokurakita", "福岡県北九州市小倉北区浅野2-14-5 あるあるcity 4F", "小倉駅", 2, 500, "目安500円から", false, true, true, "あるあるCity", "https://www.gigo.co.jp/shops/kokura"],
+  ["saga-saga-kaikatsu-honjo", "快活CLUB 佐賀本庄店", "netcafe", "saga", "佐賀県佐賀市本庄町本庄969-1", "佐賀駅", 45, 1200, "目安1,200円から", true, true, true, "本庄町周辺", "https://www.kaikatsu.jp/shop/detail/20821.html"],
+  ["saga-saga-kaikatsu-honjo-karaoke", "快活CLUB 佐賀本庄店", "karaoke", "saga", "佐賀県佐賀市本庄町本庄969-1", "佐賀駅", 45, 900, "目安900円から", true, true, true, "本庄町周辺", "https://www.kaikatsu.jp/shop/detail/20821.html"],
+  ["saga-saga-kaikatsu-honjo-darts", "快活CLUB 佐賀本庄店", "darts", "saga", "佐賀県佐賀市本庄町本庄969-1", "佐賀駅", 45, 1000, "目安1,000円から", true, true, true, "本庄町周辺", "https://www.kaikatsu.jp/shop/detail/20821.html"],
+  ["saga-saga-kaikatsu-honjo-billiards", "快活CLUB 佐賀本庄店", "billiards", "saga", "佐賀県佐賀市本庄町本庄969-1", "佐賀駅", 45, 1000, "目安1,000円から", true, true, true, "本庄町周辺", "https://www.kaikatsu.jp/shop/detail/20821.html"],
+  ["saga-saga-namco-yumetown", "namcoゆめタウン佐賀店", "game-center", "saga", "佐賀県佐賀市兵庫北5-14-1 ゆめタウン佐賀2F", "佐賀駅", 35, 1000, "目安1,000円から", true, true, true, "ゆめタウン佐賀", "https://bandainamco-am.co.jp/game_center/loc/saga/"],
+  ["saga-saga-namco-yumetown-crane", "namcoゆめタウン佐賀店", "crane-game", "saga", "佐賀県佐賀市兵庫北5-14-1 ゆめタウン佐賀2F", "佐賀駅", 35, 1000, "目安1,000円から", true, true, true, "ゆめタウン佐賀", "https://bandainamco-am.co.jp/game_center/loc/saga/"],
+  ["oita-oita-gigo-takajo", "GiGO高城", "game-center", "oita", "大分県大分市牧1-161-8", "牧駅", 5, 1000, "目安1,000円から", true, true, false, "牧駅周辺", "https://www.gigo.co.jp/shops/takajo"],
+  ["oita-oita-gigo-takajo-crane", "GiGO高城", "crane-game", "oita", "大分県大分市牧1-161-8", "牧駅", 5, 1000, "目安1,000円から", true, true, false, "牧駅周辺", "https://www.gigo.co.jp/shops/takajo"]
 ]

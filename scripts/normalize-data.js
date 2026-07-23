@@ -451,7 +451,12 @@ const removeIds = new Set([
   "chiba-ichikawa-round1-crane",
   "chiba-ichikawa-round1-darts",
   "chiba-ichikawa-round1-game",
-  "chiba-ichikawa-round1-karaoke"
+  "chiba-ichikawa-round1-karaoke",
+  "oita-oita-round1-stadium-bowling",
+  "oita-oita-round1-stadium-crane",
+  "oita-oita-round1-stadium-darts",
+  "oita-oita-round1-stadium-game",
+  "oita-oita-round1-stadium-karaoke"
 ]);
 
 for (let index = shops.length - 1; index >= 0; index -= 1) {
