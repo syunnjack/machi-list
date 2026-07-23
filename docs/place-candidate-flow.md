@@ -14,6 +14,18 @@ npm run seeds:places
 $env:PLACE_SEEDS_FILE="data/place-seeds.next.json"; npm run sync:places
 ```
 
+小分けに取得する場合は、件数と開始位置を指定します。まずは10件ずつ確認するのがおすすめです。
+
+```powershell
+$env:PLACE_SEEDS_FILE="data/place-seeds.next.json"
+$env:PLACES_SEED_LIMIT="10"
+$env:PLACES_SEED_OFFSET="0"
+$env:PLACES_APPEND="1"
+npm run sync:places
+```
+
+次の10件は `PLACES_SEED_OFFSET` を `10`、その次は `20` にします。取得結果は `data/google-places-candidates.json`、実行レポートは `data/google-places-sync-report.json` に出ます。
+
 候補取得後に確認用ファイルを作ります。
 
 ```bash
