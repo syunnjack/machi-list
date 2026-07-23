@@ -323,5 +323,15 @@
   ["wakayama-kaikatsu-kinokawa-darts", "快活CLUB 紀ノ川大橋店", "darts", "wakayama", "和歌山県和歌山市湊1771-5", "和歌山市駅", 25, 1000, "目安1,000円から", true, true, true, "湊周辺", "https://www.kaikatsu.jp/shop/detail/20583.html"],
   ["wakayama-kaikatsu-kinokawa-billiards", "快活CLUB 紀ノ川大橋店", "billiards", "wakayama", "和歌山県和歌山市湊1771-5", "和歌山市駅", 25, 1000, "目安1,000円から", true, true, true, "湊周辺", "https://www.kaikatsu.jp/shop/detail/20583.html"],
   ["wakayama-namco-palmcity-game", "namcoパームシティ和歌山店", "game-center", "wakayama", "和歌山県和歌山市中野31-1 パームシティ和歌山店2F", "東松江駅", 12, 1000, "目安1,000円から", true, true, true, "パームシティ和歌山", "https://bandainamco-am.co.jp/game_center/loc/wakayama/"],
-  ["wakayama-namco-palmcity-crane", "namcoパームシティ和歌山店", "crane-game", "wakayama", "和歌山県和歌山市中野31-1 パームシティ和歌山店2F", "東松江駅", 12, 1000, "目安1,000円から", true, true, true, "パームシティ和歌山", "https://bandainamco-am.co.jp/game_center/loc/wakayama/"]
+  ["wakayama-namco-palmcity-crane", "namcoパームシティ和歌山店", "crane-game", "wakayama", "和歌山県和歌山市中野31-1 パームシティ和歌山店2F", "東松江駅", 12, 1000, "目安1,000円から", true, true, true, "パームシティ和歌山", "https://bandainamco-am.co.jp/game_center/loc/wakayama/"],
+  ["tokushima-gigo-suehiro-game", "GiGOスエヒロボウル徳島", "game-center", "tokushima", "徳島県徳島市南末広町4-95-2 スエヒロボウル1F", "阿波富田駅", 30, 1000, "目安1,000円から", true, true, true, "南末広町周辺", "https://www.gigo.co.jp/shops/tokushima-minamisuehiro"],
+  ["tokushima-gigo-suehiro-crane", "GiGOスエヒロボウル徳島", "crane-game", "tokushima", "徳島県徳島市南末広町4-95-2 スエヒロボウル1F", "阿波富田駅", 30, 1000, "目安1,000円から", true, true, true, "南末広町周辺", "https://www.gigo.co.jp/shops/tokushima-minamisuehiro"],
+  ["tokushima-kaikatsu-okinohama-netcafe", "快活CLUB 徳島沖浜店", "netcafe", "tokushima", "徳島県徳島市八万町大野128-1", "文化の森駅", 15, 1200, "目安1,200円から", true, true, true, "沖浜周辺", "https://www.kaikatsu.jp/shop/detail/20653.html"],
+  ["tokushima-kaikatsu-okinohama-karaoke", "快活CLUB 徳島沖浜店", "karaoke", "tokushima", "徳島県徳島市八万町大野128-1", "文化の森駅", 15, 900, "目安900円から", true, true, true, "沖浜周辺", "https://www.kaikatsu.jp/shop/detail/20653.html"],
+  ["takamatsu-kaikatsu-chuo-netcafe", "快活CLUB 高松中央通り店", "netcafe", "takamatsu", "香川県高松市東ハゼ町12-9", "三条駅", 15, 1200, "目安1,200円から", true, true, true, "東ハゼ町周辺", "https://www.kaikatsu.jp/shop/detail/20665.html"],
+  ["takamatsu-kaikatsu-chuo-karaoke", "快活CLUB 高松中央通り店", "karaoke", "takamatsu", "香川県高松市東ハゼ町12-9", "三条駅", 15, 900, "目安900円から", true, true, true, "東ハゼ町周辺", "https://www.kaikatsu.jp/shop/detail/20665.html"],
+  ["takamatsu-kaikatsu-chuo-darts", "快活CLUB 高松中央通り店", "darts", "takamatsu", "香川県高松市東ハゼ町12-9", "三条駅", 15, 1000, "目安1,000円から", true, true, true, "東ハゼ町周辺", "https://www.kaikatsu.jp/shop/detail/20665.html"],
+  ["takamatsu-kaikatsu-chuo-billiards", "快活CLUB 高松中央通り店", "billiards", "takamatsu", "香川県高松市東ハゼ町12-9", "三条駅", 15, 1000, "目安1,000円から", true, true, true, "東ハゼ町周辺", "https://www.kaikatsu.jp/shop/detail/20665.html"],
+  ["takamatsu-gigo-aeonmall-game", "GiGOイオンモール高松", "game-center", "takamatsu", "香川県高松市香西本町1-1 イオンモール高松2F", "香西駅", 25, 1000, "目安1,000円から", true, true, true, "イオンモール高松", "https://www.gigo.co.jp/shops/a-takamatsu"],
+  ["takamatsu-gigo-aeonmall-crane", "GiGOイオンモール高松", "crane-game", "takamatsu", "香川県高松市香西本町1-1 イオンモール高松2F", "香西駅", 25, 1000, "目安1,000円から", true, true, true, "イオンモール高松", "https://www.gigo.co.jp/shops/a-takamatsu"]
 ]
