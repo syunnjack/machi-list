@@ -9,12 +9,14 @@ const shops = readJson("data/shops.json");
 const areas = readJson("data/areas.json");
 const genres = readJson("data/genres.json");
 const candidates = fs.existsSync(inputPath) ? readJson(path.relative(root, inputPath)) : [];
+const previousReviewed = fs.existsSync(outputPath) ? readJson(path.relative(root, outputPath)) : [];
 
 const areaByKey = new Map(areas.map((area) => [area.key, area]));
 const genreByKey = new Map(genres.map((genre) => [genre.key, genre]));
 const existingIds = new Set(shops.map((shop) => shop.id));
 const existingPlaceIds = new Set(shops.map((shop) => shop.source?.google_place_id).filter(Boolean));
 const existingFingerprints = new Set(shops.map(fingerprint));
+const previousByKey = new Map(previousReviewed.map((candidate) => [reviewKey(candidate), candidate]));
 
 const reviewed = candidates.map((candidate) => {
   const area = areaByKey.get(candidate.area_key);
@@ -31,9 +33,11 @@ const reviewed = candidates.map((candidate) => {
   ].filter(Boolean);
 
   const score = scoreCandidate(candidate, issues);
+  const previous = previousByKey.get(reviewKey(candidate));
   return {
     ...candidate,
-    review_status: candidate.review_status || "pending",
+    review_status: previous?.review_status || candidate.review_status || "pending",
+    review_note: previous?.review_note || candidate.review_note || "",
     review_score: score,
     review_issues: issues,
     review_summary: {
@@ -75,6 +79,10 @@ function normalizeText(value) {
     .toLowerCase()
     .replace(/\s+/g, "")
     .replace(/[^\p{Letter}\p{Number}]/gu, "");
+}
+
+function reviewKey(candidate) {
+  return candidate.source?.google_place_id || candidate.id || fingerprint(candidate);
 }
 
 function readJson(relativePath) {

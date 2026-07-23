@@ -32,6 +32,18 @@ npm run sync:places
 npm run candidates:review
 ```
 
+CSVで確認した候補を承認する場合は、まず承認IDファイルのテンプレートを作ります。
+
+```bash
+npm run candidates:approve
+```
+
+`data/place-candidates.approve.txt` に採用する候補の `id` または `google_place_id` を1行ずつ書き、もう一度実行します。
+
+```bash
+npm run candidates:approve
+```
+
 `data/place-candidates.review.json` の候補を確認し、採用するものだけ `review_status` を `approved` にします。そのあと次を実行します。
 
 ```bash
