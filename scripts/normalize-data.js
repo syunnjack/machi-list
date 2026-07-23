@@ -23,6 +23,18 @@ function rakutenUrl(keyword) {
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keyword)}/`;
 }
 
+function searchUrl(keyword) {
+  return `https://www.google.com/search?q=${encodeURIComponent(keyword)}`;
+}
+
+function timesUrl(area) {
+  return vcUrl(`https://times-info.net/?keyword=${encodeURIComponent(area.label)}`);
+}
+
+function timesCardUrl() {
+  return vcUrl("https://btimes.jp/about/");
+}
+
 const eventGenreKeys = new Set(["darts", "bowling", "billiards"]);
 
 function isEventGenre(genreKey) {
@@ -51,7 +63,8 @@ function toolKeyword(genreKey, label) {
     "hobby-shop": "プラモデル 工具 ケース",
     "recycle-shop": "収納ボックス 梱包資材",
     "dental-clinic": "歯ブラシ 歯間ブラシ デンタルフロス",
-    "parking-lot": "車載 便利グッズ",
+    "parking-lot": "タイムズカード ETC 車載 便利グッズ",
+    "bicycle-parking": "自転車 鍵 レインカバー ライト",
     "gas-station": "洗車用品 車 メンテナンス",
     "post-office": "梱包資材 封筒 宅配袋"
   }[genreKey] || `${label} 関連商品`;
@@ -83,6 +96,7 @@ function defaultHours(genreKey) {
     "recycle-shop": "営業時間確認",
     "dental-clinic": "診療時間確認",
     "parking-lot": "24時間営業",
+    "bicycle-parking": "利用時間確認",
     "gas-station": "営業時間確認",
     "post-office": "窓口時間確認"
   }[genreKey] || "営業時間確認";
@@ -125,7 +139,13 @@ function normalizeShop(shop) {
   if (!shop.booking_url && (shop.genre_key === "capsule-toy" || shop.genre_key === "crane-game") && shop.official_url) {
     shop.booking_url = shop.official_url;
   }
-  if (!shop.booking_url && (shop.genre_key === "convenience-store" || shop.genre_key === "cafe" || shop.genre_key === "coin-laundry" || shop.genre_key === "drugstore" || shop.genre_key === "trading-card-shop" || shop.genre_key === "hobby-shop" || shop.genre_key === "recycle-shop" || shop.genre_key === "dental-clinic" || shop.genre_key === "parking-lot" || shop.genre_key === "gas-station" || shop.genre_key === "post-office") && shop.official_url) {
+  if (!shop.booking_url && shop.genre_key === "parking-lot") {
+    shop.booking_url = timesUrl(area);
+  }
+  if (!shop.booking_url && shop.genre_key === "bicycle-parking") {
+    shop.booking_url = searchUrl(`${area.label} 駐輪場 料金 定期利用 自治体`);
+  }
+  if (!shop.booking_url && (shop.genre_key === "convenience-store" || shop.genre_key === "cafe" || shop.genre_key === "coin-laundry" || shop.genre_key === "drugstore" || shop.genre_key === "trading-card-shop" || shop.genre_key === "hobby-shop" || shop.genre_key === "recycle-shop" || shop.genre_key === "dental-clinic" || shop.genre_key === "gas-station" || shop.genre_key === "post-office") && shop.official_url) {
     shop.booking_url = shop.official_url;
   }
   if (!shop.booking_url && isEventGenre(shop.genre_key)) {
@@ -134,11 +154,14 @@ function normalizeShop(shop) {
   if (!shop.booking_url && shop.genre_key !== "adult-shop") {
     shop.booking_url = vcUrl(`https://www.hotpepper.jp/?keyword=${encodeURIComponent(`${area.label} ${genre.label}`)}`);
   }
+  if (!shop.coupon_url && shop.genre_key === "parking-lot") {
+    shop.coupon_url = timesCardUrl();
+  }
   if (!shop.coupon_url) {
     shop.coupon_url = shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(isEventGenre(shop.genre_key) ? toolKeyword(shop.genre_key, genre.label) : `${genre.label} クーポン`);
   }
   if (!shop.shopping_url) {
-    shop.shopping_url = shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(toolKeyword(shop.genre_key, genre.label));
+    shop.shopping_url = shop.genre_key === "parking-lot" ? timesCardUrl() : (shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(toolKeyword(shop.genre_key, genre.label)));
   }
   return shop;
 }
@@ -443,6 +466,41 @@ for (const seedAdditionPath of seedAdditionFiles) {
   if (!fs.existsSync(seedAdditionsFile)) continue;
   const seedAdditions = JSON.parse(fs.readFileSync(seedAdditionsFile, "utf8").replace(/^\uFEFF/, ""));
   for (const item of seedAdditions) additions.push(item);
+}
+
+for (const area of areas) {
+  additions.push([
+    `${area.key}-reservable-parking-guide`,
+    `${area.label} 予約できる駐車場案内`,
+    "parking-lot",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    300,
+    "目安300円から",
+    true,
+    true,
+    true,
+    `${area.label}中心部`,
+    timesUrl(area)
+  ]);
+  additions.push([
+    `${area.key}-municipal-bicycle-parking-guide`,
+    `${area.label} 駐輪場案内`,
+    "bicycle-parking",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    100,
+    "目安100円から",
+    false,
+    true,
+    false,
+    `${area.label}中心部`,
+    searchUrl(`${area.label} 駐輪場 料金 定期利用 自治体`)
+  ]);
 }
 
 const removeIds = new Set([

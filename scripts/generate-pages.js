@@ -238,7 +238,29 @@ function vcUrl(targetUrl) {
   return `https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=YOUR_VC_SID&pid=YOUR_VC_PID&vc_url=${encodeURIComponent(targetUrl)}`;
 }
 
+function searchUrl(keyword) {
+  return `https://www.google.com/search?q=${encodeURIComponent(keyword)}`;
+}
+
+function timesParkingUrl(area) {
+  return vcUrl(`https://btimes.jp/search/?keyword=${encodeURIComponent(area.label)}`);
+}
+
+function timesCardUrl() {
+  return vcUrl("https://btimes.jp/about/");
+}
+
+function parkingLandUseUrl() {
+  return vcUrl("https://www.times24.co.jp/lp/li01002.html");
+}
+
+function parkingOperatorSearchUrl(area) {
+  return searchUrl(`${area.label} 駐車場経営 土地活用 タイムズ24 三井のリパーク 名鉄協商 日本駐車場開発`);
+}
+
 function bookingUrl(area, genre) {
+  if (genre.key === "parking-lot") return timesParkingUrl(area);
+  if (genre.key === "bicycle-parking") return searchUrl(`${area.label} 駐輪場 料金 定期利用 自治体`);
   return vcUrl(`https://www.hotpepper.jp/?keyword=${encodeURIComponent(`${area.label} ${genre.label}`)}`);
 }
 
@@ -264,7 +286,9 @@ function shoppingUrl(genre) {
     "capsule-toy": "カプセルトイ 収納 ケース",
     "crane-game": "クレーンゲーム 景品 収納",
     "convenience-store": "携帯灰皿",
-    cafe: "カフェ タンブラー"
+    cafe: "カフェ タンブラー",
+    "parking-lot": "タイムズカード ETC 車載 便利グッズ",
+    "bicycle-parking": "自転車 鍵 レインカバー ライト"
   };
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keywords[genre.key] || `${genre.label} 関連商品`)}/`;
 }
@@ -305,6 +329,12 @@ function subtleLinks(area, genre, depth) {
   if (genre.key === "cafe") {
     return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">店舗を確認</a><a href="${shoppingUrl(genre)}">タンブラー</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
+  if (genre.key === "parking-lot") {
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${timesParkingUrl(area)}">予約できる駐車場</a><a href="${timesCardUrl()}">会員登録を確認</a><a href="${parkingLandUseUrl()}">土地活用を相談</a><a href="${parkingOperatorSearchUrl(area)}">管理会社を比べる</a></section>`;
+  }
+  if (genre.key === "bicycle-parking") {
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">料金・定期利用</a><a href="${shoppingUrl(genre)}">鍵・ライト</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+  }
   return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">予約できる店</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${shoppingUrl(genre)}">${genre.key === "adult-shop" ? "通販を見る" : "関連アイテム"}</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
 }
 
@@ -317,6 +347,8 @@ function primaryActionLabel(shop) {
   if (shop.genre_key === "crane-game") return "景品・イベント";
   if (shop.genre_key === "convenience-store") return "店舗を確認";
   if (shop.genre_key === "cafe") return "店舗を確認";
+  if (shop.genre_key === "parking-lot") return "予約・空き確認";
+  if (shop.genre_key === "bicycle-parking") return "料金・定期利用";
   return "予約";
 }
 
@@ -328,6 +360,8 @@ function secondaryActionLabel(shop) {
   if (shop.genre_key === "crane-game") return "収納・グッズ";
   if (shop.genre_key === "convenience-store") return "携帯灰皿";
   if (shop.genre_key === "cafe") return "タンブラー";
+  if (shop.genre_key === "parking-lot") return "会員・カード";
+  if (shop.genre_key === "bicycle-parking") return "鍵・ライト";
   return "クーポン";
 }
 
@@ -339,6 +373,8 @@ function supportHeading(genre) {
   if (genre.key === "crane-game") return "景品・イベント・周辺情報";
   if (genre.key === "convenience-store") return "店頭喫煙・灰皿・周辺情報";
   if (genre.key === "cafe") return "電源・Wi-Fi・イートイン";
+  if (genre.key === "parking-lot") return "予約・会員登録・土地活用";
+  if (genre.key === "bicycle-parking") return "料金・定期利用・自治体案内";
   return "予約・クーポン・周辺情報";
 }
 
@@ -350,6 +386,8 @@ function supportText(area, genre) {
   if (genre.key === "crane-game") return `${area.label}周辺のクレーンゲーム、UFOキャッチャー、景品、駅近店舗を必要な時に確認できます。`;
   if (genre.key === "convenience-store") return `${area.label}周辺のコンビニ、店頭喫煙、灰皿、駐車場、24時間営業を必要な時に確認できます。`;
   if (genre.key === "cafe") return `${area.label}周辺のカフェ、電源、Wi-Fi、イートイン、駅からの近さを必要な時に確認できます。`;
+  if (genre.key === "parking-lot") return `${area.label}周辺の駐車場、事前予約、会員登録、土地活用の相談先を必要な時に確認できます。`;
+  if (genre.key === "bicycle-parking") return `${area.label}周辺の駐輪場、一時利用、定期利用、料金、自治体の案内を必要な時に確認できます。`;
   return `${area.label}周辺で使える予約、クーポン、通販、駐車場を必要な時に開けます。`;
 }
 
@@ -360,6 +398,8 @@ function supportPrimaryUrl(area, genre) {
   if (genre.key === "crane-game") return couponUrl(genre);
   if (genre.key === "convenience-store") return couponUrl(genre);
   if (genre.key === "cafe") return bookingUrl(area, genre);
+  if (genre.key === "parking-lot") return timesParkingUrl(area);
+  if (genre.key === "bicycle-parking") return bookingUrl(area, genre);
   return bookingUrl(area, genre);
 }
 
@@ -371,15 +411,21 @@ function supportPrimaryLabel(genre) {
   if (genre.key === "crane-game") return "景品・イベント";
   if (genre.key === "convenience-store") return "クーポンを探す";
   if (genre.key === "cafe") return "店舗を確認";
+  if (genre.key === "parking-lot") return "予約・空き確認";
+  if (genre.key === "bicycle-parking") return "料金・定期利用";
   return "予約できる店";
 }
 
-function supportSecondaryUrl(genre) {
+function supportSecondaryUrl(genre, area = null) {
+  if (genre.key === "parking-lot") return area ? parkingLandUseUrl(area) : parkingLandUseUrl();
+  if (genre.key === "bicycle-parking") return shoppingUrl(genre);
   return isEventGenre(genre.key) ? shoppingUrl(genre) : couponUrl(genre);
 }
 
 function supportSecondaryLabel(genre) {
   if (isEventGenre(genre.key)) return "道具を探す";
+  if (genre.key === "parking-lot") return "土地活用を相談";
+  if (genre.key === "bicycle-parking") return "鍵・ライト";
   return "クーポンを探す";
 }
 

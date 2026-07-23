@@ -17,6 +17,8 @@ const text = {
   online: "通販",
   event: "大会・イベント",
   tools: "道具",
+  member: "会員・カード",
+  fee: "料金・定期利用",
   ticket: "上映・チケット",
   stock: "在庫・商品",
   map: "地図",
@@ -90,6 +92,18 @@ function rakutenSearchLink(keyword) {
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keyword)}/`;
 }
 
+function searchLink(keyword) {
+  return `https://www.google.com/search?q=${encodeURIComponent(keyword)}`;
+}
+
+function timesParkingLink(areaLabel) {
+  return vcLink(`https://btimes.jp/search/?keyword=${encodeURIComponent(areaLabel)}`);
+}
+
+function timesMemberLink() {
+  return vcLink("https://btimes.jp/about/");
+}
+
 const eventGenreKeys = new Set(["darts", "bowling", "billiards"]);
 
 function isEventGenre(genreKey) {
@@ -107,7 +121,9 @@ function toolKeyword(genreKey, label) {
     "capsule-toy": "カプセルトイ 収納 ケース",
     "crane-game": "クレーンゲーム 景品 収納",
     "convenience-store": "携帯灰皿",
-    cafe: "カフェ タンブラー"
+    cafe: "カフェ タンブラー",
+    "parking-lot": "タイムズカード ETC 車載 便利グッズ",
+    "bicycle-parking": "自転車 鍵 レインカバー ライト"
   }[genreKey] || `${label} 関連商品`;
 }
 
@@ -128,6 +144,8 @@ function routeLink(facility, origin = currentOrigin) {
 function normalizeShop(shop, index) {
   const isAdult = shop.genre_key === "adult-shop";
   const isEvent = isEventGenre(shop.genre_key);
+  const isParking = shop.genre_key === "parking-lot";
+  const isBicycleParking = shop.genre_key === "bicycle-parking";
   const hotpepperKeyword = `${shop.area_label} ${shop.genre}`;
   return {
     name: shop.name,
@@ -153,8 +171,8 @@ function normalizeShop(shop, index) {
     powerSeat: shop.power_seat || "",
     wifi: shop.wifi || "",
     eatIn: shop.eat_in || "",
-    bookingUrl: shop.booking_url || (isAdult ? "./guide/discreet-buying/" : (isEvent ? eventSearchLink(shop.area_label, shop.genre) : vcLink(`https://www.hotpepper.jp/SA33/?keyword=${encodeURIComponent(hotpepperKeyword)}`))),
-    relatedUrl: shop.shopping_url || shop.coupon_url || rakutenSearchLink(isAdult ? "アダルトグッズ 通販" : toolKeyword(shop.genre_key, shop.genre)),
+    bookingUrl: shop.booking_url || (isAdult ? "./guide/discreet-buying/" : (isEvent ? eventSearchLink(shop.area_label, shop.genre) : (isParking ? timesParkingLink(shop.area_label) : (isBicycleParking ? searchLink(`${shop.area_label} 駐輪場 料金 定期利用 自治体`) : vcLink(`https://www.hotpepper.jp/SA33/?keyword=${encodeURIComponent(hotpepperKeyword)}`))))),
+    relatedUrl: shop.shopping_url || shop.coupon_url || (isParking ? timesMemberLink() : rakutenSearchLink(isAdult ? "アダルトグッズ 通販" : toolKeyword(shop.genre_key, shop.genre))),
     mapUrl: mapSearchLink(`${shop.name} ${shop.address}`),
     lat: shop.lat || null,
     lng: shop.lng || null
@@ -237,6 +255,8 @@ function actionLabel(facility) {
   if (facility.genreKey === "crane-game") return "景品・イベント";
   if (facility.genreKey === "convenience-store") return "店舗を確認";
   if (facility.genreKey === "cafe") return "店舗を確認";
+  if (facility.genreKey === "parking-lot") return "予約・空き確認";
+  if (facility.genreKey === "bicycle-parking") return text.fee;
   return text.booking;
 }
 
@@ -248,6 +268,8 @@ function relatedLabel(facility) {
   if (facility.genreKey === "crane-game") return "収納・グッズ";
   if (facility.genreKey === "convenience-store") return "携帯灰皿";
   if (facility.genreKey === "cafe") return "タンブラー";
+  if (facility.genreKey === "parking-lot") return text.member;
+  if (facility.genreKey === "bicycle-parking") return "鍵・ライト";
   return text.related;
 }
 

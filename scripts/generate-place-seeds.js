@@ -66,6 +66,7 @@ function queriesFor(gap) {
     drugstore: [`${area} ドラッグストア`, `${area} 薬局 日用品`, `${area} ウエルシア スギ薬局 マツモトキヨシ`],
     "dental-clinic": [`${area} 歯医者`, `${area} 歯科`, `${area} 歯科医院 予約`],
     "parking-lot": [`${area} 駐車場`, `${area} コインパーキング`, `${area} 最大料金 駐車場`],
+    "bicycle-parking": [`${area} 駐輪場`, `${area} 市営駐輪場`, `${area} 駐輪場 料金 定期利用`],
     "gas-station": [`${area} ガソリンスタンド`, `${area} セルフ ガソリンスタンド`, `${area} 洗車 ガソリンスタンド`],
     "post-office": [`${area} 郵便局`, `${area} ゆうゆう窓口`, `${area} 郵便局 ATM`],
     "trading-card-shop": [`${area} トレカショップ`, `${area} カードショップ`, `${area} ポケカ 遊戯王 デュエルスペース`],
