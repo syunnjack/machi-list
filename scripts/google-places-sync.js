@@ -1,6 +1,8 @@
 const fs = require("node:fs");
 const path = require("node:path");
+const { loadEnv } = require("./load-env");
 
+loadEnv();
 const apiKey = process.env.GOOGLE_PLACES_API_KEY;
 const root = path.resolve(__dirname, "..");
 const seedsPath = path.join(root, process.env.PLACE_SEEDS_FILE || "data/place-seeds.json");

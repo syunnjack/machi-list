@@ -12,6 +12,8 @@ npm run data:preflight
 
 このコマンドで、次に実行すべきコマンドと不足している設定を確認できます。
 
+Google Places候補を取得する場合は、`.env.example` を `.env` にコピーし、`GOOGLE_PLACES_API_KEY` を設定します。`.env` はGitに含めません。
+
 ## 1. 次に集める候補を作る
 
 ```powershell

@@ -1,7 +1,9 @@
 const fs = require("node:fs");
 const path = require("node:path");
+const { loadEnv } = require("./load-env");
 
 const root = path.resolve(__dirname, "..");
+const loadedEnv = loadEnv();
 const outputPath = process.env.DATA_PREFLIGHT_FILE || "data/data-workflow-preflight.json";
 
 const checks = [
@@ -21,6 +23,7 @@ const nextAction = decideNextAction(checks);
 const report = {
   generated_at: new Date().toISOString(),
   status: summary.blockers ? "needs_setup" : "ready",
+  loaded_env_file: loadedEnv ? ".env" : null,
   summary,
   next_action: nextAction,
   checks
