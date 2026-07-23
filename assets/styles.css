@@ -935,6 +935,44 @@ button:hover,
   color: var(--muted);
 }
 
+.area-signals {
+  padding: 8px 0 4px;
+}
+
+.signal-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.signal-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 6px 10px;
+  min-height: 104px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.signal-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+}
+
+.signal-card span {
+  color: var(--accent-strong);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.signal-card small {
+  grid-column: 1 / -1;
+  color: var(--muted);
+}
+
 .opening-score {
   padding-top: 8px;
 }
@@ -1147,6 +1185,7 @@ button:hover,
 
 @media (max-width: 1100px) {
   .insight-grid,
+  .signal-grid,
   .opening-score-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1167,6 +1206,7 @@ button:hover,
   .guide-grid,
   .category-grid,
   .insight-grid,
+  .signal-grid,
   .opening-score-grid,
   .revenue-grid {
     grid-template-columns: 1fr;

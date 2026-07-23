@@ -1079,19 +1079,6 @@
     "map_y": 45
   },
   {
-    "prefecture_key": "fukuoka",
-    "prefecture": "福岡県",
-    "key": "kitakyushu-kokurakita",
-    "path": "kitakyushu/kokurakita",
-    "label": "北九州市小倉北区",
-    "city": "北九州市",
-    "ward": "小倉北区",
-    "station": "小倉駅",
-    "parent": "北九州市",
-    "map_x": 54,
-    "map_y": 46
-  },
-  {
     "prefecture_key": "kumamoto",
     "prefecture": "熊本県",
     "key": "kumamoto-chuo",

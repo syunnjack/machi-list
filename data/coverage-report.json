@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-23T04:38:08.952Z",
-  "shop_count": 2830,
-  "area_count": 121,
+  "generated_at": "2026-07-23T05:22:51.605Z",
+  "shop_count": 2815,
+  "area_count": 120,
   "genre_count": 32,
   "min_target": 2,
-  "gap_count": 3319,
+  "gap_count": 3291,
   "top_gaps": [
     {
       "area_key": "anjo",
@@ -970,143 +970,143 @@
   "summary_by_genre": [
     {
       "key": "dental-clinic",
-      "gaps": 121,
-      "missing": 605
+      "gaps": 120,
+      "missing": 600
     },
     {
       "key": "parking-lot",
-      "gaps": 121,
-      "missing": 482
+      "gaps": 120,
+      "missing": 480
     },
     {
       "key": "drugstore",
-      "gaps": 121,
-      "missing": 363
+      "gaps": 120,
+      "missing": 360
     },
     {
       "key": "gas-station",
-      "gaps": 121,
-      "missing": 363
+      "gaps": 120,
+      "missing": 360
     },
     {
       "key": "convenience-store",
-      "gaps": 121,
-      "missing": 356
+      "gaps": 120,
+      "missing": 353
     },
     {
       "key": "restaurant",
-      "gaps": 121,
-      "missing": 344
+      "gaps": 120,
+      "missing": 341
     },
     {
       "key": "cafe",
-      "gaps": 119,
-      "missing": 303
+      "gaps": 118,
+      "missing": 300
     },
     {
       "key": "capsule-toy",
-      "gaps": 102,
-      "missing": 244
-    },
-    {
-      "key": "coin-laundry",
-      "gaps": 121,
-      "missing": 242
-    },
-    {
-      "key": "hobby-shop",
-      "gaps": 121,
-      "missing": 242
-    },
-    {
-      "key": "post-office",
-      "gaps": 121,
-      "missing": 242
-    },
-    {
-      "key": "recycle-shop",
-      "gaps": 121,
-      "missing": 242
-    },
-    {
-      "key": "trading-card-shop",
-      "gaps": 121,
+      "gaps": 101,
       "missing": 242
     },
     {
       "key": "bicycle-parking",
-      "gaps": 121,
+      "gaps": 120,
+      "missing": 240
+    },
+    {
+      "key": "coin-laundry",
+      "gaps": 120,
+      "missing": 240
+    },
+    {
+      "key": "hobby-shop",
+      "gaps": 120,
+      "missing": 240
+    },
+    {
+      "key": "post-office",
+      "gaps": 120,
+      "missing": 240
+    },
+    {
+      "key": "recycle-shop",
+      "gaps": 120,
+      "missing": 240
+    },
+    {
+      "key": "trading-card-shop",
+      "gaps": 120,
       "missing": 240
     },
     {
       "key": "vending-machine",
-      "gaps": 121,
+      "gaps": 120,
       "missing": 240
     },
     {
+      "key": "karaoke",
+      "gaps": 113,
+      "missing": 236
+    },
+    {
       "key": "movie-theater",
-      "gaps": 121,
-      "missing": 238
+      "gaps": 120,
+      "missing": 236
     },
     {
       "key": "sauna",
-      "gaps": 120,
-      "missing": 238
-    },
-    {
-      "key": "karaoke",
-      "gaps": 114,
-      "missing": 237
+      "gaps": 119,
+      "missing": 236
     },
     {
       "key": "netcafe",
-      "gaps": 112,
-      "missing": 229
+      "gaps": 111,
+      "missing": 228
     },
     {
       "key": "adult-shop",
-      "gaps": 118,
-      "missing": 228
+      "gaps": 117,
+      "missing": 226
     },
     {
       "key": "video-box",
-      "gaps": 119,
-      "missing": 228
+      "gaps": 118,
+      "missing": 226
     },
     {
       "key": "crane-game",
-      "gaps": 103,
-      "missing": 224
+      "gaps": 102,
+      "missing": 223
     },
     {
       "key": "spa",
-      "gaps": 117,
-      "missing": 216
+      "gaps": 116,
+      "missing": 214
     },
     {
       "key": "cat-cafe",
-      "gaps": 117,
-      "missing": 215
+      "gaps": 116,
+      "missing": 213
     },
     {
       "key": "game-center",
-      "gaps": 102,
-      "missing": 206
+      "gaps": 101,
+      "missing": 205
     },
     {
       "key": "bowling",
-      "gaps": 119,
-      "missing": 189
+      "gaps": 118,
+      "missing": 188
     },
     {
       "key": "billiards",
-      "gaps": 110,
-      "missing": 178
+      "gaps": 109,
+      "missing": 177
     },
     {
       "key": "darts",
-      "gaps": 99,
-      "missing": 152
+      "gaps": 98,
+      "missing": 151
     },
     {
       "key": "office-tenant",
@@ -1156,11 +1156,6 @@
       "missing": 248
     },
     {
-      "key": "fukuoka",
-      "gaps": 111,
-      "missing": 236
-    },
-    {
       "key": "kyoto",
       "gaps": 81,
       "missing": 196
@@ -1174,6 +1169,11 @@
       "key": "hyogo",
       "gaps": 82,
       "missing": 184
+    },
+    {
+      "key": "fukuoka",
+      "gaps": 83,
+      "missing": 183
     },
     {
       "key": "hokkaido",

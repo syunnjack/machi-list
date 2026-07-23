@@ -927,6 +927,16 @@ for (const shop of shops) {
   normalizeShop(shop);
 }
 
+const uniqueShops = [];
+const seenShopIds = new Set();
+for (const shop of shops) {
+  if (seenShopIds.has(shop.id)) continue;
+  seenShopIds.add(shop.id);
+  uniqueShops.push(shop);
+}
+shops.length = 0;
+shops.push(...uniqueShops);
+
 shops.sort((a, b) => {
   const pref = String(a.prefecture_key).localeCompare(String(b.prefecture_key), "ja");
   if (pref) return pref;

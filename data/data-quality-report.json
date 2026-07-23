@@ -1,0 +1,821 @@
+{
+  "generated_at": "2026-07-23T05:22:25.047Z",
+  "shop_count": 2815,
+  "area_count": 120,
+  "genre_count": 32,
+  "duplicate_area_keys": [],
+  "duplicate_shop_ids": [],
+  "duplicate_shop_ids_needing_review": [],
+  "missing_area_references": [],
+  "missing_genre_references": [],
+  "thin_areas": [
+    {
+      "area_key": "kakamigahara",
+      "label": "各務原市",
+      "prefecture": "岐阜県",
+      "shop_count": 15,
+      "genre_count": 8,
+      "near_station_count": 15,
+      "late_count": 6,
+      "parking_count": 7
+    },
+    {
+      "area_key": "tamaki",
+      "label": "玉城町",
+      "prefecture": "三重県",
+      "shop_count": 15,
+      "genre_count": 8,
+      "near_station_count": 14,
+      "late_count": 5,
+      "parking_count": 7
+    },
+    {
+      "area_key": "takayama",
+      "label": "高山市",
+      "prefecture": "岐阜県",
+      "shop_count": 15,
+      "genre_count": 8,
+      "near_station_count": 14,
+      "late_count": 5,
+      "parking_count": 7
+    },
+    {
+      "area_key": "owariasahi",
+      "label": "尾張旭市",
+      "prefecture": "愛知県",
+      "shop_count": 16,
+      "genre_count": 7,
+      "near_station_count": 16,
+      "late_count": 5,
+      "parking_count": 7
+    },
+    {
+      "area_key": "saitama-urawa",
+      "label": "さいたま市浦和区",
+      "prefecture": "埼玉県",
+      "shop_count": 16,
+      "genre_count": 8,
+      "near_station_count": 16,
+      "late_count": 6,
+      "parking_count": 6
+    },
+    {
+      "area_key": "kyoto-shimogyo",
+      "label": "京都市下京区",
+      "prefecture": "京都府",
+      "shop_count": 16,
+      "genre_count": 8,
+      "near_station_count": 16,
+      "late_count": 6,
+      "parking_count": 6
+    },
+    {
+      "area_key": "kawagoe",
+      "label": "川越市",
+      "prefecture": "埼玉県",
+      "shop_count": 16,
+      "genre_count": 8,
+      "near_station_count": 15,
+      "late_count": 6,
+      "parking_count": 7
+    },
+    {
+      "area_key": "osaka-abeno",
+      "label": "大阪市阿倍野区",
+      "prefecture": "大阪府",
+      "shop_count": 16,
+      "genre_count": 8,
+      "near_station_count": 16,
+      "late_count": 6,
+      "parking_count": 6
+    },
+    {
+      "area_key": "fujieda",
+      "label": "藤枝市",
+      "prefecture": "静岡県",
+      "shop_count": 16,
+      "genre_count": 8,
+      "near_station_count": 16,
+      "late_count": 7,
+      "parking_count": 7
+    },
+    {
+      "area_key": "ginan",
+      "label": "岐南町",
+      "prefecture": "岐阜県",
+      "shop_count": 16,
+      "genre_count": 9,
+      "near_station_count": 15,
+      "late_count": 7,
+      "parking_count": 8
+    },
+    {
+      "area_key": "yaizu",
+      "label": "焼津市",
+      "prefecture": "静岡県",
+      "shop_count": 16,
+      "genre_count": 9,
+      "near_station_count": 14,
+      "late_count": 7,
+      "parking_count": 8
+    },
+    {
+      "area_key": "nagoya-higashi",
+      "label": "名古屋市東区",
+      "prefecture": "愛知県",
+      "shop_count": 17,
+      "genre_count": 8,
+      "near_station_count": 17,
+      "late_count": 6,
+      "parking_count": 8
+    },
+    {
+      "area_key": "nagoya-minami",
+      "label": "名古屋市南区",
+      "prefecture": "愛知県",
+      "shop_count": 17,
+      "genre_count": 8,
+      "near_station_count": 16,
+      "late_count": 6,
+      "parking_count": 8
+    },
+    {
+      "area_key": "kyoto-minami",
+      "label": "京都市南区",
+      "prefecture": "京都府",
+      "shop_count": 17,
+      "genre_count": 9,
+      "near_station_count": 17,
+      "late_count": 7,
+      "parking_count": 8
+    },
+    {
+      "area_key": "osaka-naniwa",
+      "label": "大阪市浪速区",
+      "prefecture": "大阪府",
+      "shop_count": 17,
+      "genre_count": 9,
+      "near_station_count": 17,
+      "late_count": 7,
+      "parking_count": 6
+    },
+    {
+      "area_key": "gotemba",
+      "label": "御殿場市",
+      "prefecture": "静岡県",
+      "shop_count": 17,
+      "genre_count": 10,
+      "near_station_count": 14,
+      "late_count": 8,
+      "parking_count": 9
+    },
+    {
+      "area_key": "shizuoka-shimizu",
+      "label": "静岡市清水区",
+      "prefecture": "静岡県",
+      "shop_count": 17,
+      "genre_count": 10,
+      "near_station_count": 16,
+      "late_count": 8,
+      "parking_count": 8
+    },
+    {
+      "area_key": "fujinomiya",
+      "label": "富士宮市",
+      "prefecture": "静岡県",
+      "shop_count": 17,
+      "genre_count": 10,
+      "near_station_count": 14,
+      "late_count": 8,
+      "parking_count": 9
+    },
+    {
+      "area_key": "fuji",
+      "label": "富士市",
+      "prefecture": "静岡県",
+      "shop_count": 17,
+      "genre_count": 10,
+      "near_station_count": 14,
+      "late_count": 8,
+      "parking_count": 9
+    },
+    {
+      "area_key": "nagoya-meito",
+      "label": "名古屋市名東区",
+      "prefecture": "愛知県",
+      "shop_count": 18,
+      "genre_count": 8,
+      "near_station_count": 17,
+      "late_count": 7,
+      "parking_count": 9
+    },
+    {
+      "area_key": "nagoya-moriyama",
+      "label": "名古屋市守山区",
+      "prefecture": "愛知県",
+      "shop_count": 18,
+      "genre_count": 9,
+      "near_station_count": 18,
+      "late_count": 7,
+      "parking_count": 9
+    },
+    {
+      "area_key": "nagoya-showa",
+      "label": "名古屋市昭和区",
+      "prefecture": "愛知県",
+      "shop_count": 18,
+      "genre_count": 9,
+      "near_station_count": 17,
+      "late_count": 6,
+      "parking_count": 8
+    },
+    {
+      "area_key": "nagoya-kita",
+      "label": "名古屋市北区",
+      "prefecture": "愛知県",
+      "shop_count": 18,
+      "genre_count": 9,
+      "near_station_count": 16,
+      "late_count": 7,
+      "parking_count": 9
+    },
+    {
+      "area_key": "misato",
+      "label": "三郷市",
+      "prefecture": "埼玉県",
+      "shop_count": 18,
+      "genre_count": 10,
+      "near_station_count": 18,
+      "late_count": 8,
+      "parking_count": 9
+    },
+    {
+      "area_key": "funabashi",
+      "label": "船橋市",
+      "prefecture": "千葉県",
+      "shop_count": 18,
+      "genre_count": 10,
+      "near_station_count": 16,
+      "late_count": 8,
+      "parking_count": 8
+    },
+    {
+      "area_key": "sagamihara-minami",
+      "label": "相模原市南区",
+      "prefecture": "神奈川県",
+      "shop_count": 18,
+      "genre_count": 10,
+      "near_station_count": 18,
+      "late_count": 8,
+      "parking_count": 6
+    },
+    {
+      "area_key": "sunto-shimizu",
+      "label": "清水町",
+      "prefecture": "静岡県",
+      "shop_count": 18,
+      "genre_count": 11,
+      "near_station_count": 14,
+      "late_count": 9,
+      "parking_count": 10
+    },
+    {
+      "area_key": "kasugai",
+      "label": "春日井市",
+      "prefecture": "愛知県",
+      "shop_count": 19,
+      "genre_count": 10,
+      "near_station_count": 19,
+      "late_count": 8,
+      "parking_count": 10
+    },
+    {
+      "area_key": "nagoya-mizuho",
+      "label": "名古屋市瑞穂区",
+      "prefecture": "愛知県",
+      "shop_count": 19,
+      "genre_count": 10,
+      "near_station_count": 18,
+      "late_count": 7,
+      "parking_count": 8
+    },
+    {
+      "area_key": "nagoya-nishi",
+      "label": "名古屋市西区",
+      "prefecture": "愛知県",
+      "shop_count": 19,
+      "genre_count": 10,
+      "near_station_count": 18,
+      "late_count": 8,
+      "parking_count": 9
+    },
+    {
+      "area_key": "nagoya-atsuta",
+      "label": "名古屋市熱田区",
+      "prefecture": "愛知県",
+      "shop_count": 19,
+      "genre_count": 10,
+      "near_station_count": 19,
+      "late_count": 8,
+      "parking_count": 8
+    },
+    {
+      "area_key": "tokyo-machida",
+      "label": "町田市",
+      "prefecture": "東京都",
+      "shop_count": 19,
+      "genre_count": 11,
+      "near_station_count": 19,
+      "late_count": 9,
+      "parking_count": 6
+    },
+    {
+      "area_key": "kashiwa",
+      "label": "柏市",
+      "prefecture": "千葉県",
+      "shop_count": 19,
+      "genre_count": 11,
+      "near_station_count": 19,
+      "late_count": 9,
+      "parking_count": 6
+    },
+    {
+      "area_key": "tokyo-hachioji",
+      "label": "八王子市",
+      "prefecture": "東京都",
+      "shop_count": 19,
+      "genre_count": 11,
+      "near_station_count": 19,
+      "late_count": 9,
+      "parking_count": 6
+    },
+    {
+      "area_key": "okayama-minami",
+      "label": "岡山市南区",
+      "prefecture": "岡山県",
+      "shop_count": 19,
+      "genre_count": 13,
+      "near_station_count": 13,
+      "late_count": 11,
+      "parking_count": 11
+    },
+    {
+      "area_key": "nagoya-tempaku",
+      "label": "名古屋市天白区",
+      "prefecture": "愛知県",
+      "shop_count": 20,
+      "genre_count": 10,
+      "near_station_count": 18,
+      "late_count": 8,
+      "parking_count": 10
+    },
+    {
+      "area_key": "ichinomiya",
+      "label": "一宮市",
+      "prefecture": "愛知県",
+      "shop_count": 20,
+      "genre_count": 11,
+      "near_station_count": 19,
+      "late_count": 9,
+      "parking_count": 11
+    },
+    {
+      "area_key": "komaki",
+      "label": "小牧市",
+      "prefecture": "愛知県",
+      "shop_count": 20,
+      "genre_count": 11,
+      "near_station_count": 16,
+      "late_count": 9,
+      "parking_count": 11
+    },
+    {
+      "area_key": "nisshin",
+      "label": "日進市",
+      "prefecture": "愛知県",
+      "shop_count": 20,
+      "genre_count": 11,
+      "near_station_count": 19,
+      "late_count": 9,
+      "parking_count": 11
+    },
+    {
+      "area_key": "toyokawa",
+      "label": "豊川市",
+      "prefecture": "愛知県",
+      "shop_count": 20,
+      "genre_count": 11,
+      "near_station_count": 17,
+      "late_count": 9,
+      "parking_count": 11
+    }
+  ],
+  "strong_areas": [
+    {
+      "area_key": "nagoya-naka",
+      "label": "名古屋市中区",
+      "prefecture": "愛知県",
+      "shop_count": 41,
+      "genre_count": 19,
+      "near_station_count": 41,
+      "late_count": 28,
+      "parking_count": 10
+    },
+    {
+      "area_key": "tokyo-shinjuku",
+      "label": "新宿区",
+      "prefecture": "東京都",
+      "shop_count": 36,
+      "genre_count": 18,
+      "near_station_count": 36,
+      "late_count": 26,
+      "parking_count": 7
+    },
+    {
+      "area_key": "saitama-omiya",
+      "label": "さいたま市大宮区",
+      "prefecture": "埼玉県",
+      "shop_count": 34,
+      "genre_count": 17,
+      "near_station_count": 34,
+      "late_count": 24,
+      "parking_count": 12
+    },
+    {
+      "area_key": "takamatsu",
+      "label": "高松市",
+      "prefecture": "香川県",
+      "shop_count": 33,
+      "genre_count": 16,
+      "near_station_count": 25,
+      "late_count": 25,
+      "parking_count": 23
+    },
+    {
+      "area_key": "nagoya-nakagawa",
+      "label": "名古屋市中川区",
+      "prefecture": "愛知県",
+      "shop_count": 33,
+      "genre_count": 16,
+      "near_station_count": 17,
+      "late_count": 21,
+      "parking_count": 24
+    },
+    {
+      "area_key": "hamamatsu-chuo",
+      "label": "浜松市中央区",
+      "prefecture": "静岡県",
+      "shop_count": 32,
+      "genre_count": 19,
+      "near_station_count": 22,
+      "late_count": 22,
+      "parking_count": 20
+    },
+    {
+      "area_key": "nagoya-nakamura",
+      "label": "名古屋市中村区",
+      "prefecture": "愛知県",
+      "shop_count": 32,
+      "genre_count": 17,
+      "near_station_count": 30,
+      "late_count": 21,
+      "parking_count": 9
+    },
+    {
+      "area_key": "oita",
+      "label": "大分市",
+      "prefecture": "大分県",
+      "shop_count": 32,
+      "genre_count": 15,
+      "near_station_count": 25,
+      "late_count": 24,
+      "parking_count": 22
+    },
+    {
+      "area_key": "kumamoto-chuo",
+      "label": "熊本市中央区",
+      "prefecture": "熊本県",
+      "shop_count": 31,
+      "genre_count": 17,
+      "near_station_count": 25,
+      "late_count": 23,
+      "parking_count": 15
+    },
+    {
+      "area_key": "saga",
+      "label": "佐賀市",
+      "prefecture": "佐賀県",
+      "shop_count": 31,
+      "genre_count": 16,
+      "near_station_count": 13,
+      "late_count": 23,
+      "parking_count": 23
+    },
+    {
+      "area_key": "kagoshima",
+      "label": "鹿児島市",
+      "prefecture": "鹿児島県",
+      "shop_count": 31,
+      "genre_count": 16,
+      "near_station_count": 24,
+      "late_count": 23,
+      "parking_count": 16
+    },
+    {
+      "area_key": "naha",
+      "label": "那覇市",
+      "prefecture": "沖縄県",
+      "shop_count": 31,
+      "genre_count": 16,
+      "near_station_count": 22,
+      "late_count": 23,
+      "parking_count": 16
+    },
+    {
+      "area_key": "yokohama-nishi",
+      "label": "横浜市西区",
+      "prefecture": "神奈川県",
+      "shop_count": 31,
+      "genre_count": 15,
+      "near_station_count": 31,
+      "late_count": 21,
+      "parking_count": 8
+    },
+    {
+      "area_key": "okayama-kita",
+      "label": "岡山市北区",
+      "prefecture": "岡山県",
+      "shop_count": 31,
+      "genre_count": 15,
+      "near_station_count": 20,
+      "late_count": 23,
+      "parking_count": 21
+    },
+    {
+      "area_key": "kyoto-nakagyo",
+      "label": "京都市中京区",
+      "prefecture": "京都府",
+      "shop_count": 30,
+      "genre_count": 16,
+      "near_station_count": 30,
+      "late_count": 19,
+      "parking_count": 6
+    },
+    {
+      "area_key": "wakayama",
+      "label": "和歌山市",
+      "prefecture": "和歌山県",
+      "shop_count": 30,
+      "genre_count": 16,
+      "near_station_count": 17,
+      "late_count": 22,
+      "parking_count": 22
+    },
+    {
+      "area_key": "fukui",
+      "label": "福井市",
+      "prefecture": "福井県",
+      "shop_count": 30,
+      "genre_count": 15,
+      "near_station_count": 26,
+      "late_count": 22,
+      "parking_count": 19
+    },
+    {
+      "area_key": "nagasaki",
+      "label": "長崎市",
+      "prefecture": "長崎県",
+      "shop_count": 30,
+      "genre_count": 12,
+      "near_station_count": 30,
+      "late_count": 22,
+      "parking_count": 19
+    },
+    {
+      "area_key": "matsuyama",
+      "label": "松山市",
+      "prefecture": "愛媛県",
+      "shop_count": 29,
+      "genre_count": 16,
+      "near_station_count": 20,
+      "late_count": 21,
+      "parking_count": 18
+    },
+    {
+      "area_key": "akita",
+      "label": "秋田市",
+      "prefecture": "秋田県",
+      "shop_count": 29,
+      "genre_count": 15,
+      "near_station_count": 19,
+      "late_count": 21,
+      "parking_count": 18
+    },
+    {
+      "area_key": "kobe-chuo",
+      "label": "神戸市中央区",
+      "prefecture": "兵庫県",
+      "shop_count": 29,
+      "genre_count": 15,
+      "near_station_count": 29,
+      "late_count": 19,
+      "parking_count": 7
+    },
+    {
+      "area_key": "toyama",
+      "label": "富山市",
+      "prefecture": "富山県",
+      "shop_count": 29,
+      "genre_count": 15,
+      "near_station_count": 19,
+      "late_count": 21,
+      "parking_count": 21
+    },
+    {
+      "area_key": "kanazawa",
+      "label": "金沢市",
+      "prefecture": "石川県",
+      "shop_count": 29,
+      "genre_count": 14,
+      "near_station_count": 25,
+      "late_count": 21,
+      "parking_count": 18
+    },
+    {
+      "area_key": "niigata-chuo",
+      "label": "新潟市中央区",
+      "prefecture": "新潟県",
+      "shop_count": 28,
+      "genre_count": 16,
+      "near_station_count": 16,
+      "late_count": 20,
+      "parking_count": 16
+    },
+    {
+      "area_key": "osaka-chuo",
+      "label": "大阪市中央区",
+      "prefecture": "大阪府",
+      "shop_count": 28,
+      "genre_count": 15,
+      "near_station_count": 28,
+      "late_count": 18,
+      "parking_count": 7
+    },
+    {
+      "area_key": "osaka-kita",
+      "label": "大阪市北区",
+      "prefecture": "大阪府",
+      "shop_count": 28,
+      "genre_count": 15,
+      "near_station_count": 28,
+      "late_count": 18,
+      "parking_count": 7
+    },
+    {
+      "area_key": "maebashi",
+      "label": "前橋市",
+      "prefecture": "群馬県",
+      "shop_count": 27,
+      "genre_count": 16,
+      "near_station_count": 13,
+      "late_count": 19,
+      "parking_count": 19
+    },
+    {
+      "area_key": "yamaguchi",
+      "label": "山口市",
+      "prefecture": "山口県",
+      "shop_count": 27,
+      "genre_count": 15,
+      "near_station_count": 13,
+      "late_count": 19,
+      "parking_count": 19
+    },
+    {
+      "area_key": "fukuyama",
+      "label": "福山市",
+      "prefecture": "広島県",
+      "shop_count": 27,
+      "genre_count": 15,
+      "near_station_count": 16,
+      "late_count": 17,
+      "parking_count": 17
+    },
+    {
+      "area_key": "kitakyushu-kokurakita",
+      "label": "北九州市小倉北区",
+      "prefecture": "福岡県",
+      "shop_count": 27,
+      "genre_count": 15,
+      "near_station_count": 19,
+      "late_count": 17,
+      "parking_count": 14
+    },
+    {
+      "area_key": "asahikawa",
+      "label": "旭川市",
+      "prefecture": "北海道",
+      "shop_count": 27,
+      "genre_count": 14,
+      "near_station_count": 15,
+      "late_count": 17,
+      "parking_count": 18
+    },
+    {
+      "area_key": "morioka",
+      "label": "盛岡市",
+      "prefecture": "岩手県",
+      "shop_count": 26,
+      "genre_count": 16,
+      "near_station_count": 20,
+      "late_count": 18,
+      "parking_count": 16
+    },
+    {
+      "area_key": "tokushima",
+      "label": "徳島市",
+      "prefecture": "徳島県",
+      "shop_count": 26,
+      "genre_count": 16,
+      "near_station_count": 14,
+      "late_count": 18,
+      "parking_count": 18
+    },
+    {
+      "area_key": "anjo",
+      "label": "安城市",
+      "prefecture": "愛知県",
+      "shop_count": 26,
+      "genre_count": 15,
+      "near_station_count": 18,
+      "late_count": 15,
+      "parking_count": 17
+    },
+    {
+      "area_key": "miyazaki",
+      "label": "宮崎市",
+      "prefecture": "宮崎県",
+      "shop_count": 26,
+      "genre_count": 15,
+      "near_station_count": 19,
+      "late_count": 18,
+      "parking_count": 15
+    },
+    {
+      "area_key": "yokkaichi",
+      "label": "四日市市",
+      "prefecture": "三重県",
+      "shop_count": 26,
+      "genre_count": 14,
+      "near_station_count": 24,
+      "late_count": 17,
+      "parking_count": 17
+    },
+    {
+      "area_key": "tokyo-shibuya",
+      "label": "渋谷区",
+      "prefecture": "東京都",
+      "shop_count": 26,
+      "genre_count": 13,
+      "near_station_count": 26,
+      "late_count": 16,
+      "parking_count": 6
+    },
+    {
+      "area_key": "utsunomiya",
+      "label": "宇都宮市",
+      "prefecture": "栃木県",
+      "shop_count": 25,
+      "genre_count": 16,
+      "near_station_count": 14,
+      "late_count": 17,
+      "parking_count": 14
+    },
+    {
+      "area_key": "kochi",
+      "label": "高知市",
+      "prefecture": "高知県",
+      "shop_count": 25,
+      "genre_count": 16,
+      "near_station_count": 20,
+      "late_count": 17,
+      "parking_count": 17
+    },
+    {
+      "area_key": "aomori",
+      "label": "青森市",
+      "prefecture": "青森県",
+      "shop_count": 25,
+      "genre_count": 16,
+      "near_station_count": 14,
+      "late_count": 17,
+      "parking_count": 16
+    }
+  ],
+  "next_actions": [
+    "thin_areasの駅近、夜、駐車場、滞在系ジャンルを優先して補う",
+    "duplicate_area_keysを解消して生成ページの上書きを防ぐ",
+    "missing_*_referencesが出た場合は取り込み前に止める",
+    "公式店舗一覧やPlaces候補を候補ファイルに出してから目視確認する"
+  ]
+}

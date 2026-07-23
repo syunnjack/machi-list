@@ -636,6 +636,113 @@ function areaGenreCount(area, genreKey) {
   return shops.filter((shop) => shop.area_key === area.key && shop.genre_key === genreKey).length;
 }
 
+function shopsForArea(area) {
+  return shops.filter((shop) => shop.area_key === area.key);
+}
+
+function topGenresForArea(area, limit = 8) {
+  const counts = new Map();
+  for (const shop of shopsForArea(area)) {
+    counts.set(shop.genre_key, (counts.get(shop.genre_key) || 0) + 1);
+  }
+  return [...counts.entries()]
+    .map(([genreKey, count]) => ({ genre: genres.find((item) => item.key === genreKey), count }))
+    .filter((row) => row.genre)
+    .sort((a, b) => b.count - a.count || a.genre.label.localeCompare(b.genre.label, "ja"))
+    .slice(0, limit);
+}
+
+const areaUseCases = [
+  {
+    label: "駅近で探す",
+    note: "駅から歩きやすい施設を先に見る",
+    hrefGenre: "convenience-store",
+    filter: (shop) => Number(shop.station_walk_minutes) <= 8
+  },
+  {
+    label: "夜に使う",
+    note: "終電後や遅い時間の候補を残す",
+    hrefGenre: "netcafe",
+    filter: (shop) => shop.late
+  },
+  {
+    label: "車で行く",
+    note: "駐車場がある施設と周辺駐車場を見る",
+    hrefGenre: "parking-lot",
+    filter: (shop) => shop.parking || shop.genre_key === "parking-lot"
+  },
+  {
+    label: "休憩・滞在",
+    note: "作業、休憩、時間調整に使える場所を見る",
+    hrefGenre: "cafe",
+    filter: (shop) => ["cafe", "netcafe", "video-box", "spa", "sauna", "karaoke", "movie-theater"].includes(shop.genre_key)
+  },
+  {
+    label: "出店前に見る",
+    note: "競合、駐車場、滞在需要をまとめて確認",
+    hrefGenre: "opening-area-research",
+    filter: (shop) => ["office-tenant", "opening-area-research", "parking-lot", "parking-management", "vending-machine-installation"].includes(shop.genre_key)
+  }
+];
+
+function areaUseCasePanel(area, depth) {
+  const items = shopsForArea(area);
+  const cards = areaUseCases.map((useCase) => {
+    const count = items.filter(useCase.filter).length;
+    return `<a class="signal-card" href="${areaGenreHref(area, useCase.hrefGenre, depth)}"><strong>${useCase.label}</strong><span>${count}件</span><small>${useCase.note}</small></a>`;
+  }).join("");
+  return `<section class="section area-signals"><div class="section-head"><p class="eyebrow">探し方</p><h2>${area.label}で目的から選ぶ</h2><p>近さ、夜の使いやすさ、車での行きやすさ、滞在しやすさを分けて確認できます。</p></div><div class="signal-grid">${cards}</div></section>`;
+}
+
+function topGenrePanel(area, depth) {
+  const rows = topGenresForArea(area, 10).map(({ genre, count }) => {
+    return `<tr><td><a href="${areaGenreHref(area, genre.key, depth)}">${genre.label}</a></td><td>${count}件</td><td>${genre.description}</td></tr>`;
+  }).join("");
+  return `<section class="section"><h2>${area.label}で掲載が多いジャンル</h2><table class="info-table"><tr><th>ジャンル</th><th>掲載</th><th>見方</th></tr>${rows}</table></section>`;
+}
+
+function prefectureAreaHighlights(prefecture, depth) {
+  const rows = areasFor(prefecture.key)
+    .map((area) => {
+      const areaShops = shopsForArea(area);
+      const top = topGenresForArea(area, 1)[0];
+      const late = areaShops.filter((shop) => shop.late).length;
+      const parking = areaShops.filter((shop) => shop.parking || shop.genre_key === "parking-lot").length;
+      return { area, count: areaShops.length, top, late, parking };
+    })
+    .sort((a, b) => b.count - a.count || a.area.label.localeCompare(b.area.label, "ja"))
+    .slice(0, 12)
+    .map((row) => `<tr><td><a href="${home(depth)}area/${row.area.prefecture_key}/${row.area.path}/">${row.area.label}</a></td><td>${row.count}件</td><td>${row.top ? `${row.top.genre.label} ${row.top.count}件` : "確認中"}</td><td>夜 ${row.late}件 / 車 ${row.parking}件</td></tr>`)
+    .join("");
+  return `<section class="section"><h2>${prefecture.label}の主要エリア比較</h2><table class="info-table"><tr><th>エリア</th><th>掲載</th><th>多いジャンル</th><th>使いやすさ</th></tr>${rows}</table></section>`;
+}
+
+function relatedGenrePanel(area, genre, depth) {
+  const relationMap = {
+    "parking-lot": ["parking-management", "bicycle-parking", "office-tenant", "opening-area-research"],
+    "parking-management": ["parking-lot", "office-tenant", "opening-area-research", "vending-machine-installation"],
+    "vending-machine-installation": ["vending-machine", "office-tenant", "parking-management", "opening-area-research"],
+    "office-tenant": ["opening-area-research", "parking-lot", "parking-management", "vending-machine-installation"],
+    "opening-area-research": ["office-tenant", "parking-lot", "parking-management", "vending-machine-installation"],
+    netcafe: ["video-box", "cafe", "convenience-store", "karaoke"],
+    "video-box": ["netcafe", "convenience-store", "parking-lot", "adult-shop"],
+    "crane-game": ["game-center", "capsule-toy", "hobby-shop", "trading-card-shop"],
+    "capsule-toy": ["crane-game", "game-center", "hobby-shop", "recycle-shop"],
+    darts: ["billiards", "bowling", "karaoke", "netcafe"],
+    bowling: ["darts", "billiards", "karaoke", "game-center"],
+    billiards: ["darts", "bowling", "karaoke", "netcafe"],
+    "convenience-store": ["cafe", "parking-lot", "coin-laundry", "drugstore"],
+    cafe: ["convenience-store", "netcafe", "restaurant", "cat-cafe"]
+  };
+  const keys = relationMap[genre.key] || ["parking-lot", "convenience-store", "cafe", "restaurant"];
+  const cards = keys.map((genreKey) => {
+    const related = genres.find((item) => item.key === genreKey);
+    if (!related) return "";
+    return `<a class="signal-card" href="${areaGenreHref(area, genreKey, depth)}"><strong>${related.label}</strong><span>${areaGenreCount(area, genreKey)}件</span><small>${related.description}</small></a>`;
+  }).filter(Boolean).join("");
+  return `<section class="section"><div class="section-head"><p class="eyebrow">あわせて確認</p><h2>${area.label}で近い目的のジャンル</h2></div><div class="signal-grid">${cards}</div></section>`;
+}
+
 const openingMetricDefinitions = [
   {
     label: "競合密度",
@@ -710,6 +817,7 @@ function prefectureIndex(prefecture) {
         <nav class="breadcrumb"><a href="${home(depth)}">全国</a><span>/</span><span>${prefecture.label}</span></nav>
       </header>
       <section class="answer-box"><h2>市区町村から探す</h2><div class="category-grid">${prefAreas.map((area) => `<a class="category-card" href="./${area.path}/"><span class="category-icon">${area.label.slice(0, 1)}</span><strong>${area.label}</strong><small>${area.station}周辺の店舗を確認</small></a>`).join("")}</div></section>
+      ${prefectureAreaHighlights(prefecture, depth)}
       <section class="two-column"><div><section class="section"><h2>${prefecture.label}の掲載店舗</h2><div class="shop-list">${shopCards(prefShops, depth)}</div></section></div><aside class="side-column"><section class="side-block"><h2>ジャンル</h2>${genres.map((genre) => `<a href="${home(depth)}category/#${genre.key}">${genre.label}</a>`).join("")}</section><section class="side-block"><h2>確認できること</h2><a href="${home(depth)}">近い順で探す</a><a href="${home(depth)}">予算の安い順で探す</a><a href="${home(depth)}guide/discreet-buying/">人目を気にせず買う方法</a></section></aside></section>`;
 
   write(path.join(root, "area", prefecture.key, "index.html"), pageShell({
@@ -733,8 +841,9 @@ function areaIndex(area) {
         <nav class="breadcrumb"><a href="${home(depth)}">全国</a><span>/</span><a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}</a><span>/</span><span>${area.label}</span></nav>
       </header>
       <section class="answer-box"><h2>${area.label}で探せるジャンル</h2><div class="category-grid">${genres.map((genre) => `<a class="category-card" href="./${genre.key}/"><span class="category-icon">${genre.label.slice(0, 1)}</span><strong>${genre.label}</strong><small>${genre.description}</small></a>`).join("")}</div></section>
+      ${areaUseCasePanel(area, depth)}
       ${openingResearchPanel(area, depth)}
-      <section class="two-column"><div><section class="section"><h2>${area.label}の店舗一覧</h2><div class="shop-list">${shopCards(items, depth)}</div></section></div><aside class="side-column"><section class="side-block"><h2>市区町村</h2>${areaLinks(area.prefecture_key, depth, area.key)}</section><section class="side-block"><h2>ジャンル別</h2>${genreLinks(area, depth)}</section></aside></section>`;
+      <section class="two-column"><div>${topGenrePanel(area, depth)}<section class="section"><h2>${area.label}の店舗一覧</h2><div class="shop-list">${shopCards(items, depth)}</div></section></div><aside class="side-column"><section class="side-block"><h2>市区町村</h2>${areaLinks(area.prefecture_key, depth, area.key)}</section><section class="side-block"><h2>ジャンル別</h2>${genreLinks(area, depth)}</section></aside></section>`;
 
   write(path.join(root, "area", area.prefecture_key, ...area.path.split("/"), "index.html"), pageShell({
     title: `${area.label}のお店・商業施設一覧｜まちリスト`,
@@ -761,7 +870,7 @@ function genrePage(area, genre) {
       </header>
       <section class="answer-box"><h2>このページで確認できること</h2><ul><li>${genre.description}</li><li>店舗名、住所、駅からの目安、予算、特徴を一覧で比較できます。</li><li>行く前に予約、クーポン、駐車場、周辺の飲食店を確認できます。</li></ul></section>
       <section class="monetization-strip"><div><p class="eyebrow">あわせて確認</p><h2>${supportHeading(genre)}</h2><p>${supportText(area, genre)}</p></div><div class="route-actions"><a class="button button-light" href="${supportPrimaryUrl(area, genre)}">${supportPrimaryLabel(genre)}</a><a class="button button-light" href="${supportSecondaryUrl(genre, area)}">${supportSecondaryLabel(genre)}</a></div></section>
-      <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(shop.nearest_station)} 徒歩約${escapeHtml(shop.station_walk_minutes)}分</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : "", shop.smoking_area ? `喫煙: ${shop.smoking_area}` : "", shop.power_seat ? `電源: ${shop.power_seat}` : "", shop.wifi ? `Wi-Fi: ${shop.wifi}` : "", shop.eat_in ? `イートイン: ${shop.eat_in}` : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section></div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section>${subtleLinks(area, genre, depth)}</aside></section>
+      <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(shop.nearest_station)} 徒歩約${escapeHtml(shop.station_walk_minutes)}分</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : "", shop.smoking_area ? `喫煙: ${shop.smoking_area}` : "", shop.power_seat ? `電源: ${shop.power_seat}` : "", shop.wifi ? `Wi-Fi: ${shop.wifi}` : "", shop.eat_in ? `イートイン: ${shop.eat_in}` : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section>${relatedGenrePanel(area, genre, depth)}</div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section>${subtleLinks(area, genre, depth)}</aside></section>
 ${openingResearchExtra}      <section class="section"><h2>よくある確認</h2><div class="faq-list"><article class="faq-item"><h3>${area.label}で${genre.label}を探す時の見方は？</h3><p>駅からの距離、駐車場、営業時間、予算目安を先に見ると選びやすくなります。</p></article><article class="faq-item"><h3>行く前に確認した方がよいことは？</h3><p>営業時間、料金、取扱内容、クーポン、駐車場は変わる場合があります。来店前に公式情報や地図情報も確認してください。</p></article></div></section>`;
 
   write(path.join(root, "area", area.prefecture_key, ...area.path.split("/"), genre.key, "index.html"), pageShell({
