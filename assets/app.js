@@ -19,6 +19,8 @@ const text = {
   tools: "道具",
   member: "会員・カード",
   fee: "料金・定期利用",
+  consult: "相談先を確認",
+  compare: "比較",
   ticket: "上映・チケット",
   stock: "在庫・商品",
   map: "地図",
@@ -104,6 +106,10 @@ function timesMemberLink() {
   return vcLink("https://btimes.jp/about/");
 }
 
+function searchLinkForArea(areaLabel, keyword) {
+  return searchLink(`${areaLabel} ${keyword}`);
+}
+
 const eventGenreKeys = new Set(["darts", "bowling", "billiards"]);
 
 function isEventGenre(genreKey) {
@@ -123,7 +129,12 @@ function toolKeyword(genreKey, label) {
     "convenience-store": "携帯灰皿",
     cafe: "カフェ タンブラー",
     "parking-lot": "タイムズカード ETC 車載 便利グッズ",
-    "bicycle-parking": "自転車 鍵 レインカバー ライト"
+    "bicycle-parking": "自転車 鍵 レインカバー ライト",
+    "parking-management": "駐車場 看板 防犯カメラ 照明",
+    "vending-machine": "飲料 まとめ買い 防災備蓄",
+    "vending-machine-installation": "自販機 防犯カメラ 屋外照明",
+    "office-tenant": "店舗 開業 備品 オフィス家具",
+    "opening-area-research": "店舗 看板 チラシ 防犯カメラ"
   }[genreKey] || `${label} 関連商品`;
 }
 
@@ -146,6 +157,11 @@ function normalizeShop(shop, index) {
   const isEvent = isEventGenre(shop.genre_key);
   const isParking = shop.genre_key === "parking-lot";
   const isBicycleParking = shop.genre_key === "bicycle-parking";
+  const isParkingManagement = shop.genre_key === "parking-management";
+  const isVending = shop.genre_key === "vending-machine";
+  const isVendingInstallation = shop.genre_key === "vending-machine-installation";
+  const isOfficeTenant = shop.genre_key === "office-tenant";
+  const isOpeningResearch = shop.genre_key === "opening-area-research";
   const hotpepperKeyword = `${shop.area_label} ${shop.genre}`;
   return {
     name: shop.name,
@@ -171,7 +187,7 @@ function normalizeShop(shop, index) {
     powerSeat: shop.power_seat || "",
     wifi: shop.wifi || "",
     eatIn: shop.eat_in || "",
-    bookingUrl: shop.booking_url || (isAdult ? "./guide/discreet-buying/" : (isEvent ? eventSearchLink(shop.area_label, shop.genre) : (isParking ? timesParkingLink(shop.area_label) : (isBicycleParking ? searchLink(`${shop.area_label} 駐輪場 料金 定期利用 自治体`) : vcLink(`https://www.hotpepper.jp/SA33/?keyword=${encodeURIComponent(hotpepperKeyword)}`))))),
+    bookingUrl: shop.booking_url || (isAdult ? "./guide/discreet-buying/" : (isEvent ? eventSearchLink(shop.area_label, shop.genre) : (isParking ? timesParkingLink(shop.area_label) : (isBicycleParking ? searchLink(`${shop.area_label} 駐輪場 料金 定期利用 自治体`) : (isParkingManagement ? searchLinkForArea(shop.area_label, "駐車場管理会社 土地活用") : (isVending ? searchLinkForArea(shop.area_label, "自動販売機 キャッシュレス 災害対応") : (isVendingInstallation ? searchLinkForArea(shop.area_label, "自販機設置 相談") : (isOfficeTenant ? searchLinkForArea(shop.area_label, "貸事務所 貸店舗 テナント") : (isOpeningResearch ? searchLinkForArea(shop.area_label, "開業 競合店 周辺調査") : vcLink(`https://www.hotpepper.jp/SA33/?keyword=${encodeURIComponent(hotpepperKeyword)}`)))))))))),
     relatedUrl: shop.shopping_url || shop.coupon_url || (isParking ? timesMemberLink() : rakutenSearchLink(isAdult ? "アダルトグッズ 通販" : toolKeyword(shop.genre_key, shop.genre))),
     mapUrl: mapSearchLink(`${shop.name} ${shop.address}`),
     lat: shop.lat || null,
@@ -257,6 +273,11 @@ function actionLabel(facility) {
   if (facility.genreKey === "cafe") return "店舗を確認";
   if (facility.genreKey === "parking-lot") return "予約・空き確認";
   if (facility.genreKey === "bicycle-parking") return text.fee;
+  if (facility.genreKey === "parking-management") return text.consult;
+  if (facility.genreKey === "vending-machine") return "設置場所を確認";
+  if (facility.genreKey === "vending-machine-installation") return "設置相談";
+  if (facility.genreKey === "office-tenant") return "物件を探す";
+  if (facility.genreKey === "opening-area-research") return "周辺を調べる";
   return text.booking;
 }
 
@@ -270,6 +291,11 @@ function relatedLabel(facility) {
   if (facility.genreKey === "cafe") return "タンブラー";
   if (facility.genreKey === "parking-lot") return text.member;
   if (facility.genreKey === "bicycle-parking") return "鍵・ライト";
+  if (facility.genreKey === "parking-management") return "管理会社比較";
+  if (facility.genreKey === "vending-machine") return "飲料・備蓄";
+  if (facility.genreKey === "vending-machine-installation") return "周辺設備";
+  if (facility.genreKey === "office-tenant") return "開業備品";
+  if (facility.genreKey === "opening-area-research") return "開業準備品";
   return text.related;
 }
 

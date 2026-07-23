@@ -258,9 +258,30 @@ function parkingOperatorSearchUrl(area) {
   return searchUrl(`${area.label} 駐車場経営 土地活用 タイムズ24 三井のリパーク 名鉄協商 日本駐車場開発`);
 }
 
+function reparkLandUseUrl() {
+  return "https://www.repark.jp/lp/01/";
+}
+
+function vendingInstallSearchUrl(area) {
+  return searchUrl(`${area.label} 自販機設置 コカ・コーラ サントリー ダイドー 伊藤園`);
+}
+
+function officeTenantSearchUrl(area) {
+  return searchUrl(`${area.label} 貸事務所 貸店舗 テナント 居抜き`);
+}
+
+function openingResearchUrl(area) {
+  return searchUrl(`${area.label} 開業 競合店 周辺調査 立地`);
+}
+
 function bookingUrl(area, genre) {
   if (genre.key === "parking-lot") return timesParkingUrl(area);
   if (genre.key === "bicycle-parking") return searchUrl(`${area.label} 駐輪場 料金 定期利用 自治体`);
+  if (genre.key === "parking-management") return parkingLandUseUrl();
+  if (genre.key === "vending-machine") return searchUrl(`${area.label} 自動販売機 キャッシュレス 災害対応`);
+  if (genre.key === "vending-machine-installation") return vendingInstallSearchUrl(area);
+  if (genre.key === "office-tenant") return officeTenantSearchUrl(area);
+  if (genre.key === "opening-area-research") return openingResearchUrl(area);
   return vcUrl(`https://www.hotpepper.jp/?keyword=${encodeURIComponent(`${area.label} ${genre.label}`)}`);
 }
 
@@ -288,7 +309,12 @@ function shoppingUrl(genre) {
     "convenience-store": "携帯灰皿",
     cafe: "カフェ タンブラー",
     "parking-lot": "タイムズカード ETC 車載 便利グッズ",
-    "bicycle-parking": "自転車 鍵 レインカバー ライト"
+    "bicycle-parking": "自転車 鍵 レインカバー ライト",
+    "parking-management": "駐車場 看板 防犯カメラ 照明",
+    "vending-machine": "飲料 まとめ買い 防災備蓄",
+    "vending-machine-installation": "自販機 防犯カメラ 屋外照明",
+    "office-tenant": "店舗 開業 備品 オフィス家具",
+    "opening-area-research": "店舗 看板 チラシ 防犯カメラ"
   };
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keywords[genre.key] || `${genre.label} 関連商品`)}/`;
 }
@@ -335,6 +361,21 @@ function subtleLinks(area, genre, depth) {
   if (genre.key === "bicycle-parking") {
     return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">料金・定期利用</a><a href="${shoppingUrl(genre)}">鍵・ライト</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
+  if (genre.key === "parking-management") {
+    return `<section class="side-block subtle-links"><h2>相談前に確認</h2><a href="${parkingLandUseUrl()}">タイムズ24に相談</a><a href="${reparkLandUseUrl()}">三井のリパークに相談</a><a href="${parkingOperatorSearchUrl(area)}">管理会社を比べる</a><a href="${shoppingUrl(genre)}">設備を確認</a></section>`;
+  }
+  if (genre.key === "vending-machine") {
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">設置場所を探す</a><a href="${shoppingUrl(genre)}">飲料をまとめて探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+  }
+  if (genre.key === "vending-machine-installation") {
+    return `<section class="side-block subtle-links"><h2>相談前に確認</h2><a href="${vendingInstallSearchUrl(area)}">設置相談先を比べる</a><a href="https://www.suntory.co.jp/softdrink/jihanki/index.html">サントリーに相談</a><a href="https://www.coca-cola.com/jp/ja/media-center/vending-machine">コカ・コーラを確認</a><a href="${shoppingUrl(genre)}">周辺設備を確認</a></section>`;
+  }
+  if (genre.key === "office-tenant") {
+    return `<section class="side-block subtle-links"><h2>開業前に確認</h2><a href="${officeTenantSearchUrl(area)}">貸事務所・テナント</a><a href="https://www.homes.co.jp/chintai/office/">貸事務所を探す</a><a href="https://www.athome.co.jp/">事業用物件を探す</a><a href="${shoppingUrl(genre)}">開業備品</a></section>`;
+  }
+  if (genre.key === "opening-area-research") {
+    return `<section class="side-block subtle-links"><h2>開業前に確認</h2><a href="${openingResearchUrl(area)}">周辺を調べる</a><a href="${home(depth)}area/${area.prefecture_key}/${area.path}/">周辺ジャンルを見る</a><a href="${shoppingUrl(genre)}">開業準備品</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+  }
   return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">予約できる店</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${shoppingUrl(genre)}">${genre.key === "adult-shop" ? "通販を見る" : "関連アイテム"}</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
 }
 
@@ -349,6 +390,11 @@ function primaryActionLabel(shop) {
   if (shop.genre_key === "cafe") return "店舗を確認";
   if (shop.genre_key === "parking-lot") return "予約・空き確認";
   if (shop.genre_key === "bicycle-parking") return "料金・定期利用";
+  if (shop.genre_key === "parking-management") return "相談先を確認";
+  if (shop.genre_key === "vending-machine") return "設置場所を確認";
+  if (shop.genre_key === "vending-machine-installation") return "設置相談";
+  if (shop.genre_key === "office-tenant") return "物件を探す";
+  if (shop.genre_key === "opening-area-research") return "周辺を調べる";
   return "予約";
 }
 
@@ -362,6 +408,11 @@ function secondaryActionLabel(shop) {
   if (shop.genre_key === "cafe") return "タンブラー";
   if (shop.genre_key === "parking-lot") return "会員・カード";
   if (shop.genre_key === "bicycle-parking") return "鍵・ライト";
+  if (shop.genre_key === "parking-management") return "管理会社比較";
+  if (shop.genre_key === "vending-machine") return "飲料・備蓄";
+  if (shop.genre_key === "vending-machine-installation") return "周辺設備";
+  if (shop.genre_key === "office-tenant") return "開業備品";
+  if (shop.genre_key === "opening-area-research") return "開業準備品";
   return "クーポン";
 }
 
@@ -375,6 +426,11 @@ function supportHeading(genre) {
   if (genre.key === "cafe") return "電源・Wi-Fi・イートイン";
   if (genre.key === "parking-lot") return "予約・会員登録・土地活用";
   if (genre.key === "bicycle-parking") return "料金・定期利用・自治体案内";
+  if (genre.key === "parking-management") return "駐車場経営・管理委託・相談先";
+  if (genre.key === "vending-machine") return "設置場所・キャッシュレス・防災";
+  if (genre.key === "vending-machine-installation") return "設置相談・商品補充・故障対応";
+  if (genre.key === "office-tenant") return "貸事務所・貸店舗・居抜き物件";
+  if (genre.key === "opening-area-research") return "競合店・周辺施設・立地確認";
   return "予約・クーポン・周辺情報";
 }
 
@@ -388,6 +444,11 @@ function supportText(area, genre) {
   if (genre.key === "cafe") return `${area.label}周辺のカフェ、電源、Wi-Fi、イートイン、駅からの近さを必要な時に確認できます。`;
   if (genre.key === "parking-lot") return `${area.label}周辺の駐車場、事前予約、会員登録、土地活用の相談先を必要な時に確認できます。`;
   if (genre.key === "bicycle-parking") return `${area.label}周辺の駐輪場、一時利用、定期利用、料金、自治体の案内を必要な時に確認できます。`;
+  if (genre.key === "parking-management") return `${area.label}周辺で駐車場管理、土地活用、一括借り上げ、予約制駐車場の相談先を確認できます。`;
+  if (genre.key === "vending-machine") return `${area.label}周辺の自動販売機、キャッシュレス対応、防災対応、買いやすい場所を必要な時に確認できます。`;
+  if (genre.key === "vending-machine-installation") return `${area.label}周辺で自販機設置、商品補充、売上金回収、空容器回収、故障対応の相談先を確認できます。`;
+  if (genre.key === "office-tenant") return `${area.label}周辺で新規開業向けの貸事務所、貸店舗、居抜き物件、周辺施設を確認できます。`;
+  if (genre.key === "opening-area-research") return `${area.label}周辺で競合店、近隣施設、駐車場、駅からの近さを開業前に確認できます。`;
   return `${area.label}周辺で使える予約、クーポン、通販、駐車場を必要な時に開けます。`;
 }
 
@@ -400,6 +461,11 @@ function supportPrimaryUrl(area, genre) {
   if (genre.key === "cafe") return bookingUrl(area, genre);
   if (genre.key === "parking-lot") return timesParkingUrl(area);
   if (genre.key === "bicycle-parking") return bookingUrl(area, genre);
+  if (genre.key === "parking-management") return parkingLandUseUrl();
+  if (genre.key === "vending-machine") return bookingUrl(area, genre);
+  if (genre.key === "vending-machine-installation") return vendingInstallSearchUrl(area);
+  if (genre.key === "office-tenant") return officeTenantSearchUrl(area);
+  if (genre.key === "opening-area-research") return openingResearchUrl(area);
   return bookingUrl(area, genre);
 }
 
@@ -413,12 +479,22 @@ function supportPrimaryLabel(genre) {
   if (genre.key === "cafe") return "店舗を確認";
   if (genre.key === "parking-lot") return "予約・空き確認";
   if (genre.key === "bicycle-parking") return "料金・定期利用";
+  if (genre.key === "parking-management") return "相談先を確認";
+  if (genre.key === "vending-machine") return "設置場所を探す";
+  if (genre.key === "vending-machine-installation") return "設置相談先を比べる";
+  if (genre.key === "office-tenant") return "物件を探す";
+  if (genre.key === "opening-area-research") return "周辺を調べる";
   return "予約できる店";
 }
 
 function supportSecondaryUrl(genre, area = null) {
   if (genre.key === "parking-lot") return area ? parkingLandUseUrl(area) : parkingLandUseUrl();
   if (genre.key === "bicycle-parking") return shoppingUrl(genre);
+  if (genre.key === "parking-management") return area ? parkingOperatorSearchUrl(area) : reparkLandUseUrl();
+  if (genre.key === "vending-machine") return shoppingUrl(genre);
+  if (genre.key === "vending-machine-installation") return shoppingUrl(genre);
+  if (genre.key === "office-tenant") return shoppingUrl(genre);
+  if (genre.key === "opening-area-research") return shoppingUrl(genre);
   return isEventGenre(genre.key) ? shoppingUrl(genre) : couponUrl(genre);
 }
 
@@ -426,6 +502,11 @@ function supportSecondaryLabel(genre) {
   if (isEventGenre(genre.key)) return "道具を探す";
   if (genre.key === "parking-lot") return "土地活用を相談";
   if (genre.key === "bicycle-parking") return "鍵・ライト";
+  if (genre.key === "parking-management") return "管理会社を比べる";
+  if (genre.key === "vending-machine") return "飲料・備蓄";
+  if (genre.key === "vending-machine-installation") return "周辺設備";
+  if (genre.key === "office-tenant") return "開業備品";
+  if (genre.key === "opening-area-research") return "開業準備品";
   return "クーポンを探す";
 }
 
@@ -577,7 +658,7 @@ function genrePage(area, genre) {
         <nav class="breadcrumb"><a href="${home(depth)}">全国</a><span>/</span><a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}</a><span>/</span><a href="../">${area.label}</a><span>/</span><span>${genre.label}</span></nav>
       </header>
       <section class="answer-box"><h2>このページで確認できること</h2><ul><li>${genre.description}</li><li>店舗名、住所、駅からの目安、予算、特徴を一覧で比較できます。</li><li>行く前に予約、クーポン、駐車場、周辺の飲食店を確認できます。</li></ul></section>
-      <section class="monetization-strip"><div><p class="eyebrow">あわせて確認</p><h2>${supportHeading(genre)}</h2><p>${supportText(area, genre)}</p></div><div class="route-actions"><a class="button button-light" href="${supportPrimaryUrl(area, genre)}">${supportPrimaryLabel(genre)}</a><a class="button button-light" href="${supportSecondaryUrl(genre)}">${supportSecondaryLabel(genre)}</a></div></section>
+      <section class="monetization-strip"><div><p class="eyebrow">あわせて確認</p><h2>${supportHeading(genre)}</h2><p>${supportText(area, genre)}</p></div><div class="route-actions"><a class="button button-light" href="${supportPrimaryUrl(area, genre)}">${supportPrimaryLabel(genre)}</a><a class="button button-light" href="${supportSecondaryUrl(genre, area)}">${supportSecondaryLabel(genre)}</a></div></section>
       <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(shop.nearest_station)} 徒歩約${escapeHtml(shop.station_walk_minutes)}分</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : "", shop.smoking_area ? `喫煙: ${shop.smoking_area}` : "", shop.power_seat ? `電源: ${shop.power_seat}` : "", shop.wifi ? `Wi-Fi: ${shop.wifi}` : "", shop.eat_in ? `イートイン: ${shop.eat_in}` : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section></div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section>${subtleLinks(area, genre, depth)}</aside></section>
       <section class="section"><h2>よくある確認</h2><div class="faq-list"><article class="faq-item"><h3>${area.label}で${genre.label}を探す時の見方は？</h3><p>駅からの距離、駐車場、営業時間、予算目安を先に見ると選びやすくなります。</p></article><article class="faq-item"><h3>行く前に確認した方がよいことは？</h3><p>営業時間、料金、取扱内容、クーポン、駐車場は変わる場合があります。来店前に公式情報や地図情報も確認してください。</p></article></div></section>`;
 

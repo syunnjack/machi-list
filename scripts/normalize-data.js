@@ -35,6 +35,54 @@ function timesCardUrl() {
   return vcUrl("https://btimes.jp/about/");
 }
 
+function parkingOperatorSearchUrl(area) {
+  return searchUrl(`${area.label} 駐車場管理会社 土地活用 一括借り上げ`);
+}
+
+function reparkLandUseUrl() {
+  return "https://www.repark.jp/lp/01/";
+}
+
+function meitetsuParkingLandUseUrl() {
+  return "https://land.mkp.jp/";
+}
+
+function npdParkingUrl() {
+  return "https://n-p-d.co.jp/service/parking/";
+}
+
+function cocaColaVendingUrl() {
+  return "https://www.coca-cola.com/jp/ja/media-center/vending-machine";
+}
+
+function suntoryVendingUrl() {
+  return "https://www.suntory.co.jp/softdrink/jihanki/index.html";
+}
+
+function dydoVendingUrl() {
+  return "https://www.dydo.co.jp/jihankiconsul/faq/";
+}
+
+function itoenVendingUrl() {
+  return "https://www.itoen.co.jp/company/vender/";
+}
+
+function homesOfficeUrl() {
+  return "https://www.homes.co.jp/chintai/office/";
+}
+
+function athomeBusinessUrl() {
+  return "https://www.athome.co.jp/";
+}
+
+function inukiTenantUrl() {
+  return "https://www.i-tenpo.com/";
+}
+
+function openingResearchUrl(area) {
+  return searchUrl(`${area.label} 開業 競合店 周辺調査 立地`);
+}
+
 const eventGenreKeys = new Set(["darts", "bowling", "billiards"]);
 
 function isEventGenre(genreKey) {
@@ -65,6 +113,11 @@ function toolKeyword(genreKey, label) {
     "dental-clinic": "歯ブラシ 歯間ブラシ デンタルフロス",
     "parking-lot": "タイムズカード ETC 車載 便利グッズ",
     "bicycle-parking": "自転車 鍵 レインカバー ライト",
+    "parking-management": "駐車場 看板 防犯カメラ 照明",
+    "vending-machine": "飲料 まとめ買い 防災備蓄",
+    "vending-machine-installation": "自販機 防犯カメラ 屋外照明",
+    "office-tenant": "店舗 開業 備品 オフィス家具",
+    "opening-area-research": "店舗 看板 チラシ 防犯カメラ",
     "gas-station": "洗車用品 車 メンテナンス",
     "post-office": "梱包資材 封筒 宅配袋"
   }[genreKey] || `${label} 関連商品`;
@@ -97,6 +150,11 @@ function defaultHours(genreKey) {
     "dental-clinic": "診療時間確認",
     "parking-lot": "24時間営業",
     "bicycle-parking": "利用時間確認",
+    "parking-management": "相談時間確認",
+    "vending-machine": "利用時間確認",
+    "vending-machine-installation": "相談時間確認",
+    "office-tenant": "物件確認",
+    "opening-area-research": "調査項目確認",
     "gas-station": "営業時間確認",
     "post-office": "窓口時間確認"
   }[genreKey] || "営業時間確認";
@@ -145,6 +203,21 @@ function normalizeShop(shop) {
   if (!shop.booking_url && shop.genre_key === "bicycle-parking") {
     shop.booking_url = searchUrl(`${area.label} 駐輪場 料金 定期利用 自治体`);
   }
+  if (!shop.booking_url && shop.genre_key === "parking-management") {
+    shop.booking_url = shop.official_url || parkingOperatorSearchUrl(area);
+  }
+  if (!shop.booking_url && shop.genre_key === "vending-machine") {
+    shop.booking_url = searchUrl(`${area.label} 自動販売機 キャッシュレス 災害対応`);
+  }
+  if (!shop.booking_url && shop.genre_key === "vending-machine-installation") {
+    shop.booking_url = shop.official_url || searchUrl(`${area.label} 自販機設置 相談`);
+  }
+  if (!shop.booking_url && shop.genre_key === "office-tenant") {
+    shop.booking_url = shop.official_url || searchUrl(`${area.label} 貸事務所 貸店舗 テナント`);
+  }
+  if (!shop.booking_url && shop.genre_key === "opening-area-research") {
+    shop.booking_url = openingResearchUrl(area);
+  }
   if (!shop.booking_url && (shop.genre_key === "convenience-store" || shop.genre_key === "cafe" || shop.genre_key === "coin-laundry" || shop.genre_key === "drugstore" || shop.genre_key === "trading-card-shop" || shop.genre_key === "hobby-shop" || shop.genre_key === "recycle-shop" || shop.genre_key === "dental-clinic" || shop.genre_key === "gas-station" || shop.genre_key === "post-office") && shop.official_url) {
     shop.booking_url = shop.official_url;
   }
@@ -157,11 +230,23 @@ function normalizeShop(shop) {
   if (!shop.coupon_url && shop.genre_key === "parking-lot") {
     shop.coupon_url = timesCardUrl();
   }
+  if (!shop.coupon_url && shop.genre_key === "parking-management") {
+    shop.coupon_url = parkingOperatorSearchUrl(area);
+  }
+  if (!shop.coupon_url && shop.genre_key === "vending-machine-installation") {
+    shop.coupon_url = searchUrl(`${area.label} 自販機設置 比較`);
+  }
+  if (!shop.coupon_url && shop.genre_key === "office-tenant") {
+    shop.coupon_url = searchUrl(`${area.label} 居抜き物件 貸店舗`);
+  }
+  if (!shop.coupon_url && shop.genre_key === "opening-area-research") {
+    shop.coupon_url = openingResearchUrl(area);
+  }
   if (!shop.coupon_url) {
     shop.coupon_url = shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(isEventGenre(shop.genre_key) ? toolKeyword(shop.genre_key, genre.label) : `${genre.label} クーポン`);
   }
   if (!shop.shopping_url) {
-    shop.shopping_url = shop.genre_key === "parking-lot" ? timesCardUrl() : (shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(toolKeyword(shop.genre_key, genre.label)));
+    shop.shopping_url = shop.genre_key === "parking-lot" ? timesCardUrl() : (shop.genre_key === "parking-management" ? parkingOperatorSearchUrl(area) : (shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(toolKeyword(shop.genre_key, genre.label))));
   }
   return shop;
 }
@@ -468,6 +553,14 @@ for (const seedAdditionPath of seedAdditionFiles) {
   for (const item of seedAdditions) additions.push(item);
 }
 
+function isTokaiArea(area) {
+  return ["aichi", "gifu", "mie", "shizuoka"].includes(area.prefecture_key);
+}
+
+function isMetropolitanArea(area) {
+  return ["tokyo", "kanagawa", "chiba", "saitama", "aichi", "osaka", "hyogo", "kyoto", "fukuoka", "miyagi", "hiroshima", "hokkaido"].includes(area.prefecture_key);
+}
+
 for (const area of areas) {
   additions.push([
     `${area.key}-reservable-parking-guide`,
@@ -500,6 +593,236 @@ for (const area of areas) {
     false,
     `${area.label}中心部`,
     searchUrl(`${area.label} 駐輪場 料金 定期利用 自治体`)
+  ]);
+  additions.push([
+    `${area.key}-times24-parking-management`,
+    "タイムズ24 駐車場経営相談",
+    "parking-management",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    0,
+    "相談内容を確認",
+    true,
+    false,
+    false,
+    `${area.label}周辺`,
+    "https://www.times24.co.jp/lp/li01002.html"
+  ]);
+  additions.push([
+    `${area.key}-repark-parking-management`,
+    "三井のリパーク 駐車場経営相談",
+    "parking-management",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    0,
+    "相談内容を確認",
+    true,
+    false,
+    false,
+    `${area.label}周辺`,
+    reparkLandUseUrl()
+  ]);
+  if (isTokaiArea(area)) {
+    additions.push([
+      `${area.key}-meitetsu-parking-management`,
+      "名鉄協商パーキング 土地活用相談",
+      "parking-management",
+      area.key,
+      `${area.label}周辺`,
+      `${area.label}中心部`,
+      0,
+      0,
+      "相談内容を確認",
+      true,
+      false,
+      false,
+      `${area.label}周辺`,
+      meitetsuParkingLandUseUrl()
+    ]);
+  }
+  if (isMetropolitanArea(area)) {
+    additions.push([
+      `${area.key}-npd-parking-management`,
+      "日本駐車場開発 駐車場管理相談",
+      "parking-management",
+      area.key,
+      `${area.label}周辺`,
+      `${area.label}中心部`,
+      0,
+      0,
+      "相談内容を確認",
+      true,
+      false,
+      false,
+      `${area.label}周辺`,
+      npdParkingUrl()
+    ]);
+  }
+  additions.push([
+    `${area.key}-vending-machine-guide`,
+    `${area.label} 自動販売機案内`,
+    "vending-machine",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    150,
+    "目安150円から",
+    false,
+    true,
+    false,
+    `${area.label}中心部`,
+    searchUrl(`${area.label} 自動販売機 キャッシュレス 災害対応`)
+  ]);
+  additions.push([
+    `${area.key}-coca-cola-vending-installation`,
+    "コカ・コーラ 自動販売機設置相談",
+    "vending-machine-installation",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    0,
+    "相談内容を確認",
+    false,
+    false,
+    false,
+    `${area.label}周辺`,
+    cocaColaVendingUrl()
+  ]);
+  additions.push([
+    `${area.key}-suntory-vending-installation`,
+    "サントリー 自動販売機設置相談",
+    "vending-machine-installation",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    0,
+    "相談内容を確認",
+    false,
+    false,
+    false,
+    `${area.label}周辺`,
+    suntoryVendingUrl()
+  ]);
+  additions.push([
+    `${area.key}-dydo-vending-installation`,
+    "ダイドードリンコ 自販機設置相談",
+    "vending-machine-installation",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    0,
+    "相談内容を確認",
+    false,
+    false,
+    false,
+    `${area.label}周辺`,
+    dydoVendingUrl()
+  ]);
+  additions.push([
+    `${area.key}-itoen-vending-installation`,
+    "伊藤園 自動販売機設置相談",
+    "vending-machine-installation",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    0,
+    "相談内容を確認",
+    false,
+    false,
+    false,
+    `${area.label}周辺`,
+    itoenVendingUrl()
+  ]);
+  additions.push([
+    `${area.key}-homes-office-tenant`,
+    "LIFULL HOME'S 貸事務所検索",
+    "office-tenant",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    0,
+    "物件条件を確認",
+    false,
+    false,
+    false,
+    `${area.label}周辺`,
+    homesOfficeUrl()
+  ]);
+  additions.push([
+    `${area.key}-athome-business-tenant`,
+    "アットホーム 事業用物件検索",
+    "office-tenant",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    0,
+    "物件条件を確認",
+    false,
+    false,
+    false,
+    `${area.label}周辺`,
+    athomeBusinessUrl()
+  ]);
+  if (isMetropolitanArea(area)) {
+    additions.push([
+      `${area.key}-inuki-tenant-search`,
+      "居抜き店舗.com テナント検索",
+      "office-tenant",
+      area.key,
+      `${area.label}周辺`,
+      `${area.label}中心部`,
+      0,
+      0,
+      "物件条件を確認",
+      false,
+      false,
+      false,
+      `${area.label}周辺`,
+      inukiTenantUrl()
+    ]);
+  }
+  additions.push([
+    `${area.key}-opening-area-research-guide`,
+    `${area.label} 出店前の周辺調査`,
+    "opening-area-research",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    0,
+    "周辺情報を確認",
+    true,
+    true,
+    false,
+    `${area.label}周辺`,
+    openingResearchUrl(area)
+  ]);
+  additions.push([
+    `${area.key}-competitor-shop-check`,
+    `${area.label} 競合店確認`,
+    "opening-area-research",
+    area.key,
+    `${area.label}周辺`,
+    `${area.label}中心部`,
+    0,
+    0,
+    "周辺情報を確認",
+    true,
+    true,
+    false,
+    `${area.label}周辺`,
+    searchUrl(`${area.label} 競合店 店舗 事務所`)
   ]);
 }
 

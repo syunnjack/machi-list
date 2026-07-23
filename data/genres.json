@@ -133,5 +133,30 @@
     "key": "bicycle-parking",
     "label": "駐輪場",
     "description": "駅前、定期利用、一時利用、料金、自治体の案内ページを確認できます。"
+  },
+  {
+    "key": "parking-management",
+    "label": "駐車場管理会社・土地活用",
+    "description": "駐車場経営、管理委託、一括借り上げ、予約制駐車場、相談先を確認できます。"
+  },
+  {
+    "key": "vending-machine",
+    "label": "自動販売機",
+    "description": "駅前、商業施設、屋外、キャッシュレス対応、災害対応型の設置場所を確認できます。"
+  },
+  {
+    "key": "vending-machine-installation",
+    "label": "自販機設置",
+    "description": "飲料自販機の設置相談、商品補充、売上金回収、空容器回収、故障対応を確認できます。"
+  },
+  {
+    "key": "office-tenant",
+    "label": "貸事務所・テナント",
+    "description": "新規開業向けの貸事務所、貸店舗、居抜き物件、周辺施設を確認できます。"
+  },
+  {
+    "key": "opening-area-research",
+    "label": "出店前の周辺調査",
+    "description": "競合店、近隣施設、駐車場、駅からの近さ、開業前に見たい周辺情報を確認できます。"
   }
 ]
