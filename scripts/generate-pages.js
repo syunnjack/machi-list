@@ -222,7 +222,22 @@ function escapeHtml(value) {
 
 function write(file, content) {
   fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, content, "utf8");
+  writeFileWithRetry(file, content);
+}
+
+function writeFileWithRetry(file, content) {
+  let lastError;
+  for (let attempt = 0; attempt < 5; attempt += 1) {
+    try {
+      fs.writeFileSync(file, content, "utf8");
+      return;
+    } catch (error) {
+      lastError = error;
+      if (!["EBUSY", "EPERM", "EACCES", "UNKNOWN"].includes(error.code)) break;
+      Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 50 * (attempt + 1));
+    }
+  }
+  throw lastError;
 }
 
 function toRelative(url, depth) {
