@@ -536,6 +536,7 @@ const additions = [
 
 const seedAdditionFiles = [
   "data/seed-shops.json",
+  "data/seed-place-approved.json",
   "data/seed-round1-major-cities.json",
   "data/seed-gigo-kaikatsu-major-cities.json",
   "data/seed-capsule-toy-major-cities.json",

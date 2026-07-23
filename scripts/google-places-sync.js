@@ -59,6 +59,8 @@ function normalizeCandidate(seed, place) {
   const name = place.displayName?.text || seed.query;
   return {
     id: `place-${slugify(place.id || name)}`,
+    review_status: "pending",
+    review_note: "",
     source: {
       google_place_id: place.id,
       google_query: seed.query,
@@ -78,6 +80,13 @@ function normalizeCandidate(seed, place) {
     business_status: place.businessStatus || null,
     opening_hours: place.regularOpeningHours?.weekdayDescriptions || null,
     booking: null,
+    review: {
+      seed_source: seed.source || null,
+      current_count: seed.current_count ?? null,
+      target_count: seed.target_count ?? null,
+      needs_address_check: !place.formattedAddress,
+      needs_site_check: !place.websiteUri
+    },
     commerce: seed.genre_key === "adult-shop"
       ? { provider: "rakuten", keyword: "ラブグッズ" }
       : null
