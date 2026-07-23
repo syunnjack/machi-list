@@ -4,7 +4,19 @@
 
 ```bash
 npm run seeds:places
-npm run sync:places
+```
+
+`seeds:places` は不足チェック、候補語生成、拡張ロードマップ作成、次に取得する候補キュー作成まで行います。
+
+標準の取得キューは `data/place-seeds.next.json` です。PowerShellでは次のように実行します。
+
+```powershell
+$env:PLACE_SEEDS_FILE="data/place-seeds.next.json"; npm run sync:places
+```
+
+候補取得後に確認用ファイルを作ります。
+
+```bash
 npm run candidates:review
 ```
 

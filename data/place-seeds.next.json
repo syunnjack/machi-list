@@ -1,0 +1,1702 @@
+[
+  {
+    "query": "Kintaro Nagoya adult shop",
+    "genre_key": "adult-shop",
+    "area_key": "nagoya-nakamura",
+    "prefecture": "Aichi",
+    "source": "manual",
+    "current_count": null,
+    "target_count": null,
+    "brand": "Kintaro"
+  },
+  {
+    "query": "Kintaro Aichi adult shop",
+    "genre_key": "adult-shop",
+    "area_key": "nagoya-nakamura",
+    "prefecture": "Aichi",
+    "source": "manual",
+    "current_count": null,
+    "target_count": null,
+    "brand": "Kintaro"
+  },
+  {
+    "query": "Takumi Shoten Okazaki Aichi",
+    "genre_key": "adult-shop",
+    "area_key": "okazaki",
+    "prefecture": "Aichi",
+    "source": "manual",
+    "current_count": null,
+    "target_count": null,
+    "brand": "Takumi Shoten"
+  },
+  {
+    "query": "Takumi Shoten Obu Aichi",
+    "genre_key": "adult-shop",
+    "area_key": "obu",
+    "prefecture": "Aichi",
+    "source": "manual",
+    "current_count": null,
+    "target_count": null,
+    "brand": "Takumi Shoten"
+  },
+  {
+    "query": "Zero Shiki Shoten Owariasahi Aichi",
+    "genre_key": "adult-shop",
+    "area_key": "owariasahi",
+    "prefecture": "Aichi",
+    "source": "manual",
+    "current_count": null,
+    "target_count": null,
+    "brand": "Zero Shiki Shoten"
+  },
+  {
+    "query": "Akiba Shoten Okazaki Kita",
+    "genre_key": "adult-shop",
+    "area_key": "okazaki",
+    "prefecture": "Aichi",
+    "source": "manual",
+    "current_count": null,
+    "target_count": null,
+    "brand": "Akiba Shoten"
+  },
+  {
+    "query": "Nagoya station game center",
+    "genre_key": "game-center",
+    "area_key": "nagoya-nakamura",
+    "prefecture": "Aichi",
+    "source": "manual",
+    "current_count": null,
+    "target_count": null,
+    "brand": null
+  },
+  {
+    "query": "Toyota-shi station internet cafe",
+    "genre_key": "netcafe",
+    "area_key": "toyota",
+    "prefecture": "Aichi",
+    "source": "manual",
+    "current_count": null,
+    "target_count": null,
+    "brand": null
+  },
+  {
+    "query": "Sakae Nagoya karaoke",
+    "genre_key": "karaoke",
+    "area_key": "nagoya-naka",
+    "prefecture": "Aichi",
+    "source": "manual",
+    "current_count": null,
+    "target_count": null,
+    "brand": null
+  },
+  {
+    "query": "Sakae Nagoya sauna",
+    "genre_key": "sauna",
+    "area_key": "nagoya-naka",
+    "prefecture": "Aichi",
+    "source": "manual",
+    "current_count": null,
+    "target_count": null,
+    "brand": null
+  },
+  {
+    "query": "安城市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "anjo",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "半田市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "handa",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "一宮市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "ichinomiya",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "刈谷市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kariya",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "春日井市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kasugai",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "小牧市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "komaki",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "日進市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nisshin",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "大府市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "obu",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "岡崎市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "okazaki",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "尾張旭市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "owariasahi",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "豊橋市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "toyohashi",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "豊川市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "toyokawa",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "豊田市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "toyota",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "秋田市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "akita",
+    "prefecture": "秋田県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "青森市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "aomori",
+    "prefecture": "青森県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "船橋市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "funabashi",
+    "prefecture": "千葉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "市川市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "ichikawa",
+    "prefecture": "千葉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "柏市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kashiwa",
+    "prefecture": "千葉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "松山市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "matsuyama",
+    "prefecture": "愛媛県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "福井市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "fukui",
+    "prefecture": "福井県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "福島市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "fukushima",
+    "prefecture": "福島県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "郡山市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "koriyama",
+    "prefecture": "福島県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "岐阜市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "gifu",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "各務原市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kakamigahara",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "高山市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "takayama",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "前橋市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "maebashi",
+    "prefecture": "群馬県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "福山市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "fukuyama",
+    "prefecture": "広島県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "旭川市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "asahikawa",
+    "prefecture": "北海道",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "函館市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "hakodate",
+    "prefecture": "北海道",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "尼崎市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "amagasaki",
+    "prefecture": "兵庫県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "姫路市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "himeji",
+    "prefecture": "兵庫県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "水戸市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "mito",
+    "prefecture": "茨城県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "金沢市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kanazawa",
+    "prefecture": "石川県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "盛岡市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "morioka",
+    "prefecture": "岩手県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "高松市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "takamatsu",
+    "prefecture": "香川県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "鹿児島市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kagoshima",
+    "prefecture": "鹿児島県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "高知市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kochi",
+    "prefecture": "高知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "津市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "tsu",
+    "prefecture": "三重県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "四日市市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "yokkaichi",
+    "prefecture": "三重県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "宮崎市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "miyazaki",
+    "prefecture": "宮崎県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "長野市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagano",
+    "prefecture": "長野県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "長崎市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagasaki",
+    "prefecture": "長崎県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "奈良市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nara",
+    "prefecture": "奈良県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "大分市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "oita",
+    "prefecture": "大分県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "倉敷市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kurashiki",
+    "prefecture": "岡山県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "那覇市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "naha",
+    "prefecture": "沖縄県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "佐賀市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "saga",
+    "prefecture": "佐賀県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "川越市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kawagoe",
+    "prefecture": "埼玉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "三郷市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "misato",
+    "prefecture": "埼玉県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "大津市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "otsu",
+    "prefecture": "滋賀県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "松江市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "matsue",
+    "prefecture": "島根県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "富士市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "fuji",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "藤枝市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "fujieda",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "富士宮市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "fujinomiya",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "御殿場市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "gotemba",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "沼津市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "numazu",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "焼津市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "yaizu",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "宇都宮市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "utsunomiya",
+    "prefecture": "栃木県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "徳島市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "tokushima",
+    "prefecture": "徳島県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "鳥取市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "tottori",
+    "prefecture": "鳥取県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "富山市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "toyama",
+    "prefecture": "富山県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "和歌山市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "wakayama",
+    "prefecture": "和歌山県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "山形市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "yamagata",
+    "prefecture": "山形県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "下関市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "shimonoseki",
+    "prefecture": "山口県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "山口市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "yamaguchi",
+    "prefecture": "山口県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "甲府市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kofu",
+    "prefecture": "山梨県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "岐南町 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "ginan",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "玉城町 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "tamaki",
+    "prefecture": "三重県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "八王子市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "tokyo-hachioji",
+    "prefecture": "東京都",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "町田市 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "tokyo-machida",
+    "prefecture": "東京都",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "渋谷区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "tokyo-shibuya",
+    "prefecture": "東京都",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "新宿区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "tokyo-shinjuku",
+    "prefecture": "東京都",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "豊島区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "tokyo-toshima",
+    "prefecture": "東京都",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市熱田区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-atsuta",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市千種区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-chikusa",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市東区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-higashi",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市北区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-kita",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市名東区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-meito",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市緑区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-midori",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市南区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-minami",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市港区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-minato",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市瑞穂区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-mizuho",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市守山区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-moriyama",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市中区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-naka",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市中川区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-nakagawa",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市中村区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-nakamura",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市西区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-nishi",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市昭和区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-showa",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市天白区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-tempaku",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "千葉市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "chiba-chuo",
+    "prefecture": "千葉県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "福岡市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "fukuoka-chuo",
+    "prefecture": "福岡県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "福岡市博多区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "fukuoka-hakata",
+    "prefecture": "福岡県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "北九州市小倉北区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kitakyushu-kokurakita",
+    "prefecture": "福岡県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "広島市中区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "hiroshima-naka",
+    "prefecture": "広島県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "札幌市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "sapporo-chuo",
+    "prefecture": "北海道",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "神戸市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kobe-chuo",
+    "prefecture": "兵庫県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "川崎市川崎区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kawasaki-kawasaki",
+    "prefecture": "神奈川県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "相模原市南区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "sagamihara-minami",
+    "prefecture": "神奈川県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "横浜市中区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "yokohama-naka",
+    "prefecture": "神奈川県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "横浜市西区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "yokohama-nishi",
+    "prefecture": "神奈川県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "熊本市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kumamoto-chuo",
+    "prefecture": "熊本県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "京都市南区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kyoto-minami",
+    "prefecture": "京都府",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "京都市中京区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kyoto-nakagyo",
+    "prefecture": "京都府",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "京都市下京区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kyoto-shimogyo",
+    "prefecture": "京都府",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "仙台市青葉区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "sendai-aoba",
+    "prefecture": "宮城県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "新潟市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "niigata-chuo",
+    "prefecture": "新潟県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "岡山市北区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "okayama-kita",
+    "prefecture": "岡山県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "岡山市南区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "okayama-minami",
+    "prefecture": "岡山県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "大阪市阿倍野区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "osaka-abeno",
+    "prefecture": "大阪府",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "大阪市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "osaka-chuo",
+    "prefecture": "大阪府",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "大阪市北区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "osaka-kita",
+    "prefecture": "大阪府",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "大阪市浪速区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "osaka-naniwa",
+    "prefecture": "大阪府",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "堺市北区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "sakai-kita",
+    "prefecture": "大阪府",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "さいたま市大宮区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "saitama-omiya",
+    "prefecture": "埼玉県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "さいたま市浦和区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "saitama-urawa",
+    "prefecture": "埼玉県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "浜松市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "hamamatsu-chuo",
+    "prefecture": "静岡県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "静岡市葵区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "shizuoka-aoi",
+    "prefecture": "静岡県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "静岡市清水区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "shizuoka-shimizu",
+    "prefecture": "静岡県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "静岡市駿河区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "shizuoka-suruga",
+    "prefecture": "静岡県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "清水町 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "sunto-shimizu",
+    "prefecture": "静岡県",
+    "source": "growth-roadmap",
+    "current_count": 0,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "安城市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "anjo",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "半田市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "handa",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "一宮市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "ichinomiya",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "刈谷市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "kariya",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "春日井市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "kasugai",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "小牧市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "komaki",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市熱田区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-atsuta",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市千種区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-chikusa",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市東区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-higashi",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市北区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-kita",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市名東区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-meito",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市緑区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-midori",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市南区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-minami",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市港区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-minato",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市瑞穂区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-mizuho",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市守山区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-moriyama",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市中区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-naka",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市中川区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-nakagawa",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市中村区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-nakamura",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市西区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-nishi",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市昭和区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-showa",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "名古屋市天白区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nagoya-tempaku",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "日進市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "nisshin",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "大府市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "obu",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "岡崎市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "okazaki",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "尾張旭市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "owariasahi",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "豊橋市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "toyohashi",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "豊川市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "toyokawa",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "豊田市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "toyota",
+    "prefecture": "愛知県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "秋田市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "akita",
+    "prefecture": "秋田県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "青森市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "aomori",
+    "prefecture": "青森県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "千葉市中央区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "chiba-chuo",
+    "prefecture": "千葉県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "船橋市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "funabashi",
+    "prefecture": "千葉県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "市川市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "ichikawa",
+    "prefecture": "千葉県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "柏市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "kashiwa",
+    "prefecture": "千葉県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "松山市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "matsuyama",
+    "prefecture": "愛媛県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "福井市 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "fukui",
+    "prefecture": "福井県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "福岡市中央区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "fukuoka-chuo",
+    "prefecture": "福岡県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "福岡市博多区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "fukuoka-hakata",
+    "prefecture": "福岡県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  },
+  {
+    "query": "北九州市小倉北区 駐車場",
+    "genre_key": "parking-lot",
+    "area_key": "kitakyushu-kokurakita",
+    "prefecture": "福岡県",
+    "source": "growth-roadmap",
+    "current_count": 1,
+    "target_count": 5,
+    "brand": null
+  }
+]
