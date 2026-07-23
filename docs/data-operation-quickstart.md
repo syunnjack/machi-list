@@ -1,5 +1,17 @@
 # データ運用クイックスタート
 
+## 0. 現在地を確認する
+
+```powershell
+npm run data:preflight
+```
+
+主な出力:
+
+- `data/data-workflow-preflight.json`
+
+このコマンドで、次に実行すべきコマンドと不足している設定を確認できます。
+
 ## 1. 次に集める候補を作る
 
 ```powershell

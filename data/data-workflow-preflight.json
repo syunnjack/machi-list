@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-07-23T09:06:04.254Z",
+  "status": "needs_setup",
+  "summary": {
+    "total": 9,
+    "ok": 8,
+    "blockers": 1
+  },
+  "next_action": {
+    "command": "$env:GOOGLE_PLACES_API_KEY=\"...\"",
+    "reason": "候補取得にはAPIキーが必要です。"
+  },
+  "checks": [
+    {
+      "key": "GOOGLE_PLACES_API_KEY",
+      "label": "GOOGLE_PLACES_API_KEY",
+      "type": "env",
+      "ok": false,
+      "count": 0,
+      "message": "Google Places候補取得前にAPIキーを設定してください。"
+    },
+    {
+      "key": "data/place-seeds.next.json",
+      "label": "取得キュー",
+      "type": "json-array",
+      "ok": true,
+      "count": 170,
+      "message": "170件あります。"
+    },
+    {
+      "key": "data/google-places-candidates.json",
+      "label": "取得済み候補",
+      "type": "json-array",
+      "ok": true,
+      "count": 0,
+      "message": "未作成ですが、次工程で作成できます。"
+    },
+    {
+      "key": "data/place-candidates.review.json",
+      "label": "レビュー候補",
+      "type": "json-array",
+      "ok": true,
+      "count": 0,
+      "message": "0件あります。"
+    },
+    {
+      "key": "data/place-candidates.review.csv",
+      "label": "レビューCSV",
+      "type": "csv",
+      "ok": true,
+      "count": 0,
+      "message": "1行あります。"
+    },
+    {
+      "key": "data/place-candidates.approve.txt",
+      "label": "承認IDファイル",
+      "type": "text",
+      "ok": true,
+      "count": 0,
+      "message": "3行あります。"
+    },
+    {
+      "key": "data/seed-place-approved.json",
+      "label": "承認済み採用データ",
+      "type": "json-array",
+      "ok": true,
+      "count": 0,
+      "message": "0件あります。"
+    },
+    {
+      "key": "data/data-quality-report.json",
+      "label": "品質レポート",
+      "type": "json-object",
+      "ok": true,
+      "count": 1,
+      "message": "作成済みです。"
+    },
+    {
+      "key": "data/adoption-report.json",
+      "label": "採用レポート",
+      "type": "json-object",
+      "ok": true,
+      "count": 1,
+      "message": "作成済みです。"
+    }
+  ]
+}
