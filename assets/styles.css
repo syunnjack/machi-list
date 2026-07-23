@@ -262,6 +262,77 @@ main {
   z-index: 2;
 }
 
+.heat-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.heat-spot {
+  position: absolute;
+  width: var(--heat-size, 170px);
+  height: var(--heat-size, 170px);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  opacity: var(--heat-opacity, 0.42);
+  background:
+    radial-gradient(circle, var(--heat-color, rgba(0, 107, 91, 0.48)) 0%, rgba(255, 255, 255, 0) 68%);
+  filter: blur(2px);
+}
+
+.heat-legend {
+  position: absolute;
+  right: 66px;
+  bottom: 18px;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: min(360px, calc(100% - 36px));
+  gap: 8px 10px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--muted);
+  font-size: 12px;
+  box-shadow: 0 12px 28px rgba(34, 31, 27, 0.12);
+}
+
+.heat-legend strong {
+  color: var(--ink);
+}
+
+.heat-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.heat-legend small {
+  flex-basis: 100%;
+}
+
+.heat-dot {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+.heat-low {
+  background: #4f9d7a;
+}
+
+.heat-mid {
+  background: #d7a01d;
+}
+
+.heat-high {
+  background: #c34a32;
+}
+
 .map-pin {
   position: absolute;
   transform: translate(-50%, -100%);
@@ -1086,6 +1157,11 @@ button:hover,
 
   .map-stage {
     min-height: 520px;
+  }
+
+  .heat-legend {
+    right: 18px;
+    bottom: 104px;
   }
 
   .route-panel {

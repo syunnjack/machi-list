@@ -78,6 +78,8 @@ let selectedFacilityIndex = null;
 const resultEl = document.querySelector("#shopResults");
 const metaEl = document.querySelector("#resultMeta");
 const mapPinsEl = document.querySelector("#mapPins");
+const heatLayerEl = document.querySelector("#heatLayer");
+const heatSummaryEl = document.querySelector("#heatSummary");
 const routeSummaryEl = document.querySelector("#routeSummary");
 const routePanelEl = document.querySelector("#routePanel");
 const areaSelect = document.querySelector("#areaSelect");
@@ -404,9 +406,71 @@ function highlightSelectedFacility() {
   });
 }
 
+function congestionWeight(facility) {
+  let weight = 1;
+  if (Number(facility.walkMinutes) <= 5) weight += 1.6;
+  else if (Number(facility.walkMinutes) <= 10) weight += 0.8;
+  if (facility.late) weight += 0.7;
+  if (facility.parking) weight += 0.3;
+  if (["restaurant", "cafe", "convenience-store", "game-center", "crane-game", "karaoke", "netcafe", "parking-lot", "office-tenant", "opening-area-research"].includes(facility.genreKey)) {
+    weight += 0.8;
+  }
+  return weight;
+}
+
+function areaHeatPosition(areaKey, items) {
+  const area = areas.find((item) => item.key === areaKey);
+  if (area) return { x: area.map_x, y: area.map_y };
+  const fallback = areaPositions[areaKey];
+  if (fallback) return fallback;
+  const first = items[0];
+  return first ? pinPosition(first, 0) : { x: 50, y: 50 };
+}
+
+function heatLevel(score, maxScore) {
+  if (!maxScore) return "low";
+  const ratio = score / maxScore;
+  if (ratio >= 0.72) return "high";
+  if (ratio >= 0.38) return "mid";
+  return "low";
+}
+
+function heatColor(level) {
+  if (level === "high") return "rgba(195, 74, 50, 0.58)";
+  if (level === "mid") return "rgba(215, 160, 29, 0.48)";
+  return "rgba(0, 107, 91, 0.36)";
+}
+
+function renderHeatMap(results) {
+  if (!heatLayerEl) return;
+  const grouped = new Map();
+  for (const facility of results) {
+    const current = grouped.get(facility.areaKey) || { items: [], score: 0 };
+    current.items.push(facility);
+    current.score += congestionWeight(facility);
+    grouped.set(facility.areaKey, current);
+  }
+  const heatItems = [...grouped.entries()]
+    .map(([areaKey, data]) => ({ areaKey, ...data, position: areaHeatPosition(areaKey, data.items) }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 24);
+  const maxScore = Math.max(...heatItems.map((item) => item.score), 0);
+  heatLayerEl.innerHTML = heatItems.map((item) => {
+    const level = heatLevel(item.score, maxScore);
+    const size = Math.round(96 + (maxScore ? item.score / maxScore : 0) * 150);
+    const opacity = level === "high" ? 0.74 : level === "mid" ? 0.58 : 0.42;
+    return `<span class="heat-spot" title="${item.items[0].city}${item.items[0].ward} 混雑目安 ${level}" style="left:${item.position.x}%;top:${item.position.y}%;--heat-size:${size}px;--heat-opacity:${opacity};--heat-color:${heatColor(level)}"></span>`;
+  }).join("");
+  if (heatSummaryEl) {
+    const top = heatItems[0];
+    heatSummaryEl.textContent = top ? `${top.items[0].city}${top.items[0].ward}周辺が高め` : "掲載施設の密度から推定";
+  }
+}
+
 function renderMap(results) {
   if (!mapPinsEl || !routeSummaryEl) return;
   routeSummaryEl.textContent = `${results.length}${text.allCount}`;
+  renderHeatMap(results);
   mapPinsEl.innerHTML = results.slice(0, 30).map((facility, index) => {
     const position = pinPosition(facility, index);
     return `
