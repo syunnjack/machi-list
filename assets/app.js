@@ -266,7 +266,7 @@ function applyUrlState() {
   });
 }
 
-function syncUrlState() {
+function syncUrlState(options = {}) {
   if (!window.history?.replaceState) return;
   const params = new URLSearchParams();
   const area = areaSelect?.value || "";
@@ -280,7 +280,8 @@ function syncUrlState() {
   if (filters.length) params.set("features", filters.join(","));
 
   const query = params.toString();
-  const nextUrl = `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash || ""}`;
+  const hash = options.hash ?? window.location.hash ?? "";
+  const nextUrl = `${window.location.pathname}${query ? `?${query}` : ""}${hash}`;
   window.history.replaceState(null, "", nextUrl);
 }
 
@@ -304,7 +305,16 @@ function searchFacilities(options = {}) {
   const sortedResults = sortFacilities(results);
   renderResults(sortedResults);
   renderMap(sortedResults);
-  if (options.updateUrl !== false) syncUrlState();
+  if (options.updateUrl !== false) syncUrlState({ hash: options.hash });
+  if (options.focusResults) {
+    requestAnimationFrame(() => {
+      document.querySelector("#shopResults")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
+}
+
+function runSearchFromButton() {
+  searchFacilities({ focusResults: true, hash: "#shopResults" });
 }
 
 function sortFacilities(results) {
@@ -586,7 +596,7 @@ document.querySelector("#useLocationButton")?.addEventListener("click", async ()
   routePanelEl.innerHTML = `<p class="eyebrow">ルート</p><h2>${origin.label}を出発地にしました</h2><p>一覧の「ルート」または地図のピンを押すと、所要時間の目安を表示します。</p>`;
 });
 
-searchButton?.addEventListener("click", searchFacilities);
+searchButton?.addEventListener("click", runSearchFromButton);
 areaSelect?.addEventListener("change", searchFacilities);
 genreSelect?.addEventListener("change", searchFacilities);
 sortSelect?.addEventListener("change", searchFacilities);
