@@ -1,9 +1,10 @@
 const fs = require("node:fs");
 const path = require("node:path");
+const { siteAnalyticsHead } = require("./site-analytics-head");
 
 const root = path.resolve(__dirname, "..");
 const siteUrl = "https://machi-list.jp";
-const today = "2026-07-23";
+const today = new Date().toISOString().slice(0, 10);
 
 const shops = readJson("data/shops.json");
 const areas = readJson("data/areas.json");
@@ -535,6 +536,7 @@ function pageShell({ title, description, canonical, depth, body, structuredData 
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${canonical}">
     <link rel="stylesheet" href="${css(depth)}">
+    ${siteAnalyticsHead()}
     ${structuredData}
   </head>
   <body>
