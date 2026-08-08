@@ -47,7 +47,8 @@ async function searchText(seed) {
         "places.googleMapsUri",
         "places.nationalPhoneNumber",
         "places.websiteUri",
-        "places.regularOpeningHours"
+        "places.regularOpeningHours",
+        "places.photos"
       ].join(",")
     },
     body: JSON.stringify({
@@ -88,6 +89,7 @@ function normalizeCandidate(seed, place) {
     official_url: place.websiteUri || null,
     business_status: place.businessStatus || null,
     opening_hours: place.regularOpeningHours?.weekdayDescriptions || null,
+    photo_reference: place.photos?.[0]?.name || null,
     booking: null,
     review: {
       seed_source: seed.source || null,

@@ -897,7 +897,7 @@ const existing = new Set(shops.map((shop) => shop.id));
 for (const item of additions) {
   if (removeIds.has(item[0])) continue;
   if (existing.has(item[0])) continue;
-  const [id, name, genreKey, areaKey, address, station, walk, budget, budgetLabel, parking, late, coupon, localArea, officialUrl, smokingArea, powerSeat, wifi, eatIn] = item;
+  const [id, name, genreKey, areaKey, address, station, walk, budget, budgetLabel, parking, late, coupon, localArea, officialUrl, smokingArea, powerSeat, wifi, eatIn, photoReference] = item;
   shops.push({
     id,
     name,
@@ -918,6 +918,7 @@ for (const item of additions) {
     power_seat: powerSeat || "",
     wifi: wifi || "",
     eat_in: eatIn || "",
+    photo_reference: photoReference || "",
     source: { google_place_id: null, google_query: `${name} ${address}` }
   });
 }

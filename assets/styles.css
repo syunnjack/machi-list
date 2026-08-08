@@ -712,6 +712,14 @@ button:hover,
   padding: 18px;
 }
 
+.shop-photo {
+  grid-column: 1 / -1;
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 .shop-card h3 {
   margin: 0 0 6px;
   font-size: 22px;

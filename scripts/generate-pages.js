@@ -584,13 +584,23 @@ function featureBadges(shop) {
   ].filter(Boolean).join("");
 }
 
+const GOOGLE_PLACES_PHOTO_KEY = "AIzaSyAZr_zX1zuPGEgmU2zm-wTsd1j9Cfo15z0";
+
+function photoUrl(shop) {
+  if (!shop.photo_reference) return "";
+  return `https://places.googleapis.com/v1/${shop.photo_reference}/media?maxWidthPx=480&key=${GOOGLE_PLACES_PHOTO_KEY}`;
+}
+
 function shopCards(items, depth) {
   if (!items.length) {
     return `<article class="shop-card"><div><h3>掲載準備中です</h3><p>このエリアの店舗、予約、クーポン、通販、駐車場情報を順次追加しています。</p></div><div class="shop-actions"><a class="button" href="${home(depth)}">条件を変えて探す</a></div></article>`;
   }
 
-  return items.map((shop) => `
+  return items.map((shop) => {
+    const photo = photoUrl(shop);
+    return `
               <article class="shop-card">
+                ${photo ? `<img class="shop-photo" src="${photo}" alt="${escapeHtml(shop.name)}" loading="lazy">` : ""}
                 <div>
                   <h3><a href="${toRelative(shop.url, depth)}">${escapeHtml(shop.name)}</a></h3>
                   <p>${escapeHtml(shop.address)} / ${escapeHtml(shop.nearest_station)}から徒歩約${escapeHtml(shop.station_walk_minutes)}分</p>
@@ -602,7 +612,8 @@ function shopCards(items, depth) {
                   <a class="button button-light" href="${shop.shopping_url || shop.coupon_url || couponUrl({ label: shop.genre })}">${secondaryActionLabel(shop)}</a>
                   <a class="button button-light" href="${mapUrl(shop)}">地図</a>
                 </div>
-              </article>`).join("");
+              </article>`;
+  }).join("");
 }
 
 function itemList(name, canonical, items) {

@@ -61,7 +61,8 @@ function toSeed(candidate) {
     defaults.smokingArea,
     defaults.powerSeat,
     defaults.wifi,
-    defaults.eatIn
+    defaults.eatIn,
+    candidate.photo_reference || ""
   ];
 }
 
