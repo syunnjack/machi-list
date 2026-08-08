@@ -610,6 +610,31 @@ function itemList(name, canonical, items) {
   return `<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"${escapeHtml(name)}","url":"${canonical}","itemListElement":[${elements}]}</script>`;
 }
 
+function jsonLdString(value) {
+  return JSON.stringify(String(value ?? ""));
+}
+
+function localBusinessSchema(items) {
+  if (!items.length) return "";
+  const businesses = items.map((shop) => {
+    const parts = [
+      `"@type":"LocalBusiness"`,
+      `"name":${jsonLdString(shop.name)}`,
+      `"url":${jsonLdString(`${siteUrl}${shop.url}`)}`,
+      shop.address ? `"address":{"@type":"PostalAddress","addressCountry":"JP","streetAddress":${jsonLdString(shop.address)}}` : "",
+      shop.nearest_station ? `"description":${jsonLdString(`${shop.nearest_station}から徒歩約${shop.station_walk_minutes}分`)}` : ""
+    ].filter(Boolean);
+    return `{${parts.join(",")}}`;
+  });
+  return `<script type="application/ld+json">{"@context":"https://schema.org","@graph":[${businesses.join(",")}]}</script>`;
+}
+
+function faqSchema(faqs) {
+  if (!faqs.length) return "";
+  const entities = faqs.map((faq) => `{"@type":"Question","name":${jsonLdString(faq.question)},"acceptedAnswer":{"@type":"Answer","text":${jsonLdString(faq.answer)}}}`);
+  return `<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[${entities.join(",")}]}</script>`;
+}
+
 function areasFor(prefectureKey) {
   return areas.filter((area) => area.prefecture_key === prefectureKey);
 }
@@ -908,12 +933,17 @@ function genrePage(area, genre) {
       <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(shop.nearest_station)} 徒歩約${escapeHtml(shop.station_walk_minutes)}分</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : "", shop.smoking_area ? `喫煙: ${shop.smoking_area}` : "", shop.power_seat ? `電源: ${shop.power_seat}` : "", shop.wifi ? `Wi-Fi: ${shop.wifi}` : "", shop.eat_in ? `イートイン: ${shop.eat_in}` : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section>${relatedGenrePanel(area, genre, depth)}</div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section>${subtleLinks(area, genre, depth)}</aside></section>
 ${openingResearchExtra}      <section class="section"><h2>よくある確認</h2><div class="faq-list"><article class="faq-item"><h3>${area.label}で${genre.label}を探す時の見方は？</h3><p>駅からの距離、駐車場、営業時間、予算目安を先に見ると選びやすくなります。</p></article><article class="faq-item"><h3>行く前に確認した方がよいことは？</h3><p>営業時間、料金、取扱内容、クーポン、駐車場は変わる場合があります。来店前に公式情報や地図情報も確認してください。</p></article></div></section>`;
 
+  const faqs = [
+    { question: `${area.label}で${genre.label}を探す時の見方は？`, answer: "駅からの距離、駐車場、営業時間、予算目安を先に見ると選びやすくなります。" },
+    { question: "行く前に確認した方がよいことは？", answer: "営業時間、料金、取扱内容、クーポン、駐車場は変わる場合があります。来店前に公式情報や地図情報も確認してください。" }
+  ];
+
   write(path.join(root, "area", area.prefecture_key, ...area.path.split("/"), genre.key, "index.html"), pageShell({
     title: `${area.label}の${genre.label}一覧｜まちリスト`,
     description: `${area.label}の${genre.label}を一覧で比較。駅からの近さ、予算、駐車場、夜営業、クーポンを確認できます。`,
     canonical,
     depth,
-    structuredData: itemList(`${area.label}の${genre.label}一覧`, canonical, items),
+    structuredData: itemList(`${area.label}の${genre.label}一覧`, canonical, items) + localBusinessSchema(items) + faqSchema(faqs),
     body
   }));
 }
