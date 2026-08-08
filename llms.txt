@@ -6,7 +6,6 @@ MVPでは47都道府県の県庁所在地と主要エリアを扱います。
 主なジャンル:
 - ネットカフェ
 - ゲームセンター
-- アダルトショップ
 - カラオケ
 - サウナ
 - スーパー銭湯・SPA・岩盤浴
@@ -76,7 +75,6 @@ MVPでは47都道府県の県庁所在地と主要エリアを扱います。
 - /area/ishikawa/kanazawa/ 石川県金沢市
 - /area/ehime/matsuyama/ 愛媛県松山市
 - /area/okinawa/naha/ 沖縄県那覇市
-- /area/aichi/okazaki/adult-shop/ 愛知県岡崎市のアダルトショップ
 - /area/aichi/okazaki/spa/ 愛知県岡崎市のスーパー銭湯・SPA・岩盤浴
 
 編集方針:

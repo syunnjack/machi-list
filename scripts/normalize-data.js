@@ -936,7 +936,7 @@ for (const shop of shops) {
   uniqueShops.push(shop);
 }
 shops.length = 0;
-shops.push(...uniqueShops);
+shops.push(...uniqueShops.filter((shop) => shop.genre_key !== "adult-shop"));
 
 shops.sort((a, b) => {
   const pref = String(a.prefecture_key).localeCompare(String(b.prefecture_key), "ja");
