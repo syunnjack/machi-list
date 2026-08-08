@@ -16,7 +16,7 @@ function hasBrokenText(value) {
 }
 
 function vcUrl(targetUrl) {
-  return `https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=YOUR_VC_SID&pid=YOUR_VC_PID&vc_url=${encodeURIComponent(targetUrl)}`;
+  return `https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3771711&pid=892675357&vc_url=${encodeURIComponent(targetUrl)}`;
 }
 
 function rakutenUrl(keyword) {

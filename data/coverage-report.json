@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-23T08:56:33.062Z",
-  "shop_count": 2815,
+  "generated_at": "2026-08-08T11:32:01.753Z",
+  "shop_count": 2801,
   "area_count": 120,
-  "genre_count": 32,
+  "genre_count": 31,
   "min_target": 2,
-  "gap_count": 3291,
+  "gap_count": 3174,
   "top_gaps": [
     {
       "area_key": "anjo",
@@ -1064,11 +1064,6 @@
       "missing": 228
     },
     {
-      "key": "adult-shop",
-      "gaps": 117,
-      "missing": 226
-    },
-    {
       "key": "video-box",
       "gaps": 118,
       "missing": 226
@@ -1117,238 +1112,238 @@
   "summary_by_prefecture": [
     {
       "key": "aichi",
-      "gaps": 794,
-      "missing": 1886
+      "gaps": 768,
+      "missing": 1841
     },
     {
       "key": "shizuoka",
-      "gaps": 315,
-      "missing": 733
+      "gaps": 304,
+      "missing": 712
     },
     {
       "key": "osaka",
-      "gaps": 136,
-      "missing": 319
-    },
-    {
-      "key": "tokyo",
-      "gaps": 133,
+      "gaps": 131,
       "missing": 309
     },
     {
+      "key": "tokyo",
+      "gaps": 128,
+      "missing": 299
+    },
+    {
       "key": "gifu",
-      "gaps": 115,
-      "missing": 274
+      "gaps": 111,
+      "missing": 266
     },
     {
       "key": "chiba",
-      "gaps": 111,
-      "missing": 264
+      "gaps": 107,
+      "missing": 256
     },
     {
       "key": "saitama",
-      "gaps": 109,
-      "missing": 261
+      "gaps": 105,
+      "missing": 253
     },
     {
       "key": "kanagawa",
-      "gaps": 108,
-      "missing": 248
+      "gaps": 104,
+      "missing": 240
     },
     {
       "key": "kyoto",
-      "gaps": 81,
-      "missing": 196
+      "gaps": 78,
+      "missing": 190
     },
     {
       "key": "mie",
-      "gaps": 86,
-      "missing": 196
+      "gaps": 83,
+      "missing": 190
     },
     {
       "key": "hyogo",
-      "gaps": 82,
-      "missing": 184
+      "gaps": 79,
+      "missing": 178
     },
     {
       "key": "fukuoka",
-      "gaps": 83,
-      "missing": 183
+      "gaps": 80,
+      "missing": 177
     },
     {
       "key": "hokkaido",
-      "gaps": 80,
-      "missing": 182
+      "gaps": 77,
+      "missing": 176
     },
     {
       "key": "okayama",
-      "gaps": 78,
-      "missing": 180
+      "gaps": 75,
+      "missing": 174
     },
     {
       "key": "fukushima",
-      "gaps": 57,
-      "missing": 125
+      "gaps": 55,
+      "missing": 121
     },
     {
       "key": "hiroshima",
-      "gaps": 55,
-      "missing": 122
+      "gaps": 53,
+      "missing": 118
     },
     {
       "key": "yamaguchi",
-      "gaps": 55,
-      "missing": 119
+      "gaps": 53,
+      "missing": 115
     },
     {
       "key": "miyagi",
-      "gaps": 28,
-      "missing": 62
+      "gaps": 27,
+      "missing": 60
     },
     {
       "key": "shiga",
-      "gaps": 28,
-      "missing": 62
+      "gaps": 27,
+      "missing": 60
     },
     {
       "key": "yamanashi",
-      "gaps": 27,
-      "missing": 62
+      "gaps": 26,
+      "missing": 60
     },
     {
       "key": "ibaraki",
-      "gaps": 29,
-      "missing": 61
+      "gaps": 28,
+      "missing": 59
     },
     {
       "key": "nara",
-      "gaps": 28,
-      "missing": 61
+      "gaps": 27,
+      "missing": 59
     },
     {
       "key": "yamagata",
-      "gaps": 29,
-      "missing": 61
+      "gaps": 28,
+      "missing": 59
     },
     {
       "key": "aomori",
-      "gaps": 28,
-      "missing": 60
+      "gaps": 27,
+      "missing": 58
     },
     {
       "key": "kochi",
-      "gaps": 27,
-      "missing": 60
+      "gaps": 26,
+      "missing": 58
     },
     {
       "key": "nagano",
-      "gaps": 29,
-      "missing": 60
-    },
-    {
-      "key": "shimane",
-      "gaps": 27,
-      "missing": 60
-    },
-    {
-      "key": "tochigi",
-      "gaps": 29,
-      "missing": 60
-    },
-    {
-      "key": "tottori",
-      "gaps": 28,
-      "missing": 60
-    },
-    {
-      "key": "iwate",
-      "gaps": 28,
-      "missing": 59
-    },
-    {
-      "key": "miyazaki",
-      "gaps": 28,
-      "missing": 59
-    },
-    {
-      "key": "nagasaki",
-      "gaps": 26,
-      "missing": 59
-    },
-    {
-      "key": "tokushima",
-      "gaps": 29,
-      "missing": 59
-    },
-    {
-      "key": "gunma",
       "gaps": 28,
       "missing": 58
     },
     {
-      "key": "ishikawa",
+      "key": "shimane",
       "gaps": 26,
+      "missing": 58
+    },
+    {
+      "key": "tochigi",
+      "gaps": 28,
+      "missing": 58
+    },
+    {
+      "key": "tottori",
+      "gaps": 27,
+      "missing": 58
+    },
+    {
+      "key": "iwate",
+      "gaps": 27,
       "missing": 57
+    },
+    {
+      "key": "miyazaki",
+      "gaps": 27,
+      "missing": 57
+    },
+    {
+      "key": "nagasaki",
+      "gaps": 25,
+      "missing": 57
+    },
+    {
+      "key": "tokushima",
+      "gaps": 28,
+      "missing": 57
+    },
+    {
+      "key": "gunma",
+      "gaps": 27,
+      "missing": 56
+    },
+    {
+      "key": "ishikawa",
+      "gaps": 25,
+      "missing": 55
     },
     {
       "key": "niigata",
-      "gaps": 26,
-      "missing": 57
+      "gaps": 25,
+      "missing": 55
     },
     {
       "key": "saga",
-      "gaps": 27,
-      "missing": 57
-    },
-    {
-      "key": "akita",
-      "gaps": 26,
-      "missing": 56
-    },
-    {
-      "key": "ehime",
-      "gaps": 26,
-      "missing": 56
-    },
-    {
-      "key": "fukui",
-      "gaps": 26,
-      "missing": 56
-    },
-    {
-      "key": "kumamoto",
-      "gaps": 27,
-      "missing": 56
-    },
-    {
-      "key": "oita",
-      "gaps": 26,
-      "missing": 56
-    },
-    {
-      "key": "okinawa",
-      "gaps": 27,
-      "missing": 56
-    },
-    {
-      "key": "toyama",
-      "gaps": 25,
-      "missing": 56
-    },
-    {
-      "key": "wakayama",
       "gaps": 26,
       "missing": 55
     },
     {
-      "key": "kagoshima",
+      "key": "akita",
+      "gaps": 25,
+      "missing": 54
+    },
+    {
+      "key": "ehime",
+      "gaps": 25,
+      "missing": 54
+    },
+    {
+      "key": "fukui",
+      "gaps": 25,
+      "missing": 54
+    },
+    {
+      "key": "kumamoto",
       "gaps": 26,
       "missing": 54
     },
     {
-      "key": "kagawa",
-      "gaps": 23,
+      "key": "oita",
+      "gaps": 25,
+      "missing": 54
+    },
+    {
+      "key": "okinawa",
+      "gaps": 26,
+      "missing": 54
+    },
+    {
+      "key": "toyama",
+      "gaps": 24,
+      "missing": 54
+    },
+    {
+      "key": "wakayama",
+      "gaps": 25,
       "missing": 53
+    },
+    {
+      "key": "kagoshima",
+      "gaps": 25,
+      "missing": 52
+    },
+    {
+      "key": "kagawa",
+      "gaps": 22,
+      "missing": 51
     }
   ]
 }

@@ -1,6 +1,6 @@
 const valueCommerce = {
-  sid: "YOUR_VC_SID",
-  pid: "YOUR_VC_PID",
+  sid: "3771711",
+  pid: "892675357",
   redirectBase: "https://ck.jp.ap.valuecommerce.com/servlet/referral"
 };
 
