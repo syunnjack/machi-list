@@ -62,7 +62,8 @@ function toSeed(candidate) {
     defaults.powerSeat,
     defaults.wifi,
     defaults.eatIn,
-    candidate.photo_reference || ""
+    candidate.photo_reference || "",
+    candidate.source?.google_place_id || ""
   ];
 }
 

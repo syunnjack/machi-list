@@ -1,21 +1,14 @@
 {
-  "generated_at": "2026-08-08T11:54:21.562Z",
+  "generated_at": "2026-08-08T12:04:33.503Z",
   "seeds_file": "data\\place-seeds.generated.json",
   "output_file": "data\\google-places-candidates.json",
-  "seed_count": 3174,
+  "seed_count": 1467,
   "selected_offset": 0,
-  "selected_count": 3174,
+  "selected_count": 1467,
   "max_results": 2,
   "append": false,
   "previous_candidates": 0,
-  "added_candidates": 5467,
-  "total_candidates": 5467,
-  "errors": [
-    {
-      "query": "京都市南区 居酒屋 予約",
-      "area_key": "kyoto-minami",
-      "genre_key": "restaurant",
-      "message": "京都市南区 居酒屋 予約: 503 {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"The service is currently unavailable.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
-    }
-  ]
+  "added_candidates": 2467,
+  "total_candidates": 2467,
+  "errors": []
 }

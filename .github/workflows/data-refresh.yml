@@ -1,0 +1,63 @@
+name: Weekly Data Refresh
+
+on:
+  schedule:
+    - cron: "0 18 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check for closed businesses
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+        run: node scripts/check-business-status.js
+
+      - name: Analyze coverage gaps
+        run: node scripts/analyze-coverage.js --limit 60
+
+      - name: Generate seeds for remaining gaps
+        run: node scripts/generate-place-seeds.js --limit 60
+
+      - name: Sync new places
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+          PLACE_SEEDS_FILE: data/place-seeds.generated.json
+          PLACES_MAX_RESULTS: 2
+        run: node scripts/google-places-sync.js
+
+      - name: Review candidates
+        run: node scripts/review-place-candidates.js
+
+      - name: Auto-approve high-confidence candidates
+        run: |
+          node -e "
+            const fs = require('fs');
+            const c = JSON.parse(fs.readFileSync('data/place-candidates.review.json', 'utf8'));
+            const ready = c.filter(x => x.review_summary.can_adopt).map(x => x.id);
+            fs.writeFileSync('data/place-candidates.approve.txt', ready.join('\n') + '\n');
+            console.log('auto-approving', ready.length);
+          "
+          node scripts/approve-place-candidates.js
+          node scripts/adopt-approved-place-candidates.js
+
+      - name: Rebuild site
+        run: npm run generate
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Automated weekly data refresh"
+          git push
