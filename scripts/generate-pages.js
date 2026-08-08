@@ -301,6 +301,12 @@ function bookingUrl(area, genre) {
   return vcUrl(`https://www.hotpepper.jp/?keyword=${encodeURIComponent(`${area.label} ${genre.label}`)}`);
 }
 
+const AMAZON_ASSOCIATE_TAG = "syunndayo-22";
+
+function amazonUrl(keyword) {
+  return `https://www.amazon.co.jp/s?k=${encodeURIComponent(keyword)}&tag=${AMAZON_ASSOCIATE_TAG}`;
+}
+
 function couponUrl(genre) {
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(`${genre.label} クーポン`)}/`;
 }
@@ -392,7 +398,7 @@ function subtleLinks(area, genre, depth) {
   if (genre.key === "opening-area-research") {
     return `<section class="side-block subtle-links"><h2>開業前に確認</h2><a href="${openingResearchUrl(area)}">周辺を調べる</a><a href="${home(depth)}area/${area.prefecture_key}/${area.path}/">周辺ジャンルを見る</a><a href="${shoppingUrl(genre)}">開業準備品</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
-  return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">予約できる店</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${shoppingUrl(genre)}">${genre.key === "adult-shop" ? "通販を見る" : "関連アイテム"}</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+  return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">予約できる店</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${shoppingUrl(genre)}">関連アイテム</a><a href="${amazonUrl(genre.label)}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
 }
 
 function primaryActionLabel(shop) {
