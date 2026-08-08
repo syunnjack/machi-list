@@ -9,6 +9,14 @@ const today = new Date().toISOString().slice(0, 10);
 const shops = readJson("data/shops.json");
 const areas = readJson("data/areas.json");
 const genres = readJson("data/genres.json");
+const reviews = fs.existsSync(path.join(root, "data/reviews.json")) ? readJson("data/reviews.json") : [];
+const approvedReviews = reviews.filter((review) => review.status === "approved");
+const reviewsByShop = new Map();
+for (const review of approvedReviews) {
+  const list = reviewsByShop.get(review.shop_id) || [];
+  list.push(review);
+  reviewsByShop.set(review.shop_id, list);
+}
 
 const prefectures = [
   {
@@ -584,6 +592,24 @@ function featureBadges(shop) {
   ].filter(Boolean).join("");
 }
 
+function reviewUrl(shop) {
+  const params = new URLSearchParams({
+    shop_id: shop.id,
+    shop_name: shop.name,
+    area_key: shop.area_key,
+    genre_key: shop.genre_key
+  });
+  return `/review.html?${params.toString()}`;
+}
+
+function reviewSummary(shop) {
+  const list = reviewsByShop.get(shop.id) || [];
+  if (!list.length) return "";
+  const avg = list.reduce((sum, r) => sum + Number(r.rating || 0), 0) / list.length;
+  const stars = "★".repeat(Math.round(avg)) + "☆".repeat(5 - Math.round(avg));
+  return `<p class="review-summary"><span class="stars">${stars}</span> ${avg.toFixed(1)}（${list.length}件の口コミ）</p>`;
+}
+
 const GOOGLE_PLACES_PHOTO_KEY = "AIzaSyAZr_zX1zuPGEgmU2zm-wTsd1j9Cfo15z0";
 
 function photoUrl(shop) {
@@ -604,6 +630,7 @@ function shopCards(items, depth) {
                 <div>
                   <h3><a href="${toRelative(shop.url, depth)}">${escapeHtml(shop.name)}</a></h3>
                   <p>${escapeHtml(shop.address)} / ${escapeHtml(shop.nearest_station)}から徒歩約${escapeHtml(shop.station_walk_minutes)}分</p>
+                  ${reviewSummary(shop)}
                   <div class="badges">${featureBadges(shop)}</div>
                 </div>
                 <div class="shop-actions">
@@ -611,6 +638,7 @@ function shopCards(items, depth) {
                   <a class="button button-light" href="${shop.booking_url || mapUrl(shop)}">${primaryActionLabel(shop)}</a>
                   <a class="button button-light" href="${shop.shopping_url || shop.coupon_url || couponUrl({ label: shop.genre })}">${secondaryActionLabel(shop)}</a>
                   <a class="button button-light" href="${mapUrl(shop)}">地図</a>
+                  <a class="button button-light" href="${home(depth)}${reviewUrl(shop).replace(/^\//, "")}">口コミを投稿</a>
                 </div>
               </article>`;
   }).join("");
