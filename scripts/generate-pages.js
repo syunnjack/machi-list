@@ -552,7 +552,7 @@ function supportSecondaryLabel(genre) {
   return "クーポンを探す";
 }
 
-function pageShell({ title, description, canonical, depth, body, structuredData = "" }) {
+function pageShell({ title, description, canonical, depth, body, structuredData = "", noindex = false }) {
   return `<!doctype html>
 <html lang="ja">
   <head>
@@ -561,6 +561,7 @@ function pageShell({ title, description, canonical, depth, body, structuredData 
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="${canonical}">
+    <meta name="robots" content="${noindex ? "noindex, follow" : "index, follow"}">
     <link rel="stylesheet" href="${css(depth)}">
     ${siteAnalyticsHead()}
     ${structuredData}
@@ -983,7 +984,8 @@ ${openingResearchExtra}      <section class="section"><h2>よくある確認</h2
     canonical,
     depth,
     structuredData: itemList(`${area.label}の${genre.label}一覧`, canonical, items) + localBusinessSchema(items) + faqSchema(faqs),
-    body
+    body,
+    noindex: items.length === 0
   }));
 }
 
@@ -1015,7 +1017,8 @@ function updateSitemap() {
   for (const area of areas) {
     urls.push(`/area/${area.prefecture_key}/${area.path}/`);
     for (const genre of genres) {
-      urls.push(`/area/${area.prefecture_key}/${area.path}/${genre.key}/`);
+      const hasShops = shops.some((shop) => shop.area_key === area.key && shop.genre_key === genre.key);
+      if (hasShops) urls.push(`/area/${area.prefecture_key}/${area.path}/${genre.key}/`);
     }
   }
 
