@@ -336,7 +336,19 @@ function shoppingUrl(genre) {
     "vending-machine": "飲料 まとめ買い 防災備蓄",
     "vending-machine-installation": "自販機 防犯カメラ 屋外照明",
     "office-tenant": "店舗 開業 備品 オフィス家具",
-    "opening-area-research": "店舗 看板 チラシ 防犯カメラ"
+    "opening-area-research": "店舗 看板 チラシ 防犯カメラ",
+    "hair-salon": "ヘアケア スタイリング剤",
+    massage: "マッサージ器 ツボ押し",
+    gym: "トレーニング ウェア プロテイン",
+    clinic: "常備薬 体温計 マスク",
+    veterinary: "ペット用品 キャリーバッグ",
+    "cram-school": "文房具 参考書",
+    coworking: "モバイルバッテリー イヤホン",
+    "hundred-yen-shop": "収納グッズ",
+    supermarket: "エコバッグ 保冷バッグ",
+    "dry-cleaning": "洗濯用品 衣類ケース",
+    "pet-shop": "ペットフード おもちゃ",
+    bookstore: "ブックカバー しおり"
   };
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keywords[genre.key] || `${genre.label} 関連商品`)}/`;
 }
