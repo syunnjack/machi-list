@@ -354,49 +354,49 @@ function eventUrl(area, genre) {
 
 function subtleLinks(area, genre, depth) {
   if (isEventGenre(genre.key)) {
-    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${eventUrl(area, genre)}">大会・イベント</a><a href="${shoppingUrl(genre)}">道具を探す</a><a href="${bookingUrl(area, genre)}">練習する店</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${eventUrl(area, genre)}">大会・イベント</a><a href="${shoppingUrl(genre)}">道具を探す</a><a href="${bookingUrl(area, genre)}">練習する店</a><a href="${amazonUrl(genre.label + " 用品")}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
   if (genre.key === "netcafe") {
-    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">空席・予約</a><a href="${shoppingUrl(genre)}">軽食・備品</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">空席・予約</a><a href="${shoppingUrl(genre)}">軽食・備品</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${amazonUrl("ネットカフェ 便利グッズ")}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
   if (genre.key === "video-box") {
-    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">店舗を確認</a><a href="${shoppingUrl(genre)}">軽食・備品</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">店舗を確認</a><a href="${shoppingUrl(genre)}">軽食・備品</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${amazonUrl("充電器 モバイルバッテリー")}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
   if (genre.key === "movie-theater") {
-    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${shoppingUrl(genre)}">前売り券を探す</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${shoppingUrl(genre)}">前売り券を探す</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${amazonUrl("映画 グッズ")}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
   if (genre.key === "capsule-toy") {
-    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${shoppingUrl(genre)}">収納・ケース</a><a href="${couponUrl(genre)}">取扱商品を探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${shoppingUrl(genre)}">収納・ケース</a><a href="${couponUrl(genre)}">取扱商品を探す</a><a href="${amazonUrl("カプセルトイ 収納")}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
   if (genre.key === "crane-game") {
-    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${couponUrl(genre)}">景品・イベント</a><a href="${shoppingUrl(genre)}">収納・グッズ</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${couponUrl(genre)}">景品・イベント</a><a href="${shoppingUrl(genre)}">収納・グッズ</a><a href="${amazonUrl("クレーンゲーム 攻略 グッズ")}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
   if (genre.key === "convenience-store") {
-    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${shoppingUrl(genre)}">携帯灰皿</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${shoppingUrl(genre)}">携帯灰皿</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${amazonUrl("携帯灰皿")}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
   if (genre.key === "cafe") {
-    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">店舗を確認</a><a href="${shoppingUrl(genre)}">タンブラー</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">店舗を確認</a><a href="${shoppingUrl(genre)}">タンブラー</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${amazonUrl("タンブラー マグカップ")}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
   if (genre.key === "parking-lot") {
-    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${timesParkingUrl(area)}">予約できる駐車場</a><a href="${timesCardUrl()}">会員登録を確認</a><a href="${parkingLandUseUrl()}">土地活用を相談</a><a href="${parkingOperatorSearchUrl(area)}">管理会社を比べる</a></section>`;
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${timesParkingUrl(area)}">予約できる駐車場</a><a href="${timesCardUrl()}">会員登録を確認</a><a href="${parkingLandUseUrl()}">土地活用を相談</a><a href="${parkingOperatorSearchUrl(area)}">管理会社を比べる</a><a href="${amazonUrl("ETCカード 車載グッズ")}">Amazonで探す</a></section>`;
   }
   if (genre.key === "bicycle-parking") {
-    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">料金・定期利用</a><a href="${shoppingUrl(genre)}">鍵・ライト</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">料金・定期利用</a><a href="${shoppingUrl(genre)}">鍵・ライト</a><a href="${amazonUrl("自転車 鍵 ライト")}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
   if (genre.key === "parking-management") {
-    return `<section class="side-block subtle-links"><h2>相談前に確認</h2><a href="${parkingLandUseUrl()}">タイムズ24に相談</a><a href="${reparkLandUseUrl()}">三井のリパークに相談</a><a href="${parkingOperatorSearchUrl(area)}">管理会社を比べる</a><a href="${shoppingUrl(genre)}">設備を確認</a></section>`;
+    return `<section class="side-block subtle-links"><h2>相談前に確認</h2><a href="${parkingLandUseUrl()}">タイムズ24に相談</a><a href="${reparkLandUseUrl()}">三井のリパークに相談</a><a href="${parkingOperatorSearchUrl(area)}">管理会社を比べる</a><a href="${shoppingUrl(genre)}">設備を確認</a><a href="${amazonUrl("駐車場 看板 防犯カメラ")}">Amazonで探す</a></section>`;
   }
   if (genre.key === "vending-machine") {
-    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">設置場所を探す</a><a href="${shoppingUrl(genre)}">飲料をまとめて探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+    return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">設置場所を探す</a><a href="${shoppingUrl(genre)}">飲料をまとめて探す</a><a href="${amazonUrl("飲料 まとめ買い")}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
   if (genre.key === "vending-machine-installation") {
-    return `<section class="side-block subtle-links"><h2>相談前に確認</h2><a href="${vendingInstallSearchUrl(area)}">設置相談先を比べる</a><a href="https://www.suntory.co.jp/softdrink/jihanki/index.html">サントリーに相談</a><a href="https://www.coca-cola.com/jp/ja/media-center/vending-machine">コカ・コーラを確認</a><a href="${shoppingUrl(genre)}">周辺設備を確認</a></section>`;
+    return `<section class="side-block subtle-links"><h2>相談前に確認</h2><a href="${vendingInstallSearchUrl(area)}">設置相談先を比べる</a><a href="https://www.suntory.co.jp/softdrink/jihanki/index.html">サントリーに相談</a><a href="https://www.coca-cola.com/jp/ja/media-center/vending-machine">コカ・コーラを確認</a><a href="${shoppingUrl(genre)}">周辺設備を確認</a><a href="${amazonUrl("防犯カメラ 屋外照明")}">Amazonで探す</a></section>`;
   }
   if (genre.key === "office-tenant") {
-    return `<section class="side-block subtle-links"><h2>開業前に確認</h2><a href="${officeTenantSearchUrl(area)}">貸事務所・テナント</a><a href="https://www.homes.co.jp/chintai/office/">貸事務所を探す</a><a href="https://www.athome.co.jp/">事業用物件を探す</a><a href="${shoppingUrl(genre)}">開業備品</a></section>`;
+    return `<section class="side-block subtle-links"><h2>開業前に確認</h2><a href="${officeTenantSearchUrl(area)}">貸事務所・テナント</a><a href="https://www.homes.co.jp/chintai/office/">貸事務所を探す</a><a href="https://www.athome.co.jp/">事業用物件を探す</a><a href="${shoppingUrl(genre)}">開業備品</a><a href="${amazonUrl("オフィス家具 開業備品")}">Amazonで探す</a></section>`;
   }
   if (genre.key === "opening-area-research") {
-    return `<section class="side-block subtle-links"><h2>開業前に確認</h2><a href="${openingResearchUrl(area)}">周辺を調べる</a><a href="${home(depth)}area/${area.prefecture_key}/${area.path}/">周辺ジャンルを見る</a><a href="${shoppingUrl(genre)}">開業準備品</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
+    return `<section class="side-block subtle-links"><h2>開業前に確認</h2><a href="${openingResearchUrl(area)}">周辺を調べる</a><a href="${home(depth)}area/${area.prefecture_key}/${area.path}/">周辺ジャンルを見る</a><a href="${shoppingUrl(genre)}">開業準備品</a><a href="${amazonUrl("開業 看板 チラシ")}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
   return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${bookingUrl(area, genre)}">予約できる店</a><a href="${couponUrl(genre)}">クーポンを探す</a><a href="${shoppingUrl(genre)}">関連アイテム</a><a href="${amazonUrl(genre.label)}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
 }
