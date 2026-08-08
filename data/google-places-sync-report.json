@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-08T12:04:33.503Z",
-  "seeds_file": "data\\place-seeds.generated.json",
-  "output_file": "data\\google-places-candidates.json",
-  "seed_count": 1467,
+  "generated_at": "2026-08-08T12:20:17.005Z",
+  "seeds_file": "data/place-seeds.generated.json",
+  "output_file": "data/google-places-candidates.json",
+  "seed_count": 60,
   "selected_offset": 0,
-  "selected_count": 1467,
+  "selected_count": 60,
   "max_results": 2,
   "append": false,
   "previous_candidates": 0,
-  "added_candidates": 2467,
-  "total_candidates": 2467,
+  "added_candidates": 114,
+  "total_candidates": 114,
   "errors": []
 }

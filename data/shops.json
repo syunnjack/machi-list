@@ -203,7 +203,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ7_KBd8ubBGARk4Z2t360gLc",
-      "google_query": "BUNT COFFEE 〒446-0052 愛知県安城市福釜町釜ケ渕２−１"
+      "google_query": "BUNT COFFEE 〒446-0052 愛知県安城市福釜町釜ケ渕２−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -3441,6 +3442,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
   {
+    "id": "place-chijycgsfiufbgartlx6suf244y",
+    "name": "こんどう歯科",
+    "genre_key": "dental-clinic",
+    "area_key": "handa",
+    "area": "半田市",
+    "address": "〒475-0833 愛知県半田市花園町４丁目16−１２",
+    "hours": "診療時間確認",
+    "nearest_station": "知多半田駅・半田駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://handa-kondo-dc.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJycGsfiuFBGARtLx6suf244Y/photos/AWCwydiN1Bbtj1fZBumE94M0lYh9DxEFZyadnlhw7i-AdR_j3ejx9g29eKZQ8jfcGbOzr83DxVgY-sojyxF8RlwoOsHqSfgbMI-_SWDux6a0W0rKIIDJayVta1xy2yMU71b5jKhOosR3KqkAUxrY4HZHQJvgT029WyEpnUVQp7H-bW6m0OJHP8FlYcMiXjQmRZXIa4MMfP2lVfshwbRelnL9IWVj5-6wRd8rseMFi33egcilkBraJArKAs7hXVEPyItY3wpKf9_U_4qhPa1bc23WyGada2_14eX-Ql6lCyUI2kC7Aa7clli6ToRMsfu_xXWALVzdXqGkncppJCzjq0YxluqjpyUdjTHf5LZ6XfIU1NRMINNjLP-UWxQm6c02cJn6jSA1XPkM97MMNpSULgOULTMdBvOjb6AREsWgLpd5Mq5n_n5W",
+    "source": {
+      "google_place_id": "ChIJycGsfiuFBGARtLx6suf244Y",
+      "google_query": "こんどう歯科 〒475-0833 愛知県半田市花園町４丁目16−１２"
+    },
+    "prefecture_key": "aichi",
+    "prefecture": "愛知県",
+    "city": "半田市",
+    "ward": "",
+    "area_path": "handa",
+    "area_label": "半田市",
+    "genre": "歯医者",
+    "url": "/area/aichi/handa/dental-clinic/",
+    "place_query": "こんどう歯科 〒475-0833 愛知県半田市花園町４丁目16−１２",
+    "booking_url": "https://handa-kondo-dc.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chij95e1lkefbgar-fl7ulw8rse",
     "name": "ウエルシア半田東洋町店",
     "genre_key": "drugstore",
@@ -3537,7 +3576,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJaUYf4LaFBGARoRnqQCUXejc",
-      "google_query": "スギ薬局 中町店 〒475-0855 愛知県半田市中町４丁目４０"
+      "google_query": "スギ薬局 中町店 〒475-0855 愛知県半田市中町４丁目４０",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -4603,7 +4643,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJRx9kpMiFBGARYmH4W-ua__U",
-      "google_query": "らん 〒475-0924 愛知県半田市東郷町２丁目５０−１"
+      "google_query": "らん 〒475-0924 愛知県半田市東郷町２丁目５０−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -5122,7 +5163,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJv7sElcaFBGARGfhOvJuJQ3Y",
-      "google_query": "DVD 匠書店 半田店 〒475-0837 愛知県半田市有楽町４丁目２２５−１"
+      "google_query": "DVD 匠書店 半田店 〒475-0837 愛知県半田市有楽町４丁目２２５−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -5826,7 +5868,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJsY_gjtKgA2ARj3gP3bR5ilE",
-      "google_query": "ローソン 一宮駅西店 〒491-0912 愛知県一宮市新生１丁目６−１"
+      "google_query": "ローソン 一宮駅西店 〒491-0912 愛知県一宮市新生１丁目６−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -6271,7 +6314,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJZeLZMcWmA2ARSB8cT9W15lo",
-      "google_query": "apollostation セルフ一宮SS（出光リテール販売） 〒491-0931 愛知県一宮市大和町馬引乾出４５−１"
+      "google_query": "apollostation セルフ一宮SS（出光リテール販売） 〒491-0931 愛知県一宮市大和町馬引乾出４５−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -6309,7 +6353,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJbZcnJa2gA2ARrlG0hUMdF3k",
-      "google_query": "apollostation セルフ両郷町SS （出光リテール販売） 〒491-0032 愛知県一宮市下沼町４丁目２０−１"
+      "google_query": "apollostation セルフ両郷町SS （出光リテール販売） 〒491-0032 愛知県一宮市下沼町４丁目２０−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -6532,7 +6577,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJkfhlVqGgA2ARGnnAIGKKSEI",
-      "google_query": "カラオケまねきねこ 一宮緑店 〒491-0862 愛知県一宮市緑４丁目１−１"
+      "google_query": "カラオケまねきねこ 一宮緑店 〒491-0862 愛知県一宮市緑４丁目１−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -8575,6 +8621,44 @@
     "url": "/area/aichi/kariya/dental-clinic/",
     "place_query": "やまむら総合歯科・矯正歯科 〒448-0001 愛知県刈谷市井ケ谷町沼田21番地",
     "booking_url": "https://www.yamamura-dc.com/?utm_source=google&utm_medium=gmb",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
+    "id": "place-chijjd85f7-dbgaruw3rpk3n2sw",
+    "name": "刈谷おおの歯科",
+    "genre_key": "dental-clinic",
+    "area_key": "kariya",
+    "area": "刈谷市",
+    "address": "〒448-0852 愛知県刈谷市住吉町１丁目60番地１",
+    "hours": "診療時間確認",
+    "nearest_station": "刈谷駅・逢妻駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://kariya-oono.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJjd85F7-dBGARUW3RpK3N2Sw/photos/AWCwydg0eR22NpAZBZj8P5MJQ1JzaKGv3Pec-igbXcSXTt_c48h4XEuA5u7i_F56qO2hXR9AWESxiA7XJBk83mJApvkvF3xlhND6D0OaXnKRwKRNsg0zEO31aXz0Q5Z8p3wG-OsjC2fg3CZgLuI_ckJsVoylawPFoehLth2pzD-H5K1qmzZ3TzlCPM5x66z-c6_39KVEYnNEUWLuWIjnMaq0wufLCW6olqqo5ByEzFH6wEyQN66P-p2bN3Bm7tBxSOB-tKiU8bLpemojFjGOTY-Gptk17Bm-ERedzp8qWMU2XuJc4-VmxfoOcIuGYCbrmG6gu0hGYfBeX-xYPNihUT055ohhzlU4EGaxJ_jW8UXYBgs9xseD7fKGIQIhm1m6t42qN4r6c2uDsp5Yc5BzVuEUv-epbUxIuGNODPzasm44uzc24w",
+    "source": {
+      "google_place_id": "ChIJjd85F7-dBGARUW3RpK3N2Sw",
+      "google_query": "刈谷おおの歯科 〒448-0852 愛知県刈谷市住吉町１丁目60番地１"
+    },
+    "prefecture_key": "aichi",
+    "prefecture": "愛知県",
+    "city": "刈谷市",
+    "ward": "",
+    "area_path": "kariya",
+    "area_label": "刈谷市",
+    "genre": "歯医者",
+    "url": "/area/aichi/kariya/dental-clinic/",
+    "place_query": "刈谷おおの歯科 〒448-0852 愛知県刈谷市住吉町１丁目60番地１",
+    "booking_url": "https://kariya-oono.com/",
     "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
@@ -10830,7 +10914,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJgzfTDgBzA2ARw6idygZe7TI",
-      "google_query": "bar No comment 〒486-0951 愛知県春日井市花長町２丁目７−３"
+      "google_query": "bar No comment 〒486-0951 愛知県春日井市花長町２丁目７−３",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -10881,6 +10966,44 @@
     "booking_url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3771711&pid=892675357&vc_url=https%3A%2F%2Fwww.asoview.com%2Fsearch%2F%3Fkeyword%3D%25E6%2598%25A5%25E6%2597%25A5%25E4%25BA%2595%25E5%25B8%2582%2520%25E3%2583%2580%25E3%2583%25BC%25E3%2583%2584%2520%25E3%2583%2597%25E3%2583%25AD%25E3%2583%2581%25E3%2583%25A3%25E3%2583%25AC%25E3%2583%25B3%25E3%2582%25B8%2520%25E3%2582%25A4%25E3%2583%2599%25E3%2583%25B3%25E3%2583%2588",
     "coupon_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%84%20%E3%83%90%E3%83%AC%E3%83%AB%20%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88/",
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%84%20%E3%83%90%E3%83%AC%E3%83%AB%20%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88/"
+  },
+  {
+    "id": "place-chijty8zjktsa2arqlll9jhusd0",
+    "name": "ありす歯科",
+    "genre_key": "dental-clinic",
+    "area_key": "kasugai",
+    "area": "春日井市",
+    "address": "〒480-0305 愛知県春日井市坂下町１丁目１５２６−１",
+    "hours": "診療時間確認",
+    "nearest_station": "春日井駅・勝川駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://sakurashika-g.jp/clinic/alice/?utm_source=google&utm_medium=maps",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJtY8ZjktsA2ARQlLL9jhUSD0/photos/AWCwydgTqJ56sIqwWg5ITmf4HZvofikIKHpCJlqGt266fN5aMTy0XDdY_7t3VQjgeaaMgqDnzsO2Ds_tN1yo05lUsZRA6CLO4MnAD-A60nKky2BXhDiAbJBoTJkGm79msQC5ys0Y5ysrXVasLAALTgI50GmReCAApGFBlgMzcREk-UJrIYU29RB5WDzsCK21IVFUH-ZUMvydpJX5ImWNwaClKQESQvKtQfPt2KTuP0tvuJ40LuZD-dytGghIHhtFJ-cPzhlFm4IToAAjb21J54kBiCu655qtxeVIeqFju82EGw70Ne_4bD7hGTQbUBePCeQhGXo5yBMX34lfMRF55CVN_DZ820-1mAL_FxBuUM68oefYA82_3RjeO1C05C0dVeCudlk-KvHKug4OVr6jANSq_UAv2KcFyNTKp8_LbMfSRf66p8E6",
+    "source": {
+      "google_place_id": "ChIJtY8ZjktsA2ARQlLL9jhUSD0",
+      "google_query": "ありす歯科 〒480-0305 愛知県春日井市坂下町１丁目１５２６−１"
+    },
+    "prefecture_key": "aichi",
+    "prefecture": "愛知県",
+    "city": "春日井市",
+    "ward": "",
+    "area_path": "kasugai",
+    "area_label": "春日井市",
+    "genre": "歯医者",
+    "url": "/area/aichi/kasugai/dental-clinic/",
+    "place_query": "ありす歯科 〒480-0305 愛知県春日井市坂下町１丁目１５２６−１",
+    "booking_url": "https://sakurashika-g.jp/clinic/alice/?utm_source=google&utm_medium=maps",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
   {
     "id": "place-chij5dwstpnxa2ar-vaijk4douq",
@@ -11053,7 +11176,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ4VSuZRptA2ARmf1ayXr4SXI",
-      "google_query": "ツルハドラッグ 春日井篠木店 〒486-0851 愛知県春日井市篠木町７丁目 18番地22"
+      "google_query": "ツルハドラッグ 春日井篠木店 〒486-0851 愛知県春日井市篠木町７丁目 18番地22",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -13455,7 +13579,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ1Q9MXvINA2ARXScS7ImGC7U",
-      "google_query": "ウエルシア小牧久保一色店 〒485-0003 愛知県小牧市久保一色７７７−２"
+      "google_query": "ウエルシア小牧久保一色店 〒485-0003 愛知県小牧市久保一色７７７−２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -14702,7 +14827,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJC8ZFWwBzA2ARV63dPcK1uZU",
-      "google_query": "こみかるはうす小牧店 〒485-0033 愛知県小牧市郷中１丁目２６３ 清水屋小牧店 2階"
+      "google_query": "こみかるはうす小牧店 〒485-0033 愛知県小牧市郷中１丁目２６３ 清水屋小牧店 2階",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -15887,7 +16013,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJLUtnZYZ7A2ARkXpwie-e_5I",
-      "google_query": "薬 マツモトキヨシ ミュープラット神宮前店 〒456-0032 愛知県名古屋市熱田区三本松町１８−４ ミュープラット神宮前 2F"
+      "google_query": "薬 マツモトキヨシ ミュープラット神宮前店 〒456-0032 愛知県名古屋市熱田区三本松町１８−４ ミュープラット神宮前 2F",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -19083,7 +19210,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJx4KtGSpxA2ARjsGjsnhrxZg",
-      "google_query": "三井のリパーク 仲田１丁目 駐車場 〒464-0074 愛知県名古屋市千種区仲田１丁目２−１２"
+      "google_query": "三井のリパーク 仲田１丁目 駐車場 〒464-0074 愛知県名古屋市千種区仲田１丁目２−１２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -20441,7 +20569,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ7QFeLSJxA2AR0JrzO49B4Ng",
-      "google_query": "ファミリーマート 芳野一丁目店 〒461-0027 愛知県名古屋市東区芳野１丁目４−４"
+      "google_query": "ファミリーマート 芳野一丁目店 〒461-0027 愛知県名古屋市東区芳野１丁目４−４",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -20849,7 +20978,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJlUEcVNhwA2AR-vAAGNgFcN8",
-      "google_query": "ENEOS Dr.Driveセルフ高岳町SS／日新商事（株）名古屋支店 〒461-0001 愛知県名古屋市東区泉２丁目２１−１８"
+      "google_query": "ENEOS Dr.Driveセルフ高岳町SS／日新商事（株）名古屋支店 〒461-0001 愛知県名古屋市東区泉２丁目２１−１８",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -20924,7 +21054,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJizQ-4_hxA2AROqET4A_WQsA",
-      "google_query": "ガンダムベースサテライト 名古屋店 〒461-0048 愛知県名古屋市東区矢田南４丁目102−３ イオンモールナゴヤドーム前 3階 namcoイオンモールナゴヤドーム前店内"
+      "google_query": "ガンダムベースサテライト 名古屋店 〒461-0048 愛知県名古屋市東区矢田南４丁目102−３ イオンモールナゴヤドーム前 3階 namcoイオンモールナゴヤドーム前店内",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -24835,7 +24966,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJW3dAmgRlA2ARbfqq3_2OePs",
-      "google_query": "セブン-イレブン 名古屋新宿１丁目店 〒465-0063 愛知県名古屋市名東区新宿１丁目７９"
+      "google_query": "セブン-イレブン 名古屋新宿１丁目店 〒465-0063 愛知県名古屋市名東区新宿１丁目７９",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -29643,7 +29775,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJg6cL4xp7A2AR56MS90TbwYs",
-      "google_query": "ウエルシア名古屋港東通店 〒457-0834 愛知県名古屋市南区港東通２丁目３３"
+      "google_query": "ウエルシア名古屋港東通店 〒457-0834 愛知県名古屋市南区港東通２丁目３３",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -31601,7 +31734,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJuduCNrF5A2ARswfgSN1rTLQ",
-      "google_query": "セブン-イレブン 名古屋名四町店 〒455-0053 愛知県名古屋市港区名四町１５３"
+      "google_query": "セブン-イレブン 名古屋名四町店 〒455-0053 愛知県名古屋市港区名四町１５３",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -32079,7 +32213,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJa0br1iJ4A2ARc94DCErU7_w",
-      "google_query": "セルフ＆カーケアセンター惟信SS 〒455-0822 愛知県名古屋市港区甚兵衛通２丁目２５番１"
+      "google_query": "セルフ＆カーケアセンター惟信SS 〒455-0822 愛知県名古屋市港区甚兵衛通２丁目２５番１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -34214,7 +34349,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJVaTHgpF7A2ARbmf8-h7y2Ck",
-      "google_query": "駿河屋 名古屋新開橋店 〒467-0856 愛知県名古屋市瑞穂区新開町１８−２２ 3F"
+      "google_query": "駿河屋 名古屋新開橋店 〒467-0856 愛知県名古屋市瑞穂区新開町１８−２２ 3F",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -35872,7 +36008,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJSVQ9v4lvA2ARIPCttPVuzAc",
-      "google_query": "ウエルシア名古屋上志段味店 〒463-0001 愛知県名古屋市守山区上志段味所下１０４７−１"
+      "google_query": "ウエルシア名古屋上志段味店 〒463-0001 愛知県名古屋市守山区上志段味所下１０４７−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -36868,7 +37005,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJGXBNOCxwA2AR6XBngunYiog",
-      "google_query": "和ばる 心（こころ） 〒463-0048 愛知県名古屋市守山区小幡南１丁目２２−２５"
+      "google_query": "和ばる 心（こころ） 〒463-0048 愛知県名古屋市守山区小幡南１丁目２２−２５",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -38272,7 +38410,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJxdbrvE13A2ARdK1VaF9LQOw",
-      "google_query": "ENEOS EneJet 金山SS／（株）角田石油 〒460-0022 愛知県名古屋市中区金山１丁目１０−１２"
+      "google_query": "ENEOS EneJet 金山SS／（株）角田石油 〒460-0022 愛知県名古屋市中区金山１丁目１０−１２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -42893,7 +43032,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ0_e55eB2A2ARBh_Kl2SB3ok",
-      "google_query": "ウエルシア名古屋太閤店 〒453-0801 愛知県名古屋市中村区太閤１丁目１９−４２"
+      "google_query": "ウエルシア名古屋太閤店 〒453-0801 愛知県名古屋市中村区太閤１丁目１９−４２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -44856,7 +44996,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJqfenuu13A2ARA4oYVsfBNiI",
-      "google_query": "Sports Bar B2 〒460-0003 愛知県名古屋市中区錦３丁目１０−２１ 5F"
+      "google_query": "Sports Bar B2 〒460-0003 愛知県名古屋市中区錦３丁目１０−２１ 5F",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -44968,7 +45109,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJfVYVarl2A2ARrU3Tldf6wmg",
-      "google_query": "花の木シェルター本館 〒451-0062 愛知県名古屋市西区花の木２丁目２−１８"
+      "google_query": "花の木シェルター本館 〒451-0062 愛知県名古屋市西区花の木２丁目２−１８",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -47469,7 +47611,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJy87YahB7A2ARiUqod5JCD1w",
-      "google_query": "薬 マツモトキヨシ 名古屋いりなか店 〒466-0833 愛知県名古屋市昭和区隼人町７−７ 三洋堂書店 1F"
+      "google_query": "薬 マツモトキヨシ 名古屋いりなか店 〒466-0833 愛知県名古屋市昭和区隼人町７−７ 三洋堂書店 1F",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -48395,7 +48538,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJZXTB56B7A2ARLZIs34CWNac",
-      "google_query": "はれる家 〒466-0022 愛知県名古屋市昭和区塩付通２丁目2番地 1階"
+      "google_query": "はれる家 〒466-0022 愛知県名古屋市昭和区塩付通２丁目2番地 1階",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -49387,7 +49531,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJYcxXXz57A2ARypk58G13Xwo",
-      "google_query": "カラオケJOYJOY 天白笹原店 〒468-0044 愛知県名古屋市天白区笹原町１９０４"
+      "google_query": "カラオケJOYJOY 天白笹原店 〒468-0044 愛知県名古屋市天白区笹原町１９０４",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -49573,7 +49718,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJRV81VYtlA2ARQ0rr-Jvs93Y",
-      "google_query": "ウエルシア天白植田店 〒468-0051 愛知県名古屋市天白区植田１丁目１２０８"
+      "google_query": "ウエルシア天白植田店 〒468-0051 愛知県名古屋市天白区植田１丁目１２０８",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -51383,7 +51529,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ2bEDzBxhA2ARDHpvNIZz8UI",
-      "google_query": "ねこのて 〒470-0201 愛知県みよし市黒笹町唐沢３８−２"
+      "google_query": "ねこのて 〒470-0201 愛知県みよし市黒笹町唐沢３８−２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -51902,7 +52049,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJdTJknL9jA2ARDpddos-KHZQ",
-      "google_query": "スギドラッグ 赤池店 〒470-0126 愛知県日進市赤池町箕ノ手2番地330"
+      "google_query": "スギドラッグ 赤池店 〒470-0126 愛知県日進市赤池町箕ノ手2番地330",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -51977,7 +52125,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJqUYxbqRlA2ARrmRmvPlIZ9A",
-      "google_query": "ドラッグユタカ日進岩崎店 〒470-0131 愛知県日進市岩崎町石兼24番地8"
+      "google_query": "ドラッグユタカ日進岩崎店 〒470-0131 愛知県日進市岩崎町石兼24番地8",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -52533,7 +52682,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJUxf833BjA2ARi3L17xOOROk",
-      "google_query": "タイムズ日進駅東 〒470-0113 愛知県日進市栄２丁目９０３"
+      "google_query": "タイムズ日進駅東 〒470-0113 愛知県日進市栄２丁目９０３",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -54191,7 +54341,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJj7_IMyp9A2ARUDXKqZjDg5U",
-      "google_query": "スギドラッグ 大府中央店 〒474-0053 愛知県大府市柊山町１丁目58−番地"
+      "google_query": "スギドラッグ 大府中央店 〒474-0053 愛知県大府市柊山町１丁目58−番地",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -58489,7 +58640,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ9Y0_pRBvA2ARNMoKDdSsv8o",
-      "google_query": "the DAYS CAFE & KITCHEN 〒488-0077 愛知県尾張旭市新居町西浦３１１７−２"
+      "google_query": "the DAYS CAFE & KITCHEN 〒488-0077 愛知県尾張旭市新居町西浦３１１７−２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -59008,7 +59160,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJfVF49a9vA2ARb1FIJhlEVCU",
-      "google_query": "すがわ歯科 〒488-0061 愛知県尾張旭市北原山町六田池２０９３−４"
+      "google_query": "すがわ歯科 〒488-0061 愛知県尾張旭市北原山町六田池２０９３−４",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -60082,7 +60235,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJd4MRNVJvA2ARzKfCpua7LKc",
-      "google_query": "炭火焼き 鶏と魚 あき山 〒488-0830 愛知県尾張旭市東印場町４丁目５−２"
+      "google_query": "炭火焼き 鶏と魚 あき山 〒488-0830 愛知県尾張旭市東印場町４丁目５−２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -61592,7 +61746,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJZUbnxK7RBGARqA8ngYYV8nc",
-      "google_query": "ウエルシア豊橋牟呂店 〒441-8087 愛知県豊橋市牟呂町大塚56−１"
+      "google_query": "ウエルシア豊橋牟呂店 〒441-8087 愛知県豊橋市牟呂町大塚56−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -61811,7 +61966,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJmWJMx7PTBGARciYoLCiLcSo",
-      "google_query": "apollostation セルフ北山SS （荒木石油店） 〒441-8105 愛知県豊橋市北山町西ノ原４２−１７７"
+      "google_query": "apollostation セルフ北山SS （荒木石油店） 〒441-8105 愛知県豊橋市北山町西ノ原４２−１７７",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -62770,7 +62926,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJxVFBfv3TBGAR3uP-ao8v9dQ",
-      "google_query": "完全個室 海鮮と産地鶏の炭火焼 うお鶏 豊橋店 〒440-0888 愛知県豊橋市広小路１丁目１８ ユメックスビル 2階"
+      "google_query": "完全個室 海鮮と産地鶏の炭火焼 うお鶏 豊橋店 〒440-0888 愛知県豊橋市広小路１丁目１８ ユメックスビル 2階",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -63581,7 +63738,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJQfw9gkbPBGARJkKT4Lr6QJ4",
-      "google_query": "コワーキングスペース TOCOTOCO 〒442-0069 愛知県豊川市諏訪西町１丁目１３８"
+      "google_query": "コワーキングスペース TOCOTOCO 〒442-0069 愛知県豊川市諏訪西町１丁目１３８",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -63804,7 +63962,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJW_Mt2l7MBGARSHY_1uCacyI",
-      "google_query": "セブン-イレブン 豊川東豊町店 〒442-0025 愛知県豊川市東豊町５丁目２５"
+      "google_query": "セブン-イレブン 豊川東豊町店 〒442-0025 愛知県豊川市東豊町５丁目２５",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -63842,7 +64001,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJZ5TtPV_MBGAR95tM5pmJkFM",
-      "google_query": "ファミリーマート 豊川インター南店 〒442-0807 愛知県豊川市谷川町洞１５０−１"
+      "google_query": "ファミリーマート 豊川インター南店 〒442-0807 愛知県豊川市谷川町洞１５０−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -64176,7 +64336,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJLU6c0AfMBGARsMnAkpTog-M",
-      "google_query": "星野歯科 〒442-0062 愛知県豊川市本野町西浦７"
+      "google_query": "星野歯科 〒442-0062 愛知県豊川市本野町西浦７",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -64251,7 +64412,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJy6npkbbOBGARW1gCHEJfCxo",
-      "google_query": "ウエルシア豊川蔵子店 〒442-0842 愛知県豊川市蔵子５丁目１６−１５"
+      "google_query": "ウエルシア豊川蔵子店 〒442-0842 愛知県豊川市蔵子５丁目１６−１５",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -66423,7 +66585,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJm9k-956fBGAREkFQAxEbKvc",
-      "google_query": "ファミリーマート 豊田清水町店 〒471-0843 愛知県豊田市清水町７丁目６−１５"
+      "google_query": "ファミリーマート 豊田清水町店 〒471-0843 愛知県豊田市清水町７丁目６−１５",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -66461,7 +66624,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ2T7hHYehBGARF8sfi6CZUPw",
-      "google_query": "フジファミリーショップ 前山店 〒471-0824 愛知県豊田市河合町７丁目２４−１"
+      "google_query": "フジファミリーショップ 前山店 〒471-0824 愛知県豊田市河合町７丁目２４−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "aichi",
     "prefecture": "愛知県",
@@ -66695,6 +66859,44 @@
     "url": "/area/aichi/toyota/dental-clinic/",
     "place_query": "若林歯科 〒473-0914 愛知県豊田市若林東町棚田１６１−７",
     "booking_url": "https://www.wakabayashidc-toyota.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
+    "id": "place-chijo4ammyqhbgarcsutlyqb5bk",
+    "name": "服部歯科",
+    "genre_key": "dental-clinic",
+    "area_key": "toyota",
+    "area": "豊田市",
+    "address": "〒470-1202 愛知県豊田市渡刈町６丁目52番1",
+    "hours": "診療時間確認",
+    "nearest_station": "豊田市駅・土橋駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://www.hattoridental.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJo4AmmYqhBGARcSUtLyqB5bk/photos/AWCwydi1pihi7TIg3YWhxpTq7perYLsAgxdcJY7PCxc-B_faiQTcYGo_lvOsFzZpZKqAns730yrYvfQjF3YWWcZRkcHu32gUFeH2tZZjVU1oWqpw4Yo5qaAjajNrVQ7oAa9uFLFnABniPH7Mx292CZMsCNqpSsiexdOJ-G5-FblvHtHUaTkHop5EHHiu-V0dlUMZoCOna4g3KpJlEOaoWcEbPM4ahmGo7ore3sNwg-usZteJPVNuty4vX92lFRao1PAyuL7VeT6ioNlXiHk-M3Rw1pILqtQ4OAksZLZUDK7-XnpjxTHqE_eEhrLbLPLgh6mhIcnywPqE1OmnttZsYc-PJGZ-9W-tb3l3oNi-uJ2uKZVV01Sfjr32zFup-ZGqSQA8wjEMYqjfnkr-0k_s5vvsLw5-1y_Lf_MNqGuZ9uM665C5kcqyD9uvrxLGnYV-HaIj",
+    "source": {
+      "google_place_id": "ChIJo4AmmYqhBGARcSUtLyqB5bk",
+      "google_query": "服部歯科 〒470-1202 愛知県豊田市渡刈町６丁目52番1"
+    },
+    "prefecture_key": "aichi",
+    "prefecture": "愛知県",
+    "city": "豊田市",
+    "ward": "",
+    "area_path": "toyota",
+    "area_label": "豊田市",
+    "genre": "歯医者",
+    "url": "/area/aichi/toyota/dental-clinic/",
+    "place_query": "服部歯科 〒470-1202 愛知県豊田市渡刈町６丁目52番1",
+    "booking_url": "https://www.hattoridental.com/",
     "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
@@ -72188,6 +72390,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%84%20%E3%83%90%E3%83%AC%E3%83%AB%20%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88/"
   },
   {
+    "id": "place-chijcymb1p-em18roybf7ezvnli",
+    "name": "こまい歯科クリニック",
+    "genre_key": "dental-clinic",
+    "area_key": "aomori",
+    "area": "青森市",
+    "address": "〒030-0813 青森県青森市松原２丁目７−９",
+    "hours": "診療時間確認",
+    "nearest_station": "青森駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "http://www.komai-dental.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJcymB1P-em18RoYbf7eZvNLI/photos/AWCwydhZgQvs2IClf8ah4ceH7lJI1tt1fCVdR-CMif93G_pwGkJrwie46tmnz-E-kC3BQE_314EMW_SXrN6BY67xgxt7VTd58cEzRhqTEhTTiJhnVEYAnKUF1xK_JewlQSuRTgsmk0ah3QKk2vVn7E3-g2-eO8DJMGSve_Y3wr9UpWo-rFnnxU9X-z0ljpNxLT2YY3bcRKZewUyMwO0aGZF4IiTCjQ6TMCmlpXYXDCVuSi7NVeJps6EpUYUbKVGvsXjV3dIj2Bo7OKDTuOt7QCch3L-u4OG_U8d-z4FfPb3vOb-Xobvub3caYMVCMu-owCYWDYexqgdRa2yk-dQ3RNuUlSqUuI6nfrt_ftqdFF-gNK8ihacCq34fJkCNfNywJVFV06z5-uy3R2dnXDMM9XKPqbJLFB56VvE5xSdfPxqks4Z8oYM3A2VFKNoUrmjkgJbv",
+    "source": {
+      "google_place_id": "ChIJcymB1P-em18RoYbf7eZvNLI",
+      "google_query": "こまい歯科クリニック 〒030-0813 青森県青森市松原２丁目７−９"
+    },
+    "prefecture_key": "aomori",
+    "prefecture": "青森県",
+    "city": "青森市",
+    "ward": "",
+    "area_path": "aomori",
+    "area_label": "青森市",
+    "genre": "歯医者",
+    "url": "/area/aomori/aomori/dental-clinic/",
+    "place_query": "こまい歯科クリニック 〒030-0813 青森県青森市松原２丁目７−９",
+    "booking_url": "http://www.komai-dental.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijw7boegcfm18rrk81w2c43-w",
     "name": "こやなぎ通りミカ歯科クリニック",
     "genre_key": "dental-clinic",
@@ -74911,7 +75151,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ0xkbO5SFImARSUAHcUiD60Y",
-      "google_query": "ウエルシア千葉鶴沢店 〒260-0003 千葉県千葉市中央区鶴沢町２−３"
+      "google_query": "ウエルシア千葉鶴沢店 〒260-0003 千葉県千葉市中央区鶴沢町２−３",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "chiba",
     "prefecture": "千葉県",
@@ -77480,6 +77721,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
   {
+    "id": "place-chijq0c163iaggarkerwdweswkw",
+    "name": "船橋リボン歯科・矯正歯科 インプラント",
+    "genre_key": "dental-clinic",
+    "area_key": "funabashi",
+    "area": "船橋市",
+    "address": "〒273-0005 千葉県船橋市本町１丁目３１−２５ スミレビル 3階",
+    "hours": "診療時間確認",
+    "nearest_station": "船橋駅・南船橋駅・西船橋駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://ribon-shika.jp/funabashi/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJq0c163iAGGARKeRwDwEsWKw/photos/AWCwydjGmLxoXAjxkGRAEiSzpMQiwtmzlEigd3MDuWht-a_GiRaSjrd4WgbxH4aTupZ6NLqbTi851ICYau5NFn4aGFGAu6q_nKJd9kcTS3HXaveFIJqiO6JH_wOsXaMF8n-_wZT_1G8HGq5w87bV06QzoZXkosMan9WtIoh3oUXRQiAmzlO-8JtefyJfo1ZLlzKEbsDGs1wqdwBCjOiBASXUO1QNkros0cOYAHlZVtWKGBlgHlCOdD5uCF_iUecGMcGztiaxYaXnULIXdFxfHxSvH13Q9baPmYRED8VC1hi7B2avyqnplhWKotl-CNPwtLTljmH31ViegegUPBcaw1SOBTyewTe9Yosjv_TsQhZoPfIvTbSaKbyYS2yp9cSNpLonqJzCcMvgCeyz6O37PYbekm3Qa8vOd-_GhbFR5MBQXvmhPg",
+    "source": {
+      "google_place_id": "ChIJq0c163iAGGARKeRwDwEsWKw",
+      "google_query": "船橋リボン歯科・矯正歯科 インプラント 〒273-0005 千葉県船橋市本町１丁目３１−２５ スミレビル 3階"
+    },
+    "prefecture_key": "chiba",
+    "prefecture": "千葉県",
+    "city": "船橋市",
+    "ward": "",
+    "area_path": "funabashi",
+    "area_label": "船橋市",
+    "genre": "歯医者",
+    "url": "/area/chiba/funabashi/dental-clinic/",
+    "place_query": "船橋リボン歯科・矯正歯科 インプラント 〒273-0005 千葉県船橋市本町１丁目３１−２５ スミレビル 3階",
+    "booking_url": "https://ribon-shika.jp/funabashi/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijt01y8dd_ggarjr8n7vk7zri",
     "name": "船橋森谷歯科クリニック",
     "genre_key": "dental-clinic",
@@ -77576,7 +77855,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ0R0fP3GAGGAR77OTUzY1gfs",
-      "google_query": "ウエルシア船橋夏見1丁目店 〒273-0865 千葉県船橋市夏見１丁目１７−２２"
+      "google_query": "ウエルシア船橋夏見1丁目店 〒273-0865 千葉県船橋市夏見１丁目１７−２２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "chiba",
     "prefecture": "千葉県",
@@ -79612,7 +79892,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ6WJR85OHGGARxFgUDyzVvY4",
-      "google_query": "カプセル楽局市川駅北口店 〒272-0034 千葉県市川市市川１丁目６−７ ＩＫビル １Ｆ ２Ｆ"
+      "google_query": "カプセル楽局市川駅北口店 〒272-0034 千葉県市川市市川１丁目６−７ ＩＫビル １Ｆ ２Ｆ",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "chiba",
     "prefecture": "千葉県",
@@ -80316,7 +80597,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJG7tHYXuBGGARBn-0eIGUiyg",
-      "google_query": "大慶園 バッティング・スタジアム 〒272-0801 千葉県市川市大町３５９"
+      "google_query": "大慶園 バッティング・スタジアム 〒272-0801 千葉県市川市大町３５９",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "chiba",
     "prefecture": "千葉県",
@@ -81464,7 +81746,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJawG85jWEGGARWQgvNVLyShg",
-      "google_query": "笑がおの湯 松戸矢切店 〒271-0096 千葉県松戸市下矢切１１５"
+      "google_query": "笑がおの湯 松戸矢切店 〒271-0096 千葉県松戸市下矢切１１５",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "chiba",
     "prefecture": "千葉県",
@@ -82697,6 +82980,44 @@
     "url": "/area/chiba/kashiwa/dental-clinic/",
     "place_query": "ウィズ歯科クリニック 〒277-0853 千葉県柏市吉野沢２−３",
     "booking_url": "https://www.with-dc.com/?utm_source=google&utm_medium=maps",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
+    "id": "place-chijlxdec7edggar5uqpfknjgxq",
+    "name": "フィールズ南柏 奏デンタルクリニック",
+    "genre_key": "dental-clinic",
+    "area_key": "kashiwa",
+    "area": "柏市",
+    "address": "〒277-0075 千葉県柏市南柏中央７−１ フィールズ南柏モール 3階",
+    "hours": "診療時間確認",
+    "nearest_station": "柏駅・柏の葉キャンパス駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://www.kanade-dc-minamikashiwa.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJLxDEc7edGGAR5uqPFkNjGXQ/photos/AWCwydimBeHWzvhwTfFzpVhvGa0gwW1FjvsfzFAX0AzwBdxmpRC98NslXcNUlPHC4ug4hbBnBKa1-xf78F4v6U3Dg4yV0NAZk0BH4OpCoQ9BK60l_l-qIVDysmtFrTYzQrCu0TdNiFfDo7u_UmJ9J-q7NVdBapFbFM1AbJjxAcOgLrx8W6LqqZdd4Fuk5Hayf1VpxRPOEVwlUQaITFv97yfVS9ElS_tpcpL8R_muta-eVE64ocIGbOeZpJMsYMYRi4X-G53w4btZnZ_ts_0twW1YxA73BR6oMf8pPu052dVFaHu6iIStbkZAiMbaxu68usjDVnDFNDsaIcwwKQLRjZaIWYPHLcBurYxc3UwFnjU8FMrv-YeYKlh7uJxFoZyYvAdbEiS0mwAKwTbDoWzpZYUP6i_ZFNYLUgIeQ1VYFkv6VYyLWg",
+    "source": {
+      "google_place_id": "ChIJLxDEc7edGGAR5uqPFkNjGXQ",
+      "google_query": "フィールズ南柏 奏デンタルクリニック 〒277-0075 千葉県柏市南柏中央７−１ フィールズ南柏モール 3階"
+    },
+    "prefecture_key": "chiba",
+    "prefecture": "千葉県",
+    "city": "柏市",
+    "ward": "",
+    "area_path": "kashiwa",
+    "area_label": "柏市",
+    "genre": "歯医者",
+    "url": "/area/chiba/kashiwa/dental-clinic/",
+    "place_query": "フィールズ南柏 奏デンタルクリニック 〒277-0075 千葉県柏市南柏中央７−１ フィールズ南柏モール 3階",
+    "booking_url": "https://www.kanade-dc-minamikashiwa.com/",
     "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
@@ -85720,7 +86041,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ3ahGRablTzURbUA_IU_IzlI",
-      "google_query": "ENEOS EneJet 松山久万ノ台SS／（株）藤田商店 〒791-8018 愛媛県松山市問屋町９−４３"
+      "google_query": "ENEOS EneJet 松山久万ノ台SS／（株）藤田商店 〒791-8018 愛媛県松山市問屋町９−４３",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "ehime",
     "prefecture": "愛媛県",
@@ -88400,6 +88722,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
   {
+    "id": "place-chijv8s2cps--f8rk9shnobocrw",
+    "name": "福井英歯科",
+    "genre_key": "dental-clinic",
+    "area_key": "fukui",
+    "area": "福井市",
+    "address": "〒910-0858 福井県福井市手寄１丁目１０−１０",
+    "hours": "診療時間確認",
+    "nearest_station": "福井駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://hanabusa-dc.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJV8S2CpS--F8Rk9sHNoboCrw/photos/AWCwydhc4lMkqSdPgccOoedi4B87sl0vwX_El6n7SJdKNoRJqPPyge5776vH5Dcfa8F3MPtWqufzBHXcfNcZ9iGGI1qydQScgzWckTHrxZYds1CyFADPPXF7uNWGTLYXGQYGVvuXNst6b0JNBLjluVY3OaXGbsYFFyGkzRRAVFBAeJDVjGYXNydGRrchGOIrKN3gQuz3S8xBZ3wJCFK6rzoulM-2SKH90Lwi7HdAy-OptcX48TGo4VBCKSJTHoUdXzDVmFbafkquxYWCgTxwSfdMCxZD6VdTDXajMDMB-pCjd-nSmh0fRp5i2s5s0eprIbvhrClDAApfW8Wwrfr7loJPPsZjhfr7fBtGUQ4cq9BHX0AUtSGS5pqWjDX6ELpO17DcaWcFB3MPLqDCuSzb_dGO-wNGJx0Ya7Ej0q8LI3ErhoPOZA",
+    "source": {
+      "google_place_id": "ChIJV8S2CpS--F8Rk9sHNoboCrw",
+      "google_query": "福井英歯科 〒910-0858 福井県福井市手寄１丁目１０−１０"
+    },
+    "prefecture_key": "fukui",
+    "prefecture": "福井県",
+    "city": "福井市",
+    "ward": "",
+    "area_path": "fukui",
+    "area_label": "福井市",
+    "genre": "歯医者",
+    "url": "/area/fukui/fukui/dental-clinic/",
+    "place_query": "福井英歯科 〒910-0858 福井県福井市手寄１丁目１０−１０",
+    "booking_url": "https://hanabusa-dc.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chij639uile_-f8rodnen1dsq1i",
     "name": "ウエルシア福井文京店",
     "genre_key": "drugstore",
@@ -88422,7 +88782,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ639UIle_-F8Rodnen1Dsq1I",
-      "google_query": "ウエルシア福井文京店 〒910-0017 福井県福井市文京６丁目８−１３"
+      "google_query": "ウエルシア福井文京店 〒910-0017 福井県福井市文京６丁目８−１３",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "fukui",
     "prefecture": "福井県",
@@ -90750,7 +91111,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJU1DVUYWRQTUR3m2yzArlphc",
-      "google_query": "猫カフェ キューリグ 天神店 〒810-0021 福岡県福岡市中央区今泉１丁目２２−２１ ４Ｆ"
+      "google_query": "猫カフェ キューリグ 天神店 〒810-0021 福岡県福岡市中央区今泉１丁目２２−２１ ４Ｆ",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "fukuoka",
     "prefecture": "福岡県",
@@ -91335,7 +91697,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJAQC0a4WRQTURE7CAFOtGNIg",
-      "google_query": "ドラッグイレブン 天神警固店 〒810-0001 福岡県福岡市中央区天神２丁目２−１４"
+      "google_query": "ドラッグイレブン 天神警固店 〒810-0001 福岡県福岡市中央区天神２丁目２−１４",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "fukuoka",
     "prefecture": "福岡県",
@@ -91665,7 +92028,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJz5syMkORQTURFlianzjm4yI",
-      "google_query": "カラオケ ビッグエコー西鉄天神駅前店 〒810-0001 福岡県福岡市中央区天神２丁目１０−１４ CKビル"
+      "google_query": "カラオケ ビッグエコー西鉄天神駅前店 〒810-0001 福岡県福岡市中央区天神２丁目１０−１４ CKビル",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "fukuoka",
     "prefecture": "福岡県",
@@ -96213,7 +96577,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJS5Owbky_QzURLBvdkkA9FPA",
-      "google_query": "セブン-イレブン 小倉京町２丁目店 〒802-0002 福岡県北九州市小倉北区京町２丁目４−２７"
+      "google_query": "セブン-イレブン 小倉京町２丁目店 〒802-0002 福岡県北九州市小倉北区京町２丁目４−２７",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "fukuoka",
     "prefecture": "福岡県",
@@ -96658,7 +97023,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJczdmaEy_QzUREeu8J6syz2U",
-      "google_query": "ドラッグストア マツモトキヨシ 小倉駅南口店 〒802-0002 福岡県北九州市小倉北区京町２丁目４−２７"
+      "google_query": "ドラッグストア マツモトキヨシ 小倉駅南口店 〒802-0002 福岡県北九州市小倉北区京町２丁目４−２７",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "fukuoka",
     "prefecture": "福岡県",
@@ -99523,6 +99889,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%84%20%E3%83%90%E3%83%AC%E3%83%AB%20%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88/"
   },
   {
+    "id": "place-chijm90mcmmfil8rkdhq43clfeq",
+    "name": "セントラル歯科クリニック",
+    "genre_key": "dental-clinic",
+    "area_key": "fukushima",
+    "area": "福島市",
+    "address": "〒960-8031 福島県福島市栄町７−３３",
+    "hours": "診療時間確認",
+    "nearest_station": "福島駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://www.central-shika-clinic.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJm90mCMmFil8RkdhQ43CLFeQ/photos/AWCwydhpy84omvUP5rhGKQoEvDR6zGsYwYrcmHGYoC-ZTVkGlIHHsF8MT488-jZQhIh4SRCNYsmPYzAAiwcKY0one_ZG2d4nN35sG2gy1evdTDu_a8BGdynB4TJIFIWEXIC27ZcbWcJwGuJF7Bn5jMJBvzQarUXdfvd3om7HgNZQzz1a4JC5nzeIJhiDHS0EJ7ZVhyRkvxvA8sKzbXkBO-TBq05zLfuHUtpj4KnHjIJJNZFbimSENQyy6VOaEPV_RdrDIPi32R7nWmCnhZx9frJKswr1lJVZJ3c20qqc9B9NnldtnVMWdDEACumNRmPj5kcI5acUEP1Dc-X4dS54zZ5R607Ae3EAqXjZiIe7x6FXMBsh5JwnG0cs58py2DiHsE6zI1T7tlP15XlXFXFMhjYMUDawG9vO1CU4vT7huR4fUNshuZd6",
+    "source": {
+      "google_place_id": "ChIJm90mCMmFil8RkdhQ43CLFeQ",
+      "google_query": "セントラル歯科クリニック 〒960-8031 福島県福島市栄町７−３３"
+    },
+    "prefecture_key": "fukushima",
+    "prefecture": "福島県",
+    "city": "福島市",
+    "ward": "",
+    "area_path": "fukushima",
+    "area_label": "福島市",
+    "genre": "歯医者",
+    "url": "/area/fukushima/fukushima/dental-clinic/",
+    "place_query": "セントラル歯科クリニック 〒960-8031 福島県福島市栄町７−３３",
+    "booking_url": "https://www.central-shika-clinic.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijv8dgiaufil8rpdrlca_yrfi",
     "name": "奥州福島Premiumデンタルクリニック",
     "genre_key": "dental-clinic",
@@ -102076,6 +102480,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%84%20%E3%83%90%E3%83%AC%E3%83%AB%20%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88/"
   },
   {
+    "id": "place-chijftu6jfbrigarrbe0d5jtg_4",
+    "name": "きたみ歯科医院",
+    "genre_key": "dental-clinic",
+    "area_key": "koriyama",
+    "area": "郡山市",
+    "address": "〒963-0111 福島県郡山市安積町荒井北大部１−１２",
+    "hours": "診療時間確認",
+    "nearest_station": "郡山駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://www.kitami-dc.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJFTU6JFBrIGARrbe0d5JTg_4/photos/AWCwydjb4-NgihRppud805nmOTD3g-69ozp4Re6DRnWyI5R3TDb4Q-7RttEwuGt8bSSaIhyMqXIo-2IznF0vlivCq9qjpR_6OAc11ojF11dMM9eFen8t8zuaJ2IXeMQSd-c6Zd5z9O8hXpQd-BQ3-1abTZzZZUFin_25gfaLRLjQcfDeldz0JvCswEuHfftqLgSohiGxbE1vYDnx5OUmu9QGSCDTpuKbTP35zMpJzDKVIzL9JnS5n83aec1J_jK-TRuLPJkvASHEEXkUEZTIUkPjHS86G-l0uuk5-FyiqaPui0BcSuUZ5eQ5QS_feGyK80QgMFDsknxfIO2n3WZrJXbLAcHlZ7Jevu6ytfLfMpocGpHGmy9MGPsFt1Shj8tgEZ9bwT4FH2oOKo1KSzMZVcNcvMDiIvh3Y9IwnFL4aMOomEgK-uQ",
+    "source": {
+      "google_place_id": "ChIJFTU6JFBrIGARrbe0d5JTg_4",
+      "google_query": "きたみ歯科医院 〒963-0111 福島県郡山市安積町荒井北大部１−１２"
+    },
+    "prefecture_key": "fukushima",
+    "prefecture": "福島県",
+    "city": "郡山市",
+    "ward": "",
+    "area_path": "koriyama",
+    "area_label": "郡山市",
+    "genre": "歯医者",
+    "url": "/area/fukushima/koriyama/dental-clinic/",
+    "place_query": "きたみ歯科医院 〒963-0111 福島県郡山市安積町荒井北大部１−１２",
+    "booking_url": "https://www.kitami-dc.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijpde8trlrigarplumurnevjo",
     "name": "こおりやま予防歯科 こどもとファミリー矯正",
     "genre_key": "dental-clinic",
@@ -102394,7 +102836,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ4a9nYA1tIGARbUOgzPWh1mg",
-      "google_query": "オカモトセルフ セルフ郡山日和田 〒963-0534 福島県郡山市日和田町原１２−１８"
+      "google_query": "オカモトセルフ セルフ郡山日和田 〒963-0534 福島県郡山市日和田町原１２−１８",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "fukushima",
     "prefecture": "福島県",
@@ -104729,6 +105172,44 @@
     "url": "/area/gifu/gifu/dental-clinic/",
     "place_query": "ノアデンタルクリニック 〒500-8469 岐阜県岐阜市加納竜興町２丁目２０ アデンタルクリニック 内",
     "booking_url": "http://www.noahdental.com/?utm_source=google-business&utm_medium=google&utm_campaign=maps",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
+    "id": "place-chijfzvnd9qva2arlxgvayz9iiq",
+    "name": "はごろも歯科クリニック",
+    "genre_key": "dental-clinic",
+    "area_key": "gifu",
+    "area": "岐阜市",
+    "address": "〒500-8332 岐阜県岐阜市羽衣町４丁目7−２",
+    "hours": "診療時間確認",
+    "nearest_station": "岐阜駅・名鉄岐阜駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://www.hagoromo-shika.com/?utm_source=google&utm_medium=maps",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJFZVND9qvA2ARlxgvAYz9IiQ/photos/AWCwydhhn9OjO59irEQS-OKnxYup-9S0RW5gpFm1YefTIDV6IK91-BNLyxVuUa6owDcrvDPX0qbm1FtdRBMVsOG4eT3eFEuzzTEllebutiCdrSLnrZp1MH2wl8e6wTqFEuZtJ1DpzPDjeqV7pBPiHEbWOlHEEJepcP2-OSCS1fYAZqhbCPXMRWO7m8Y1kFu9pt5UowAe4lhigyBmvI6dO6QYczW6BpATqkVLfQn8cizZbIyZBcidcPGvHJamh27gZofD6HK7iYL9k9DNdR6Y4ersZCK8IHS3x-UbAixNpGLLqNyd8uBST4mp2yXY_6qK9Ho57VDT_qtw4GSZXRkOuwB-_KjXMwpAmaON5jN7GgtVeqes7MbJQLg0sy0SD2AaDcYOtwjw-iQd99_GJ8qv58d4Gvx-6c4HhY3uvbv8hAo_CMUJcr5s",
+    "source": {
+      "google_place_id": "ChIJFZVND9qvA2ARlxgvAYz9IiQ",
+      "google_query": "はごろも歯科クリニック 〒500-8332 岐阜県岐阜市羽衣町４丁目7−２"
+    },
+    "prefecture_key": "gifu",
+    "prefecture": "岐阜県",
+    "city": "岐阜市",
+    "ward": "",
+    "area_path": "gifu",
+    "area_label": "岐阜市",
+    "genre": "歯医者",
+    "url": "/area/gifu/gifu/dental-clinic/",
+    "place_query": "はごろも歯科クリニック 〒500-8332 岐阜県岐阜市羽衣町４丁目7−２",
+    "booking_url": "https://www.hagoromo-shika.com/?utm_source=google&utm_medium=maps",
     "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
@@ -108764,7 +109245,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJgTXuAsYJA2ARZWCHznaQMLc",
-      "google_query": "スマイルデスマイル 〒504-0907 岐阜県各務原市那加住吉町２丁目６２−１"
+      "google_query": "スマイルデスマイル 〒504-0907 岐阜県各務原市那加住吉町２丁目６２−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "gifu",
     "prefecture": "岐阜県",
@@ -109094,7 +109576,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJHRpRiPQHA2ARVk7S5105lrQ",
-      "google_query": "セブン-イレブン 各務原那加野畑町店 〒504-0025 岐阜県各務原市那加野畑町２丁目２"
+      "google_query": "セブン-イレブン 各務原那加野畑町店 〒504-0025 岐阜県各務原市那加野畑町２丁目２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "gifu",
     "prefecture": "岐阜県",
@@ -109354,7 +109837,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJz3MZ72sIA2ARAgrqj97utL8",
-      "google_query": "桜桃歯科 〒504-0927 岐阜県各務原市上戸町１丁目１−１"
+      "google_query": "桜桃歯科 〒504-0927 岐阜県各務原市上戸町１丁目１−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "gifu",
     "prefecture": "岐阜県",
@@ -109503,7 +109987,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJX0vJWcIHA2ARoBUeM_SSlD8",
-      "google_query": "ドラッグユタカ 各務原那加店 〒504-0839 岐阜県各務原市那加巾下町３４"
+      "google_query": "ドラッグユタカ 各務原那加店 〒504-0839 岐阜県各務原市那加巾下町３４",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "gifu",
     "prefecture": "岐阜県",
@@ -109578,7 +110063,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJt0R3zrcIA2ARPeYc70jpXF8",
-      "google_query": "ENEOS EneJet Dr.Driveセルフ各務原店／岐阜日石（株） 〒509-0146 岐阜県各務原市鵜沼三ツ池町３丁目４２１"
+      "google_query": "ENEOS EneJet Dr.Driveセルフ各務原店／岐阜日石（株） 〒509-0146 岐阜県各務原市鵜沼三ツ池町３丁目４２１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "gifu",
     "prefecture": "岐阜県",
@@ -114178,6 +114664,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%84%20%E3%83%90%E3%83%AC%E3%83%AB%20%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88/"
   },
   {
+    "id": "place-chijg3mibcqlhmardcll3ts-ip0",
+    "name": "ゆたか歯科",
+    "genre_key": "dental-clinic",
+    "area_key": "maebashi",
+    "area": "前橋市",
+    "address": "〒371-0856 群馬県前橋市総社町高井５４７−１",
+    "hours": "診療時間確認",
+    "nearest_station": "前橋駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://yutaka-sika.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJG3mIBcqLHmARDCll3tS-iP0/photos/AWCwydhhNxJVcberQ68EA-VfTFXkYw8zE8jgbklfQIQlnXNuZdhmQGKZm5e-yyx5_Lgj4zDO4ATBdBWlOJfhOY7_NAW1wCsW3Bi0AHCNdSAEtM5bxn8y9wVeJxWUCEDJMedVIRL4asRafNrHibN6KFs_a5Gd6njsRRnpEh5GAVjZJnm6sg6l0bre4C1AOzrGv5YTJD2wZAmILnizfi0Tp_SIbCSWp_TY1ADAexc5TYe8LI-H1anlsMnzRFj7iqbkZ8hPps0nYr5eeMiQ2JJ9-T8m5tsvOvD89Wj3BeJUggGCOqWvxTKzo0FoEwIJ6o_7P9Tl28cJBzQX9Zy6ujyJWGbqIlCz-AeeZ2UlANfMz3F39br5Oz8oFJmpIgBwzeVD1TZKhu24_T9igKhVKHVmPRWaxZAuptGy4zrFY8wVuvSzOi38UVUp",
+    "source": {
+      "google_place_id": "ChIJG3mIBcqLHmARDCll3tS-iP0",
+      "google_query": "ゆたか歯科 〒371-0856 群馬県前橋市総社町高井５４７−１"
+    },
+    "prefecture_key": "gunma",
+    "prefecture": "群馬県",
+    "city": "前橋市",
+    "ward": "",
+    "area_path": "maebashi",
+    "area_label": "前橋市",
+    "genre": "歯医者",
+    "url": "/area/gunma/maebashi/dental-clinic/",
+    "place_query": "ゆたか歯科 〒371-0856 群馬県前橋市総社町高井５４７−１",
+    "booking_url": "https://yutaka-sika.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijiv4u-gfzhmar4gtb2rvklz0",
     "name": "前橋けやき歯科・矯正歯科",
     "genre_key": "dental-clinic",
@@ -114422,7 +114946,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJv0xcBbDyHmARfcBio29wyk4",
-      "google_query": "apollostation セルフパラーダ前橋川曲SS （サンワ） 〒371-0823 群馬県前橋市川曲町字地蔵前５２２−１"
+      "google_query": "apollostation セルフパラーダ前橋川曲SS （サンワ） 〒371-0823 群馬県前橋市川曲町字地蔵前５２２−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "gunma",
     "prefecture": "群馬県",
@@ -117161,7 +117686,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ3WO4fHoRUTURknWFrPZMZ5I",
-      "google_query": "ザグザグ 曙店 〒721-0952 広島県福山市曙町３丁目１９−１２"
+      "google_query": "ザグザグ 曙店 〒721-0952 広島県福山市曙町３丁目１９−１２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "hiroshima",
     "prefecture": "広島県",
@@ -120850,7 +121376,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ2c5S-QyiWjURBBCLATDUwRk",
-      "google_query": "大手町中央駐車場 〒730-0051 広島県広島市中区大手町１丁目５−２９"
+      "google_query": "大手町中央駐車場 〒730-0051 広島県広島市中区大手町１丁目５−２９",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "hiroshima",
     "prefecture": "広島県",
@@ -125439,7 +125966,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ__-_qX32nl8RKJ63tGXajts",
-      "google_query": "ツルハドラッグ 北美原店 〒041-0806 北海道函館市美原５丁目４０−８"
+      "google_query": "ツルハドラッグ 北美原店 〒041-0806 北海道函館市美原５丁目４０−８",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "hokkaido",
     "prefecture": "北海道",
@@ -125588,7 +126116,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJZ1BQC7H2nl8RhaOBDKxQZGs",
-      "google_query": "ホビーショップイルカ 〒049-0111 北海道北斗市七重浜１丁目１０−４０"
+      "google_query": "ホビーショップイルカ 〒049-0111 北海道北斗市七重浜１丁目１０−４０",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "hokkaido",
     "prefecture": "北海道",
@@ -126699,7 +127228,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ7WYlZw30nl8RFLAWIJ9xyGc",
-      "google_query": "TSUTAYA 函館白鳥店 〒040-0081 北海道函館市田家町１６−３５"
+      "google_query": "TSUTAYA 函館白鳥店 〒040-0081 北海道函館市田家町１６−３５",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "hokkaido",
     "prefecture": "北海道",
@@ -128106,7 +128636,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJBwN47MApC18Rc4PgPbwMLss",
-      "google_query": "ツルハドラッグ 南6条店 〒064-0806 北海道札幌市中央区南６条西９丁目1018番地2"
+      "google_query": "ツルハドラッグ 南6条店 〒064-0806 北海道札幌市中央区南６条西９丁目1018番地2",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "hokkaido",
     "prefecture": "北海道",
@@ -130537,7 +131068,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJH6F07ejvAGARL5hSu8eis24",
-      "google_query": "ファミリーマート ＪＲ尼崎駅北店 〒661-0976 兵庫県尼崎市潮江１丁目２−１"
+      "google_query": "ファミリーマート ＪＲ尼崎駅北店 〒661-0976 兵庫県尼崎市潮江１丁目２−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "hyogo",
     "prefecture": "兵庫県",
@@ -131019,7 +131551,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ3cAtyi_wAGARBL66eKh_xSs",
-      "google_query": "タイトーステーション 尼崎つかしん店 〒661-0001 兵庫県尼崎市塚口本町４丁目８−１ ＳＣつかしん ３Ｆ"
+      "google_query": "タイトーステーション 尼崎つかしん店 〒661-0001 兵庫県尼崎市塚口本町４丁目８−１ ＳＣつかしん ３Ｆ",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "hyogo",
     "prefecture": "兵庫県",
@@ -133055,7 +133588,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJPSq3SQDhVDURuhFao7xpask",
-      "google_query": "ガチャガチャの森姫路店 〒670-0926 兵庫県姫路市東駅前町６０ 新井ビル 1F"
+      "google_query": "ガチャガチャの森姫路店 〒670-0926 兵庫県姫路市東駅前町６０ 新井ビル 1F",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "hyogo",
     "prefecture": "兵庫県",
@@ -133722,7 +134256,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJszy1v4HhVDURU567GENkq9A",
-      "google_query": "ザグザグ 姫路土山店 〒670-0996 兵庫県姫路市土山３丁目３−２５"
+      "google_query": "ザグザグ 姫路土山店 〒670-0996 兵庫県姫路市土山３丁目３−２５",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "hyogo",
     "prefecture": "兵庫県",
@@ -136457,7 +136992,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJbTjmqHKPAGARV2VATTQr6e4",
-      "google_query": "スギ薬局 神戸元町店 〒650-0021 兵庫県神戸市中央区三宮町３丁目７−６ 1階"
+      "google_query": "スギ薬局 神戸元町店 〒650-0021 兵庫県神戸市中央区三宮町３丁目７−６ 1階",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "hyogo",
     "prefecture": "兵庫県",
@@ -139273,6 +139809,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
   {
+    "id": "place-chijf9zcrmchimar3eu1god-z4q",
+    "name": "上野医院歯科",
+    "genre_key": "dental-clinic",
+    "area_key": "mito",
+    "area": "水戸市",
+    "address": "〒311-4146 茨城県水戸市中丸町２６７",
+    "hours": "診療時間確認",
+    "nearest_station": "水戸駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "http://uenoiinshika.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "",
+    "source": {
+      "google_place_id": "ChIJf9zcRmchImAR3eU1GOD-Z4Q",
+      "google_query": "上野医院歯科 〒311-4146 茨城県水戸市中丸町２６７"
+    },
+    "prefecture_key": "ibaraki",
+    "prefecture": "茨城県",
+    "city": "水戸市",
+    "ward": "",
+    "area_path": "mito",
+    "area_label": "水戸市",
+    "genre": "歯医者",
+    "url": "/area/ibaraki/mito/dental-clinic/",
+    "place_query": "上野医院歯科 〒311-4146 茨城県水戸市中丸町２６７",
+    "booking_url": "http://uenoiinshika.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chije_6nqdsnimarppnq-tovpxo",
     "name": "常陽 歯科医院",
     "genre_key": "dental-clinic",
@@ -141774,7 +142348,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJJW8AHkIz-F8RZWo0iJ926yE",
-      "google_query": "セブン-イレブン ハートインＪＲ金沢駅店 〒920-0031 石川県金沢市広岡１丁目７−１"
+      "google_query": "セブン-イレブン ハートインＪＲ金沢駅店 〒920-0031 石川県金沢市広岡１丁目７−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "ishikawa",
     "prefecture": "石川県",
@@ -142123,6 +142698,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
   {
+    "id": "place-chijlwkzoxcz-f8rslnzdg-ip1q",
+    "name": "コレクトデンタルクリニック金沢",
+    "genre_key": "dental-clinic",
+    "area_key": "kanazawa",
+    "area": "金沢市",
+    "address": "〒920-0961 石川県金沢市香林坊１丁目１−１ 4F",
+    "hours": "診療時間確認",
+    "nearest_station": "金沢駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://correctdental-clinic.org/kanazawa?ads=a-ahd_p-correct_s-google_m-maps_o-reserve_d-non_f-kanazawa_c-cv_1&utm_source=google&utm_medium=maps&utm_campaign=a-ahd_p-correct_s-google_m-maps_o-reserve_d-non_f-kanazawa_c-cv_1",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJlWkzOXcz-F8RsLNzDg-Ip1Q/photos/AWCwydiHnGVuOpWavemNY5Z__-3ClVuHF5xfsk3-TN5C5KCQQiEkX6KuQWD-L0qKBSFkK2CxPKxTcR9QByrJj9vNSRrNPIA3qImyZu76zFZemIYV9E6M7bIxRVLL02FKkp_Y79PKhZ1YJYGQFXWJERRgWZGCLzOqktTL9Kh04l4fFOIdE5YCZbBJNC7R9OnK3yGILhDvn7atWLMD1JMaVEJq4jvrAQiA1_n4-xnLAgXV-qtQiXIglmFGSktqFSlWdQBBA43pxKvO8AvCbVIsGELr2zLOx4OjyIchJl_p2Riy46TNHbN0yz7lb3kPFG4C9l9jasnfGstgWvzSLX1eI9ahgT_fT1zLJNlFoYehe4FWsE5NZcWK_pVlLDZm1s0Vo2MoG7n7J73yeHzJC0GWfiFQ-dagzOREur-pZuYaDoybw4zxeQ",
+    "source": {
+      "google_place_id": "ChIJlWkzOXcz-F8RsLNzDg-Ip1Q",
+      "google_query": "コレクトデンタルクリニック金沢 〒920-0961 石川県金沢市香林坊１丁目１−１ 4F"
+    },
+    "prefecture_key": "ishikawa",
+    "prefecture": "石川県",
+    "city": "金沢市",
+    "ward": "",
+    "area_path": "kanazawa",
+    "area_label": "金沢市",
+    "genre": "歯医者",
+    "url": "/area/ishikawa/kanazawa/dental-clinic/",
+    "place_query": "コレクトデンタルクリニック金沢 〒920-0961 石川県金沢市香林坊１丁目１−１ 4F",
+    "booking_url": "https://correctdental-clinic.org/kanazawa?ads=a-ahd_p-correct_s-google_m-maps_o-reserve_d-non_f-kanazawa_c-cv_1&utm_source=google&utm_medium=maps&utm_campaign=a-ahd_p-correct_s-google_m-maps_o-reserve_d-non_f-kanazawa_c-cv_1",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijbse9enaz-f8rwf5npqhf7lw",
     "name": "金澤むさし総合歯科・矯正歯科クリニック",
     "genre_key": "dental-clinic",
@@ -142182,7 +142795,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJlY_23Xkz-F8ROp8dcZIEss8",
-      "google_query": "スギ薬局 金沢駅西店 〒920-0025 石川県金沢市駅西本町３丁目１４−３４"
+      "google_query": "スギ薬局 金沢駅西店 〒920-0025 石川県金沢市駅西本町３丁目１４−３４",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "ishikawa",
     "prefecture": "石川県",
@@ -150656,7 +151270,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJG6kyR21nPjURJCNIozK9XP0",
-      "google_query": "ドラッグイレブン 甲南通り店 〒890-0052 鹿児島県鹿児島市上之園町２１−１１"
+      "google_query": "ドラッグイレブン 甲南通り店 〒890-0052 鹿児島県鹿児島市上之園町２１−１１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kagoshima",
     "prefecture": "鹿児島県",
@@ -155504,7 +156119,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJZ1FhNTv9GGAR1pMoFeMwOFY",
-      "google_query": "ガチャ専門店 TOYS SPOT PALO相模原小山 〒252-0205 神奈川県相模原市中央区小山３丁目３７−１ コーナン相模原小山モール 2階"
+      "google_query": "ガチャ専門店 TOYS SPOT PALO相模原小山 〒252-0205 神奈川県相模原市中央区小山３丁目３７−１ コーナン相模原小山モール 2階",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kanagawa",
     "prefecture": "神奈川県",
@@ -155949,7 +156565,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ8buMTwD9GGARL-Q30yh0lgU",
-      "google_query": "古淵セントラル歯科 〒252-0344 神奈川県相模原市南区古淵４丁目１−１ エルム２番館 1F"
+      "google_query": "古淵セントラル歯科 〒252-0344 神奈川県相模原市南区古淵４丁目１−１ エルム２番館 1F",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kanagawa",
     "prefecture": "神奈川県",
@@ -156061,7 +156678,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ-c0WoMf-GGAR_NpQ4J8aBAw",
-      "google_query": "ウエルシアロビーファイブ相模大野店 〒252-0303 神奈川県相模原市南区相模大野４丁目５−１"
+      "google_query": "ウエルシアロビーファイブ相模大野店 〒252-0303 神奈川県相模原市南区相模大野４丁目５−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kanagawa",
     "prefecture": "神奈川県",
@@ -156099,7 +156717,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJj60V-uH9GGAR8As9ULHMT44",
-      "google_query": "ウエルシア相模原古淵店 〒252-0344 神奈川県相模原市南区古淵２丁目１５−５ 1F"
+      "google_query": "ウエルシア相模原古淵店 〒252-0344 神奈川県相模原市南区古淵２丁目１５−５ 1F",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kanagawa",
     "prefecture": "神奈川県",
@@ -156322,7 +156941,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJpeYlV7v-GGARQbsrjYBooJM",
-      "google_query": "ENEOS EneJet シンエネ鵜野森SS／シンエネ商事（株） 〒252-0301 神奈川県相模原市南区鵜野森２丁目３−２８"
+      "google_query": "ENEOS EneJet シンエネ鵜野森SS／シンエネ商事（株） 〒252-0301 神奈川県相模原市南区鵜野森２丁目３−２８",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kanagawa",
     "prefecture": "神奈川県",
@@ -161372,7 +161992,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJM98Wkw5cGGARjTNcS2GdZpY",
-      "google_query": "ザホワイトデンタルクリニック 〒220-0004 神奈川県横浜市西区北幸２丁目１０−４０ 横浜西口TYビル 3階"
+      "google_query": "ザホワイトデンタルクリニック 〒220-0004 神奈川県横浜市西区北幸２丁目１０−４０ 横浜西口TYビル 3階",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kanagawa",
     "prefecture": "神奈川県",
@@ -161669,7 +162290,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ6Q-oHHZcGGARvmYnRbyObCo",
-      "google_query": "ENEOS セルフ保土ヶ谷SS／日新商事（株）横浜支店 〒220-0055 神奈川県横浜市西区浜松町１０−１５"
+      "google_query": "ENEOS セルフ保土ヶ谷SS／日新商事（株）横浜支店 〒220-0055 神奈川県横浜市西区浜松町１０−１５",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kanagawa",
     "prefecture": "神奈川県",
@@ -163257,7 +163879,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJm6VyVtsZTjURosyQeVUX_fw",
-      "google_query": "帯屋町公園タイヘイ駐輪場 〒780-0841 高知県高知市帯屋町２丁目１−１０"
+      "google_query": "帯屋町公園タイヘイ駐輪場 〒780-0841 高知県高知市帯屋町２丁目１−１０",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kochi",
     "prefecture": "高知県",
@@ -164087,6 +164710,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
   {
+    "id": "place-chijjttdzdaytjurbh-wxeptsa8",
+    "name": "みかづき歯科クリニック 高知市",
+    "genre_key": "dental-clinic",
+    "area_key": "kochi",
+    "area": "高知市",
+    "address": "〒780-0972 高知県高知市中万々８１４−４ 審美歯科 小児歯科 予防歯科 インプラント",
+    "hours": "診療時間確認",
+    "nearest_station": "高知駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "http://www.smileplan-kochi.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJjTTdzdAYTjURBh-wxeptSA8/photos/AWCwydjFrwCBJQixb82_CEETpwH1zwluCdHX47gIexq-HsknyKwhxkyU834VAJ2mSVWsNRgrauuU1JdjfiYaZhYPhoKUbfPRtNyMuFLBc44ekExKJSaUJvNr1HxtiPR_S7HkfVHq0ZWVit6wIhVN9UdkVu2X3Qa8yuGpHZG29oVOXwT5fdu_jVZ4Q5Amgu0TH9QGDSk1CI7VZow2GBgXbNiYn7ZgNjH7S04z_LoEkbnb3WpcaTRRRFJiCtXQxxcrABLi7yWMLKvMPZcqlVPlXa8-eTViUZTnbcyoL-D6LlhS2wH506lEJx6dWqyepYbuZHmB0_XzhCBtr4MzRh3drwCQDuxZeTxRBSa4W0rsu5IzTWtjgTkiq1Lc69QcZFqxqRSMeWr-IXxI4QLsT-1jDMhgemrrY04ENKchAkK0MSTYv2Zffti3",
+    "source": {
+      "google_place_id": "ChIJjTTdzdAYTjURBh-wxeptSA8",
+      "google_query": "みかづき歯科クリニック 高知市 〒780-0972 高知県高知市中万々８１４−４ 審美歯科 小児歯科 予防歯科 インプラント"
+    },
+    "prefecture_key": "kochi",
+    "prefecture": "高知県",
+    "city": "高知市",
+    "ward": "",
+    "area_path": "kochi",
+    "area_label": "高知市",
+    "genre": "歯医者",
+    "url": "/area/kochi/kochi/dental-clinic/",
+    "place_query": "みかづき歯科クリニック 高知市 〒780-0972 高知県高知市中万々８１４−４ 審美歯科 小児歯科 予防歯科 インプラント",
+    "booking_url": "http://www.smileplan-kochi.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijw_mfjqaztjurk0na3vgm_qc",
     "name": "ドラッグセイムス 高知北本町店",
     "genre_key": "drugstore",
@@ -164331,7 +164992,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJYcDQRlMZTjUROWRXoPBKh0M",
-      "google_query": "apollostation 宝永町SS（出光リテール販売） 〒780-0818 高知県高知市宝永町６−２０ 出光宝永町ＳＳ"
+      "google_query": "apollostation 宝永町SS（出光リテール販売） 〒780-0818 高知県高知市宝永町６−２０ 出光宝永町ＳＳ",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kochi",
     "prefecture": "高知県",
@@ -167181,7 +167843,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJu_LfdWL0QDURtDYtec5cLYQ",
-      "google_query": "ドラッグストアモリ 本荘店 〒860-0816 熊本県熊本市中央区本荘町７３７−７"
+      "google_query": "ドラッグストアモリ 本荘店 〒860-0816 熊本県熊本市中央区本荘町７３７−７",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kumamoto",
     "prefecture": "熊本県",
@@ -170919,7 +171582,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJczU8ceAFAWARv4FsGJsn6wk",
-      "google_query": "居酒屋 五右衛門 〒601-8342 京都府京都市南区吉祥院東前田町３３ 2F"
+      "google_query": "居酒屋 五右衛門 〒601-8342 京都府京都市南区吉祥院東前田町３３ 2F",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kyoto",
     "prefecture": "京都府",
@@ -170957,7 +171621,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJbT6MiKoIAWARrk2Dxb2e13w",
-      "google_query": "東寺のかえる 〒601-8431 京都府京都市南区西九条島町４８ ラフォルム東寺 101"
+      "google_query": "東寺のかえる 〒601-8431 京都府京都市南区西九条島町４８ ラフォルム東寺 101",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kyoto",
     "prefecture": "京都府",
@@ -174683,7 +175348,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJr0ejV7kJAWARmX4scGgZghQ",
-      "google_query": "スギ薬局 五条烏丸店 〒600-8418 京都府京都市下京区烏丸通松原下る五条烏丸町４０６ Eau de Vie 烏丸通 １階"
+      "google_query": "スギ薬局 五条烏丸店 〒600-8418 京都府京都市下京区烏丸通松原下る五条烏丸町４０６ Eau de Vie 烏丸通 １階",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "kyoto",
     "prefecture": "京都府",
@@ -176234,7 +176900,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJuQeYvb1HBGARsqxUTH9-RAc",
-      "google_query": "摘み草かふぇ陽光桜のかぜ 〒519-0438 三重県度会郡玉城町原２６５７ ２６５７番地５"
+      "google_query": "摘み草かふぇ陽光桜のかぜ 〒519-0438 三重県度会郡玉城町原２６５７ ２６５７番地５",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "mie",
     "prefecture": "三重県",
@@ -176272,7 +176939,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ5wfIRGxbBGARHfznU0sO5Hc",
-      "google_query": "ガチャ専門店 TOYS SPOT PALO 伊勢ララパーク 〒516-0007 三重県伊勢市小木町 曽祢５３８ イオンタウン伊勢ララパーク2階"
+      "google_query": "ガチャ専門店 TOYS SPOT PALO 伊勢ララパーク 〒516-0007 三重県伊勢市小木町 曽祢５３８ イオンタウン伊勢ララパーク2階",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "mie",
     "prefecture": "三重県",
@@ -176861,7 +177529,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJH6T35BhFBGARNqkwv7DVRns",
-      "google_query": "スーパーセンタートライアル伊勢店 〒519-0505 三重県伊勢市小俣町本町３４１−２６１"
+      "google_query": "スーパーセンタートライアル伊勢店 〒519-0505 三重県伊勢市小俣町本町３４１−２６１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "mie",
     "prefecture": "三重県",
@@ -177861,7 +178530,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ0wt5oMFEBGARa8H53QhVX-c",
-      "google_query": "acatoki 〒519-0411 三重県度会郡玉城町久保３０９−２"
+      "google_query": "acatoki 〒519-0411 三重県度会郡玉城町久保３０９−２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "mie",
     "prefecture": "三重県",
@@ -179390,6 +180060,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
   {
+    "id": "place-chijp4rtguwnbgarpe-0adgo8aw",
+    "name": "小林歯科医院",
+    "genre_key": "dental-clinic",
+    "area_key": "tsu",
+    "area": "津市",
+    "address": "〒514-0815 三重県津市藤方１５９２−５",
+    "hours": "診療時間確認",
+    "nearest_station": "津駅・津新町駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://kobayashi-dc-tsu.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJp4rTGUwNBGARpE-0ADgO8aw/photos/AWCwydidt-cGDZLaNcS3J3mG-MVjM23etdlv2NikQXPiCjkURdPoBCbDu6dLzhKxgXm4Ib0Y2lu5NlUpv0KSM9biDgMjn5FLm7WAUApvMrsOvJHSSkR_oTwbZcA_2_XbVmA2NPUyicaMw6aBSnCbd4vz__bsQB6mw7yZ2pWjvQzQrmxCtmCSNfvN39JA9A1yey3qULko0UKiqoZzpeFz-qpiX6HC_0KGFHouTEPtCzv2o8TM3gWLpy5ReIZFbkpB7kb6Tot5HSbmq_yCCx-yG831ZY4aiXgJunr0hXtdkLHhidS_C_mXSxGLi0e5fX0Cy1FHEzs0yfu1y4KlLT9cQ2WmCa3U7immCX4NrFHtQ6u2StRtGadloyoBMC1BWZicCXNaWWBFeQnBOsBUEL-UL1cIJMRxpx4I7dWOW-yEQ5UNVc0yFg",
+    "source": {
+      "google_place_id": "ChIJp4rTGUwNBGARpE-0ADgO8aw",
+      "google_query": "小林歯科医院 〒514-0815 三重県津市藤方１５９２−５"
+    },
+    "prefecture_key": "mie",
+    "prefecture": "三重県",
+    "city": "津市",
+    "ward": "",
+    "area_path": "tsu",
+    "area_label": "津市",
+    "genre": "歯医者",
+    "url": "/area/mie/tsu/dental-clinic/",
+    "place_query": "小林歯科医院 〒514-0815 三重県津市藤方１５９２−５",
+    "booking_url": "https://kobayashi-dc-tsu.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijscbemkmnbgarnbpf9swspay",
     "name": "ウエルシア津久居中町店",
     "genre_key": "drugstore",
@@ -179412,7 +180120,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJscbeMKMNBGARNbPF9SwSPAY",
-      "google_query": "ウエルシア津久居中町店 〒514-1107 三重県津市久居中町２６３−１"
+      "google_query": "ウエルシア津久居中町店 〒514-1107 三重県津市久居中町２６３−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "mie",
     "prefecture": "三重県",
@@ -181440,7 +182149,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJebRoJrmPA2AR96-sKaJzYH8",
-      "google_query": "Cafe&Bar 溢 covo 〒510-0821 三重県四日市市久保田１丁目３−３０"
+      "google_query": "Cafe&Bar 溢 covo 〒510-0821 三重県四日市市久保田１丁目３−３０",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "mie",
     "prefecture": "三重県",
@@ -181770,7 +182480,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJZdISzxuOA2ARBMO1nbmYPHc",
-      "google_query": "セブン-イレブン 四日市小杉新町店 〒512-0903 三重県四日市市小杉新町１５３−１"
+      "google_query": "セブン-イレブン 四日市小杉新町店 〒512-0903 三重県四日市市小杉新町１５３−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "mie",
     "prefecture": "三重県",
@@ -184707,7 +185418,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJnzdDyT0oil8RbbyXr7szoAY",
-      "google_query": "ファミリーマート 東一番丁通り店 〒980-0811 宮城県仙台市青葉区一番町２丁目５−５"
+      "google_query": "ファミリーマート 東一番丁通り店 〒980-0811 宮城県仙台市青葉区一番町２丁目５−５",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "miyagi",
     "prefecture": "宮城県",
@@ -187856,6 +188568,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
   {
+    "id": "place-chij55z8ut-2odurs_5qfpod5z0",
+    "name": "谷山歯科医院",
+    "genre_key": "dental-clinic",
+    "area_key": "miyazaki",
+    "area": "宮崎市",
+    "address": "〒880-0945 宮崎県宮崎市福島町寺山３１４７−１２８",
+    "hours": "診療時間確認",
+    "nearest_station": "宮崎駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "http://www.taniyama-dc.jp/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJ55Z8Ut-2ODURS_5qfPod5z0/photos/AWCwydiHAEleT8qyXu9pHTyI3cmKK_UG3m5yRSWK3mSekkveCd3p3CcHGMsSEkgd_cghsfRfzB3EHDbB8m01SH8TS0a_kYbjffEj6P3w484YnF5p8b5U7Ik_6JU8Tz3_0TYsTVC2vlPD1Ak9VpdACFrvA0wcfhOB0QUH3PhbSX7QwTDagTN_G1afrOCw61lDVkr6wtQr2Q-5KruinTRljKW7ZtM_saD4K0pd3q25lw5K3ZZMrZ-Qs-aDTgzh4OE5toRSTvPm2VvrMxpPgrPxV_qLIR7EeLksNMtU6PV69f_Y40NEuJSEek4KndwHRiOScZIb8UAlZYYXLnoEJOrXLjZEPiPuatwvK8xZ4aClgBXEI_6boVRaE4ieQZI0CNV_zKhNsTNHHrl_ofk36x9QtsESj8VLTi7zOzDDcgHG_xuLBvscjU6gacPBxYWhHl5ft0CF",
+    "source": {
+      "google_place_id": "ChIJ55Z8Ut-2ODURS_5qfPod5z0",
+      "google_query": "谷山歯科医院 〒880-0945 宮崎県宮崎市福島町寺山３１４７−１２８"
+    },
+    "prefecture_key": "miyazaki",
+    "prefecture": "宮崎県",
+    "city": "宮崎市",
+    "ward": "",
+    "area_path": "miyazaki",
+    "area_label": "宮崎市",
+    "genre": "歯医者",
+    "url": "/area/miyazaki/miyazaki/dental-clinic/",
+    "place_query": "谷山歯科医院 〒880-0945 宮崎県宮崎市福島町寺山３１４７−１２８",
+    "booking_url": "http://www.taniyama-dc.jp/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijh9_gzwq3odur5xjyjrkszbq",
     "name": "ドラッグストア マツモトキヨシ 一番街店",
     "genre_key": "drugstore",
@@ -188026,7 +188776,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJm4QoVEG3ODURwKmJIyR45XM",
-      "google_query": "ゲームマインズ 〒880-0812 宮崎県宮崎市高千穂通１丁目３−２２"
+      "google_query": "ゲームマインズ 〒880-0812 宮崎県宮崎市高千穂通１丁目３−２２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "miyazaki",
     "prefecture": "宮崎県",
@@ -190632,6 +191383,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
   {
+    "id": "place-chijp0higwcghwar9a2ne6majpe",
+    "name": "ありす歯科医院",
+    "genre_key": "dental-clinic",
+    "area_key": "nagano",
+    "area": "長野市",
+    "address": "〒381-0025 長野県長野市北長池１８３２−１",
+    "hours": "診療時間確認",
+    "nearest_station": "長野駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://www.alice-dc.net/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJP0hIgwCGHWAR9a2Ne6MAjpE/photos/AWCwydhqxT90I5MPzi_5rDTw3i7YEK_oFf2FC1rEl-Jso5kKPg2AC06pCGwzIIXBCqQoJlu9w7H061K-g6o9vTwf_x3mQkdxicCfHTyo7shgCAWzTQMo5dotytMD1YQIC4_nmA9V3vswWjsUeNrjvLSPI7gMiLx1sCwIw7UyPEmii7Rn_kuBqNLhfQGPOMIx-M9_crhkI0GXh3SYYVOAoOxv0K8KNWSvI3-euabFNb6oSY7ievd1tgqzxN4A8TPDnDhejT4kX6J02sG8AIkY_gjgf4eUw7EuB0-n-kr2x3cimGVe58-ejpyUUdQ2tjTGRk0CBNmXp_A-gwl9dQitoCUw6F99lyclNIr6IfVKHrdVJpipi50u34L7FabkuHdq8xVWFMlszH5rMIl_ipepDmOEYpALsFH3BLbm_Ua0Sa1z5l_ynA",
+    "source": {
+      "google_place_id": "ChIJP0hIgwCGHWAR9a2Ne6MAjpE",
+      "google_query": "ありす歯科医院 〒381-0025 長野県長野市北長池１８３２−１"
+    },
+    "prefecture_key": "nagano",
+    "prefecture": "長野県",
+    "city": "長野市",
+    "ward": "",
+    "area_path": "nagano",
+    "area_label": "長野市",
+    "genre": "歯医者",
+    "url": "/area/nagano/nagano/dental-clinic/",
+    "place_query": "ありす歯科医院 〒381-0025 長野県長野市北長池１８３２−１",
+    "booking_url": "https://www.alice-dc.net/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijo7ajjaehhwaropwef2jvpuc",
     "name": "原山デンタルクリニック",
     "genre_key": "dental-clinic",
@@ -190665,6 +191454,44 @@
     "url": "/area/nagano/nagano/dental-clinic/",
     "place_query": "原山デンタルクリニック 〒381-0045 長野県長野市桐原２丁目１４−１４",
     "booking_url": "https://www.harayama-dc.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
+    "id": "place-chijzqpj_qahhwarqcazegb_cec",
+    "name": "長野駅前おとなこども矯正歯科",
+    "genre_key": "dental-clinic",
+    "area_key": "nagano",
+    "area": "長野市",
+    "address": "〒380-0825 長野県長野市南長野末広町１３５６ 2階",
+    "hours": "診療時間確認",
+    "nearest_station": "長野駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://nagano-ortho.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJzQpj_qaHHWARQcaZEgB_CEc/photos/AWCwydhwMlI1bzOlsMVKBszMPwKIpu7-reElyzq5GcsTxILMZkVcJsIlQk4lOaFMcRGlc0ILcPazYFmMYKOCnB5Ogd1ZRePibpi3dGcLFSUqr1PEsGo3CmQnhSLb_UZGBQENi__J2Q-hFzZfoFjAC3dENsyAfZNWD-3zjEhCrFTUuV8O97BZLqYXPkIUUH5rXmaWaFUmUWqAF0VP4QWkHKprRiDd_QnkRaaydE2UjAVVQAJqMwk1e96ovEZ_nu1fQNCN3Oe0LzBOVCiFYsbf0yBpInB0WZq2qjbUczyyKdBdS8brYrw3Ji2BHM8HkMj9a3DwHMeeFTVovb6ypsTSvCt-9jez7gziAvMaUlYXNVNCDmYLngQvqsL-WJNyzuktnFy9_SXEyFD8NJRu_dJYE_zV-y1fudBbtjm5IhiaHKpKQ6WQbxtd",
+    "source": {
+      "google_place_id": "ChIJzQpj_qaHHWARQcaZEgB_CEc",
+      "google_query": "長野駅前おとなこども矯正歯科 〒380-0825 長野県長野市南長野末広町１３５６ 2階"
+    },
+    "prefecture_key": "nagano",
+    "prefecture": "長野県",
+    "city": "長野市",
+    "ward": "",
+    "area_path": "nagano",
+    "area_label": "長野市",
+    "genre": "歯医者",
+    "url": "/area/nagano/nagano/dental-clinic/",
+    "place_query": "長野駅前おとなこども矯正歯科 〒380-0825 長野県長野市南長野末広町１３５６ 2階",
+    "booking_url": "https://nagano-ortho.com/",
     "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
@@ -192393,7 +193220,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ58fXpJ6FHWARjrj0K2d6QN8",
-      "google_query": "快活CLUB 長野南バイパス店 〒381-2217 長野県長野市稲里町中央４丁目９−１０"
+      "google_query": "快活CLUB 長野南バイパス店 〒381-2217 長野県長野市稲里町中央４丁目９−１０",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "nagano",
     "prefecture": "長野県",
@@ -193134,7 +193962,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ86asqjlTFTURDYHgCRe_Vkw",
-      "google_query": "ローソン 長崎桜町店 〒850-0056 長崎県長崎市恵美須町４−５ ＮＢＣサードビル"
+      "google_query": "ローソン 長崎桜町店 〒850-0056 長崎県長崎市恵美須町４−５ ＮＢＣサードビル",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "nagasaki",
     "prefecture": "長崎県",
@@ -193505,7 +194334,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJpT8q4d6sajUR8W6rk1eOVGk",
-      "google_query": "ココカラファイン 三芳町店 〒852-8031 長崎県長崎市三芳町１１−６"
+      "google_query": "ココカラファイン 三芳町店 〒852-8031 長崎県長崎市三芳町１１−６",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "nagasaki",
     "prefecture": "長崎県",
@@ -199093,7 +199923,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJfbG5Wp3J9F8RC87OWCHZU9Y",
-      "google_query": "ウエルシア南笹口店 〒950-0912 新潟県新潟市中央区南笹口２丁目３−５５"
+      "google_query": "ウエルシア南笹口店 〒950-0912 新潟県新潟市中央区南笹口２丁目３−５５",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "niigata",
     "prefecture": "新潟県",
@@ -199168,7 +199999,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJGwh0BBjJ9F8Rgfj-06fAUYM",
-      "google_query": "ツルハドラッグ 新潟幸西店 〒950-0908 新潟県新潟市中央区幸西２丁目１−１６"
+      "google_query": "ツルハドラッグ 新潟幸西店 〒950-0908 新潟県新潟市中央区幸西２丁目１−１６",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "niigata",
     "prefecture": "新潟県",
@@ -199354,7 +200186,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJVZpFdNLJ9F8RaRrwXy8tktw",
-      "google_query": "(株)にいがたエネルギー Dr.Driveセルフ女池店 〒950-0941 新潟県新潟市中央区女池５丁目２−２０"
+      "google_query": "(株)にいがたエネルギー Dr.Driveセルフ女池店 〒950-0941 新潟県新潟市中央区女池５丁目２−２０",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "niigata",
     "prefecture": "新潟県",
@@ -200132,7 +200965,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ0T5aEf7J9F8R3fS3i1iUiqs",
-      "google_query": "西海岸公園 駐車場 〒951-8101 新潟県新潟市中央区西船見町５９３２−２１６"
+      "google_query": "西海岸公園 駐車場 〒951-8101 新潟県新潟市中央区西船見町５９３２−２１６",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "niigata",
     "prefecture": "新潟県",
@@ -201798,7 +202632,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJf1oh4H2fRjURggTGfkEl9Nk",
-      "google_query": "ローソン 大分千代町四丁目店 〒870-0033 大分県大分市千代町４丁目４−４"
+      "google_query": "ローソン 大分千代町四丁目店 〒870-0033 大分県大分市千代町４丁目４−４",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "oita",
     "prefecture": "大分県",
@@ -204426,7 +205261,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJJZvoIABXUTURhXQS48z0oDg",
-      "google_query": "ASOBI-GOCORO倉敷店 〒710-0055 岡山県倉敷市阿知２丁目１３−２２"
+      "google_query": "ASOBI-GOCORO倉敷店 〒710-0055 岡山県倉敷市阿知２丁目１３−２２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "okayama",
     "prefecture": "岡山県",
@@ -204960,6 +205796,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%84%20%E3%83%90%E3%83%AC%E3%83%AB%20%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88/"
   },
   {
+    "id": "place-chijvvvvdkjbuturvsmijjutflm",
+    "name": "みどりフレンド歯科",
+    "genre_key": "dental-clinic",
+    "area_key": "kurashiki",
+    "area": "倉敷市",
+    "address": "〒713-8103 岡山県倉敷市玉島乙島６９７５−１",
+    "hours": "診療時間確認",
+    "nearest_station": "倉敷駅・倉敷市駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://tanjifriend.com/midori/?utm_source=google&utm_medium=maps",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJVVVVdKJbUTURVsMijJUtFlM/photos/AWCwydjjK9AXXAoRjv2HSgtTXc3jE1zRHKnP_4Iv91CwXzDtuuUlgpBkrbp55CtH0XDAg-1nCwmxxxObr9Ea2J5OjFO2lWSGMa27RFmClZvpAQxHURuAYxSFeIDRDTewJs5w5zqAczTgZX44BwQh6aFXXb1hMg4DT4f9SMKw1Mbaf2AQj6-YooITdmq_kupk9EqTbQS3zTxb4-CZlyTroJ5-vXqqG3C9t5ew3E0bBFS_KIxewwHoFem7YcungMNmsRIQBrjC5K3W4ZC-AecDjvcgX5naaFsoJ-NOUYFOZxsFJP1iH0Gu9NWzjbKMg6upMfgvQDNIJI2BAbJC4cbXfBR3ybe1ENDsbEVlzLmhSlRaNzcxbJL--TmW-xy_5ktO2GqgAd9suMMRKdytFaLc8AgD23BmyXAcJJLjSYS42BJU3XHHWMin",
+    "source": {
+      "google_place_id": "ChIJVVVVdKJbUTURVsMijJUtFlM",
+      "google_query": "みどりフレンド歯科 〒713-8103 岡山県倉敷市玉島乙島６９７５−１"
+    },
+    "prefecture_key": "okayama",
+    "prefecture": "岡山県",
+    "city": "倉敷市",
+    "ward": "",
+    "area_path": "kurashiki",
+    "area_label": "倉敷市",
+    "genre": "歯医者",
+    "url": "/area/okayama/kurashiki/dental-clinic/",
+    "place_query": "みどりフレンド歯科 〒713-8103 岡山県倉敷市玉島乙島６９７５−１",
+    "booking_url": "https://tanjifriend.com/midori/?utm_source=google&utm_medium=maps",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijbq7ln_fvuturew_i7w1xwqe",
     "name": "めぐり歯科こども歯科室",
     "genre_key": "dental-clinic",
@@ -205278,7 +206152,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ18153mxXUTURhfBaY483Pss",
-      "google_query": "ENEOS EneJet セルフ中島口店／赤澤屋（株） 〒710-0803 岡山県倉敷市中島８２０−１"
+      "google_query": "ENEOS EneJet セルフ中島口店／赤澤屋（株） 〒710-0803 岡山県倉敷市中島８２０−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "okayama",
     "prefecture": "岡山県",
@@ -207425,7 +208300,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJjWxQw20HVDURq0wbyYFb1N8",
-      "google_query": "ローソン 岡山ドーム前店 〒700-0975 岡山県岡山市北区今１丁目９−３０"
+      "google_query": "ローソン 岡山ドーム前店 〒700-0975 岡山県岡山市北区今１丁目９−３０",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "okayama",
     "prefecture": "岡山県",
@@ -207722,7 +208598,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ2TLBQBIGVDURxPm_y6q85h0",
-      "google_query": "くすりのラブ 岡北店 〒700-0808 岡山県岡山市北区大和町２丁目６−２０"
+      "google_query": "くすりのラブ 岡北店 〒700-0808 岡山県岡山市北区大和町２丁目６−２０",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "okayama",
     "prefecture": "岡山県",
@@ -207982,7 +208859,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJVVWhwJYaVDURxyQH9HU5Itw",
-      "google_query": "apollostation ポートヒル御津SS／（株）渋谷石油 〒709-2121 岡山県岡山市北区御津宇垣１４７６−１"
+      "google_query": "apollostation ポートヒル御津SS／（株）渋谷石油 〒709-2121 岡山県岡山市北区御津宇垣１４７６−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "okayama",
     "prefecture": "岡山県",
@@ -210018,7 +210896,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJs0zCPugHVDURKA5yxuKoGAY",
-      "google_query": "ガチャ専門店 TOYS SPOT PALO 岡山 〒700-0907 岡山県岡山市北区下石井１丁目２−１ イオンモール岡山 4F"
+      "google_query": "ガチャ専門店 TOYS SPOT PALO 岡山 〒700-0907 岡山県岡山市北区下石井１丁目２−１ イオンモール岡山 4F",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "okayama",
     "prefecture": "岡山県",
@@ -210241,7 +211120,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJkUQlNx34UzURUnZsPFfGMsI",
-      "google_query": "ローソン 岡山あけぼの町店 〒702-8057 岡山県岡山市南区あけぼの町４−１６"
+      "google_query": "ローソン 岡山あけぼの町店 〒702-8057 岡山県岡山市南区あけぼの町４−１６",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "okayama",
     "prefecture": "岡山県",
@@ -210279,7 +211159,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJH-86a4YHVDUReJtWx0b090Y",
-      "google_query": "ローソン 岡山新保店 〒700-0945 岡山県岡山市南区新保１１６６"
+      "google_query": "ローソン 岡山新保店 〒700-0945 岡山県岡山市南区新保１１６６",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "okayama",
     "prefecture": "岡山県",
@@ -210835,7 +211716,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJIwvEVe4HVDUR5lATrq20DaM",
-      "google_query": "フジモデル岡山店 〒700-0943 岡山県岡山市南区新福１丁目１−５８"
+      "google_query": "フジモデル岡山店 〒700-0943 岡山県岡山市南区新福１丁目１−５８",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "okayama",
     "prefecture": "岡山県",
@@ -213256,6 +214138,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
   {
+    "id": "place-chijmuk8w51p5tqrnbdhsylgzb0",
+    "name": "医療法人さき山歯科クリニック",
+    "genre_key": "dental-clinic",
+    "area_key": "naha",
+    "area": "那覇市",
+    "address": "〒900-0015 沖縄県那覇市久茂地２丁目６−２０ 第一久高木材ビル",
+    "hours": "診療時間確認",
+    "nearest_station": "県庁前駅・旭橋駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://sdc1001.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJmUK8W51p5TQRNBdHsYLgZB0/photos/AWCwydg4bd_dM3EALHjquon3Y9-idZZlRoI-1dVZ2IY1DlYCXEEiWcpQGiwTA496v8dp2IlRDh1uypiUMebSu5whIjoLcLe103GS7cHAPCOWla55IkbJagS5sT3c_Zg3_EL8R7gIr6jl1dSfItHxAuUPEz2Z-A77y-H5Rx01sG51R7NdRww9tMnPvJD6GwrEZ8Gv8OkAUMb3FTupzcmOQ0bDR_fcKE38wl_CvJNZ7jfmTdD9lJuOipVqRyQVeRnOAUIu95Uy6i62yoeFn7l9Ov-eJoSF71GqfYsFc92-eLxGQ5iJKzooGDU1Hn6eL1cRTKkgrfNkJbFCPBsMXHv-oN0RhLK3pyi8eme1QaghzUG_Oi7lOXA4wkovKUMvf7Wd6NX_Q5jEd_gZri56uMbB8zFi88zRy4N07KWqgvc3rr54KtKqYQ",
+    "source": {
+      "google_place_id": "ChIJmUK8W51p5TQRNBdHsYLgZB0",
+      "google_query": "医療法人さき山歯科クリニック 〒900-0015 沖縄県那覇市久茂地２丁目６−２０ 第一久高木材ビル"
+    },
+    "prefecture_key": "okinawa",
+    "prefecture": "沖縄県",
+    "city": "那覇市",
+    "ward": "",
+    "area_path": "naha",
+    "area_label": "那覇市",
+    "genre": "歯医者",
+    "url": "/area/okinawa/naha/dental-clinic/",
+    "place_query": "医療法人さき山歯科クリニック 〒900-0015 沖縄県那覇市久茂地２丁目６−２０ 第一久高木材ビル",
+    "booking_url": "https://sdc1001.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijqzrvpkbr5tqryajpny56_ne",
     "name": "匠デンタルクリニック",
     "genre_key": "dental-clinic",
@@ -213352,7 +214272,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJfw0GR3pp5TQRLIt7efzFILA",
-      "google_query": "ドラッグイレブン国際通り店 〒900-0013 沖縄県那覇市牧志２丁目１−７"
+      "google_query": "ドラッグイレブン国際通り店 〒900-0013 沖縄県那覇市牧志２丁目１−７",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "okinawa",
     "prefecture": "沖縄県",
@@ -216128,7 +217049,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJvfdlSNvdAGAR42FrYFCM0ZE",
-      "google_query": "スギドラッグ 昭和町店 〒545-0021 大阪府大阪市阿倍野区阪南町２丁目４−１"
+      "google_query": "スギドラッグ 昭和町店 〒545-0021 大阪府大阪市阿倍野区阪南町２丁目４−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "osaka",
     "prefecture": "大阪府",
@@ -218629,7 +219551,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJjfLWXVHnAGAR-_d_iW-NttU",
-      "google_query": "HANAIntelligence歯科口腔外科・美容皮膚科 〒541-0042 大阪府大阪市中央区今橋４丁目３−１８ HK今橋ビル B1F"
+      "google_query": "HANAIntelligence歯科口腔外科・美容皮膚科 〒541-0042 大阪府大阪市中央区今橋４丁目３−１８ HK今橋ビル B1F",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "osaka",
     "prefecture": "大阪府",
@@ -218778,7 +219701,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJh_wTbKrnAGARZJBnTUGWe-g",
-      "google_query": "スギ薬局 心斎橋店 〒542-0085 大阪府大阪市中央区心斎橋筋１丁目３−２２"
+      "google_query": "スギ薬局 心斎橋店 〒542-0085 大阪府大阪市中央区心斎橋筋１丁目３−２２",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "osaka",
     "prefecture": "大阪府",
@@ -221464,7 +222388,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJg_oRCtrnAGAR6LX2ilg_O8E",
-      "google_query": "K Dental Clinic 天六 〒530-0041 大阪府大阪市北区天神橋６丁目５−２４ Gazelle Rio.6, east 1F"
+      "google_query": "K Dental Clinic 天六 〒530-0041 大阪府大阪市北区天神橋６丁目５−２４ Gazelle Rio.6, east 1F",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "osaka",
     "prefecture": "大阪府",
@@ -221650,7 +222575,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ0w4eOC7nAGARjVbBkE0D0-I",
-      "google_query": "スギ薬局 北新地店 〒530-0002 大阪府大阪市北区曾根崎新地１丁目１２−８ マルイト梅新ビル 1階 大阪市北区曽根崎新地一丁目"
+      "google_query": "スギ薬局 北新地店 〒530-0002 大阪府大阪市北区曾根崎新地１丁目１２−８ マルイト梅新ビル 1階 大阪市北区曽根崎新地一丁目",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "osaka",
     "prefecture": "大阪府",
@@ -221799,7 +222725,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJJ_EumdzmAGAR6rOxkPKJiDw",
-      "google_query": "ENEOS 南森町S.S.旭油業NEXT(株) 〒530-0054 大阪府大阪市北区南森町１丁目１−２１"
+      "google_query": "ENEOS 南森町S.S.旭油業NEXT(株) 〒530-0054 大阪府大阪市北区南森町１丁目１−２１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "osaka",
     "prefecture": "大阪府",
@@ -223753,7 +224680,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJVfEvUQnnAGAR4cIaSILcbhw",
-      "google_query": "ガシャココ なんばマルイ（カプセルトイ専門店） 〒542-0076 大阪府大阪市中央区難波３丁目８−９ なんばマルイ ７F"
+      "google_query": "ガシャココ なんばマルイ（カプセルトイ専門店） 〒542-0076 大阪府大阪市中央区難波３丁目８−９ なんばマルイ ７F",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "osaka",
     "prefecture": "大阪府",
@@ -225308,7 +226236,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJJ6mr7arnAGAR1F59wW915kY",
-      "google_query": "CLEVER 大阪日本橋 〒556-0005 大阪府大阪市浪速区日本橋４丁目１５−２０ おおきにオタロードビル 404"
+      "google_query": "CLEVER 大阪日本橋 〒556-0005 大阪府大阪市浪速区日本橋４丁目１５−２０ おおきにオタロードビル 404",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "osaka",
     "prefecture": "大阪府",
@@ -225346,7 +226275,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJF2ccSF_nAGAR-psWLHq98Hs",
-      "google_query": "LHUB大阪 〒556-0005 大阪府大阪市浪速区日本橋４丁目２−２０ コア日本橋 2階"
+      "google_query": "LHUB大阪 〒556-0005 大阪府大阪市浪速区日本橋４丁目２−２０ コア日本橋 2階",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "osaka",
     "prefecture": "大阪府",
@@ -229232,7 +230162,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJvy-CEW_KQTUR9pUgDODG2QU",
-      "google_query": "イターナル歯科クリニック 佐賀本院 〒840-0826 佐賀県佐賀市白山１丁目７−１"
+      "google_query": "イターナル歯科クリニック 佐賀本院 〒840-0826 佐賀県佐賀市白山１丁目７−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "saga",
     "prefecture": "佐賀県",
@@ -231945,6 +232876,44 @@
     "url": "/area/saitama/kawagoe/dental-clinic/",
     "place_query": "かしのき歯科クリニック 〒350-1170 埼玉県川越市むさし野６−２",
     "booking_url": "https://kashinokidental.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
+    "id": "place-chijp6joctpbggaryrgzqxoqbmy",
+    "name": "グリーン歯科・矯正歯科 川越院",
+    "genre_key": "dental-clinic",
+    "area_key": "kawagoe",
+    "area": "川越市",
+    "address": "〒350-1123 埼玉県川越市脇田本町１６−５ ザ・パークハウス 川越タワー 2F",
+    "hours": "診療時間確認",
+    "nearest_station": "川越駅・本川越駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://green-dentalclinic.jp/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJP6jOCTPbGGARYRGZQXOQbMY/photos/AWCwydhLU2NunjIBd6G1xiDo-L3k21zTcnP98e78Nw8pBws7RybXebvGai2IgUbImyCyf7FnznxYYa4AanmbKTnQPM2Hu75EZvCV8MoLPltwWA4PGB9NcY6lKcoCogBUNlwwLThYXDwhRuZaxP6OA-EUn7srh6HFrUxmb0WYb02NLYI6twavjIKVOMi0I4nAv1mCoNWZwEZ1bUyBdwGAg9cy-FQDPNUar4Pwy7eQbzTJi9aJdLzrp7p7PgXnlNkOONAvPi7W-y-u4YVk8Gsvive3lEQIWPlCgjhXopDw_GK_H8CEORBG1Byb1M9FlB3D0XDB-VkzRgYxX6LDRUdaWHCbZyjCvbPLQSelMxvOYU4VXIC5r2HdT6flFZaEudLYzXGfRhZdl_8i2gk9zZv9BqrJdVAJTh9t6qETB8ssybX17ZQefhAU",
+    "source": {
+      "google_place_id": "ChIJP6jOCTPbGGARYRGZQXOQbMY",
+      "google_query": "グリーン歯科・矯正歯科 川越院 〒350-1123 埼玉県川越市脇田本町１６−５ ザ・パークハウス 川越タワー 2F"
+    },
+    "prefecture_key": "saitama",
+    "prefecture": "埼玉県",
+    "city": "川越市",
+    "ward": "",
+    "area_path": "kawagoe",
+    "area_label": "川越市",
+    "genre": "歯医者",
+    "url": "/area/saitama/kawagoe/dental-clinic/",
+    "place_query": "グリーン歯科・矯正歯科 川越院 〒350-1123 埼玉県川越市脇田本町１６−５ ザ・パークハウス 川越タワー 2F",
+    "booking_url": "https://green-dentalclinic.jp/",
     "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
@@ -235412,7 +236381,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ48KVN1SbGGAR2FJg7Ed9kn8",
-      "google_query": "さかなや うおきく 〒341-0024 埼玉県三郷市三郷１丁目４−１ KTT１ビル １階"
+      "google_query": "さかなや うおきく 〒341-0024 埼玉県三郷市三郷１丁目４−１ KTT１ビル １階",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "saitama",
     "prefecture": "埼玉県",
@@ -239483,7 +240453,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJrdWFKuHqGGAR2O467IdD16c",
-      "google_query": "Benex 浦和店 〒336-0026 埼玉県さいたま市南区辻７丁目２−８"
+      "google_query": "Benex 浦和店 〒336-0026 埼玉県さいたま市南区辻７丁目２−８",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "saitama",
     "prefecture": "埼玉県",
@@ -239743,7 +240714,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJjTY2pUjAGGARx9C55mg2xMU",
-      "google_query": "ウエルシア浦和木崎店 〒330-0042 埼玉県さいたま市浦和区木崎１丁目７−２７"
+      "google_query": "ウエルシア浦和木崎店 〒330-0042 埼玉県さいたま市浦和区木崎１丁目７−２７",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "saitama",
     "prefecture": "埼玉県",
@@ -239818,7 +240790,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJIVcScq_BGGAR2KjSDERXfAc",
-      "google_query": "ドラッグストア マツモトキヨシ 浦和上木崎店 〒330-0071 埼玉県さいたま市浦和区上木崎２丁目１４−２３"
+      "google_query": "ドラッグストア マツモトキヨシ 浦和上木崎店 〒330-0071 埼玉県さいたま市浦和区上木崎２丁目１４−２３",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "saitama",
     "prefecture": "埼玉県",
@@ -242372,7 +243345,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ0cdB5zFtAWARl3tfoQqUwqU",
-      "google_query": "ウエルシア大津平津店 〒520-0862 滋賀県大津市平津１丁目６−１７"
+      "google_query": "ウエルシア大津平津店 〒520-0862 滋賀県大津市平津１丁目６−１７",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shiga",
     "prefecture": "滋賀県",
@@ -245111,7 +246085,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJBWuSJb0EVzUR2g1Zdrr9cas",
-      "google_query": "スーパーセンタートライアル松江店 〒690-0031 島根県松江市山代町１００５ 番"
+      "google_query": "スーパーセンタートライアル松江店 〒690-0031 島根県松江市山代町１００５ 番",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shimane",
     "prefecture": "島根県",
@@ -245334,7 +246309,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJwxmz9tUEVzUR1Mxjc82Gjig",
-      "google_query": "コスモ石油 セルフステーション浜乃木SS（山陰石油） 〒690-0044 島根県松江市浜乃木６丁目１８−７"
+      "google_query": "コスモ石油 セルフステーション浜乃木SS（山陰石油） 〒690-0044 島根県松江市浜乃木６丁目１８−７",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shimane",
     "prefecture": "島根県",
@@ -248176,7 +249152,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJEzmP10QrGmARvOkOp8k3pjI",
-      "google_query": "新富士駅富士山口送迎用駐車場 〒416-0939 静岡県富士市川成島６５４−１０"
+      "google_query": "新富士駅富士山口送迎用駐車場 〒416-0939 静岡県富士市川成島６５４−１０",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shizuoka",
     "prefecture": "静岡県",
@@ -249912,7 +250889,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJz8Q5i_lOGmAR5UouG9qGVlA",
-      "google_query": "ウエルシア藤枝岡部店 〒421-1131 静岡県藤枝市岡部町内谷８０３−１"
+      "google_query": "ウエルシア藤枝岡部店 〒421-1131 静岡県藤枝市岡部町内谷８０３−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shizuoka",
     "prefecture": "静岡県",
@@ -250024,7 +251002,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ8669fDVOGmARx4RSuhp1yQg",
-      "google_query": "ENEOS A-1YABUTA SS／巻田油業（株） 〒426-0201 静岡県藤枝市下藪田字前田９５−１"
+      "google_query": "ENEOS A-1YABUTA SS／巻田油業（株） 〒426-0201 静岡県藤枝市下藪田字前田９５−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shizuoka",
     "prefecture": "静岡県",
@@ -253775,7 +254754,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJm22u8Y13GWARCMyEaxMzyAw",
-      "google_query": "コナズ珈琲御殿場 〒412-0027 静岡県御殿場市西田 中字松ノ木割51-1"
+      "google_query": "コナズ珈琲御殿場 〒412-0027 静岡県御殿場市西田 中字松ノ木割51-1",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shizuoka",
     "prefecture": "静岡県",
@@ -254157,6 +255137,44 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%84%20%E3%83%90%E3%83%AC%E3%83%AB%20%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88/"
   },
   {
+    "id": "place-chijiak8cuf2gwarcwzgumvs9oq",
+    "name": "そのだ歯科",
+    "genre_key": "dental-clinic",
+    "area_key": "gotemba",
+    "area": "御殿場市",
+    "address": "〒412-0026 静岡県御殿場市東田中１９０９−６",
+    "hours": "診療時間確認",
+    "nearest_station": "御殿場駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "http://sonoda-shika.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "",
+    "source": {
+      "google_place_id": "ChIJIaK8cUF2GWARCwZGumvS9oQ",
+      "google_query": "そのだ歯科 〒412-0026 静岡県御殿場市東田中１９０９−６"
+    },
+    "prefecture_key": "shizuoka",
+    "prefecture": "静岡県",
+    "city": "御殿場市",
+    "ward": "",
+    "area_path": "gotemba",
+    "area_label": "御殿場市",
+    "genre": "歯医者",
+    "url": "/area/shizuoka/gotemba/dental-clinic/",
+    "place_query": "そのだ歯科 〒412-0026 静岡県御殿場市東田中１９０９−６",
+    "booking_url": "http://sonoda-shika.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijm64klcv3gwarvf8tpfyhuay",
     "name": "医療法人社団 エミライク 御殿場ささき歯科",
     "genre_key": "dental-clinic",
@@ -254290,7 +255308,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJA3dcTWh2GWAR8pDGkwRLT88",
-      "google_query": "ウエルシア御殿場東田中店 〒412-0026 静岡県御殿場市東田中２丁目１４−３"
+      "google_query": "ウエルシア御殿場東田中店 〒412-0026 静岡県御殿場市東田中２丁目１４−３",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shizuoka",
     "prefecture": "静岡県",
@@ -254476,7 +255495,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJaRbKeO92GWARhKAIrHCnSuE",
-      "google_query": "コスモ石油 御殿場店／エネクスフリート（株） 〒412-0021 静岡県御殿場市二枚橋４０５−１"
+      "google_query": "コスモ石油 御殿場店／エネクスフリート（株） 〒412-0021 静岡県御殿場市二枚橋４０５−１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shizuoka",
     "prefecture": "静岡県",
@@ -255546,7 +256566,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJ_WXd9cR5GWARLGIJPIKXVlE",
-      "google_query": "御胎内温泉健康センター 〒412-0008 静岡県御殿場市印野１３８０−２５"
+      "google_query": "御胎内温泉健康センター 〒412-0008 静岡県御殿場市印野１３８０−２５",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shizuoka",
     "prefecture": "静岡県",
@@ -256571,7 +257592,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJjzoqXNjdGmARD3VEkgh7OsU",
-      "google_query": "ファミリーマート 浜松寺島店 〒430-0925 静岡県浜松市中央区寺島町１００１"
+      "google_query": "ファミリーマート 浜松寺島店 〒430-0925 静岡県浜松市中央区寺島町１００１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shizuoka",
     "prefecture": "静岡県",
@@ -256975,7 +257997,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJQVOdKhPeGmARvyVutsc1_M8",
-      "google_query": "ウエルシア浜松船越店 〒430-0913 静岡県浜松市中央区船越町２６−１０"
+      "google_query": "ウエルシア浜松船越店 〒430-0913 静岡県浜松市中央区船越町２６−１０",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shizuoka",
     "prefecture": "静岡県",
@@ -262281,7 +263304,8 @@
     "photo_reference": "",
     "source": {
       "google_place_id": "ChIJt0VinPhJGmARu4GEGYsiw48",
-      "google_query": "スギドラッグ 鷹匠店 〒420-0838 静岡県静岡市葵区相生町１４−３１"
+      "google_query": "スギドラッグ 鷹匠店 〒420-0838 静岡県静岡市葵区相生町１４−３１",
+      "last_status_check_at": "2026-08-08T12:19:44.930Z"
     },
     "prefecture_key": "shizuoka",
     "prefecture": "静岡県",
@@ -268778,6 +269802,82 @@
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%84%20%E3%83%90%E3%83%AC%E3%83%AB%20%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88/"
   },
   {
+    "id": "place-chij74pwmysrgwariuseqztgf6e",
+    "name": "こうざい歯科クリニック",
+    "genre_key": "dental-clinic",
+    "area_key": "sunto-shimizu",
+    "area": "清水町",
+    "address": "〒411-0903 静岡県駿東郡清水町堂庭１８７−１０",
+    "hours": "診療時間確認",
+    "nearest_station": "三島駅・沼津駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://mishima.mypl.net/shop/00000361453/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJ74PwMYSRGWARiuseqztgF6E/photos/AWCwydjkO3hR4Jfs1p1-pSyWO-GIm7O9vAi_4yCck4QlV1EzdFP5gklTy6fYyuOua9xjbklHapv13WCxj_ZQew7kGBcu1cwxsA4NqxclAXkk2K060aRDAs7LntMdmH22UFnF0DXa-39SeH_cIJvYfqS7fsGHQPDwyKLtZHrVcGdaW-MJf51xWXd8dw54_0iwhjIbMPS4msbXP9ynjbXNarMG_-fmNodcLKvjVk2dcODjQdf-G1p3TA8uRhVFKPbgLlN3pfcJWVMt5YS9davdTDVOg959V7ICgYvJ-A7BtZ2pWQAyIgi3ZaEmwoYHbe6xNLmo-bdp-11HEdmcDpvf4IeVp7l8qF1jqO9C-FIPLZMkdmndGrNKAI40WbkFNp4GMxniHchmhrHnBVkLdpdXYNsBGdJthLgb5cZb0SFoJDtJXVQ",
+    "source": {
+      "google_place_id": "ChIJ74PwMYSRGWARiuseqztgF6E",
+      "google_query": "こうざい歯科クリニック 〒411-0903 静岡県駿東郡清水町堂庭１８７−１０"
+    },
+    "prefecture_key": "shizuoka",
+    "prefecture": "静岡県",
+    "city": "清水町",
+    "ward": "",
+    "area_path": "sunto/shimizu",
+    "area_label": "清水町",
+    "genre": "歯医者",
+    "url": "/area/shizuoka/sunto/shimizu/dental-clinic/",
+    "place_query": "こうざい歯科クリニック 〒411-0903 静岡県駿東郡清水町堂庭１８７−１０",
+    "booking_url": "https://mishima.mypl.net/shop/00000361453/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
+    "id": "place-chijmuplyxcqgwarjxdttk7q7ec",
+    "name": "なかがわ歯科",
+    "genre_key": "dental-clinic",
+    "area_key": "sunto-shimizu",
+    "area": "清水町",
+    "address": "〒411-0905 静岡県駿東郡清水町長沢８８１−５ スズキビル 1F",
+    "hours": "診療時間確認",
+    "nearest_station": "三島駅・沼津駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "http://www.nakagawa-shika2012.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJmUplYxCQGWARjxDttk7q7ec/photos/AWCwydiO9FfE7pgZPPyp5iBOWq626JCmEgllmbnoNLqk9bRfMFBeQyfKPccq_rKWa1ZMPC-mOkuRIK0zXgRyWeQm3j9Q7XX9ZFR769PRrjUUV6FcOss1r1-2qMXhMtN_YPNfaQuBJO_3RqRoyuKN1ff02AQDoLUhJwzxnfh3ypcRfZY0Hle9I4vOYCKjxPFOpQP2ErgbI_Po-K138VMFyKg_seYNcFm13h9nSa2uDy6yWFLJd1flgI3yjgkVJvWgBskaq6UFamPx5araza3Px8fdOLpYUasa5BXgFY5f40Mwadx1muQiq2zMxG2MR-KmkrnQeM5iKokYt4OcgIS1xKSi-o2g3E_-8pV2cZiH2siltWYQ6i9Ha713QWfg8b_e6CpNOrAoZS65J_qeEciSZcj5OvhWBgLHVFiWkd_YO4RoX4lYgrlA",
+    "source": {
+      "google_place_id": "ChIJmUplYxCQGWARjxDttk7q7ec",
+      "google_query": "なかがわ歯科 〒411-0905 静岡県駿東郡清水町長沢８８１−５ スズキビル 1F"
+    },
+    "prefecture_key": "shizuoka",
+    "prefecture": "静岡県",
+    "city": "清水町",
+    "ward": "",
+    "area_path": "sunto/shimizu",
+    "area_label": "清水町",
+    "genre": "歯医者",
+    "url": "/area/shizuoka/sunto/shimizu/dental-clinic/",
+    "place_query": "なかがわ歯科 〒411-0905 静岡県駿東郡清水町長沢８８１−５ スズキビル 1F",
+    "booking_url": "http://www.nakagawa-shika2012.com/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
     "id": "place-chijwsmsjfmzgmarhryksiax_yc",
     "name": "やまだ歯科クリニック",
     "genre_key": "dental-clinic",
@@ -270542,6 +271642,44 @@
     "booking_url": "https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3771711&pid=892675357&vc_url=https%3A%2F%2Fwww.asoview.com%2Fsearch%2F%3Fkeyword%3D%25E7%2584%25BC%25E6%25B4%25A5%25E5%25B8%2582%2520%25E3%2583%2580%25E3%2583%25BC%25E3%2583%2584%2520%25E3%2583%2597%25E3%2583%25AD%25E3%2583%2581%25E3%2583%25A3%25E3%2583%25AC%25E3%2583%25B3%25E3%2582%25B8%2520%25E3%2582%25A4%25E3%2583%2599%25E3%2583%25B3%25E3%2583%2588",
     "coupon_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%84%20%E3%83%90%E3%83%AC%E3%83%AB%20%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88/",
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E3%83%80%E3%83%BC%E3%83%84%20%E3%83%90%E3%83%AC%E3%83%AB%20%E3%83%95%E3%83%A9%E3%82%A4%E3%83%88/"
+  },
+  {
+    "id": "place-chijm8g1eynfgmargwch6s60ugi",
+    "name": "たていし歯科クリニック",
+    "genre_key": "dental-clinic",
+    "area_key": "yaizu",
+    "area": "焼津市",
+    "address": "〒425-0073 静岡県焼津市小柳津３０７−１０",
+    "hours": "診療時間確認",
+    "nearest_station": "焼津駅・藤枝駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "https://www.tateishi-dental.jp/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJM8g1eYNFGmARgwCH6s60UgI/photos/AWCwydixReiHSLvI8p8IsE1Fz7aAxQnYeTFlmzvQd0vMD9uI5FDhDw3PbVuYzosXuDEhkd9ZAhuxsG8umCWhJv0LbfAQgKe8PkkO2D9uue4MG-gu5AMO1oVzbsz06pu1girFqvmt5XanBuEqXOK6ZJJgQJ1r9tuYvsShNN1gmtPe8fKT4Nn3cpzVhTAqeMmlceemNKPIVvvP8KommFKmhfLaKPwZYbD0uLFRfYDZ4vLYunUduUyjWnUAd_6XvVazcKH0teni2-BTWYx6q5vjufmQ9iwP5IwxN0uu8Gsrm_oRaBibq6DaFjHozn_Rfp_AMgupkB1MxjWm38JYskLMGPieJwCgTMgT3ct6xmGg1UBH_Of2aBup7fFL9zR7Yu46eUFeqeKhtvCjbO6fIRbuCk3fwZxo-FfdoNXofWUEQ8OB-otVVAfm",
+    "source": {
+      "google_place_id": "ChIJM8g1eYNFGmARgwCH6s60UgI",
+      "google_query": "たていし歯科クリニック 〒425-0073 静岡県焼津市小柳津３０７−１０"
+    },
+    "prefecture_key": "shizuoka",
+    "prefecture": "静岡県",
+    "city": "焼津市",
+    "ward": "",
+    "area_path": "yaizu",
+    "area_label": "焼津市",
+    "genre": "歯医者",
+    "url": "/area/shizuoka/yaizu/dental-clinic/",
+    "place_query": "たていし歯科クリニック 〒425-0073 静岡県焼津市小柳津３０７−１０",
+    "booking_url": "https://www.tateishi-dental.jp/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
   {
     "id": "place-chijuyeanfzhgmardap1lprjmco",
@@ -276053,6 +277191,44 @@
     "url": "/area/tokushima/tokushima/dental-clinic/",
     "place_query": "医療法人 ひかり歯科クリニック 〒770-8025 徳島県徳島市三軒屋町外２４−１９",
     "booking_url": "http://hikari-dentalclinic.jp/",
+    "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
+    "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
+  },
+  {
+    "id": "place-chijq6r61vbtuzur4rytiwmcdae",
+    "name": "医療法人 藍想会 三谷ファミリー歯科クリニック",
+    "genre_key": "dental-clinic",
+    "area_key": "tokushima",
+    "area": "徳島市",
+    "address": "〒770-0944 徳島県徳島市南昭和町１丁目２３ 4階 訪問歯科 歯周病 小児矯正 小児歯科",
+    "hours": "診療時間確認",
+    "nearest_station": "徳島駅",
+    "station_walk_minutes": 8,
+    "budget_min": 1000,
+    "budget_label": "目安1,000円から",
+    "parking": true,
+    "late": false,
+    "coupon": true,
+    "official_url": "http://mf-dental-c.com/",
+    "smoking_area": "",
+    "power_seat": "",
+    "wifi": "",
+    "eat_in": "",
+    "photo_reference": "places/ChIJq6r61VBtUzUR4RytiWmcDaE/photos/AWCwydhPxHMJK_ixZj9aGGtU1rGZHG9JeEmbe7cC1L1PNqWU-9ag2Yh2-2Adb8QBDmQCduZy4bCbcz8kmLA4Y0215-XY7XBuBsn3WsEPxg534ekhJu9k9xWVgUA-o7qzwKnmB_AcjDoh5qBT0hWS85Tdyba8dbUYY-ixxYWk_2-yhqV9gCUW-bXzXaslcFXWfI7QP0RrvI2jvR94A3V3cozcpWmN18J3YmvG22xrh9EG18mOUiN3sW2N6R_ZpNt1uxTxUsO5XZsHt17Msvblrqja58gCpBmJfB5rjEu0WtkHShXQNhWBpWUCFWhG_GS5g2gs-qVQ5rD-uQm5QWdDD_XkFhaL9Y05gtDf0BpCUeYod0H2ZWDUItOazRq0yEFQr61J0ig8a1XgqBP_tm6NXuK9rflSuZrH0FaB_7PWBSgQ09uFcg",
+    "source": {
+      "google_place_id": "ChIJq6r61VBtUzUR4RytiWmcDaE",
+      "google_query": "医療法人 藍想会 三谷ファミリー歯科クリニック 〒770-0944 徳島県徳島市南昭和町１丁目２３ 4階 訪問歯科 歯周病 小児矯正 小児歯科"
+    },
+    "prefecture_key": "tokushima",
+    "prefecture": "徳島県",
+    "city": "徳島市",
+    "ward": "",
+    "area_path": "tokushima",
+    "area_label": "徳島市",
+    "genre": "歯医者",
+    "url": "/area/tokushima/tokushima/dental-clinic/",
+    "place_query": "医療法人 藍想会 三谷ファミリー歯科クリニック 〒770-0944 徳島県徳島市南昭和町１丁目２３ 4階 訪問歯科 歯周病 小児矯正 小児歯科",
+    "booking_url": "http://mf-dental-c.com/",
     "coupon_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E5%8C%BB%E8%80%85%20%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3/",
     "shopping_url": "https://search.rakuten.co.jp/search/mall/%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7%20%E6%AD%AF%E9%96%93%E3%83%96%E3%83%A9%E3%82%B7%20%E3%83%87%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%95%E3%83%AD%E3%82%B9/"
   },
