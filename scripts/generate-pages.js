@@ -254,6 +254,12 @@ function toRelative(url, depth) {
   return `${home(depth)}${url.replace(/^\//, "")}`;
 }
 
+// shop.url points at the genre list page the shop is rendered on, so linking a card to it
+// is a self-link. Send visitors to the shop's own page instead, falling back to Google Maps.
+function shopDestination(shop) {
+  return shop.official_url || mapUrl(shop);
+}
+
 function mapUrl(shop) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${shop.name} ${shop.address}`)}`;
 }
@@ -629,13 +635,13 @@ function shopCards(items, depth) {
               <article class="shop-card">
                 ${photo ? `<img class="shop-photo" src="${photo}" alt="${escapeHtml(shop.name)}" loading="lazy">` : ""}
                 <div>
-                  <h3><a href="${toRelative(shop.url, depth)}">${escapeHtml(shop.name)}</a></h3>
+                  <h3><a href="${shopDestination(shop)}" rel="nofollow">${escapeHtml(shop.name)}</a></h3>
                   <p>${escapeHtml(shop.address)} / ${escapeHtml(shop.nearest_station)}から徒歩約${escapeHtml(shop.station_walk_minutes)}分</p>
                   ${reviewSummary(shop)}
                   <div class="badges">${featureBadges(shop)}</div>
                 </div>
                 <div class="shop-actions">
-                  <a class="button" href="${toRelative(shop.url, depth)}">詳細</a>
+                  <a class="button" href="${shopDestination(shop)}" rel="nofollow">公式情報</a>
                   <a class="button button-light" href="${shop.booking_url || mapUrl(shop)}">${primaryActionLabel(shop)}</a>
                   <a class="button button-light" href="${shop.shopping_url || shop.coupon_url || couponUrl({ label: shop.genre })}">${secondaryActionLabel(shop)}</a>
                   <a class="button button-light" href="${mapUrl(shop)}">地図</a>
@@ -646,7 +652,7 @@ function shopCards(items, depth) {
 }
 
 function itemList(name, canonical, items) {
-  const elements = items.map((shop, index) => `{"@type":"ListItem","position":${index + 1},"url":"${siteUrl}${shop.url}"}`).join(",");
+  const elements = items.map((shop, index) => `{"@type":"ListItem","position":${index + 1},"name":${jsonLdString(shop.name)}}`).join(",");
   return `<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"${escapeHtml(name)}","url":"${canonical}","itemListElement":[${elements}]}</script>`;
 }
 
@@ -660,7 +666,7 @@ function localBusinessSchema(items) {
     const parts = [
       `"@type":"LocalBusiness"`,
       `"name":${jsonLdString(shop.name)}`,
-      `"url":${jsonLdString(`${siteUrl}${shop.url}`)}`,
+      shop.official_url ? `"url":${jsonLdString(shop.official_url)}` : "",
       shop.address ? `"address":{"@type":"PostalAddress","addressCountry":"JP","streetAddress":${jsonLdString(shop.address)}}` : "",
       shop.nearest_station ? `"description":${jsonLdString(`${shop.nearest_station}から徒歩約${shop.station_walk_minutes}分`)}` : ""
     ].filter(Boolean);
