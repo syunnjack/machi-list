@@ -36,15 +36,6 @@
     "target_count": 3
   },
   {
-    "query": "富士宮市 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "fujinomiya",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
     "query": "焼津市 ゲームセンター",
     "genre_key": "game-center",
     "area_key": "yaizu",
@@ -153,15 +144,6 @@
     "target_count": 5
   },
   {
-    "query": "尼崎市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "amagasaki",
-    "prefecture": "兵庫県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "姫路市 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "himeji",
@@ -175,15 +157,6 @@
     "genre_key": "dental-clinic",
     "area_key": "morioka",
     "prefecture": "岩手県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "高松市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "takamatsu",
-    "prefecture": "香川県",
     "source": "coverage-gap",
     "current_count": 2,
     "target_count": 5
@@ -441,15 +414,6 @@
     "target_count": 3
   },
   {
-    "query": "名古屋市天白区 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "nagoya-tempaku",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
     "query": "京都市下京区 ゲームセンター",
     "genre_key": "game-center",
     "area_key": "kyoto-shimogyo",
@@ -480,15 +444,6 @@
     "query": "八王子市 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "tokyo-hachioji",
-    "prefecture": "東京都",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "町田市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "tokyo-machida",
     "prefecture": "東京都",
     "source": "coverage-gap",
     "current_count": 2,
@@ -531,9 +486,54 @@
     "target_count": 5
   },
   {
-    "query": "名古屋市東区 歯医者",
+    "query": "名古屋市北区 歯医者",
     "genre_key": "dental-clinic",
-    "area_key": "nagoya-higashi",
+    "area_key": "nagoya-kita",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "名古屋市名東区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-meito",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "名古屋市南区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-minami",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "名古屋市港区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-minato",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "名古屋市瑞穂区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-mizuho",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "名古屋市守山区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-moriyama",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 2,
