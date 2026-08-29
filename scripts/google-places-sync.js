@@ -79,7 +79,7 @@ function normalizeCandidate(seed, place) {
     },
     name,
     genre_key: seed.genre_key,
-    genre: seed.genre_key === "adult-shop" ? "アダルトショップ" : seed.genre_key,
+    genre: seed.genre_key,
     prefecture: seed.prefecture,
     area_key: seed.area_key,
     address: place.formattedAddress || null,
@@ -98,9 +98,7 @@ function normalizeCandidate(seed, place) {
       needs_address_check: !place.formattedAddress,
       needs_site_check: !place.websiteUri
     },
-    commerce: seed.genre_key === "adult-shop"
-      ? { provider: "rakuten", keyword: "ラブグッズ" }
-      : null
+    commerce: null
   };
 }
 

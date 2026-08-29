@@ -6,8 +6,11 @@ function escapeHtml(value) {
     .replaceAll(">", "&gt;");
 }
 
-function siteAnalyticsHead() {
-  const parts = ['    <meta name="robots" content="index, follow">'];
+function siteAnalyticsHead({ includeRobots = false } = {}) {
+  const parts = [];
+  if (includeRobots) {
+    parts.push('    <meta name="robots" content="index, follow">');
+  }
 
   const verification = process.env.GOOGLE_SITE_VERIFICATION?.trim();
   if (verification) {

@@ -42,7 +42,6 @@ const priorityGenreKeys = [
   "hobby-shop",
   "recycle-shop",
   "movie-theater",
-  "adult-shop",
   "restaurant"
 ];
 
@@ -77,7 +76,6 @@ const targetByGenre = {
   "hobby-shop": 2,
   "recycle-shop": 2,
   "movie-theater": 1,
-  "adult-shop": 1,
   restaurant: 3
 };
 

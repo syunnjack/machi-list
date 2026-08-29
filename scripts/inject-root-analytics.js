@@ -16,7 +16,7 @@ if (!html.includes(marker)) {
   throw new Error("index.html is missing </head>");
 }
 
-html = html.replace(marker, `\n${siteAnalyticsHead()}\n  ${marker}`);
+html = html.replace(marker, `\n${siteAnalyticsHead({ includeRobots: true })}\n  ${marker}`);
 fs.writeFileSync(indexPath, html);
 
 console.log("Injected site analytics into index.html");

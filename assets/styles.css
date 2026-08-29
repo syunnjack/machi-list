@@ -1420,3 +1420,31 @@ button:hover,
   color: var(--muted);
   margin-bottom: 4px;
 }
+
+.ad-label {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--surface-soft);
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.site-footer {
+  flex-wrap: wrap;
+}
+
+.ad-disclosure {
+  flex-basis: 100%;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.site-footer .ad-disclosure {
+  margin-top: 8px;
+}

@@ -127,7 +127,6 @@ function defaultHours(genreKey) {
   return {
     netcafe: "24時間営業",
     karaoke: "夜まで営業",
-    "adult-shop": "営業時間確認",
     "game-center": "営業時間確認",
     sauna: "営業時間確認",
     spa: "営業時間確認",
@@ -224,7 +223,7 @@ function normalizeShop(shop) {
   if (!shop.booking_url && isEventGenre(shop.genre_key)) {
     shop.booking_url = eventUrl(area, genre);
   }
-  if (!shop.booking_url && shop.genre_key !== "adult-shop") {
+  if (!shop.booking_url) {
     shop.booking_url = vcUrl(`https://www.hotpepper.jp/?keyword=${encodeURIComponent(`${area.label} ${genre.label}`)}`);
   }
   if (!shop.coupon_url && shop.genre_key === "parking-lot") {
@@ -243,10 +242,10 @@ function normalizeShop(shop) {
     shop.coupon_url = openingResearchUrl(area);
   }
   if (!shop.coupon_url) {
-    shop.coupon_url = shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(isEventGenre(shop.genre_key) ? toolKeyword(shop.genre_key, genre.label) : `${genre.label} クーポン`);
+    shop.coupon_url = rakutenUrl(isEventGenre(shop.genre_key) ? toolKeyword(shop.genre_key, genre.label) : `${genre.label} クーポン`);
   }
   if (!shop.shopping_url) {
-    shop.shopping_url = shop.genre_key === "parking-lot" ? timesCardUrl() : (shop.genre_key === "parking-management" ? parkingOperatorSearchUrl(area) : (shop.genre_key === "adult-shop" ? rakutenUrl("アダルトグッズ 通販") : rakutenUrl(toolKeyword(shop.genre_key, genre.label))));
+    shop.shopping_url = shop.genre_key === "parking-lot" ? timesCardUrl() : (shop.genre_key === "parking-management" ? parkingOperatorSearchUrl(area) : rakutenUrl(toolKeyword(shop.genre_key, genre.label)));
   }
   return shop;
 }
@@ -378,7 +377,6 @@ const additions = [
   ["shizuoka-numazu-suruganoyu", "天然日帰り温泉 駿河の湯", "spa", "numazu", "静岡県沼津市岡宮1265-3", "沼津駅", 45, 900, "目安900円から", true, true, true, "岡宮周辺", "https://www.suruganoyu.co.jp/about"],
   ["shizuoka-hamamatsu-arai-benten", "浜名湖弁天島温泉 ファミリー向け日帰り施設", "spa", "hamamatsu-chuo", "静岡県浜松市中央区舞阪町弁天島周辺", "弁天島駅", 10, 900, "目安900円から", true, false, true, "弁天島周辺"],
   ["shizuoka-fuji-yuura", "湯らぎの里", "spa", "fuji", "静岡県富士市蓼原周辺", "富士駅", 25, 900, "目安900円から", true, true, true, "蓼原周辺"],
-  ["shizuoka-hamamatsu-tokyo-shoten-takaoka", "東京書店 浜松高丘店", "adult-shop", "hamamatsu-chuo", "静岡県浜松市中央区高丘西2-9-33", "浜松駅", 70, 1000, "目安1,000円から", true, true, true, "高丘西周辺", "https://www.adultshop-go.com/store/%E6%9D%B1%E4%BA%AC%E6%9B%B8%E5%BA%97%E6%B5%9C%E6%9D%BE%E9%AB%98%E4%B8%98%E5%BA%97/"],
   ["shizuoka-aoi-issen-shizuoka", "いっせん 静岡駅店", "restaurant", "shizuoka-aoi", "静岡県静岡市葵区両替町2-5-13 第2リッツビル1F", "静岡駅", 7, 3000, "目安3,000円から", false, true, true, "両替町周辺", "https://issen-shizuoka.foodre.jp/"],
   ["shizuoka-hamamatsu-gyoza-ensho", "餃子の遠州 有楽街店", "restaurant", "hamamatsu-chuo", "静岡県浜松市中央区鍛冶町319-11", "第一通り駅", 4, 2500, "目安2,500円から", false, true, true, "有楽街周辺", "https://www.hotpepper.jp/strJ001202107/"],
   ["shizuoka-hamamatsu-ippo", "魚の居酒屋 いっぽ 浜松", "restaurant", "hamamatsu-chuo", "静岡県浜松市中央区田町316-30 ブルーノアビル2F", "第一通り駅", 3, 4000, "目安4,000円から", false, true, true, "有楽街周辺", "https://ippo-izakaya-hamamatsu.owst.jp/"],

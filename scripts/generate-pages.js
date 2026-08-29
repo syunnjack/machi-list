@@ -315,6 +315,40 @@ function amazonUrl(keyword) {
   return `https://www.amazon.co.jp/s?k=${encodeURIComponent(keyword)}&tag=${AMAZON_ASSOCIATE_TAG}`;
 }
 
+const FEATURED_GENRE_KEYS = [
+  "convenience-store",
+  "cafe",
+  "restaurant",
+  "supermarket",
+  "drugstore",
+  "parking-lot",
+  "netcafe",
+  "karaoke",
+  "sauna"
+];
+
+function featuredGenreLabels(limit = 7) {
+  const picked = FEATURED_GENRE_KEYS
+    .map((key) => genres.find((genre) => genre.key === key))
+    .filter(Boolean)
+    .map((genre) => genre.label);
+  const labels = picked.length ? picked : genres.map((genre) => genre.label);
+  return labels.slice(0, limit).join("、");
+}
+
+const REVIEW_ENDPOINT = (process.env.FORMSPREE_ENDPOINT || "").trim();
+
+const AD_LABEL = '<span class="ad-label">広告</span>';
+
+function isAffiliateUrl(url) {
+  if (typeof url !== "string") return false;
+  return url.includes("ck.jp.ap.valuecommerce.com") || url.includes(`tag=${AMAZON_ASSOCIATE_TAG}`);
+}
+
+function adLabel(url) {
+  return isAffiliateUrl(url) ? AD_LABEL : "";
+}
+
 function couponUrl(genre) {
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(`${genre.label} クーポン`)}/`;
 }
@@ -323,7 +357,6 @@ function shoppingUrl(genre) {
   const keywords = {
     netcafe: "テレワーク 便利グッズ",
     "game-center": "ゲーム 景品 収納",
-    "adult-shop": "アダルトグッズ 通販",
     karaoke: "カラオケ マイク",
     sauna: "サウナ グッズ",
     spa: "入浴剤 温泉気分",
@@ -373,6 +406,10 @@ function eventUrl(area, genre) {
 }
 
 function subtleLinks(area, genre, depth) {
+  return subtleLinksBlock(area, genre, depth).replace("</h2>", `${AD_LABEL}</h2>`);
+}
+
+function subtleLinksBlock(area, genre, depth) {
   if (isEventGenre(genre.key)) {
     return `<section class="side-block subtle-links"><h2>行く前に確認</h2><a href="${eventUrl(area, genre)}">大会・イベント</a><a href="${shoppingUrl(genre)}">道具を探す</a><a href="${bookingUrl(area, genre)}">練習する店</a><a href="${amazonUrl(genre.label + " 用品")}">Amazonで探す</a><a href="${home(depth)}">条件を変えて探す</a></section>`;
   }
@@ -422,7 +459,6 @@ function subtleLinks(area, genre, depth) {
 }
 
 function primaryActionLabel(shop) {
-  if (shop.genre_key === "adult-shop") return "買い方";
   if (isEventGenre(shop.genre_key)) return "大会・イベント";
   if (shop.genre_key === "movie-theater") return "上映・チケット";
   if (shop.genre_key === "video-box") return "店舗を確認";
@@ -441,7 +477,6 @@ function primaryActionLabel(shop) {
 }
 
 function secondaryActionLabel(shop) {
-  if (shop.genre_key === "adult-shop") return "通販";
   if (isEventGenre(shop.genre_key)) return "道具";
   if (shop.genre_key === "netcafe" || shop.genre_key === "video-box") return "軽食・備品";
   if (shop.genre_key === "capsule-toy") return "収納・ケース";
@@ -574,7 +609,7 @@ function pageShell({ title, description, canonical, depth, body, structuredData 
     <main>
 ${body}
     </main>
-    <footer class="site-footer"><p>© 2026 まちリスト</p><p><a href="${home(depth)}llms.txt">llms.txt</a></p></footer>
+    <footer class="site-footer"><p>© 2026 まちリスト</p><p><a href="${home(depth)}about/">運営者情報</a> <a href="${home(depth)}privacy/">プライバシーポリシー</a> <a href="${home(depth)}llms.txt">llms.txt</a></p><p class="ad-disclosure">当サイトはAmazonアソシエイト、バリューコマースなどのアフィリエイトプログラムに参加しています。「広告」と表示したリンクを経由して購入や申し込みがあった場合、運営者が紹介料を受け取ることがあります。</p></footer>
   </body>
 </html>
 `;
@@ -611,10 +646,10 @@ function reviewSummary(shop) {
   return `<p class="review-summary"><span class="stars">${stars}</span> ${avg.toFixed(1)}（${list.length}件の口コミ）</p>`;
 }
 
-const GOOGLE_PLACES_PHOTO_KEY = "AIzaSyAZr_zX1zuPGEgmU2zm-wTsd1j9Cfo15z0";
+const GOOGLE_PLACES_PHOTO_KEY = (process.env.GOOGLE_PLACES_PHOTO_KEY || process.env.GOOGLE_PLACES_API_KEY || "").trim();
 
 function photoUrl(shop) {
-  if (!shop.photo_reference) return "";
+  if (!shop.photo_reference || !GOOGLE_PLACES_PHOTO_KEY) return "";
   return `https://places.googleapis.com/v1/${shop.photo_reference}/media?maxWidthPx=480&key=${GOOGLE_PLACES_PHOTO_KEY}`;
 }
 
@@ -625,28 +660,30 @@ function shopCards(items, depth) {
 
   return items.map((shop) => {
     const photo = photoUrl(shop);
+    const bookingHref = shop.booking_url || mapUrl(shop);
+    const supportHref = shop.shopping_url || shop.coupon_url || couponUrl({ label: shop.genre });
     return `
               <article class="shop-card">
                 ${photo ? `<img class="shop-photo" src="${photo}" alt="${escapeHtml(shop.name)}" loading="lazy">` : ""}
                 <div>
-                  <h3><a href="${toRelative(shop.url, depth)}">${escapeHtml(shop.name)}</a></h3>
+                  <h3>${escapeHtml(shop.name)}</h3>
                   <p>${escapeHtml(shop.address)} / ${escapeHtml(shop.nearest_station)}から徒歩約${escapeHtml(shop.station_walk_minutes)}分</p>
                   ${reviewSummary(shop)}
                   <div class="badges">${featureBadges(shop)}</div>
                 </div>
                 <div class="shop-actions">
-                  <a class="button" href="${toRelative(shop.url, depth)}">詳細</a>
-                  <a class="button button-light" href="${shop.booking_url || mapUrl(shop)}">${primaryActionLabel(shop)}</a>
-                  <a class="button button-light" href="${shop.shopping_url || shop.coupon_url || couponUrl({ label: shop.genre })}">${secondaryActionLabel(shop)}</a>
+                  ${shop.official_url ? `<a class="button" href="${escapeHtml(shop.official_url)}" rel="noopener">公式情報</a>` : ""}
+                  <a class="button button-light" href="${bookingHref}">${primaryActionLabel(shop)}${adLabel(bookingHref)}</a>
+                  <a class="button button-light" href="${supportHref}">${secondaryActionLabel(shop)}${adLabel(supportHref)}</a>
                   <a class="button button-light" href="${mapUrl(shop)}">地図</a>
-                  <a class="button button-light" href="${home(depth)}${reviewUrl(shop).replace(/^\//, "")}">口コミを投稿</a>
+                  ${REVIEW_ENDPOINT ? `<a class="button button-light" href="${home(depth)}${reviewUrl(shop).replace(/^\//, "")}">口コミを投稿</a>` : ""}
                 </div>
               </article>`;
   }).join("");
 }
 
 function itemList(name, canonical, items) {
-  const elements = items.map((shop, index) => `{"@type":"ListItem","position":${index + 1},"url":"${siteUrl}${shop.url}"}`).join(",");
+  const elements = items.map((shop, index) => `{"@type":"ListItem","position":${index + 1},"name":${jsonLdString(shop.name)}}`).join(",");
   return `<script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"${escapeHtml(name)}","url":"${canonical}","itemListElement":[${elements}]}</script>`;
 }
 
@@ -660,7 +697,7 @@ function localBusinessSchema(items) {
     const parts = [
       `"@type":"LocalBusiness"`,
       `"name":${jsonLdString(shop.name)}`,
-      `"url":${jsonLdString(`${siteUrl}${shop.url}`)}`,
+      shop.official_url ? `"url":${jsonLdString(shop.official_url)}` : "",
       shop.address ? `"address":{"@type":"PostalAddress","addressCountry":"JP","streetAddress":${jsonLdString(shop.address)}}` : "",
       shop.nearest_station ? `"description":${jsonLdString(`${shop.nearest_station}から徒歩約${shop.station_walk_minutes}分`)}` : ""
     ].filter(Boolean);
@@ -687,8 +724,8 @@ function areaLinks(prefectureKey, depth, current = "") {
   return areasFor(prefectureKey).map((area) => `<a href="${home(depth)}area/${prefectureKey}/${area.path}/"${area.key === current ? ` aria-current="page"` : ""}>${area.label}</a>`).join("");
 }
 
-function genreLinks(area, depth) {
-  return genres.map((genre) => `<a href="${home(depth)}area/${area.prefecture_key}/${area.path}/${genre.key}/">${area.label}の${genre.label}</a>`).join("");
+function genreLinks(area, depth, current = "") {
+  return genres.map((genre) => `<a href="${home(depth)}area/${area.prefecture_key}/${area.path}/${genre.key}/"${genre.key === current ? ` aria-current="page"` : ""}>${area.label}の${genre.label}</a>`).join("");
 }
 
 function genreLandingHref(genre, depth) {
@@ -825,7 +862,7 @@ function relatedGenrePanel(area, genre, depth) {
     "office-tenant": ["opening-area-research", "parking-lot", "parking-management", "vending-machine-installation"],
     "opening-area-research": ["office-tenant", "parking-lot", "parking-management", "vending-machine-installation"],
     netcafe: ["video-box", "cafe", "convenience-store", "karaoke"],
-    "video-box": ["netcafe", "convenience-store", "parking-lot", "adult-shop"],
+    "video-box": ["netcafe", "convenience-store", "parking-lot", "cafe"],
     "crane-game": ["game-center", "capsule-toy", "hobby-shop", "trading-card-shop"],
     "capsule-toy": ["crane-game", "game-center", "hobby-shop", "recycle-shop"],
     darts: ["billiards", "bowling", "karaoke", "netcafe"],
@@ -847,7 +884,7 @@ const openingMetricDefinitions = [
   {
     label: "競合密度",
     note: "近い業態の厚みを確認",
-    genreKeys: ["restaurant", "cafe", "game-center", "crane-game", "capsule-toy", "netcafe", "adult-shop", "karaoke", "dental-clinic"]
+    genreKeys: ["restaurant", "cafe", "game-center", "crane-game", "capsule-toy", "netcafe", "karaoke", "dental-clinic"]
   },
   {
     label: "駐車場の厚み",
@@ -857,7 +894,7 @@ const openingMetricDefinitions = [
   {
     label: "夜需要",
     note: "終電後や夜の滞在先を確認",
-    genreKeys: ["netcafe", "video-box", "karaoke", "restaurant", "convenience-store", "adult-shop", "sauna", "spa"]
+    genreKeys: ["netcafe", "video-box", "karaoke", "restaurant", "convenience-store", "sauna", "spa"]
   },
   {
     label: "滞在需要",
@@ -913,16 +950,16 @@ function prefectureIndex(prefecture) {
   const body = `      <header class="page-header">
         <p class="eyebrow">${prefecture.label}</p>
         <h1>${prefecture.label}のお店・商業施設一覧</h1>
-        <p>${prefecture.label}の主要市区町村から、ネットカフェ、ゲームセンター、アダルトショップ、カラオケ、サウナ、スーパー銭湯・SPA・岩盤浴、飲食店を探せます。</p>
+        <p>${prefecture.label}の主要市区町村から、${featuredGenreLabels()}など${genres.length}ジャンルの店舗を探せます。</p>
         <nav class="breadcrumb"><a href="${home(depth)}">全国</a><span>/</span><span>${prefecture.label}</span></nav>
       </header>
       <section class="answer-box"><h2>市区町村から探す</h2><div class="category-grid">${prefAreas.map((area) => `<a class="category-card" href="./${area.path}/"><span class="category-icon">${area.label.slice(0, 1)}</span><strong>${area.label}</strong><small>${area.station}周辺の店舗を確認</small></a>`).join("")}</div></section>
       ${prefectureAreaHighlights(prefecture, depth)}
-      <section class="two-column"><div><section class="section"><h2>${prefecture.label}の掲載店舗</h2><div class="shop-list">${shopCards(prefShops, depth)}</div></section></div><aside class="side-column"><section class="side-block"><h2>ジャンル</h2>${genres.map((genre) => `<a href="${home(depth)}category/#${genre.key}">${genre.label}</a>`).join("")}</section><section class="side-block"><h2>確認できること</h2><a href="${home(depth)}">近い順で探す</a><a href="${home(depth)}">予算の安い順で探す</a><a href="${home(depth)}guide/discreet-buying/">人目を気にせず買う方法</a></section></aside></section>`;
+      <section class="two-column"><div><section class="section"><h2>${prefecture.label}の掲載店舗</h2><div class="shop-list">${shopCards(prefShops, depth)}</div></section></div><aside class="side-column"><section class="side-block"><h2>ジャンル</h2>${genres.map((genre) => `<a href="${home(depth)}category/#${genre.key}">${genre.label}</a>`).join("")}</section><section class="side-block"><h2>確認できること</h2><a href="${home(depth)}">近い順で探す</a><a href="${home(depth)}">予算の安い順で探す</a></section></aside></section>`;
 
   write(path.join(root, "area", prefecture.key, "index.html"), pageShell({
     title: `${prefecture.label}のお店・商業施設一覧｜まちリスト`,
-    description: `${prefecture.label}のネットカフェ、ゲームセンター、アダルトショップ、カラオケ、サウナ、スーパー銭湯・SPA・岩盤浴、飲食店を市区町村から探せます。`,
+    description: `${prefecture.label}の${featuredGenreLabels()}など${genres.length}ジャンルの店舗を市区町村から探せます。`,
     canonical,
     depth,
     structuredData: itemList(`${prefecture.label}のお店・商業施設一覧`, canonical, prefShops),
@@ -947,7 +984,7 @@ function areaIndex(area) {
 
   write(path.join(root, "area", area.prefecture_key, ...area.path.split("/"), "index.html"), pageShell({
     title: `${area.label}のお店・商業施設一覧｜まちリスト`,
-    description: `${area.label}のネットカフェ、ゲームセンター、アダルトショップ、カラオケ、サウナ、スーパー銭湯・SPA・岩盤浴、飲食店を一覧で探せます。`,
+    description: `${area.label}の${featuredGenreLabels()}など${genres.length}ジャンルの店舗を一覧で探せます。`,
     canonical,
     depth,
     structuredData: itemList(`${area.label}のお店・商業施設一覧`, canonical, items),
@@ -970,7 +1007,7 @@ function genrePage(area, genre) {
       </header>
       <section class="answer-box"><h2>このページで確認できること</h2><ul><li>${genre.description}</li><li>店舗名、住所、駅からの目安、予算、特徴を一覧で比較できます。</li><li>行く前に予約、クーポン、駐車場、周辺の飲食店を確認できます。</li></ul></section>
       <section class="monetization-strip"><div><p class="eyebrow">あわせて確認</p><h2>${supportHeading(genre)}</h2><p>${supportText(area, genre)}</p></div><div class="route-actions"><a class="button button-light" href="${supportPrimaryUrl(area, genre)}">${supportPrimaryLabel(genre)}</a><a class="button button-light" href="${supportSecondaryUrl(genre, area)}">${supportSecondaryLabel(genre)}</a></div></section>
-      <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(shop.nearest_station)} 徒歩約${escapeHtml(shop.station_walk_minutes)}分</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : "", shop.smoking_area ? `喫煙: ${shop.smoking_area}` : "", shop.power_seat ? `電源: ${shop.power_seat}` : "", shop.wifi ? `Wi-Fi: ${shop.wifi}` : "", shop.eat_in ? `イートイン: ${shop.eat_in}` : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section>${relatedGenrePanel(area, genre, depth)}</div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section>${subtleLinks(area, genre, depth)}</aside></section>
+      <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(shop.nearest_station)} 徒歩約${escapeHtml(shop.station_walk_minutes)}分</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : "", shop.smoking_area ? `喫煙: ${shop.smoking_area}` : "", shop.power_seat ? `電源: ${shop.power_seat}` : "", shop.wifi ? `Wi-Fi: ${shop.wifi}` : "", shop.eat_in ? `イートイン: ${shop.eat_in}` : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section>${relatedGenrePanel(area, genre, depth)}</div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth, genre.key)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section>${subtleLinks(area, genre, depth)}</aside></section>
 ${openingResearchExtra}      <section class="section"><h2>よくある確認</h2><div class="faq-list"><article class="faq-item"><h3>${area.label}で${genre.label}を探す時の見方は？</h3><p>駅からの距離、駐車場、営業時間、予算目安を先に見ると選びやすくなります。</p></article><article class="faq-item"><h3>行く前に確認した方がよいことは？</h3><p>営業時間、料金、取扱内容、クーポン、駐車場は変わる場合があります。来店前に公式情報や地図情報も確認してください。</p></article></div></section>`;
 
   const faqs = [
@@ -1002,15 +1039,99 @@ function categoryIndex() {
 
   write(path.join(root, "category", "index.html"), pageShell({
     title: "ジャンルから探す｜まちリスト",
-    description: "ネットカフェ、ゲームセンター、アダルトショップ、カラオケ、サウナ、スーパー銭湯・SPA・岩盤浴、飲食店をジャンルから探せます。",
+    description: `${featuredGenreLabels()}など${genres.length}ジャンルから、市区町村別の店舗一覧を探せます。`,
     canonical,
     depth,
     body
   }));
 }
 
+const CONTACT_EMAIL = (process.env.SITE_CONTACT_EMAIL || "info@machi-list.jp").trim();
+
+function staticPage({ slug, title, heading, lead, sections }) {
+  const depth = 1;
+  const canonical = `${siteUrl}/${slug}/`;
+  const body = `      <header class="page-header">
+        <p class="eyebrow">まちリスト</p>
+        <h1>${heading}</h1>
+        <p>${lead}</p>
+        <nav class="breadcrumb"><a href="${home(depth)}">全国</a><span>/</span><span>${heading}</span></nav>
+      </header>
+${sections.map((section) => `      <section class="section"><h2>${section.heading}</h2>${section.body}</section>`).join("")}`;
+
+  write(path.join(root, slug, "index.html"), pageShell({
+    title: `${title}｜まちリスト`,
+    description: lead,
+    canonical,
+    depth,
+    body
+  }));
+}
+
+function aboutPage() {
+  staticPage({
+    slug: "about",
+    title: "運営者情報",
+    heading: "運営者情報",
+    lead: "まちリストの運営者、掲載データの出どころ、掲載内容の訂正・削除の受付先をまとめています。",
+    sections: [
+      {
+        heading: "サイト概要",
+        body: `<table class="info-table"><tr><th>サイト名</th><td>まちリスト</td></tr><tr><th>URL</th><td>${siteUrl}/</td></tr><tr><th>運営</th><td>個人で運営しています</td></tr><tr><th>連絡先</th><td><a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></td></tr><tr><th>掲載範囲</th><td>${prefectures.length}都道府県 / ${areas.length}市区町村 / ${genres.length}ジャンル</td></tr></table>`
+      },
+      {
+        heading: "掲載データについて",
+        body: `<p>店舗の名称、住所、営業時間などは Google Places API から取得した公開情報をもとに掲載しています。取得後に閉店や移転が起きている場合があるため、来店前に公式情報や地図サービスでの確認をお願いします。</p><p>営業時間、料金、設備の有無について「要確認」と表示している項目は、当サイトで裏付けが取れていないことを示しています。断定を避けるため、確認できた項目だけを表示しています。</p>`
+      },
+      {
+        heading: "掲載の訂正・削除のご依頼",
+        body: `<p>掲載内容の誤り、閉店済みの店舗、掲載自体を希望されない場合は、店舗名と該当ページのURLを添えて <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a> までご連絡ください。内容を確認のうえ、訂正または削除します。</p>`
+      },
+      {
+        heading: "広告について",
+        body: `<p>当サイトはAmazonアソシエイト、バリューコマースなどのアフィリエイトプログラムに参加しています。紹介料が発生するリンクには「広告」と表示しています。掲載順や掲載可否を紹介料の有無で決めることはありません。</p>`
+      }
+    ]
+  });
+}
+
+function privacyPage() {
+  staticPage({
+    slug: "privacy",
+    title: "プライバシーポリシー",
+    heading: "プライバシーポリシー",
+    lead: "まちリストにおけるアクセス解析、Cookie、広告、個人情報の取り扱いについて説明します。",
+    sections: [
+      {
+        heading: "アクセス解析",
+        body: `<p>当サイトは、利用状況を把握するためにGoogleアナリティクスを使用しています。Googleアナリティクスはトラフィックデータの収集のためにCookieを使用しますが、このデータは匿名で収集されており、個人を特定するものではありません。ブラウザの設定でCookieを無効にすると、収集を拒否できます。</p><p>Googleアナリティクスの利用規約とプライバシーポリシーについては、<a href="https://marketingplatform.google.com/about/analytics/terms/jp/" rel="noopener">Googleアナリティクス利用規約</a>および<a href="https://policies.google.com/privacy?hl=ja" rel="noopener">Googleのプライバシーポリシー</a>をご確認ください。</p>`
+      },
+      {
+        heading: "広告とアフィリエイトプログラム",
+        body: `<p>当サイトはAmazonアソシエイト、バリューコマースなどのアフィリエイトプログラムに参加しています。「広告」と表示したリンクを経由して商品の購入やサービスの申し込みがあった場合、運営者が紹介料を受け取ることがあります。</p><p>これらのプログラムの提供事業者は、利用者の興味に応じた広告を表示するためにCookieを使用することがあります。Cookieの利用は各事業者のプライバシーポリシーに従います。</p>`
+      },
+      {
+        heading: "個人情報の取り扱い",
+        body: `<p>当サイトは、閲覧のみであれば氏名や住所などの個人情報の入力を求めません。お問い合わせをいただいた場合、その内容への回答および掲載内容の訂正のためだけにメールアドレスと本文を利用し、ご本人の同意なく第三者へ提供することはありません。</p>`
+      },
+      {
+        heading: "掲載情報の免責",
+        body: `<p>当サイトは掲載情報の正確性に注意を払っていますが、内容を保証するものではありません。営業時間、料金、設備、取扱内容は変わることがあります。当サイトの情報を利用したことで生じた損害について、運営者は責任を負いかねます。</p>`
+      },
+      {
+        heading: "リンクについて",
+        body: `<p>当サイトからリンクした外部サイトの内容および個人情報の取り扱いについては、当サイトは責任を負いません。リンク先各サイトのポリシーをご確認ください。</p>`
+      },
+      {
+        heading: "お問い合わせと改定",
+        body: `<p>本ポリシーに関するお問い合わせは <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a> までお願いします。本ポリシーは、必要に応じて予告なく改定することがあります。</p>`
+      }
+    ]
+  });
+}
+
 function updateSitemap() {
-  const urls = ["/", "/category/", "/shop/aichi-okazaki-akiba-shoten-okazaki-kita/", "/guide/discreet-buying/"];
+  const urls = ["/", "/category/", "/about/", "/privacy/"];
   for (const pref of prefectures) {
     urls.push(`/area/${pref.key}/`);
   }
@@ -1027,6 +1148,8 @@ function updateSitemap() {
 }
 
 categoryIndex();
+aboutPage();
+privacyPage();
 for (const pref of prefectures) {
   prefectureIndex(pref);
 }

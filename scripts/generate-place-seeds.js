@@ -78,7 +78,6 @@ function queriesFor(gap) {
     "hobby-shop": [`${area} ホビーショップ`, `${area} プラモデル フィギュア`, `${area} ガンプラ 模型店`],
     "recycle-shop": [`${area} リサイクルショップ`, `${area} 買取 古着 家電`, `${area} セカンドストリート ハードオフ ブックオフ`],
     "movie-theater": [`${area} 映画館`, `${area} シネマ`],
-    "adult-shop": [`${area} アダルトショップ`, `${area} 大人のおもちゃ 店舗`],
     restaurant: [`${area} 居酒屋 予約`, `${area} 飲食店 クーポン`]
   };
 

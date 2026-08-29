@@ -50,7 +50,6 @@ const targetByGenre = {
   "hobby-shop": 2,
   "recycle-shop": 2,
   "movie-theater": 1,
-  "adult-shop": 1,
   restaurant: 3
 };
 
@@ -65,7 +64,7 @@ const intentGroups = [
     key: "late-night",
     label: "終電後・深夜",
     reason: "夜の退避先や仮眠先として、現在地から探す需要を取りやすい組み合わせです。",
-    genre_keys: ["netcafe", "video-box", "karaoke", "sauna", "spa", "adult-shop"]
+    genre_keys: ["netcafe", "video-box", "karaoke", "sauna", "spa"]
   },
   {
     key: "hobby-event",
@@ -214,7 +213,6 @@ function queriesFor(gap) {
     karaoke: [`${area} カラオケ`, `${area} まねきねこ ビッグエコー`, `${area} 深夜 カラオケ`],
     sauna: [`${area} サウナ`, `${area} カプセルホテル サウナ`, `${area} 深夜 サウナ`],
     spa: [`${area} スーパー銭湯`, `${area} SPA 岩盤浴`, `${area} 日帰り温泉`],
-    "adult-shop": [`${area} アダルトショップ`, `${area} 大人のおもちゃ 店舗`, `${area} DVD 個室 グッズ`],
     "crane-game": [`${area} UFOキャッチャー`, `${area} クレーンゲーム`, `${area} ゲームセンター 景品`],
     "capsule-toy": [`${area} カプセルトイ`, `${area} ガシャポン`, `${area} ガチャガチャ 専門店`],
     "game-center": [`${area} ゲームセンター`, `${area} GiGO namco タイトー`, `${area} アミューズメント`],
@@ -257,7 +255,7 @@ function subtleLinksFor(gap) {
     "convenience-store": "携帯灰皿 モバイルバッテリー",
     "capsule-toy": "カプセルトイ 収納 ケース",
     "crane-game": "クレーンゲーム 景品 収納",
-    "adult-shop": "アダルトグッズ 通販"
+    "movie-theater": "映画 前売り券"
   };
 
   return [

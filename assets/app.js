@@ -163,7 +163,6 @@ function routeLink(facility, origin = currentOrigin) {
 }
 
 function normalizeShop(shop, index) {
-  const isAdult = shop.genre_key === "adult-shop";
   const isEvent = isEventGenre(shop.genre_key);
   const isParking = shop.genre_key === "parking-lot";
   const isBicycleParking = shop.genre_key === "bicycle-parking";
@@ -197,8 +196,8 @@ function normalizeShop(shop, index) {
     powerSeat: shop.power_seat || "",
     wifi: shop.wifi || "",
     eatIn: shop.eat_in || "",
-    bookingUrl: shop.booking_url || (isAdult ? "./guide/discreet-buying/" : (isEvent ? eventSearchLink(shop.area_label, shop.genre) : (isParking ? timesParkingLink(shop.area_label) : (isBicycleParking ? searchLink(`${shop.area_label} 駐輪場 料金 定期利用 自治体`) : (isParkingManagement ? searchLinkForArea(shop.area_label, "駐車場管理会社 土地活用") : (isVending ? searchLinkForArea(shop.area_label, "自動販売機 キャッシュレス 災害対応") : (isVendingInstallation ? searchLinkForArea(shop.area_label, "自販機設置 相談") : (isOfficeTenant ? searchLinkForArea(shop.area_label, "貸事務所 貸店舗 テナント") : (isOpeningResearch ? searchLinkForArea(shop.area_label, "開業 競合店 周辺調査") : vcLink(`https://www.hotpepper.jp/SA33/?keyword=${encodeURIComponent(hotpepperKeyword)}`)))))))))),
-    relatedUrl: shop.shopping_url || shop.coupon_url || (isParking ? timesMemberLink() : rakutenSearchLink(isAdult ? "アダルトグッズ 通販" : toolKeyword(shop.genre_key, shop.genre))),
+    bookingUrl: shop.booking_url || ((isEvent ? eventSearchLink(shop.area_label, shop.genre) : (isParking ? timesParkingLink(shop.area_label) : (isBicycleParking ? searchLink(`${shop.area_label} 駐輪場 料金 定期利用 自治体`) : (isParkingManagement ? searchLinkForArea(shop.area_label, "駐車場管理会社 土地活用") : (isVending ? searchLinkForArea(shop.area_label, "自動販売機 キャッシュレス 災害対応") : (isVendingInstallation ? searchLinkForArea(shop.area_label, "自販機設置 相談") : (isOfficeTenant ? searchLinkForArea(shop.area_label, "貸事務所 貸店舗 テナント") : (isOpeningResearch ? searchLinkForArea(shop.area_label, "開業 競合店 周辺調査") : vcLink(`https://www.hotpepper.jp/SA33/?keyword=${encodeURIComponent(hotpepperKeyword)}`)))))))))),
+    relatedUrl: shop.shopping_url || shop.coupon_url || (isParking ? timesMemberLink() : rakutenSearchLink(toolKeyword(shop.genre_key, shop.genre))),
     mapUrl: mapSearchLink(`${shop.name} ${shop.address}`),
     lat: shop.lat || null,
     lng: shop.lng || null
@@ -327,7 +326,6 @@ function sortFacilities(results) {
 }
 
 function actionLabel(facility) {
-  if (facility.genreKey === "adult-shop") return text.guide;
   if (isEventGenre(facility.genreKey)) return text.event;
   if (facility.genreKey === "movie-theater") return text.ticket;
   if (facility.genreKey === "video-box") return "店舗を確認";
@@ -346,7 +344,6 @@ function actionLabel(facility) {
 }
 
 function relatedLabel(facility) {
-  if (facility.genreKey === "adult-shop") return text.online;
   if (isEventGenre(facility.genreKey)) return text.tools;
   if (facility.genreKey === "netcafe" || facility.genreKey === "video-box") return text.supplies;
   if (facility.genreKey === "capsule-toy") return "収納・ケース";
@@ -479,7 +476,7 @@ function congestionWeight(facility, mode = heatMode) {
   }
   const dayDemand = ["office-tenant", "cafe", "restaurant", "convenience-store", "parking-lot", "post-office", "dental-clinic", "drugstore", "gas-station"];
   const eveningDemand = ["restaurant", "cafe", "game-center", "crane-game", "capsule-toy", "karaoke", "parking-lot", "convenience-store", "movie-theater", "bowling", "darts", "billiards"];
-  const nightDemand = ["netcafe", "video-box", "karaoke", "restaurant", "convenience-store", "adult-shop", "parking-lot", "sauna", "spa"];
+  const nightDemand = ["netcafe", "video-box", "karaoke", "restaurant", "convenience-store", "parking-lot", "sauna", "spa"];
   if (mode === "day" && dayDemand.includes(facility.genreKey)) weight += 0.9;
   if (mode === "evening" && eveningDemand.includes(facility.genreKey)) weight += 1.2;
   if (mode === "night" && nightDemand.includes(facility.genreKey)) weight += 1.5;
