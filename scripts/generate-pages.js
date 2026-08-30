@@ -648,6 +648,19 @@ function reviewSummary(shop) {
 
 const GOOGLE_PLACES_PHOTO_KEY = (process.env.GOOGLE_PLACES_PHOTO_KEY || process.env.GOOGLE_PLACES_API_KEY || "").trim();
 
+// 住所に都道府県名が入っているものだけを「実在する店舗」とみなす。
+// 全国の広告主（貸事務所検索・自販機設置相談など）は住所が「◯◯市周辺」で、
+// これだけが載ったページは独自の情報を持たない。
+const PREFECTURE_IN_ADDRESS = /(北海道|京都府|大阪府|東京都|..県)/;
+
+function isRealListing(shop) {
+  return PREFECTURE_IN_ADDRESS.test(shop.address || "");
+}
+
+function hasRealListing(items) {
+  return items.some(isRealListing);
+}
+
 function photoUrl(shop) {
   if (!shop.photo_reference || !GOOGLE_PLACES_PHOTO_KEY) return "";
   return `https://places.googleapis.com/v1/${shop.photo_reference}/media?maxWidthPx=480&key=${GOOGLE_PLACES_PHOTO_KEY}`;
@@ -1022,7 +1035,7 @@ ${openingResearchExtra}      <section class="section"><h2>よくある確認</h2
     depth,
     structuredData: itemList(`${area.label}の${genre.label}一覧`, canonical, items) + localBusinessSchema(items) + faqSchema(faqs),
     body,
-    noindex: items.length === 0
+    noindex: !hasRealListing(items)
   }));
 }
 
@@ -1138,7 +1151,7 @@ function updateSitemap() {
   for (const area of areas) {
     urls.push(`/area/${area.prefecture_key}/${area.path}/`);
     for (const genre of genres) {
-      const hasShops = shops.some((shop) => shop.area_key === area.key && shop.genre_key === genre.key);
+      const hasShops = shops.some((shop) => shop.area_key === area.key && shop.genre_key === genre.key && isRealListing(shop));
       if (hasShops) urls.push(`/area/${area.prefecture_key}/${area.path}/${genre.key}/`);
     }
   }
