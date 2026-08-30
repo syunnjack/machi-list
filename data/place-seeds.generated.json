@@ -261,15 +261,6 @@
     "target_count": 5
   },
   {
-    "query": "和歌山市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "wakayama",
-    "prefecture": "和歌山県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "山形市 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "yamagata",
@@ -432,6 +423,15 @@
     "target_count": 3
   },
   {
+    "query": "岐南町 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "ginan",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
     "query": "玉城町 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "tamaki",
@@ -453,15 +453,6 @@
     "query": "渋谷区 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "tokyo-shibuya",
-    "prefecture": "東京都",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "新宿区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "tokyo-shinjuku",
     "prefecture": "東京都",
     "source": "coverage-gap",
     "current_count": 2,
@@ -531,9 +522,18 @@
     "target_count": 5
   },
   {
-    "query": "名古屋市守山区 歯医者",
+    "query": "名古屋市中区 歯医者",
     "genre_key": "dental-clinic",
-    "area_key": "nagoya-moriyama",
+    "area_key": "nagoya-naka",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "名古屋市中川区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-nakagawa",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 2,
