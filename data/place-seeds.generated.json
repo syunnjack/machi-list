@@ -522,18 +522,18 @@
     "target_count": 5
   },
   {
-    "query": "名古屋市中区 歯医者",
+    "query": "名古屋市中川区 歯医者",
     "genre_key": "dental-clinic",
-    "area_key": "nagoya-naka",
+    "area_key": "nagoya-nakagawa",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 2,
     "target_count": 5
   },
   {
-    "query": "名古屋市中川区 歯医者",
+    "query": "名古屋市中村区 歯医者",
     "genre_key": "dental-clinic",
-    "area_key": "nagoya-nakagawa",
+    "area_key": "nagoya-nakamura",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 2,

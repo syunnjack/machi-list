@@ -1,35 +1,35 @@
 [
   {
-    "id": "place-chij05uhy9nwa2arrc_y1qzbuxe",
+    "id": "place-chijrzir8lv3a2arldf4rqxvcle",
     "review_status": "approved",
     "review_note": "",
     "source": {
-      "google_place_id": "ChIJ05uhy9NwA2ARRC_Y1qZBuxE",
-      "google_query": "名古屋市中区 歯医者",
-      "google_maps_url": "https://maps.google.com/?cid=1277687104114536260&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:49.324Z"
+      "google_place_id": "ChIJrZir8lV3A2ARldf4RQxvclE",
+      "google_query": "名古屋市中村区 歯医者",
+      "google_maps_url": "https://maps.google.com/?cid=5868875362921404309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "last_place_sync_at": "2026-09-06T18:09:35.817Z"
     },
-    "name": "コスモ栄デンタルクリニック",
+    "name": "かすもりおしむら歯科・矯正歯科・口腔機能クリニック",
     "genre_key": "dental-clinic",
     "genre": "dental-clinic",
     "prefecture": "愛知県",
-    "area_key": "nagoya-naka",
-    "address": "〒460-0008 愛知県名古屋市中区栄３丁目７−１３ 4F",
-    "lat": 35.1672641,
-    "lng": 136.9066653,
-    "phone": "052-261-1188",
-    "official_url": "https://www.sugiura-dent.com/",
+    "area_key": "nagoya-nakamura",
+    "address": "〒453-0855 愛知県名古屋市中村区烏森町８丁目３０６",
+    "lat": 35.152246399999996,
+    "lng": 136.86047729999999,
+    "phone": "052-433-4488",
+    "official_url": "https://kasumori-oshimura.com/",
     "business_status": "OPERATIONAL",
     "opening_hours": [
-      "月曜日: 9時30分～12時30分, 13時45分～18時30分",
-      "火曜日: 定休日",
-      "水曜日: 9時30分～12時30分, 13時45分～18時30分",
-      "木曜日: 9時30分～12時30分, 13時45分～18時30分",
-      "金曜日: 9時30分～12時30分, 13時45分～18時30分",
-      "土曜日: 9時30分～12時30分, 13時45分～18時30分",
-      "日曜日: 9時30分～12時30分, 13時45分～18時30分"
+      "月曜日: 9時30分～13時00分, 14時30分～19時00分",
+      "火曜日: 9時30分～13時00分, 14時30分～19時00分",
+      "水曜日: 9時30分～13時00分, 14時30分～19時00分",
+      "木曜日: 9時30分～13時00分, 14時30分～19時00分",
+      "金曜日: 9時30分～13時00分, 14時30分～19時00分",
+      "土曜日: 9時30分～15時00分",
+      "日曜日: 9時30分～15時00分"
     ],
-    "photo_reference": "places/ChIJ05uhy9NwA2ARRC_Y1qZBuxE/photos/AVoNoXR2ZUZBuvOTSafuAqvCfFc7pq7WmBMOOPb2avJ3KbXrE5L6pkT_MHsyUdrkkhl1Ox97tFHh9_WI00Cio8a9s7D7pI_Zd9eAntcfgH5Q1JL8fO66wiJ2YGCp10mtMMM90vyS1FX9akQ-MhP4sUgAy0d-IDfbmKRb4ed8EF7_OoKNmqTfQXQ1NcHrCeUGmzXMqWS8hI_ilrFs-tYe615EMLH7Q9TvsspTLkLirnQnRdTEW3xC3Zu4YWUAEfpgaPnPZghgIzmkd-VSXV4lB-AW_dmCj8uObyECeCdMgJEcU2OQPTfC4PKxx5y-rWBtzp_NG0fpt497yOXSa_QZsoxE2n-ow8wvoF8jwQGZXTm2cp24L47iQ_gz_AKMCUytGZ3JuBQYC28Am86WuOJIDyESDoQ6EombRJe27b4nvldHLfQ",
+    "photo_reference": "places/ChIJrZir8lV3A2ARldf4RQxvclE/photos/AVoNoXR_zVScYzCraaNH34VbiDNTNPQq1qbQ9zA9Dc14RPYbd_pkmEAFlUd6RZSS2SyxI2MQZfj29ihTop05-0K_uBXWQLFxGWtpDGnyjdMI3cPbNFMfWGK0uIGr80GGSg0Od_Dqri-MtmCVTYB8UgyJf_yZA4QfUUn78uebPirc86VMFx34s_N8nPyUcn6KN-FHBDXr_V4FnHQipKzSbtThIB-lsG6-1jlasOIPOc7M1JgDT-iruWjlNMmcj_Zo6WdivRo4MxajwtM2kRbAGlRFyZpjmkIs8MmuJlpfOwpTt4ykUnySrrcBy-fZpDgWtkRtN_34-hRl9ElbncXHDTUJgBOEumLgMBBjku8bBexO0kJkXi7XaoASYxTNUISP-gYizHIMIg9go41lB3nj4oypxdWmS46zLgKjSzFq2LL4y_Ey57qF",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -42,7 +42,7 @@
     "review_score": 100,
     "review_issues": [],
     "review_summary": {
-      "area_label": "名古屋市中区",
+      "area_label": "名古屋市中村区",
       "genre_label": "歯医者",
       "has_official_url": true,
       "has_phone": true,
@@ -50,36 +50,36 @@
     }
   },
   {
-    "id": "place-chijgxgmegbxa2arktd3xe37n1m",
+    "id": "place-chijkrmt1dyhggarsntycgmryje",
     "review_status": "approved",
     "review_note": "",
     "source": {
-      "google_place_id": "ChIJGxGMEgBxA2ARkTd3XE37n1M",
-      "google_query": "名古屋市中区 歯医者",
-      "google_maps_url": "https://maps.google.com/?cid=6025811136127383441&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:49.324Z"
+      "google_place_id": "ChIJKRMT1DyHGGARsnTyCgMRyJE",
+      "google_query": "市川市 歯医者",
+      "google_maps_url": "https://maps.google.com/?cid=10504664835607917746&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "last_place_sync_at": "2026-09-06T18:09:21.678Z"
     },
-    "name": "ホワイトニングサロンBeaute名古屋デンタルクリニック",
+    "name": "市川おとなこども歯科口腔外科・矯正歯科",
     "genre_key": "dental-clinic",
     "genre": "dental-clinic",
-    "prefecture": "愛知県",
-    "area_key": "nagoya-naka",
-    "address": "〒460-0005 愛知県名古屋市中区東桜２丁目１９−８ HARVEY 広小路葵",
-    "lat": 35.1697977,
-    "lng": 136.9178944,
-    "phone": "052-325-5887",
-    "official_url": "https://beaute8.com/nagoya",
+    "prefecture": "千葉県",
+    "area_key": "ichikawa",
+    "address": "〒272-0034 千葉県市川市市川１丁目４−１０ 11階",
+    "lat": 35.7293517,
+    "lng": 139.90842229999998,
+    "phone": "047-321-4617",
+    "official_url": "https://otonakodomo-dental.com/",
     "business_status": "OPERATIONAL",
     "opening_hours": [
-      "月曜日: 9時30分～18時30分",
-      "火曜日: 9時30分～18時30分",
-      "水曜日: 9時30分～18時30分",
-      "木曜日: 定休日",
-      "金曜日: 9時30分～18時30分",
-      "土曜日: 9時30分～18時30分",
-      "日曜日: 9時30分～18時30分"
+      "月曜日: 9時30分～13時30分, 14時30分～18時30分",
+      "火曜日: 定休日",
+      "水曜日: 9時30分～13時30分, 14時30分～18時30分",
+      "木曜日: 9時30分～13時30分, 14時30分～18時30分",
+      "金曜日: 定休日",
+      "土曜日: 9時30分～13時30分, 14時30分～18時30分",
+      "日曜日: 9時30分～13時30分, 14時30分～18時30分"
     ],
-    "photo_reference": "places/ChIJGxGMEgBxA2ARkTd3XE37n1M/photos/AVoNoXTAQ_4qh7FiRF8Ur32-Q-s8rmtYcWLZz-YtAw_KETUsdxwSwDtSpK7H9a8cZNMBVnAwtmgzMYlx4yhB5WL-Dw_oiB_AeYmpOg8vepi2usOZn_h9BKhRZUH-Uvl9gebT-XrZphiKpDBNdtEkXsVygtKlGfH5-Xvkq98CaQ4UUSYcKGSXyCKrxffzJ9I1krzbJRTfvj9rXXw0VRlhiW1LkiYxkeTpk9-TOoFBrBF_ebid0tAkf1eof9SQNvl20ZjT6zxShXzNamA9Vz9_P0ttR2GD1i2eNxpxg435sQqs1Bql2XYvV_VzeNWYHrVwgkPM9yR_6hL0iGGsDhG30w4HNMn39vEcnbEsyEctZb5RW6fdUGv4RkwPXc5okpjWBVPv9bw8MROpbZZni3xJMUfxYsV1l6Kji3t5w8h-y8KeGNZJxKakCZZhz9Idsw6Yub0R",
+    "photo_reference": "places/ChIJKRMT1DyHGGARsnTyCgMRyJE/photos/AVoNoXQU2KztyizFf_BbN-7VdICRcVvvHjsyfDOId2L0sJJR3WNTaiGLwENdreHEIOMnvPXA5DUlb1pMk1iNMthlryHlFAIcVuynpAh8YlUb_Iy4K7D4eje_EJyeO0NtRZNrqHYGma0N3kxsGePwI5ZxeGWi_oHDBuITVWP6Gs7qLLXRjCazHH4FdBW1CLgk88veyGNhz4Ocx4ElALNrU2kZEVJWL_lgX-b9oYy3Ct4cqly4-UHyzKQ8n0vbMUPFk2x6lM8tgcyf8YCEDBxDoaxSzaNq9Wqe-eBHRmpTU2RxGthBQrfSpHKnGgeHXJ5YbVEZwxeqvVYJnTO5mT8BdouC1WHI4d8zfjT3ksQgl2xhyyM9XUIXd6rFOYBq6rDe7b46GZUfDzNTT0rHpNfR6nMIPYij4bQTSOdT28-xCApkRRlcUzLfVWbeIiNnk5vu0LMv",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -92,7 +92,7 @@
     "review_score": 100,
     "review_issues": [],
     "review_summary": {
-      "area_label": "名古屋市中区",
+      "area_label": "市川市",
       "genre_label": "歯医者",
       "has_official_url": true,
       "has_phone": true,
@@ -107,7 +107,7 @@
       "google_place_id": "ChIJCc45bKORGWAR5qTuQMWsOzQ",
       "google_query": "清水町 カプセルトイ",
       "google_maps_url": "https://maps.google.com/?cid=3763791876796097766&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:41.969Z"
+      "last_place_sync_at": "2026-09-06T18:09:28.358Z"
     },
     "name": "gashacoco サントムーン柿田川（カプセルトイ専門店）",
     "genre_key": "capsule-toy",
@@ -129,7 +129,7 @@
       "土曜日: 10時00分～20時00分",
       "日曜日: 10時00分～20時00分"
     ],
-    "photo_reference": "places/ChIJCc45bKORGWAR5qTuQMWsOzQ/photos/AVoNoXTCX-ZeesXh6B2wrZoNFnSCrPZjIJg12UAaKHR2FcZIijvfe8nTEpm1dihCdTUyigSfsnaY8Ejo65iZ6OrWJgBTeGx9G4mrRCfG_akZWKnvVnTqfG62sFRxPFyH5XRGJmIuqp7gr5m_vKZjzdvN0jn21CVBymJP9UD0r8X7Z3WJcmDy70d7vFUY5RoufqXzikJQvmQlnY9vQNI_VWAoJ7CbMJKQQLFweMfSwA99FYspDEAhy3DIrvhNsrODCqCTUe0Gmk-1-DkKOV3csZgmvyKrBxncN8d56T42tjP6yeiXMZPIQPUHU_i81DbDlxIFJOFQ-OhAqOqn7zjvipjR_RbWKy5T5MlAUMxBSdHIBcaUk-1vKqCCkQ_LdNnXx5RXWKuOUoq-NsBcQt36i0MeLyvI_u7g_oJuVZ1TemszqpnN6VX3YQS89wexkaypFYlP",
+    "photo_reference": "places/ChIJCc45bKORGWAR5qTuQMWsOzQ/photos/AVoNoXRkp6rekSjQkjdexn6kSZb-QqTGcTUBoaUIv1tm9CklTbT0x7EHEQ4AdQzfr3gjtcVntY8V3YB5j63fNLmVjQrPfLetJkdbcTTntHZsOh1nU1cGfsSTiEXL7coXyadiPxmuuL29UU55SidaBR_OYFgKZNyHDs2nAS2g-QqxXwf-Z6iaFzD_rTyVVk0LQohjBwn4v0ppcojfVnTPBxNplSUB5QqW_d3ab8QcmBLpb9_MAOt1_we0uhQKfa2s_qxNEKwa5JSZuoE9GmnLwcZINrRaalYNUkEtLAdFrIXLNwA7cqG7OONDgkjKFDIH12pZp1duc9M_cog5LaphHXfuFT4JdXbs9XNkjUHxQW41PWA9-Hrfdxz6Fx1RCU3_eo5jXrRixtTUizCu5c4bPu7n9otDZEW_ULpEUMDmV22JWoEMucWzgC8JloW5ooy3uka1",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -159,7 +159,7 @@
       "google_place_id": "ChIJOSvsAUhxA2ARHCb9tw1RRKM",
       "google_query": "名古屋市守山区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=11764617245961823772&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:44.504Z"
+      "last_place_sync_at": "2026-09-06T18:09:30.781Z"
     },
     "name": "NICOPA 新守山店",
     "genre_key": "game-center",
@@ -181,7 +181,7 @@
       "土曜日: 9時00分～21時00分",
       "日曜日: 9時00分～21時00分"
     ],
-    "photo_reference": "places/ChIJOSvsAUhxA2ARHCb9tw1RRKM/photos/AVoNoXRFmUex_L9hsntSFQgkiNI-ys20ulNkOpGubSTHNFhgY2y5Mkk9D6aahetrpHLVP6owWsvY6iPMqGQsVYCe71zbeYEvRV9iapBav0zpjXdZNSFw11FxV8oe9X4DWGNLk64tvKDmAXjIXL3m1vvnos-5VPEy6Mqa2Z8Ie9OcjH9zAUynoc8dIJ8AuJLxt2Ad-KKNrNfROmoyUR_WXP0uOMOsJGAiLqhJf4TJ2SP3s1P2sD8M_nlRAd0w2YB-Gy1B5xSqLzkUdF3hoGMYcZx4pCXAClxeJ8TN4ranX1uzr9sE3S_AgOIeh7zJcY1gQ1OHcGeLni9AJZblJWyYB_C1a6WMc0qvDmpHekNjecwHEx1Ip0pX-WkeRklvWW1IbPV6bYo3RagYFTF1KR465H5XjeGhj3P4An87PqZl5CRyGIOyHg",
+    "photo_reference": "places/ChIJOSvsAUhxA2ARHCb9tw1RRKM/photos/AVoNoXSMXT1A2UfwGjpnXjZ8LZEi-IKFUYib8YBqsR4COysiDQY0sb9WQlvHUsELpuMCB7ZhhtCx4qhTI7pvmDvamuBpYnrhKGZnUKXptYWX7olpMDH-3EihGXdbuH8SQETMqy0mCPeRjI5EuzYNjWS2zs-FA7QDy6xIesjqFRvcWoNkHr3rK6QXQkjtNHg6Y-OYH_rFKWGN9NYOIIDXHPCIp_bgHpzaeYQuqODLABT3PkGvajnGX7t157-fh9Egvbk5sqkK93nc5jmSzCIHCeJu_QOstFHllJjkBZrCvwguytzQnSefKAKUxxElIN0XntFIEK1RJ88NYu2i6UDEK9c8HCQrPBiq8BQKNhZ_oEYJnB6d1AO4VJucArr6UUnKKvnYq18Hw26IxAwFeBpnR9_mQClc5ptEoDFm5RaL2unSm9eUfg",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -204,6 +204,58 @@
     }
   },
   {
+    "id": "place-chijb-zede7bagar3-2d1ligw9i",
+    "review_status": "pending",
+    "review_note": "",
+    "source": {
+      "google_place_id": "ChIJb-ZedE7bAGAR3-2d1ligw9I",
+      "google_query": "堺市北区 ゲームセンター",
+      "google_maps_url": "https://maps.google.com/?cid=15187158671841684959&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "last_place_sync_at": "2026-09-06T18:09:31.805Z"
+    },
+    "name": "アソビクルハンターズ堺三国ケ丘店",
+    "genre_key": "game-center",
+    "genre": "game-center",
+    "prefecture": "大阪府",
+    "area_key": "sakai-kita",
+    "address": "〒591-8031 大阪府堺市北区百舌鳥梅北町１丁25−１ コーナン堺三国ケ丘店 2階",
+    "lat": 34.563727799999995,
+    "lng": 135.49370760000002,
+    "phone": "072-268-5355",
+    "official_url": "https://mines-group.co.jp/",
+    "business_status": "OPERATIONAL",
+    "opening_hours": [
+      "月曜日: 10時00分～20時00分",
+      "火曜日: 10時00分～20時00分",
+      "水曜日: 10時00分～20時00分",
+      "木曜日: 10時00分～20時00分",
+      "金曜日: 10時00分～20時00分",
+      "土曜日: 10時00分～20時00分",
+      "日曜日: 10時00分～20時00分"
+    ],
+    "photo_reference": "places/ChIJb-ZedE7bAGAR3-2d1ligw9I/photos/AVoNoXS6rjZmEJ8aP-gj1qwr-9XJbeD8X_-Iqh_XuAncUgpDpg4RBhoqwnh8L_fRYoDiIHdGcVO3BWxnUJXzx2XgG0w_2xPbcDZ4SlI6eLXOcGeAOtF8GD7rgs53Yb5Zxu27GkWOsxvU0VzCi6OEgJCulOFpiOoTai8Fjjfi8jfJ4DBBrCh3zYh6y7y5BQ4CHO0nO2_S2UvwocTJaKawPudayT8X05MHtKuahJVsw7YTn6uWBTmQNwid-v8BFch8dvnbb3jY_Fst1vDsffSJwZ5JsnZOD6VU0f6SwjYF9IqbVexfhV8h7q5hAYYaoxwLwgSGUlUlpvw8hPrau14mENqxaCbCWonCyc0DtSlMsdKlHtIGvytOtGmChaW_0XMGivLRgNNTvLcYXu-TCnr7jn2oXFZYIP_hcNlomqiLIQe3Hwrz1WOghhc6ujnDV3E17IkT",
+    "booking": null,
+    "review": {
+      "seed_source": "coverage-gap",
+      "current_count": 0,
+      "target_count": 3,
+      "needs_address_check": false,
+      "needs_site_check": false
+    },
+    "commerce": null,
+    "review_score": 75,
+    "review_issues": [
+      "same_id"
+    ],
+    "review_summary": {
+      "area_label": "堺市北区",
+      "genre_label": "ゲームセンター",
+      "has_official_url": true,
+      "has_phone": true,
+      "can_adopt": false
+    }
+  },
+  {
     "id": "place-chijvela5cxfgmarayft4d_m9wy",
     "review_status": "approved",
     "review_note": "",
@@ -211,7 +263,7 @@
       "google_place_id": "ChIJvela5cxFGmARaYFT4D_m9WY",
       "google_query": "焼津市 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=7419089123183657321&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:32.686Z"
+      "last_place_sync_at": "2026-09-06T18:09:19.263Z"
     },
     "name": "アピナ 焼津店",
     "genre_key": "game-center",
@@ -233,7 +285,7 @@
       "土曜日: 10時00分～0時00分",
       "日曜日: 10時00分～0時00分"
     ],
-    "photo_reference": "places/ChIJvela5cxFGmARaYFT4D_m9WY/photos/AVoNoXRqnLrwSmTvTozYpfa7TpnjrLkt5Tv5RyQ8piUVGIQybS8e9vmqvYf_nkxkbMECrl3vehDJ1QZDaeEHe9L0ADW5WNMEOSsxtnn8zNh5_qHyyM5ovbZ4n35DdB1f-U1rMJTGSZLYqDM0i81oXSBqGlv7MuWbPCeuSgZ6gwr-AYNzXreAShXV4x1ldekf7F-ZZPOiD_kOrhkuDhH2qA2l1iCDJCXPXw32ikWaplZ8LA2RHnYTNraRCd5XbdzHbJnGweTOND_OSgUbbliTVbV6G40PHR3lPiD8_vt3PPU1gHe2iz9RCLal-BXJtR7j0RGIVT4nZ2NMAN9u2O9LdFRm4_7tezToGcKsmsES9Rq5TRHVdGafH759d7G1v2ls3uPCM-AhOuWnGwfaHEae_tfP3M34lEp9RjQeP_ZR9gJVU6HA1tkA",
+    "photo_reference": "places/ChIJvela5cxFGmARaYFT4D_m9WY/photos/AVoNoXSnjsllPKOo5ty-fE79VfjZHCrdAeiUL3xdhLiBdT2UhBh4lmVeJktOcWKAvV1NwjOoFai4T2NIsoic6SuqJmi_5j1Q5GV66xUUcig8rXuy2oPASrkbRg1uiQXMThDxCVuBURlXVUGQ9MTPKmXfFxVjYoCtO6WZBneAALDrOCi_xOR5eACyu_PBPl_wNH_H5opUZaZRQSetj7tEkr1VY40vrdPALRdBeQ35u4CV1ccwT14T3hc38PfbUjaZKBaVbytgthSsaDLqfXDW41sT0yikIWLjNz20MhrdT63G17ogT2YJtmuELsPPCYH81dZY5r9cZV-rDVpdbkpZHhZUvGs-OeRUsupQCt2ZAb1BOH_7ZwdoMVimX2niOELMqMdR1Dp3-7XN9tlBt6pNnBDuR3KOQvhRNdDWroNdpg3wEI08QmA1",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -256,6 +308,58 @@
     }
   },
   {
+    "id": "place-chijqcohx_ebggarugv8khs_cca",
+    "review_status": "approved",
+    "review_note": "",
+    "source": {
+      "google_place_id": "ChIJqcOhX_ebGGARugv8KhS_cCA",
+      "google_query": "三郷市 歯医者",
+      "google_maps_url": "https://maps.google.com/?cid=2337578299946699706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "last_place_sync_at": "2026-09-06T18:09:24.697Z"
+    },
+    "name": "あべひろ総合歯科",
+    "genre_key": "dental-clinic",
+    "genre": "dental-clinic",
+    "prefecture": "埼玉県",
+    "area_key": "misato",
+    "address": "〒341-0018 埼玉県三郷市早稲田２丁目2−８",
+    "lat": 35.8461561,
+    "lng": 139.8844289,
+    "phone": "048-950-2525",
+    "official_url": "https://www.abehiro.com/",
+    "business_status": "OPERATIONAL",
+    "opening_hours": [
+      "月曜日: 9時30分～19時30分",
+      "火曜日: 9時30分～19時30分",
+      "水曜日: 9時30分～20時00分",
+      "木曜日: 9時30分～19時30分",
+      "金曜日: 9時30分～19時30分",
+      "土曜日: 9時30分～19時00分",
+      "日曜日: 9時30分～19時00分"
+    ],
+    "photo_reference": "places/ChIJqcOhX_ebGGARugv8KhS_cCA/photos/AVoNoXQWLMb7q8lGgNTga_1PPtiw9eRyeWnxI5WAe0dqb5lQCd77-ZNEhHDgk_8fbttConM2m2rQlU1QeI2JN6W76tZifTLc2Sngl23t9MuqfpxvZGrGGtQcrkJ_m5xQvMIjayAGQP9TJhiZ-tkeBsDzRxMvxD2N_n9bkJ7GtV4VlR8CJtLToI02rDwlsTi-zrm26HOktX1TpwzGNfEFlGBdkXlfc60RWNRtQNxSWr7u1NTs2te0aMNOVFu3JTQPcQB4dcnBIaIcD4q1b6nrhQ16Fk9NsYKhM8j3IEcWKmnRNm8uo3608eG7iBv_jE9Qxoa6sTtCnKMZu8MqHtcOJjlZuaI70axZuZL7fiRyfVDG0K5jwvcJapveDEYfMkIZzCe5ilvKdxjL5c8q6GOwT1Ao8mFCV8C3ieqSUTRbLJMGZITenBI",
+    "booking": null,
+    "review": {
+      "seed_source": "coverage-gap",
+      "current_count": 2,
+      "target_count": 5,
+      "needs_address_check": false,
+      "needs_site_check": false
+    },
+    "commerce": null,
+    "review_score": 75,
+    "review_issues": [
+      "same_id"
+    ],
+    "review_summary": {
+      "area_label": "三郷市",
+      "genre_label": "歯医者",
+      "has_official_url": true,
+      "has_phone": true,
+      "can_adopt": false
+    }
+  },
+  {
     "id": "place-chijw4orgrv6a2arabkb0a8adn4",
     "review_status": "pending",
     "review_note": "",
@@ -263,7 +367,7 @@
       "google_place_id": "ChIJW4oRgRV6A2ARabKB0a8adN4",
       "google_query": "名古屋市瑞穂区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=16029466316154974825&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:44.147Z"
+      "last_place_sync_at": "2026-09-06T18:09:30.457Z"
     },
     "name": "お宝創庫 堀田店",
     "genre_key": "game-center",
@@ -285,7 +389,7 @@
       "土曜日: 10時00分～0時00分",
       "日曜日: 10時00分～0時00分"
     ],
-    "photo_reference": "places/ChIJW4oRgRV6A2ARabKB0a8adN4/photos/AVoNoXR6Psg7WUJB356LNn7CPihC-2gFTkQs4j-hnGsoJ2h0BrzAqdTfJXSWBtDe8DEwObE85fpuSSmB4ASU0c0kTrP_cPQK4dJI9sB-sE5du35OgceMHq0wPnaxpWLGrA9sH7wTdM6DHaKgntpAOXuvF8SwzN2TRExi4ne4mDDaA7llScsK2dnrDRFLp-95pWb_MT4i2337nfE0ZOsaa4yb0xgOnyWo6xZSicXGRvzW7j5LpgQ53t9c7SrwFyLFri8BSeozFV5PQ4pJpvLW61xEOX7qNsWLCHlANURHt4bUVvR4OQDbF--4xxf44DnbOX0cIwKQKwmLu3HxneMcmyUj3nUcbWxnKUW8F42_FX6iJJqmh6id74a-pqXKy8i_vO66LiHUaYSa7x3j7nUv-Z92ONEMwo6-ohkNCTKqr2npeu5FiA",
+    "photo_reference": "places/ChIJW4oRgRV6A2ARabKB0a8adN4/photos/AVoNoXReUioQ6OFdx__J9gI0uBBrR-iqb5rclZNgDnfwxBSVyM7Leir0oBo0ic4qJPVWBJ72nYgXKAT5RXuqtdBlTpvJpKDpp71FobxjQgdMT0PqE5NVzfAZlLecZtVyFJ-3FQhn7ReOcma3EJ7BuVl30nY1qtmPt6wLGYnYwABeBbPUH98tLkMM7K7gMsE676vqOi9LL-0q7hbDqlMKmHmThLR0yLkNQ3AY2tCNy-lLW1RfowCidq_sK7fYOOMO8Tavo_s2hj-eu7sKPNIhoJv4EdwOeTF53021xw1jFBEeowLYk_fqqjHHjVnYtN5z3q1VF7-utqx4xK1HXDq_7-p70mj8dVgBzgH_DHNh2jcsVUzYxKgAx_nQuR_G6mQFkujfc5z1KxJ8BlLg_uYIHcywBZf5npw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -315,7 +419,7 @@
       "google_place_id": "ChIJLblTlzx3A2AR9AN9RddupPQ",
       "google_query": "名古屋市西区 カプセルトイ",
       "google_maps_url": "https://maps.google.com/?cid=17628336712297808884&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:41.757Z"
+      "last_place_sync_at": "2026-09-06T18:09:28.145Z"
     },
     "name": "ガシャココ ユニモール（カプセルトイ専門店）",
     "genre_key": "capsule-toy",
@@ -337,7 +441,7 @@
       "土曜日: 10時00分～20時30分",
       "日曜日: 10時00分～20時30分"
     ],
-    "photo_reference": "places/ChIJLblTlzx3A2AR9AN9RddupPQ/photos/AVoNoXToRrGmdfs6m_dRhL9N_U-yDWrtSmhYuNb14uZAP-k5iYqgKCrTyu2DgXtxWIowS61dxYqpu2KImZk9X8D1-zPhYOJYtLm7VylqgN6KTjIOg_nbKeo6LI2yNPZZUJnTU9EBbja2NdaevYnIHj7RnMx3mi-pSOBuxqcpSWA9kKpXAvMMud5HobG92ldwL1JLjNPMd0qSCdGAN20dLH9-WdTkbNxCyTeHiQpa4T11iftLqgnf2BL9gJDI7evXpbT0-4iVyXuSiRKX7EFaQb6JZQtUWJvtYFxlkUEJjEGO1NEBXhDt827G6MWLmfNS7xqxPADq2D2da1pm8ehRmW3E0_fk12Kv_aqO3IBLn-ibWYvuahDtWlDtVnPTeH0k7frrzjSK9tHYhlm-KBcSAjfKoIfjL8OVX4d2B-wMI-yim_Y4Np2d",
+    "photo_reference": "places/ChIJLblTlzx3A2AR9AN9RddupPQ/photos/AVoNoXRvCc0DuQvDgUGcc2Wadfch3CARQlOMd2MUZdWmuCTcfdJ9ppY3tnPDEVsDiXaNVgH2OrJP7xi2JP-rOBXzIbF6jQZa-74lFZcJvaNwCeSSSJo1dyloDZYx6sFgUgy-Xm7UV--dT4Mwwp5X8xFlaZaEoDKtCWPkOn8rYxx5etLrordGSAkJG7r7jpbpSs9ZD-pz5Iu_6fUtzejHjLN-GRGTLryI9tnoJxL70toydhEWzv1PV8C7vfYcfWmtQg0uauPUR3vYX1djBWFHgSXO-Z2XGcUIFeoNF4nqFqukrdmSoo341INUqidylN-ga4apfXXXQvf9i8OTD8hQa2gO2Y4IelQuT8Rc2yZ0FFJFTUfWw3qvXgUwALnxIVPUIud5-YR1S7cXSRnAfkS_StppV0F78QtQy2FfdRvCAyrpImbqRvk_",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -367,7 +471,7 @@
       "google_place_id": "ChIJubEzR7pxA2ARjPwDY4WToiE",
       "google_query": "名古屋市瑞穂区 カプセルトイ",
       "google_maps_url": "https://maps.google.com/?cid=2423661750579887244&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:41.110Z"
+      "last_place_sync_at": "2026-09-06T18:09:27.568Z"
     },
     "name": "ガシャココ 栄セントラルパーク（カプセルトイ専門店）",
     "genre_key": "capsule-toy",
@@ -389,7 +493,7 @@
       "土曜日: 10時00分～21時00分",
       "日曜日: 10時00分～20時00分"
     ],
-    "photo_reference": "places/ChIJubEzR7pxA2ARjPwDY4WToiE/photos/AVoNoXSCvtxqSQyytir_PxILTXIKmb5KV2fEmk12nrFVvaHDNmLCNEpBz93paFvPUxRsL9jNlTjpJvEZnrnsY2Wf8r201lowszXGZMXkEWagUBECWIIMASuSdry4LjVJ5pqoQ55eMOSQuAODivkjndez-aRJHQv8q2QIsLwLIqNr53lr09i8_DbbhjwSACArCNsZ-iiI1eM4sGHlB_qAdLLTIRWx9mEnnhYqEKvcHv7DlO-ka5TkjtxxJ9q3cyJT3oeDFbAd9n5sTiV3YFon7gz0PNsX8f2YaoBu8BlMxz-yJWQlDFuXmBLoKYtlF6IgQdhGJEXy5hThh16QRKN5UmklvuC45fObG7_-_XSc9uHL68JGGmCKascGRvJkfqvCfEZtx8OuC4_w1_phqyvR9aWjOn_SXU9M_0RCk_CnQCEc0M8S8ZIt",
+    "photo_reference": "places/ChIJubEzR7pxA2ARjPwDY4WToiE/photos/AVoNoXTdMPZHpwxwif3TCI6nbGkjgZoCwg8pSTWs8xDwFqT5bbVjaLFVnVbBlZcsjpebaqvaBYVn94uLR_wrXEa_YrpqmZTul4JfC42MSR_r7hFqQl7GW4KU6ivTPrnUPiVTH3uOCWQxisP6oZKvz1-LdLpl8KtFURmCbBneBpNdY96njGiS2k7UNGOYtEZQJ4kXu2Tkc5VmlER1SJj_HDIIakFZ0qrmg0yNA9wAoDaSLe-9Srg32-78xaP0pOtEFeImgfN-aha5TKWc2yrD7JBNyBm4ep8VVQnV9XzIF-OwCENKTCq54m-6oGZvprkD2bqwXe1lyEkIlUuYolnPlOXpaCc5XId_A1OwQ55xiix_oFkFn8na3eL4MzQ6fOns6aJrSUTwjPDkzmbfTT63OygDKKiPt7ZoFONWKdqykeoi0-knIdA7",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -419,7 +523,7 @@
       "google_place_id": "ChIJ4TAbtCpPGmAR9eJ20u4ZedI",
       "google_query": "焼津市 カプセルトイ",
       "google_maps_url": "https://maps.google.com/?cid=15166181733670773493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:31.541Z"
+      "last_place_sync_at": "2026-09-06T18:09:18.231Z"
     },
     "name": "ガシャポンバンダイオフィシャルショップBOOKSえみたす焼津店",
     "genre_key": "capsule-toy",
@@ -471,7 +575,7 @@
       "google_place_id": "ChIJUf2PM1N6A2AR7bHstNEd8RA",
       "google_query": "名古屋市瑞穂区 カプセルトイ",
       "google_maps_url": "https://maps.google.com/?cid=1220789760514896365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:41.110Z"
+      "last_place_sync_at": "2026-09-06T18:09:27.568Z"
     },
     "name": "ガチャガチャの森イオンモール新瑞橋店",
     "genre_key": "capsule-toy",
@@ -493,7 +597,7 @@
       "土曜日: 10時00分～21時00分",
       "日曜日: 10時00分～21時00分"
     ],
-    "photo_reference": "places/ChIJUf2PM1N6A2AR7bHstNEd8RA/photos/AVoNoXQ9VXtaWIX6ysWAQb58bT5jmiS91FhFqGqSG2NJlTYD2A7cCRw7HCPWnVj_EnS1gxkoHsYXPjDxbx_mXXL5RS4TB5nfI5IM_U5VvVoZxjQjUwDWvXu4t_qn5F5Aqa2tfZwexIXjuEJKTeDb2xpY39Yg8VcsdoO8-WV6ev-JVacBsXklVwXRSZAtZ3Uwo2CCePTLmjXnb7i-GB0nWCOizVrUNrN1Jndn0jZ2rGKxd-jDlFGaCxXbVyBHmtMNmCb2t-VCh3QBGK_zlXAgfZUwErkbL9e6RRkZgoVeFyPalTShagzEbaa1AAe_4yPUB272_kyQJSpXs9h6MG4Rk44hrIgrWMGgoMN3UM1Q54jPr93LDUP6ZHtlWjY4R5mkbQ-3dHpONCHGTNAXbtbEIOGHRHHDvqyx0N8l9GUbyyw1WkBQdSaq",
+    "photo_reference": "places/ChIJUf2PM1N6A2AR7bHstNEd8RA/photos/AVoNoXTPrHLsVoA7EtIWeU96YHB8tlSYjyfuJfbMctU8ZYwDRwVmukDZVM8zZQCZZUse_sV0qIgPwbMZNcdO-J3ICVh5HYdPIAXOtK9hX74Xs71UG0fLTlTh_14q8PRBptM8jZlBctDw1EUn5-JmpUzkEXMgxhJD_HCYeuLgvUmnacr--3cYvPNC7p2S0pFzR6r6xVwiWg2DgsLFRKCeuHk9z9nOIoz_46mNjS4lh85QX0HTZ5ywKlDzo6skPBLAW-cg9TV6kWqQY7zhf71LYJbPQPcqeYy_SmxE6uBNN5fIl8LYVtPWO3w20UCQq6vQFRKgb6SFZfFR-1KWqgWAt157Zu115y99Guh8ttNwEVe7MQ1Fd3KLptaqTnhDG_ioUYYvLFUDcK0RhlRHbtNZ37QWjfhWEMOudvqvicSOKFK0AuQvY0il",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -523,7 +627,7 @@
       "google_place_id": "ChIJE7gOoqx7A2ARdczNwSz-USM",
       "google_query": "名古屋市瑞穂区 UFOキャッチャー",
       "google_maps_url": "https://maps.google.com/?cid=2545094732624546933&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:42.273Z"
+      "last_place_sync_at": "2026-09-06T18:09:28.667Z"
     },
     "name": "クレーンゲーム専門店 PRIZE SPOT PALO 八事店",
     "genre_key": "crane-game",
@@ -545,7 +649,7 @@
       "土曜日: 10時00分～21時00分",
       "日曜日: 10時00分～21時00分"
     ],
-    "photo_reference": "places/ChIJE7gOoqx7A2ARdczNwSz-USM/photos/AVoNoXR4nVHYrd__tsLAc2F8D0U9YHpgKbytbmFEWdISe_4uXTffRR3dj4SDl5SYJqrL90jCL-T7w27kbxpff64Wcbjq-sWhL0-jIZeS0vBbS6UsrUzxrLLFzu8-g4qUmYkJCrQVkRPq--qpotn1hLf_MLGEa9_Qz-6zXq-U4FBLkPwpP7uyIEDRKyklc1M5xRpIP7-SGFgjQYVw4Vqha8zp6S0kLOXITzakzmlY2dLuTmrrCsJg2NjNiui2zTYnR0ZDHvWJHNsgMMVluQ_ny6BuXfOTz84SqUH9_qL1IY8hyVK6JkSAgG2zwxLEw6XVjKMmI3CnvafwJZaJ7ymODwKTvWOGlRD1KL7u_bFeySYhZhr5h8Ts5pbRimZ7Qda6H72DoCkt5ec7JxSqtDdk61VmWVItULnUhRHUni2Cd16QprABHw",
+    "photo_reference": "places/ChIJE7gOoqx7A2ARdczNwSz-USM/photos/AVoNoXRAjeHIAp250YfuHF2R5VcbGKOOrpxgOafcQKyMfnlNWZCo34D0QpRwU-th8XFMuXD-qp_MctyFuzeQjQiYtQbbEIosSfUTDCZHIOB9_F20vpDai312B1ginh4hNTCToez2fPpsqwcRpec6ob3qLUyad7ZXCG84ck_Zl-Ew1yf3C3E-K3XC6j-ZwYIFqzLJSiL-BzqdABJigJNMphEHvTw1A5wdd28hSX-MJb1Gt9hO6Sa0VA53XMvg0mI2AijZ6MxVijyGNj0wmrAgYUKBzOKtMlfVXj0mEnTbIaWwvv7_8dguLT-rbz-JB7CzQy1_It2Ad2z24vqF0MfV9w0wj4TVJ_3C9-DA9bi-Ku3dF2FPJX_tBZZaDX-d8xOvwzEx4aYuV8pJo5CKT5yLiVyObQVTCJ9KD1jpbVAfjA1zpS1UzQ",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -575,7 +679,7 @@
       "google_place_id": "ChIJ4Sa7dtNwA2ARaQ9op2cblIg",
       "google_query": "名古屋市東区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=9841521217715572585&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:43.218Z"
+      "last_place_sync_at": "2026-09-06T18:09:29.556Z"
     },
     "name": "ゲームキングジョイ",
     "genre_key": "game-center",
@@ -597,7 +701,7 @@
       "土曜日: 9時00分～0時00分",
       "日曜日: 9時00分～0時00分"
     ],
-    "photo_reference": "places/ChIJ4Sa7dtNwA2ARaQ9op2cblIg/photos/AVoNoXSdRd0zQ9Ss-oZES5Wqvk6ZJF4YdhvEV3SgbG9rkqQc_3cFolFKTwMP1jcK-E8W_-xg-gubkYX3TRdHIPsdj6ZTzOEOolD2FPpC13tU2Lg3hG3SdvNy-8Qem1cVymYRioTvOvegJkAtKMBkPZ9AFTUQx8sXarvAvja2QRWvYLaUwa731C_GkV7qUSyhtkmS42DaQrLqtM5tzFvXesojByxzSAGJkAOq55dpBdCovMiuSw-MX3-5BrG7EMqjR_xczWwm2KRKW_kXqGnqxqtAuEgDfyYk9Et29BP0_DOwbt4AiAfd9XygqLGG1kDaThdQatcmVcwHW-kK3k0106Nz-Ra2htPpKaMst_f2SWiQMJ-xcws8YItTk9ByljAu9EHIzM7zCab-GxJnr_DHBJmpv4EQIU4hlTQElRyC1Fd2C_WMesR_FaUuvXR8FhaJTa2W",
+    "photo_reference": "places/ChIJ4Sa7dtNwA2ARaQ9op2cblIg/photos/AVoNoXS7m8ZwH1drCQFNomCXqDk6o_3JFpHm6oxKNy6DRR2UpZ7yrQM4K_IYLX8ucdE0dKaIct1_Zkb9jpNF5qHDtXoLofEBAhPtlh9FfD1MkCyly-VHDe_K7uyb67fLNjeG03G9TUHryX-lBSCXxgFNj-D_uMVnguHnw28PeZf2VQkx70W0d1XJL_srdIR8HQy9IW900aimTi8ZGA6nJAYj5UBym8uKN6TR8YZghNA_VU2nFwbdlu4j-CUGgZLqSDF6FZHOpKzUFcLAZ7iFXGLHT0Ae9PNLy1Xrqixpvs51yDwUmYHjt96-57TGHVtkFqnI6t9ZATBrdUy51baEsI3U5l3ldq5L3oDwmeUrFcI67fYb_veOidad3L0AB7-0yTR3_dWJhiJB_gx5qEn48ngUVYj22j_ONIwqHvj_WzC1qJvweGfaTcOvzetFNsXVAKfo",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -627,7 +731,7 @@
       "google_place_id": "ChIJFbQEBH53A2ARyKOVj9p9fNk",
       "google_query": "名古屋市中川区 カプセルトイ",
       "google_maps_url": "https://maps.google.com/?cid=15671539181007774664&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:41.462Z"
+      "last_place_sync_at": "2026-09-06T18:09:27.909Z"
     },
     "name": "こどもと女性のためのガチャの駅",
     "genre_key": "capsule-toy",
@@ -649,7 +753,7 @@
       "土曜日: 11時00分～20時00分",
       "日曜日: 11時00分～20時00分"
     ],
-    "photo_reference": "places/ChIJFbQEBH53A2ARyKOVj9p9fNk/photos/AVoNoXTVxY91uEzGie-8NooZMJyHcoXmP9tti7GDh9rfNJCsPYgoLqqDneyeg4jrnnEqUP5ImwlbIjN6i_JzqIUEDfTZBREtRpBXfDeWi4Em3TROQdT4D8OfkTIDs5jN13EtXxD0vBh5AwgC3H-RW9USNbL6lceWBKy1qeqWUwDIeuHEduj5yKy_tJ1hhga78IbCdU00X4NIS-MmzsQ9644LEtlvJ6P_HEhDFPHwvSojT3R8E2oYfo4Ht6-Wz3RQ0m6xWW87tSQeb7RtxsBWbbQkXFLIdAc_FuMgay6T3N9nvh-_3lusSXC67qYKwecXkFeO2ty6yd7Okyt6DKbVABxlIPmsMvZ7PNuATbmw5Iy0eST7-FDVwNwiLI2Gq1iHkfWpiMxqri3xC0SDoLUFWPyKylwJloFCnTJFQTpZ1AMofZOISDE1",
+    "photo_reference": "places/ChIJFbQEBH53A2ARyKOVj9p9fNk/photos/AVoNoXQ_Ed0RImEYwMLnBAirpzgayCf_AK2PoA_ylcqYYDUKxePub7kjpD1VH9ctpgzDJwtrvriTm3ZM4YKZa4QkvYo2FC204bEkuN74b4QaSK6eO07tBJLGRz9_OdtfhmDHsIWMCmVZtqQF-hxtO9bqA2ZbE5TDj09haOtoDBpfvxCWmk0bc5CAhD5DgF-pGxpniVSwrLKDcyn-73k_CP9FiImOyCItTCIx62bLI7vGzBNDzHxUBbzqb05iB7RLe3pgzGP-dqqqA-K9EK89TBACPyJupy2walJ_A_i5-kgWilo_RcNkJwVdDAliWBRMs5kMGLR4ocsRfhiLleOA84P4X__lDQGNEyJ2lrQpn0n562eoNP1ktCQ95Lbw3Bkfa-f_JdLvrez2gq-I_ZbJMOA6u7dN_9HOF9pos7jhSXTxIjAYSr3X",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -679,7 +783,7 @@
       "google_place_id": "ChIJq7ByK9x2A2AR_0DCID9jmyA",
       "google_query": "名古屋市東区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=2349580753387536639&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:43.218Z"
+      "last_place_sync_at": "2026-09-06T18:09:29.556Z"
     },
     "name": "コムテックタワー",
     "genre_key": "game-center",
@@ -701,7 +805,7 @@
       "土曜日: 9時00分～0時00分",
       "日曜日: 9時00分～0時00分"
     ],
-    "photo_reference": "places/ChIJq7ByK9x2A2AR_0DCID9jmyA/photos/AVoNoXT3ErBmUxjZgfNCxMF41k45PDO4WkTTgCMPjax_o4ncv2jeBWMp53nJBtb83TbpZ70iI22r57VdM6nzyQbTbHsfOEYBWm-ttys2XBRYCOopTjX5z0_3LO5wiRAv11jJsSv5qnkEm6TGGOT6Hf-OmmESsK3s8mDuYCNvoQY9NkVWjXnsTdzKIc7Dkd5KS7SHnsVol0v6zRHaRw81rm5HMT0ibEK34NLXH8t-tsgMXDTT2gC1RY6R7S0H_ZNfzJODB6DXbX91CuZ2nbARPvMSuaRugb5Tna9jhkNULwqzHkDOqgRgsa4300L5-yjMX2BZ2W1WVN1RmcNiLZXVRscKrclxT-kqRiPgzwHgocQAy3_gHvvksnfkFhhzrkNTPR8t2tAabCcUpfUE-2V6wRl42BsfmVrfHVMaQMtuFo2ucIDfZA",
+    "photo_reference": "places/ChIJq7ByK9x2A2AR_0DCID9jmyA/photos/AVoNoXTM-CtsowbYErZy4NJVC-scMNobpb4S7-tUx0_ltgBMXbne3H2IBSrMonWemYS7tc0sQF3bjc9AzLBbR5dFxKyrh6j4qVg5esSfc82-rSuKbOuzww2rD5qEDyrh2pJdhlYqs9pBANqaZeYGZjA7QJ3PWG4z13BCDwWCEZAVUC_GB69HM0w137-HsY_T0emwuqs6X-6cuxoA3eO-aw0EBZg0bqnXy-Htmg9ysr7VDNDgJnwA1jTEqll_81yrRHoBGIy2fUPwKeocTougHaxoQQfD25Y1RuTmHVGccBA64RNkV0ir5youRcbXxNwXWgJwQkZP_0pSR4wqVWz2y6IndWFh8F81TLei_k0UpYSB3mettmI69JEAw2_qJyC0DyzNLAz7xk2wDnOZ-rFCWXVyCVO1-6k4N8RIc6GXI9MeTq2OYg",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -731,7 +835,7 @@
       "google_place_id": "ChIJ15WaNUVPGmARZUrayfQ1xGQ",
       "google_query": "焼津市 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=7260987824702900837&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:32.687Z"
+      "last_place_sync_at": "2026-09-06T18:09:19.263Z"
     },
     "name": "サープラ焼津あそびタウン",
     "genre_key": "game-center",
@@ -753,7 +857,7 @@
       "土曜日: 10時00分～23時00分",
       "日曜日: 10時00分～23時00分"
     ],
-    "photo_reference": "places/ChIJ15WaNUVPGmARZUrayfQ1xGQ/photos/AVoNoXQR1Nj7NCAXXQtfIByrnBkDa1HeHS_hfwnLOPsMdS-gZjALhoEWidObbqpAVh7AT2QM08qIwMFcPo111XRzJcAt2it1pfFA1QT982upiW4C_Vvv_2bX3odp9sjEy7idvwQ0MGLnQwUukkX-G7YS_2aNFNc9VmmneAfyEx4Mqo7LM5Q7ZAKXCRf5E3M_RafSzggiVWSOYm2BloTyHXfT2TENwkW_qiVwDnwVt_fD0PBqgOwePyLTkOJBtm_c_iHEdgfMtxm3JqSNHMb7KyIcODYGoSreRqJlqjjKPedYr_zz6x29Pl4KhP8qAJA4x0Z-ZHB6QeZpDuprHc5utZOOrQW3QvhMNxOU93bAcnh_n88k8B6lvXYZjM6sKbZ-d9hO72OOONbMdB2bylksPidIh8aEwFymBZuMB3Wmyx0mits",
+    "photo_reference": "places/ChIJ15WaNUVPGmARZUrayfQ1xGQ/photos/AVoNoXSJPI6LSraD38UB9bg9hKhuzbPDOH9HDVeMTeeaiphrIuuYZmKcJFdRf2DnF-zxvgAGZfHJc4Jp8Hz-e8CmGHkmUokFtI9T_fs9t-cuNjlGorI45ptq53tM9KmLQcAxR-DSSdvv8x6TJal3J4blXcY89mAgGoRJlMcbaGy_yl8wRZen1XznqBE-EEA0jqhtDz78pTGpGKbxCBPrCAxLI7bsZBQYaHku_1Y22gNDe07RwOCx18y89zdKWqh2x-stKt0tv9D0mF3_vmp-sSUue8iVyWM9hwmLxmuIFvvG7Zwk8rCXJqlHiR_2-m4T1EFSKZof1vW2JcDczVleWWaGCdQe8MCn_pE8TmMsFwZGfgeY-1n4SeLdNzE3lCDjcvs1W0XR6vvOTTRGACjZh9aAMmesByoKi3GhqjZSdmy2wFs",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -783,7 +887,7 @@
       "google_place_id": "ChIJ8WWyg8twA2ARsjNXBUBnOHA",
       "google_query": "名古屋市昭和区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=8086326655608894386&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:44.826Z"
+      "last_place_sync_at": "2026-09-06T18:09:31.112Z"
     },
     "name": "タイトーステーション フェドラ大須店",
     "genre_key": "game-center",
@@ -805,7 +909,7 @@
       "土曜日: 9時00分～0時00分",
       "日曜日: 9時00分～23時30分"
     ],
-    "photo_reference": "places/ChIJ8WWyg8twA2ARsjNXBUBnOHA/photos/AVoNoXQWQmdXchxcycXbDrirkWN4GohmUSKdO3o6FjLJ3wcWtO5VNWuIs20H08wq9R3aj0oB6YNKzXZjldvImasBcB4z0Tw40TxE7OGKYtSCKbdZ6aPcUD6RUWxm2MyNdXYpY1nnpKIU24jLO1pznrDxfN1CS04Kr-Jc-mS4elv62OBllO_NX9gm_Hu7FUawBXr61gQA_c0tiIziQSsm8U1qf4fuEiVnOncv1UQSsErcxA9CakVOc40B9i0YtSQ5ye9dQid3dl81XvRJGdnRfeu2QDxtcWeTKyMExnt3nmhcXxu5px7BPLN57lGRIqF8XSr4DJEgDps63xZ0MhDWkKOalvZqCyF4epja8Z16UePRQL4-IQywHpxuunheBgF3wk-9VJvuSwKxWsxEWrm3g9u9AAtIfYi3t133N3SvVayAJ64",
+    "photo_reference": "places/ChIJ8WWyg8twA2ARsjNXBUBnOHA/photos/AVoNoXRVtSNggepOzGAqEsi3ILm0_b9zJu8IQDqrh_0Z1Rqi6p2l_yh4Hoitz86kkw3D49nul2rwx7hVthiT_aTUm2qn7xiogUM3VapbD5KZWPdXMp-_L0dcB65pk-0LWeku_4EeV9K1oVHnA39UwL2EQi0HasHQiBUXVjLapx5UUa62_f-Rh8qFUKNRoG24MdPoN7quFtumqbp-Gk4vKbJSjRUMeSGG06O9GOHZfIfQkIpGuXbD_rGdUu9V1phEh-zEoo09o76iI81MtMm_Eo_EMh27cIPDN1gjQuLxTN393xfvOJkDJPB-auuGcX38bCquCif3UJ8iLuW52KFpXqp54O7LV8JSFT0KLXd34N3tZx55ULjx8TQdDdZ_Ys6fM8hZ8oVy9zknlXW4cik5jBT1cMDS17IZ1FS3XssibrIrb1M",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -835,14 +939,14 @@
       "google_place_id": "ChIJzWzaXItwA2ARmO3frkEibA4",
       "google_query": "名古屋市千種区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=1039243279517871512&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:42.851Z"
+      "last_place_sync_at": "2026-09-06T18:09:29.233Z"
     },
     "name": "ドリームプラネット 今池店",
     "genre_key": "game-center",
     "genre": "game-center",
     "prefecture": "愛知県",
     "area_key": "nagoya-chikusa",
-    "address": "〒464-0850 愛知県名古屋市千種区今池５丁目１０−１ ドン・キホーテ今池店3Ｆ",
+    "address": "〒464-0850 愛知県名古屋市千種区今池５丁目１０−１ ドン・キホーテ今池店 3Ｆ",
     "lat": 35.1683269,
     "lng": 136.93714889999998,
     "phone": "052-439-6177",
@@ -857,7 +961,7 @@
       "土曜日: 10時00分～0時00分",
       "日曜日: 10時00分～0時00分"
     ],
-    "photo_reference": "places/ChIJzWzaXItwA2ARmO3frkEibA4/photos/AVoNoXQ9ovOCLvAAlBB3QVPAe1il_Iw1D0q7ZFDqpMdVTI1w1gRXbUtI3N5f-qt1yTJN2-MvxCBf4PoUJXjt9fKcTyUyfDEaVfFP1ZVAxXNmnPrIUi2Shu0YPCqAlyD8DmqpDVK2O4O_JJaDblGW6gDidWpMrtIw16GBS4VJQp8BC1aZoV6ZXEpIYgFutI1D8yuc5FLpy0_ZdUZmqs2jwtIs8bILd5MD-txHIG-i8NBuihhNR03O7LT1boGJ5QzcniaxIa9Ve8drIkhCbLyL9MPlun3N0uqFmhBOTaQsDJcP5Y0fGnmB_pshna601It5Z4Z5KIN77NYW8oEMxlezvmNYxM1ibjbygyDxs9zbOwcztbLQknhmqyPZ-dvdSEr9kmIVcWKJXPMbYqE0KR6cADdDvm65YrddzL8q83GDNQEHgYKfSvRP",
+    "photo_reference": "places/ChIJzWzaXItwA2ARmO3frkEibA4/photos/AVoNoXTiHjPgmcStKrd_VmXWffOaWY9V-M7BpyHErIX_oKAPl7WwopAMpNqdbgao8v0b_BMFEoUkD65PMOGCFx6fKt-pQUl6FwJt6sTwa28wzUkxnYzumc_tXd3hxi1DEIX8ih71bX43ZFD-2gxqSlLFTwzpL0NDzYqy2tM50B1hpCa62CpYOjjwaMPyxMSpsEgRUxRiI7duGMpTpM1fZ9p0wvuB3CMUvtasP7pTdX275cZPa77_wylETQxY_w9VTZpfa9Q5mz65qGBrOqccTH7xe5XCTED6IzpQfzP0XflDpPFlIdy9K0m2YF5NazFLeg-LW2gXgDIN9NdGh1FIPzTXk3ixlNMFUDsmmKoBf-8uKojXWxhxWau9EX_aRPZMl295Av2vSx71dgPyKycHBDE-epQCb9a0U17dHsUrKNiaKmGYiL3n",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -887,7 +991,7 @@
       "google_place_id": "ChIJuZtBBCRnPjUR_y15VzVH6xk",
       "google_query": "鹿児島市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=1867664764901600767&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:37.018Z"
+      "last_place_sync_at": "2026-09-06T18:09:23.480Z"
     },
     "name": "ななつ星歯科（鹿児島中央駅）",
     "genre_key": "dental-clinic",
@@ -909,7 +1013,7 @@
       "土曜日: 9時00分～19時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJuZtBBCRnPjUR_y15VzVH6xk/photos/AVoNoXTPUri1vZeixTc7sAFcnnxlicCditOc7rGgPfBATVQJAln0K3rkhYzX2lpFLI6Y_xCUSy4RZAmTHNXYnEpFUHn6v-O8zyJVu70jBWq5YAg4rjWXYM-eMO6rvURVZ0Z1bb-xhO-2ogzXchCDxr0tmviSBYkMoZ1CxWKXQqaonJl-gLRY2_sgsP_jtexcnX2uMkHLWHRy4BD-QHMPCHxY1khklCs8FObf8m1G7EwjBDoiYLpDjRnGaO45v4clbM9K2CAAyxv4f7hZG7NvVpDZYgZXvOYa6iBbPMy29g06eJlN8CRsv-AWLGylV_k6fOGoVE9wiNlrGRiINv94UwbBo_2q_7GbFmrjrr2RzSU7gORNlKeF92KJINl_QY5w1EE22uX_tHdJxnXdlr09N8x4tGO33lCBCPj_YX-88tUC0-nJWA",
+    "photo_reference": "places/ChIJuZtBBCRnPjUR_y15VzVH6xk/photos/AVoNoXSW4g6WrMWz4VD82Zv-Vv8xcUTByQZyqdlY-t6scDaP1cPkk3XPXEGk4maQkq2gBbHvHAxqX6VfWBSqGY6JVjMTa8AitR6c4iYpwrxw1y0e7lCkkgeabvYKizaAj8AHuZEefxubnreMKErlxq5QvSXD-npWTj_E9ztQTFHs6EmlbwK-GVWUnTee3BfMYxt0VSpskYm53rVaKc_fIIg01edjYiiVvUyGFybSzLf9Tx6FstEz3C17tg1qybl9qOfRKKO9clmeC7WNco1GIFJq2DTxKncv7zicNIQEDAdDxXwCPeHHuYeq8dYz_owyAWavtKmkZ4UbrS7iu9ykjnzn5evx7mCHZ_OfXDz5NhlZja8yiiO7uxI1QMnDwopLCqoJMlDQqhBDMvNpJbMHkvGEY2nAzDaZRo8ZoYWjhyMtH0pCOg",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -939,7 +1043,7 @@
       "google_place_id": "ChIJET5BgKkIAWARbqau5iUUnF0",
       "google_query": "京都市下京区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=6745288494910711406&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:45.194Z"
+      "last_place_sync_at": "2026-09-06T18:09:31.455Z"
     },
     "name": "バンダイナムコ Cross Store 京都",
     "genre_key": "game-center",
@@ -961,7 +1065,7 @@
       "土曜日: 10時00分～21時00分",
       "日曜日: 10時00分～21時00分"
     ],
-    "photo_reference": "places/ChIJET5BgKkIAWARbqau5iUUnF0/photos/AVoNoXRaxb-ciDVZPNi81JZ8sZUxd_w2-rTrBVJ7ZKY1kccFHycRZVqBHO9Ro68yTeflj_Td0NJWZ0EDbueLiLcK8Em-My0UdlyqhUCB5zBmzF-gPHgeMLxSap9iAyER8k4CVW8H0Py-Idts4rfjsP0UoyD-4ntlIt9vnsMdjxmJF3lW5jD_pD6mLjrcYOY772nr54cWUnLAL9x0ZmvWaSw8vTJz3vhwHbhXwLuwKlFo2Ej6B-mpsIr4LrmKfqiz0eE9E8aljVLus3em7KgjvIgv6LzKGIHtkqTKyC0NumpVcBMx025KYqsYhU1ELvJfWDjvCuc1y4DglxuhBHHSl1EQYPYU5fB47tsDl4vuO1qqTOLVfe4EU-E9fIhaZbMSa3O-BwAENLD6iE9KkNPv24ICrD39RTMWzHh4D3ElUU3elifh6QiZQlvBDIVPRRm_nQ",
+    "photo_reference": "places/ChIJET5BgKkIAWARbqau5iUUnF0/photos/AVoNoXRiJH_zu0vu4g4zVp_rZDXr_0unzYlN45i51H3XR9-2PgBIXSqSa9A6-pPVnCEWfEWA-57cJh0xDQ6GNCY589Qa0Byg7s9C_Rw1SmFqC8sy2mUCqc_qYyZeLE96rvQF2_s6WQa1CG_zjvEgFPExEugXAdpCf7syGCZcbxFD2X433dVmldCeGz3wR5PSZLRwSMV1jXq4812Ua18B8_SzSjN9CRhVjDpBHukWBoNNIdnQR4ebo9PRKfDI8EoivBm3Tv48gSSK-rO-EshIGftyHCAjkZ5KEMN4W1wxvyb8-47_ZiWf6_aZqL6ka5Dr1z6bCeGsdtuJtXYCdNyEsXUU-dsvIXU5OK9PntncD3VrhC-w_823Hms_nygw2LGsAnvfSvx9wBmBWbUinKkKdO5dH1RwurRX3xFho4RanImo7A7gyqgmlZn8nkQU0HGbFg",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -991,7 +1095,7 @@
       "google_place_id": "ChIJP3voE8N5A2ARQgK07so59SM",
       "google_query": "名古屋市港区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=2591040704372539970&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:43.835Z"
+      "last_place_sync_at": "2026-09-06T18:09:30.146Z"
     },
     "name": "ファンタジープラザ 港店",
     "genre_key": "game-center",
@@ -1013,7 +1117,7 @@
       "土曜日: 9時00分～21時00分",
       "日曜日: 9時00分～21時00分"
     ],
-    "photo_reference": "places/ChIJP3voE8N5A2ARQgK07so59SM/photos/AVoNoXTLr8Bg1D_GOzOYtWLcyeRuN1Y1V3XzpfANiLU0B29dqj7IR86nxnEE46Z9OQUxCiGsLz9pNXcplSW43nyBNWWLs4gODsa8NjsUrxDjigRd8HZtna-2E_6JVcuURDAKvuVpzBiE6VZSq5EOFpSkU7K2d9KU46mL6saGxpt1Xtb250FmH0cNnjhxWdirpqJI5ZmCD0yr-4z0f1bB5zXJFpV7f2zTbhXkFnhgxf-nqGYJO8gPxRQZDmkUiJOinp1kilKtqIltGR1Zo_tzxoH8QSZaj6ztQLkJtbUSrTsS1qnZ0ZiVbSHrojQqN_hLQm1XDt6IL7xVlcDebnS6nALsx2qtPkx69msMYb--fIvMAe9_QSRjHihHL5KI3Z_ug2HmPX9RHk0gSGBnw4k9QXqpG2mJoVmK51bqoj8D_q_zCR1Rcw",
+    "photo_reference": "places/ChIJP3voE8N5A2ARQgK07so59SM/photos/AVoNoXTPRgMIWQe_sGKWSb8ID4cHOhlbfXiPt4W-zd3mMM355abHLO2mMkInRBXNDCk6rOPTGtwfOWv9fIjFumZumNKOVX9kvG4TytTJRggjFY1IAWHbrOrkihql_s0VMc7VecZsm-nFoescqU3lJ3W8-KNPxO53yBq7XkWS5k3ZizH4JM6wPyJQC_E4xi8ils79PGJg9LA5ZVID-21fDunWMWnB7NLpu_IleFmqApe_20WGOrze3gmyqzJKeQPl8Sm6b3Jpjnl_MFyntRPVWIQ185Pp8Szl1Zhm7IzO9jTZ8-s1Wg6SWril_fYFnq8kPjcoH_gZ1MSXL6D5zUX-QF-GeQl3mLVZQ3wjSG_uZUY-eRIrzK49aUOWnI4d66ijsYKMhKvf2b96vpWQ84MNGnfxCDzjttgggGIIR1PoS7JYf0xctw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1043,7 +1147,7 @@
       "google_place_id": "ChIJn7BAovNzA2ARhHi6Gee3v7s",
       "google_query": "名古屋市北区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=13528734008841238660&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:43.501Z"
+      "last_place_sync_at": "2026-09-06T18:09:29.812Z"
     },
     "name": "ファンタジープラザ 名古屋店",
     "genre_key": "game-center",
@@ -1065,7 +1169,7 @@
       "土曜日: 10時00分～2時30分",
       "日曜日: 10時00分～2時30分"
     ],
-    "photo_reference": "places/ChIJn7BAovNzA2ARhHi6Gee3v7s/photos/AVoNoXSmocl9eDa-DxUe_EZsMTpCSrhHXrzw0iVnh99eVNySkC5t8bUj5TTl-WeKgbRMmGLjZIunHJ0xZAyvXCMcr-tPiATQIuTWiczFr9F9rFhNhczC8PSTBcbUe9P69KFmXPjCgd_5qRXA4q1L9GfGLlg0QEdPS7Z6-17D2zu-w9sm-PK63uBW2jI71gvCddR7ZR-HSVbv3lfvr_q6Bc7CcdGgO6Y0zJ0mctIYaBAP4ikyYUZnC8LwfxhkXXYO3OHKW94DLmSOVfeZ3ubvPAXe6tW3mCq5QMk-rr72iuU7gkSvPN6adcwNehCXK5EHeUsbB1CoPfX1XAGNUiSqvP9VpsJDRC94Sv4H7C6sm2FjJhXORwTCG84-ZK_3SP-XNDDrdeSfocyfZJg8WU8wdsOUJOx5Zei6imh0YXY5RPURtEE",
+    "photo_reference": "places/ChIJn7BAovNzA2ARhHi6Gee3v7s/photos/AVoNoXRv_igu76JDtOkQK78l37UPuKROnYOhOS8m7W4pZc0DwibmpeJNXJDZdqFO-32zSkrekvU3clIxfZ0ovccysg8orFfp0qN10V23di9S-srSwGANDRsTmH7HZBuMWLb5i6Ton31Bzm_Ich-ERU4ZxhtL04b_nEr-Wi_RbU5cv-gHy7QIoCuSvyYN5KMy_n7kiqH9FOFdA23rHNibEPe8mnYsOr_EFT89inxGcFDu31irijTz7n6xxFT4jsFj04f03ULdDxwix9grs9nVVtOAZroL-mfsOsU81AX1lmG1jqe_kAXY1_DOm_KInSrnEE7mh7LyjtrlNCiOKJSoimQ0wafelOcMTGVpSp3wWrOR-HzSu-aQDHYd7VKb13S2yu2MSAwCwFwYPoNEvc2C-S4q_MHQpkycyGwF7NOf3CraS14",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1095,7 +1199,7 @@
       "google_place_id": "ChIJHWVSI8N6A2ARqVodwq8ABWg",
       "google_query": "名古屋市天白区 UFOキャッチャー",
       "google_maps_url": "https://maps.google.com/?cid=7495397909704039081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:42.590Z"
+      "last_place_sync_at": "2026-09-06T18:09:28.978Z"
     },
     "name": "ポート24八事店",
     "genre_key": "crane-game",
@@ -1117,7 +1221,7 @@
       "土曜日: 9時00分～0時00分",
       "日曜日: 9時00分～0時00分"
     ],
-    "photo_reference": "places/ChIJHWVSI8N6A2ARqVodwq8ABWg/photos/AVoNoXS-XJW8Q09n04syYO1sqqj2cRVrwKKhDraY15Qb8CwcLPx3Wyy-sQtjAsNzZEubroiSgIkeYqA-yHorUv9j4bUNrFYKxr4s4QTicFb2JgsTcc9F-eGLFn7zgjIkMsEbFGtJGdtebcnClk0tAib3wDMORrfJDxueOtTh5MkagF_HQw1kBD2I2zxyyst2hhMDPSq6R6O4-0FENAlwpaLzRmSVtGQdfjmThCdYEJxtuvh209AWtt8TmpJQGUAE77EJ3nVnGAyJNx23PQDGQTEaGl_bMvWyHvKJuszPGImh0cplqRIr5kibk3-FBeBFF5G6UcFeLeA_gadLUNR1z0jFiR-0T9f8c4AXBxbk863DHbEGMJuXyfCfs9vGZjyTjc1KZLr9Sy68VPgRICet5OfAKMOvNSIdMd0mMwQCGCknQsUcGw",
+    "photo_reference": "places/ChIJHWVSI8N6A2ARqVodwq8ABWg/photos/AVoNoXRey6ns0cQ0CRscCw9qX-GUkHnMcvUifOJOHy04FDi1TFyF4NVv3dUKbYxE5spi9CPRk3lZlhxdq9C6-x9jASikw3zqE6sOpbLPxEwZzUGtNbqwLs7OU3MM1zyTpbo1P_DNNfaj9gSTov3RalMQgKb6y8lpJ-Sayl4ZtLVyKUYCMrO4Z4ZwW0OFk-RqaDeA9A3FE5_VFXkpSd3GPn_b3KlCI3O-OwyCqm7uezq3NTKb2Ft0WwXdDq-MU4IQxqCi5ScNmqeOdy0qOxIV1sqKFtIK-RQXnXW5WgVEmWupcv_UgxBucJgZSDisPHkOhBComryUcYPFa15M-p9QrFY6_wK5HL6XlOfED3QAZoAtMtoGC36Xp9_CwHVi-w2H4MqGwQ-JtAKYYOx57c_3fCBm6zResrnl5YQEb41EVCT-ngfkJw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1147,7 +1251,7 @@
       "google_place_id": "ChIJu3F4CWpuA2ARf-hJgoDhISU",
       "google_query": "名古屋市守山区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=2675667595692730495&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:44.504Z"
+      "last_place_sync_at": "2026-09-06T18:09:30.781Z"
     },
     "name": "モーリーファンタジー 守山店",
     "genre_key": "game-center",
@@ -1169,7 +1273,7 @@
       "土曜日: 9時00分～21時00分",
       "日曜日: 9時00分～21時00分"
     ],
-    "photo_reference": "places/ChIJu3F4CWpuA2ARf-hJgoDhISU/photos/AVoNoXRlMA6c3eI7uuxO61fZpoRn7N7bIzcFN8u0f8L2LKlx83x88VacZLsG-jl9mbY_ZuI292a-9QXORdYkaFhYJyLXHUksRMJU_PPUQMPDHPuAidfhdbVuLWYPiuBY6-E3Z8Eg7eHNoYGmzXZjN4dgo2vF7VFQ0DIg9KC2WFsN7mMXDEO_u0igYWkRCUJtXU2fziNRPTFq6D92HMpAgthI7mN47a38VMg2uDyYLzHzLuWc5B--jGeDcmXdjs--o0czylkceY5W9Bz5AgQ7vjyFAPrOnAToRPkWvVcJ4C-pvS4RqO88wk-1Xhoh2ZMZXIu56o6695O32l5kE_Kl1zxIpW1-8JSMJC3_8Lq3cV5DBX8a6VedqoAjo0HhlAZ4aMB1gQMXCTYq2LUDyT6KHVudzWAVTdVVbuDW7a8d0oTa8xPDy3by",
+    "photo_reference": "places/ChIJu3F4CWpuA2ARf-hJgoDhISU/photos/AVoNoXSzs1yZbS1ZmCBxtMaLA2f6UFwl8sXW9R5KdOLtAvQly8vIVXu5Mb6l2X8fG005KsTPQOG739SQrSHGm_i0wQBYA8Qt67XQm7OCL8kuZwPF-gQI-3_d9KNPMSUZ2l8xHcRhBxfCCzyGa2p9IjWXAv8j_KIkQfgKJm-oncAyu4n0DpbDQnGhgZ2Xvqa1NcreTZUvQEtvPW9lSHg7mbMyUTZcc169sLmzWuKc41IIgSgRj01DRatcEgAeyXOydwRNj55Rw-AHwpcdBqIe_P6drkJiot0ObBzkIDBv00VYfdjvqxfVivdvdnQeGY8HLykRxdF7NHZtMvIt41qkwLjYu__Om2MlqZWWO8teFcKvC2tXCFaI1r7rqtRriJqyViQ1du1R_jWr1ZXDKtI84VuoqOYyQk7Jcpic_vFhET3Bv-L3IoXQ",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1199,7 +1303,7 @@
       "google_place_id": "ChIJ7QGJf5MIAWARvYFqYvRcfDs",
       "google_query": "京都市下京区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=4286403150042792381&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:45.194Z"
+      "last_place_sync_at": "2026-09-06T18:09:31.455Z"
     },
     "name": "ラウンドワン 京都河原町店",
     "genre_key": "game-center",
@@ -1221,7 +1325,7 @@
       "土曜日: 24 時間営業",
       "日曜日: 24 時間営業"
     ],
-    "photo_reference": "places/ChIJ7QGJf5MIAWARvYFqYvRcfDs/photos/AVoNoXTZOvVwW-PxZtjKu09js8y_JgnG01u5hBXMrn10n_4fBBrXlUUIvR0QSAVq-yqV8uD2SuJ_lNtSTHcRaFfY6FfJjiReydXRAPmGAGVw0H9Q-bs8_bKZx9xeVXhazoPKpJJxWuEd6Tw2nmA0ICXzBY8aspdXf79iFu_85gXw_KQ8bOzh8Jb_n_SVB8wod_G5zHm-YQgZtBMAUVTeS3xKBA3TIbNyjAVltmd0mKCuVEQkj-boe3-bNNA0AKRAyw3xdhLPRW4cfT_PHwTFKIcZ7botKidXqx6g_HvNjPcT9XaxYZwrZVc47VIqrn72k8oJGhS9KNLlfbNrLkiSl_JA8umWnwS9inHZOGFDzBktlApk455e2OoKd2PCLRYy8iVwn1k53S_GKB4b1H5n96xetxqnrBOp1yQwGMUjc7ZwIRo",
+    "photo_reference": "places/ChIJ7QGJf5MIAWARvYFqYvRcfDs/photos/AVoNoXRtoZIucPA0T_INDnWBCmyC-dMV0-I3TO_vt-6vpQlJ75agtWPSw6zTZve-U293t-H0XMZOxMGY8sy6FpSiYtFyU2rCLWqdRwUxUKNsYpHLk3YCfp4X_zX3a4H32Ns-FSOaXTGXLrVCPDfhL_N3XPKY6zR5xd5k3cVOL-jkzh-B_6SiqowE54FADdetBjEVpL9Ks2SypTnyXZTTnTh3n3z5zNjb46ck5NHeh22aDVo1fF-2z0JjVW3PVClHYgVyBHgtmLV5ThKsQUWU4LlpKrjzyJPvZDUxCG9ANJ1n666_g1kJULTr_aUcyg6moOHfpxClYE2qnRmz_wN3jBQstIuVph2xCsfLQVjJN0Yu-C35nULSI12tvIqJtY-eYdtAaKLrFQPAVRe3oNtlXDL6DRImoplqI22WmS0LUSH_CqU",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1251,7 +1355,7 @@
       "google_place_id": "ChIJEyrvZexwA2ARpfbTKvP6_Ho",
       "google_query": "名古屋市千種区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=8862234089060824741&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:42.851Z"
+      "last_place_sync_at": "2026-09-06T18:09:29.233Z"
     },
     "name": "ラウンドワン 千種店",
     "genre_key": "game-center",
@@ -1273,7 +1377,7 @@
       "土曜日: 24 時間営業",
       "日曜日: 9時00分～6時00分"
     ],
-    "photo_reference": "places/ChIJEyrvZexwA2ARpfbTKvP6_Ho/photos/AVoNoXS9Ib0bXWUojomobUQUfRQwsDW_YjNLnnYRq8hiYV76l5NLf2uOJ3uxPc3VG0GE-WQmwP7OMcLpxIp5vr74WWSoYDyH3F1TZ1k5Yf6zvZVT-rmZcOGgTd1AjwsZ6z1CV_3RzbdqVrSo4O2daUrlt-Xll-cTzA4un2aqvCFhqxRxrDv1rIrR5RL8ND06BLTzv5bmr-KfceL3RMCuDpusfJGQzA-3JtNUAknxbVwpNYkI_K00pgFetKCNijeJh_ruwZBRToHubbdaJeoCspSiZzZmFQynkHQy8Hq8o35J9sXS3oSXoeifeauLepIbhfCpReIKhsdWyB4RKmN933sGSMeiXIquCMvtRQbSNbx1EiCt-FXiJvf11Y5az0yWMzSjRnsPidWR9te_tlaV6Yyrb_4kJ3gACG98rOlZa-qh0XjWYq8",
+    "photo_reference": "places/ChIJEyrvZexwA2ARpfbTKvP6_Ho/photos/AVoNoXSH9OaSS3hY3hNbnTNv0iIVZhFNCtXOcKxFUXvFEP9E8TpNxVtTxu3RkFNkgF1pMzfPPoBv8hLD0_ngJ58QQsOqA9idx1xk6tkcQ62vqggpiDcu9vZL5PK2XuI3xtHq4Z8FKw8thanycvbruvJP5_lj7ufvB10EZqqxPB1-tJQw6bYrZJbXoFDQXS5MJ2pWZAoZhG2sy6ShRGwFV7n1qtccpf77ktuDdss3VIqHlUehTBj8icvR5bU2fqELsUVCZOknlr9KraUk3VXGztd-n8_pCYq77Kyp8PkqgCT4_Iu-a1REsMOTf0AdWNd5QXEUiyfLQjTt3MGuuhPWNgscey-fPBPIuhisjU_LQAiv82OP0R0PPMODxPJ-WyBj1KcGScOXh5Xt6TsgM1kj5vLhTluse6Kiwd4N11d1_P61l6EjtDQ",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1296,58 +1400,6 @@
     }
   },
   {
-    "id": "place-chij2ty63shcagarwrcnf8igzoe",
-    "review_status": "pending",
-    "review_note": "",
-    "source": {
-      "google_place_id": "ChIJ2TY63sHcAGARwrcNf8IgZOE",
-      "google_query": "堺市北区 ゲームセンター",
-      "google_maps_url": "https://maps.google.com/?cid=16241142175932200898&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:45.534Z"
-    },
-    "name": "ラウンドワンスタジアム 堺駅前店",
-    "genre_key": "game-center",
-    "genre": "game-center",
-    "prefecture": "大阪府",
-    "area_key": "sakai-kita",
-    "address": "〒590-0985 大阪府堺市堺区戎島町４丁４４−３",
-    "lat": 34.5833985,
-    "lng": 135.4684223,
-    "phone": "072-222-0120",
-    "official_url": "https://www.round1.co.jp/shop/tenpo/osaka-sakaiekimae.html",
-    "business_status": "OPERATIONAL",
-    "opening_hours": [
-      "月曜日: 0時00分～6時00分, 8時00分～6時00分",
-      "火曜日: 8時00分～6時00分",
-      "水曜日: 8時00分～6時00分",
-      "木曜日: 8時00分～6時00分",
-      "金曜日: 8時00分～0時00分",
-      "土曜日: 24 時間営業",
-      "日曜日: 24 時間営業"
-    ],
-    "photo_reference": "places/ChIJ2TY63sHcAGARwrcNf8IgZOE/photos/AVoNoXSDhIOKZA8fNU68vOafUjCloMIEe-37zNAaXyAY6eKXtVzvSN-Dh63BA9eXkE2HPfYcr7X6Nm62PJ2lgugZgfogB8eRSviTApr3RFrsBG6Ahb3YhxpfqXQ5OTh5iaT99foWGpDQ2v07oJ9FkSHcLH8NHj5QuYrlmpNCOk8WCCJoIYJdntVD4jkg0LZtOts6zVvhdcQUfijLjVa_c2V8OndfYzfQ0P9kffrkjCHYTiL6jUJ2VeUeve2La6SVLJcVHJDm9pnX20OcT4oTirp6rnrfSO-qIPWfKsbZZBkmGQvpk4iTAyQej1C4XlX2VFUDmugLW4TDtG0_TFS8iHmful6tnA5wH138uFHUeGRkIosHrALsdIUJ1WVg6dgv-HULa5Y2l2lF34LMjtGEGIx5alqwB2nDQZfGMVPTliZEAMSSzfo0",
-    "booking": null,
-    "review": {
-      "seed_source": "coverage-gap",
-      "current_count": 0,
-      "target_count": 3,
-      "needs_address_check": false,
-      "needs_site_check": false
-    },
-    "commerce": null,
-    "review_score": 75,
-    "review_issues": [
-      "same_id"
-    ],
-    "review_summary": {
-      "area_label": "堺市北区",
-      "genre_label": "ゲームセンター",
-      "has_official_url": true,
-      "has_phone": true,
-      "can_adopt": false
-    }
-  },
-  {
     "id": "place-chijarhf8k5va2arkwdes8sttra",
     "review_status": "approved",
     "review_note": "",
@@ -1355,7 +1407,7 @@
       "google_place_id": "ChIJARHF8k5vA2ARKWDeS8SttRA",
       "google_query": "尾張旭市 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=1204059533989535785&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:32.051Z"
+      "last_place_sync_at": "2026-09-06T18:09:18.696Z"
     },
     "name": "わいわいランド尾張旭店",
     "genre_key": "game-center",
@@ -1377,7 +1429,7 @@
       "土曜日: 10時00分～20時00分",
       "日曜日: 10時00分～20時00分"
     ],
-    "photo_reference": "places/ChIJARHF8k5vA2ARKWDeS8SttRA/photos/AVoNoXSAMP4uMLd0h7-tn1WFCqgszbYRpziYA02eehmnl0qM3huw6z-uORSQlLn5L2Pz759A9jG00mEpSaWoqGYSdQ_TjF2lpB0_Dao-xbVcn8WzWl58_aLZDfUlEnaWvDc8Nyh2n9b5vikzhf70rhsygYS27FGHukRsBwLigtKrP02QHExkhIgDKVgVZ_z6tyABU4IpUnZ_8c4Ei6WaeR4F62C2OAc-yAEGeVy-bpMC2KxqmRhrQ5wWFgYeZ--Ug9b7tLIJd0MBmT9uC_fpTT9QPzL3jDUfGjtN6USPZG8L--uwYWh6uMJOPB_pXdXJHwDVhQ9-nRVPhOh7Iaqa58T6oOGSYR3P1hiYr4IiYEauuUYUcXho5wK7ESK61cbTTXMzuLJaDBw2SKZUXwqcWhZM_lErg2gLT3E2RY9oU2aOdtzKFQ",
+    "photo_reference": "places/ChIJARHF8k5vA2ARKWDeS8SttRA/photos/AVoNoXSwW-Mk9RUM7tyU29j6nSqbcJeHVzQ90_3f0F9CwYBkDmyQ2oHCkgecx5-EtfHr01TAPJHo_rw82OFSK-ZIC6G_4BXy_9ilcGqkRw_qJ9_QvDD165nfxE3eC0twAPC8zw86nOYIwbzSGGqPyqoHAmYNcSq4rPKi34uwl0Uw73r56XXdWK3eT-c0N4AU17U2iFiBP_xq7t7UFJkduE9dNQ356zEpt5XSK6FbsifG0R-vrY3-dKBPN0s21pMVIS8c5i4wkY7JKTChWsp1Es59IwZijScdQzjpVBnhjW8-V5IpdpRnobfqBlTYPzKSPutQYXaLQzcKHGCBCl_GyxK-aLeEGore77h5Afy8mx4v2kx_MPAzb8Thfg04L7v26z0XGMFgDLJ7psQaaIjk0QLoBR7BI49ER_8uSKQwkxTYBYmLVg",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1400,58 +1452,6 @@
     }
   },
   {
-    "id": "place-chijy627rcqnggar9hwp628exjy",
-    "review_status": "pending",
-    "review_note": "",
-    "source": {
-      "google_place_id": "ChIJY627rcqNGGAR9Hwp628EXjY",
-      "google_query": "渋谷区 歯医者",
-      "google_maps_url": "https://maps.google.com/?cid=3917573604592155892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:46.674Z"
-    },
-    "name": "宇田川デンタルクリニック",
-    "genre_key": "dental-clinic",
-    "genre": "dental-clinic",
-    "prefecture": "東京都",
-    "area_key": "tokyo-shibuya",
-    "address": "〒150-0042 東京都渋谷区宇田川町１２−９ ＪｏｕＬｅ ＳＨＩＢＵＹＡ 9階",
-    "lat": 35.6614966,
-    "lng": 139.6980773,
-    "phone": "03-6427-0103",
-    "official_url": "https://www.shibuya-udagawa-dental.com/",
-    "business_status": "OPERATIONAL",
-    "opening_hours": [
-      "月曜日: 10時00分～19時00分",
-      "火曜日: 10時00分～19時00分",
-      "水曜日: 定休日",
-      "木曜日: 10時00分～19時00分",
-      "金曜日: 10時00分～19時00分",
-      "土曜日: 10時00分～18時00分",
-      "日曜日: 10時00分～18時00分"
-    ],
-    "photo_reference": "places/ChIJY627rcqNGGAR9Hwp628EXjY/photos/AVoNoXSymvaQkjGp79G_VPvJ_lY4LHWynPiIQNd4R0Fypj_NRbvQCFPuQd_kJoVUqfOvuDs_v_KLgZvnzBDlvnjgMhZdBBxYowbXxn3hkSn52ZrQDj6m8SqWQPYEW3-tZwL0il2losB-L7LFWY2WMJd3NJm29RpZDJKkH2Qm6C5nO88P3Rgr7M_vzfLNlqQMEEE82J_H3PtgnH8YxD5_m2TJsAiXhGqi8ufxROfPUaIBC_shAXaUcsHZABojBBeHtYpt5ZyVHceyNbuFGD03vEEhsBMkKojpDTimNG2Ei32mWHr2n46TXQklBkeW3V_3oI7kL2X07iBFLf73J8_P2HMYrnAsw2Ps5ALfA1vnjk-2YJzNbXFOO4cfCFy_jJZjkiOYrNvsTTlGGNfszyKk9_JTl9d7JDAhbnJQhj8jLx3Hs33dnSdnipP3aatZXDgx2AzZ",
-    "booking": null,
-    "review": {
-      "seed_source": "coverage-gap",
-      "current_count": 2,
-      "target_count": 5,
-      "needs_address_check": false,
-      "needs_site_check": false
-    },
-    "commerce": null,
-    "review_score": 75,
-    "review_issues": [
-      "same_id"
-    ],
-    "review_summary": {
-      "area_label": "渋谷区",
-      "genre_label": "歯医者",
-      "has_official_url": true,
-      "has_phone": true,
-      "can_adopt": false
-    }
-  },
-  {
     "id": "place-chijorqdv-moa2arcxxjcvv6_-m",
     "review_status": "approved",
     "review_note": "",
@@ -1459,7 +1459,7 @@
       "google_place_id": "ChIJoRQdV-moA2ARCxXjcvv6_-M",
       "google_query": "岐南町 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=16429125923542078731&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:32.937Z"
+      "last_place_sync_at": "2026-09-06T18:09:19.512Z"
     },
     "name": "王の洞窟 岐南本店",
     "genre_key": "game-center",
@@ -1467,8 +1467,8 @@
     "prefecture": "岐阜県",
     "area_key": "ginan",
     "address": "〒501-6017 岐阜県羽島郡岐南町徳田西１丁目２７",
-    "lat": 35.38756370000001,
-    "lng": 136.7714581,
+    "lat": 35.3874926,
+    "lng": 136.771572,
     "phone": "058-214-2335",
     "official_url": "https://ounodoukutsu.jp/?utm_source=google&utm_medium=map",
     "business_status": "OPERATIONAL",
@@ -1481,7 +1481,7 @@
       "土曜日: 10時00分～1時00分",
       "日曜日: 10時00分～0時00分"
     ],
-    "photo_reference": "places/ChIJoRQdV-moA2ARCxXjcvv6_-M/photos/AVoNoXTgL1mvbSSp0oymQIpAhIB6tFfDuQo6PyM9LbsKCVhJI17nuBCr5owffCLeVhv2V4xbtLSC_vHc3OUbmct-yfQq3ZvLas8xiGWlK487g3DVKHjInvpTM4fSqdU4Dh1BirWupZRn1DuEaDzJLaJp5PIa6CBrYozMVRqiWqBW3ftdjFg3-sVBMgzxZxJ6R5RFAZoqzlPgikWTCYd-jVLRajI0EMMrh_bkCz60NrDuVqhJ_0fI7qQKYy_uHA6wsMMr-1TRt4d9nNFtqz4J2iPURJ0C0z56Q1_7DvBNhiHxNzVcOR3jtfM4om4nW5FeFzREc-EvodWD6fimbF3OC23KLSyKDGnWZ93IsykLs-hwjt0BM3259gsbCxxW9Uudgre2gAQEJhrROAaOS-og89_wRHFHc7wjuA65Jdl2ZAdlkm3dyg",
+    "photo_reference": "places/ChIJoRQdV-moA2ARCxXjcvv6_-M/photos/AVoNoXQW0kXciY0Z_h-pSr4KNfDMrD2OwX_yKLXRujouk0JBgtPSymts6bA_4hk_8npnmL1zVZDR34LR8KWgpMYPokCyCYqdgmXqVnYUMhGgNm5uC6nXpCqxbfzi8l4DZBkNd9-ToJn7bju1eGtBvAF9kSlblFvaq6WP2FZDYOtwMzwJwV5cpY4Ed1wiQH4V8djoPFCTH7cmeAdt5Bjc-Yg1fh7A1FV6QG3rIpprVIaXCrOzwEl7Rx-j409C2BG4kt4yNcD4s4smwVLYZe82rH_UbbwIYGCjmKzCKLvnLRnMRkBS8tzycPzfedfiwsmV4xdhblarycppG_5jMs3A42r7s_KMzxdmH_Yp66oPkQ5DVGRnc88XE0mcFMH8DGBs7fbwMk18jywCM6BahGEumX1AdUYG_vOObK7ChiFKVVZjTnGz6hhkVMWe_dr1SPKhbg",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1511,7 +1511,7 @@
       "google_place_id": "ChIJpYjCb-VlA2ARLNO-54RTzWQ",
       "google_query": "名古屋市千種区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=7263553604307309356&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:47.326Z"
+      "last_place_sync_at": "2026-09-06T18:09:33.542Z"
     },
     "name": "星ヶ丘リーフ歯科・矯正歯科",
     "genre_key": "dental-clinic",
@@ -1533,7 +1533,7 @@
       "土曜日: 10時00分～18時45分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJpYjCb-VlA2ARLNO-54RTzWQ/photos/AVoNoXQrnKJD8b0iHRjZHRFIoxXUUzzZ9UoWGGVEYoWL6Xkvkeck4l2OftvKzB0JOdHKteGyZoEQ9TFGiDD-tfpgRiS4htSnDytwkn-JBoU2EW4GCya68ilDZOxCeMSZNmP5Ct-NXx7KKYcdL-lfS6t-2_-Tbqd8mOVb0RX-5eI8qIHhpZC0nqHLVhWunvjPZd39CRDpeXqHVeQNBJgYFobNED1Es7Jvq3H_-_NTdPto_Tul7QCyFjxdWQxYJlJWXwPkBtHMe07ejL_o0wkM7kW4xEypBwnIr_p1RvSBqN4A9CU1u6QScZ0DEZZsJ-HMDoTWZqV3RwhCHMCJzB-7GZNwUvkf73KyhBM0svgs27BR7ia-8ByrbnMc70VJlamgzvCMHUlzh7AgdCy_m-yaXwwXfdBtBdV6Vsxq44DIdrYkr2fjGnLJnDT8BQxIqUc4Jw",
+    "photo_reference": "places/ChIJpYjCb-VlA2ARLNO-54RTzWQ/photos/AVoNoXSJdsvXgHbks_ZyvwUh4PtbHwxGUFQ3jv5WTnash1hF-pAHNFOnUjVfTge_TfY2IymUquuc7iD4ir6q3vnAmFoA9QQzzNGmtcW6GTO1cxdBVDK1d7o3Hu_LLDVdDPlBQNpvrpNcHuMsLtUeVTnW4c9m3SkvcraHc3BkrCKBpWOX5cYguAU44j-lt4gVGUF6FEXPLVufu-jXb9QLaR12GlW89Pi6D-WhNZmQNIWbNk0-ZHBkyt8_i9y9d2nSbbEaWAz-lNE27-9aI9xo4MEyxqDPqVGW2LZu4U4Lt4W6zdD4WWjvzhkpsadFNTdvmdgYxupiml9Uuq6KrFrJev4Je06DS0LlkT3RA_pu4fb_biGrj6IcQqMhk8iQRssLasTYC7WNOZ4J9Rx2u9DKAV71CgdeC-ymJEda8mlYakrOhXhhi9Q2FE-7rYF2qhV0ow",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1563,7 +1563,7 @@
       "google_place_id": "ChIJofzc-W6PA2ARs3_QRI9jJQY",
       "google_query": "四日市市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=442869605351849907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:37.327Z"
+      "last_place_sync_at": "2026-09-06T18:09:23.800Z"
     },
     "name": "大木歯科・矯正歯科",
     "genre_key": "dental-clinic",
@@ -1585,7 +1585,7 @@
       "土曜日: 8時30分～13時00分, 14時00分～17時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJofzc-W6PA2ARs3_QRI9jJQY/photos/AVoNoXRxTqbivP8uTU3_HMWyGI4TNy2nltjBTr3l6pMHTNOlFB2AGMOADx7FxE5ACJrM50ZjETcIQrJyra6Ug-unzPesfYXRox90GwRH7kTICKAxZmi4oC7Qk3yO1SkFvELwDXGLZZtqQ_4X1o-sdheQoJYzLDuYq2ao3sL-vtt42B9Brm-2ZenU0mshstmWc22qY4xG-AuIVs4kg1EW4UDgD1YTU_fm3Afm_jwviLg1agWRA8J2Gla4mEn3fSe52Tf_qWugYymcChsa_JudGElbY_-rjj8-aT2amkgj7MIg8LYMEbEgp1C6c12YEE_9OeIKXjOH2lAqjDoasqvf6mBm1N4nwqPgoUSiDvkQORJK-BugONYvHxvHvfenE2twC63ybcXkoUfq9FHnl-VZBJmaFkpUqq6rld7b9JlYyIKfCS8zt1me9knC-b5-bUBsNUVQ",
+    "photo_reference": "places/ChIJofzc-W6PA2ARs3_QRI9jJQY/photos/AVoNoXQ6JPrZKyWYiPJFUK1lcI_WNAd8x27tqxJkgJR7tvi_ILyBfaXvpHyBptGZfEb9qfHNqUWlmy0-6AcMaLB9gdatZt3KqdlI8f9LeM9_0yPZIamBMclyQkrJMG5Wpt0wftIy-5lGNNUXbbCBp_8XTQpm_DM2XQeZXviwEFYLFlaSycI5SaiaEnQf9yaqhzGr24sd3ApyP_xkJmEiIh0JUG3jf9BXqlZvUnrcDxh2XPx3dUqL6pmS9u_g_jEOAafd60I4KW6jqYVNexTdhPTEI11TdkV1Gls4wsMJ9OxJ1MilDxyCJ1PlJIYF24IWJVpo-_s_jAqatxTCWJgK6PRLV20edrCSj-xQVQVWzgy9nCi6r0jZSyJsZQItBhZ-WRpR41TV6wKIc5Jn5DvhKcIOZde9gCuR0azaz4tNxRvgMd3QFsbkGC9mApwlsgyRX2D3",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1615,7 +1615,7 @@
       "google_place_id": "ChIJr6iO2iZPGmARQ6qFQlVjL-Q",
       "google_query": "藤枝市 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=16442469982392396355&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:32.353Z"
+      "last_place_sync_at": "2026-09-06T18:09:18.917Z"
     },
     "name": "藤枝あそびタウン",
     "genre_key": "game-center",
@@ -1637,7 +1637,7 @@
       "土曜日: 10時00分～20時00分",
       "日曜日: 10時00分～20時00分"
     ],
-    "photo_reference": "places/ChIJr6iO2iZPGmARQ6qFQlVjL-Q/photos/AVoNoXRL1JtN5lDKrDwB19dllQ9nh5GBU6VcPbkLVsgYPrHfhkhzkX25Z2kZBEefcfrZkFJo7xn_V18MeNMzJUon-5REs9652sorRGMsE3UT4bbbmvy_6JulDxvT0GUTJIZhNrWX0A8Z_w4i1qutRPmk_Fn7LTtnBFKDgb0ff-c07RNVETZhX07ktHxDT-6c4IzmsFYDl5sl66FX93dE2ZNkecVRl_j2wokaba9Xr-bEMy37VgJVmBH_oze7HyzrXK8VDbyBzYribAfRuFcyJK-mzOuONN4rw80UG-erl076sjc9hPbnkZJCHlMtZh0l1Ls3KQna6T-tqrFxqzFq2svGseUiSFqY_ky5mfxvnd6UKKFR0vCuLbMOtkn5NQf-WrxOdOiIUp63ZoLiVr7lzhVlHbrf-Q6-XUJhFLqVgcOxg_8",
+    "photo_reference": "places/ChIJr6iO2iZPGmARQ6qFQlVjL-Q/photos/AVoNoXRQmW3fATDU-ul5lsnPDWME7jKyUv477DRViMcUS71sSgMF2LcMMme0iGBN7IJeyu91Dx4-ZOM0X__Sbi6r1DYaprBrkrAVRHfp9hQ74rGWbAHwAl2qZIB-5txho2MASXWVXC-J6lllZJTu68JDABC_XqGY8lqpVPwGYeWXWVsif-2RTrn_71Sg9N_uN5DbZKyNXFAJkhOIEXCEuF7IP5NCO5CfbhSKzLG8CurRNULiuL2LXMEaBohEhquAOY1chT4bC5nl9uBPmiWcwTl0usJ8mjhNnRBoq4lGhWoSJDx6xCkl-3AfWD3ZBf5isSQ6d52mX8pHtgJy5CMOBmR0SPiDidqgDqTqGcQwJnpfQWaOAZfkKU_bqY-09eyuOGQ2CAf6LSwUkeiSR-4SsBa_DlTuBp-_uyHdmEy1AI_vmIQ",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1667,7 +1667,7 @@
       "google_place_id": "ChIJDztQoSV6A2AR1-_hsbw7Qw0",
       "google_query": "名古屋市瑞穂区 UFOキャッチャー",
       "google_maps_url": "https://maps.google.com/?cid=955673227556941783&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:42.273Z"
+      "last_place_sync_at": "2026-09-06T18:09:28.667Z"
     },
     "name": "名古屋レジャーランド内田橋店",
     "genre_key": "crane-game",
@@ -1689,7 +1689,7 @@
       "土曜日: 24 時間営業",
       "日曜日: 24 時間営業"
     ],
-    "photo_reference": "places/ChIJDztQoSV6A2AR1-_hsbw7Qw0/photos/AVoNoXSjGthUsaLdkSmtd3BWCJeZx-ZGF7MD5L55WTmIhc9anZTeEu_SFDhUC4zk267rbA1yF7wjsABBjJRsjSjima1Ns5mwIxlKzIdc-rk5KRp3F8O_6okQxQ2lmCaQ1Ax0AEtkR9SEg0KyMaQovMK8AhVSruk49cQ8ZSdK3hUiqOfixhmj3sBf7--kyrXGjCJnNBtY60Iv7L-VTMcvlLwNhX5ZZk86sMF7Zizx3GG0LXKqkw3vFBRdcrFwOfgEjeUfxXYQ5PLX3xbyHao0AmDs-pPGv-MikD5_p56RGW7sKsXzVKFkN2j0sD8KcsYFBku7rL2c_5hfv7UQKXduhjJs_gYU4DlIzNKtCXRavPImbu-P92BQlrdqAtPSLMIWQ9e2yUP0UbKQ7L3ZVkFfLhpPtXZoSKM94lr_bY3hX2sPv-v5tw",
+    "photo_reference": "places/ChIJDztQoSV6A2AR1-_hsbw7Qw0/photos/AVoNoXSwnfPBZdUiIUiPsmLBacSIMN-jvKFiJPsF5TFWqpbtnNtVztGhNWXBq8gV4WZpcWiWFC4yqGfIC0S7d-LGGcLaf50OkxiI2TcRv365suDIa_M1KFptejs2Cv4omj7s30ATNUt4wHOgSSXo4mvU2BTjLLZD-6P-DHfjAcGCWeMHzWcMKQvx4zFNABOCLWHlCBqbztDFa0uFFDipLkjPUhF7A2TIkGL41C9VAuNafZSySweS1EaP_k7QMTcuGjxtoBYPeWbFbgxp0M244pUbzoiq34pLcq0eo1dyqiaCDkaXi5R5H3avmhMlEnWCEhU4njI8ftVi4PGKbuGM1ty8_YjKMD4CEnlBI4L-oiQ7U9BwFMzUib5b4qq6zObCGLyQB7M2wJ7TxBSuU1Ib7-7dxu_oI9la8WXlVipLVviQLx4yTg",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1719,7 +1719,7 @@
       "google_place_id": "ChIJx2cTWbvbAGARA2UMQvBANTU",
       "google_query": "堺市北区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=3834042058420282627&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:45.534Z"
+      "last_place_sync_at": "2026-09-06T18:09:31.805Z"
     },
     "name": "ラクラクパラダイス（ラクパラ）",
     "genre_key": "game-center",
@@ -1741,7 +1741,7 @@
       "土曜日: 9時00分～0時00分",
       "日曜日: 9時00分～0時00分"
     ],
-    "photo_reference": "places/ChIJx2cTWbvbAGARA2UMQvBANTU/photos/AVoNoXR2PF2P9gKTdWeNXSgdA-bO9Lit1yorCqJanvPzhVL_MwbuENytTVOQaED_yE8R3hKOUzgAdIpaQkVSUy6PlFZFIBKQ0QTI2xWPBUQzFOn87SKmCk5cAxzSmHzGAYHEOJR5J1eeRFdo6hVonkXbAvd_B-Zop5joTPPRRhWGekD6ZBnQZJuK1hCfgt5xjY-SDIPv2eFjOhw6_bZr3Bg89OLmSIrzWb_yphD2laouktd9Rt_JWI6e4PWEYDAkjzdTIezciOXGmwQs6ML_NnzUCYx2Uziyv3ApwX48RSlIugjN-F_YRADKKRekbcMrGsvB0w_0-qicoDR1qrCN-Gn_tb95CzamkYmXSOGRx06QTvS6gN447kn5CF46qxoulG7t1mladE8Xv8EenMwSKONjiSg63Od_bzsftfaSEq7x3rFFHzEsGw6qvEtuuz0TCQR3",
+    "photo_reference": "places/ChIJx2cTWbvbAGARA2UMQvBANTU/photos/AVoNoXTouScXgk9jep10jVETK2mN028zrC--i4jJfGNrtSi-CD95y3NaWJ5D_LfFFKBMQvv9kDvoHoovU0g0mybCtnOgjFP10Ovr9oc73OmQseYWNSN8diYrgjgQgJ43VXV0v7S8ZM_0pjosTd4aUHoZ6BDy1m75eNcH48zqCUidF-IA1DFmEJaWmlyt3zaOg6dfoMQjCe_UbzIexbaHwEjkH1_-ib_E_4SGshaY1uE429vROh8yg9LDSHrd2sFyevo_4RBnJ80Zhd8FJYCc0Jb7aWjBHruV2F0fK3ZHPoWcQmP5xRQdbswc9pM7Srj2eMIFEqb0DAIhKBmmyRG7M5i9A4uULJ7vSTnHf7jBQ9MEUU7NRy15EtJ0Ryr5GRaOcugvpqQ99onnFLKSXxNM35xsVsTKwS7Gnj9iwSgF-AQgOFsf-R0pt1M1PfGvO_CWkAgh",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1771,7 +1771,7 @@
       "google_place_id": "ChIJf6d8Xw52GWARC2yxpiQfkCs",
       "google_query": "御殿場市 UFOキャッチャー",
       "google_maps_url": "https://maps.google.com/?cid=3139043182553164811&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:31.787Z"
+      "last_place_sync_at": "2026-09-06T18:09:18.448Z"
     },
     "name": "ＡＣＴ御殿場",
     "genre_key": "crane-game",
@@ -1785,7 +1785,7 @@
     "official_url": "https://twitter.com/ACT_Gotenba",
     "business_status": "CLOSED_PERMANENTLY",
     "opening_hours": null,
-    "photo_reference": "places/ChIJf6d8Xw52GWARC2yxpiQfkCs/photos/AVoNoXS3kXyFTFC-brnSPNVdhqv19YTvDFouSUWFTXvcgTFlOsmgeJB484lUdi_Bf_XlCsd885S2d6zu3gwwIi_9XSpFA7R3lQQIyTg_t7kG8AJhWlKfaduC-d0Fa3vh-zDrGBcZoZOcUwXEKq0aYnMBth2IrBrLEuxrAGvHAkP3dlidN85YSwsLPayTon1kmDeCV78Dx7VnSuAxzGGOc2sT6dardkRS9K4iq7Hlve82T5I0xAEUtlTuhC2r6f6xtxqwa9nbufJjIVYlxrhUsstefxlJQqmGldxmjOz_UPRNfI3-0LcFjaiE-86yZIlIgLKmSuBOrEwgbMrNM9HadjBwgX0yeYEdk5nvkGvIAPG2ivALu2cnYljaNBwwZaV71ZeWvWwoIHDEeY702n47mOxSQQJvmETfC3kmiHZKpZKVuX6om48",
+    "photo_reference": "places/ChIJf6d8Xw52GWARC2yxpiQfkCs/photos/AVoNoXSJQMyN10-XIjRLzywvXU3RfmSN7taJbt6ulo5RoCFmrz653uoBC62P8pUNNGydTxPbmSKmit5CO2qKQB8wBJOhBNx8OrZ2HRziJRg3DCwqowq1P7N059ktwNhaFk6_PmTPET5xRhnQwmSrD7H3X49X4kEGETNsGYcj-XlVjmUUUn4rMTPeN1LH5mM-1c3PxiiupEGVYLIRbkMcbyrDoZQRuSNFmEfYbe7cObaOP0zfmb4D3X2bGg6Z4cagRF8lJhNXCorpZPqW__3i29LtLzwGd1Z20scShqXOjo43qDQ98Wwf1Sm5OEHGqW2vvyi-hwop1Y2-kAIHIpB5nlWSUzALXWefA8edU7XIpS55Lt-JeanlLQIefwJW5cPqcbeTqyY_gFWiK8MXgGSp8070k9xLYiGI8kPok6g71_KEyKMYSsI",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1815,7 +1815,7 @@
       "google_place_id": "ChIJ26TAXQB5A2ARmwmhw8KP0s0",
       "google_query": "名古屋市港区 ゲームセンター",
       "google_maps_url": "https://maps.google.com/?cid=14831074589553002907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:43.835Z"
+      "last_place_sync_at": "2026-09-06T18:09:30.146Z"
     },
     "name": "ＡＭＵＵＵカインズ名古屋みなと店",
     "genre_key": "game-center",
@@ -1837,7 +1837,7 @@
       "土曜日: 10時00分～20時00分",
       "日曜日: 10時00分～20時00分"
     ],
-    "photo_reference": "places/ChIJ26TAXQB5A2ARmwmhw8KP0s0/photos/AVoNoXT4RrOajbaUB_uRRKQ6O8YdmSj0tukAOlCRdykHKEtvnAS_NQ3AQ7WYgUPPxu_9gQvd0P7V9q2WXZoxzD5bngVKOobD-YRYTCp-2rn3am5cdjJaqBbf9YUAvFW6P6EEzw7ZYnK_VX4b325dZfFhUuqjDiZBW0Ojzk8eqAyHTPFNiQly_GHFsmJT0dnUzMPebPubpqTY-x8P_WLW_dtCTk2JAiKA4FI7awuBX4qIm_PhXTLkPgCKSWZOKkdS51JhMlJePP564pbPFVmSvXdAvgxGTU3gh84dF3imsiUrvNTLh1tvBFp_77anuptxT0nWtjaEm43afXRNegZUJfVdocWOoXLMPkbbUTB1sCs4rT0C941IpxMXfvOZRGM8YUoR72sos0g-0WeEaBe4w_TXN5wD_ZW-WLWuNHcxxl0aeqcXpb-VBZIt8MvJPdHYURUO",
+    "photo_reference": "places/ChIJ26TAXQB5A2ARmwmhw8KP0s0/photos/AVoNoXRNkrw99tz9OXP943aowzjThq_T5A8slYC3D3sYUgExbP3PAOiNmoflkbOL1n6D1fRtt4TzujVnF5yOtAEXgTwuKVnn2YVxFzYnTw_u5jk0nCCNXOq64jQYVW4rZtWVBgA3Zrely-rWxKPgeL3gV7K_kuc0dvBqHQkXbvhng-B6d2unzFC2bY-ZKvr5Ex-hEzwz5Zhq06hRSrKgMfSmLS1SftPo07iK2QGxjLPjLAsMq5gQcRlqOnUEceJ3U7QlnqLqDCzU5tYiHY1bqLgpOYqUz2wDFfzQ-qvahn067hLe6r5zUN16dTyr8Vlm2bvY7HdYC3ZfSdiK0KXHSRgftGVU3KNKRSmUjr8okpBtqoi4A-j3DHLfcL58TzXZ2ehVx7HPLco2Q1iLt5QrR1ULZGBLb5ulE0nFZEf4DdoFUirRuTZVUW3yhEt_nqGWJOjX",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1860,6 +1860,58 @@
     }
   },
   {
+    "id": "place-chijbxz4mgb3a2ar1vw0gd4lin8",
+    "review_status": "pending",
+    "review_note": "",
+    "source": {
+      "google_place_id": "ChIJBxz4MgB3A2AR1vw0gD4Lin8",
+      "google_query": "名古屋市西区 カプセルトイ",
+      "google_maps_url": "https://maps.google.com/?cid=9190170352669752534&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "last_place_sync_at": "2026-09-06T18:09:28.145Z"
+    },
+    "name": "カプセルトイショップ KENELESTAND 名古屋駅店",
+    "genre_key": "capsule-toy",
+    "genre": "capsule-toy",
+    "prefecture": "愛知県",
+    "area_key": "nagoya-nishi",
+    "address": "〒450-0002 愛知県名古屋市中村区名駅１丁目１−１０８３",
+    "lat": 35.1704242,
+    "lng": 136.8817654,
+    "phone": null,
+    "official_url": null,
+    "business_status": "OPERATIONAL",
+    "opening_hours": [
+      "月曜日: 10時00分～21時00分",
+      "火曜日: 10時00分～21時00分",
+      "水曜日: 10時00分～21時00分",
+      "木曜日: 10時00分～21時00分",
+      "金曜日: 10時00分～21時00分",
+      "土曜日: 10時00分～21時00分",
+      "日曜日: 10時00分～21時00分"
+    ],
+    "photo_reference": "places/ChIJBxz4MgB3A2AR1vw0gD4Lin8/photos/AVoNoXQlnsXEHfUS4FdHC9iC3fpFxXyKBD4ZmHcYPifBzQrcHQ7_4lLtm_0dy6FWnjgmx05lmf-c54kmOf5eaE_tjEwpB_evP6TKTU2cFc3tBDcISPrl1y4Ez9FNTtT-UsXBhg3sX0iSkw-ts6r5k2MXmjxyn3vdT8x7vFIGpOu3RLsDhYEDjRzc6Sk4-IaEy3Q_wmHyNpsT56NuBYYY8Jg_YnUaW73qVaJFsESVuqDYOUgPCOwQLG3J8Af5daGprrJ4yzgNC43c3_TyR5gpL2PBgBrCKcYitDTtqdFySwhroq-Ei5eWdwckE5Xwbe6SE-y4pmqNOazdqMEXCktUgR6S7BdUHR8bBZEvN8BCdjFCTVZezogNdd4Jr3-hbmm4KX7f3I4QDt_CHtOUJ0nUAQVEW2801T1Kmf0ObSSUiUkAaCBP4l83bK9ivMy5yDHLPSDH",
+    "booking": null,
+    "review": {
+      "seed_source": "coverage-gap",
+      "current_count": 0,
+      "target_count": 3,
+      "needs_address_check": false,
+      "needs_site_check": true
+    },
+    "commerce": null,
+    "review_score": 60,
+    "review_issues": [
+      "same_id"
+    ],
+    "review_summary": {
+      "area_label": "名古屋市西区",
+      "genre_label": "カプセルトイ",
+      "has_official_url": false,
+      "has_phone": false,
+      "can_adopt": false
+    }
+  },
+  {
     "id": "place-chijs560dzydhv8rsnmsk6sfhd8",
     "review_status": "approved",
     "review_note": "",
@@ -1867,7 +1919,7 @@
       "google_place_id": "ChIJs560dZydhV8RSnmSk6SFhd8",
       "google_query": "盛岡市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=16106426584257427786&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:36.670Z"
+      "last_place_sync_at": "2026-09-06T18:09:23.164Z"
     },
     "name": "Ha-Milデンタルクリニック盛岡",
     "genre_key": "dental-clinic",
@@ -1889,7 +1941,7 @@
       "土曜日: 9時00分～13時00分, 14時00分～17時30分",
       "日曜日: 9時00分～13時00分"
     ],
-    "photo_reference": "places/ChIJs560dZydhV8RSnmSk6SFhd8/photos/AVoNoXQNLpnicLcRhBiZwLdXpvxeq_cBE418ro4mGfFnJyR0TZjQDAo6Bi-J74zgX7cRYlax_Z9q7PmmtwARfTVBB8sox3dX3tlxXBivVPjNIhZykonFZEVST64A6mUWSyUp4aNNYwhUCktqekk8q5fw_-4zkEeMtL-4dac5n8od9rMWOSA5jWSC6fauBsxayUNW-VPyE1AM8fnP1FF4IDb_SDoPC1z8FdcsXVZeNR0n8ldc5P-D497CvXc3QrF1UYoFVv_G0BO1zvsBiOfqJSBqmMDHqH0TL6ow6uSv4Ej1TDLG5B1ZWufKN2uAAsxK4q09OT_y3E5EevjJLL_FEONHAhGsF0mMfFC88MzA5GIm5esSBHmAV0PdkTUIABo8fyVoaHQr2aOJC1SOceZOdP2oXcB0T1NT0IhxseJF9ZAaI_Rku5JV2y3Olv2NPa8f8ggd",
+    "photo_reference": "places/ChIJs560dZydhV8RSnmSk6SFhd8/photos/AVoNoXSq0gfwys2Nm3KAfd2umq0MeIwHyKw1jDhGzoJEfqutuAKvHueyEK3esQs18V7TykttKL2eAXccXVTBQvkMJhaBePUJwwg1P3NFgFAcc3ob9lwjdoxGRNpwwenpowluyqo-4fDxkDbOIKPTbmxvvJA5XiYRcDRVcX0HpheJqT1BtXHmGvhu6P8lTO6oH0_yAdAG5DR-uSOhu3ojAl6spwcGP4ETyMRJNz0Q3ZRyUZ_3sxcHBPctEqYHIin20g0omisZLvp0dykJRGl2ZkllbpDGgC7yMxPsadq07u8QcAbwGTdeUY5Q_F8q7eDka7VGqZchXxvzxqt7Hru7txokVVbiI8o49LoN8Bz1hSjim4B3VVSpW8_73uB0kobDDicSRED3nAU1PyfaZem2ZiPbsgjhw7oWzpHqK9MHdANGNmLt8Q0E_EjEr6PZxfcWvp7w",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1920,7 +1972,7 @@
       "google_place_id": "ChIJBZuEEwBjA2ARzHXxJh9Hufc",
       "google_query": "日進市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=17850376797182588364&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:33.533Z"
+      "last_place_sync_at": "2026-09-06T18:09:20.081Z"
     },
     "name": "Ohana Dental Clinic オハナデンタルクリニック",
     "genre_key": "dental-clinic",
@@ -1942,7 +1994,7 @@
       "土曜日: 9時30分～15時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJBZuEEwBjA2ARzHXxJh9Hufc/photos/AVoNoXQJypiAmL_1mnI6EdnvCVjdHTXBlHgZo7StU1ErslX-pkHD1FPiFWuxvRxo8t1_8lXcSpxgzPJT_eUCNgMfQdqsav-uIpBv8bKHENwqqHECSKss3Q7fMD8pYO1t5PXDxKbOlO2zCXi1oDjKBFJwr_bKkNvEVzBJ0XyER0h-X5ZHDS-LbK1u_yv0zLvDScF8A79VLNmTt8BrxQ0qAj7dAlqxkRtbwkoFJrhscT6s3dL89HHjEROYNlfWbTsGn43kFcQHW7WqJz15WWqtJxa9bA2qCrI642sTIL4sP_T0AmKSm4AI_md43XuF2_cO9ehiPFGwV1aj0-hStbuSWnYIMPTmsfhoeSaXquQ4F_No6JMemiH3VHHp3yLsMVOmhJZWPIfuWO_ZBVcxokfRn6OLI9N3wfRfzr3a39fpHIOHa1yHraPwj8LOFcyGHNaBJQ",
+    "photo_reference": "places/ChIJBZuEEwBjA2ARzHXxJh9Hufc/photos/AVoNoXSskq8287Dbr2Bh5r_r2V8VvO3Stf8aUaeb9R8blusa7XE1LktGseQMPXEPameIrHJJZgIJe-Vuy7A7e-JT5A92_twSD4G3C6JNIt8DbkA3fuPyedaLn1_PK1_O93hv6VTXdkWlf8SF7MMGNSlMjDtE0zMPnzBWvcMwM0gR0VHYL9DloOLg56ged6hdc36ioVX0A5Rvc4oA2CoXeEjDPeW3WjuoQZaNoSUWGmpYJhyDlXPSmXv-w6IKnAJcMKe2_ffH7lMl9cwgJ7zzlq6LKLbnhNDoqE0V0QrtoxXzZ1BlWoJZoVr8tovIpwWFWbK58F70Ua4u3MtKRWHZ1fT3XZnxWuz_9sqI46nmp6rFFhXSzBFmFUBRlXzDurOfkyZmzg0wNH5RFYcLgaIwzMSyX-s-OfETCq0cSQ914Gn6fYHK2yHDnrKLMqkuABULVQ",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -1973,7 +2025,7 @@
       "google_place_id": "ChIJvyMGfuZnPjUR1WJ9lyOfgsU",
       "google_query": "鹿児島市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=14232112747658437333&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:37.018Z"
+      "last_place_sync_at": "2026-09-06T18:09:23.480Z"
     },
     "name": "SAKUデンタルクリニック",
     "genre_key": "dental-clinic",
@@ -1995,7 +2047,7 @@
       "土曜日: 9時00分～13時00分, 14時00分～16時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJvyMGfuZnPjUR1WJ9lyOfgsU/photos/AVoNoXT83hG93EcF3kXwIQBMJDrjpGTJPXde_Sqr-waXd6iyomEWirq6-_fpjfvO-_szeU9NMeaKXVEE5718hecG8l5KWjxr7ZYNp0nBCgLSbtqtHm-Oj5s_O8Os-S43_ih7ItCG95u5rKB4ofP4BRHiIWPBdZvX-SYIQREYaNe7VFN4kQXBDQKz-WWPyEDbLPjzRXkpBIU32Q2hQLmwVtgIzmKJesy5teh-9vVqpFncqRgZRvYAmPhh83VSfXBMeV53siy96znn-X_72CZ0lkk7Lr1nMYlH8MK_TW3w9LDWNcQ_7I8LuZsXh5UtMBxlHb-lslqarHyJuRCGwTE7QWqL7eUWCNdrffHpE64gSS0EVVdYd4QI7xUZ8A8M73_3_gYP2nQRfcd1e6aw080FmoBQvNvtzld4xo4DDB_Knk-2et9v0g9O",
+    "photo_reference": "places/ChIJvyMGfuZnPjUR1WJ9lyOfgsU/photos/AVoNoXQiJmlhP1oXIWIIZKjH-zD7uFiio6dfArSNr4_ZxOcXWIE1-bIpM_lgd_xzVoSU8TqN41xkBn2d_4Kg2zLuTIcpjt-GdbFS-4cLDeLkCRNKY1-PfNwGLtFxaz4czJIRbRgO6qwnGvrOv5_hxsLVa0V5ZdIA6smMkwfmHOI7nJdU7Jqr7XFj8jKONkjYM9Q9SKQ2Cz5AjIy0IXohNR4j8FhW7CtE3sDT46_epohKVSfNuRez04KyLXsQkQ_vCf4dDs4oDy2HUuHse2G2dV_buES441gcYjwRJ4ZvPyfLeC9bLX2d73iPX0dHXuRzsRUBoPYLgzZkRfefxNoEhtbtsWBJpAYKpx1cxcztVdmo7_Vb4UBNJ-Wh7qO4kYqzTm17KZN5VBEzlsDgMjLrsd6oxr-QyY4SxPl4usBkBsWeqRTHv2fc",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2026,7 +2078,7 @@
       "google_place_id": "ChIJPT7HX0WFRDURrT3_Hym3XHg",
       "google_query": "山口市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=8673008369667095981&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:40.436Z"
+      "last_place_sync_at": "2026-09-06T18:09:26.933Z"
     },
     "name": "アイリーデンタルクリニック",
     "genre_key": "dental-clinic",
@@ -2048,7 +2100,7 @@
       "土曜日: 9時00分～12時00分, 13時00分～17時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJPT7HX0WFRDURrT3_Hym3XHg/photos/AVoNoXSo9qxLrLV7ARgKDfIadeqHa3NDGVYY9BwfY0VdXNm1dIATJGK_5ENJoBpIhC6yo7vKJQukegV6oMGBfC9qtjqAej_cLDm-a4BRD5IyK7aq0rX98Pe-6CsXyeydKQfRxed6_xyH2_rQOWHs1lp9bVB31WcpVnuxYK7eXHerlmR-0noXV3PAWtXuq6vzP7--aQ6MKrPg9VbnRoEOgEHdgK2Bp8m_P_yaR9nNMw3Gsmog1T4ehIRjH7y9OTs9NBttTfCXigjz1j5xGzIrr2h3DFaAxhW_-EWrh2HhCSEei-OgMTad0BIQXZIASUmBUd0nVvfBEMDctJwAm3AHLmOFL39JIb3AKTknSUHkCUJoznCwKQY3hUWoci2tgD1GBbdlHYwFBmgBHwRIlwi8aqkKHgZ7O4bEEin3C7FZG0XzijPOBQ",
+    "photo_reference": "places/ChIJPT7HX0WFRDURrT3_Hym3XHg/photos/AVoNoXRofE-hhaahpnwOJo4kDeDu7cTxwAt4ac4a1TZDBaraAj42HGBlNsN0juDDz5y_l4XoSkgRg-aqXuWTsiAwzEgguN-88ctbIj8Qapng77ry8cxpGYwVSX4Uo1dzbTrc2Kc5qExy8Bf7M-d7JpjLf1MvV88nQ2NIz6O2-vugDUySXTgEnx9pmcaNOqmJmt8SDdwoNmosIlmKUDH7KhbKQhv2bAK78M1i6W28jlPlXV4oSVL91eKDgJRk9AjvHk476NVX6wJPjeenLm7oBDexy-qeaeTdVQGKI7H6ZlTdoVjjbXxYRz4VK8TfCdcTTcf4sihSWhYmLBsIHoJud3g5Cna7zE7R2DSXeZMwJluz-2d2_Wqvku6P2z9LNDFxEwymxe5k8D_RmRJJp5v_MVKdYkOs41k2Mdtp1V0-eaPcm-Nbxw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2079,7 +2131,7 @@
       "google_place_id": "ChIJNV6gGZJkA2ARWj35zLZ0tms",
       "google_query": "日進市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=7761519336291384666&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:33.533Z"
+      "last_place_sync_at": "2026-09-06T18:09:20.081Z"
     },
     "name": "あじおか歯科クリニック",
     "genre_key": "dental-clinic",
@@ -2101,7 +2153,7 @@
       "土曜日: 9時00分～17時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJNV6gGZJkA2ARWj35zLZ0tms/photos/AVoNoXTKg9Mt9AbWZLpBV7W9_dwudhYVNKA0fiszH8VBtET6FXiGPPnX2s34srU3kStBICAaSs27k4kcX-xEHNn_D40LlVsGwSaMm2VWbIqWv9_m9B5-6UferSEwY2XfRNxRvSaGDReHAvFh0zSs7f0IixIlHHD9wPWMVKMj9vlt6aXf996wPFOfTq_mvGo3nbDF1ZVqFdBzlqURvr3u5Bhuqu0tqt42RkgXLsHh7i_VwZjQsJjOuCdOWC0BYBQkvQY6DSISKtRBO-hoz10OVCaxBWjwgZWW_MbKlZrWW30sByHy-eu26Lo1UCAq4smtWP_wEjus0CpS8bgxs0tvvedU0ejukS5pEJ874gWsM_Gb4kf-ApOK-VgQFUFpiTfLdyNFbHFY_JWh_s8DI3silwt-ggC7OB38PvNCF9RwdOzJGn04qEgwMZeACCboPWCyhp4j",
+    "photo_reference": "places/ChIJNV6gGZJkA2ARWj35zLZ0tms/photos/AVoNoXSLah0C_fBz2Q3-8J77PE20iCzhhLHET7zTtIrQNMO6T-8MdiokuewKDzzzkGPIkOvKaLO4YLCEa_770fs3RJmFUVVisNLUdDsNzsytS_eSC5dmd36WnlMhmvmUl3zFj1WJ_R3u2iolexK5K3kqoDJZRmlmVdgOLlZw4GhWC9axUl8rv327AQ6b_JYbsl6lNLDtNXSr0ZxzW2iU0IZDXfu4MbKTb4Ay3RnwtY_hNQvg4SfX5j2L6KRuiYKVusr_Pjr0OiCqBnhQhwhgCnNVtfHGd5lOAetupKCdg2xOe5oB21FrW8eaKo7VdJCTwLJU00nUDM64DRuClvK2kgV4CsqLILdIOHsIv8DjbjxmkhjKZbKv9oBlL4gcVuvkeklSoGxDkwrrS_sFTdBkm8s64RPcExedJ_lanh6wHYN17XPTyrGzCueHm9kVrRF7Wuxd",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2132,7 +2184,7 @@
       "google_place_id": "ChIJsWqTQ9hPGmAR5KcEjgVp7VU",
       "google_query": "藤枝市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=6191720535282722788&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:39.053Z"
+      "last_place_sync_at": "2026-09-06T18:09:25.564Z"
     },
     "name": "あだちスマイル歯科クリニック藤枝駅前",
     "genre_key": "dental-clinic",
@@ -2154,7 +2206,7 @@
       "土曜日: 9時00分～19時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJsWqTQ9hPGmAR5KcEjgVp7VU/photos/AVoNoXS3nENvdMFsYDlwy7ga3-yOxIKg8bQLYTDfUiUnjv9sx2S8nLtcaKFpgdtvFXHFNE1ZF4vVuxGWToWfZO0J0Au5R-gILzMr35Gc7ImbVOjVCuydZSaizWGFftaEygk34y7IkxDJaG7pTvI4wHOsZPY7ByWlt46aWKBOM1TgvysbqlytT7OU5thc_E3Iz-u3YAD2LlSmrZFnofsrjgT32rZVIsUvyjd-XF-S7QRgU8dR2-v4q7flaSvympjo3r23dbAHs1vs4euMb0jzk90JIJ2ALPpbG0aTEnHBsokP5hq5U4eD5xnbbXbFf3aEmh77t8l53GqPygHSiuuOuqk6TPIZ4UFRWFRLSkS2hExSr9gdAOVtj55S-qmXtxqG3Z1aWjBAWUaSJcyoRtg6haGqn73-wKTgXy71kUXbuF6X2Xn1n5mBqGN_fWDPztj8lxIG",
+    "photo_reference": "places/ChIJsWqTQ9hPGmAR5KcEjgVp7VU/photos/AVoNoXSGPvuESw17oJfKlOLRNBAvqv1ORVE-Dfp3Afy6toEZ5KpMXp67cGogRdFEw-wbUQeHVlI_EnGRpmSoz0JWVU7hvuZz1JgUgqNlPydHJ3fOPIyfKzfpvxJFk05LNeXBH1jIqAso8So93rFCx1T0J4ZLEkYrvGbj-anHNKtiS1ZTwYSmTpTWGJVRMikUWym5zrX97-9O20xE9vumgW1LSpXOgVGw-eSJlTXx9ENssLLFPEoi4RlwhfIJ1r_q78eGcezLhoqncoxMglLm3IOC_1auB_DvczcQ-tl1oi2Gaj2jzpEGcVtDr6ZKD0Pz5r8VhIRFnD26cmRgZBOrziMWWChfOB0vzdfXtKLLQbEYMbIVtDRtRkFMvtYtjCJwDslZA217S0W6Npc8E6HX1zeZTX9QuthqCkKj-QHfF4zu2pM6XWJI05iop-OyB1wfK44u",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2185,7 +2237,7 @@
       "google_place_id": "ChIJJ5bj_lx5A2AR9m2cH5mYgRE",
       "google_query": "名古屋市港区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=1261457154068213238&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:48.650Z"
+      "last_place_sync_at": "2026-09-06T18:09:34.864Z"
     },
     "name": "あだちみなと歯科",
     "genre_key": "dental-clinic",
@@ -2207,7 +2259,7 @@
       "土曜日: 9時00分～12時00分, 13時30分～17時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJJ5bj_lx5A2AR9m2cH5mYgRE/photos/AVoNoXSwnGShxA2JftBIvNm3EKZaSiH77YBW6G0TURVn2lS5gb7xLbsH4Afib_uwSxxMA0ydg0Wt83Kz13Fy1En63pu0ANsZfcyNjdoMAceFfoKmk_YG-hKVu8Ima49SU1cEsUgwg534ne3FqcB1lxO9f4sYSFAxhw7ct744i9WVBemfCeXoTTdDF4LXNxAIPOBxuC4k6q8niurIQ2XtOv3zzNDFwq8iYDLTjP0qRvOUKYRP-DfjLn3vPY7Fvq-Bd7Svypp7hHJkzsdAd7w6cJrNAAx1ZHuQEBb3FjKw_N95hiH6vQnutBxLXKykpzvIGEELXnhpbnsBGhssb7F_aPeWej5PWVCthtTDrrmfAKIZx7rui936BvfAtf-Bvfpc-87kppVmmVbmDNa7Tc4gheSLxf7UkJ0ZK3VPvzh6vg5DsPNEjKE",
+    "photo_reference": "places/ChIJJ5bj_lx5A2AR9m2cH5mYgRE/photos/AVoNoXSQv4L5g4baWD8w8rES74Yz_ZVlrCNGb8sRP8jYKexDfLfqyJ-Qf-B3HFbJgjCHfmbdchCSh6uWV3GHLHLuoOhBLMuBF1Q0PE4g2XE_kBBqf5wiVDgbczGGny5GEHTbqRPSEa53Oh-R6Ju0RB20CHeu190Npp45xU8Jo7b_TWAXi6iWUAJbfflH9enzyQEaU47Rt2zQ3q6yPw7DWJXNIXL7NyGSk0pORSgEgRyJ6ObSHB8sJsCzw0hho5gHZeg4lDta7A6wHaqXjDu-7KPG6qZG6AArjd12-Hw2O6AvM-KgDNRFv8Hc53NCAkVz2rRgOs-Z9Npa-1zaqSBEmyr2_XV7fUoXoxRWCnC7iCjKEkb9x33NengL7wiCmHYRzJ_r7tP4luW4I1oQtQ-GWBK4kwb6sQWY0ttZj8n_1_PLdu3KUmc",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2238,7 +2290,7 @@
       "google_place_id": "ChIJm-x6SnV7A2ARoCf8wr-rct8",
       "google_query": "名古屋市熱田区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=16101120457901352864&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:47.044Z"
+      "last_place_sync_at": "2026-09-06T18:09:33.254Z"
     },
     "name": "あつたの森歯科クリニック",
     "genre_key": "dental-clinic",
@@ -2260,7 +2312,7 @@
       "土曜日: 9時30分～13時00分, 14時30分～18時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJm-x6SnV7A2ARoCf8wr-rct8/photos/AVoNoXS1LweUA3fpmwNBmw1D5QW5Hr6RXlXfrvzZWwKKSHQ7LdVD98RDYoj2DySEmEwzJ_LkI1uZ2TihfZo3zdgF_2Fpate96aOcYAaAy8zQkzKSwiMnqf9uTzWDjQOAK38LQiaj6UzDMsnMW_5uIMuHBSdM2OQorHZChZCSPDex1NvwqwgVEoseZ5g-K04HBVAEOILyg08CFoaEbaX4Uvioi8mg8COV2ws35NJUYCqTJaPUEkwhgD1HWBdXRrcoBHUSbPXsXWNNwYTaWG1Pg3IQi6NTJj7U1DxHIHt0KB709uQI-eo-HXsWQCywAlFZG9ILiMNL9pD2JNWSiIJYqZZZeMogSMaqQHjDrviLESKA_ymHNINHY5lXP5Vdg0GIhgHeDhbeF1EZkIYbWmfNkePpbRnftphG4xWxYCn3lQiUTquZ9g",
+    "photo_reference": "places/ChIJm-x6SnV7A2ARoCf8wr-rct8/photos/AVoNoXQ5Gii8goKA_zeY-oPPEni6vAX3dAd9X6XoTTBfyi5OTQJmqHa8pD7FT2_18R5wBsEGG1euqqG-XykBMsFUh7NXLjRapcJIEUad0JDrCECQnEg0Ooqkeff54wWXTu3HplHw8BE0P9TT_Qc1lA82KJcZRaWQ7182vXIeRJOnbCsh3tR798cJqgyCl0YKTpa_kFGRBKd6GzxhDiIMQJBh1A3AFVQ9xo_D8egKGleQo5X2NR0F5NZ1HP06i9nr3UjMaZHAFHgY8et85Hta-4gDmV3EnwqekNMr6y473qBCM-B222TyNlGPdkz7qollcfZf7W-BTTNJJJ8CPLRa-ZDPe3p-EvZQbWgzaWiE87nK7SpJ8JwMDYkbmG_DadmrFsWoCoqukX_u7BoLR3-yRwS3Ck7S2EuoThwqov7UHHJuF9zf0g",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2284,59 +2336,6 @@
     }
   },
   {
-    "id": "place-chijqcohx_ebggarugv8khs_cca",
-    "review_status": "approved",
-    "review_note": "",
-    "source": {
-      "google_place_id": "ChIJqcOhX_ebGGARugv8KhS_cCA",
-      "google_query": "三郷市 歯医者",
-      "google_maps_url": "https://maps.google.com/?cid=2337578299946699706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:38.273Z"
-    },
-    "name": "あべひろ総合歯科（三郷市/三郷駅）",
-    "genre_key": "dental-clinic",
-    "genre": "dental-clinic",
-    "prefecture": "埼玉県",
-    "area_key": "misato",
-    "address": "〒341-0018 埼玉県三郷市早稲田２丁目2−８",
-    "lat": 35.8461561,
-    "lng": 139.8844289,
-    "phone": "048-950-2525",
-    "official_url": "https://www.abehiro.com/",
-    "business_status": "OPERATIONAL",
-    "opening_hours": [
-      "月曜日: 9時30分～19時30分",
-      "火曜日: 9時30分～19時30分",
-      "水曜日: 9時30分～20時00分",
-      "木曜日: 9時30分～19時30分",
-      "金曜日: 9時30分～19時30分",
-      "土曜日: 9時30分～19時00分",
-      "日曜日: 9時30分～19時00分"
-    ],
-    "photo_reference": "places/ChIJqcOhX_ebGGARugv8KhS_cCA/photos/AVoNoXSWJ-5V8__MIQHDmkSfiyhcMxVQToX6ce7WubZ3_suA1sq5FSazYeoAjURqD1t-LU4Drxu8R0R5J3uU8uf0ut-gP1kowAszTaljdLbb_euH8zrvUhsOU-NujsL_GLQD23z2Ufmuk8QC2xezDQSzpOP3Kb2K2fHCcAI8E5B_RGFE0bNB_QFdEKYs_adAtebWMwb03f38wACstdrhHvC8dSYNYYJta2yz66YpPW5mfrgYeIMRPsPaQldgHkMIPLAhliSB4hPTs4-K0ri5RjTFGmx7JxxIqM2oOslIj93xCJHGeaQhqBMSl9279rj7EPquljYD8cH1RqTmXkIL0YtUUmqm6RSt4KwrV_xHKg3sIQqj65Lw-GGLTZi1eqVD7avm9yRB04I33WGpceDNF6YKPvnThv-PHjBdNCizZxu8y9WJ5fw",
-    "booking": null,
-    "review": {
-      "seed_source": "coverage-gap",
-      "current_count": 2,
-      "target_count": 5,
-      "needs_address_check": false,
-      "needs_site_check": false
-    },
-    "commerce": null,
-    "review_score": 50,
-    "review_issues": [
-      "same_id",
-      "similar_name_address"
-    ],
-    "review_summary": {
-      "area_label": "三郷市",
-      "genre_label": "歯医者",
-      "has_official_url": true,
-      "has_phone": true,
-      "can_adopt": false
-    }
-  },
-  {
     "id": "place-chijzx5dc7rfgmarlxkvprlooji",
     "review_status": "approved",
     "review_note": "",
@@ -2344,7 +2343,7 @@
       "google_place_id": "ChIJZX5dC7RFGmARLxKvprloojI",
       "google_query": "藤枝市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=3648593794698252847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:39.053Z"
+      "last_place_sync_at": "2026-09-06T18:09:25.564Z"
     },
     "name": "あまのデンタルクリニック",
     "genre_key": "dental-clinic",
@@ -2366,7 +2365,7 @@
       "土曜日: 9時30分～13時30分, 14時30分～18時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJZX5dC7RFGmARLxKvprloojI/photos/AVoNoXSIX8O0yWQev9ommykGGTj1DT2QGY1DLI_cjy5-KzjRPf2VTo-cTPYgjHjVPh7zwhfU_ZBhPYcOf0VLoOJsbk30PJ628Z9SywVaFPlPZw0EfTcx1ffeqlAHN6Oyke8xVhRN-4gy7XYnGawQtri29Y8Lxj65F7gvGNzwnPn8X20f51lbaFaZxHprrVjocnNC7NrXDRup8LH0k9m7SgZ_IUUZLXlWPs0KcAMK9wwL2DF-LD0tG91RlnEygq4AZzPrMx1oDyZvb7Kamowu60o_v4_9DgD480VLbD89rNzDl-opQFHs9sq4HVZ4dPqyOLJWH4k_dbIUfoPOnyQm4hMxriCxK6M3XRbXjnBTufj37kUtqRstJWLVjb8IzUhZAbHvvXOjRIYMBAbXqrvEgBQ2RMHEPZIf1byHmZbbNxUcddojeKyN5JCvODwv3euG_z-n",
+    "photo_reference": "places/ChIJZX5dC7RFGmARLxKvprloojI/photos/AVoNoXQnUal0D4jonyZwXg9EH3JpLC5IPWC-ZMc3J09Pf2Gc8BwHcrOfVhLh-dauc1lXTT6jSwiShsi9bJBfAHXKxUFbYgzM9oRE7cj5w_eKWwmt72ux4nY7NojBJy9PSMFwAzkAgdqi65eNxw7rc6PsVsaQzSCMMLazoUU6WPZ8w8v6IT61Gdhzn0Z62RIXIyVL-2FUpshE5Xh9mdbnS5-vzlc8pDfrJ679BAItER7fiB5rLGecVJdwuN85NI6b3fDsmPygaezJWIEbZF1_MhAzk9g2n-e9VIuAWksW05txNSUy-gKn6QEC5JEwyQh3Q3n_flcIqCMJTnMtg8FuOsxuIlB-bsijVGisMKCuAEbmQz_oshG5iLnKqTGj47LzLi0UY6hN47uDlST-uABe_zlV4Rv4R7WyyJjK3x-iZ_wB9KPfznbeiKdDrI7EcBMPBxNx",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2397,7 +2396,7 @@
       "google_place_id": "ChIJP78spldxA2ARA41ws1thS6A",
       "google_query": "名古屋市北区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=11550432715802184963&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:47.652Z"
+      "last_place_sync_at": "2026-09-06T18:09:33.852Z"
     },
     "name": "いいだ歯科医院",
     "genre_key": "dental-clinic",
@@ -2419,7 +2418,7 @@
       "土曜日: 9時00分～17時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJP78spldxA2ARA41ws1thS6A/photos/AVoNoXS_aSdFw7wB6dg5KcXk5JLK_IKAwTODsCkI3qJei1PaBtPGRrbiVJDXgIIe9-IhV3EzquSLtoG2cZ6NlZL31pMe8axwTKxwaAZCdBdXlr7HneLksC3GM7Jfh4AfIbcZtPmeszanEogqa9gjZOjJqjU-6c6lo1dQ9o9CzHfwN0hSgUbGdtlclxLyhrUjtTSstY-3orUAV67_rnqIztytXhBxVL6kd2PWkmxbkhM3o2eubjHJm0a4ZrQpsnXhAmmKaEsE106OEinEh0RnieIqh9YSKmK4AyS3MA_Mv4HFe186PTh9lt4NaaUE1PZtWOgT38EnSXowRujI299_651VumS0-TeMjr55YBEYOShHVIz2hIx-fceFwRMmw6J5zfzfzOXZzB_H97xuuW1K38kePZJOdMO35NmMRGMVoiUPg7zGqw",
+    "photo_reference": "places/ChIJP78spldxA2ARA41ws1thS6A/photos/AVoNoXSCtkdKctYgvLTjtEbDHDItM06waz6m9a-nKS6oX14_XV_7YG4whP2AXeE82ub-CHpZ3edcO47mD_EgZEx7V1FF4ISqtH55oZFzcclW7A6MNrdIXw6qcwwS9_tOT6MAAfs7E8uLTJDScSpmHap-XSyObeoCvfOsXIA_Et8KjRbOznaJIKd9K9qhM8Cqer19keASWUVr6U_acW2vk-gGxzFmFNBVWCRi7mnNRJaNWT69urSVMpfHWuoK-ck8akAwnD5e9FicHNDBJ3JpOVRYmBi6AUz3kAFBKFCDobDe7DgCiZgLeqSPO7vrEX-_nNiZo8SNyOwlVZQ30XqshOJS2TMW84XbGm-A3iZNvtfgRiVh-SDCAUBpykwHVu_qW9fk8_dWUhbXACZq6OL2QK-USwicuBNBHZ9adGoreE1PRgWvrA",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2450,7 +2449,7 @@
       "google_place_id": "ChIJfcjjYQBFBGAROdwQOhtg8As",
       "google_query": "玉城町 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=860293198882331705&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:46.014Z"
+      "last_place_sync_at": "2026-09-06T18:09:32.281Z"
     },
     "name": "いとう歯科",
     "genre_key": "dental-clinic",
@@ -2472,7 +2471,7 @@
       "土曜日: 9時00分～14時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJfcjjYQBFBGAROdwQOhtg8As/photos/AVoNoXSNufL-iuCMqEDWdYH8XYjHuitDSIIMoDdORSfxj-VFI5ia-ufihPNdhccisfsc7RGJp_12ZsmZwivnF3ROEgmx0wJ7nzpFPerPW7SKlahEDWWDqu5VsE4mzFJcRbZuCIDFk-55Xw_eSmO6M-4CaM24hgOl46yQT-ElLQ5lRsqI4QJqCg2ZOFh1w6mfF8QVQRDt04x5Th6jIsB6R75NkAOaQ0ri0Mdkppv1f2tSWaQ808x9_rn4eP5a_rjgyxDEuGGYdTUKtJQpgLdMOCH3zMd5QULiWVWQiHiHVFsYBtfRTpQgDHgc-immK9msrIHiepzGCtEm1Bvr75QpjFavwI8IATW4N4jdOJd1wHvp-CLV-gQRWGH64cNI6I_fpB20tXgVEaFJ_szG-DvQe5yeG1yyk0PMVkfcSPCe03W-AGmPTbuKVx4SC1mE9pp1CQ",
+    "photo_reference": "places/ChIJfcjjYQBFBGAROdwQOhtg8As/photos/AVoNoXRVlCzxNbNbRefS1KIX8ruyfiI84i_iCaezevyiguOUJ6qtcPnrYU-lmXAGg_AZHhGaC2XwoP5Nii8T78xD8EtM-G1p_iWCa62x2vWDgjD-9NGVvPX_3IC4-8Sjt4sKPon6LPlIjvnPrSFyt1hb013h85xmLd48uiV8HR-o6I_lTNBbEralXA2ep7ZsRqs7-qMATqsiC4DBPFB48upUdNkLAOghrtPwljMaBk3YuxRoPTO6olduzvpFu0GmWwAaoJrjl3ZpaE4uDyb5BoKIpASkB9GJ9O7k278OaSbyg3395It3krimV_NhtCJg4o7SWkGVvljJvrSVtzIzBaGOj7Mz8tb0jwFrz8qzHlGj1BPuoZzsMhdWATqbcOAzaB67kWlgZFTS_bhsXW2ZcqY4J0_sU6Pou9e3khf350ICv8IV7FT2_3Y2terGZzinkQ",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2503,7 +2502,7 @@
       "google_place_id": "ChIJcc5llznVG2AR1EVzbZ8V2Fw",
       "google_query": "富士市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=6690121020939126228&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:38.802Z"
+      "last_place_sync_at": "2026-09-06T18:09:25.237Z"
     },
     "name": "いなば歯科クリニック",
     "genre_key": "dental-clinic",
@@ -2525,7 +2524,7 @@
       "土曜日: 定休日",
       "日曜日: 9時00分～16時00分"
     ],
-    "photo_reference": "places/ChIJcc5llznVG2AR1EVzbZ8V2Fw/photos/AVoNoXRa7FtvXIplaN5SJr0WFzSEXYWpr9VY2mwwrp0QJiubRdUbjSOlearjGHOp0T-094JYffFr3SALjsRTQw6JKEmBRXGd3Y0FVht4493bGRv6VypgQuy-U_JnWmFGhfn42TE5c45oVsOVYdysDGcAzGHnAGJ2PHf1wUbiO2RvnjA6H0h3qBViLDnMijc1_Mu27QVe9BaqpQx5KAmuUjN4S9yrcWI4VC_BS0dEcsBkUWzGShUzHMO9A4sZsPLr5FlizuS9yA0quw-NuybggBasmZ3UchSi6OKUmp4ODs9JAmXKZWu87F22HFtxaefeDyFIgs4IDx4UHKgRQVd6Sz79EDYlGRd6joKQrHI0Tk7ucG-_K-E-FP40Dg8yOhCIK7xtJ1nfRd7j5UtlIbUIbn217JBUZAKsAly9s3mEE8DzdgzN1LN5",
+    "photo_reference": "places/ChIJcc5llznVG2AR1EVzbZ8V2Fw/photos/AVoNoXQEKvpP97RGBc8utEqpM-frzHBWE2x263LnsjtHAyhTKwBLOzmL--unCvjwLr7vMq9JJ717vP5fIzMLZz4cKl4C_LATlJt3Rg9DVRd-f9BFAx6YYl10JhJWOaKecBGbKu7L2ifeOAKYCKShx1hEdRXiS9PMcoYxQEBddMprLxReac03BIchEhw9s-KdB3J4IkJPSuTn7Tc1_TwasJ3oJJUMcVgEIHrUsn0itqKmolvVjJvLk1hvnkgPT8nomy5ArVzutxiGgbJgp2rpCtAuEBRMAoU-smpqVAN79pKRxwZ7qOVKxKrpu1AHJxAjKvepexhyXYVB2_G5DesQcZ7PC3nYLY90tVuHfgsJ1Z7yJ0QpqDEL3bcqd-F3dYJu1YC0SWl0ttypvfK0RgZ2hitwRs2nVQY60IOPapl1JUSHrN1-S9DQ",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2556,7 +2555,7 @@
       "google_place_id": "ChIJH3No4tWkAmARUMnwvjkEts8",
       "google_query": "高山市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=14967155057675520336&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:35.751Z"
+      "last_place_sync_at": "2026-09-06T18:09:22.262Z"
     },
     "name": "おおのま歯科クリニック",
     "genre_key": "dental-clinic",
@@ -2578,7 +2577,7 @@
       "土曜日: 9時00分～12時00分, 15時00分～18時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJH3No4tWkAmARUMnwvjkEts8/photos/AVoNoXTITb69U2rEZAcmj2e4AYqIEjbwfGZyfUcBpK6XoniVMg73eNMjmmzqv73Lmc5NKiRaCGIVu-eYnucmv8grmu9oscDBoxzzhy0WcNJbomrp8DTLii2BF3iDO_WA5MmvrjfFB1QgQURT8MCKcTLJl5vlq6Efx8npD3wXo5Zy_igBWQelVOv-ikwUG6QN77uSYb2-j6GKzgMcbO9YST0Mh1ytbgjoXlrSgymxDPp8eQR8JDnNZ0K3Bqn5axRBJiHF44SPFMLx2M7kgBEaNwk7Txq_WFa55hdUBiy03VsL0aAl_s-QwVV_cO2syxJNL8kHQaKI81lz4-48-iDBILr82XXpm93XvFcryUlKDnHwAQjMiIi41LLqtYQqvC2WRny85UaBCNQTW72BKiNEWUr65hLAnu2Rzj85MyOCWly3ScdslGZN",
+    "photo_reference": "places/ChIJH3No4tWkAmARUMnwvjkEts8/photos/AVoNoXSeY6VQXlbpu70J-XVjCZAIrANtE1YAIG2-oTz9nA7Zg559e-Ef0mRA3K6qy3B9qwf97BLSmYm-ax3g5t1DLbq82NqUSeVcrV0MNbtuhS5xqBjGGhWQA1Ui2GRyx7hvM2e1dnvSfmySv0A7fY7zoGVOIJcDUF5OMPK5wpQMtcFtC62IYfIB7zi8YzQEbgxoZOjbXSH00OWRrhDL6hgppygsIAL_w0Ovv7AQ-JeK77dL11xFnEDUr9Acz5F0UdNfxJ3HPcOKhh6xwNCDgnmBzynzJt5oiQjGPyd53EdMzy7Lchds2DWWdo_cBx9VxEOOUXhfNSV5BFkFGKZi32H0_jU2lFLTkzOSu2inOmBW4ztSCGt1cswzQzqBzv0LunR2s4yoIVXiz1y2dzJ_qKmxrknQXWcv6oEZBAc4YTU2MO7Oh_V6",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2609,7 +2608,7 @@
       "google_place_id": "ChIJV9JqX5OoA2ARngB3wlZbTWM",
       "google_query": "岐南町 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=7155475811149480094&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:45.794Z"
+      "last_place_sync_at": "2026-09-06T18:09:32.066Z"
     },
     "name": "おがわ歯科クリニック",
     "genre_key": "dental-clinic",
@@ -2631,7 +2630,7 @@
       "土曜日: 9時00分～17時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJV9JqX5OoA2ARngB3wlZbTWM/photos/AVoNoXT_lPxqeNx6Ij2cPYbi-0sVQ_Rc6usy30Iba8dDTx6OkmbMjQd74LwAk76p3DMsKPJAJ2nwmd5K_VmcNdIlE9cqpDBy4yw8axCH7yUIzzqUxB-vC44e443DjlNT6nyc5c6dQIKYxYqGYrTF_je0tFGohHFN8GMAoyV3DO3AzBs6n3b95aCTD-YAJupKWqIiqXTG8wbFd3wtGO1QYZI4CioLlOI4VUgwJQ48IWUvomySMWJjm06pj0cP1dAwuUcFmjXCLH9NZMppxiBynXq6OjKbnrRo5WpDFykBC88zULFQy-Szu_PcR9_hEhiti0MZlAR3UvGhVQHpkLYp25qh-d290555EeXUkIIuTob4rX6XCHJnfvbq6XNVakFo_WPV9FvO-yoJ0r-Y4IthR5OJyPD3VztUOzwBn0eQV2NBbjLrg2wA",
+    "photo_reference": "places/ChIJV9JqX5OoA2ARngB3wlZbTWM/photos/AVoNoXQcGkQqkHjTmkPUGUIFNmmLLaPax1gToOnyVKtVPrdjhS2owcvxOO0W5SjR-YmfxuxV4YlXacxV-URuo97Q8IK5tBTvR1n1t4LR-ohbhYdFYEvSGm34ttHoYOnVJW1lyHvdaRdnsMAHpigy9XHOOs74d1aYRyIhhWHFwZY7RpQG53GWjmrrkqjC2AFa25RmXBHkMxBYX-x8Kje39cHygloKbs3p6ObuvoGppLYKrmkkSPFxN-ehbFMqdZNgOCcVQuYpj0dqz87CHmyqimDIGYLKvISBlJtfu47os7RNlL8B3acHE0se2nT0fwVMYuRR7oG40HiJ99RPULBPZytSwts8Tzs3r0_6j3ekdJjlHmHBy9uazTnj8-PXk8eMZa-wqohh2nYBIjqHpYSZyNdM0IFfRCpk74wlZrb-9-OizHXefBlc",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2662,7 +2661,7 @@
       "google_place_id": "ChIJq0kd_EsbVzURH7VLW8mJsLA",
       "google_query": "松江市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=12731827644489512223&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:38.548Z"
+      "last_place_sync_at": "2026-09-06T18:09:24.961Z"
     },
     "name": "おだわら歯科クリニック",
     "genre_key": "dental-clinic",
@@ -2684,7 +2683,7 @@
       "土曜日: 9時00分～13時00分, 14時00分～18時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJq0kd_EsbVzURH7VLW8mJsLA/photos/AVoNoXRkAHillQr6vM9APrperFZJGVX8lbNUDXLNu-3ROrdkApXCRMmImwqZlD5uafKr61Cs52R2K_98IHScjFqo5hIoapMiv3AeqoWvEJYpDUnquYNTMgigNBwWZeYDVNmaV5ePGl6r6jUlBSNdTm9qn_x6y3HYv9ELfUwHjdCf4i80qTSQDSNUMj1OvAOBCrUDBvqpvrRssset5XiJSrNV82blw0OxtDhMpsQZu4cUslJp87-RiEA3pu8p9UhLvJYbl2wkWm1RSC31HA1xVWp0Yn0zDNsbFTzc5zQjPvVqeIBNG21JwQuLmQGFACqXHp7-nLCyaqKLngNOHgjLctnx0k4i-CcK4d7z5Cz4dIsUWoksPkz-d3s8YEaHuvRSXGd8d33_wpC95e2Y08TB-1nosTyQ9sWVHBeLDKiXEj15Kj4t3Q",
+    "photo_reference": "places/ChIJq0kd_EsbVzURH7VLW8mJsLA/photos/AVoNoXT4w3tTiYeWgR8_5f056w-WI4O2jHKrjSyc5Pg4UsJpfxYPO73VyHa6uKAODkxHoW_nuErLrNdUBiN-31WbV5n47T1DnobTygJhkwy2YbWpYSS-HruBbCmIM6iTGiZ9nB_zj7Z1b-a93PnR6EgXrhb4DczYdj1cB1yOFky3HhE52TqlLkw6seVxWwgv_ACjlsB6nSQyTGDqxxdKP1rt5PCSSzD_bR4TB54XmGP9i37nlA1KHnsRHJr851JbJxYykWxzTEgvAK4u9nID6EgtXbjRiAMgfbHvxyEkh5SfABQyjHQdeOubErYyAecUull4tRJcpVmJWPS0EnFILaqcrNU9HqjTK5SxvPYowzoHUg7JQ6vxgPQiA9maUqVfuLCOt8QwO15bq7osk0_mRsTNSgTlddDPJdq7LlJc1NYkDh4eYw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2715,7 +2714,7 @@
       "google_place_id": "ChIJmSapbB6R918RpG1tO4Z9rhk",
       "google_query": "富山市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=1850554512371969444&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:39.868Z"
+      "last_place_sync_at": "2026-09-06T18:09:26.376Z"
     },
     "name": "きっこう歯科医院",
     "genre_key": "dental-clinic",
@@ -2737,7 +2736,7 @@
       "土曜日: 9時00分～17時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJmSapbB6R918RpG1tO4Z9rhk/photos/AVoNoXSY6wh2jhVKsbNUbUHrcOX5z3cCKrWSgs_TCmxb_5QdILz77qhk64WQCHNjRwBWmz4YfxeOGstoLi6Ypqm4w5tlhVLqyLbxmPQWBzJlN2jWlqHsETknaqz50YcUfoQWkuHiCYNom67i7-1dGNF3zRtjWJ5IJlpcwDEgAIBJ1FZcKfFzJAFjUe3boF-eYMzOMb44hDh9T3x4mU3XcZRuVzu6Uhz_h5fi2axTvWvKnurNDvJtbh1HOV5NS6mxEGs1VAKZU25lRxnIvjPl_N9oxqzJ1AD5ykyIF8Jyy_pG1FPCyffXyH5YQsCs7L853688E6G9btwTEjtCwuRva8VnvCzyTjIs48NvoTUTSzOroiCJaAvBqxWJX0PggMMx65e4gKcRehLHW2K-8vAuwoXXr-nd1C6PvXstisH3GcTfTmuqbr2Uc0EMm2qvFhblsufZ",
+    "photo_reference": "places/ChIJmSapbB6R918RpG1tO4Z9rhk/photos/AVoNoXR3E4fp2EQTojXxE-NAUCnRDmTdWh_PrzdfJjXE9onhykHkdcJcTusciQt3JfW2SNww_RdBZ8vGKrtbmxYkUQazdgKwjkk-9f0oH9_qB2f1kuZitIbcUWtLRMjG4VenCpx9PolfZu5PGadbOTAKHQrS07xY6boMQclUpcnNmFSEbplUMlj9ezS6JwmO-JRgHNhDD7zoWccvXMAJ8nG2p4NlVr_BWP3D6sUHvsScaHeiPGN3C-DozQ_uVgC7PmH1ViMwl8mFhRrOm-LZD3vP5rmFUGzBGChdqrYvhKibQqLSzVWPY34jdBoU_GtQge26Ief0zeKxzzOadk3k3SG3iTeZzWrYTNT4Un4yfebn-as5lo0GQ3O51iqnr2R2Q8EVS-0ujoLhr8P6UJk2SsOy0WhSXrenHpQhyi_xsKgORv6jSw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2768,7 +2767,7 @@
       "google_place_id": "ChIJxWvxxtfxTzURJydTp3Y2hbQ",
       "google_query": "松山市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=13007862981970831143&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:35.495Z"
+      "last_place_sync_at": "2026-09-06T18:09:21.997Z"
     },
     "name": "きはら歯科クリニック",
     "genre_key": "dental-clinic",
@@ -2790,7 +2789,7 @@
       "土曜日: 9時00分～13時00分, 14時00分～17時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJxWvxxtfxTzURJydTp3Y2hbQ/photos/AVoNoXQMa7UAgaaw5VeYKZdGESoCE0J2lVLQS4ZROfxUO0MwlDLFIPxjCHoCiyhfk5Ag0Il3Rie6sO-lGVxkvaFflm-i0D2_xfVmI6yttox6xv7F3zvd70pQDk8hb7vKMDoJn_MniJ1PCDfe9KixUJUyXHs0NqfBQLq3-Uvuxw7AF_5v5v58KZgTgBRzZu14FMVb1DzHxyOciQ9kdo1A_pmTRBQpI2QCzPg7bVFdjC9KGu65q4fQo5BaaWStGYIXXzKwXlLvURgFsAwIEsWTVtto7ijrSlZ3r7PyEr3WCKdt5SxF638ZHLVDOO9AWHDrHRYRHFEd1flQUp77OBD7GTmtXowVLx_f18pz1vP-CROVr2II7cTvbTzPvwHuhHw1MZ8MdrD5L45c8KAxEq7OF6a8qBSq8TKBpBPm3DLoxObBDEurr6ctwk0UJtt1tGfF16fy",
+    "photo_reference": "places/ChIJxWvxxtfxTzURJydTp3Y2hbQ/photos/AVoNoXQzD8WVa4C1EJK9dto4JpgILY8i1vmSLW4pkfZ3S-CXErkh5KWo6wn0v40W7KgsG6RxptHDv6eHC5zfCqJkFTLPO9TnVscNmN23yXemhIDoPRPYlGsqxwhInj9vQ8EKtTj01gY_dlQnNpHyfYJ4AxC7oYgyufXRkkJb3uMAzITQk769_rbDfLJvXeyYl7Ajzzz_X62a-7_yIM0tCESV_wwjC55e_cK5SmyQjkZXzLTTMSNs4EheOGk8ANRr5RSSWMSqwwQAei15Os5VFNXmclg1gJ1IvCUEhSUmMXmJ6vOgmtLdkauEFTsb__0vWLpLMcTHO-Nk075LwcRcyGC8XRB9GCtjpstZUucpqCkuGQsSd53trYISVILVFx3SWkq6q3I-xBVq43q-vm3NV8wRz4h-Ohtvwb6sYpnFyCe9av3IoDLcsWk3tqrg_W0pBjle",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2821,7 +2820,7 @@
       "google_place_id": "ChIJE1vTN6B0A2ARlJ1_NGkGGzE",
       "google_query": "小牧市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=3538428981151767956&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:33.228Z"
+      "last_place_sync_at": "2026-09-06T18:09:19.794Z"
     },
     "name": "きまた歯科",
     "genre_key": "dental-clinic",
@@ -2843,7 +2842,7 @@
       "土曜日: 9時30分～13時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJE1vTN6B0A2ARlJ1_NGkGGzE/photos/AVoNoXT6Hw3w3YNjXyPgt7ejCCHCDaQEi8ZMKg5yeoXO8oCt13fkJ23MGwWtZkpn1l_Lfj2bXUPPYJtgQ5FkoEEBqZoTVgq3IW5SbXjQLmaYQ3X9p8nQ5FDZetH0TsisQmoqQxseoJbxhLzTyHVZaUAs02XYLoiqdn7cMJjEsO0bvMnvprIqeAjhNndE6iEk5O0mJyt1MbePGbBAU1o1rByn87I3jBx9rVe9K-uYmdD7LUcTZ4g-QfuybslWIywK4KE9b-_r5wX4Km5ZFagWD6haCnmmb-I_58rpREpwgZLk23EJv8gnxp1m8qGaDjUHZpF2Au3dLLOqtSWlFW8PSVFJCyKQmlzvx_rpk5-aB6ugdcoYeJvTwb7rVz5MaQQNUx0xeekXK6U5EZltUrUlc2JB3h-HpFpAMfrIpw0CWpypyGGXuQtWltAWvpfpn_liag",
+    "photo_reference": "places/ChIJE1vTN6B0A2ARlJ1_NGkGGzE/photos/AVoNoXS8JwTWSzgLMa9TbFairOtCqIWnVkRfiDNLGLczB1YpUMIW5I2o_T48-F9TbKVAAUCj_FY_z0lH_WAsNWJVnsVAfuPE9R-dws_9NDfqttSz4aAT92k-Vk9j7vH2QAYlmsE-b9uO0k_JPl3PXZQAroKdkTZXhtg9n_zXCDT4yszmqBmEnFZu6kuKMfr9239J2YRTW5u3RuydHlMFl2qut6JmtGcvQhrzhyqAqSThgRQqYCsK49s-NUmjK-eIIJyKumeZ4zzYarHPvcSLucH6kCThTARFjet_4ewZl1cpGQtOk-Yk0heuKsKlU0EYcUZaCWIj0Uhp2pIpKzV3hlXzrRzS21EqfgEqSYUatXfyfvt9ZKLyY9oNLDLt83fHIPT8UaeWp2psK8Rz_7VbV_8ZE6kvDjYogH_7viW1OS5z-Rib466teyWt--Vx3Xog2A",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2874,7 +2873,7 @@
       "google_place_id": "ChIJDaxWIwAFVzURJ2qnXbO_ktQ",
       "google_query": "松江市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=15317516059731782183&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:38.548Z"
+      "last_place_sync_at": "2026-09-06T18:09:24.961Z"
     },
     "name": "けやき通り歯科クリニック",
     "genre_key": "dental-clinic",
@@ -2896,7 +2895,7 @@
       "土曜日: 9時30分～13時00分, 15時00分～18時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJDaxWIwAFVzURJ2qnXbO_ktQ/photos/AVoNoXTzPunKPKGhWy7v1IbC3QF3ZPgUn0PBe7CKKtSDexh6a5wCTvF_tK2_WFSM5CXdPPBYWaDMoUvfGn-awwMqvLROvNrnbiZAAGO5x9kqN3P3uiKs63YSoD8M3U-QrYJIBfMo4AFiILQZqfzfck6d7q3nmkjokvuQsY_NBfJKHJvaz8jvRY0wTESUmiWy9djFyAwPFr9KkO7g22aQRUhV3AaRTauEAOjWceDewQeRF0Bl_B5bveVOMDqv0pLd9IgS77dyuTUwHgH6tRaKgiWFQfGObHul5nfmR7a_zLNWeb-yknobNM-TH8qEVWAYkyniCf_b-95pjdL33g47DU27XZvheueKXIF4qo22dGp_00LgICdKpiqZc9qNy1kufOclPH5k89wtb1s0IGk1hjt1ddTRIgh6njWFYxYSrJkiRTKQfLnhHVI4IAHQa70sfQ",
+    "photo_reference": "places/ChIJDaxWIwAFVzURJ2qnXbO_ktQ/photos/AVoNoXS_S-__VkpZ0iY5Mer8_rjw28XBrx_RffNw0A5-UrUlJO0gLfmEzZq793DGeuE9DsUZ6sLJXEk2jWX09ZcZ2j2ly22B2u6V-3d0WWcOdARVE_ZjXi20EMyjxx9wXGTGOroe2r-Pwbzg4IT_VKZFqQ37NfahvjIWMHsIybM2_3aEOkBqQxl5RkYkhzrZ5oG3UtMZWfaJaZR4F4YM-cKXgl8SUsR4C4GJ_66zkLUh37hHmcE0t83EV7sivDRAXkLNqT4VnKV8ChDO62P_zdUJvm3OEEyAlZk8FyNwc7uvF1yN19XPaKuAItYSqRQ3zw6pcsCaFb5m7KVspezoAO6i2pvLdhU01qzlaKe89mkgeN182tuC-BdWD013tlxml0uIgxXaa_rqVM_vedpzwZ5YhDT-922RQmtQgFX7n7PoNfnnuugvjfpnxskh6cHzXQ",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2927,7 +2926,7 @@
       "google_place_id": "ChIJ277E1oSCBGARNyr8p9DNdNs",
       "google_query": "大府市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=15813490487659866679&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:33.856Z"
+      "last_place_sync_at": "2026-09-06T18:09:20.391Z"
     },
     "name": "こころ歯科クリニック",
     "genre_key": "dental-clinic",
@@ -2949,7 +2948,7 @@
       "土曜日: 9時00分～14時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJ277E1oSCBGARNyr8p9DNdNs/photos/AVoNoXResn1GJ7j0Oh4blUOzGicEyhvNvxCHfUOKf2gT1EkiYru2fxyzEfotBZWlDLIrXti_dX-OLhxxlIpSIhM4BZUXFZUglZbkRCtKtizVOPNzctWw_QP1K-jtflCwI7FqCz1Ix_Tf4k3a4y0pHgBwzfjeQoJmvZnxxR4J5uVzl0d8aqiQBgjf4WAqf10GfPxLfyOlohrVZZjLKFPCSRoK_itjMM_YWLGnphNmjv6tg05VH6uefTNx9VPMy_GPVkUJKsqQa8vFpvKdQx9ld1NLgM46U0R4otW6-XPPNE8FxFfgoVEEcKUTOzu_o_FduemCq151vWEl5_P5p4DuTcCl3xgppI9MgVBmbJuxVfWNqoCoR9N1_7SmoQWQ9l-4MG-X0fGxaKoPigRu-_bff9JdauJtPbEHD9X3bhfujmKLr85ZbvFteoTh9x09oGQdiBde",
+    "photo_reference": "places/ChIJ277E1oSCBGARNyr8p9DNdNs/photos/AVoNoXSpG3Hp-LgMvtMbkI-7UDC8HkgIvHJ7jEjQmv8b-T1mGkircJVujQi52iGQsZCI7PBIlbW_64EacmMViqrxubeGGgnpnfLAWVyoq_8WHd2GpsAuePjN5YKPeMt5Nu9R0v7E0HDo8sNxnz5ZQ1qyATLQI1qaH91uihsRDNSDvT7pKChWX_XlRxHAS0M3ad35JxJNK95Ol1quw4IhD_twIoBaSp4BLAm1HLAnQj0auzkdxrMVk9FaodlRGGu9RaVDvoat6VARSxU-uvue_RnA0ZjlH_i_FPnxD0Vx_ULPe_GopH5jE5G19x2IJ8edYAh2NzSwa-G194Gele5XA24Sp7iB1nS5dR0MHcF8p43BMKPaXhS2VOHlRHK9dJK_YGuji1f6n6qT7XJuwM_GtlSyuVFAfF76SlYwiOotzXWGRKElagtGI5Z1_RRS0fD_1LNP",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -2980,7 +2979,7 @@
       "google_place_id": "ChIJ5Xq1fRGHGGARabv5UGOdCeY",
       "google_query": "市川市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=16575952953399688041&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:35.144Z"
+      "last_place_sync_at": "2026-09-06T18:09:21.678Z"
     },
     "name": "シティデンタルクリニックそよらリーフシティ市川（医療法人社団 翔翼会）",
     "genre_key": "dental-clinic",
@@ -3002,7 +3001,7 @@
       "土曜日: 10時30分～20時30分",
       "日曜日: 10時30分～20時30分"
     ],
-    "photo_reference": "places/ChIJ5Xq1fRGHGGARabv5UGOdCeY/photos/AVoNoXRu9_RI2-WkHCR1M5WlyCCIXhdiKm_-booTFjYoBjCTVjoIalzl-jYjsclDY6UXgPZEhWwhClfV4_xc-mPOGXAFvMG6I0h91QHQMDdcFA7yNO1NtFcDkcZx59YkxgGmatg5CZ_fWWtycW9rnsnTJ11IxhtbPRqHfFTIka6-seNA-F-0vGP14bmK2SGfOXeOhU3YWtKuUxA9XnEj7J8OyzKwomuvAo0ZLZmesrUz7zAQTsPk9HBI_toN0HpF3THE8YEFHSqiBvbHaI1io2Fms_0PvCexvObOvq0MBZ4PFASMGd4PYPDsEo_T3sLeq0Wga8znM2ev83tIGxLNHsxJOAgmwRlKbwtZhRoYL5AJKyeF6KmSLPL8_3L6gXm9YQYTFoEV3OeUmPRMq4Do_zLRZM8OFM7gkud3nCppRDuxj29OXT6H9Tr1eo2J9aLC4cJE",
+    "photo_reference": "places/ChIJ5Xq1fRGHGGARabv5UGOdCeY/photos/AVoNoXRnvfLYPobzMlswVHwoYa-Co0AgWKZnaAG1pGkb2WsFz6AlUT-dYOOEiMA4GoJB6l0-AtS4E_q2wOKgCZyWj9dHT4-UiY8Whl9gldYfXr5-9YNuVfawK-Gla_cF8nM7WEeFmzL5YXJh9fayqdvMQxj1eyaWcCQIQMmDTbKnUPXxw4X5FiuA28ZqDPlC9rIDjxfPVxg_CDReWcMbxEn6VArB3YNWKgKWxefkBiMDzajAta8yViB1vd0RZqyABXoT8eI3Z-VPDLlyJa2thok8mjz3FTrnwFvmdtJ5hg1g2OeIGlfvq3lAMF0qIIAiGRoctJArVbhlWje2TJ55WJu1AOQ3a64g4ij2yClb2nTWVgIbNbIOZicJOzjnEuiAfaO4uQ7QwNjU80h6sHPUJTSJoOPnlJLCptF1Y9mDicf_I0aMm44nhnbdd-1-ckdXZESw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3033,7 +3032,7 @@
       "google_place_id": "ChIJW4xyfEd6A2AR_pLeqqfBe2g",
       "google_query": "名古屋市瑞穂区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=7528824127950328574&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:48.980Z"
+      "last_place_sync_at": "2026-09-06T18:09:35.172Z"
     },
     "name": "すずき歯科・矯正歯科",
     "genre_key": "dental-clinic",
@@ -3055,7 +3054,7 @@
       "土曜日: 9時00分～18時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJW4xyfEd6A2AR_pLeqqfBe2g/photos/AVoNoXRN77XAJ_stghP18eofOsNYtakpxa2yDns1w83yGDRoIWDuwF5A3FfOHFUAXPZbLIHdR5TPzKebXxyxmzGNxp7wonO16q1DLehRsOSBC0dUBvT1-Ef9dwRraN5dev92pTVlnAlyQgolGP4jeQMP7o-hE8gxBQTf9GFZJ8P2N27zRQv_kg9YIpeZU_Sad156hu2VPYMrOSwtuwu3jgmP3S4wLaFWQ2hEEqUtOXt_UCIGWdfZDWcl8XhBpo3j2CpiOZZIeYYfym0zTiALQeWXQDwFkbigSlXtO76fdO7iy91jWvx6XNt0OlAopWPbt5MjEyMR8B7V_o1tQb4D93mWrjqibUY_rKmM24WKGsSJaUG_d7CYrzwa9KQN2qCAF3wdfa10a_0TErHbaMthTOUgigojPQ6LTzLxxGQHbRXnT4xaJy7-sfR2FV-HlTdznA",
+    "photo_reference": "places/ChIJW4xyfEd6A2AR_pLeqqfBe2g/photos/AVoNoXTqheeIuWtJ0GhBUfDbXRhuGBuXMjdlc2si6GoG0_DPBHHuMbr92IgBXaymtG72_RyGugJg2xLUtuq8StKT8D3blTQKOU0g3edPPoLhJ6hxgMBkgqfrrAxrg1clFf8CujM0o4H40mY0XVmskUdMQ0g3XqaZypuyOKabma4JZY-Ha72P6J-FKSBE714WXGUV1XQO1gHFrWNmdIxRt1bLTAFTQHOFnyFIbqUz96M7m_91XsxNsV63sBOXT7oart98dnLh3eBvwvcoudsaNrR-v5th5lbI4r-UHxKzW00I2wyoyXTL8DGbgU5WG0l5o_2kEMTfzVeTYiti8RK16knEdTxzgQRSmKY_A4Em__UL3uIobjvDloWrmse6KfaLxGjPL8gdgfFbnMdu0YNcAk3cIc-hOY6JGDEqjcqWjimqkkpnXcpU-9eIrDHZ4tIwWA",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3086,7 +3085,7 @@
       "google_place_id": "ChIJxdp1eza7AmARWmNIRaZBk0Q",
       "google_query": "高山市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=4941365398538314586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:35.751Z"
+      "last_place_sync_at": "2026-09-06T18:09:22.262Z"
     },
     "name": "たかはら歯科ファミリークリニック",
     "genre_key": "dental-clinic",
@@ -3108,7 +3107,7 @@
       "土曜日: 9時00分～12時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJxdp1eza7AmARWmNIRaZBk0Q/photos/AVoNoXTAmizH675p96PNN5DC_mks5cuVv9TWV6snrvapDTWlHc_iACl3lPgTySm3c2Tm5lwAkGJivJ9-OP0TmbQ4neEjQnFkr-1ZZqcG5i6kDFRsf_porihL5QaCsvBk6DP2h5yVtI8kOS1fkto4TSgvG8Q8hyYDtIv4vlD4ImFnEGKKVRrZCm5wjlDAkzQU35i5crJC_QbxNp5LM08zrmWx0h5xK2anCFySeRp1yKrQg2CN87mYV9B93k6_pC4P5sZYanSQ0yMP0ypC8egWResxxYxFgp_8VUUW1Pwafh5xaVzJjn3R9-8GJuh7HDWSHWMnYwPR_de1wulahROUIkcKsqjbPbv1z7u6rEGZh32uQSPk0xYOYTmmnyt5Iqw_VFxVxRnFdxKpUOGMEi5Fw11Z2k6ghfPJ9KHZwkTCizCEOBTtpJ1P",
+    "photo_reference": "places/ChIJxdp1eza7AmARWmNIRaZBk0Q/photos/AVoNoXS8j-A2gpDsZoZwLNPTXYk_VYAdADI4OLkcDsccjw-9OgXZ3_CXSY5lcZTIbEKHZn5xps_SPuyl2vk6iGyqFZJ1JHqEJM_3CScEpwedzzjMLlCESJq08lcgxd8MRPI4_0bzTwvQx5yoPvVTmIUwVdTFzYYeKvvU_cmdmAyoVEvTq47jRgo7Cf1pGoxjqsllfCOQT-youmctivGlcpr4th0AB6j2axug2hu9_8ySLmG9uLaXZdF9ThubBgzW3rdgx0zpSdvR_vC18i6e3Ip6-1Fq5t-DKNglfnnl975GMxV71vwXDbjlDjYq8gmw1jBu22sRDs5t2YSPg18HY2O7eGj9zVijUq5I4A33h8e0cnXMzeI4jJ37Dkj20b1DuTIhY_6XkCBlbunAzY9u3AbVXzcLlrfIVVpv2fA7mAsGZVHXzYCQ",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3139,7 +3138,7 @@
       "google_place_id": "ChIJs1yoc_iiRjURerKsLLcDgho",
       "google_query": "大分市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=1910093277221925498&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:37.977Z"
+      "last_place_sync_at": "2026-09-06T18:09:24.420Z"
     },
     "name": "たけお歯科クリニック",
     "genre_key": "dental-clinic",
@@ -3161,7 +3160,7 @@
       "土曜日: 9時00分～17時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJs1yoc_iiRjURerKsLLcDgho/photos/AVoNoXSqYSARTb_lobRkWp7aPxBFYHfBjp_2tH_hm_FySQb5YHhmVVzuuTqfKplroAupNYx83M85M8aa8vr93L6qluvoBi4BnErbSB-zLsq0iWkE22iKoxxAkFF7hhGUffrxL2zjJrNXAoD7q-oLx77reMob5BqxdqNlC_pb8Ocu1UGt8CHkCfDeFjVMBIp8TlfmavgJu7wTrrRXRZN0tlvFwlXc696kshkeNReY-r6rFZEGP8Eb6z-KX95BoVaqTTDKNLdrXTV6hvCusrY3YlrvBI6csukSYSDRSKwLIq2NZ3GD-AnfbMhyzqIgYuPQVT_VzzMeUAcO05HlafR-N9XAaO8ibHd-_NkkIbhlCT71_ZSiKp9ec8o0cP9JHBnHV2dqH_CbspAZhMSx1zt_jlqHGavMp22-XND0_it8tkdCDe6D6-Z0cHAXzocjZFDDS0qm",
+    "photo_reference": "places/ChIJs1yoc_iiRjURerKsLLcDgho/photos/AVoNoXQ3eOgSjmwfgwYrIrF-KyiHgi89JVxs7i92XvKeROmnHy0CHAAiE5fZ1EWF9lII6XURRzoMc0wNhR5Uro6xeGsmuxWXXRIWalDGVGeynyrKZTfTeH5jAAKNbtOsWR_SvrgT_0Ys5YftFSjuHKsdVc2gOLe2YVWBEWotloLTIOsaoVFjfo0P6X98HLeEXO_BxJYZO2Jvv4DK2k8vWYiGd-3jr3jP9bSJ6Mk-eFsazzeqlJ4ChJTHJeMJlR_B9uS3PQewECECC-F04nuX3YQSnKcEk0isT_XcjpNuYraVwlRA3utXsgfTIslojqPS5iSxf68JvB4Z2zZDOVLJlzDrgTua036oUo620yDOu5hRLewBD1QcjeFCILoPazggB3dFoomJ4p6gSY9pyYnTZfpFNSNqSA7kaS4OTXq1PyiVMKWZX9lc1IJU-WPr5DZh5Hmr",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3192,7 +3191,7 @@
       "google_place_id": "ChIJHzYW7tzvTzURRIEAFvD53n8",
       "google_query": "松山市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=9214076697203212612&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:35.495Z"
+      "last_place_sync_at": "2026-09-06T18:09:21.997Z"
     },
     "name": "たなべ歯科クリニック",
     "genre_key": "dental-clinic",
@@ -3214,7 +3213,7 @@
       "土曜日: 9時00分～14時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJHzYW7tzvTzURRIEAFvD53n8/photos/AVoNoXR1uWWTIsKmzYXsFx6sob2z2beINWFX2nqoQBX1s2F7ghn4Vo2vTth-JI6adNqhhCpVQt-BWdkKUqzsHoX2HHqm5GmOJPNMAjvqFyK-tv0cc47kiUrS6C8ZYGIULn0qWKFOG6cqqMQ5dxi5N6cHc5lDqSPChrB21xpE1hJ2AeVdgQVOoq0EgFOPK2m5RRzEj-zZH_Hr9oSJiAGLZqT9prohlFPX0WvMVFVwQiATOkivaOdKibIOguoRXVPJu7_5INONwcduarFqWAINmeq-NWWJJ6z-AVkkfRYKRlHipvfxiYsDho6uQcio03NFZa1IrVTr9zSqvWJaAkvhcJsexQjxmQWUqKVgGkP7tPnK_Bzf2Q93svzQHlq_Du61gSlfg-0PQn5v_45ebBjlFI8SiDoymfsl0nLokf_YqyjpXsgsYS-3ewfv8P0jlKLfzCM3",
+    "photo_reference": "places/ChIJHzYW7tzvTzURRIEAFvD53n8/photos/AVoNoXRZjMiuMdh9Hf_ALuvC_8sE7pb84r6OgOMJOg-LsdJKJPj0rUA5wGNR5EBllnJn8BrYNCFFpYowa4hmPK9JBF0NL56YO2F1CKeUMoVk5Wn2RBkpvMQawttfHJ2e6kBKTwWSJHRmqzhOys2tQTorc7LI6XNjS52pZAtF8pKt6VygyZLBDHoC42UoHFIS8M8LXQh4Ht_3liNgxeOVMFo3wBVrM6REDz6cR3AFkQySCOluVElvh301vII9O1C7a3CYtTPITwTh038kK19hkc_FxnslBpoFQGibNrn4FB3yeKwLUvGNVLowgxp_EGxJDyGdJ-UvMVfGZUXsBBPM26EGps6SFqEgIwXN490wODbXILGdLN3M2NGfvWNSxsQhfobUdVK2e4KSJyT0MM23-oMQkbA-ePs5mHviwS2bEismMnz-BOOX9A2GwZvMQOYyPukQ",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3245,7 +3244,7 @@
       "google_place_id": "ChIJPce8IJ-R918R02RBayelA8U",
       "google_query": "富山市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=14196372039123690707&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:39.868Z"
+      "last_place_sync_at": "2026-09-06T18:09:26.376Z"
     },
     "name": "とやま総合歯科・矯正歯科クリニック",
     "genre_key": "dental-clinic",
@@ -3267,7 +3266,7 @@
       "土曜日: 9時00分～12時30分, 14時00分～15時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJPce8IJ-R918R02RBayelA8U/photos/AVoNoXS2z91Yt1wjIUqbICJgFckDojzJIGv8y37IM8MTUvMUG5bFgtTgRQh8gkZzBWYz5QpzJ5GOHaF59iVzza0nrzOAPlytwoH8PHS9eTShB9TuRo8JwRqK_Qcq2nvxx3CNzOwjU7D5h61juOWdxTT67W1bDRgtvLSqoIkSYlvxLautFQfVpkJzHf9W7F1Gg3zXo9_MK-zuFvHhLGyDsSfUlLA3crY-co_nVsf-0A26TLmct1xLGmGaghjN_pl926mRE7qDZGUiw0Fn37E5WjDQkf1D6WkjvYj40qdSSy51XupQO-7B6r-MVD6H_jRyJT_OrWbnGnNKoJCqL561EpALpRrLKdjx9BuHUqjdckc6O-TxZB8kxK15ke3hmB-pMW-g0fimiXPg5bvvdyqYM_GwKkAeWK9_4eRMQPgrfmP02FQ",
+    "photo_reference": "places/ChIJPce8IJ-R918R02RBayelA8U/photos/AVoNoXSHXxpBm1IgR4L8Q96as2-YmvMcGZLAFnc0gXrbJYXXC9lePiFxylIt-V0DyWNrVbyS5HVFgZfSawHklbx2RDGczGGDHDAQvVzj5W3UMO2SOMC8rn5RhYY-aumfXHvnW6yP4pqcpQodWNn889yF-ZO3FyeSBj7s5mXC8cRU5-hkvvx7OSkIXzcTqk3dC73RH5ulz2hfufaL6uDzNko3SnHrrGStYMNezg2MYTDsf9tvGZuCRxReZ8RGUok-HWbEJX4EKvRTLLCaLuDvECjEiB5sB7k0eg4xh4Am4xEw44aDn8QSzNhJonE-JUL4Pao_8tUHXNb8lPA-AYa-9YWGGoL5ZmZDK36JSQRzAF1iR6rLcOzkG44FAqyINNCTz5gNqDSQ8dV9Zrau2xfFfODWwOgtugNs7T-2f-6rctUmoiM",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3298,7 +3297,7 @@
       "google_place_id": "ChIJR67GSgfgVDURUlewEQar2Io",
       "google_query": "姫路市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=10004934614758479698&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:36.351Z"
+      "last_place_sync_at": "2026-09-06T18:09:22.840Z"
     },
     "name": "なかじまデンタルクリニック",
     "genre_key": "dental-clinic",
@@ -3320,7 +3319,7 @@
       "土曜日: 9時00分～12時00分, 14時00分～16時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJR67GSgfgVDURUlewEQar2Io/photos/AVoNoXTBADASaM0CpDWyyi5DpEr7zqS465H3GAR7YJOBYUgMDFDD4Hr9aZMgYizWhVFI2Z7putoBot2D4mTdpGFTjHEIZ3Xl9qca65CmEWDrFNdWaSsi-Hk3J4o7IuT6IoknLq_2sBlJLxqq-2UKb3L7p2u415J3sHUbeZ-UAEpuryA7F16SNVXZltVwgQEB_g7gcpdYFs22OqbImID_BOQEyj5aPBMppffL1pDRJwNPqCc3MM3QUwPrIOqnizeFXKHeOIHieSLc9SNZZhKsEQTi0mwSCA5TsV9br-Q8S7O_SMhrGroa979IBJTkbERtPzu_1NmpLZ5SY8C9QJSQuhP02iijQOCgo1pPH39LfocRKGEeiAzp4lWOA2swqGa19yftSZY4Ufp1Z9Br7kUbpzQpzLn973Wkr4idaQiscMtd-57IWA",
+    "photo_reference": "places/ChIJR67GSgfgVDURUlewEQar2Io/photos/AVoNoXQ4YGscLVwjQUFo0rSphN2xu4Z7v2IODl893eiHeBPeDqJ0MPrxK42NrXopVk09NE95bJjtW4iHibl56Pr8DZswjTWUWGO3-1Pc__iOIeBZdSa1_y1Vv7yu_sxzZ7MZg0ybZlQkgPWvv45oNr8rXwEvzI5yRxD67tAaOBjwl9Nw_XYrmq4Cf6o1v0LOuJUoCgaX94gYPIeeC5zRm1HC0VlY54_IhBNBL86O5McHvZZ3sSARqleIY-9I0JxWwrYC9Cdlj3502ACxhdj5JKbjNUiBNXcK8R6zOWT6gxtbTLVUL4KzI41ZYs4gSJIGmuHXjaCyYw8ROSle-0Q3PmetdKBrVd-SjUJ1AKv-_Zn1DdIN1jtVsnazd2aqmyJJI5G7r9dsMVRiioL3fgmz_sWPA2v_Qx5AdvsCfGRC9VLEbtXsKg",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3351,7 +3350,7 @@
       "google_place_id": "ChIJw9-qYm6oA2ARb2jRTc6_Oa8",
       "google_query": "岐南町 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=12626333923099633775&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:45.794Z"
+      "last_place_sync_at": "2026-09-06T18:09:32.066Z"
     },
     "name": "なな歯科クリニック",
     "genre_key": "dental-clinic",
@@ -3373,7 +3372,7 @@
       "土曜日: 9時00分～12時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJw9-qYm6oA2ARb2jRTc6_Oa8/photos/AVoNoXQu51stH9Gh6AA7jSWZNgkTPHQTatui_AztjhIw7asgbb4q0NtQQGrYBRVoFg5odZ9yu2HkiKDuQo1O9kh8p6lCTLodlBCQDvHr9jL-9GZe_R_9ukZQj0EoRgglQXbhI8g_wtcH5xr4IBiM_Ih9vPbO-bnE0MCfXO1fHtKRpDQe5DF-4DE7CKV4AiuvIvfPevppwevtHEFPumx0H-brOiGD3tCotIqQxNoFNlPLv9oRGXBdf6QAfpoTwjCr9KZSPfv3_P4aB-yPoDzrOla1azuCfIIZcBaKCiwUO_JiNpSt3drjOiJeDaHq06tWRLIMfi6EdsJLJDiHDKxr3S6OhHi9EfVvk8cViwxIZExdw0trvpG839yy1mbvFZLC6DyfLA2NLGFBbVSknCZVtKk7X_hl9P-sb8xdgMJotyWLOHK5gw",
+    "photo_reference": "places/ChIJw9-qYm6oA2ARb2jRTc6_Oa8/photos/AVoNoXR42WMJDc80MYHL5SsM7PeuB5Rjici-hRefGcQcihN9NHG6KlcRtm_McHrfEWt-XqdV32ilsPjf5Pc3S6HQP-j3Pu1Ko9v2RCJx-_aKVgCGoodcHokNDj92fHuuace_Codql0vhN13YTwbSe8szhvbk7mMWNgcD-FaqeET3wkooVhIv0REsWmgyQYTdx72LAHJHDfuRjyzL6FM2K8-AUm0OqwTjnYFGbDDcmCVJbkCmcImq1ZAl2I0LIgyl7fnMntJU0aSe1hWXACjvl3W03NhxgIrRZpfQd3Sbz9Tc_HdXm1o0RQRHbgrbAyiy038sO1pmnYUfKSsu7i7hd-GWQop7PzFaBVfAYzrARRWDdrEEyiKuEqKjBBDvVyEfm3APjR3d5sMEroLxCBfHtzqO5dVTz0N_-sqqxFeC_JeBrtVEZA",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3404,7 +3403,7 @@
       "google_place_id": "ChIJWxcfjS16A2AR8uBSncIfwf4",
       "google_query": "名古屋市南区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=18356988476862423282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:48.308Z"
+      "last_place_sync_at": "2026-09-06T18:09:34.531Z"
     },
     "name": "なみき通り歯科・矯正歯科",
     "genre_key": "dental-clinic",
@@ -3426,7 +3425,7 @@
       "土曜日: 9時00分～17時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJWxcfjS16A2AR8uBSncIfwf4/photos/AVoNoXRvqPcMkPOHFBy_FHcmVhq5uHKJKn5f5eJLWhIorfgtezSNm8ziCXq_JAPkZkdLR1eQ9E5rFbmzmAZutVGTcdO5klsTkzm7lingJ-jxwfL1ViAy9tLSjWJ0qwsZDppSMhsFQgpyCuBFuZY95ipOiLAmMRv96R1PdTHOSKTG55t5WjxwRos2pQ1bpFgPumsyT1BZ6AP47oSa_NmYgUs7csbsBD0eaHuMajKRYhWV-JLyTZ07uDa-BVVjwJP0Ohl71IXVVJw8LlOrt-RGx6jAFmFS6Bp1bf9d0cU1M0dyIqBqun5NSW2sEYWqUoR1tLYOr2Z04X97d-mmoKDKh1kfw3oriPVlnrD6VMlYZ8TulHsNv3IbbLTDV2ZZ8luTUn2AT2BIQOc8F5oWBXc7dTVIN3s1XpnkeB0nkDqWDA_xjyw",
+    "photo_reference": "places/ChIJWxcfjS16A2AR8uBSncIfwf4/photos/AVoNoXSca21YKTVWGcuYR8xbiNCr2vOMS5Lmz71FP-uOnjsmdujqTJls054-uguPg6tl61hhdJMPvJSG9y_nZVOO2jAp6V4YKG9LsF-z4R2hEq282FpK78RcHcCd9SchQIOBgdiNTz55QVRVN1yYXy0EL_cPjAct5iIoW-8Kl6-RoAixQ6SG3Z2EquQ4ytyxPs4SVPSLgYFXHVfjL6RSB8wEMXycEYlqoX0HN5K8FaMwc3w-aI1PX4sYisTm6X_0mdOmk2ZCkTBJV-fhKb_txTHKtjsxrSuSeDISRNW0Oy5lhz9zb4q4Vgw-rrjBSGXT3fUs7hWMlkK5IYvqHc4Xi-iloTb1XJqkGI9czEeJaqhmYCvR23HF0uz-ce91SD4FTKNeNUo5iX8-DLAxg5yLIZNHr02Rs-Ler2jpnnscOapgALk",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3457,7 +3456,7 @@
       "google_place_id": "ChIJUS5omafCj18R1XFmix2cmPk",
       "google_query": "秋田市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=17985296762610807253&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:34.809Z"
+      "last_place_sync_at": "2026-09-06T18:09:21.354Z"
     },
     "name": "パール歯科クリニック",
     "genre_key": "dental-clinic",
@@ -3479,7 +3478,7 @@
       "土曜日: 9時30分～12時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJUS5omafCj18R1XFmix2cmPk/photos/AVoNoXTi3iGxJECQO5lrzhyIyG02gK_02wVKNbT8NrEdAt3513Pzc1azANbL5CCYrPhAyKv0zbYN8IyJaZrZHbUI8GIyArfs2DJL-eZ42441GBD3iFyJrKa21XFMnwLIrjFaqSBPIMINvUpdgLrUkzeaj43xPEskj8Vyt1ODu2gMjbVSP-D4drgRQt66oUywnfHLUdSTcqisVdhsuo-6ybYLSTibzvITmQUIwMFZQ72qR5FV8OGHFWhWgggcE7_Cq_U1hW4DExCawPOdBs70AsfwAFIJDuJWQyiJCNB2Irq1xZUDDGKyXTmfECQhlBN1cgFjnh9p_0nf1RcPSBMkQ6SDuYE2GSsowg5t2Q5w6xQM0Y1eh7-3TUThHyM-rv-9LXdrfiAZ4IeDHa-RWM0Vx9WFVSPbn_orhXYX8N6ecrzbC0t2evlr",
+    "photo_reference": "places/ChIJUS5omafCj18R1XFmix2cmPk/photos/AVoNoXSVJmakcU5pOKZ4NYMXuNDQNxEha0HoXBVetcqIDzy5optE2mJD_JooUrP7X_t3IlgcNIxoLie3IgW5mNtOrmZgVuWoiCir0Ahkgvqj0SsQN--iZssYjW1xiU75tMLBL_zMOozFlT4kjOoxn7x1PWCr66lNq3_DRUuBDHgDRS5f69wOG70gCGzkjz6Tpr9j-4vBhXq00dhR_1wbtngE3UuOcgyhcMlfLRvDQQK3iEu5ICi4mILpf1NFHBotFmSHFiFThKgqtDHOEgZc7gwbl_IWVG6nI470rC053zUvLAtSjIElplxaH6M_JGuJSjzywOZVKBZ_5ReQQHpxHpJnFmJGqxkEhHxoyqdNZXzKIFuKxfhjmylA9rSB3WwyaRuIN0LZFtxm4TOisY8RhJQ-D-opSxBEkTYiMPxaTbFb4kgy9xKw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3510,7 +3509,7 @@
       "google_place_id": "ChIJF5zJ8zE6AWAR6PwF0A2bnLU",
       "google_query": "奈良市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=13086505100858752232&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:37.668Z"
+      "last_place_sync_at": "2026-09-06T18:09:24.107Z"
     },
     "name": "はしもと歯科クリニック",
     "genre_key": "dental-clinic",
@@ -3532,7 +3531,7 @@
       "土曜日: 9時00分～18時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJF5zJ8zE6AWAR6PwF0A2bnLU/photos/AVoNoXSUy5bW2g9L5viASAXVmgzGKyCCi-sJZ2CNF9HxSaBE48QyMwMxWSv4amjlcP-C550KOTbNSNfapvqt9s2GSeyiuFlAUrHEfPz_wmbqTENL4HSR_LJvwaWRKxP8ecjI8RmklYH70VWO_33AwLo7qLmPevcLz4Iw-m4FZqbXP3omH6D161xNOY7gWRvxXmhqaCoQSHYWLStGwW7l6Kq_ruN9SGdiwZodcwvmO45HKmAgBVhO_trTUt9Uk0HXVVPTwrae4K5N4l6cmqUHmV4Oy5bpoTlxd0Pp3DyeRs2Zv01LmEGNvuJOcPcZhdvBi6F_utCBri1eMQ6Aoc1YgXyUydXdaSgdvjP5vcnKoNkmww4m7zOrYc1v0BZErC2i0W8AdyLDPOxVLUdqGPNGsJGK9KxM7HcqghTa33NhDJg4UhSegWZt",
+    "photo_reference": "places/ChIJF5zJ8zE6AWAR6PwF0A2bnLU/photos/AVoNoXSeZ0zQI6wxSWhVyJg1weSAmtYpxMFeGdhao92VJol3dGMKIIYphUpTJv-Tz2ike3IYcG6yDQk8lvj0yYo-2-7NgVTJRWIOMOO3jqZRkSB25BPJWG7vY8KQDn8taNMsKD2u1qoZrnTIik7s8gzyf63yRuZ0FDcVn-yT_B5w5GMtf-J-QY9dnRuM-IdmlVSw9CFwASuROsVNRvBQeDa-4RjbVDIycXMeaRkMkRnVx0Qj6P5ZMeqqjyf1VgeBUgqn0HeH6ethZ-ESa8Zu0xWaAaN-R9wYDjb-M7qIYyGaus-N4IVuLabjnQu56hduHPylryLkCX-iWWXGgGEHnt1ajxiv-qvGk4SrC2pGThtPvZ06oSwXI8ShUhi4Jfp6Xu9f_by3AMM0-I_GT5-CaPn_SKI-armdtSEkg9TULWO9tJOHKw2e",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3563,7 +3562,7 @@
       "google_place_id": "ChIJdcA58BmXRDUR8CUyPcr5OM4",
       "google_query": "山口市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=14859901617514358256&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:40.436Z"
+      "last_place_sync_at": "2026-09-06T18:09:26.933Z"
     },
     "name": "ひで歯科クリニック 矯正歯科・こども歯科",
     "genre_key": "dental-clinic",
@@ -3585,7 +3584,7 @@
       "土曜日: 8時45分～17時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJdcA58BmXRDUR8CUyPcr5OM4/photos/AVoNoXQilGIa-ikWTPDRt_y0kn630k_sdeqgPITsiQfwF3Ku7qZ10KGvfH3gCRVFeeidEpJ_PHcUsjaxCJQYOyJAw4THAbOC21oLEwO2Xv5JUJl_1GszD-5S5TmadQ75_buV_X8sIqvOFJKrt3IZI033Kv2t8psQTnGGOtkCLPdr9vjV9tlieH4m5D-YioK7OtcdvPK-_E3eGLi3n7PKDvLC60i0j2iep0rfW-LKFTM5mumXzlYw-bZKu0ZACpWrkFXdtsdhcZyjWbFqcB8Z9M-Ms-B2tml6Fy_MObvkMtSX2ZxiI_oZX_cEh2-V_lUPAEJt9nnLsGW6yQGe1sUBaPtzjyPOsEzor9oqM79XzVJfvAWREUD3yaPYkcCwGNZDyX4oKgKcRKbafwRBuSizfqSp6MgqdAGEkRew1UAYv8VycrIZeZjY",
+    "photo_reference": "places/ChIJdcA58BmXRDUR8CUyPcr5OM4/photos/AVoNoXTSmffcOQvzzVS52DTKWzqIFS3G0vV-eFd1FkwcI9LaRWev41mXy7aHZiL07PF7YVQnbXUIx3nU1VLCNfhTJpCOygpFPztkdQ6xEuSZFrgBd3YCpMTrTmzzZSNHll6FcpVMMpdqWBUM_ueOCkN-eD5aN_cyGBJzdDl46VtjZOd8Ldd04mxuh5cm3H1zJtFeTO9eNlBexfzjR-qzeWNsIN440UvuOyUktWSVadG92koKHeXGRq34fJ5sjK-IOAvHVRcWO22o9Karp4TiTC13w4g5i0GNsdoAzVScQ2zgfHO6TTZeiiOAqyHIN7LpgdLnnOl72qZjOCs7PfG0e4pB6cpxrowDbhlB2hkcpFFelJTz9mJCiB1XeP6B79azaT0rYR10nxk8v2WNQhTL7j_vo1QHTNE8LPSbOfkIJyYcGM55idED",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3616,7 +3615,7 @@
       "google_place_id": "ChIJnzjpuV_TBGARgGh6fd-2goA",
       "google_query": "豊橋市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=9260164854826297472&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:34.527Z"
+      "last_place_sync_at": "2026-09-06T18:09:21.082Z"
     },
     "name": "ぴよぴよ・ファミリー歯科",
     "genre_key": "dental-clinic",
@@ -3638,7 +3637,7 @@
       "土曜日: 9時30分～13時00分, 14時00分～17時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJnzjpuV_TBGARgGh6fd-2goA/photos/AVoNoXTsIFaOmRs7FRZUgsyrCn0YKPuwU2-Nf3L8xvydjm8el7_o9mFZ8pqjy_JTLPA2_-AXhWRAz3vuJgPKloCpG7EpgCCjPQtHV-R0g4ibIpGHoa0XGqr85TKFlZVjT789cI4G9Jf1a0jwgJkHwZFYf3ZLIQr3toeaz4I0hR34b4oP4sSSap2gZHlxdOc7L1tg1IXLuUSHer2wsi2Qmd3PZO_yWjbgZY_tYqfUkbuKNd7_ES_xdMjKKL0JKR_LkB16T7eEMNouTnDUlUzb1kT-qOR1iuRAvgzRFYiwGBsctrXz6q7BJJFXVQE0a2h-jGcDDxfK6m-hcqSc_xPk7yWP53fEbg9zUZiKrD4pu5RwcgC_DOWaJs7wF--vdRehL_f4-j--0bqK9svChBGe0pLTAGwkhD3kGt-uca9DRgP0AwZNijrj",
+    "photo_reference": "places/ChIJnzjpuV_TBGARgGh6fd-2goA/photos/AVoNoXRsctrpdy2KsIgW1LqGyQdSEmu_0dYHME_zqZ5UE7cVhoF2jA2-IDnMO9ZBO2L5d12RNC2baYezkZC2ZUyw3WdNSVWGy1WPFsWcMlP9iFeNS4PHubOxs_YCD8VNTdjR6Z6HikjdUggbIwKiv0DuYeuxBvleaHQ6xC9T0YRV7jEQj6rnxWoF651gZHERsqxl81dKyQ7HlAWuCbWwHz_nwdIZLCQBO-ocKJjKWM71RQvMC0lSgR2xkV1-3oql2fCt8GPy-scvASVT7EVu-gExUaKvlLp9tfmIAg_odr8TCk4oaqdnT84L8_m941oe52JSlC5itrKes-gvyWbS0sYjoXt8h7DwQlCpIelrM_lH0jIJ2F32av4JXHJsyOvlUsFI_T4_TmBf9qCx76RXFypcaVJ-DjyZHUdFz4JGDB2REUBHvRWR",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3669,7 +3668,7 @@
       "google_place_id": "ChIJPTD3Uo6bGGARNdZtRsQYNfE",
       "google_query": "三郷市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=17380825568180557365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:38.273Z"
+      "last_place_sync_at": "2026-09-06T18:09:24.697Z"
     },
     "name": "ブランデ歯科・矯正歯科クリニック 三郷駅前",
     "genre_key": "dental-clinic",
@@ -3691,7 +3690,7 @@
       "土曜日: 9時30分～13時30分, 15時00分～19時00分",
       "日曜日: 9時30分～13時30分, 14時30分～18時00分"
     ],
-    "photo_reference": "places/ChIJPTD3Uo6bGGARNdZtRsQYNfE/photos/AVoNoXSyRqCUCh9pBr4oZE5lQSVgTl1ZpeNo5tc3YSw7FVDn_xAXDBsKxuZeDVWPs2egLZangWZ3F5GbYDYxVDEp0BMYDwyUS2vuBovEryBmuSl_qSG0l8All2Vq_AOr3XbF3Kc2OJlA8O8QhLnKLrdwS4e8xTp_hmCDestV1XrjycA4U9fxO9mJG-j1RA5pxHt-ZvroZYLmyyjSrekvZ1BzeJuQlXyurwpw66G7yY_n_EZMkGLx6yCnFj4hHGuZnhh-UA-EoybJa6QOXMzGimyJeibBzbjOhZz2nKI58rHQxWxWw2KfZy_ppl9rSCcrX-3cOTgpTvOtdJB1sRqmtYJ6QesiIRlFsOl0sBU1avly-L90PZEwKz0wMtGWSfeUoZniAsXz6ZBb8BZ_hMPJhUxSMYOBURQGrngVLQaU_mmx_oYLAg",
+    "photo_reference": "places/ChIJPTD3Uo6bGGARNdZtRsQYNfE/photos/AVoNoXQxl9_MCBK3ux3NRJlaJ0R6VeHmx5MC1IFx7JcZq-KNa2UbD9Zl4Le7v9P-ILQLV5_NjWaTJEljvtJrKL6AYmZxh1hZbV-c3_E0R-ccnwWyBEtbu2CbA1bIwNahONsxu0UQOv00d2dait3I1tzyJVt6ZDX8Rj57PHh62zmdCcHJyVz02AQLHJpPwOHaE9IafIR530zk41Cl4KdfWQo1nhh8hamHHh1qKs0VUvWPtG4Hx4weQCsgG-f5drxfVAjEMLzT3yP7Fy3v725ltj9wkZj7LyPYtusX1jlMdtyhX80ic7PWGHFZZYrlGXAj_V6zkkhYPjxCZ0msqxTHCpCXSSdzev4G3oQ8cG9u3eghsIA5u-aVZY-CY9r-yIo7LzzsDgR-kXAeoWk3kxefqdx0HeIQb3FLFtlLw3y9K_1blU-b4g",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3722,7 +3721,7 @@
       "google_place_id": "ChIJhVSJb3plA2AR7MR9ECYnoro",
       "google_query": "名古屋市名東区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=13448354481720640748&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:47.964Z"
+      "last_place_sync_at": "2026-09-06T18:09:34.195Z"
     },
     "name": "マイデンタルクリニック名古屋名東インプラント",
     "genre_key": "dental-clinic",
@@ -3744,7 +3743,7 @@
       "土曜日: 9時00分～13時00分, 14時00分～17時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJhVSJb3plA2AR7MR9ECYnoro/photos/AVoNoXRFtWQdCTW8pcVErxl-4_hCs4Uo0LLx5ZRP20zO4K_XSVqz-KVvtyAHti9eOYvJP6c93xGnfWWzDakeB5WBMqi0DXhxWNqYCaQQmpBnNJN1sJcBYqC66dEWzTLkkiAyFwGPqGfYQ4IgciWJEkG83yNRJ_-pl-GmNKkjqgDOv2IYmjSWgd2NaxqVK5RWs1HGAoJ9e61HDNxWQCpEG1lwQh6uiV-Ev5AdAInVhH57E-Pgdi7CH8EHm1YPPYe8IADklbdpijp0U4y-ewVuFJk0QWRY3KzyyVJ77eg9fxrqIbNSKiqCf8z-gx13aHu3lk9mh57uso1UetSieIv-uZRn-HjSlS0MSPN0yq3SvChQzVVGHIa2ypoRi-Z9mEqsXD7Nwdc5K-3JlQKkR9YQDbE0aNiDFuTiwU3RE0of4hhNIoufwQ",
+    "photo_reference": "places/ChIJhVSJb3plA2AR7MR9ECYnoro/photos/AVoNoXSovC43KW3qLpEi9x4APFiZRssBI58y0HlER1vUIv_ipxDHLIr3UKvfAD33Szv6tvhXnDxSOf1DS6nkGTcJg8mODESZJnezaVCx1wxr9NiBk28jnKLjtgNUCLJ0nepNYX3c-VFApmnclTz5fMJ9znLa4P6xETlmBZ936Yp6yzXTw7XI5q1aUYtVpTBRalTp44Zsg6OJBjzL5dGNm0Sv0TWmW-ksTjHyNh2d2ymW3ZSpVOd5aCmwxk1LCBaacL-N1CDPusI53knDi5sWQf9d32oT75UG5BGZqvvdKxdnDutVLVZLKhQ-z4pUZUOx7DJ-4WY2HTtw5cJ3wvC69XPLORC_ro3nX5GHI0o-2hCXcp7ITIopJ1s1IzVTqWErA3bbcPklL7JdXXFqbrNUT8ZQtxcjEaj_V3oXrLqaZGXLSRL4Mw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3775,7 +3774,7 @@
       "google_place_id": "ChIJE1UU9wHTG2ARanOJVLw-B8k",
       "google_query": "富士宮市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=14485615705053557610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:39.316Z"
+      "last_place_sync_at": "2026-09-06T18:09:25.811Z"
     },
     "name": "マキ歯科クリニック",
     "genre_key": "dental-clinic",
@@ -3797,7 +3796,7 @@
       "土曜日: 9時00分～12時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJE1UU9wHTG2ARanOJVLw-B8k/photos/AVoNoXQqVkpODdtD-tN6DR5_uOIhI7hf-S91DYQ-1r6DWSRYdz4I02pdIFvkKlBGAg7RUZmOQSFi7e0d2dm86xwi97fHfY-DOwSO68-WIBE7RqQiLrt44aJUDABwp1GFotalnJX8U8Ms1JHHpSKddWzReS3kWYD7stDpWfKnePMUjyu5vLxwK0BgRJY1iFEN2NxgD3ziayn9phnzw9chbyzcoPKUXPfPzkvzr4hoD3ngmFtyxbq9XNaI-5QWi-r-QovMwtRWsdtovHHRGd7S_84T5fEOCMPTnb7-vArkeSDp6CY3rv4RWJKy7gk3kR0GXYgfKk6tDyVlkAxeuCB1bX72NJ7idclmbn1FbIPq2JKsh9M9ojbbURc1M8gjAddbJNDPVzFPzv9FJpzk2WhbpSud6Zbj3tLR9kXZymFRt2OyllY-cJqoGCA5qeOov0-PMzoL",
+    "photo_reference": "places/ChIJE1UU9wHTG2ARanOJVLw-B8k/photos/AVoNoXQHOR_wCSzjcFtI8NZlhtlrDn5R4lNOVb_eP_xfJIM2ISWGiMxDC913BCn49shGVtGwVN-YFmdnq1iWEFIQ0KQdknRu02idvRfLc5KAt1VnyFfo05hxUVzkiQRFTXYCJEAvwflPyKEuftETfQXDfTJS6YW565yAfBtPxdY-anPtaeJmm1UPxR9tGA2IInqc7d_RxSRA00Jy4fsUYD4PYcxyA-Ag3hFWlCJQa3ttkDtz1BHG40WSmYyn0hV285pmRRSxnHzbEokBnNznGGXw7NegEjMvryMRQDnQix5O6vN91dsRJ2eNlE8vUtv3TmKfBLAT81hI_xRfjnhDmd30zUZZwBlw3gnP1Wn5Y2l9RV2UZIxEt0TX_P73HnbjYForJ4qTrqK7EUbDfYljhaXJLWEpTSiI9UDwY9rssEzdUTUVkcT3VaXMUoAETXVI7hxr",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3828,7 +3827,7 @@
       "google_place_id": "ChIJw8a9Kw_OBGARtDtHxTaiyuI",
       "google_query": "豊橋市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=16342052553988979636&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:34.527Z"
+      "last_place_sync_at": "2026-09-06T18:09:21.082Z"
     },
     "name": "よしだがたファミリー歯科クリニック",
     "genre_key": "dental-clinic",
@@ -3842,15 +3841,15 @@
     "official_url": "http://www.yoshidagata.com/",
     "business_status": "OPERATIONAL",
     "opening_hours": [
-      "月曜日: 9時00分～18時00分",
-      "火曜日: 9時00分～18時00分",
-      "水曜日: 9時00分～18時00分",
+      "月曜日: 9時00分～12時00分, 13時30分～18時00分",
+      "火曜日: 9時00分～12時00分, 13時30分～18時00分",
+      "水曜日: 9時00分～12時00分, 13時30分～18時00分",
       "木曜日: 定休日",
-      "金曜日: 9時00分～18時00分",
-      "土曜日: 9時00分～16時30分",
+      "金曜日: 9時00分～12時00分, 13時30分～18時00分",
+      "土曜日: 9時00分～12時00分, 13時30分～16時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJw8a9Kw_OBGARtDtHxTaiyuI/photos/AVoNoXS1E2H2PstUUnWdZ_7hl_oqXodffTXW_wHXbkvrbRrdTwYxd3E5yH3dn314MusGow7KhW3VZHtpkzfvykvXjBnWyfADZv9kp94lxJkcP6XzDZRkDa0JTT4u9HyRRkD1VO2Y3ompk6O9ofLvqoPlA5bZvcwk0O8dHBNCV-D38CqCWTIjGhi8jIxzuIMYzuBTJ2OH_uVOn7jirkkHBbqUiKV84JP8hL-AQFZHDPO4MpcNugemZ_npCgVAFSAgbQ-gqcweO6jN8_LRMj2mxqD6J5g5eSI9GNDuukNoOYtZmR6eddX-1hRwEoGOfYz24SoEeQ8SKQbSxGBR6L8zAd1pjrkS-55gCbxvd7HlBDKFFRt4kwbjtKE78O64qjBjbBVo8QgevfdDQm-UYn4SP1ZdJKK17i7GIn4ZJxJMQoRHRrlCZCI",
+    "photo_reference": "places/ChIJw8a9Kw_OBGARtDtHxTaiyuI/photos/AVoNoXSQOVxwDos11zsSoZ1r7wNWHefPu8DJ-SQROIDbJ-KCfWtfb9_v6Kc0RV5pYVdYubZV3EFFgBFsTLHKtMnGustqhqiLKgq1B8Y2CZVsS8kHitG_N1XVieIc7aKTRkdZfs455Z34E50GSiz4I664jTcTRkii_NjyIKaLVI78l_WF1RjrBf6YbLB3pc6OXNUWLPBSvnJxmpcrtgTR8Kl6YOINvgm1yzFXKaktFL8g-4v5OIGzJhysOZxhZGg8hEF5KO5YFzi1l_-w9PRAC0UBjQsvxX2CZJgVUsq3Z0zRuDLa6zkYNWI9PJdmPIUIAGa6t5Ol_QJz5bAeqgBq-TZBY_Ij_H58-UIduuu2mVipULvSHsP4m36pumKxG1xgzdVc_isAuThhvBrS3mi5KMfbIVEE-F9NOm5kPCclexuyzafyEXI",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3874,59 +3873,6 @@
     }
   },
   {
-    "id": "place-chijtdbz5hshggaroqu5ocnkq_8",
-    "review_status": "approved",
-    "review_note": "",
-    "source": {
-      "google_place_id": "ChIJTdBz5HSHGGARoQu5OcNKq_8",
-      "google_query": "市川市 歯医者",
-      "google_maps_url": "https://maps.google.com/?cid=18422900903036652449&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:35.144Z"
-    },
-    "name": "リアム歯科クリニック市川",
-    "genre_key": "dental-clinic",
-    "genre": "dental-clinic",
-    "prefecture": "千葉県",
-    "area_key": "ichikawa",
-    "address": "〒272-0033 千葉県市川市市川南１丁目２−１",
-    "lat": 35.7274649,
-    "lng": 139.9088094,
-    "phone": "047-318-3830",
-    "official_url": "https://www.riam-dental-ichikawa.com/",
-    "business_status": "OPERATIONAL",
-    "opening_hours": [
-      "月曜日: 9時00分～13時00分, 14時30分～18時00分",
-      "火曜日: 9時00分～13時00分, 14時30分～18時00分",
-      "水曜日: 9時00分～13時00分, 14時30分～18時00分",
-      "木曜日: 9時00分～13時00分, 14時30分～18時00分",
-      "金曜日: 9時00分～13時00分, 14時30分～18時00分",
-      "土曜日: 9時00分～13時00分, 14時30分～18時00分",
-      "日曜日: 定休日"
-    ],
-    "photo_reference": "places/ChIJTdBz5HSHGGARoQu5OcNKq_8/photos/AVoNoXSbGKNKRmhLi0vuZ_ZA6mohj0GyqYB8poVr6eSy45i8JY1uVT81cOkYR6DPLXL8OgRmcn0w64hnHzMFVjg6UOAEcV_RIsV991UQplzZ_MQAlaOQ4Om0fX4YncthkWiIyphJIdhjIoIgOvNmiZxt8N1fDZorOHbgxCJ7lWUbXDVPCuY_pkeP4ASGuk3Vw3S-6FbuqLJKw939apY2W0WOIekc-KtBqQHn3CXxM6F-pHJgkfDDtuH3zXYBPepWb3c4SUG6sw3oQ66KTLJDLbIuSMr0T1Fvj3LXytoL3Ol630bkXPNgrpN8xQbnb_t5TQz3VVMJb9QmDinlzh45ApAjqVD_cLTpBgASQkotJdXxTbexcxf8Eo2W3snfJrZwG_QfQMwBLIlNHuu58iP_GpWtH6cSvSocyl-NOCqdy3Bn-Ut72j46Pv775bCQb4NnVgdO",
-    "booking": null,
-    "review": {
-      "seed_source": "coverage-gap",
-      "current_count": 2,
-      "target_count": 5,
-      "needs_address_check": false,
-      "needs_site_check": false
-    },
-    "commerce": null,
-    "review_score": 50,
-    "review_issues": [
-      "same_id",
-      "similar_name_address"
-    ],
-    "review_summary": {
-      "area_label": "市川市",
-      "genre_label": "歯医者",
-      "has_official_url": true,
-      "has_phone": true,
-      "can_adopt": false
-    }
-  },
-  {
     "id": "place-chijoz_lcoaoa2aruu-7ok9-2vs",
     "review_status": "approved",
     "review_note": "",
@@ -3934,7 +3880,7 @@
       "google_place_id": "ChIJOZ_LCOaOA2ARuU-7ok9-2vs",
       "google_query": "四日市市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=18147956528940535737&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:37.327Z"
+      "last_place_sync_at": "2026-09-06T18:09:23.800Z"
     },
     "name": "医療法人にいみ歯科・矯正歯科",
     "genre_key": "dental-clinic",
@@ -3956,7 +3902,7 @@
       "土曜日: 9時30分～13時00分, 14時30分～18時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJOZ_LCOaOA2ARuU-7ok9-2vs/photos/AVoNoXTxO-IV05RI4g5eiGsWoZdC0ml6-mVCi6vNyAQoDfVGBv6AAndFkfiuQY-r12qza0fjoKaKcernkttNeijqaAw9yySIZ3WFA5f9Hj5pYaJzlaHpD0jbB_06UfS1N4yIWjkn0g2rIekypp47LGnd9GbUV7uvp3T80hrnG3v_XXYyQV_LoGV8DqNCQ3YHxxiVNHtl5Gz8rgchZgzhP6ICEFA74NdL58jjn-voZaLcRGl5nT8ZAF-ksrdIyF6a-2suzfBIaI6DEBTRi6A4VyY2-15KAOvRuHPsrRHzUp6PlWmJsEa5C-721UZ4igoiJMzXrdEUQRkQLtJakVQPvM3S4ikYg9aONswxZ9J9OXb4NpYEimV-UjFVgCKdOYByMIRL93le4zZHqGcXZTOqzyweHKJEODBBGkuUgcMKL4SVxALZiKw",
+    "photo_reference": "places/ChIJOZ_LCOaOA2ARuU-7ok9-2vs/photos/AVoNoXRnMXjq5crCBs5GvitKdta-vLg17k66y6BJRGRZgSSUcgj_U5vsgVEzK0zIXm3QUP2JxV24Qmcba4xW7kMDcdJD3CvefeTElXRov6bDUYNT5rg2P6viL8v34FsLXVrwlmKfvuZQ0tese_DbW3NTsufRnu-IrIAjp7ZYrYZ17wigBfve82kifGtX_hdwpjnBaKLkBmJyr6BrJM1mSo6zRYCs3U5b9eHAd7wnNvrgi5ALjpbfKPQCs7G9oLPPfeZNyyXMQTBZZXGzo5XsPKJ1RWm2tQF6ZhSFcehu2mvn1gG3dONXFJRtjJ73BnD-qZjWBAkVQBek1CAyhpmiE6LzdHjAwmOiNtRN8VLTORRaA0E3QOyShFJCvAZ9sFzwWsuCSr61iRdmN-u6wF2HRg3xHR8fpMJ82TLNE5FtvtwIXkoMZMI",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -3987,7 +3933,7 @@
       "google_place_id": "ChIJESsxx9C1i18R00Se1A_vU1I",
       "google_query": "山形市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=5932347985447765203&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:40.145Z"
+      "last_place_sync_at": "2026-09-06T18:09:26.650Z"
     },
     "name": "医療法人社団 鈴木歯科クリニック",
     "genre_key": "dental-clinic",
@@ -4009,7 +3955,7 @@
       "土曜日: 9時00分～18時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJESsxx9C1i18R00Se1A_vU1I/photos/AVoNoXRu82fjmul3tnVzdlO3WWrSbVydTatzuEEbfuLVrLFZUwCcLx2wNocd0HXXurHkLcOCmy6Y-ocqI480z8uruR0qzriaMM8PZ6HopagZT2j6nd62-9gshsLFGw14S5SxLVXtmjZLqVLDuFgDhTVbISlnVv8EKL4qLVujhaw_TyCIHebVrbGKyt3OFXFt6G8cjeyj42jydU9jk1oDjR9ca0_Dk_XPM31KQOqbdIDFddsOfFZO9ylhCfIWkDIUjypbG4YCtmW-_PE1IHHApKuefxsRThsUj7W4VmHarU586Sc0VwAThT2oCJh02DUQsOrYsmuJGd12bpFMUhYzl1ITiZafr7yS7cstJu0zeE-RzJcT74ekWJC6NQ0MT7NzG0FadFNc67vqOPmy7cY0LmjmJ8T15bNRj_vSzAddNe5BU8EKWOJ_kXWqd7nHK3oSegLD",
+    "photo_reference": "places/ChIJESsxx9C1i18R00Se1A_vU1I/photos/AVoNoXSoWmOrCQYvaZlQqJbi9ggyMMbn2cqEOvBaZ9aJcViCUAj3D-C_OFo0SXyYlm3Czro5kIqV4W82OPV8wOjCXA9HIfgnTyKg8ORMl2wHml3aj0njCi-XvPBtC36hqW-CuifRkKgH-4BzD2Qa7lPaAZDx-EL0Gnnm4mhOwYjC1SW_nncNay3BO5FZsgZWHZrqFDsu8BYV4HHTtbXafQImKcR7AcYhIEUJl82MfmA_tig-NCd_xIxT2uefuVmcDfwq0nIVBmRGZytGFmAe_gDf3ofUcCQxkisbZ7dxTsZCgmeiWbmBB2A5KNVyazl8GdDo-MkVBrgrNz7FUO0xnoe_DAY1uLdBVecvjRlDZiB87OivcUNhT39PmAJqVhA1BrNaYda9zFjrIgSReWjstYopy_kjIClMm73v3Uwqea3i6X9hdelVvqc50MHuEh3EVRks",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4040,7 +3986,7 @@
       "google_place_id": "ChIJMy8gzkK9BGAR95KfCMY7VAA",
       "google_query": "岡崎市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=23709619777934071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:34.173Z"
+      "last_place_sync_at": "2026-09-06T18:09:20.752Z"
     },
     "name": "岡崎エルエル歯科・矯正歯科",
     "genre_key": "dental-clinic",
@@ -4062,7 +4008,7 @@
       "土曜日: 10時00分～13時00分, 14時00分～17時00分",
       "日曜日: 10時00分～13時00分, 14時00分～17時00分"
     ],
-    "photo_reference": "places/ChIJMy8gzkK9BGAR95KfCMY7VAA/photos/AVoNoXR2fcyvxn3ku4B-plz7eCbsgbZL-713YKo7wQrpkbFDZgnX-pTe2RenAtxOBOA9HYv7E1EmQvRJS7AhYAiYRfITOLFPGNpccKCs0nsfGiMpvJ1NFu_ExjbtlvQQPfzPN_B638KA3QzcMCYH2MqFpUYEDtVnrNXYzAUGIUBnuzsgdznpDEN0PSZ0q-MRNMeVq2ZHeqQDNHYVed0LBw6wsM4zpZ4JLBPcT1JZYqQtrqV0QXlZuahoXNNFEpL6cTMNi9J2EOI5p2cY2r05fcamB5wnW5e3u1Jbgq8gesF_1UflloDlGq_AbtBR3p2foYqC8JQefkvQN2f8l1FK_jLp2XtnmRi4cxbH6JkESNYZAjTM95Vbc5qokzgxz0S_ERXE_j_OiO62sTQ3jiz63qqXfDO-MMXDjXp1LJIaBBnT6YpnBbU",
+    "photo_reference": "places/ChIJMy8gzkK9BGAR95KfCMY7VAA/photos/AVoNoXR1K_6Wh2sGBsTlSdjpBRSikb7AmOA20QLrjtn3ZY5Sr-CN6vL5UkGqwhJiyegFfbOb6X9p3FSMqA59HPgQYkM3g1SWWMPdbw8Io3V9j389JaY3uPnxt2vvgS3DVWONCeyq1fk0HykbxG341G4e9DKU6sJMp_klqS-QNMXA3NVtB32tD0SkrVmnYIaMKf_ZjFbTjVvahlhA5p2qqETvk6_O39eYRhEbeRP-cjW9pOAh1fIhBWaOtP3Ik2DOqfkHRIjyS_QaJIeaI0zSKpawpcwJ9KCl5HnreycCRR81h5JVm_pieZQYSzC8kk5udZCdVd5HvE3Pb7iUR4YUxrUaX9ZOaNXz5K4EFjPEzDUPPkGVWOFabvjf-b5WG8oHv42OHIjDypYt7zt6Q9RkZgOacqf8FhwyT2joQyHVtJT4oroak4s",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4093,7 +4039,7 @@
       "google_place_id": "ChIJNwKBcgfznl8RQ9h17F2HmOk",
       "google_query": "函館市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=16832352444766083139&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:36.022Z"
+      "last_place_sync_at": "2026-09-06T18:09:22.521Z"
     },
     "name": "額賀歯科医院",
     "genre_key": "dental-clinic",
@@ -4115,7 +4061,7 @@
       "土曜日: 9時00分～12時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJNwKBcgfznl8RQ9h17F2HmOk/photos/AVoNoXRo6xHA3Y3QmVxwjd5oV570TXhrwVxteOhm2nUucsPLHUtIzRbKq6wwGXhETBexeZUT47Q5r2I5ieoP9eNhIqTGlbP5BxYSxuOHxZ5v3-e-vxvDDid-S_kzqSQuMu2n8Te_gvmBgKCQnMOu8y2SsG0gaemED-g9pxHnpPe4zeMX69XCm4nRoM4rBtjjWAifuVll9vnXR5aOGmznw2iigLX-47RYeIv7nTXLXR3VAEJNPKqRrKXgiEEZ_w_faQSJNCDQ7m4krWI_jU2bYom_dfe3aPzgEJsqXifr_5S_PTttck2hD0LVbX8p8UeL9KKSy9EEiyh24ONrHsq606m-KcliAVbHopcCKM890aZzTcsPo2KCuq7w0yZXyyhEgkzvxyLLsjxuod4ar9cSdAA7Vqz7Hub9ghG0SFHZeNBkTennCw",
+    "photo_reference": "places/ChIJNwKBcgfznl8RQ9h17F2HmOk/photos/AVoNoXQjSsNMcuYXWTDqMgsTNCPJaqOi9-I2cAJjpVAvvx73IW9uZfzqYRjj1b8rHl3nn_BPnbxEvzARetZmyY96urNK-QJmh07meKonxRJ1ocFeGTuu4fQO1NlppSLCtTeSRE9_woixqzwERAiAbGlSaG5EuBAnNR9CbvBVNw23XiTVyMxkbneAuQ_ZCxTpMmm88pXAOphFpRTfgtWNrm8_u4VPijdjGfOe3WIXHXb1kqf2bzvAhQd_fgdtVggzg41E6nFzVPDthteH5dE_7mkDoUpmJ6XB5lnZZ5iweFAcHL2KrqnsjfrVRkIMrNy-JRgyL6fCkJMvvKY-qCtcJfLmpPXq-HrXgsF__GR5iOt90g0BJHwbaGGzyEYdw778NfgfGuHWF0Uj6NAa7ab6ftUJ3_t3pV3mcpy0n6F5tU4tYZpdmg",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4146,7 +4092,7 @@
       "google_place_id": "ChIJkSmm3UWFGWAR0E8JUw_qBso",
       "google_query": "沼津市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=14557580197060235216&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:39.591Z"
+      "last_place_sync_at": "2026-09-06T18:09:26.070Z"
     },
     "name": "芹澤歯科医院",
     "genre_key": "dental-clinic",
@@ -4168,7 +4114,7 @@
       "土曜日: 9時00分～12時00分, 14時00分～16時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJkSmm3UWFGWAR0E8JUw_qBso/photos/AVoNoXTxBFHtH6FD5wHUPS7v-dyZPKEFUvuGYTMlKRiFJuF1NHUu-6CN0P0hwAlRlMqv1oakMw1B2W-YKf5RbtyWBPPiSgEVIjYAtYAcsjUKWH23h-8I_ZU_Sq02JL1cMgpuhQTQgzQcHGiohAxsf0Mg4iug8MBouHAyzc2n-nvBYGX6lBvt4hc9Mwz24yQJv1_mvREDffARLrSaQak-tWJvCdcWt0jFCnnTxkSlOGqZe7AuWpF_tMvvkEvAMid7ftY4pok2e3M6QgeHzgXJyjNeCHw0FbaKjpKEmlqWpkXkq9_BZSVvevJ53gSAshAzJl0nm5OSiF4ql12R-Z5CW3JglKPUGgf3V9k2O2AEXCr9gDCz3pODvaZ8DpZxDXdbyWcg6K9NvIYclnnoMT8f5qXYh8gH8SCbVLk2N49vmjFokrjNprc",
+    "photo_reference": "places/ChIJkSmm3UWFGWAR0E8JUw_qBso/photos/AVoNoXTJ1txLzjt0rBY6DZvryLfxl9laKk4m_gjCmFvQV49SWLKM-jd664wapyE6yxgJYL4tTIOV-N0g1k4LzV-qgTZq8i1G3SVy9iYk7gO2IaLDuanLQkEKDNyJpry-v-dokxoJ4ka5iClQA8a4frlir0civu2W0zaPQOtQTRXv38sjIJqWiZ4C7HATWwiXTajWMrNBvcm6p3iWvKUvX9MDN36FprydIJCmlSP-LxPXmeVRIUK4k419YaInxjl03os9-ZytmuqCneZjR_YQlwPy76jVUfn7AUjGXDX1D3CInPjIORl4J3DATgGJo8kmbaMKxbfjyPsDk-KSRiYcItNBnHrmAvrgvRPwB74mUXjY7Cq0wpsdyq6SE5bTlxyQrajM8aMvFKwe8QXdx8AEtizt8qyZCq4aAQThJ19oPtEi29Nueck",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4199,7 +4145,7 @@
       "google_place_id": "ChIJC8sYoxPgVDURYg5g5xE0S2M",
       "google_query": "姫路市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=7154869684509085282&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:36.351Z"
+      "last_place_sync_at": "2026-09-06T18:09:22.840Z"
     },
     "name": "溝井歯科医院",
     "genre_key": "dental-clinic",
@@ -4221,7 +4167,7 @@
       "土曜日: 8時30分～12時30分, 13時30分～17時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJC8sYoxPgVDURYg5g5xE0S2M/photos/AVoNoXS37kVhM6MsEL0dV99Z1iZki7dOZlpF6rb-Dz6aPEFMgZ_tXDIz2GlSZRqDtrQEscterhuSve2RraXHT3muxyo7S8t6k6lbKXv1nbLZFWdp347Z0gGL2s9CgC3OcD99npO6hlHHGdBacX3_4wPIoeJV-x1mPax6iye79neUjYE9e4gfbjwTabdr98AeMRX6GQnY8mxDQ8BLDKnmL-tV_EG_tHJOT9wSGVONezX09Un7A2xklpqElVDEOBjMm7aXup0YkGwUzJ6OuIYLY_XNoa8tHHWfYin70FBXW8LRQLRgiFkJo0b85Y-vT4Dylh6uSS2tJXBJZGxSvhWBy26ATYyeAOcWImTS7aOqrrx0dUDwIUat22mMo9EjsFDjrUsIITLcZ0JdKjGw0udbHtKjiuPQHprCmhoPCubH0FhOBC4",
+    "photo_reference": "places/ChIJC8sYoxPgVDURYg5g5xE0S2M/photos/AVoNoXSpbmtC8R3fDsAS3OPn2ZhZ5M2geyyN6wO6DIBJHAEgaemmeC9D8JYjbnQSqKjsJlZuP8DSS5kdYVUwkb2q99LjZb_QPjYi9pBxSgghbV0GcwFRdT8SuhdysIaum3UVFf9Qu_qnq67IVtg79Zib6Ci1VAtlja1k_KhR9_L48HdK2iXHXwjzrBDMSXeaE08E-2SyD3oO8JChFMeVBy3J4yl_0QmNJIpk4reDlPsv9Dti2wSZh_gc_bCnRK7rQRhWB07rz65-QUo25zVvW9KGl-5OGqyUXeqWl5eu5LPCksRuq1n98XNxGBp3q8KHyb4Yva_Xw5Fd8rsoxfI7mz8JHLqjMXJU2xD5_Tgo3rcRg9hM6uy-gUdy35oQo69GcKELFucZtirQDQ8OONJy5XuM0ZAyLHup3_MX-dko-DqaObU",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4252,7 +4198,7 @@
       "google_place_id": "ChIJaW-8IMz3G2AR5txBm9OF80Y",
       "google_query": "甲府市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=5112577145885023462&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:40.751Z"
+      "last_place_sync_at": "2026-09-06T18:09:27.310Z"
     },
     "name": "歯科・矯正歯科 GOODSMILE",
     "genre_key": "dental-clinic",
@@ -4274,7 +4220,7 @@
       "土曜日: 9時00分～13時00分, 14時30分～18時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJaW-8IMz3G2AR5txBm9OF80Y/photos/AVoNoXQ6zUhou3O14NCtwzjwOgiQnhLTixcTzcAfc2BdDjSyFLttFaalBIied5HjuoQJsSpiawHKchzKuWb3tBBjaPB9yTGL3-Zjp7ya3vhs7VnNs1vVWHgbvOyTnpHKtpOwmD9-dK_U-XsmgbRqqE3aE4afORLijZzHALD_j5sEfEON_qtL9Mtk0Xxvf2YD2_8W0NfRm0sJtDDKGc4jc3Takkr3RiEuTxFJVqIt8hjv7feoPcGO58aMTtlcH4Dr1mH12MhLi4S9unzKq9z--A7H_wC-xr1g95mGU2Qbf0YuqzQn9tWLViT0Yahyuf5ntWnigzO21LDvYyqNg_Z2oRgfEwiJbU3K85olTxDWB6wIHwr8F8lZyhFnfkLWkDfT5FVfiOH7DZdn4nukfd6dmphQL_jRzQoKn3EsI5XP9hNT5-MPvZY",
+    "photo_reference": "places/ChIJaW-8IMz3G2AR5txBm9OF80Y/photos/AVoNoXS4KzWOYaKRcHymACrNIrw1-8x2DEJwkHfMmGI7ZWUWJiLDRX0wq9XYaeYYiUHSEg-Shx1sZiB6ppwtCD0wnb8BHQ_INKsZCAKlVNDVEKBg29PbbYfFbqdTsIPtq89JvJe8D3LC7a8FdGu9ryYMV1pOnL4FH1Mm21iIayTj1VZaogLfKKkwaaYjuI7sCfXyKh2AYFJQl_fhZNim4qogaGU68g2xItcnMEEy9CUbn2UjN-2VWQnY-mckFZjKbBfxqYXy0Cua6ERNKXCsOfC1S8jSCVOFz30_joUrkKs2pdISweOrB3Ze1S12i8nFYwEgRu492z5kyWdvDOYhec34sn_Dzax7PKoP8uqQjDZbTRLdI-S67pVDmfe0aioy31hKlOIL-TrUV5BouSjf0fT_TwF6Saqujrpkp3-xAbtXOw6tiUo",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4305,7 +4251,7 @@
       "google_place_id": "ChIJ59qmnpTCj18RLnZQjS_niOU",
       "google_query": "秋田市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=16539723822938486318&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:34.809Z"
+      "last_place_sync_at": "2026-09-06T18:09:21.354Z"
     },
     "name": "歯科明徳町クリニック",
     "genre_key": "dental-clinic",
@@ -4327,7 +4273,7 @@
       "土曜日: 8時30分～12時30分, 14時30分～17時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJ59qmnpTCj18RLnZQjS_niOU/photos/AVoNoXRgFiIY3xmrnjScN-OYar87Kb8WhSC_qDrBo6sRTd0kxhuxZSLarJscdlnDJgTlo4vhlYrQ27SBaNfTA-4MY0nFntMeJH1s_jsW4cpY5zYxntaHh6q2RdjyaLdRsj_6uO5YGIG2UcYvDjZiDNQBJHyxkb_60-9ukLSh8pBVY0C9OBouRHNZnBUlv2XpIdstX9peMYL3LVc1SSavQxKkAjbcYrTS0JrXyj3EZX81zbWHvInrQx8ZAr0msqYGHhhtx9vJexAl31xZrnvkmgL4gESWYmyoFealAbfqosMtf8nGw432vgXhOGr6iI35TF7as51kbkwOL811HnjmpqHVwrmBnrdNR4qerAsqZSR8BeLTELOEbm_d1i9Jirs_jK7uFwUvOv4VAvDKMKZrymJwiG1w_PXJCsAIYe7lCYjoOwnbd48",
+    "photo_reference": "places/ChIJ59qmnpTCj18RLnZQjS_niOU/photos/AVoNoXQkCwwQi2ec_DV3r-wi12RpO61DUnxMSq8BpFC4_WhGqeT3k5PfGbEr3C1uGHXbyJQ1hrGklIMm_pKsb7Pvwy0nJ7U3MCj3l2kAB5nEddr0M-v4ZwS9Xke2OKv9atGNqYweRicKLaf9OB6v3C3g-rm7LtALtRFy53k1U3bBHv_3SY99JFyn20xIR5kyXjbWdBCQ7pIuNMWJnib0vS6e-ZpRHxlmL86SHBxQr7MNe9e0PuO6KIszzLaS8GZuundgLs8ppmiKkF21s3wa6-wHqibEjxPeHRlbW3guuLdj7mc6CCHMO1Ho2XKEs4oVfvQj6_ZhnHILPHelJxgaDRxr_UzkgU8RP0fakx4VhFaKVPF0eM3X90CxEpQraS45mIb_lJRsmYTbWDg9a0hX3nDC3xOtp-egYaJ6ZRmtU6phoxvreJc",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4358,7 +4304,7 @@
       "google_place_id": "ChIJDY5sDKKLGGARj5MywD4zKh8",
       "google_query": "渋谷区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=2245663708803142543&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:46.674Z"
+      "last_place_sync_at": "2026-09-06T18:09:32.900Z"
     },
     "name": "渋谷しらゆり歯科",
     "genre_key": "dental-clinic",
@@ -4380,7 +4326,60 @@
       "土曜日: 10時00分～13時00分, 14時30分～18時00分",
       "日曜日: 10時00分～13時00分, 14時30分～18時00分"
     ],
-    "photo_reference": "places/ChIJDY5sDKKLGGARj5MywD4zKh8/photos/AVoNoXR2-_uZff46FwlGkuLxCh9hIRmloDZKDsVxsyIx9oHJPQVSYIpwAhVDbIlgB8CgNKBtRka3NFf9BAcsNvjGkao7aIQUoixiVVgcwuFq3mUbrgQ_ijF0kCd07c_rumTTZ_I9vAo4HjkZCt3w927U5eFyQJ4D0rWy_xJCf1wmDXcVc9l-kk1M-PD9KaAeMbBzGqKFz0gvbHwfnB_hTGqonLs5LihJq7n8m1p7bW8it2Wmc-FXizgdMCbimmc4SIqj2ZfXk7LdPERU1R4UZ7Xrx3QSV_zT1js3uGK05wnVOYQEavCXvsW1NFZ9x1GvSQKOTMrMr52RqY1vt_OhAOVIGurU3GFJ4Pn_n3JsWrjTwMKKni2PWMTI6tmt2EAwiCAI6Jh22GjjWMTk9-7naIwXNpT68cXSuSyVNZC2UbY9fW2wfAyP",
+    "photo_reference": "places/ChIJDY5sDKKLGGARj5MywD4zKh8/photos/AVoNoXS_M86gZSAoWrjbVHDlEkuucqZILQD13SQp_cHw6JOmuVyl2OF7V342DSFM55T9Z9fcmnpB_F1o8g5gebScXJIlj2MiZRRun8e3AUxpog8fN1OGsxI76fOOXp_4R3U_Euke57vg01a2jsdLT62w8oU8s1bzq32u0yZTZcxdUXM4bLfolWv7NLjunjfFBz6bxUU5QNPe2MCkGWPBhB5CXWMsWsOinqaGYqEP_NHUujy-iDmS8mvDpq9E5oImDexdsCe7H85rYCwFFArEx8ZeGMHab2EUCPnaF175S4XJtvpQWiLEylaXxWLJ1kiWSovyAs2IGn1y9KTquufMed6hOPLHiBl1kqYXT6x3GpI_asz6-h2OWft9XaNHASE4Gc6bWJjxzubzwc8I8jsqcfp172FZjbzNywhUqRbbXZzB5HddhlkN",
+    "booking": null,
+    "review": {
+      "seed_source": "coverage-gap",
+      "current_count": 2,
+      "target_count": 5,
+      "needs_address_check": false,
+      "needs_site_check": false
+    },
+    "commerce": null,
+    "review_score": 50,
+    "review_issues": [
+      "same_id",
+      "similar_name_address"
+    ],
+    "review_summary": {
+      "area_label": "渋谷区",
+      "genre_label": "歯医者",
+      "has_official_url": true,
+      "has_phone": true,
+      "can_adopt": false
+    }
+  },
+  {
+    "id": "place-chijy627rcqnggar9hwp628exjy",
+    "review_status": "pending",
+    "review_note": "",
+    "source": {
+      "google_place_id": "ChIJY627rcqNGGAR9Hwp628EXjY",
+      "google_query": "渋谷区 歯医者",
+      "google_maps_url": "https://maps.google.com/?cid=3917573604592155892&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "last_place_sync_at": "2026-09-06T18:09:32.900Z"
+    },
+    "name": "渋谷宇田川デンタルクリニック",
+    "genre_key": "dental-clinic",
+    "genre": "dental-clinic",
+    "prefecture": "東京都",
+    "area_key": "tokyo-shibuya",
+    "address": "〒150-0042 東京都渋谷区宇田川町１２−９ ＪｏｕＬｅ ＳＨＩＢＵＹＡ 9階",
+    "lat": 35.6614966,
+    "lng": 139.6980773,
+    "phone": "03-6427-0103",
+    "official_url": "https://www.shibuya-udagawa-dental.com/",
+    "business_status": "OPERATIONAL",
+    "opening_hours": [
+      "月曜日: 10時00分～19時00分",
+      "火曜日: 10時00分～19時00分",
+      "水曜日: 定休日",
+      "木曜日: 10時00分～19時00分",
+      "金曜日: 10時00分～19時00分",
+      "土曜日: 10時00分～18時00分",
+      "日曜日: 10時00分～18時00分"
+    ],
+    "photo_reference": "places/ChIJY627rcqNGGAR9Hwp628EXjY/photos/AVoNoXSYdZcWDaSrHO-K1LIBd9mfLluvNJ3aABKF2Ouq_dhIIHPKZIa0-wNE-gLzlUC7jSojGnoDoWiGQIMX4vU1hPXRM-37iKS61h6ZEHToBEC4c1dDxi4NJvBlCX-E2s18bIB3WL27K1b5X23mBRq30ukc2Q3tINEwKM-XeA671F6fSZnjPQNGr1HR7Lj8bWTth4SksU-Sy8-epFqa7SBqLwTIPy9gxR5iiBDdezhMqOxths0EijImiZZ6ATgOmi8xpgA0OgDd3xY4u6UbSCM3_tGMd2rBxTJM27lzGngJasvR9HG-cqAjNaHacMna0OMUX99oMVZWdRck0ur5AXftX4dfwrxSoArqBr6V5XtMH2TVK3556F8R4CqGziLmVEF5T4WtJPzKxRok1j9x8QllXBVo7aYLvS5R6q9fYRR2Szz-4KrTj3NSYKCzsC6khPGt",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4411,7 +4410,7 @@
       "google_place_id": "ChIJU0SlPAANA2ARSrC8aPWDNU4",
       "google_query": "小牧市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=5635555598771466314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:33.228Z"
+      "last_place_sync_at": "2026-09-06T18:09:19.794Z"
     },
     "name": "小牧にじいろ歯科",
     "genre_key": "dental-clinic",
@@ -4433,7 +4432,7 @@
       "土曜日: 9時30分～13時00分, 14時30分～18時00分",
       "日曜日: 9時30分～13時00分, 14時30分～18時00分"
     ],
-    "photo_reference": "places/ChIJU0SlPAANA2ARSrC8aPWDNU4/photos/AVoNoXTtihmQVC2dTiohxc2bo2WgXR34LJtfqS0ItGG7wyP5nXzZqkPtDvStGFj7RemuaiK3abwq2WzgSc8uF1dZQJisXdrwoLr1GYnpsLyhxh6ouWq8VFrN5qJZJmmyt6gyp7x-6BPpVzogouP_9Ei8UTLiPrSWXiqLGcRcs-fZeziG_4JgNZFksNBVy51puxMjB8JytJnwagc3TeZg2qmDAqL51flZ2HH1S4mw_EeyELZkglOuzpP-PI3elDJ_-yAmmRZY3grlbjIObIqJyNwk3ep7jsEqcDQoNGwOXG0DcYldC23YbdSGsj3QBfH2beYMP16Dxt6UqJqcbQ914Yj_TNgmfUw0bGlumEO8xmJeLSfr1GmlFNv-hbioMDsq1Tge7q6HbYiExskDxUs3hm5CyNO4_ZGpUn6HQFpp5hskzWrbkXrInx5jhDqYo36cEIF_",
+    "photo_reference": "places/ChIJU0SlPAANA2ARSrC8aPWDNU4/photos/AVoNoXQZYnsE_j9afj53dSkwHrfz2YNDky_rqQwFdKW-1GZcJkBxJkYUEygTwCiuR-hS5-bsja4OTnfsPk_-wwX5gjk1LrQHrWJFhNVYBoRi2Hhxtl8-9B_nuy6VbiiRTavofZ8-hQlV_AYR7Ko6NgeOzMwb0aRMFiR1XYV8oaHXMmU7eSkGnHdFYj_9PeYGPXyLGGz-ztIFe78snpqFWv6R3bK2karA0DhnaDnAnAtr4BjfXihyY4bcQYCtEZJvVxPpO0GRyD6dAmpHgnGU1vXlt-O-Xc72MG7o5mjGgkmQtLAYban7L0pqbWt_bio9hoRy1RYrz5nYlttZ1FsRnz7zNptc9tF4nwiXl7AozN444US8DDYatkKq_K7mduIWj1IJ6DqJhj85zZCa3nDan4wcuI_XXz0p5RrsUHdzfBAoUl_iWtapxkJbJ2kD81US_OdP",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4464,7 +4463,7 @@
       "google_place_id": "ChIJU0kgDAM5AWARLpWgeP60nB0",
       "google_query": "奈良市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=2133779328505255214&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:37.668Z"
+      "last_place_sync_at": "2026-09-06T18:09:24.107Z"
     },
     "name": "松田歯科クリニック",
     "genre_key": "dental-clinic",
@@ -4486,7 +4485,7 @@
       "土曜日: 9時00分～13時00分, 14時00分～16時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJU0kgDAM5AWARLpWgeP60nB0/photos/AVoNoXRZ3bUeU9kQse_C_57MNWm_-RRpecUYd1GIKzJfFMbh_TUdGDrUvhQ7Q1JliZ5KH_ukhjv_syMx1lzgRo2EBp8R142M3-2YuIdgyGebt_ct9nr1ITyOrbWeA6LQCbzoFpzrlMDnUIE8DItl0P4sKlb3BBfyZC5hVTjJ8ZiuwqKVc0TyEhYXITKrKuARaz265quZOHxDknI7KlEae4w63DuJzEaZ2yNfhb24SDMRjuR7dv1U4wqzU-T5Vuf6w9vRd73HBheTNckVVtwfQyOSD3H5R51T4d6Aa9mSu7SjTH6mDS3h61XfM-T1wKkHSaQQerKlGs7bwX6G_RbhfvZFAvMX9Fu4C0EJ6EomKTJn-oGS5c2324fdMP5QG4Uqx-zAuipJad2MJLSijMD30F1VYAsgpUPuFwvi2F60d6zsRK32jR-R",
+    "photo_reference": "places/ChIJU0kgDAM5AWARLpWgeP60nB0/photos/AVoNoXSkT5JN-gXxZ7rGK4P_n9wEhtO6VJqFZ2a9mbQSMXNDEjiERzrqIX9hYuj-L-AK4V7tr37Kl0ISibq7NJMzrp8YnwXjufGJ5F0YnlmRei16D5eBuQUuA5kpYX8aZZcCYgdeNyuVxrwxt-eEzhONOg56nA-RLpXUyau_jrSzuGqzf8GjSXwSiY54vX3355Zqe8jDrE8U2U0QKmwcMIY4WWb3sLvvRLr3EVAvFxKYQajZYjIh3uzO-JvmbJmHpYxsU45B2OtyUR8jphNLwwQn-rjSEhnoKNvl4cZF1NjsPd93asOZ5_aNerP5UWscoundsiYAdWD2fvnA7UUmNLXjBBHFJ1Mg1XmiqKY_MdIYXyHKr3rd-kB6G59lw-vyM58xxw9U5BZIT-gW2EckRliCetKTrXDiX9t78PJH8goAZ1KbTaHi",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4517,7 +4516,7 @@
       "google_place_id": "ChIJPcfcRYmFGWARjoCMSDAMFpI",
       "google_query": "沼津市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=10526614580540244110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:39.591Z"
+      "last_place_sync_at": "2026-09-06T18:09:26.070Z"
     },
     "name": "沼津フォンターナ歯科",
     "genre_key": "dental-clinic",
@@ -4539,7 +4538,7 @@
       "土曜日: 9時00分～13時00分, 14時30分～19時00分",
       "日曜日: 9時00分～14時00分"
     ],
-    "photo_reference": "places/ChIJPcfcRYmFGWARjoCMSDAMFpI/photos/AVoNoXSxiKEMWtDaTymLD_Oc9eE7jRHY98LBHcGfjUG_csRnc8xzKF-BwqXjXXU25cNGI9vT-KbzwbkseZkraCd8maH4ru5zQkg9dO8WSU-w3gcOOZPVqcaE0twdlZzLptYknCbsUo_lqkkmn8fQaKneesKklt1mypr5WwK6VIJHh49V7OUya4McFNBUwZfzSetuFgHx11lq6ThdrkfB9hbjRvuTZ4yB0XyLi9jiiVAl2iSH1CGQJwklZPSRXhp1XcHOnjVF6SHOFkA3M46lzlDy4D_KiCzORNKn5Q8aKEsa5b0sQrxYIqR_wO8FWNqTevN5xW4DzzXGoFaiuyY-sw573Fvl7wP64EWExfS901duV7hASevL3Xen32P1SRk5itrBewSDKYCjCna-qvb9UFf_uGY8Wzrt8Bd5yc5NSgTMM-YVkPsa6FwCI-4C6yCcs9br",
+    "photo_reference": "places/ChIJPcfcRYmFGWARjoCMSDAMFpI/photos/AVoNoXTUcDYIRXFfdygzf-Y3A8kNAlugpe5vNnUrPNbAanquEvBSzfvuTTf6iMO08t0iVoeI_Fguw3kALBWYy_rJeO6YTWUIKQvoL3y7kRJ0Gf4lRZD4vTewfsnJHWCp9oPemYI2HAgP1xXW6lwTSHs3_9uKUca2lgeBmSVq5ZQYLOOewzCWGjc_qgADXADu1NffVFpzKVOkQn5oJyNHDJc0OHFgBqaFqq7HJYvNooTi0dZk3sqXZajoZHbA_0j0LzhfvvWbhWsescNjXxiN4S_53usip0l6U7t3ku4uSPbX1kMKNtJL1_qqLJsA9ZosATjOWHqT3IWGnj7r9rnJiHGUK-cJrAwUtWEkB9MgXPwj_BJD-_3achj9sQydNjFwSxHLO-l9mnFebgf1yzDMsdgwhnfQ9ACidC67d9us_qWUG4vV-bzmcPJUYQ94xcx__gyB",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4570,7 +4569,7 @@
       "google_place_id": "ChIJHbzEK0PRG2ARrV8VmnpsQpM",
       "google_query": "富士宮市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=10611162945865211821&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:39.316Z"
+      "last_place_sync_at": "2026-09-06T18:09:25.811Z"
     },
     "name": "上杉歯科医院",
     "genre_key": "dental-clinic",
@@ -4623,7 +4622,7 @@
       "google_place_id": "ChIJSezwTladhV8R0CRzzeR34VI",
       "google_query": "盛岡市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=5972186405453112528&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:36.670Z"
+      "last_place_sync_at": "2026-09-06T18:09:23.164Z"
     },
     "name": "盛岡となん歯科･こども矯正歯科",
     "genre_key": "dental-clinic",
@@ -4645,7 +4644,7 @@
       "土曜日: 9時00分～12時30分, 13時30分～17時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJSezwTladhV8R0CRzzeR34VI/photos/AVoNoXSA_-FWoRK_uMq-RgUS3Y2JymjWlpPgUAUWDth0y5McOxt7IjwEbmbYhBeSQxPft_5c_f9Q6BEXGSeFlVx90L-MmUaDpot5UxjX-YTJsgn6ogi-r3rbA_JI6Vpe6dA6WZ2suiaXsY_y678w4Nvu4ppTTlZmb7pyxUJxDrqoDYHxbSdE6ZP3DPyB-u1IKRE0ApNzvMbOklGuixEbiRWwv6nc54YufrH0hdiQu6iS0EDccbyn9GoE4YG7qF4dtrsUESGqZcbn0OCiJsJend_2_T0jGMMpT6qoxdfP1eKdUZ3OhmnN1Mwk26NmpCMqRbWit-HyyzROhuYGFkAu182ogWp0yG7Nu1pwrknRllCExhWUgDsIGokr_t0G4Ozs8ylt_bTOnOIcvNmrJU4SrVPf32GRz2RCx3z3EzNjy7cffiP-z-BqJ9Cj7klU058-MAlY",
+    "photo_reference": "places/ChIJSezwTladhV8R0CRzzeR34VI/photos/AVoNoXS3CvAa13RTPwNrgOCmi2oY-vfmT9zdi8PgYONrpAJUoTzEbiN7pEXh6xLh56YidTZPqdwjHYoHGmocwpkWsL4KVNTRFwBi3qw6vM_N87WEN6-rL5hy5tfpzoeXr9x_KUHaVBMz8IYNPSwIGYW2mUsdnYsGSnOQBPWVc4bV-WRwwYjFSqIy3ZoyLsObPHd-4XzpFLpcMfHddG2O_QrDptdbWYGDnwcnLj65UBmMzynPIqF1SXaSiaN52pYt6HRogoCc_6s6WrnLJ5E0lWLSAr0NWTS36-YtVoia6PCx2H4R9zCAhl2Xg_q3qap8xgEzy8tIDtQn38ssDTTdxOYIse2YIpR0p0xTItl8e5pM53Prt_DhO-Qen7AU9_7rZ3fv6AGPszXFxCHWqRJHtcR8I0Qrx4zL7v6GAXuLf7mx_jyj2RvKWORtWlbsYUAyKGGN",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4676,7 +4675,7 @@
       "google_place_id": "ChIJmXl1mDhlA2AR2Y4vWpSw_Mo",
       "google_query": "名古屋市名東区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=14626759841007242969&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:47.964Z"
+      "last_place_sync_at": "2026-09-06T18:09:34.194Z"
     },
     "name": "西山歯科",
     "genre_key": "dental-clinic",
@@ -4698,7 +4697,7 @@
       "土曜日: 9時30分～12時30分, 14時00分～18時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJmXl1mDhlA2AR2Y4vWpSw_Mo/photos/AVoNoXRGnPZoWpLxSpfM-9bfFglNF4zwNfX0Wfp3q2IQS-_yEhuL93B3aFLqgmSVq7Qy278qDCdwWaJTNylr7wAK6x1NkQ3KAqhQg5aM7oKvwBsuqGtz60aETkgzSlU-0rLNEzWNNjzbkun2-SUvWM3Yn0VC3gyXY2CtF9dWRCbGbByn4xA0fgcpxAXQATEBHwwTmP15izDX3MhZMG4BBAnXXlyue5_8RHrpmDucLKkZD2N1ZRLD8NaJJpqwD8fGWtFK2-HDyCy0YOhY8mgh4Rmx_zbWUhSUWbvE91ei0GEN4uD2L3GEO4twChXo_rokhQSVySOnyxgcidt4DtsAeTd8vLTYaNRstUMzo7xbetW61MQiOckjExT17Puev86HIievV22BAWKJTV7Vxw9gX5HIhdv-P2FsUO9chWWlDx91ryRMrk9k",
+    "photo_reference": "places/ChIJmXl1mDhlA2AR2Y4vWpSw_Mo/photos/AVoNoXSO43NCIAHHbMcXhfqEsoDL-Pm87yX9RCZeb6AovlhGnbcNEl6Z1RhT2l8T0XDoDgX1oyny6IGeWTd6qjsLqaOYufx3bxjW6JBcXTcrhz9HpOGt7cAbpFv1PDEFGhdCeI4tF7UTVnjrGkdoKwMdKolZEv8pt_uFtvBaQA8UZNuUEn0WGlph6MeOLHoDn5whz-NMTIsWOcnsdjlPOw4etUB7AJAZpJGFP-XdD5eCVeK6yZCI4NrikkaVMHtn668GaNV6O8pF426bAyOCU1_Dlj7tnuMMDmi6spYtdF3wP4qPzMJcSS6IjRypmVHB_rQGxfuZCDKR5R43lAK5W1QF1HVveEiG0UNUPCTLNObHN5mH-PPivK4b5hdNhcYUK1gwIvvzztfs19n7tz5ABImzKHoz1N_ZX0DBT5rV7GAB5kiGcZU2",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4729,7 +4728,7 @@
       "google_place_id": "ChIJ2RC--xkdGWARRJAFhoxW_lA",
       "google_query": "八王子市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=5836197328662663236&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:46.350Z"
+      "last_place_sync_at": "2026-09-06T18:09:32.595Z"
     },
     "name": "千賀デンタルクリニック 八王子オクトーレ医院",
     "genre_key": "dental-clinic",
@@ -4751,7 +4750,7 @@
       "土曜日: 10時00分～14時00分, 15時00分～19時00分",
       "日曜日: 10時00分～14時00分, 15時00分～19時00分"
     ],
-    "photo_reference": "places/ChIJ2RC--xkdGWARRJAFhoxW_lA/photos/AVoNoXTUSdSDFeDQ729QAUh0kHxBds5gnJuYmrhedPNGjTBuMLwb-uYgUxnmnCOu6DH4-H6yaaLR70wIGJbYGijrpL-4VkOL1xJSyu04fvBRiA7zSPinXzIzQsIbQXSarfdeP6BrgvXKI1VtoCGCeYGvEjl-pMBHUwJU8t8AGX_38sNH-J8-UotYFLJmZhlrfxys9XBEIj01gLOhvqeUbt1UjBgM9nezTxV3qWvF-AbP4pFEi5iusgM5hTzaPswcWPU9GT5PB-bQjeV6Zr1iFQywgCi7FOPCTaqTDszdHE3i3N3W-jXsTdYRlnwUI1OdRDiAII4p8_Slp1Tz0tyKNmie6wN8_2UM-QsYM2wpHN9w02VVlUbI31Af9joFprQCAavCb4CKqjOeaFyZtUsk06ut2kZKXcd8Qu5fz8JuywJJ6Wvhdg",
+    "photo_reference": "places/ChIJ2RC--xkdGWARRJAFhoxW_lA/photos/AVoNoXQIeCJlSacqh2jUrhWuEcBQzpQ1abBjMG10nG-INt35XDVkNZ4Q5V9gEdzc0BZWdG1xUFm6zUh6Hl6I2xvmtF9TcngSEI2962q2VEn9GQQ4SEwe9Va5Et4DPNsSeQ7aVcYLmXfJyJ_bf7G-vGsn4l3OKyMRRJ85Nmird5LVElkOK72vGuLN6E1-dP76o9CC51PORGA859_8P94TIJ-u54WH_8DxpX_CkUB9B7VKypd-e8n9U1Zh6RPO5CGcCueEYwmM8S3lda6TZmAzzgxv2R07ljQIM992B-SIEkPotT8eZKW8JvMWmImMzm6i3kPNlzQmeceN0gHEopjGGRhofJSuwXY9Hsbunei2nPD57JGH1pL6z0-QYIXgqWymoQza0YJkcZB-3ZIkRMJqJwe591JBHGjb1XosZoegDs3pEGK_dw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4782,7 +4781,7 @@
       "google_place_id": "ChIJh3-BTUKDBGARTLscj0fsYao",
       "google_query": "大府市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=12277353851276540748&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:33.856Z"
+      "last_place_sync_at": "2026-09-06T18:09:20.391Z"
     },
     "name": "大府東歯科",
     "genre_key": "dental-clinic",
@@ -4804,7 +4803,7 @@
       "土曜日: 9時30分～13時00分, 14時00分～17時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJh3-BTUKDBGARTLscj0fsYao/photos/AVoNoXS545SBmbShWLLkMADpt2S22HuIHkhI_Jf9NGd0o8OcoJ5uD9TROxr6EY0pqn1ztb1M5bZrs5ohZhk1fHMqFV97wzarHJXJq4qvwQQh0WTqS3KorJP7TLJZPy6XzRehoXVfT5kupRawQMYfB_U9fEw-I7IrY09ZOq2UmYAnDIbytloztoiGlST8_jX9checK87y3oxY7dvfsktrhhll80tSZw13nE277Xk5oxLmiGWXOgOvbIvr90tMJ-Z1LnyTyKvZiQ2oGfXxgq7cMyPC49IZjmxTy83Jt5z3LKi8s33liHoqDiwTvveO0md3nvdOl6d0f0NYVfLg6QqkTpwmRgqxdBZGqclUTjUOlS04LetCM-QxjXLLlNLXRXREOa9iWL8qMIcpOfVFqfhoeBWqGlf-c8Isns4FqJNWS8G5s3SGx4Kk",
+    "photo_reference": "places/ChIJh3-BTUKDBGARTLscj0fsYao/photos/AVoNoXTc237uVkfYbva8gDMi7A6q-xSY4p8BKWPahIABzBg2XbJuH-bk99epolPwFZQmN1RxrIBeEsY9FBs_GNzshSPo7vclh-xqGZAAFZYeftmMznMicBaGJuNofvvmIi7t5QD2xk3pqduS5eZF0WieX2zW0KefTrI3TNmg2QUSUWYM4FeA7NUe7oLdyTKSgQeCAoh-iBhb0RD6omxeVemtdVHk0EZ7cPbxG490wzhu_-FhFJp46nBYhzxWTtcjfIenNNrp8-bv2v9VhJuc5PJzJ_Ec4XfJ_X9hPq2zirr1wraamjjyUwR1UjGjvchPdtM-_GlMph9lrrs_ggbeT9cuA6RwS_8f7Ht-wK-0qcQgORUUMWW0kDNJIe1xVr1wOaWLpOYOucvLN9O8U7AduZegh-3tTePL47EkbCHPislz1vJMXE62",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4835,7 +4834,7 @@
       "google_place_id": "ChIJ462-ZeChRjURgBIRrQnuf3U",
       "google_query": "大分市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=8466747549805515392&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:37.977Z"
+      "last_place_sync_at": "2026-09-06T18:09:24.420Z"
     },
     "name": "谷川デンタルクリニック",
     "genre_key": "dental-clinic",
@@ -4857,7 +4856,7 @@
       "土曜日: 定休日",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJ462-ZeChRjURgBIRrQnuf3U/photos/AVoNoXTHx11aoijovrTJFIjYrORjBhZIWQgm4SZExvNM-MuvVDfvXohRWlMUyBEAy_8OXv3G79U5QPFVRI9wLcMsJzFSsABOFEiqj_hUzHDBqEoSpA0sd0HB9hQrellYMeC4YcTA0zD5wwD_yngkjFBVnxgi6mL4c4WC4UECQ6Hg9SIl57iHxdYlTOtW-drVgPb7usYRYhzPLFKteyG6x83vqKXATAAUR0p34w6FsDKvj5k1VrAjw5oe8SzWdzdj0wrtJ0eo-etDO1b35baXG6GamKfsfS-mBAtWfn_rZdUF9iUz7XVquO6a1I1po_khtkhPgdozeEyUVlOZsY0r37MPclkzDN9vqdfIxO-midFx8ekXfRO98fdPL9H4liFNN5EurefkxOVaLVRhK0N907bRyZEYXOU7H12tLH7LsPxsmMj61g4",
+    "photo_reference": "places/ChIJ462-ZeChRjURgBIRrQnuf3U/photos/AVoNoXQRGkTTwWXdStXEHTsqKmml915nYERRzK4ddjm_mwblN5-gqfnDzLD4SJb8Lc9rpmxFCDHFYwwDa9ux0NuzhnEPK-cgNCoagasL54poSbRCEAF2ZjSplB1ZZiosQjIAgeevjOiZr94CW-AdIKCVMiBorAH94_W3Zl8IfCBnUGdFWFI02_L2sUeo6Z-7gxBlQ19qbsPSQUVdLFTaX_bDcqk8LsWsX9iRR_bSjJny9TWs5pkb0g70A4EqdzQi19Ma1jUxavf3BPG7ToaXbZZE_MPp96XFIq_lZIBBaZ7xqIIKAlqSW2Yi_2yMwCEP4XCAXjhP7o7JIG2zqCr3Xm3Msg9gcJvqV4EgVMrl1tHTmCoMfveoUmNldPMSXn51hLZfyZu0LsrWmPPp-XKP56-VEBq33bs_iPeYZOKy8-zY9w-W0sM",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4888,7 +4887,7 @@
       "google_place_id": "ChIJ__-_d2RwA2AR8WTyTEKOFS0",
       "google_query": "名古屋市千種区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=3248659121627620593&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:47.326Z"
+      "last_place_sync_at": "2026-09-06T18:09:33.542Z"
     },
     "name": "池下さくら歯科",
     "genre_key": "dental-clinic",
@@ -4910,7 +4909,7 @@
       "土曜日: 9時00分～18時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJ__-_d2RwA2AR8WTyTEKOFS0/photos/AVoNoXSVd70tJ8EiG7MnSBaMxzdMxBYGqsR1UGaqY99_hJWcKGU4a86gvPaTQJy0JtZmYgDt3tYDL9njp2mnN9KIgOZ2qBKznOsSBz-StJJCzRNERb9ddcK54x2NhGZuOhJ7j4nIz-zKmB5t2xuxlfZBodreOVOdpcEGEOH0CEnkvXv6Hv9rcpK31NWNrjHN8H4vXz5L1l78FJwVaSGawO7S7RutYQeh5iVp-tJPe5SqefnMs0s34W8MoYSO0NV69oGJOpyt66OvVFy8iQ9EyMbfYSNM0-XZKS1M3m0qQLpcMXD6xDA0-GE6fwWrZWL8kKkLHpkkDjjfrNKHSIQSXAvgi-pjMgpjd2UWQBD0H1KLOoOaQ3cQ5kEeNO3ZZRgbBmPo6j-GHIB0OEU37Q_AFl00cClhtxAnORo6Um20LHj_7O4",
+    "photo_reference": "places/ChIJ__-_d2RwA2AR8WTyTEKOFS0/photos/AVoNoXSKiJJjJXyXn6s7FOzMqDxeAHmbgtA27vaptR9C49sKwAfM2AhGdmUVJqXopIv7Dov0AZ7RAf2tZUfnl0KjVfeCH4cT_14JTQ6A9VBqEx2foLy1pJCOGCSqObp5RxP5BSVdm26k-jNd3wdZIakiha2EYtTM_KEKk6mrZzsp2mxYQD5GVo1zTtNWX4mmU688TSoOo3mWOONH5NiH54R48sgvbADH3Qdhb864dUtwvnDjFp_mnr2Ev9vEQBgdkNgCz1Yv95SaCCkVjgOhmsqyqwptqsMtw9KM90QFYvvqX2Z_wrFEl1P0ApA51Gwl99EHu9MkX_hlcjry7onC0eS0gmdq_efcyswwyc_xf9HorHliDQy1URIhloR1HxMT1hiCMr5_0HKzfKoyKADApq-xLRrMEhifun3Oh8YRXOJI4Lo",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4941,7 +4940,7 @@
       "google_place_id": "ChIJVV1I9M69BGARbGjam6v_b6c",
       "google_query": "岡崎市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=12065143039268120684&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:34.173Z"
+      "last_place_sync_at": "2026-09-06T18:09:20.752Z"
     },
     "name": "東岡崎ジョイ歯科",
     "genre_key": "dental-clinic",
@@ -4963,7 +4962,7 @@
       "土曜日: 9時00分～14時30分",
       "日曜日: 9時00分～14時30分"
     ],
-    "photo_reference": "places/ChIJVV1I9M69BGARbGjam6v_b6c/photos/AVoNoXQC7blsg9rbI-7tvCP_cGq9foLc5ggFMg93wF5ag5_PijEwhk8p7CkyZbgCLYYQ0xuMnLvV6s6PPL4LJw64OcM94K_Hk1GhTk2PEzvaZnff6ZMS6QoycZbh63msh19foOY1iVWv73uAx6Lrq4kmvN6r1OzhM_FmrnvicqKFJRJUwtIay9hzNXe9k6E9aQjndboTervPjsD50-iVRWUvLdPf6U1uWWIpWDMmyMOD2oPMdQ0rB847EwvC3-Uro9NbkWsj30xyWHY9mUs_vnF2D31L_sRWEnuloyAawjvIG3KkvAqJmPZl-b-8uXEOvdhEbYf6EAf6IEhHf5kzQAXki2qRbbQgNvoymuYzGVo6RHgSQkikZIqq5hUAK5d2fG-qshJg-UhN9WAXVYHGDiudeVLD8WICPqQT2ni86OPPTBUro0lf",
+    "photo_reference": "places/ChIJVV1I9M69BGARbGjam6v_b6c/photos/AVoNoXRVyzl69vX3aKacnaQXcyftcr1mjQKsWUJhWkXGTiUMfvzI5EmuWE49bL7Y6YjV0EDd-_RwPwi4eNggLDSsFF8pdmYFkb0S2xWF9QlksSBCdVy82BClM9ApVeUMwBWK_RnqcJGdKVxUBEbaAp2BivnDEHchlJyrL2z6TedPFeWRQbvEHveWYpfvbowLo3pmhHkYxJTJ850xKuSFkPSMruQdqHjevuLYBmCk_1BdrBWtLwC_RmUY4ap0fc4KvIqFufGUlDe4pg_FHxqfgRnnI84uCFisU8xNiK_zWh5ZWNlmoL1tSqYrFOE0sT_XPARz0mKF2v47MkHdriNR4UMHjluIjfkTUnm1quF8yYyv1TfWfzHH1JPn_JwtxFyar5mHvw7Uo6DCxad-AYaHaim17IIb8OENRnxIp-I7TbmNTdbvhWfx",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -4994,7 +4993,7 @@
       "google_place_id": "ChIJN_VNzcNzA2AR8trNRFMZ4xw",
       "google_query": "名古屋市北区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=2081535298202622706&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:47.652Z"
+      "last_place_sync_at": "2026-09-06T18:09:33.852Z"
     },
     "name": "徳倉歯科口腔外科・矯正歯科",
     "genre_key": "dental-clinic",
@@ -5016,7 +5015,7 @@
       "土曜日: 9時00分～12時00分, 14時00分～18時00分",
       "日曜日: 9時00分～12時00分, 14時00分～18時00分"
     ],
-    "photo_reference": "places/ChIJN_VNzcNzA2AR8trNRFMZ4xw/photos/AVoNoXSGpocbcDINY_wRe1yDqFIQMlp4l5OOghvjbY_47BF-FkMYY6U2IzMj0kPs_yoZMk_ym6O9O__4wpQG49HGZf25NeMANjY3VTtLWzMPKXGXgXgcAyLJRfjLB2wtdFTz5V4k_nRobyCMe8q3FGcKn4CrzkUzuAOpNeYfk3w9XajJd6jrteX3O4LYRmGw2wfeMUG8S8VwnTZdiq5_rljEY3AFM0yUz0o-DrPy7kpayEveGpZX5S1GGjid3IJg5bh6ETw19lPeCuKg9aPO90Hka7x97BLInN2DlXv_7wjopycGZlQulUbcB0i1iAMF6lL25Zar-chNrEfhkUH3T1xu4tSkd7rN9P75JQnJBkSFovBYDt9_gHkNykD5IkXvPARIw5ycnwxAeOJiD9qWxtHO-Lbb0Fqhpy-ZHWQYLz5Gdbc",
+    "photo_reference": "places/ChIJN_VNzcNzA2AR8trNRFMZ4xw/photos/AVoNoXQcbr7sTIHBsr94u4OMsE4hppVsRXV0aVwYykbGhY1OosrGXPWqbEfKhheS0KMbECZ3bxmnkKEygCp240jyvSh695DdaAQJaJ3mIrVt9qIStYLqFfch5u_IiiMp-Bx3wqAlUla7GCCXsJtvWAqJRQyDVn2LC9J9A6ueWD2AJR3q94eJOxUUlXrknvGNqD9v1bnC_P1pERgl-cGoiFebPGKrAu_7gwc0GWSziuujHYp1Tj-h8D9f6dmPM-ub9TuSslAljvXw_KKMyJFZT_NfN6hAewWKzlKRT2OiAldPmcfiODK5O0rjJSyj3TAm73qtuHFDMnbMXwOxr1O28CnYQcXc5pq7KP1jiAz-OvHiORAqmuTn5OfttCcylzdVUJK9SUL54rZDvQ9affHucqcqyqajioV8-Wul8-9xquAkuF0",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -5047,7 +5046,7 @@
       "google_place_id": "ChIJVfxe0ij4G2ARoqAHP_5vhgs",
       "google_query": "甲府市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=830474319066276002&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:40.751Z"
+      "last_place_sync_at": "2026-09-06T18:09:27.310Z"
     },
     "name": "内田歯科医院",
     "genre_key": "dental-clinic",
@@ -5069,7 +5068,7 @@
       "土曜日: 9時00分～12時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJVfxe0ij4G2ARoqAHP_5vhgs/photos/AVoNoXQQcawkvpnlRkSaL9bDzzPTVcahm_5BJMVdNkjU9qiTypP6n_j6OG_hYKQad_sa6QXXM92m5RLg_97za6e5vq8KKSDsnwWjRyr2ESIvB-5pTDEbkXgmiOtIOMoFIl1cwRcYJayR0fsU53nxwOfJYOxc0J6SlEL5BNzLczSesxVDfrdXvqrh3nl-dMHhN3d0kcVttbXR-QAdQhPSdB15mcTYGfbegsZkx3lmeKUCfTTpNdmqUn5K4zMGMqdF5z7OhSherIIA6OHMs7pyHtD-Kdx_2bavdX8C15oY7wYBnGkxpWkfpD5YsGdH3wh84VcUFI-MNlrTDewPpXSjW-Zz-dUI3agb-MLGA2-BuVc8Z_VXWfXl017EQZANwziqEY9c0STLuH6Y6nER0utzsbe19fOCSGmcdBgc4_Wq2X8r_5S05fFt",
+    "photo_reference": "places/ChIJVfxe0ij4G2ARoqAHP_5vhgs/photos/AVoNoXRei3GhvIyaYKH5eB8v9KpWkdDZBYdmnPdjG0r_SQEjQKTHuvohOHkj-UuJ3A9zFk7fdZ4l_01yDmrWGYqxUf16rtM1Ye4_RELLCEK968waG8E9hpPC6IgLJRGNj80-o0wDZudx8Qum42ec3-rgtUULbt6zAsrKWZ76urcAhSdGbae4NIZ9pQg1uloCWSVBbzE7TBfMG0BBNyfTSKdcN76uimHIZxqDQnNvmy1iY5sj6aaqPwHe4p9RvfxsIisEXy33AOjNHMsebaEK9EkRBHMU4LTcDPJypGjMuFeFpbBNUvE_L6ZajdtkmdBS5jpdonL129cys3zuuksE_1Pf0Y7te55PGkd5069eHDmfuKj0UrOO3ddkUPnse0n7auUux7meDBx4C1g6_6JTOvnq4XCgRZosjEgqT1YHo_6MNR0Bbk7C",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -5100,7 +5099,7 @@
       "google_place_id": "ChIJyWzfa155A2ARFNSWQXyZD2g",
       "google_query": "名古屋市熱田区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=7498380663550563348&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:47.044Z"
+      "last_place_sync_at": "2026-09-06T18:09:33.254Z"
     },
     "name": "熱田コトノハ歯科",
     "genre_key": "dental-clinic",
@@ -5122,7 +5121,7 @@
       "土曜日: 8時30分～12時30分, 13時30分～16時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJyWzfa155A2ARFNSWQXyZD2g/photos/AVoNoXQ_gYHwdVF-xPh1RdQRUq5P2LXJn7bKw5KPtZE0n6YQ0EHAusNhowh9U16A0ofZlTLgf3ioyTINt8SqBo0jIGO40gEXXiw1JwnvOMpb0F5Tjovmw8bgrgIMqWNTVa9oXaHlnKUo6JQns2i4CPiMSHak4AT_9yWFpz4WcgKZi3V3uiTJkw_N-TQxLQFC6dnMa1TURHBuiIQE3xb9J3ShcAQUlW83jUlr6yT2x_1KOld9Pnw7q_eJl0-zY7Buw0-XPHlB5BFraWwJsCpDcRQx_Q41ZKKK8bnOX0GQdsXXkBaXxY93dNI-3bGCq2-YWhqoO2dKjyeyXLOyUIMncKDzroIeAWmTWUrLYPiJO399AIA1vur69u4AOEkEUVd5-Bu0AK09mIm4QkMYre4HCjnnkhpgz89wHGJW18XHosXKl2PfNZYrRVeRBYm3By0QDfj2",
+    "photo_reference": "places/ChIJyWzfa155A2ARFNSWQXyZD2g/photos/AVoNoXS0EGzYbZXH_dE8bU-8QMAnaR86_JPvIGNRPuLrg0LF2AwgDjosLMN5NHQdJAhl2Lk8yMlnSL02k1_pX10MFLo9C65kZDoNDGTsMSYLRgnXItBJazXv58RK8fkwqWCqUSe7GDkwXObqU_ac9NJQ-VejBxk0s5tQ-7Qp05hwH4rKAK4uyuZri7cI_pUdoMKHQiQpvM-x_jmCtsL4HDxvm0rlP3Xq9GlOWTHRSpGtJ55NgdkRPj-_vFNf-Zv6wNC7VaRVlSj5pm35wpIEes5e9YLHLf9j-j9CDHTMVhTDW_0t1Vp0fJBbVmkCwaVAtSz6rINwsrcUoLKJkPudEqVJASHyjo3skvW13h7TEjRmG1_BnBJjNX0YbZDO_FfdJIVbLqoroFyRO08K35jesLruE4tUzbQRK9TO0rbI8TLc3luwDqhQuJVYXI5Z0lpGE3Ll",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -5153,7 +5152,7 @@
       "google_place_id": "ChIJwzFqMCcdGWARySBjIgjOjNk",
       "google_query": "八王子市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=15676130937301835977&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:46.350Z"
+      "last_place_sync_at": "2026-09-06T18:09:32.595Z"
     },
     "name": "八王子スカイデンタルクリニック",
     "genre_key": "dental-clinic",
@@ -5175,7 +5174,7 @@
       "土曜日: 9時00分～13時00分, 14時30分～17時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJwzFqMCcdGWARySBjIgjOjNk/photos/AVoNoXQ85MOkrv8wGjFGODvw8g5_DltWKTwf12L2w-_N4AKC5pH9A95w7kRLxb1obwID6pbEUKOxKOWvlqOj0jzJsavm0T53jLf8NdvkXHCggx8Zr3xpbi473938UYH_xVfQYftWnibS95IpPw3RO8fMRFh6xhsmGlKQjxYOknZQcaGMbtW-nyVgbrNkV6Dvb2gfGy5YcdbuyK0jLX7KRmFvJlrR6XjSmk-_21CvaWVN-9mYHD0AIEVVRS3KXELJqf_KpilU-wjXKgHkgrTMrsQHHDuvN-AX51siH2HR0IrHz_tD7bv8LMC_t1WGHHT5nFLR7jDRLGK1wgzTJjuMitlBXkRGH6YBTrVryk5ivlchTKO-e9wgbtsJew7eszjqfPNHXKbdkGaxsxK4Nyv6lnOWLPN6m_FfLtDi-Cx_J2Uz8tA2iA",
+    "photo_reference": "places/ChIJwzFqMCcdGWARySBjIgjOjNk/photos/AVoNoXQtoldasFGpbS-6V5zc0WYrmm5VBSANqw6e4ZUegfw7qVceMcOxYgAE8ND_BP0R5IFFiiuKeBD6TqQ1riSwnL3AQ3z_dxgsAF2T7V8xgS5XLOMGnnx985VPJ5J93jybTGS6tY2-_iuUM5YXWZGPRumBXZ8ubaUbID09UIduPO8N64Ra-BiAspY4VdAPlc8qXLi2zdcGnKQuaKK-IROe1_12aMzVPhzqD1Wcrvh-JLwkTmq4Z42EmD3WCE7aiRJ126auflAQRqsWfNzH-UHp6hh96sNjSNM9AmUuOpsJVbptdjIvp8ZWA-fg6RlKYJ5OwCfs1QIqYRAF63dM6xhSHoLAvXI1J9FNC6I_S4mddwmEiLbXKFB2mpaUrmrWLsiO9etgSIBIVn7OyhiXltmLF4qqBVenOM0x2Fy0gyAL9jiUEw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -5206,7 +5205,7 @@
       "google_place_id": "ChIJofkVJs7TG2ARHegrX2AzXSc",
       "google_query": "富士市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=2836479829319870493&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:38.802Z"
+      "last_place_sync_at": "2026-09-06T18:09:25.237Z"
     },
     "name": "富士こばやしおとなこども歯科",
     "genre_key": "dental-clinic",
@@ -5228,7 +5227,7 @@
       "土曜日: 9時30分～18時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJofkVJs7TG2ARHegrX2AzXSc/photos/AVoNoXRA4RDE_oNUUQATUKtiYWYlAKy3LK-vRjvzhTz07Tuu7XUlUMZrXXlh8_TlgR7-e4L5tDPhR_bdM2qpUpll5kzG6NIzp7We-Bc219CDpsB8TVLvr8TJpqWMX0PPR1L2BJxM7g0HmOd2-JDIdVvZg7rUcydoEWh8eG8PI_gp-xM1jPHkyRkuxy3PRYVEbyfBlGKG47ut3RIJy4tqXw5aRBZcgbhWoejjAfQeqLjhai9igRAy8_AcX9RuoSG_PrqI0PsdOprJZilRDTnu7xyUjtJPaxg3H3PIzWmhbdm_rnkkXXTPCqidMQsQ8EqbgMCoj-sF-qnXKESoBcwQV92UvvorlqLscLATf5U-bm9yFR5myxbT2a5eZ3lVv7M9zHDcC1gdJyqY5nULmiz4TTLzR5jcd5ObGGGUYs0KNfXaoyde_9mV",
+    "photo_reference": "places/ChIJofkVJs7TG2ARHegrX2AzXSc/photos/AVoNoXQATw900cgTdfcEOKcTGkqdF0TY2BHwuPmaUnuGzGMZ8i1x2V25ggdYwOZ2oSl2tjTMo7-tfNtEt_4Uk-xQaA3vQVi-qNrpyzjah8-RYCH2clPoiB2ZEA8Geu8nUismIaNvfYjneA3VNBJ-Kx_2QM9GF82eblcByZouGbiziH7R1II1tk3gSsRWpg77_1UGQA6l-dV1merWrK-BZv34E8QJrTkQD0qF3ipiNHLBfSmhqD-Bx00OiC2CDGVA9I3weOtWmXNbeE4oIDbjbAvVpn5vHTq2qVYFlc4F65GQVf901RMw5puXu3oi8YdtMJxpcK0jqCCFA_4a04u7eYE48I2evZqQjkEYiCR-CdeeY2l2KSl892X9PYHs9pqzMaY2C2F_AgfPA3kDb4x0KnHyouIKH_jnonK_I9SRf5onTZCQoJbL",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -5259,7 +5258,7 @@
       "google_place_id": "ChIJR0hutwT3nl8RvziHQhGbg8c",
       "google_query": "函館市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=14376504933929662655&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:36.022Z"
+      "last_place_sync_at": "2026-09-06T18:09:22.521Z"
     },
     "name": "夢叶え歯科クリニック",
     "genre_key": "dental-clinic",
@@ -5281,7 +5280,7 @@
       "土曜日: 9時00分～13時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJR0hutwT3nl8RvziHQhGbg8c/photos/AVoNoXR1phMtszBuzQXEiu98s4GS_j2oqih5Osb2at8UomXrQeFJwOAIl4as-rMh1fXRGMfyloZv6bWlYDkjFMhDvHIW-0aI5ttycRSKLPV_vzybebm_mkS_Qd-d7GN44yARjoy3rx7vfCkUA3ujaXNQXuE02Rs7GARPRdRV9p0GlRk2UKPSrteBNcSeH4xOECc2RBB3aK1YZxZDpLQMmz32AQdV05qdrhl31Elz76qnh-br0SX9Y69I6KflcnTGTVn1VEjuVXPsj0emoWEiws1v_D48yBkuNhyarq5d42SC4Ewt4K2ztJynGaOYsivc8kWVLAODIFPQsEfHzfX_F84qOqad3zqtPTU7WuWxW5j4FF6MyBnnTk7XyUtprWu7WrTtrFGdlR0BkylModbjsnOOiU3KQkYv1RhN4P78vvh9LTc",
+    "photo_reference": "places/ChIJR0hutwT3nl8RvziHQhGbg8c/photos/AVoNoXT-7RuEznIf3qP_Rr98sg-H1B4AGC0D1kqJq_GA7CcynrEnwJ-lxh1CPUUxD3BRGi0Kh4s7eg7NzeTak4OVvpV7v7sJtpj67gFilgAAjA3ojWlFLE0G5GnFvGKy99fOM7mw8GJWIOn1FC2Vx2ETyjkiN6ifDQHDechzjDVkAD5Z9IbXr1sor_yUhqXyhffdWM_U39fI1Ho2ouAyeQre4dyfApR9Jtxx0mzHbFyIdzfsriWOXPO2r_IwSKigHuQojBxwCcA4mpKoRIyEDzMWzilJpYMPClMyuvoiZA8VvMlCjlzU8coHbhYTVbJV2YJ6A1cl6SvJyvXJW8v-k0daSFukU3FtnSk3xMwXskbrgzt3M5QCqp_RC-HsLfsY6Nm1rIG8VKmOrZSJT41O5-b9YXl1Vu8ncYo0pVIHhFaYglU",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -5305,6 +5304,59 @@
     }
   },
   {
+    "id": "place-chijzr-cn5p3a2arke08llvl-kg",
+    "review_status": "pending",
+    "review_note": "",
+    "source": {
+      "google_place_id": "ChIJzR-Cn5p3A2ARke08Llvl-Kg",
+      "google_query": "名古屋市中村区 歯医者",
+      "google_maps_url": "https://maps.google.com/?cid=12175733772376665489&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+      "last_place_sync_at": "2026-09-06T18:09:35.817Z"
+    },
+    "name": "名駅さくら医院 歯科",
+    "genre_key": "dental-clinic",
+    "genre": "dental-clinic",
+    "prefecture": "愛知県",
+    "area_key": "nagoya-nakamura",
+    "address": "〒453-0801 愛知県名古屋市中村区太閤１丁目２０−９ ランヴォール名駅 2階 名古屋プレミアム医療モール太閤2階",
+    "lat": 35.1666582,
+    "lng": 136.88055620000003,
+    "phone": "052-433-4618",
+    "official_url": "https://sakurashika-g.jp/clinic/meieki-sakura/?utm_source=google&utm_medium=maps",
+    "business_status": "OPERATIONAL",
+    "opening_hours": [
+      "月曜日: 8時30分～17時30分",
+      "火曜日: 8時30分～17時30分",
+      "水曜日: 8時30分～17時30分",
+      "木曜日: 8時30分～17時30分",
+      "金曜日: 8時30分～17時30分",
+      "土曜日: 8時30分～17時30分",
+      "日曜日: 8時30分～17時30分"
+    ],
+    "photo_reference": "places/ChIJzR-Cn5p3A2ARke08Llvl-Kg/photos/AVoNoXR-ykWtpHIb-YCfVGPDJ7y354ccgbBr_4Yp4GbbBDssBk25gDnyzIt4OQfbringFYrTbYfzVJ04Oa4jbsrichCm8jYp8dkZjN9JKNovrCk6d7TjEmgckGlHR-76gqQgC2QHXc350GI1tURciuQfZqighC3No2dGkWjBC5bJp0L8Wco2ykYNes5z90uD7LcDWZtHJL5rOrwH-gejfCI_C5783BNDKBvNHPFsQRuLRPdgBfG2xlrHGw8Bxe1i_7rKAHdLWJOJM1ab3Lb3dRpbVh1zpHAHVvNkbz1SfoFqKI77a_UlP6zkSnFVmTUBFIRgGboateFIhdlmxnhoT08lkF5UBRW4YUNWpLrHiIQ1skpEN6LWq9eeLUv1rtciPwkXfkpWegWvg4yNnQsafRiRFiAqnvQK0nECA7Zc9IVkfNaA0xmI",
+    "booking": null,
+    "review": {
+      "seed_source": "coverage-gap",
+      "current_count": 2,
+      "target_count": 5,
+      "needs_address_check": false,
+      "needs_site_check": false
+    },
+    "commerce": null,
+    "review_score": 50,
+    "review_issues": [
+      "same_id",
+      "similar_name_address"
+    ],
+    "review_summary": {
+      "area_label": "名古屋市中村区",
+      "genre_label": "歯医者",
+      "has_official_url": true,
+      "has_phone": true,
+      "can_adopt": false
+    }
+  },
+  {
     "id": "place-chij0daz9sn3a2ar_zrlyii0ewi",
     "review_status": "pending",
     "review_note": "",
@@ -5312,7 +5364,7 @@
       "google_place_id": "ChIJ0dAz9sN3A2AR_zrlyII0eWI",
       "google_query": "名古屋市中川区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=7095760424219785983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:49.652Z"
+      "last_place_sync_at": "2026-09-06T18:09:35.493Z"
     },
     "name": "名古屋なかがわみらい歯科＆矯正歯科",
     "genre_key": "dental-clinic",
@@ -5334,7 +5386,7 @@
       "土曜日: 9時00分～14時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJ0dAz9sN3A2AR_zrlyII0eWI/photos/AVoNoXQb1X70SlzQesLMMc_ctQ4-QPEEQ0dSFb0W8gIVAvbjNElF2XUsdL4SMPOI5zYNXG968T52DMgsS_Aac_jEmpxt3-VNSIBwfYTRacPiogUxPv0F2pmkmDZ1f3mgfGolZu3JIScgoPSIYm_x0BTopPBu7UMvKqRXRfmIuraxpWPpJW4FrB20pAk9UAzOYtfQ9mV50_ik86VK2WUohybmqSGzwNz6TLYc6wtZjXVVVA8uKYepZUbCTXMNiLM19quqLThRY17rGlCZk8NTTZhCQwUJ9cPHxJDripL40-Q3PNf0MMRkTU1js-eY4ZNy-8y4OeBoOmRNsnZCU7BTCACdkYshRV9LuCsurr32nE1zF2Qjg_8Z_qD7w56fyFm_SG5K5LvSPNXfBme68z0LGKOXKS5BtugTOEPsFnixBaeWSXvDD1Ygs-YxwVsUY90Vwrfr",
+    "photo_reference": "places/ChIJ0dAz9sN3A2AR_zrlyII0eWI/photos/AVoNoXTRoLiDBBC1TEJLeJGEtS0wENRFWnJm1P1_HVbUSVTa6yathBwxMUjU0VvNDeauCrda3-ZlDonOE4oL6tBDRvLh317XM8n_MFCwq7W_0NnXB9iSmFAMJspuwqUtfBzFtu8-5vDC3YawaKfkn_MYm-Zv4GyaOQss_ot_ZP5aeCeo-Cf_xP2cHGSRU4BSBBy0Nq10P8mhGUEevyQSW76M849X4-218Pf-B_PDqw0fuidfQPqj_Tm7DmS_rn-uNzba9jU0EtXMhOWghUeUARxVYC6lyPFOJr5IJvN2ATh5709l2XHtpTIpbtqDpd5l5XDn0gwiVFd3YJwrOJSZE8p64VANMOsibfGgtCRRjLA9vDJlPKOAXBT8MuMYr3fOKEm-ZM8F9vI4unW4Z-yonKobMq2ystfUs3uj0JDbOOVZ6vE70Hh2gHBX8CyxFaIuDj3M",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -5365,7 +5417,7 @@
       "google_place_id": "ChIJq1Hb_kx7A2ARCgiuZ4EbPH8",
       "google_query": "名古屋市南区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=9168233184023676938&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:48.308Z"
+      "last_place_sync_at": "2026-09-06T18:09:34.531Z"
     },
     "name": "名古屋みなみ歯科・矯正歯科",
     "genre_key": "dental-clinic",
@@ -5387,7 +5439,7 @@
       "土曜日: 9時30分～12時00分, 13時00分～16時30分",
       "日曜日: 9時30分～12時00分, 13時00分～16時30分"
     ],
-    "photo_reference": "places/ChIJq1Hb_kx7A2ARCgiuZ4EbPH8/photos/AVoNoXSpq5hYpg3iTU1hCSEuzFrnlr-w-NjiZnEyHZgN1tdV1hZsYa9rlv3-i9O4mZlHO89Fknu2uDsf_cW0NbknOhuVK5HHwGR8mIXXbmGEo6D3iGKaOTjDWQbJd13Y3lrvnLFoshgczSwPeY31HeWVUB_bLm6FIOLXgPV2aOyK1BOfv4TVJEUez2M1NUUiv5FUbl-85zMc7kVIipIziys_0lYGLT-7cxNj1mLprEUcpUAQZqy-uw9OmdGJm71eZdWrGEygXjxnM9ozc8XlaCcFWzUqFRmpEanKrk1gvU9on93mLzwttevTMO_qJyhTRV7UqDOW5gKKIQntXYD-WA924ReWVtRrntilrutoqOkbQhRAS8eONDZgpj7SKzYCtZdAi0fIZcieRcAka72DFkAXKgoNY45rA90a9kedQ3JEja1vIw",
+    "photo_reference": "places/ChIJq1Hb_kx7A2ARCgiuZ4EbPH8/photos/AVoNoXRf7_njKKK_CgU1SGAAMJniXyxyXLUqlzXPrqtEOMMihVWl-lrG-Sft6czdYlMVqIelZ-KBL6ZyBH0PMKELxp9n9bekuKM5M9HHWLJvDey4l5UngT8xhC1ydJ1MJ1rs6JlntN-dCPNjmiAW44AUW-il7ZxhlRx6bv3gbHi8skeznLtLpyzIXD3xV--1rVb9yc0IZmIqKc6G1tpa9AR8kjz9T5RZggtwATwNop28cgU75A5oom5Q0uC16dOi0P_7p5DFxSk9-gstV7gXAYBCo-0SnRqX-atiiUGoQiNquZd0EsTANLSeojvIYIzJndoE5TkwVvpTtFCUiAGMIthHhgocP9j64qO-RCjE0idMTobLd6LU2DyIKMp0CGgHhthnwDN6N4IvnlDmwr481aCuONrDJbygq1S9YqKX55O0nPcu9A",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -5418,7 +5470,7 @@
       "google_place_id": "ChIJA1-TU5Z3A2ARXh-j8mqf3Q8",
       "google_query": "名古屋市中川区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=1143245162108100446&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:49.652Z"
+      "last_place_sync_at": "2026-09-06T18:09:35.493Z"
     },
     "name": "名古屋ルミナス歯科・矯正歯科",
     "genre_key": "dental-clinic",
@@ -5440,7 +5492,7 @@
       "土曜日: 9時30分～12時30分, 13時30分～17時30分",
       "日曜日: 9時30分～12時30分, 13時30分～17時30分"
     ],
-    "photo_reference": "places/ChIJA1-TU5Z3A2ARXh-j8mqf3Q8/photos/AVoNoXTIJVv5betMvNzUIEKNYwNU0yHFOopoM0DEwL8MotNXGOmx5B9nBrfsILQ3X-MuYzHfENal0Pjy9TEHchXExH5deTYCaihoS0LRJxSb9gUlK50i8-DZtBac9K06H50CMRW3bgT88lbrTFx44RJApThqLqcy4e_I_COqUNBDAeX3qy4ZOlOGiyvVh4Vj1Wy8VMFwMUQ6bZ5coZcOBoZE6lCi2Ohz7xXjdTn90dUWXD6yZNBAxjtCsZqRsohSEeCLWxe-qVs_AtMV6X1BOiHBjKB5YCy59y087TO7hiaXUYBlsylGOjOH_9wDjp1n-oHBzQA0LKfEIEU2PjNktQNF_0TyRFVld-zmtcPn8XdnXBmrcbvw1E0k2KZZ9PSY3trpVJQUjOty-cmb7eBKVTKP-YJiML-_8scq0AsZiWU20V3IFA",
+    "photo_reference": "places/ChIJA1-TU5Z3A2ARXh-j8mqf3Q8/photos/AVoNoXSBGP2VV1HQU5OKV5FwDbYQfBDJHpfZPa7lyFmG_fCK2TAMdBi5Or_3mIVTi_-4Gnz2_YpW_ZMDH1fVE9OT8TV25UjGyq2YZl-UcDPVmqShi1ldLpPQ2R8pXfxgBkTn5jJONWRszj15vinkMXkeV_Rpd3uL5RxXD92UitJhkuzw5_rIRHpi38Wug8_XqLeZnuxpoTsSurNoOT7VlcLeIyihMbsquIpAMDSMwccw6iqqKS7yWkbKLS-jdnZPZF3hAEV5Yx8xC3ZiRcfPOTbuj8Drntc8h-umvPW33D6XsWboLDeeBCgveMUubhYrP52YwwjiWnmQpZ8rCXyT7v3tfdf9NmypW4EbMs5Dcv0ilKpLiZaso2q46urJZF0Vrlv1Z7e-bpx_gTEb-0EN_Cw4o4ay7BuAYWI81YhYkWLi5UnYKw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -5471,7 +5523,7 @@
       "google_place_id": "ChIJRfO2hl16A2ARhTn2jBzeaH4",
       "google_query": "名古屋市瑞穂区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=9108774460562225541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:48.979Z"
+      "last_place_sync_at": "2026-09-06T18:09:35.172Z"
     },
     "name": "名古屋歯科",
     "genre_key": "dental-clinic",
@@ -5493,7 +5545,7 @@
       "土曜日: 9時00分～13時30分, 15時00分～17時00分",
       "日曜日: 9時00分～13時30分, 15時00分～17時00分"
     ],
-    "photo_reference": "places/ChIJRfO2hl16A2ARhTn2jBzeaH4/photos/AVoNoXScTpEY-OQ2_az1aRzeBZn-YtWbRp-b3l9u_nGPARJQpdFTunl7k7sAuZRygo7Ymuv3NFRajHgrXlcbh47ggoeYvD0guFXTOpjh2Qpr6wNwsFQaZhddRGGE3wrVfM1X6O6zCJErovE2msUjirYdTCsB4xA5ag0-1uqgl7hLXx3kgJzbi9DScPUGUaGUc9fOBHDS9vXlGJAJYfhFJCr86XjoOyHn-gGSaEawYmWn9960FQDbViAUXutNzo2frDU8Y_OSfiIspZNnFabBN_8QBVb8IsVfEYFIin_VapYnPlqyDfb6zRzk9L7X1fS34SWy4eQdNLEHzBi9LzboPJmhIlDgwTIUoquxiRp9J1J9FdwQBNVw4ukr1-Jwt8IiZk3ech9U47-KinjjxgqTU9ePYlZtBbAJiv-A-rmoleTmnjSdIBI",
+    "photo_reference": "places/ChIJRfO2hl16A2ARhTn2jBzeaH4/photos/AVoNoXTcck6OlhtjY1a5EgpaDGvN2VAwqr9DZ69QBUHioSY00vifCA_E5opHd0ydq020jwkRRKFBy1hgCEsYbXbXrGLjWSWB7TazeEBGGGwJtl2Zkqb7XL_baXSkQ0G1LB33bl7uPnbaHCbWzN6oOle_RLunvlMJQbqFgZJ5ctklg79Gm6wRKDUSCzYFsm8gCUq9K4z-cf5AO9dIeQMhFboFDsrdd_hAFVQ9cPvC1KEXpaUH7g-3NWq0rXfxZpkcLmkZigJ4t2RFWvaA-HZ9kTXnWj5YqKOQ1jMNo0_OnEE7Wj1-lWKQA6DqlftQUPKqgwh6eEFM1ZJ5spogQwNGEWStAQcPHJmmoV71m9bCcjfzNgvKSzM0lPR2fBwW4YYULK7vX1bGhUU7E9ck1gj07px4dMg2b5w9A7_ms2gcGRXiczyeO9k",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -5524,7 +5576,7 @@
       "google_place_id": "ChIJnWoPBfidA2ARtZpTXxav7Jk",
       "google_query": "名古屋市港区 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=11091432492930144949&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:48.650Z"
+      "last_place_sync_at": "2026-09-06T18:09:34.864Z"
     },
     "name": "名古屋茶屋歯科・矯正歯科",
     "genre_key": "dental-clinic",
@@ -5546,7 +5598,7 @@
       "土曜日: 10時00分～13時00分, 14時00分～18時00分",
       "日曜日: 10時00分～13時00分, 14時00分～18時00分"
     ],
-    "photo_reference": "places/ChIJnWoPBfidA2ARtZpTXxav7Jk/photos/AVoNoXTPYrr4Nh_jcZVOWt3hPd8Cvao5rmwu1t3RDsYYqrWisjV_ODDNWNXW0BElXCVV6o0kL_NVFkD_XhTkKTTSQ6sACypPDVmZh9y2F-pUD5Ibix9aRDddlpEdXkjyLcHZK4BEfZclh3CC1JdFbPS5cWitmIyhuOjmeRlVIN_uuK8TdexJ-pGsIlN75mMfpiUkU4vp2Rtm1Xi44wQxUhFffHg79A27i2WiuWSkKkvC7yNgOlkgqtXIi0GSueyNhxbIGtGDImucC3h-6D_jN5zqU1OyWcggKUTK3ZCOG3RkzLPuqNybXbWze_JkhyrHlzKwZzU5hCYOWcE-krY1-xabhZbb76Sg6dm1eEDqsTVmk5LWaXZBus3kWYBYhyuQYdF7R0BmlvXjJR5qQn86mJH37556pIxW4bQQR0mNXHwBo-syog",
+    "photo_reference": "places/ChIJnWoPBfidA2ARtZpTXxav7Jk/photos/AVoNoXSKU0DLV0WFw4GlET63ZTyt7psnAUf1Q-WXpySVYT7v7bihBK7mzlvjJ7Ws2jJwU70jCTuKHZ3crun-FOVAMIu1KKdDQtLB4rOo8XQbOD6JXvZ6AnTRVxPHQmLaLdN3qW-ZZKC4338XixCwSWXjcWPdv0PY3hH69ZT4VxYbEBCWh7beUImBTIKgP0il2nDBoMf4J6GC3P-Gsjg74ssX-b4EPWCBt0MFzichffGQ0yvhj8Fvp6m8ptvdKTFdNrOTcqjEeMUZvNFjWO9LOkqqqxsXDmVeAUI5yLciYSLyn_tdpSC-b_ebDLnvWx72tH5-3mN_gprqVhxy_YwymNnJqd0xdqukhVfV2mDba2z1hXkJLgl21_5yd65kFhd02EMhRdZ2T_EUSd0KJ0fmeXKnonfst7aLKk3v2kLYHeN2KnIQHA",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -5577,7 +5629,7 @@
       "google_place_id": "ChIJuykofW-0i18RaUhTtZkXQkQ",
       "google_query": "山形市 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=4918519691981572201&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:40.145Z"
+      "last_place_sync_at": "2026-09-06T18:09:26.650Z"
     },
     "name": "永田歯科医院",
     "genre_key": "dental-clinic",
@@ -5599,7 +5651,7 @@
       "土曜日: 8時30分～12時00分, 13時30分～17時00分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJuykofW-0i18RaUhTtZkXQkQ/photos/AVoNoXTrdfvZpjDHXeMX0H-bj4zRNhEYtHyfadnsy46IZuls_BAh5Gi2sP5Pvww-3bgXv05UZF5_FEjuCysWLtyRn2BgdbOjzLPtxnYWZCoHCSIWuTG9_QXJLQVvSOdwFhUAUTUWgKRh8EiAvptfZO6S4m2nsZFyAG9zRzNkLSbUJlyOQXKU-R0epbAkeOH7muJQfsEoD_bESoii8TzZQLo0L-0KrD6ET4IEqvCkrYH9rVnKmDx73N820pUbdz8rYkyVsCo5Ps3oTRXr1xowon84Xgqsu7dMLuCLlFuw-d30V2aSAtu9poZTnY8f48OzHv4CT4sf1i-AT6j5CVytL_aY-E8feSz6F1dBzMc-Pq-V_7eQfo4lFZF9LY1LHRC5-M5rBMh7EGCMo5HMhZRAlrYNna3ssDnA9g8pyWtm8w_5kGc7RA",
+    "photo_reference": "places/ChIJuykofW-0i18RaUhTtZkXQkQ/photos/AVoNoXRcqe9PUbTfvmwNoYiRqpj-a2RXJc1HePEZOxJk0ydMvys_Hz_do9Uj34zyRfo0jNGKCKKVeYZD_Cs3jdP4M2FYAhrfU0GknROKfiTuUcELDITQygQfJxU3xspdD3JEno8usTieUrKcUX7pXRPXkhFYvITrSBxB70AQHCQyx4u77LX_WvEZvCQzw_Ia6b3SDRhR9a3JG3TzBNueqGVGKTRf4Dsx66Vi44_xXzZCgpNqyOLoS-qWql72ufG0cCxy2GZV277HE48FIcSfOpjwx6_omzd6oZiK9t_I1kn40WfzFU7A8Obi9ItJ9ze7QU1j7erpiC1_nMRgaWwZCsVqRSdXXRyYHZgdtcw23aAQpwMXq6d1BbaYxrqS5zlJwBNiRctC2fk9DXkUHqxqCUEYnS7Llo8IepQWA88AkC08MjbatA",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
@@ -5630,7 +5682,7 @@
       "google_place_id": "ChIJy0yMnnBEBGARxXKRbGR-ORI",
       "google_query": "玉城町 歯医者",
       "google_maps_url": "https://maps.google.com/?cid=1313219736138511045&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
-      "last_place_sync_at": "2026-08-30T18:09:46.014Z"
+      "last_place_sync_at": "2026-09-06T18:09:32.281Z"
     },
     "name": "なかむらデンタルクリニック",
     "genre_key": "dental-clinic",
@@ -5652,7 +5704,7 @@
       "土曜日: 9時00分～12時00分, 14時00分～17時30分",
       "日曜日: 定休日"
     ],
-    "photo_reference": "places/ChIJy0yMnnBEBGARxXKRbGR-ORI/photos/AVoNoXSwI23eBm1rBHY6GXlzx1J265UaNQVzFkvKuJEuOeFCWGoqvTXsJYaGLUmjFOI--Mq289cMgc3YGZpc4Nt9Jdl5qLrAMML25QPa15DUu_WWoHp1GRyszlW38rZOs3OTpOzDHNnmcjJEEuvfKbatOajXuzSP26oAN-hs02MIIk9UcnjBWNTEYsgrjDAxQtDFRA5lo_f7Da8Oq9yDe2fxlTefmtrpfkc7k6i2S7vjS0OK7HPlJHshZFhP66KpI6VQyEv9nYqnHd4ExbW_ZARwMSmjp9VsaxPNQzBPxi9tVHRtkXFJZ7JG1mkQZS3pfm9CgNRhURl1Ij9qPw95mba4UT1mHOA72XAMtVTAhiAxXnKtC90LY-Ev_BwP7AS1lFg5TzXZDOVSoZHa42vOtasZU8A8m_XNUBgKL_8Nj4LdmjBhvg",
+    "photo_reference": "places/ChIJy0yMnnBEBGARxXKRbGR-ORI/photos/AVoNoXSRpn25-y7v0noFNQaZ1B6VCbjHDpV8qB5ezFplb_Q-1w-zjef02Q1gpNWr62q9miGJr-ryfXLuSadrSvnsWv0ipvd2y8ycYCDEdH44_BiwyQq8Xc8WnZ_iGSPMTLb5sPRRGrqjkTAFHcshMsISLgjbBcizEiVTUsG900XQqrg8DOc7WXo0pR7gObUN-F9Xho0ce-XZ8OMTFWaLHQw7EpPfu_61jsNqrBkoqyEKa3kKSDcrQ_GYeLND4AxjV2rsi_bib8WVl2voWMNIPLSD8gyZBuZkERasmgFNibt0qJTYQR8LKpuaZx_SgHRuI9YktjUWGJrGydeOsoxGquwVKb958WYZdI6XkTh4AdiYqtgviLjq6lh4A9qihP6rO8ltNemZk3jFYpiWS2QvWlcUQ1RiAGIE5Yg1BQCpMAxUWzTyOw",
     "booking": null,
     "review": {
       "seed_source": "coverage-gap",
