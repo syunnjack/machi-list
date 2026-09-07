@@ -831,9 +831,11 @@ button:hover,
   display: none;
 }
 
+/* 本文の下に回したので、横に並べて縦の長さを抑える。 */
 .side-column {
   display: grid;
   gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
 .side-block {
@@ -1132,9 +1134,12 @@ button:hover,
   font-weight: 800;
 }
 
+/* **右サイドバーは置かない。**
+   1280px のとき本体が778pxまで削られ、店舗カードのボタンや住所が
+   見切れていた（サイドが380px）。関連リンクは横に並べず、本文の下に回す。 */
 .two-column {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+  grid-template-columns: minmax(0, 1fr);
   gap: 22px;
   align-items: start;
 }
