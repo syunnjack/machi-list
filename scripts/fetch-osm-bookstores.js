@@ -38,6 +38,9 @@ require("node:dns").setDefaultResultOrder("ipv4first");
 
 const root = path.resolve(__dirname, "..");
 const shopsFile = path.join(root, "data", "shops.json");
+// **途中で止まっても続きからやれるように、取った結果をためておく。**
+// Overpass が混んでいると1エリアに何十秒もかかるので、やり直しは高くつく。
+const cacheFile = path.join(root, "data", "osm-books-cache.json");
 const areas = JSON.parse(fs.readFileSync(path.join(root, "data", "areas.json"), "utf8"));
 
 // **1つが落ちても続けられるように複数持つ。** 本家は混むと fetch ごと失敗する。
@@ -57,6 +60,19 @@ const GSI_PAUSE = 900;
 const USED_BRANDS = /(ブックオフ|BOOKOFF|Book ?Off|古本市場|古本|古書|開放倉庫|まんだらけ|ブックマーケット|万代書店|夢屋書店)/i;
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+function loadCache() {
+  try {
+    return JSON.parse(fs.readFileSync(cacheFile, "utf8"));
+  } catch {
+    return { areas: {}, geo: {} };
+  }
+}
+
+function saveCache(cache) {
+  fs.writeFileSync(cacheFile, `${JSON.stringify(cache)}
+`, "utf8");
+}
 
 async function getText(url, timeoutMs = 60000) {
   const response = await fetch(url, {
@@ -99,13 +115,15 @@ async function overpass(query, tries = 4) {
       return JSON.parse(text);
     } catch (error) {
       if (attempt === tries - 1) {
+        // **失敗と「0件」を区別する。** ここで空配列を返すと
+        // 「その市に本屋は無い」として記録され、二度と取りに行かなくなる。
         console.error(`    Overpass あきらめます: ${error.message}`);
-        return { elements: [] };
+        return null;
       }
       await sleep(10000 * (attempt + 1));
     }
   }
-  return { elements: [] };
+  return null;
 }
 
 /** 座標から市区町村コードと町丁目。**取れなければ空。推測しない。** */
@@ -169,7 +187,7 @@ async function main() {
   const municipalities = await loadMunicipalities();
   console.log(`  ${municipalities.size}件\n`);
 
-  const geocoded = new Map();
+  const cache = loadCache();
   const records = [];
   const seen = new Set();
   let checked = 0;
@@ -180,27 +198,40 @@ async function main() {
     // areas.json の label は後者なので、そのまま渡すと候補0件になる。
     // 同名の区が他県にも出るが、市区町村コードで弾くので構わない。
     const osmName = area.ward || area.city;
-    const body = await overpass(`[out:json][timeout:120];
+
+    if (!cache.areas[osmName]) {
+      const body = await overpass(`[out:json][timeout:120];
 area["name"="${osmName}"]->.a;
 nwr["shop"="books"](area.a);
 out center tags;`);
-    await sleep(OVERPASS_PAUSE);
+      if (!body || !body.elements) {
+        console.log(`  ${area.label}（${osmName}）  取れませんでした。次回やり直します。`);
+        continue;
+      }
+      cache.areas[osmName] = body.elements
+        .filter((element) => element.tags && element.tags.name)
+        .map((element) => ({
+          type: element.type, id: element.id, tags: element.tags, centre: centreOf(element),
+        }));
+      saveCache(cache);
+      await sleep(OVERPASS_PAUSE);
+    }
 
-    const candidates = (body.elements || []).filter((element) => element.tags && element.tags.name);
+    const candidates = cache.areas[osmName].filter((element) => element.centre);
     let kept = 0;
 
     for (const element of candidates) {
       const key = keyOf(element);
       if (seen.has(key)) continue;
-      const centre = centreOf(element);
-      if (!centre) continue;
+      const centre = element.centre;
 
-      if (!geocoded.has(key)) {
-        geocoded.set(key, await reverseGeocode(centre.lat, centre.lon));
+      if (!(key in cache.geo)) {
+        cache.geo[key] = await reverseGeocode(centre.lat, centre.lon);
         checked += 1;
+        saveCache(cache);
         await sleep(GSI_PAUSE);
       }
-      const place = geocoded.get(key);
+      const place = cache.geo[key];
       const muni = place ? municipalities.get(place.muniCd) : null;
       if (!sameArea(muni, area)) {
         outside += 1;

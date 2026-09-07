@@ -106,6 +106,8 @@ function toolKeyword(genreKey, label) {
     "convenience-store": "携帯灰皿",
     cafe: "カフェ タンブラー",
     "coin-laundry": "洗濯ネット 洗剤 乾燥機シート",
+    bookstore: "ブックカバー しおり",
+    "used-bookstore": "本 収納 ブックスタンド",
     drugstore: "日用品 まとめ買い",
     "trading-card-shop": "トレカ スリーブ デッキケース",
     "hobby-shop": "プラモデル 工具 ケース",
@@ -223,6 +225,13 @@ function normalizeShop(shop) {
   if (!shop.booking_url && isEventGenre(shop.genre_key)) {
     shop.booking_url = eventUrl(area, genre);
   }
+  // **本屋にホットペッパーは合わない。** 既定の飲食・美容向けリンクに落とさない。
+  if (!shop.booking_url && shop.genre_key === "bookstore") {
+    shop.booking_url = shop.official_url || searchUrl(`${area.label} 本屋 在庫 取り寄せ`);
+  }
+  if (!shop.booking_url && shop.genre_key === "used-bookstore") {
+    shop.booking_url = searchUrl(`${area.label} 古本 買取 持ち込み`);
+  }
   if (!shop.booking_url) {
     shop.booking_url = vcUrl(`https://www.hotpepper.jp/?keyword=${encodeURIComponent(`${area.label} ${genre.label}`)}`);
   }
@@ -240,6 +249,10 @@ function normalizeShop(shop) {
   }
   if (!shop.coupon_url && shop.genre_key === "opening-area-research") {
     shop.coupon_url = openingResearchUrl(area);
+  }
+  if (!shop.coupon_url && shop.genre_key === "used-bookstore") {
+    // 古本屋のクーポンは無い。**買取の相場を調べる導線のほうが役に立つ。**
+    shop.coupon_url = searchUrl(`${area.label} 古本 買取 相場`);
   }
   if (!shop.coupon_url) {
     shop.coupon_url = rakutenUrl(isEventGenre(shop.genre_key) ? toolKeyword(shop.genre_key, genre.label) : `${genre.label} クーポン`);

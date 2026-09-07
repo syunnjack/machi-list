@@ -2,3 +2,4 @@
 .env.local
 .env.*.local
 node_modules/
+data/osm-books-cache.json

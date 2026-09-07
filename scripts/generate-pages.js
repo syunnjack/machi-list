@@ -672,6 +672,14 @@ function photoUrl(shop) {
   return `https://places.googleapis.com/v1/${shop.photo_reference}/media?maxWidthPx=480&key=${GOOGLE_PLACES_PHOTO_KEY}`;
 }
 
+/** 駅からの分数は、分かっているときだけ書く。
+ *  **0分と書くと嘘になる。** OSM から取った店は徒歩分数を持っていない。 */
+function stationText(shop) {
+  const walk = Number(shop.station_walk_minutes);
+  if (!shop.nearest_station) return "";
+  return walk > 0 ? `${shop.nearest_station}から徒歩約${walk}分` : shop.nearest_station;
+}
+
 function shopCards(items, depth) {
   if (!items.length) {
     return `<article class="shop-card"><div><h3>掲載準備中です</h3><p>このエリアの店舗、予約、クーポン、通販、駐車場情報を順次追加しています。</p></div><div class="shop-actions"><a class="button" href="${home(depth)}">条件を変えて探す</a></div></article>`;
@@ -686,7 +694,7 @@ function shopCards(items, depth) {
                 ${photo ? `<img class="shop-photo" src="${photo}" alt="${escapeHtml(shop.name)}" loading="lazy">` : ""}
                 <div>
                   <h3>${escapeHtml(shop.name)}</h3>
-                  <p>${escapeHtml(shop.address)} / ${escapeHtml(shop.nearest_station)}から徒歩約${escapeHtml(shop.station_walk_minutes)}分</p>
+                  <p>${escapeHtml(shop.address)}${stationText(shop) ? ` / ${escapeHtml(stationText(shop))}` : ""}</p>
                   ${reviewSummary(shop)}
                   <div class="badges">${featureBadges(shop)}</div>
                 </div>
@@ -718,7 +726,7 @@ function localBusinessSchema(items) {
       `"name":${jsonLdString(shop.name)}`,
       shop.official_url ? `"url":${jsonLdString(shop.official_url)}` : "",
       shop.address ? `"address":{"@type":"PostalAddress","addressCountry":"JP","streetAddress":${jsonLdString(shop.address)}}` : "",
-      shop.nearest_station ? `"description":${jsonLdString(`${shop.nearest_station}から徒歩約${shop.station_walk_minutes}分`)}` : ""
+      stationText(shop) ? `"description":${jsonLdString(stationText(shop))}` : ""
     ].filter(Boolean);
     return `{${parts.join(",")}}`;
   });
@@ -813,7 +821,8 @@ const areaUseCases = [
     label: "駅近で探す",
     note: "駅から歩きやすい施設を先に見る",
     hrefGenre: "convenience-store",
-    filter: (shop) => Number(shop.station_walk_minutes) <= 8
+    // **0分は「分からない」の意味。** 駅近リストに混ぜない。
+    filter: (shop) => Number(shop.station_walk_minutes) > 0 && Number(shop.station_walk_minutes) <= 8
   },
   {
     label: "夜に使う",
@@ -926,7 +935,10 @@ function openingMetricScore(area, genreKeys) {
   const items = shops.filter((shop) => shop.area_key === area.key && genreKeys.includes(shop.genre_key));
   const lateCount = items.filter((shop) => shop.late).length;
   const parkingCount = items.filter((shop) => shop.parking).length;
-  const stationCount = items.filter((shop) => Number(shop.station_walk_minutes) <= 10).length;
+  const stationCount = items.filter((shop) => {
+    const walk = Number(shop.station_walk_minutes);
+    return walk > 0 && walk <= 10;
+  }).length;
   const score = Math.min(100, Math.round(items.length * 12 + lateCount * 8 + parkingCount * 4 + stationCount * 3));
   const rank = score >= 75 ? "高め" : score >= 45 ? "中" : "これから確認";
   return { count: items.length, rank, score };
@@ -1026,7 +1038,7 @@ function genrePage(area, genre) {
       </header>
       <section class="answer-box"><h2>このページで確認できること</h2><ul><li>${genre.description}</li><li>店舗名、住所、駅からの目安、予算、特徴を一覧で比較できます。</li><li>行く前に予約、クーポン、駐車場、周辺の飲食店を確認できます。</li></ul></section>
       <section class="monetization-strip"><div><p class="eyebrow">あわせて確認</p><h2>${supportHeading(genre)}</h2><p>${supportText(area, genre)}</p></div><div class="route-actions"><a class="button button-light" href="${supportPrimaryUrl(area, genre)}">${supportPrimaryLabel(genre)}</a><a class="button button-light" href="${supportSecondaryUrl(genre, area)}">${supportSecondaryLabel(genre)}</a></div></section>
-      <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(shop.nearest_station)} 徒歩約${escapeHtml(shop.station_walk_minutes)}分</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : "", shop.smoking_area ? `喫煙: ${shop.smoking_area}` : "", shop.power_seat ? `電源: ${shop.power_seat}` : "", shop.wifi ? `Wi-Fi: ${shop.wifi}` : "", shop.eat_in ? `イートイン: ${shop.eat_in}` : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section>${relatedGenrePanel(area, genre, depth)}</div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth, genre.key)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section>${subtleLinks(area, genre, depth)}</aside></section>
+      <section class="two-column"><div><section class="section"><h2>${area.label}の${genre.label}</h2><div class="shop-list">${shopCards(items, depth)}</div></section><section class="section"><h2>比較表</h2><table class="info-table"><tr><th>店舗</th><th>駅</th><th>予算</th><th>特徴</th></tr>${comparisonRows.map((shop) => `<tr><td>${escapeHtml(shop.name)}</td><td>${escapeHtml(stationText(shop) || "—")}</td><td>${escapeHtml(shop.budget_label)}</td><td>${[shop.parking ? "駐車場" : "", shop.late ? "夜まで" : "", shop.coupon ? "クーポン" : "", shop.smoking_area ? `喫煙: ${shop.smoking_area}` : "", shop.power_seat ? `電源: ${shop.power_seat}` : "", shop.wifi ? `Wi-Fi: ${shop.wifi}` : "", shop.eat_in ? `イートイン: ${shop.eat_in}` : ""].filter(Boolean).join(" / ") || "確認中"}</td></tr>`).join("")}</table></section>${relatedGenrePanel(area, genre, depth)}</div><aside class="side-column"><section class="side-block"><h2>同じエリア</h2>${genreLinks(area, depth, genre.key)}</section><section class="side-block"><h2>近隣の${genre.label}</h2>${nearItems.map((shop) => `<a href="${toRelative(shop.url, depth)}">${shop.area_label} ${shop.name}</a>`).join("") || `<a href="${home(depth)}area/${area.prefecture_key}/">${area.prefecture}一覧を見る</a>`}</section>${subtleLinks(area, genre, depth)}</aside></section>
 ${openingResearchExtra}      <section class="section"><h2>よくある確認</h2><div class="faq-list"><article class="faq-item"><h3>${area.label}で${genre.label}を探す時の見方は？</h3><p>駅からの距離、駐車場、営業時間、予算目安を先に見ると選びやすくなります。</p></article><article class="faq-item"><h3>行く前に確認した方がよいことは？</h3><p>営業時間、料金、取扱内容、クーポン、駐車場は変わる場合があります。来店前に公式情報や地図情報も確認してください。</p></article></div></section>`;
 
   const faqs = [
