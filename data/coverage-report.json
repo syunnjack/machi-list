@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T18:05:11.180Z",
-  "shop_count": 8481,
+  "generated_at": "2026-09-06T18:09:17.671Z",
+  "shop_count": 8485,
   "area_count": 120,
   "genre_count": 43,
   "min_target": 2,
@@ -16,7 +16,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 370
+      "score": 369
     },
     {
       "area_key": "gotemba",
@@ -28,7 +28,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 369
+      "score": 368
     },
     {
       "area_key": "owariasahi",
@@ -40,7 +40,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 368
+      "score": 367
     },
     {
       "area_key": "fujieda",
@@ -52,7 +52,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 368
+      "score": 367
     },
     {
       "area_key": "yaizu",
@@ -64,7 +64,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 368
+      "score": 367
     },
     {
       "area_key": "ginan",
@@ -76,7 +76,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 358
+      "score": 357
     },
     {
       "area_key": "komaki",
@@ -88,7 +88,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "nisshin",
@@ -100,7 +100,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "obu",
@@ -112,7 +112,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "okazaki",
@@ -124,7 +124,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "toyohashi",
@@ -136,7 +136,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "akita",
@@ -148,7 +148,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "ichikawa",
@@ -160,7 +160,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "matsuyama",
@@ -172,7 +172,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "takayama",
@@ -184,7 +184,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "hakodate",
@@ -196,7 +196,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "himeji",
@@ -208,7 +208,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "morioka",
@@ -220,7 +220,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "kagoshima",
@@ -232,7 +232,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "yokkaichi",
@@ -244,7 +244,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "nara",
@@ -256,7 +256,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "oita",
@@ -268,7 +268,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "misato",
@@ -280,7 +280,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "matsue",
@@ -292,7 +292,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "fuji",
@@ -304,7 +304,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "fujieda",
@@ -316,7 +316,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "fujinomiya",
@@ -328,7 +328,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "numazu",
@@ -340,7 +340,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "toyama",
@@ -352,19 +352,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
-    },
-    {
-      "area_key": "wakayama",
-      "area_label": "和歌山市",
-      "prefecture_key": "wakayama",
-      "prefecture": "和歌山県",
-      "genre_key": "dental-clinic",
-      "genre_label": "歯医者",
-      "current": 2,
-      "target": 5,
-      "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "yamagata",
@@ -376,7 +364,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "yamaguchi",
@@ -388,7 +376,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "kofu",
@@ -400,7 +388,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 356
+      "score": 355
     },
     {
       "area_key": "nagoya-mizuho",
@@ -412,7 +400,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 350
+      "score": 349
     },
     {
       "area_key": "nagoya-nakagawa",
@@ -424,7 +412,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 350
+      "score": 349
     },
     {
       "area_key": "nagoya-nishi",
@@ -436,7 +424,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 350
+      "score": 349
     },
     {
       "area_key": "sunto-shimizu",
@@ -448,7 +436,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 350
+      "score": 349
     },
     {
       "area_key": "nagoya-mizuho",
@@ -460,7 +448,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 349
+      "score": 348
     },
     {
       "area_key": "nagoya-tempaku",
@@ -472,7 +460,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 349
+      "score": 348
     },
     {
       "area_key": "nagoya-chikusa",
@@ -484,7 +472,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 348
+      "score": 347
     },
     {
       "area_key": "nagoya-higashi",
@@ -496,7 +484,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 348
+      "score": 347
     },
     {
       "area_key": "nagoya-kita",
@@ -508,7 +496,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 348
+      "score": 347
     },
     {
       "area_key": "nagoya-minato",
@@ -520,7 +508,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 348
+      "score": 347
     },
     {
       "area_key": "nagoya-mizuho",
@@ -532,7 +520,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 348
+      "score": 347
     },
     {
       "area_key": "nagoya-moriyama",
@@ -544,7 +532,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 348
+      "score": 347
     },
     {
       "area_key": "nagoya-showa",
@@ -556,7 +544,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 348
+      "score": 347
     },
     {
       "area_key": "kyoto-shimogyo",
@@ -568,7 +556,7 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 348
+      "score": 347
     },
     {
       "area_key": "sakai-kita",
@@ -580,7 +568,19 @@
       "current": 0,
       "target": 3,
       "missing": 3,
-      "score": 348
+      "score": 347
+    },
+    {
+      "area_key": "ginan",
+      "area_label": "岐南町",
+      "prefecture_key": "gifu",
+      "prefecture": "岐阜県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 2,
+      "target": 5,
+      "missing": 3,
+      "score": 345
     },
     {
       "area_key": "tamaki",
@@ -592,7 +592,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 346
+      "score": 345
     },
     {
       "area_key": "tokyo-hachioji",
@@ -604,7 +604,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 346
+      "score": 345
     },
     {
       "area_key": "tokyo-shibuya",
@@ -616,19 +616,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 346
-    },
-    {
-      "area_key": "tokyo-shinjuku",
-      "area_label": "新宿区",
-      "prefecture_key": "tokyo",
-      "prefecture": "東京都",
-      "genre_key": "dental-clinic",
-      "genre_label": "歯医者",
-      "current": 2,
-      "target": 5,
-      "missing": 3,
-      "score": 346
+      "score": 345
     },
     {
       "area_key": "nagoya-atsuta",
@@ -640,7 +628,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 336
+      "score": 335
     },
     {
       "area_key": "nagoya-chikusa",
@@ -652,7 +640,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 336
+      "score": 335
     },
     {
       "area_key": "nagoya-kita",
@@ -664,7 +652,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 336
+      "score": 335
     },
     {
       "area_key": "nagoya-meito",
@@ -676,7 +664,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 336
+      "score": 335
     },
     {
       "area_key": "nagoya-minami",
@@ -688,7 +676,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 336
+      "score": 335
     },
     {
       "area_key": "nagoya-minato",
@@ -700,7 +688,7 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 336
+      "score": 335
     },
     {
       "area_key": "nagoya-mizuho",
@@ -712,11 +700,11 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 336
+      "score": 335
     },
     {
-      "area_key": "nagoya-moriyama",
-      "area_label": "名古屋市守山区",
+      "area_key": "nagoya-nakagawa",
+      "area_label": "名古屋市中川区",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
       "genre_key": "dental-clinic",
@@ -724,14 +712,26 @@
       "current": 2,
       "target": 5,
       "missing": 3,
-      "score": 336
+      "score": 335
+    },
+    {
+      "area_key": "nagoya-nakamura",
+      "area_label": "名古屋市中村区",
+      "prefecture_key": "aichi",
+      "prefecture": "愛知県",
+      "genre_key": "dental-clinic",
+      "genre_label": "歯医者",
+      "current": 2,
+      "target": 5,
+      "missing": 3,
+      "score": 335
     }
   ],
   "summary_by_genre": [
     {
       "key": "dental-clinic",
       "gaps": 120,
-      "missing": 310
+      "missing": 306
     },
     {
       "key": "parking-lot",
@@ -873,7 +873,7 @@
     {
       "key": "aichi",
       "gaps": 422,
-      "missing": 620
+      "missing": 617
     },
     {
       "key": "shizuoka",
@@ -883,7 +883,7 @@
     {
       "key": "gifu",
       "gaps": 61,
-      "missing": 89
+      "missing": 90
     },
     {
       "key": "osaka",
@@ -903,7 +903,7 @@
     {
       "key": "tokyo",
       "gaps": 48,
-      "missing": 63
+      "missing": 62
     },
     {
       "key": "kanagawa",
@@ -1103,7 +1103,7 @@
     {
       "key": "wakayama",
       "gaps": 4,
-      "missing": 7
+      "missing": 6
     }
   ]
 }

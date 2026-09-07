@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "place-chijcq0gj1yoa2arj9qou4hmg2o",
+    "name": "秋田歯科",
+    "area_key": "ginan",
+    "genre_key": "dental-clinic",
+    "status": "NOT_FOUND",
+    "checked_at": "2026-08-30T18:09:18.671Z"
+  },
+  {
+    "id": "place-chijcq0gj1yoa2arj9qou4hmg2o",
+    "name": "秋田歯科",
+    "area_key": "ginan",
+    "genre_key": "dental-clinic",
+    "status": "NOT_FOUND",
+    "checked_at": "2026-09-06T18:09:05.063Z"
+  }
+]
