@@ -98,9 +98,10 @@ main {
   margin: 0 auto;
 }
 
+/* **右カラムは置かない。**（.two-column と同じ理由） */
 .search-shell {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(320px, 480px);
+  grid-template-columns: minmax(0, 1fr);
   gap: 28px;
   align-items: end;
   padding: 56px 0 24px;
@@ -683,9 +684,11 @@ button:hover,
   padding-left: 1.2rem;
 }
 
+/* **右サイドバーをやめる。** 検索結果が832pxまで削られて見切れていた。
+   「探し方」などの補助ブロックは一覧の下へ回す。 */
 .layout-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 320px;
+  grid-template-columns: minmax(0, 1fr);
   gap: 28px;
   align-items: start;
 }
@@ -831,11 +834,17 @@ button:hover,
   display: none;
 }
 
-/* 本文の下に回したので、横に並べて縦の長さを抑える。 */
+/* 横に並べて縦の長さを抑える。
+   **トップの一覧は縦に非常に長い**ので、案内リンクを下に置くと届かない。
+   order で本体より前に出して、検索結果の手前に見せる。 */
 .side-column {
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.layout-grid > .side-column {
+  order: -1;
 }
 
 .side-block {
