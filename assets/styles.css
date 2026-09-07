@@ -1462,3 +1462,23 @@ button:hover,
 .site-footer .ad-disclosure {
   margin-top: 8px;
 }
+
+/* 広告枠。**広告を出すときだけ「広告」と書く**ので、
+   タグが空のときは .pr-note ごと出力されない。 */
+.pr-note {
+  margin: 18px 0 6px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  color: var(--muted, #6b7280);
+}
+
+.ad-slot {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 8px;
+}
+
+.ad-slot img {
+  max-width: 100%;
+  height: auto;
+}
