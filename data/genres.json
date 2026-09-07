@@ -213,5 +213,10 @@
     "key": "bookstore",
     "label": "本屋",
     "description": "駅からの近さ、駐車場、営業時間、雑誌・専門書の品揃えを確認できます。"
+  },
+  {
+    "key": "used-bookstore",
+    "label": "古本屋",
+    "description": "買取の受付、営業時間、駐車場、扱っているジャンルを確認できます。"
   }
 ]

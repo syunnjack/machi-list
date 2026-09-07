@@ -306,6 +306,9 @@ function bookingUrl(area, genre) {
   if (genre.key === "vending-machine-installation") return vendingInstallSearchUrl(area);
   if (genre.key === "office-tenant") return officeTenantSearchUrl(area);
   if (genre.key === "opening-area-research") return openingResearchUrl(area);
+  // **本屋にホットペッパーは合わない。** 既定の飲食・美容向けリンクから外す。
+  if (genre.key === "bookstore") return searchUrl(`${area.label} 本屋 在庫 取り寄せ`);
+  if (genre.key === "used-bookstore") return searchUrl(`${area.label} 古本 買取 持ち込み`);
   return vcUrl(`https://www.hotpepper.jp/?keyword=${encodeURIComponent(`${area.label} ${genre.label}`)}`);
 }
 
@@ -389,7 +392,8 @@ function shoppingUrl(genre) {
     supermarket: "エコバッグ 保冷バッグ",
     "dry-cleaning": "洗濯用品 衣類ケース",
     "pet-shop": "ペットフード おもちゃ",
-    bookstore: "ブックカバー しおり"
+    bookstore: "ブックカバー しおり",
+    "used-bookstore": "本 収納 ブックスタンド"
   };
   return `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(keywords[genre.key] || `${genre.label} 関連商品`)}/`;
 }
@@ -473,6 +477,8 @@ function primaryActionLabel(shop) {
   if (shop.genre_key === "vending-machine-installation") return "設置相談";
   if (shop.genre_key === "office-tenant") return "物件を探す";
   if (shop.genre_key === "opening-area-research") return "周辺を調べる";
+  if (shop.genre_key === "bookstore") return "在庫・取り寄せ";
+  if (shop.genre_key === "used-bookstore") return "買取を確認";
   return "予約";
 }
 
