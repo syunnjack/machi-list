@@ -92,7 +92,10 @@ async function loadMunicipalities() {
     if (parts.length < 4) continue;
     // 政令市の区は「名古屋市　千種区」のように全角空白で区切られている。
     const [city, ward = ""] = parts[3].split(/[\s　]+/);
-    table.set(code, { prefecture: parts[1], city, ward });
+    // **キーの桁を揃える。** 表は `1101`（4桁）だが、逆ジオコーダは
+    // `01101`（先頭ゼロ付き5桁）を返す。そのままだと北海道から栃木までの
+    // 9道県が1件も一致しない（札幌市中央区が候補137件で0件になっていた）。
+    table.set(code.padStart(5, "0"), { prefecture: parts[1], city, ward });
   }
   return table;
 }
@@ -132,7 +135,13 @@ async function reverseGeocode(lat, lon) {
     const body = JSON.parse(await getText(`${GSI_REVERSE}?lat=${lat}&lon=${lon}`, 30000));
     const found = body && body.results;
     if (!found) return null;
-    return { muniCd: String(found.muniCd || ""), town: String(found.lv01Nm || "") };
+    // **記号だけの町丁目が返ることがある**（「−」など）。住所に足すと
+    // 「福島県福島市−」になるので、文字が無いものは空として扱う。
+    const town = String(found.lv01Nm || "");
+    return {
+      muniCd: String(found.muniCd || ""),
+      town: /[぀-ヿ一-鿿0-9０-９]/.test(town) ? town : "",
+    };
   } catch {
     return null;
   }
@@ -232,7 +241,7 @@ out center tags;`);
         await sleep(GSI_PAUSE);
       }
       const place = cache.geo[key];
-      const muni = place ? municipalities.get(place.muniCd) : null;
+      const muni = place ? municipalities.get(String(place.muniCd).padStart(5, "0")) : null;
       if (!sameArea(muni, area)) {
         outside += 1;
         continue;
