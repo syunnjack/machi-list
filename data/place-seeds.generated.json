@@ -108,15 +108,6 @@
     "target_count": 5
   },
   {
-    "query": "市川市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "ichikawa",
-    "prefecture": "千葉県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "松山市 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "matsuyama",
@@ -531,9 +522,18 @@
     "target_count": 5
   },
   {
-    "query": "名古屋市中村区 歯医者",
+    "query": "名古屋市西区 歯医者",
     "genre_key": "dental-clinic",
-    "area_key": "nagoya-nakamura",
+    "area_key": "nagoya-nishi",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "名古屋市昭和区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "nagoya-showa",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 2,
