@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T18:09:55.245Z",
+  "generated_at": "2026-09-20T18:10:12.351Z",
   "seeds_file": "data/place-seeds.generated.json",
   "output_file": "data/google-places-candidates.json",
   "seed_count": 60,
@@ -8,7 +8,7 @@
   "max_results": 2,
   "append": false,
   "previous_candidates": 0,
-  "added_candidates": 107,
-  "total_candidates": 107,
+  "added_candidates": 106,
+  "total_candidates": 106,
   "errors": []
 }

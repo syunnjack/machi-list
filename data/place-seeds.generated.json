@@ -531,9 +531,9 @@
     "target_count": 5
   },
   {
-    "query": "名古屋市昭和区 歯医者",
+    "query": "名古屋市天白区 歯医者",
     "genre_key": "dental-clinic",
-    "area_key": "nagoya-showa",
+    "area_key": "nagoya-tempaku",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 2,

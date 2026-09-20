@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-13T18:09:37.963Z",
-  "shop_count": 9641,
+  "generated_at": "2026-09-20T18:09:54.623Z",
+  "shop_count": 9642,
   "area_count": 120,
   "genre_count": 44,
   "min_target": 2,
@@ -715,8 +715,8 @@
       "score": 335
     },
     {
-      "area_key": "nagoya-showa",
-      "area_label": "名古屋市昭和区",
+      "area_key": "nagoya-tempaku",
+      "area_label": "名古屋市天白区",
       "prefecture_key": "aichi",
       "prefecture": "愛知県",
       "genre_key": "dental-clinic",
@@ -731,7 +731,7 @@
     {
       "key": "dental-clinic",
       "gaps": 120,
-      "missing": 304
+      "missing": 303
     },
     {
       "key": "parking-lot",
@@ -873,7 +873,7 @@
     {
       "key": "aichi",
       "gaps": 422,
-      "missing": 616
+      "missing": 615
     },
     {
       "key": "shizuoka",
