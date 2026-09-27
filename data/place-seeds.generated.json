@@ -63,15 +63,6 @@
     "target_count": 5
   },
   {
-    "query": "日進市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "nisshin",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "大府市 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "obu",
@@ -216,27 +207,9 @@
     "target_count": 5
   },
   {
-    "query": "藤枝市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "fujieda",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "富士宮市 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "fujinomiya",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "沼津市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "numazu",
     "prefecture": "静岡県",
     "source": "coverage-gap",
     "current_count": 2,
@@ -486,15 +459,6 @@
     "target_count": 5
   },
   {
-    "query": "名古屋市南区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "nagoya-minami",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "名古屋市港区 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "nagoya-minato",
@@ -531,10 +495,46 @@
     "target_count": 5
   },
   {
-    "query": "名古屋市天白区 歯医者",
+    "query": "千葉市中央区 歯医者",
     "genre_key": "dental-clinic",
-    "area_key": "nagoya-tempaku",
-    "prefecture": "愛知県",
+    "area_key": "chiba-chuo",
+    "prefecture": "千葉県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "福岡市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "fukuoka-chuo",
+    "prefecture": "福岡県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "福岡市博多区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "fukuoka-hakata",
+    "prefecture": "福岡県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "北九州市小倉北区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kitakyushu-kokurakita",
+    "prefecture": "福岡県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "広島市中区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "hiroshima-naka",
+    "prefecture": "広島県",
     "source": "coverage-gap",
     "current_count": 2,
     "target_count": 5
