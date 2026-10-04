@@ -135,15 +135,6 @@
     "target_count": 5
   },
   {
-    "query": "盛岡市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "morioka",
-    "prefecture": "岩手県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "鹿児島市 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "kagoshima",
@@ -333,24 +324,6 @@
     "target_count": 3
   },
   {
-    "query": "名古屋市港区 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "nagoya-minato",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "名古屋市瑞穂区 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "nagoya-mizuho",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
     "query": "名古屋市守山区 ゲームセンター",
     "genre_key": "game-center",
     "area_key": "nagoya-moriyama",
@@ -432,15 +405,6 @@
     "target_count": 5
   },
   {
-    "query": "名古屋市千種区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "nagoya-chikusa",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "名古屋市北区 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "nagoya-kita",
@@ -495,46 +459,82 @@
     "target_count": 5
   },
   {
-    "query": "千葉市中央区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "chiba-chuo",
-    "prefecture": "千葉県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "福岡市中央区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "fukuoka-chuo",
-    "prefecture": "福岡県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "福岡市博多区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "fukuoka-hakata",
-    "prefecture": "福岡県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "北九州市小倉北区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "kitakyushu-kokurakita",
-    "prefecture": "福岡県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "広島市中区 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "hiroshima-naka",
     "prefecture": "広島県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "札幌市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "sapporo-chuo",
+    "prefecture": "北海道",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "神戸市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kobe-chuo",
+    "prefecture": "兵庫県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "川崎市川崎区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kawasaki-kawasaki",
+    "prefecture": "神奈川県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "横浜市中区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "yokohama-naka",
+    "prefecture": "神奈川県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "熊本市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kumamoto-chuo",
+    "prefecture": "熊本県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "京都市南区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kyoto-minami",
+    "prefecture": "京都府",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "京都市中京区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kyoto-nakagyo",
+    "prefecture": "京都府",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "京都市下京区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "kyoto-shimogyo",
+    "prefecture": "京都府",
     "source": "coverage-gap",
     "current_count": 2,
     "target_count": 5
