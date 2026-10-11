@@ -90,28 +90,10 @@
     "target_count": 5
   },
   {
-    "query": "秋田市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "akita",
-    "prefecture": "秋田県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "松山市 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "matsuyama",
     "prefecture": "愛媛県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "高山市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "takayama",
-    "prefecture": "岐阜県",
     "source": "coverage-gap",
     "current_count": 2,
     "target_count": 5
@@ -180,33 +162,6 @@
     "target_count": 5
   },
   {
-    "query": "松江市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "matsue",
-    "prefecture": "島根県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "富士市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "fuji",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "富士宮市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "fujinomiya",
-    "prefecture": "静岡県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "富山市 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "toyama",
@@ -234,27 +189,9 @@
     "target_count": 5
   },
   {
-    "query": "甲府市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "kofu",
-    "prefecture": "山梨県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "名古屋市瑞穂区 カプセルトイ",
     "genre_key": "capsule-toy",
     "area_key": "nagoya-mizuho",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "名古屋市中川区 カプセルトイ",
-    "genre_key": "capsule-toy",
-    "area_key": "nagoya-nakagawa",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 0,
@@ -297,24 +234,6 @@
     "target_count": 3
   },
   {
-    "query": "名古屋市千種区 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "nagoya-chikusa",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "名古屋市東区 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "nagoya-higashi",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
     "query": "名古屋市北区 ゲームセンター",
     "genre_key": "game-center",
     "area_key": "nagoya-kita",
@@ -351,46 +270,10 @@
     "target_count": 3
   },
   {
-    "query": "堺市北区 ゲームセンター",
-    "genre_key": "game-center",
-    "area_key": "sakai-kita",
-    "prefecture": "大阪府",
-    "source": "coverage-gap",
-    "current_count": 0,
-    "target_count": 3
-  },
-  {
-    "query": "岐南町 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "ginan",
-    "prefecture": "岐阜県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "玉城町 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "tamaki",
     "prefecture": "三重県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "八王子市 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "tokyo-hachioji",
-    "prefecture": "東京都",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "渋谷区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "tokyo-shibuya",
-    "prefecture": "東京都",
     "source": "coverage-gap",
     "current_count": 2,
     "target_count": 5
@@ -408,24 +291,6 @@
     "query": "名古屋市北区 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "nagoya-kita",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "名古屋市名東区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "nagoya-meito",
-    "prefecture": "愛知県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "名古屋市港区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "nagoya-minato",
     "prefecture": "愛知県",
     "source": "coverage-gap",
     "current_count": 2,
@@ -459,15 +324,6 @@
     "target_count": 5
   },
   {
-    "query": "広島市中区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "hiroshima-naka",
-    "prefecture": "広島県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "札幌市中央区 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "sapporo-chuo",
@@ -486,33 +342,6 @@
     "target_count": 5
   },
   {
-    "query": "川崎市川崎区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "kawasaki-kawasaki",
-    "prefecture": "神奈川県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "横浜市中区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "yokohama-naka",
-    "prefecture": "神奈川県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
-    "query": "熊本市中央区 歯医者",
-    "genre_key": "dental-clinic",
-    "area_key": "kumamoto-chuo",
-    "prefecture": "熊本県",
-    "source": "coverage-gap",
-    "current_count": 2,
-    "target_count": 5
-  },
-  {
     "query": "京都市南区 歯医者",
     "genre_key": "dental-clinic",
     "area_key": "kyoto-minami",
@@ -522,21 +351,192 @@
     "target_count": 5
   },
   {
-    "query": "京都市中京区 歯医者",
+    "query": "仙台市青葉区 歯医者",
     "genre_key": "dental-clinic",
-    "area_key": "kyoto-nakagyo",
-    "prefecture": "京都府",
+    "area_key": "sendai-aoba",
+    "prefecture": "宮城県",
     "source": "coverage-gap",
     "current_count": 2,
     "target_count": 5
   },
   {
-    "query": "京都市下京区 歯医者",
+    "query": "新潟市中央区 歯医者",
     "genre_key": "dental-clinic",
-    "area_key": "kyoto-shimogyo",
-    "prefecture": "京都府",
+    "area_key": "niigata-chuo",
+    "prefecture": "新潟県",
     "source": "coverage-gap",
     "current_count": 2,
     "target_count": 5
+  },
+  {
+    "query": "岡山市北区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "okayama-kita",
+    "prefecture": "岡山県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "岡山市南区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "okayama-minami",
+    "prefecture": "岡山県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "大阪市阿倍野区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "osaka-abeno",
+    "prefecture": "大阪府",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "大阪市浪速区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "osaka-naniwa",
+    "prefecture": "大阪府",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "堺市北区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "sakai-kita",
+    "prefecture": "大阪府",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "さいたま市大宮区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "saitama-omiya",
+    "prefecture": "埼玉県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "さいたま市浦和区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "saitama-urawa",
+    "prefecture": "埼玉県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "浜松市中央区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "hamamatsu-chuo",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "静岡市葵区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "shizuoka-aoi",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "静岡市清水区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "shizuoka-shimizu",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "静岡市駿河区 歯医者",
+    "genre_key": "dental-clinic",
+    "area_key": "shizuoka-suruga",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 2,
+    "target_count": 5
+  },
+  {
+    "query": "半田市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "handa",
+    "prefecture": "愛知県",
+    "source": "coverage-gap",
+    "current_count": 1,
+    "target_count": 3
+  },
+  {
+    "query": "三郷市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "misato",
+    "prefecture": "埼玉県",
+    "source": "coverage-gap",
+    "current_count": 1,
+    "target_count": 3
+  },
+  {
+    "query": "藤枝市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "fujieda",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 1,
+    "target_count": 3
+  },
+  {
+    "query": "富士宮市 ネットカフェ",
+    "genre_key": "netcafe",
+    "area_key": "fujinomiya",
+    "prefecture": "静岡県",
+    "source": "coverage-gap",
+    "current_count": 1,
+    "target_count": 3
+  },
+  {
+    "query": "福島市 ビデオボックス",
+    "genre_key": "video-box",
+    "area_key": "fukushima",
+    "prefecture": "福島県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 2
+  },
+  {
+    "query": "各務原市 ビデオボックス",
+    "genre_key": "video-box",
+    "area_key": "kakamigahara",
+    "prefecture": "岐阜県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 2
+  },
+  {
+    "query": "津市 ビデオボックス",
+    "genre_key": "video-box",
+    "area_key": "tsu",
+    "prefecture": "三重県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 2
+  },
+  {
+    "query": "奈良市 ビデオボックス",
+    "genre_key": "video-box",
+    "area_key": "nara",
+    "prefecture": "奈良県",
+    "source": "coverage-gap",
+    "current_count": 0,
+    "target_count": 2
   }
 ]

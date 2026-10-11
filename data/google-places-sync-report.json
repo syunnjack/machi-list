@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T19:01:01.911Z",
+  "generated_at": "2026-10-11T21:24:56.520Z",
   "seeds_file": "data/place-seeds.generated.json",
   "output_file": "data/google-places-candidates.json",
   "seed_count": 60,
@@ -8,7 +8,368 @@
   "max_results": 2,
   "append": false,
   "previous_candidates": 0,
-  "added_candidates": 109,
-  "total_candidates": 109,
-  "errors": []
+  "added_candidates": 0,
+  "total_candidates": 0,
+  "errors": [
+    {
+      "query": "焼津市 カプセルトイ",
+      "area_key": "yaizu",
+      "genre_key": "capsule-toy",
+      "message": "焼津市 カプセルトイ: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "御殿場市 UFOキャッチャー",
+      "area_key": "gotemba",
+      "genre_key": "crane-game",
+      "message": "御殿場市 UFOキャッチャー: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "尾張旭市 ゲームセンター",
+      "area_key": "owariasahi",
+      "genre_key": "game-center",
+      "message": "尾張旭市 ゲームセンター: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "藤枝市 ゲームセンター",
+      "area_key": "fujieda",
+      "genre_key": "game-center",
+      "message": "藤枝市 ゲームセンター: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "焼津市 ゲームセンター",
+      "area_key": "yaizu",
+      "genre_key": "game-center",
+      "message": "焼津市 ゲームセンター: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "岐南町 ゲームセンター",
+      "area_key": "ginan",
+      "genre_key": "game-center",
+      "message": "岐南町 ゲームセンター: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "小牧市 歯医者",
+      "area_key": "komaki",
+      "genre_key": "dental-clinic",
+      "message": "小牧市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "大府市 歯医者",
+      "area_key": "obu",
+      "genre_key": "dental-clinic",
+      "message": "大府市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "岡崎市 歯医者",
+      "area_key": "okazaki",
+      "genre_key": "dental-clinic",
+      "message": "岡崎市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "豊橋市 歯医者",
+      "area_key": "toyohashi",
+      "genre_key": "dental-clinic",
+      "message": "豊橋市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "松山市 歯医者",
+      "area_key": "matsuyama",
+      "genre_key": "dental-clinic",
+      "message": "松山市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "函館市 歯医者",
+      "area_key": "hakodate",
+      "genre_key": "dental-clinic",
+      "message": "函館市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "姫路市 歯医者",
+      "area_key": "himeji",
+      "genre_key": "dental-clinic",
+      "message": "姫路市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "鹿児島市 歯医者",
+      "area_key": "kagoshima",
+      "genre_key": "dental-clinic",
+      "message": "鹿児島市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "四日市市 歯医者",
+      "area_key": "yokkaichi",
+      "genre_key": "dental-clinic",
+      "message": "四日市市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "奈良市 歯医者",
+      "area_key": "nara",
+      "genre_key": "dental-clinic",
+      "message": "奈良市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "大分市 歯医者",
+      "area_key": "oita",
+      "genre_key": "dental-clinic",
+      "message": "大分市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "三郷市 歯医者",
+      "area_key": "misato",
+      "genre_key": "dental-clinic",
+      "message": "三郷市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "富山市 歯医者",
+      "area_key": "toyama",
+      "genre_key": "dental-clinic",
+      "message": "富山市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "山形市 歯医者",
+      "area_key": "yamagata",
+      "genre_key": "dental-clinic",
+      "message": "山形市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "山口市 歯医者",
+      "area_key": "yamaguchi",
+      "genre_key": "dental-clinic",
+      "message": "山口市 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "名古屋市瑞穂区 カプセルトイ",
+      "area_key": "nagoya-mizuho",
+      "genre_key": "capsule-toy",
+      "message": "名古屋市瑞穂区 カプセルトイ: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "名古屋市西区 カプセルトイ",
+      "area_key": "nagoya-nishi",
+      "genre_key": "capsule-toy",
+      "message": "名古屋市西区 カプセルトイ: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "清水町 カプセルトイ",
+      "area_key": "sunto-shimizu",
+      "genre_key": "capsule-toy",
+      "message": "清水町 カプセルトイ: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "名古屋市瑞穂区 UFOキャッチャー",
+      "area_key": "nagoya-mizuho",
+      "genre_key": "crane-game",
+      "message": "名古屋市瑞穂区 UFOキャッチャー: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "名古屋市天白区 UFOキャッチャー",
+      "area_key": "nagoya-tempaku",
+      "genre_key": "crane-game",
+      "message": "名古屋市天白区 UFOキャッチャー: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "名古屋市北区 ゲームセンター",
+      "area_key": "nagoya-kita",
+      "genre_key": "game-center",
+      "message": "名古屋市北区 ゲームセンター: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "名古屋市守山区 ゲームセンター",
+      "area_key": "nagoya-moriyama",
+      "genre_key": "game-center",
+      "message": "名古屋市守山区 ゲームセンター: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "名古屋市昭和区 ゲームセンター",
+      "area_key": "nagoya-showa",
+      "genre_key": "game-center",
+      "message": "名古屋市昭和区 ゲームセンター: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "京都市下京区 ゲームセンター",
+      "area_key": "kyoto-shimogyo",
+      "genre_key": "game-center",
+      "message": "京都市下京区 ゲームセンター: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "玉城町 歯医者",
+      "area_key": "tamaki",
+      "genre_key": "dental-clinic",
+      "message": "玉城町 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "名古屋市熱田区 歯医者",
+      "area_key": "nagoya-atsuta",
+      "genre_key": "dental-clinic",
+      "message": "名古屋市熱田区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "名古屋市北区 歯医者",
+      "area_key": "nagoya-kita",
+      "genre_key": "dental-clinic",
+      "message": "名古屋市北区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "名古屋市瑞穂区 歯医者",
+      "area_key": "nagoya-mizuho",
+      "genre_key": "dental-clinic",
+      "message": "名古屋市瑞穂区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "名古屋市中川区 歯医者",
+      "area_key": "nagoya-nakagawa",
+      "genre_key": "dental-clinic",
+      "message": "名古屋市中川区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "名古屋市西区 歯医者",
+      "area_key": "nagoya-nishi",
+      "genre_key": "dental-clinic",
+      "message": "名古屋市西区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "札幌市中央区 歯医者",
+      "area_key": "sapporo-chuo",
+      "genre_key": "dental-clinic",
+      "message": "札幌市中央区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "神戸市中央区 歯医者",
+      "area_key": "kobe-chuo",
+      "genre_key": "dental-clinic",
+      "message": "神戸市中央区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "京都市南区 歯医者",
+      "area_key": "kyoto-minami",
+      "genre_key": "dental-clinic",
+      "message": "京都市南区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "仙台市青葉区 歯医者",
+      "area_key": "sendai-aoba",
+      "genre_key": "dental-clinic",
+      "message": "仙台市青葉区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "新潟市中央区 歯医者",
+      "area_key": "niigata-chuo",
+      "genre_key": "dental-clinic",
+      "message": "新潟市中央区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "岡山市北区 歯医者",
+      "area_key": "okayama-kita",
+      "genre_key": "dental-clinic",
+      "message": "岡山市北区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "岡山市南区 歯医者",
+      "area_key": "okayama-minami",
+      "genre_key": "dental-clinic",
+      "message": "岡山市南区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "大阪市阿倍野区 歯医者",
+      "area_key": "osaka-abeno",
+      "genre_key": "dental-clinic",
+      "message": "大阪市阿倍野区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "大阪市浪速区 歯医者",
+      "area_key": "osaka-naniwa",
+      "genre_key": "dental-clinic",
+      "message": "大阪市浪速区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "堺市北区 歯医者",
+      "area_key": "sakai-kita",
+      "genre_key": "dental-clinic",
+      "message": "堺市北区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "さいたま市大宮区 歯医者",
+      "area_key": "saitama-omiya",
+      "genre_key": "dental-clinic",
+      "message": "さいたま市大宮区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "さいたま市浦和区 歯医者",
+      "area_key": "saitama-urawa",
+      "genre_key": "dental-clinic",
+      "message": "さいたま市浦和区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "浜松市中央区 歯医者",
+      "area_key": "hamamatsu-chuo",
+      "genre_key": "dental-clinic",
+      "message": "浜松市中央区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "静岡市葵区 歯医者",
+      "area_key": "shizuoka-aoi",
+      "genre_key": "dental-clinic",
+      "message": "静岡市葵区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "静岡市清水区 歯医者",
+      "area_key": "shizuoka-shimizu",
+      "genre_key": "dental-clinic",
+      "message": "静岡市清水区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "静岡市駿河区 歯医者",
+      "area_key": "shizuoka-suruga",
+      "genre_key": "dental-clinic",
+      "message": "静岡市駿河区 歯医者: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "半田市 ネットカフェ",
+      "area_key": "handa",
+      "genre_key": "netcafe",
+      "message": "半田市 ネットカフェ: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "三郷市 ネットカフェ",
+      "area_key": "misato",
+      "genre_key": "netcafe",
+      "message": "三郷市 ネットカフェ: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "藤枝市 ネットカフェ",
+      "area_key": "fujieda",
+      "genre_key": "netcafe",
+      "message": "藤枝市 ネットカフェ: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "富士宮市 ネットカフェ",
+      "area_key": "fujinomiya",
+      "genre_key": "netcafe",
+      "message": "富士宮市 ネットカフェ: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "福島市 ビデオボックス",
+      "area_key": "fukushima",
+      "genre_key": "video-box",
+      "message": "福島市 ビデオボックス: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "各務原市 ビデオボックス",
+      "area_key": "kakamigahara",
+      "genre_key": "video-box",
+      "message": "各務原市 ビデオボックス: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "津市 ビデオボックス",
+      "area_key": "tsu",
+      "genre_key": "video-box",
+      "message": "津市 ビデオボックス: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    },
+    {
+      "query": "奈良市 ビデオボックス",
+      "area_key": "nara",
+      "genre_key": "video-box",
+      "message": "奈良市 ビデオボックス: 403 {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    }
+  ]
 }
